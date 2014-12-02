@@ -18,16 +18,16 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 You can contact and participate in the Apache Taverna community through the mailing lists.
 
-The mailing lists are public. We suggest that all Taverna users join the users@taverna list 
+The mailing lists are public. We suggest that all Taverna users join the <em>users@taverna</em> list 
 – this allows us to notify you of any critical issues or upcoming changes and allows you to have 
 a say in the future development of Taverna. Anyone using the Taverna APIs in their own code 
-would be well advised to join both dev@taverna and users@taverna.
+would be well advised to join both <em>dev@taverna</em> and <em>users@taverna</em>.
 
 
 ## users@taverna
 
 
-<kbd>users@taverna.incubator.apache.org</kbd> is intended for everyone who are using Taverna for
+<em>users@taverna.incubator.apache.org</em> is intended for everyone who are using Taverna for
 designing and running workflows. For instance, you may ask about your <strong>workflow design</strong>,
 questions about how to do something in the Workbench, or <strong>raise issues</strong> you experience when using Taverna.
 
@@ -38,7 +38,7 @@ questions about how to do something in the Workbench, or <strong>raise issues</s
 
 ## dev@taverna
 
-<kbd>dev@taverna.incubator.apache.org</kbd> is intended for those actively developing Apache Taverna, 
+<em>dev@taverna.incubator.apache.org</em> is intended for those actively developing Apache Taverna, 
 Apache Taverna plugins or otherwise are using Apache Taverna APIs.  Use this list to discuss aspects as
 design/architecture/integration/code - even if you are not currently an Apache Taverna [committer](about).
 
@@ -51,7 +51,7 @@ design/architecture/integration/code - even if you are not currently an Apache T
 
 ## commits@taverna
 
-<kbd>commits@taverna.incubator.apache.org</kbd> is a read-only list for commit messages on Apache Taverna's [source code](/code/).
+<em>commits@taverna.incubator.apache.org</em> is a read-only list for commit messages on Apache Taverna's [source code](/code/).
 
   - Subscribe by sending an empty email to [commits-subscribe@taverna.incubator.apache.org](mailto:commits-subscribe@taverna.incubator.apache.org)
   - [List information and archive for commits@taverna](http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/) at apache.org
@@ -60,7 +60,7 @@ design/architecture/integration/code - even if you are not currently an Apache T
 
 ## private@taverna
 
-<kbd>private@taverna.incubator.apache.org</kbd> can be used for sensitive information that should not be made public
+<em>private@taverna.incubator.apache.org</em> can be used for sensitive information that should not be made public
 in mailing list archives. Only members of the [Apache Taverna PPMC](/about/) will receive the email. Only use this list
 if the public lists cannot be used, for instance for business-sensitive matters, 
 security concerns or to report personal conflicts.
