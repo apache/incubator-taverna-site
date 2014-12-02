@@ -42,7 +42,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#">Apache Taverna</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -52,19 +52,26 @@
 			  <li><a href="#">Documentation</a></li>
 			  <li><a href="#">Code</a></li>			
               <li><a href="#">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ASF<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-					<li><a class="extLink" href="http://www.apache.org/">Apache Software Foundation</a><i class="small-font-awesome fa fa-external-link"></i></li>
-					<li><a class="extLink" href="http://www.apache.org/foundation/how-it-works.html">How it works</a><i class="small-font-awesome fa fa-external-link"></i></li>
-					<li><a class="extLink" href="http://www.apache.org/foundation/thanks.html">Thanks</a><i class="small-font-awesome fa fa-external-link"></i></li>
-					<li><a class="extLink" href="http://www.apache.org/foundation/sponsorship.html">Become a Sponsor</a><i class="small-font-awesome fa fa-external-link"></i></li>
-					<li><a class="extLink" href="http://incubator.apache.org/projects/flink.html">Incubation Status page</a><i class="small-font-awesome fa fa-external-link"></i></li>
-                </ul>
-              </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>              
+				<li>
+					<form name="search" id="search" action="http://www.google.com/search" method="get">
+					  <input value="taverna.incubator.apache.org" name="sitesearch" type="hidden"/>
+					  <input type="text" name="q" id="query">
+					  <!--<input type="submit" id="submit" value="Search">-->
+					</form>
+				</li>
+			<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ASF<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+					<li><a href="http://www.apache.org/">Apache Software Foundation</a><i class="small-font-awesome fa fa-external-link"></i></li>
+					<li><a href="http://www.apache.org/foundation/how-it-works.html">How it works</a><i class="small-font-awesome fa fa-external-link"></i></li>
+					<li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a><i class="small-font-awesome fa fa-external-link"></i></li>
+					<li><a href="http://www.apache.org/foundation/sponsorship.html">Become a Sponsor</a><i class="small-font-awesome fa fa-external-link"></i></li>
+					<li><a href="http://incubator.apache.org/projects/taverna.html">Incubation Status page</a><i class="small-font-awesome fa fa-external-link"></i></li>
+                </ul>
+              </li>
+
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -80,11 +87,7 @@
       </div>
       <div id="nav" class="grid_8">        
         <p>{{ breadcrumbs|safe }}</p>
-        <form name="search" id="search" action="http://www.google.com/search" method="get">
-          <input value="taverna.incubator.apache.org" name="sitesearch" type="hidden"/>
-          <input type="text" name="q" id="query">
-          <input type="submit" id="submit" value="Search">
-        </form>
+
       </div>
       <div class="clear"></div>
       {% block content %}<div id="content" class="grid_16"><div class="section-content">{{ content|markdown }}</div></div>{% endblock %}
@@ -99,7 +102,7 @@
 	</div>
 
     <div id="copyright" class="container_16">
-      <p>Copyright &#169; 2011 The Apache Software Foundation, Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.<br/>Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</p>
+      <p>Copyright &#169; 2014 The Apache Software Foundation, Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.<br/>Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</p>
     </div>
 	  
 
