@@ -19,14 +19,19 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org/), with read-only mirroring to 
 [Github](https://github.com/apache/).
 
-<div class="alert alert-warning" role="alert">As of 2014-12-02, the Apache Taverna source code has not yet been
-migrated to the Apache git infrastructure.  The current source code is at the [taverna GitHub repositories](https://github.com/taverna/).
-The links below are to the [taverna-incubator GitHub repositories](https://github.com/taverna-incubator) which are being prepared
-for staging to Apache. Note that the structure of these might change significantly before the code has been fully migrated.
+<div class="alert alert-warning" role="alert"><p>As of 2014-12-02, the Apache Taverna source code 
+has not yet been migrated to the Apache git infrastructure.</p>
+<p>The current source code is at the 
+<a href="https://github.com/taverna/">taverna GitHub repositories</a>. 
+
+The links below are to the 
+<a href="https://github.com/taverna-incubator">taverna-incubator GitHub repositories</a> 
+which are being prepared for staging to Apache. The structure of these might change significantly 
+before the code has been fully migrated.
 </div>
 
 
-The source code is organized into multiple repositories:
+The Apache Taverna source code is organized into multiple repositories:
 
   - [incubator-taverna-language](https://github.com/taverna-incubator/taverna-language) - Taverna Language APIs for workflow definitions (SCUFL2)
 and workflow inputs/outputs/run (DataBundle).
