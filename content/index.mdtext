@@ -1,4 +1,4 @@
-Title:     Home Page
+Title:     Apache Taverna (incubating)
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -16,7 +16,18 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-# Welcome
+# Apache Taverna (incubating)
+
+This will be the website for Apache Taverna. 
+
+Contact:
+
+ - [dev@taverna.incubator.apache.org](http://mail-archives.apache.org/mod_mbox/taverna-dev/)
+
+
+To <a href="javascript:void(location.href='https://cms.apache.org/redirect?uri='+escape(location.href))">editthis page</a>, see 
+[https://cms.apache.org/taverna/](https://cms.apache.org/taverna/). (Also available: [anonymous edit suggestions](https://anonymous@cms.apache.org/taverna/)).
+
 
 Welcome to the Apache CMS.  Please see the following resources for further help:
 
