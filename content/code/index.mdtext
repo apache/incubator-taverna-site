@@ -28,6 +28,7 @@ The links below are to the temporary
 <a href="https://github.com/taverna-incubator" class="alert-link">taverna-incubator GitHub repositories</a> 
 which are being prepared for staging to Apache. The structure of these might change significantly 
 before the code has been fully migrated.
+
 </div>
 
 
@@ -42,3 +43,5 @@ and workflow inputs/outputs/run (DataBundle).
   - [incubator-taverna-server](https://github.com/taverna-incubator/taverna-server) - A REST and WSDL interface for running Taverna workflows
   - [incubator-taverna-maven-parent](https://github.com/taverna-incubator/taverna-maven-parent) - Common Maven parent for the above
 
+For any questions about the Taverna source code, please subscribe to and contact the 
+[dev@taverna](http://mail-archives.apache.org/mod_mbox/taverna-dev/) mailing list.
