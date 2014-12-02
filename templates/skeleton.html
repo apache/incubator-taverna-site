@@ -25,7 +25,6 @@
   </head>
 
   <body>
-<div class="container">
 	
 	
 	      <!-- Static navbar -->
@@ -82,20 +81,22 @@
       </nav>
 	
 	
+	  
 	
-    <div id="page">
-      <div id="header">                
-        <h1>{% block tagline %}{{ headers.title }}{% endblock %}</h1>
-      </div>
-      <div id="nav" class="grid_8">        
+    <div id="page" class="container">
+	   <h1>{% block tagline %}{{ headers.title }}{% endblock %}</h1>
+      <div id="nav">        
+		  <!-- Is this needed? -->
         <p>{{ breadcrumbs|safe }}</p>
-
       </div>
-      <div class="clear"></div>
-      {% block content %}<div id="content" class="grid_16"><div class="section-content">{{ content|markdown }}</div></div>{% endblock %}
-      <div class="clear"></div>
+      
+      {% block content %}<div id="content">{{ content|markdown }}</div>{% endblock %}
+      
     </div>
+
+
 	
+
 	<footer class="footer">
       <div class="container">
         <p class="text-muted">
@@ -111,14 +112,8 @@
 			  <br/>Apache and the Apache feather logo are trademarks of The Apache Software Foundation.
 		  </p>
       </div>
-    </footer>
-	
-    </div>
+	</footer>
 	  
-
-</div>
-
-		
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	  
