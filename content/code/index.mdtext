@@ -21,11 +21,11 @@ Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org
 
 <div class="alert alert-warning" role="alert"><p><strong>Warning:</strong> As of 2014-12-02, the Apache Taverna source code 
 has not yet been migrated to the Apache git infrastructure.</p>
-<p>The current source code is at the 
-<a href="https://github.com/taverna/">taverna GitHub repositories</a>. 
-
-The links below are to the 
-<a href="https://github.com/taverna-incubator">taverna-incubator GitHub repositories</a> 
+<p>The current source code is still maintained at the 
+<a href="https://github.com/taverna/" class="alert-link">taverna GitHub repositories</a>. 
+</p></p>
+The links below are to the temporary 
+<a href="https://github.com/taverna-incubator" class="alert-link">taverna-incubator GitHub repositories</a> 
 which are being prepared for staging to Apache. The structure of these might change significantly 
 before the code has been fully migrated.
 </div>
