@@ -16,9 +16,23 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-This will be the website for Apache Taverna. 
+<div class="alert alert-info" role="alert"><p><strong>Warning:</strong> Taverna is currently transitioning
+to the Apache Incubator. This website is for the Apache Taverna (incubating) project and is under development.
+</p>
+<p>
+You might want to visit the original <a href="http://www.taverna.org.uk/">taverna.org.uk</a> website which is not affiliated with Apache.
+</div>
 
-Contact:
 
- - [dev@taverna.incubator.apache.org](http://mail-archives.apache.org/mod_mbox/taverna-dev/)
 
+
+## Disclaimer
+
+Apache Taverna is an effort undergoing incubation at [The Apache Software Foundation
+(ASF)](http://apache.org/) sponsored by the [Apache Incubator PMC](http://incubator.apache.org/).
+Incubation is required of all newly accepted projects until a further review
+indicates that the infrastructure, communications, and decision making process
+have stabilized in a manner consistent with other successful ASF projects.
+While incubation status is not necessarily a reflection of the completeness or
+stability of the code, it does indicate that the project has yet to be fully
+endorsed by the ASF.
