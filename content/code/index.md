@@ -19,8 +19,8 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org/), with read-only mirroring to 
 [Github](https://github.com/apache/).
 
-<div class="alert alert-warning" role="alert"><p><strong>Warning:</strong> As of 2014-12-02, the Apache Taverna source code 
-has not yet been migrated to the Apache git infrastructure.</p>
+<div class="alert alert-warning" role="alert"><p><strong>Warning:</strong> As of 2014-12-02, the Taverna source code 
+has not yet been migrated to the Apache Incubator infrastructure.</p>
 <p>The current source code is still maintained at the 
 <a href="https://github.com/taverna/" class="alert-link">taverna GitHub repositories</a>. 
 </p></p>
