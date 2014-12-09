@@ -4,7 +4,7 @@ package path;
 
 our @patterns = (
 	[qr!\.md(?:text)?$!, single_narrative => { template => "single_narrative.html" }],
-
+ 
 	[qr!/sitemap\.html$!, sitemap => { headers => { title => "Sitemap" }} ],
 
 ) ;
