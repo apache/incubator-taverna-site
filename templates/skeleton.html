@@ -3,18 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">	  
+    <meta name="viewport" content="width=device-width, initial-scale=1">      
     <title>{% block title %}{{ headers.title }}{% endblock %}</title>
 
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta property="og:image" content="http://www.apache.org/images/asf_logo.gif" />
 
 
-	  <!-- Bootstrap 3 (TODO: Embed these locally)  -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-	 <link rel="stylesheet" href="/css/sticky-footer-navbar.css">
-	 <link rel="stylesheet" href="/css/taverna.css">
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/sticky-footer-navbar.css">
+    <link rel="stylesheet" href="/css/taverna.css">
 
     {% if headers.atom %}
       <link rel="alternate" href="{{ headers.atom.url }}"
@@ -26,9 +25,9 @@
   </head>
 
   <body>
-	
-	
-	      <!-- Static navbar -->
+    
+    
+          <!-- Static navbar -->
       <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -38,55 +37,55 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-			 <a class="navbar-brand" href="/">Apache Taverna</a>
+             <a class="navbar-brand" href="/">Apache Taverna</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">			  
-				<li><a href="/about/">About</a></li>
-				<li><a href="/download/">Download</a></li>
-				<li><a href="/doc/">Documentation</a></li>
-				<li><a href="/code/">Code</a></li>			
-				<li><a href="/contact/">Contact</a></li>
+            <ul class="nav navbar-nav">              
+                <li><a href="/about/">About</a></li>
+                <li><a href="/download/">Download</a></li>
+                <li><a href="/doc/">Documentation</a></li>
+                <li><a href="/code/">Code</a></li>            
+                <li><a href="/contact/">Contact</a></li>
             </ul>
-			 
-			  <form >
-					  
-					  
-					  <!--<input type="submit" id="submit" value="Search">-->
-					</form>
-			  
-			  <form class="navbar-form navbar-right" role="search"
-				  name="search" id="search" action="http://www.google.com/search" method="get">
-					  <input value="taverna.incubator.apache.org" name="sitesearch" type="hidden"/>
-					  <div class="form-group">
-						  <input type="text" name="q" id="query" placeholder="Search" class="form-control">
-						  <button type="submit" class="btn btn-default">Search</button>
-					  </div>				  
-			  </form>
+             
+              <form >
+                      
+                      
+                      <!--<input type="submit" id="submit" value="Search">-->
+                    </form>
+              
+              <form class="navbar-form navbar-right" role="search"
+                  name="search" id="search" action="http://www.google.com/search" method="get">
+                      <input value="taverna.incubator.apache.org" name="sitesearch" type="hidden"/>
+                      <div class="form-group">
+                          <input type="text" name="q" id="query" placeholder="Search" class="form-control">
+                          <button type="submit" class="btn btn-default">Search</button>
+                      </div>                  
+              </form>
 
-			 <ul class="nav navbar-nav navbar-right">				
-			<li class="dropdown">
+             <ul class="nav navbar-nav navbar-right">                
+            <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ASF<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-					<li><a href="http://www.apache.org/">Apache Software Foundation</a></li>
-					<li><a href="http://www.apache.org/foundation/how-it-works.html">How it works</a></li>
-					<li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
-					<li><a href="http://www.apache.org/foundation/sponsorship.html">Become a Sponsor</a></li>
-					<li><a href="http://incubator.apache.org/projects/taverna.html">Taverna Incubation Status</a></li>
+                    <li><a href="http://www.apache.org/">Apache Software Foundation</a></li>
+                    <li><a href="http://www.apache.org/foundation/how-it-works.html">How it works</a></li>
+                    <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
+                    <li><a href="http://www.apache.org/foundation/sponsorship.html">Become a Sponsor</a></li>
+                    <li><a href="http://incubator.apache.org/projects/taverna.html">Taverna Incubation Status</a></li>
                 </ul>
               </li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>
-	
-	
-	  
-	
+    
+    
+      
+    
     <div id="page" class="container">
-	   <h1>{% block tagline %}{{ headers.title }}{% endblock %}</h1>
+       <h1>{% block tagline %}{{ headers.title }}{% endblock %}</h1>
       <div id="nav">        
-		  <!-- Is this needed?
+          <!-- Is this needed?
         <p>{{ breadcrumbs|safe }}</p>
  -->
       </div>
@@ -96,27 +95,27 @@
     </div>
 
 
-	
+    
 
-	<footer class="footer">
+    <footer class="footer">
       <div class="container">
         <p class="text-muted">
-			To improve the Apache Taverna website, feel free to 
-			<a href="javascript:void(location.href='https://cms.apache.org/redirect?uri='+escape(location.href))">edit of this page</a> using 
-			<a href="http://www.apache.org/dev/cmsref.html">Apache CMS</a>. 
-			If you do not have an <code>@apache.org</code> account, you can use the username 
-			<code>anonymous</code> to suggest an <a href="https://www.apache.org/dev/cmsref#faq">anonymous edit</a>.
-		  </p>
-		  <p id="copyright" class="text-muted">
-			  Copyright &#169; 2014 The Apache Software Foundation, Licensed under the 
-			  <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
-			  <br/>Apache and the Apache feather logo are trademarks of The Apache Software Foundation.
-		  </p>
+            To improve the Apache Taverna website, feel free to 
+            <a href="javascript:void(location.href='https://cms.apache.org/redirect?uri='+escape(location.href))">edit of this page</a> using 
+            <a href="http://www.apache.org/dev/cmsref.html">Apache CMS</a>. 
+            If you do not have an <code>@apache.org</code> account, you can use the username 
+            <code>anonymous</code> to suggest an <a href="https://www.apache.org/dev/cmsref#faq">anonymous edit</a>.
+          </p>
+          <p id="copyright" class="text-muted">
+              Copyright &#169; 2014 The Apache Software Foundation, Licensed under the 
+              <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
+              <br/>Apache and the Apache feather logo are trademarks of The Apache Software Foundation.
+          </p>
       </div>
-	</footer>
-	  
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-	  
+    </footer>
+      
+    <script src="/lib/jquery/jquery-1.11.1.min.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+      
   </body>
 </html>
