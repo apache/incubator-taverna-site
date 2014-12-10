@@ -29,7 +29,7 @@
 	{% if headers.jsonld %}
       <!-- JSON-LD markup for Google Structured Data -->
 	  <script type="application/ld+json">
-		  {{ headers.jsonld}}
+		  {{ headers.jsonld|safe}}
 	  </script>
 	{% endif %}
 	  
