@@ -23,9 +23,10 @@ jsonld: {
     "brand" : {
       "@type" : "Brand",
       "name" : "Apache Taverna",
-      "logo" : "/img/taverna-logo-145x134.png"
+      "logo" : "http://taverna.incubator.apache.org/img/taverna-logo-145x134.png"
     }
   }
+
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 
 Taverna is transitioning
