@@ -20,7 +20,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 There are not yet any public releases of Apache Taverna.
 
-You might be interested in the [source code](/code/) of Apache Taverna, or [earlier non-Apache releases](#earlierreleases).
+You might be interested in the [source code](/code/) of Apache Taverna, or [earlier non-Apache releases](pre-apache.html).
 
 
 ### License
