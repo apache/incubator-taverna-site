@@ -25,13 +25,34 @@
 
     {% if headers.base %}<base href="{{ headers.base }}" />{% endif %}
     {% if headers.notice %}<!-- {{ headers.notice }} -->{% endif %}
-	  
+
+    <!-- JSON-LD markup for Google Structured Data -->
 	{% if headers.jsonld %}
-      <!-- JSON-LD markup for Google Structured Data -->
+	  <!-- custom JSON-LD for this page -->
 	  <script type="application/ld+json">  
 		  {{ headers.jsonld|safe}}
 	  </script>
 	{% endif %}
+	  <!-- generic JSON-LD for this page -->
+	  <script type="application/ld+json">  
+		{
+			"@context" : "http://schema.org",
+			"@type" : ["CreativeWork"],
+			"@id": "",
+			"name" : "{{ headers.title|safe }}",
+			"publisher" : {
+				"@type" : "Organization", 
+				"url" : "http://www.apache.org/",
+				"name" : "The Apache Software Foundation (ASF)" 
+			},
+			"license": { 
+				"@type": "CreativeWork",
+				"@id": "http://www.apache.org/licenses/LICENSE-2.0",
+				"url": "http://www.apache.org/licenses/LICENSE-2.0",
+				"name": "Apache License, Version 2.0"
+			}
+		}		
+</script>
 	  
   </head>
 
