@@ -17,14 +17,20 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 jsonld: {
     "@context" : "http://schema.org",
-    "@type" : "Product",
+    "@type" : ["Product", "SoftwareApplication"],
+    "@id": "http://taverna.incubator.apache.org/",
+    "url": "http://taverna.incubator.apache.org/",
     "name" : "Apache Taverna (incubating)",
     "description" : "Taverna is an open source and domain-independent Workflow Management System – a suite of tools used to design and execute scientific workflows and aid in silico experimentation",
     "brand" : {
       "@type" : "Brand",
       "name" : "Apache Taverna",
       "logo" : "http://taverna.incubator.apache.org/img/taverna-logo-145x134.png"
-    }
+    },
+    "publisher" : { "@type" : "Organization", 
+                    "url" : "http://www.apache.org/",
+                    "name" : "The Apache Software Foundation (ASF)" },
+    "downloadUrl" : "http://taverna.incubator.apache.org/download/"
   }
 
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
