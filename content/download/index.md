@@ -59,7 +59,7 @@ Maven repository provided by University of Manchester:
 
 ### Taverna 2.5.0
 
-myGrid release: [Taverna 2.5](http://www.taverna.org.uk/download/), license: [LGPL 2.1](https://www.gnu.org/licenses/lgpl-2.1.html))
+myGrid release: [Taverna 2.5](http://www.taverna.org.uk/download/), license: [LGPL 2.1](https://www.gnu.org/licenses/lgpl-2.1.html)
  / [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.html)
 
 Binary downloads provided by [bitbucket.org](https://bitbucket.org/):
