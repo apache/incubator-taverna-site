@@ -1,8 +1,7 @@
 Title: Earlier (non-Apache) releases
 
 
-
-<div class="alert alert-info" role="alert"><strong>Non-Apache:</strong>
+<div class="alert alert-warning" role="alert"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"><strong>Non-Apache:</strong>
 These earlier releases were made before incubation, and are 
 <strong>not endorsed</strong> by or provided by the Apache Software Foundation. 
 </div>
