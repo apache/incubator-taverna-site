@@ -40,30 +40,37 @@ designing and executing workflows. Access to 3500+ resources.
 
 <div class="row marketing">
         <div class="col-lg-6">
+
           <h4>Subheading</h4>
           <p><strong>Taverna</strong> is an open source and domain-independent 
-<a href="/introduction/what-is-a-workflow-management-system">Workflow Management System</a>
- &#8211; a suite of tools used to design and execute
- <a href="/introduction/why-use-workflows/">scientific workflows</a> and aid 
-<a href="/introduction/what-is-in-silico-experimentation"><em>in silico</em> experimentation</a>.</div>
+Workflow Management System
+ &#8211; a suite of tools used to design and execute <em>scientific workflows</em> and aid 
+<em>in silico</em> experimentation.
 </p>
 
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+
         </div>
 
         <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+<h3>Taverna is moving to the Apache Incubator</h3>
+<p>Taverna has been accepted as an Apache Incubator project.
+In short, this means:</p>
+<ul>
+<li>Taverna 2.5.1 will be last non-Apache release from <a href="http://www.taverna.org.uk/">taverna.org.uk</a></li>
+<li><a href="https://www.apache.org/foundation/how-it-works.html#management">Open Development</a> process - anyone can contribute</li>
+<li>Development infrastructure hosted by <a href="http://www.apache.org/">apache.org</a></li>
+<li><a href="/contact/">Taverna mailing lists</a> have moved to @taverna.incubator.apache.org</li>
+<li><a href="/code/">Source code</a> will move to 
+<a href="http://git.apache.org/">http://git.apache.org/</a>, with GitHub mirror</li>
+</ul>
+<p>For further details, see the presentation 
+<a href="http://dev.mygrid.org.uk/wiki/display/developer/Taverna+as+an+Apache+Incubator+project">Taverna 
+as an Apache Incubator project</a> and sign up to 
+the <a href="http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/">dev@taverna.incubator.apache.org</a> 
+mailing list.</p>
 
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
 </div>
 
