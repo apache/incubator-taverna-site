@@ -18,7 +18,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 
- Taverna is currently transitioning
+Taverna is transitioning
 to the Apache Incubator. This website is for the Apache Taverna project and is <strong>under development</strong>.
 </p>
 <p>
