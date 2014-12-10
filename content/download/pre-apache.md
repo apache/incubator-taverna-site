@@ -1,4 +1,5 @@
-Title: Download
+Title: Earlier (non-Apache) releases
+
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -16,28 +17,6 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-## Apache Taverna
-
-There are not yet any public releases of Apache Taverna.
-
-You might be interested in the [source code](/code/) of Apache Taverna, or [earlier non-Apache releases](#earlierreleases).
-
-
-### License
-
-Apache Taverna is distributed under the [Apache Software License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
-
-### Planned releases
-
-The project is planning a staged set of releases for Apache Taverna 3.x:
-
- 1. taverna-language 3.0.0
- 2. taverna-command-line 3.0.0
- 3. taverna-server 3.0.0
- 4. taverna-workbench 3.0.0-alpha3
- 5. taverna.workbench 3.0.0
-
-## Earlier releases
 
 <div class="alert alert-info" role="alert"><strong>Non-Apache:</strong>
 These earlier releases were made before incubation, and are 
