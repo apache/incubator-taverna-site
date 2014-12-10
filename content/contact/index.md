@@ -16,7 +16,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-You can contact and participate in the Apache Taverna community through the mailing lists.
+You can contact and participate in the Apache Taverna community through the <strong>mailing lists</strong>.
 
 The mailing lists are public. We suggest that all Taverna users join the <em>users@taverna</em> list 
 – this allows us to notify you of any critical issues or upcoming changes and allows you to have 
