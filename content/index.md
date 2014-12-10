@@ -27,32 +27,28 @@ You might want to visit the original <a href="http://www.taverna.org.uk/">tavern
 
 
 <div class="jumbotron">
-  <h1>Taverna Workflow Management System</h1>
+  <h1>Taverna Workflow System</h1>
     <p class="lead">
 Powerful, scalable, open source & domain independent tools for
 designing and executing workflows. Access to 3500+ resources.
 </p>
     <p><a class="btn btn-lg btn-success" href="/download/" role="button">Download</a>
-       <a class="btn btn-lg" href="/contact/" role="button">Follow</a>
+       <a class="btn btn-lg btn-primary" href="/contact/" role="button">Follow</a>
 </p>
 </div>
 
 
 <div class="row marketing">
-        <div class="col-lg-6">
-
-          <h4>Subheading</h4>
+   <div class="col-lg-6">
+          <h4>Build scientific workflows</h4>
           <p><strong>Taverna</strong> is an open source and domain-independent 
 Workflow Management System
  &#8211; a suite of tools used to design and execute <em>scientific workflows</em> and aid 
 <em>in silico</em> experimentation.
 </p>
+  </div>
 
-
-
-        </div>
-
-        <div class="col-lg-6">
+ <div class="col-lg-6">
 <h3>Taverna is moving to the Apache Incubator</h3>
 <p>Taverna has been accepted as an Apache Incubator project.
 In short, this means:</p>
@@ -71,7 +67,7 @@ the <a href="http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/">de
 mailing list.</p>
 
 
-        </div>
+ </div>
 </div>
 
 
