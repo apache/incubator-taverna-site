@@ -26,6 +26,48 @@ You might want to visit the original <a href="http://www.taverna.org.uk/">tavern
 
 
 
+<div class="jumbotron">
+  <h1>Taverna Workflow Management System</h1>
+    <p class="lead">
+Powerful, scalable, open source & domain independent tools for
+designing and executing workflows. Access to 3500+ resources.
+</p>
+    <p><a class="btn btn-lg btn-success" href="/download/" role="button">Download</a>
+       <a class="btn btn-lg" href="/contact/" role="button">Follow</a>
+</p>
+</div>
+
+
+<div class="row marketing">
+        <div class="col-lg-6">
+          <h4>Subheading</h4>
+          <p><strong>Taverna</strong> is an open source and domain-independent 
+<a href="/introduction/what-is-a-workflow-management-system">Workflow Management System</a>
+ &#8211; a suite of tools used to design and execute
+ <a href="/introduction/why-use-workflows/">scientific workflows</a> and aid 
+<a href="/introduction/what-is-in-silico-experimentation"><em>in silico</em> experimentation</a>.</div>
+</p>
+
+          <h4>Subheading</h4>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+          <h4>Subheading</h4>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h4>Subheading</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+          <h4>Subheading</h4>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+          <h4>Subheading</h4>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+</div>
+
+
 ## Disclaimer
 
 Apache Taverna is an effort undergoing incubation at [The Apache Software Foundation
