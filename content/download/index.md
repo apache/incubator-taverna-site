@@ -22,7 +22,6 @@ There are not yet any public releases of Apache Taverna.
 
 You might be interested in the [source code](/code/) of Apache Taverna, or [earlier non-Apache releases](pre-apache.html).
 
-
 ### License
 
 Apache Taverna is distributed under the [Apache Software License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
