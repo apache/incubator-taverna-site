@@ -1,4 +1,4 @@
-Title: Download Apache Taverna
+Title: Download
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -71,7 +71,6 @@ Binary downloads provided by [bitbucket.org](https://bitbucket.org/):
 Maven repository provided by University of Manchester:
 
   - [http://www.mygrid.org.uk/maven/repository/](http://www.mygrid.org.uk/maven/repository/)
-  - [Maven version numbers](http://dev.mygrid.org.uk/wiki/display/developer/Maven+module+version+numbers)
 
 ### Taverna 2.4 and older
 
