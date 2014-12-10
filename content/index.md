@@ -16,10 +16,12 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-<div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-
-Taverna is transitioning
-to the Apache Incubator. This website is for the Apache Taverna project and is <strong>under development</strong>.
+<ol class="breadcrumb">
+  <li><a href="http://taverna.incubtor.apache.org">Taverna</a></li>
+  <li class="active">Home</li>
+</ol>
+<div class="alert alert-info" role="alert"><p><strong>Warning:</strong> Taverna is currently transitioning
+to the Apache Incubator. This website is for the Apache Taverna (incubating) project and is under development.
 </p>
 <p>
 You might want to visit the original <a class="alert-link" href="http://www.taverna.org.uk/">taverna.org.uk</a> 
