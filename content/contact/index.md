@@ -24,7 +24,7 @@ a say in the future development of Taverna. Anyone using the Taverna APIs in the
 would be well advised to join both <em>dev@taverna</em> and <em>users@taverna</em>.
 
 
-## users@taverna
+### users@taverna
 
 
 <em>users@taverna.incubator.apache.org</em> is intended for everyone who are using Taverna for
@@ -36,7 +36,7 @@ questions about how to do something in the Workbench, or <strong>raise issues</s
   - [List archives of users@taverna](http://apache-taverna-users.markmail.org/search/?q=) at markmail.org
     - Pre-Apache legacy list archives (2003-2014) at [markmail.org](http://markmail.org/search/?q=#query:%20list%3Anet.sourceforge.lists.taverna-users) and  [sourceforge.net](http://sourceforge.net/p/taverna/mailman/taverna-users/)
 
-## dev@taverna
+### dev@taverna
 
 <em>dev@taverna.incubator.apache.org</em> is intended for those actively developing Apache Taverna, 
 Apache Taverna plugins or otherwise are using Apache Taverna APIs.  Use this list to discuss aspects as
@@ -49,7 +49,7 @@ design/architecture/integration/code - even if you are not currently an Apache T
     - Pre-Apache legacy list archives (2003-2014) at [markmail.org](http://markmail.org/search/?q=#query:%20list%3Anet.sourceforge.lists.taverna-hackers) and  [sourceforge.net](http://sourceforge.net/p/taverna/mailman/taverna-hackers/)
 
 
-## commits@taverna
+### commits@taverna
 
 <em>commits@taverna.incubator.apache.org</em> is a read-only list for commit messages on Apache Taverna's [source code](/code/).
 
@@ -58,7 +58,7 @@ design/architecture/integration/code - even if you are not currently an Apache T
 
 
 
-## private@taverna
+### private@taverna
 
 <em>private@taverna.incubator.apache.org</em> can be used for sensitive information that should not be made public
 in mailing list archives. Only members of the [Apache Taverna PPMC](/about/) will receive the email. Only use this list
