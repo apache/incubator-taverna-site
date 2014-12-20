@@ -19,29 +19,35 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org/), with read-only mirroring to 
 [Github](https://github.com/apache/).
 
-<div class="alert alert-warning" role="alert"><p><strong>Warning:</strong> As of 2014-12-02, the Taverna source code 
+<div class="alert alert-warning" role="alert"><p><strong>Warning:</strong> As of 2014-12-19, the Taverna source code 
 has not yet been migrated to the Apache Incubator infrastructure.</p>
 <p>The current source code is still maintained at the 
 <a href="https://github.com/taverna/" class="alert-link">taverna GitHub repositories</a>. 
 </p></p>
-The links below are to the temporary 
-<a href="https://github.com/taverna-incubator" class="alert-link">taverna-incubator GitHub repositories</a> 
-which are being prepared for staging to Apache. The structure of these might change significantly 
-before the code has been fully migrated.
+The links below are to the temporary STAGING repository 
+<a href="https://github.com/taverna-incubator" class="alert-link">taverna-incubator</a> at Github. The repositories called <code>incubator-*</code> are ready to be moved to git.apache.org, while the remaining are drafts of proposed git restructure.
+Note that the structure of the staging repositories might change significantly 
+before the code has been migrated.
 
 </div>
 
 
 The Apache Taverna source code is organized into multiple repositories:
 
-  - [incubator-taverna-language](https://github.com/taverna-incubator/taverna-language) - Taverna Language APIs for workflow definitions (SCUFL2)
-and workflow inputs/outputs/run (DataBundle).
-  - [incubator-taverna-osgi](https://github.com/taverna-incubator/taverna-osgi) - Generic OSGi extensions
-  - [incubator-taverna-engine](https://github.com/taverna-incubator/taverna-engine-api) - Taverna workflow engine
+  - [incubator-taverna-language](https://github.com/taverna-incubator/incubator-taverna-language) - Taverna Language APIs for workflow definitions (SCUFL2)
+and workflow inputs/outputs/run (DataBundle). 
+  - [incubator-taverna-osgi](https://github.com/taverna-incubator/incubator-taverna-osgi) - Generic OSGi extensions
+  - [incubator-taverna-engine](https://github.com/taverna-incubator/taverna-engine) - Taverna workflow engine
   - [incubator-taverna-commandline](https://github.com/taverna-incubator/taverna-commandline-product) - Command line for running Taverna workflows
   - [incubator-taverna-workbench](https://github.com/taverna-incubator/taverna-workbench-api) - Graphical workbench for editing Taverna workflows
   - [incubator-taverna-server](https://github.com/taverna-incubator/taverna-server) - A REST and WSDL interface for running Taverna workflows
-  - [incubator-taverna-maven-parent](https://github.com/taverna-incubator/taverna-maven-parent) - Common Maven parent for the above
+  - [incubator-taverna-maven-parent](https://github.com/taverna-incubator/incubator-taverna-maven-parent) - Common Maven parent for the above
 
 For any questions about the Taverna source code, please subscribe to and contact the 
 [dev@taverna](http://mail-archives.apache.org/mod_mbox/taverna-dev/) mailing list.
+
+## Snapshot builds
+
+A corresponding set of [automatic Jenkins builds for Apache Taverna](http://build.mygrid.org.uk/ci/view/incubator-taverna/) deploy to the 
+[Apache Taverna Maven snapshot repository](http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/). 
+Note that these builds and repository will soon move to Apache.org infrastructure.
