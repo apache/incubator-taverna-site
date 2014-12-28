@@ -39,7 +39,7 @@ and workflow inputs/outputs/run (DataBundle).
   - [incubator-taverna-osgi](https://github.com/taverna-incubator/incubator-taverna-osgi) - Generic OSGi extensions
   - [incubator-taverna-engine](https://github.com/taverna-incubator/incubator-taverna-engine) - Taverna workflow engine
   - [taverna-common-activities](https://github.com/taverna-incubator/taverna-engine-common-activities) - Common activity implementation for engine (e.g. WSDL, REST, Tool, Interaction)
-  - [taverna-commandline](https://github.com/taverna-incubator/taverna-commandline-product) - Command line for running Taverna workflows
+  - [incubator-taverna-commandline](https://github.com/taverna-incubator/incubator-taverna-commandline) - Command line for running Taverna workflows
   - [taverna-workbench](https://github.com/taverna-incubator/taverna-workbench-api) - Graphical workbench for editing Taverna workflows
   - [taverna-workbench-common-activities](https://github.com/taverna-incubator/taverna-workbench-common-activities) - Common activities UI (discovery+configuration for Workbench
   - [taverna-server](https://github.com/taverna-incubator/taverna-server) - A REST and WSDL interface for running Taverna workflows
