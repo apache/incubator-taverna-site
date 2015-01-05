@@ -56,6 +56,11 @@ A corresponding set of [automatic Jenkins builds for Apache Taverna](http://buil
 [Apache Taverna Maven snapshot repository](http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/). 
 Note that these builds and repository will soon move to Apache.org infrastructure.
 
+This means that as a developer, you only need to build the repositories you are modifying, as the remaining modules will be retrieved from the Maven repository. 
+You will however always need to build the product (command line or workbench) to incorporate your changes.
+
+
+
 ## Taverna Extras
 
 The separate GitHub group [taverna-extras](https://github.com/taverna-extras) host independent community-submitted plugins for Apache Taverna. 
