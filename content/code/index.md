@@ -25,7 +25,7 @@ has not yet been migrated to the Apache Incubator infrastructure.</p>
 <a href="https://github.com/taverna/" class="alert-link">taverna GitHub repositories</a>. 
 </p></p>
 The links below are to the temporary STAGING repository 
-<a href="https://github.com/taverna-incubator" class="alert-link">taverna-incubator</a> at Github. The repositories called <code>incubator-*</code> should build, and are ready to be migrated to git.apache.org, while the remaining are <strong>drafts</strong> of proposed git restructure and probably <em>won't build</em> correctly..
+<a href="https://github.com/taverna-incubator" class="alert-link">taverna-incubator</a> at Github. The repositories called <code>incubator-*</code> should build, and are ready to be migrated to git.apache.org. The remaining <code>taverna-*</code> repositories are <strong>drafts</strong> of proposed git restructure and probably <em>won't build</em> correctly..
 Note that the structure of the staging repositories might change significantly 
 before the code has been migrated.
 
