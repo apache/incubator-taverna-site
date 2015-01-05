@@ -25,7 +25,7 @@ has not yet been migrated to the Apache Incubator infrastructure.</p>
 <a href="https://github.com/taverna/" class="alert-link">taverna GitHub repositories</a>. 
 </p></p>
 The links below are to the temporary STAGING repository 
-<a href="https://github.com/taverna-incubator" class="alert-link">taverna-incubator</a> at Github. The repositories called <code>incubator-*</code> are ready to be migrated to git.apache.org, while the remaining are drafts of proposed git restructure.
+<a href="https://github.com/taverna-incubator" class="alert-link">taverna-incubator</a> at Github. The repositories called <code>incubator-*</code> should build, and are ready to be migrated to git.apache.org, while the remaining are <strong>drafts</strong> of proposed git restructure and probably <em>won't build</em> correctly..
 Note that the structure of the staging repositories might change significantly 
 before the code has been migrated.
 
@@ -34,16 +34,18 @@ before the code has been migrated.
 
 The Apache Taverna source code is organized into multiple repositories:
 
+  - [incubator-taverna-maven-parent](https://github.com/taverna-incubator/incubator-taverna-maven-parent) - Common Maven parent for the below
   - [incubator-taverna-language](https://github.com/taverna-incubator/incubator-taverna-language) - Taverna Language APIs for workflow definitions (SCUFL2)
 and workflow inputs/outputs/run (DataBundle). 
   - [incubator-taverna-osgi](https://github.com/taverna-incubator/incubator-taverna-osgi) - Generic OSGi extensions
   - [incubator-taverna-engine](https://github.com/taverna-incubator/incubator-taverna-engine) - Taverna workflow engine
   - [taverna-common-activities](https://github.com/taverna-incubator/taverna-engine-common-activities) - Common activity implementation for engine (e.g. WSDL, REST, Tool, Interaction)
   - [incubator-taverna-commandline](https://github.com/taverna-incubator/incubator-taverna-commandline) - Command line for running Taverna workflows
-  - [taverna-workbench](https://github.com/taverna-incubator/taverna-workbench-api) - Graphical workbench for editing Taverna workflows
+  - [taverna-workbench](https://github.com/taverna-incubator/taverna-workbench) - Graphical workbench for editing Taverna workflows
   - [taverna-workbench-common-activities](https://github.com/taverna-incubator/taverna-workbench-common-activities) - Common activities UI (discovery+configuration for Workbench
   - [taverna-server](https://github.com/taverna-incubator/taverna-server) - A REST and WSDL interface for running Taverna workflows
-  - [incubator-taverna-maven-parent](https://github.com/taverna-incubator/incubator-taverna-maven-parent) - Common Maven parent for the above
+
+The build order is roughly the order of the above list, but as [snapshots](#snapshot-builds) are picked up from the snapshot repository, you do not need to build them all.
 
 For any questions about the Taverna source code, please subscribe to and contact the 
 [dev@taverna](http://mail-archives.apache.org/mod_mbox/taverna-dev/) mailing list.
