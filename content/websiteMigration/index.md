@@ -21,6 +21,8 @@ Website Migration Status Page
 
 The purpose of this page is to record ideas and progress for the migration of [www.taverna.org.uk/](http://www.taverna.org.uk/) to [Incubator Website](http://taverna.incubator.apache.org/)
 
+[Old sitemap](sitemap.txt)
+
 Contact
 -------
 
