@@ -6,5 +6,6 @@ date
 pwd
 env
 type java
-java -version
+## Small memory footprint!
+java -Xmx32M -version
 
