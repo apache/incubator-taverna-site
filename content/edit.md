@@ -39,7 +39,7 @@ Add the link location (javascript) as a bookmark and not the page that redirects
 Anonymous
 ---------
 It is possible to log on with the <code>anonymous</code> account but then you will not be able to commit any pages 
-only submit suggested changes t the mailing list.
+only submit suggested changes to the mailing list.
 
 SVN
 ---
