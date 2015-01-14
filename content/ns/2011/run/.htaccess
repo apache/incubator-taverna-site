@@ -1,2 +1,3 @@
 RewriteEngine On
-RewriteRule ^(.*) http://guess.taverna.org.uk/run/$1 [L,redirect=303]
+#RewriteRule ^(.*) http://guess.taverna.org.uk/run/$1 [L,redirect=303]
+RewriteRule ^(.*) /scufl2info/run/$1 [L,redirect=303]
