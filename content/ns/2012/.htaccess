@@ -1,0 +1,22 @@
+Options -MultiViews 
+RewriteEngine On
+RewriteBase /2012
+
+# Add /
+RewriteRule ^tavernaprov$ tavernaprov/ [R=303]
+# For all terms
+RewriteRule ^tavernaprov/.+ tavernaprov/ [R=303]
+#
+#RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
+#RewriteRule ^tavernaprov/$ tavernaprov.rdf
+#
+RewriteCond %{HTTP_ACCEPT} text\.+turtle
+RewriteRule ^tavernaprov/$ tavernaprov.ttl
+#
+RewriteCond %{HTTP_ACCEPT} text/html
+RewriteRule ^tavernaprov/$ http://www.essepuntato.it/lode/owlapi/https://raw.github.com/wf4ever/taverna-prov/master/prov-taverna-owl-bindings/src/main/resources/org/purl/wf4ever/provtaverna/owl/taverna-prov.ttl
+
+# Default
+RewriteRule ^tavernaprov/$ tavernaprov.ttl 
+
+RewriteRule ^tavernaprov.ttl$ https://raw.github.com/wf4ever/taverna-prov/master/prov-taverna-owl-bindings/src/main/resources/org/purl/wf4ever/provtaverna/owl/taverna-prov.ttl

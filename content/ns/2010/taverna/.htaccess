@@ -1,0 +1,22 @@
+Options -MultiViews
+
+RewriteEngine On
+RewriteBase /2010/taverna
+
+# Strip /
+RewriteRule ^2.2$ 2.2/ [R=303]
+# For all terms
+RewriteRule ^2.2/.+ 2.2/ [R=303]
+#
+RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
+RewriteRule ^2.2/$ 2.2.rdf
+#
+RewriteCond %{HTTP_ACCEPT} text\.+turtle
+RewriteRule ^2.2/$ 2.2.ttl
+#
+RewriteCond %{HTTP_ACCEPT} text/html
+RewriteRule ^2.2/$ http://www.essepuntato.it/lode/owlapi/http://ns.taverna.org.uk/2010/taverna/2.2/
+
+# Default
+RewriteRule ^2.2/$ 2.2.ttl 
+

@@ -1,0 +1,7 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /2015
+
+
+## http://ns.taverna.org.uk/2015/ore
+RewriteRule ^ore$ ore.rdf

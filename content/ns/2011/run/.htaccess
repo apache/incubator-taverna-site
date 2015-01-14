@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^(.*) http://guess.taverna.org.uk/run/$1 [L,redirect=303]

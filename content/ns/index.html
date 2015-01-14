@@ -1,0 +1,95 @@
+<html>
+  <head>
+      <title>Taverna namespaces</title>
+  </head>
+  <body>
+<h1>Taverna namespaces</h1>
+
+<p>
+This site hosts the <a href="http://www.taverna.org.uk/">Taverna</a> XML
+namespaces and ontologies, including:
+</p>
+
+<ul>
+ <li> <a href="2008/xml/t2flow">http://taverna.sf.net/2008/xml/t2flow</a></li>
+ <li> <a href="2010/scufl2">http://ns.taverna.org.uk/2010/scufl2</a> (also 
+	<a href="2010/scufl2.ttl">scufl2.ttl</a> and
+	<a href="2010/scufl2.rdf">scufl2.rdf</a>)
+</li>
+ <li> <a href="2012/component/profile">http://ns.taverna.org.uk/2012/component/profile</a> </li>
+ <li> <a
+ href="2012/tavernaprov/">http://ns.taverna.org.uk/2012/tavernaprov/</a> (also 
+     <a href="2012/tavernaprov.ttl">tavernaprov.ttl</a> and 
+     <a href="2012/tavernaprov.rdf">tavernaprov.rdf</a>)
+ </li>
+</ul>
+
+<p>
+Unfortunately some namespaces within this space may not be available as
+XSDs or OWL files. 
+</p>
+
+
+<h2>Generated identifiers</h2>
+
+Taverna generates identifiers starting with:
+<ul>
+  <li>http://ns.taverna.org.uk/2011/run/</li>
+  <li>http://ns.taverna.org.uk/2011/data/</li>
+  <li>http://ns.taverna.org.uk/2010/workflowBundle/</li>
+</ul>
+
+<p>
+Note that these URIs are <strong>not</strong> meant to be clickable
+(HTTP resolvable) to retrieve the original definition or data.  The
+reason for this is that myGrid does not (and will not) store centrally
+any workflow run information, data values or workflow definitions. It is
+however still useful that each workflow definition, each workflow run
+and each produced data value can be uniquely identified, therefore we
+build these URIs using UUIDs that are generated within Taverna. 
+</p>
+
+<p>
+See <a href="http://dev.mygrid.org.uk/wiki/display/TAVOSGI/Data+Bundle">Data bundle</a> 
+and <a href="http://dev.mygrid.org.uk/wiki/display/developer/Taverna+Workflow+Bundle">SCUFL2 workflow bundle</a> for more information.
+</p>
+
+<h3>Guessed information</h3>
+<p>
+  URIs within the <code>/2010/workflowBundle/</code> and
+  <code>2011/run</code> namespaces currently give a <code>303 See
+  Other</code> redirects to a <a
+  href="http://guess.taverna.org.uk/">guessing service</a> that constructs a
+  minimal Linked Data description of the resource based on information
+  embedded in the URI. See <a href="https://github.com/stain/scufl2-info">scufl2-info</a> for more
+  information and source code.
+</p>
+
+<p>
+For example. the URI below identifies the workflow run with a <a href="http://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a> <code>385c794c-ba11-4007-a5b5-502ba8d14263</code>:
+</p>
+<p>
+    <a
+    href="http://ns.taverna.org.uk/2011/run/385c794c-ba11-4007-a5b5-502ba8d14263/"><code>http://ns.taverna.org.uk/2011/run/385c794c-ba11-4007-a5b5-502ba8d14263/</code></a>
+</p>
+
+This URI identifies the "string1" input port within the processor "Concatenate_two_strings" in the "Hello_Anyone" within the workflow bundle with the UUID <code>01348671-5aaa-4cc2-84cc-477329b70b0d</code>:
+
+
+<p>
+  <a
+  href="http://ns.taverna.org.uk/2010/workflowBundle/01348671-5aaa-4cc2-84cc-477329b70b0d/workflow/Hello_Anyone/processor/Concatenate_two_strings/in/string1">
+  <code>http://ns.taverna.org.uk/2010/workflowBundle/01348671-5aaa-4cc2-84cc-477329b70b0d/workflow/Hello_Anyone/processor/Concatenate_two_strings/in/string1</code></a>
+</p>
+
+
+<h2>Contact us</h2>
+<p>
+Contact support@mygrid.org.uk if you are unable
+to locate the corresponding definitions for such a namespace, or
+have other questions about our namespaces.
+</p>
+
+
+</body>
+</html>
