@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updateDescriptor baseUrl="http://updates.taverna.org.uk/workbench/digitalpreservation/installers/">
+  <entry targetMediaFileId="winx64" updatableVersionMin="" updatableVersionMax="" fileName="taverna-workbench-digitalpreservation-2.5.0-windows-x64.exe" newVersion="2.5.0" newMediaFileId="winx64" fileSize="202054304" bundledJre="openjdk-1.7.0-u40-unofficial-windows-amd64-image" archive="false">
+    <comment language="en" />
+  </entry>
+  <entry targetMediaFileId="wini386" updatableVersionMin="" updatableVersionMax="" fileName="taverna-workbench-digitalpreservation-2.5.0-windows-x86.exe" newVersion="2.5.0" newMediaFileId="wini386" fileSize="202885792" bundledJre="openjdk-1.7.0-u40-unofficial-windows-i586-image" archive="false">
+    <comment language="en" />
+  </entry>
+  <entry targetMediaFileId="osx" updatableVersionMin="" updatableVersionMax="" fileName="taverna-workbench-digitalpreservation-2.5.0-macos.tgz" newVersion="2.5.0" newMediaFileId="osx" fileSize="198568705" bundledJre="openjdk-1.7.0-u40-unofficial-macosx-x86_64-bundle" archive="true">
+    <comment language="en" />
+  </entry>
+  <entry targetMediaFileId="linux_amd64" updatableVersionMin="" updatableVersionMax="" fileName="taverna-workbench-digitalpreservation-2.5.0-linux_amd64.deb" newVersion="2.5.0" newMediaFileId="linux_amd64" fileSize="198694668" bundledJre="openjdk-1.7.0-u40-unofficial-linux-amd64-image" archive="true">
+    <comment language="en" />
+  </entry>
+  <entry targetMediaFileId="linux_x86_64" updatableVersionMin="" updatableVersionMax="" fileName="taverna-workbench-digitalpreservation-2.5.0-linux_x86_64.rpm" newVersion="2.5.0" newMediaFileId="linux_x86_64" fileSize="198864377" bundledJre="openjdk-1.7.0-u40-unofficial-linux-amd64-image" archive="true">
+    <comment language="en" />
+  </entry>
+  <entry targetMediaFileId="standalone" updatableVersionMin="" updatableVersionMax="" fileName="taverna-workbench-digitalpreservation-2.5.0.zip" newVersion="2.5.0" newMediaFileId="standalone" fileSize="177452903" bundledJre="" archive="true">
+    <comment language="en" />
+  </entry>
+  <entry targetMediaFileId="unix.tar" updatableVersionMin="" updatableVersionMax="" fileName="taverna-workbench-digitalpreservation-2.5.0-unix.tar.gz" newVersion="2.5.0" newMediaFileId="unix.tar" fileSize="176369022" bundledJre="" archive="true">
+    <comment language="en" />
+  </entry>
+</updateDescriptor>
+

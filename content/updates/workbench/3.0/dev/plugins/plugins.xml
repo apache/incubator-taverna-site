@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plugins xmlns="http://ns.taverna.org.uk/2013/application/plugin" xmlns:ns2="http://ns.taverna.org.uk/2013/application/profile" xmlns:ns3="http://ns.taverna.org.uk/2013/application/versions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.taverna.org.uk/2013/application/plugin http://localhost/2013/application/plugin/ApplicationPlugin.xsd">
+    <plugin>
+        <ns3:id>uk.org.taverna.commons.taverna-plugin-test</ns3:id>
+        <ns3:name>Taverna Plugin Test</ns3:name>
+        <ns3:description>A test Taverna plugin that tests the Taverna Plugin system.
+&lt;br&gt;&lt;br&gt;
+This plugin provides a new perspective and a new menu.</ns3:description>
+        <ns3:latestVersion>
+            <ns3:version>0.1.0.20131211T1741</ns3:version>
+            <ns3:file>uk.org.taverna.commons.taverna-plugin-test-0.1.0.20131211T1741.jar</ns3:file>
+        </ns3:latestVersion>
+        <organization>myGrid</organization>
+    </plugin>
+</plugins>

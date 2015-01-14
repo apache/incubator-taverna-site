@@ -1,0 +1,26 @@
+<h1>Debian/Ubuntu repository for Taverna 2.x (amd64)</h1>
+
+
+<h2>Installing</h2>
+
+<pre>
+    sudo apt-key adv --keyserver pgp.mit.edu --recv-key 411063A3A0FFD119
+    sudo apt-add-repository "deb http://updates.taverna.org.uk/deb ./"
+    sudo apt-get update
+    apt-cache search taverna-| sort   # pick your edition!
+    sudo apt-get install taverna-commandline-core 
+</pre>
+
+
+<h2>Notes</h2>
+amd64 is the only supported platform - for i386 use the 
+<a href="http://www.taverna.org.uk/download">standalone
+downloads</a>.
+
+
+<h2>Feedback</h2>
+
+For any comments or questions, subscribe and email <a
+href="http://mail-archives.apache.org/mod_mbox/taverna-users/">users@taverna.incubator.apache.org</a>
+
+

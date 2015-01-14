@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applicationProfile xmlns="http://ns.taverna.org.uk/2013/application/profile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.taverna.org.uk/2013/application/profile http://localhost/2013/application/profile/ApplicationProfile.xsd">
+    <id>uk.org.taverna.workbench.taverna-workbench-product</id>
+    <name>Taverna Workbench</name>
+    <version>3.0.1.20131211T1539</version>
+    <updates>
+        <updateSite>http://updates.taverna.org.uk/workbench/3.0/dev/</updateSite>
+        <updatesFile>updates.xml</updatesFile>
+        <libDirectory>lib</libDirectory>
+        <pluginSite>http://updates.taverna.org.uk/workbench/3.0/dev/plugins/</pluginSite>
+        <pluginsFile>plugins.xml</pluginsFile>
+    </updates>
+    <frameworkConfiguration name="org.osgi.framework.bootdelegation" value="sun.*,com.sun.*,java.*,javax.*,org.xml.*,org.w3c.*,apple.*,com.apple.*,org.omg.*,org.ietf.jgss.*,org.jcp.xml.dsig.internal.*"/>
+    <frameworkConfiguration name="org.osgi.framework.system.packages.extra" value="com.sun.org.apache.xml.internal.utils,org.apache.log4j;version=1.2.16"/>
+    <frameworkConfiguration name="org.osgi.framework.storage.clean" value="onFirstInit"/>
+    <bundle symbolicName="bcprov" version="1.46">
+        <fileName>org.bouncycastle/bcprov-jdk16-1.46.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.fasterxml.jackson.core.jackson-annotations" version="2.2.2">
+        <fileName>com.fasterxml.jackson.core/jackson-annotations-2.2.2.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.fasterxml.jackson.core.jackson-core" version="2.2.3">
+        <fileName>com.fasterxml.jackson.core/jackson-core-2.2.3.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.fasterxml.jackson.core.jackson-databind" version="2.2.2">
+        <fileName>com.fasterxml.jackson.core/jackson-databind-2.2.2.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.antlr" version="2.7.6">
+        <fileName>org.antlr/com.springsource.antlr-2.7.6.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.bsh" version="2.0.0.b4">
+        <fileName>org.beanshell/com.springsource.bsh-2.0.0.b4.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.com.thoughtworks.xstream" version="1.3.1">
+        <fileName>com.thoughtworks.xstream/com.springsource.com.thoughtworks.xstream-1.3.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.javassist" version="3.3.0.ga">
+        <fileName>org.jboss.javassist/com.springsource.javassist-3.3.0.ga.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.javax.activation" version="1.1.1">
+        <fileName>javax.activation/com.springsource.javax.activation-1.1.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.javax.el" version="1.0.0">
+        <fileName>javax.el/com.springsource.javax.el-1.0.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.javax.jms" version="1.1.0">
+        <fileName>javax.jms/com.springsource.javax.jms-1.1.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.javax.mail" version="1.4.1">
+        <fileName>javax.mail/com.springsource.javax.mail-1.4.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.javax.servlet" version="2.5.0">
+        <fileName>javax.servlet/com.springsource.javax.servlet-2.5.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.javax.servlet.jsp" version="2.1.0">
+        <fileName>javax.servlet/com.springsource.javax.servlet.jsp-2.1.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.javax.transaction" version="1.1.0">
+        <fileName>javax.transaction/com.springsource.javax.transaction-1.1.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.javax.wsdl" version="1.6.1">
+        <fileName>javax.wsdl/com.springsource.javax.wsdl-1.6.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.javax.xml.bind" version="2.2.0">
+        <fileName>javax.xml.bind/com.springsource.javax.xml.bind-2.2.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.javax.xml.rpc" version="1.1.0">
+        <fileName>javax.xml.rpc/com.springsource.javax.xml.rpc-1.1.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.javax.xml.soap" version="1.3.0">
+        <fileName>javax.xml.soap/com.springsource.javax.xml.soap-1.3.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.javax.xml.stream" version="1.0.1">
+        <fileName>javax.xml.stream/com.springsource.javax.xml.stream-1.0.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.net.sf.cglib" version="2.1.3">
+        <fileName>net.sourceforge.cglib/com.springsource.net.sf.cglib-2.1.3.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.aopalliance" version="1.0.0">
+        <fileName>org.aopalliance/com.springsource.org.aopalliance-1.0.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.axis" version="1.4.0">
+        <fileName>org.apache.axis/com.springsource.org.apache.axis-1.4.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.bcel" version="5.1.0">
+        <fileName>org.apache.bcel/com.springsource.org.apache.bcel-5.1.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.commons.beanutils" version="1.8.0">
+        <fileName>org.apache.commons/com.springsource.org.apache.commons.beanutils-1.8.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.commons.codec" version="1.4.0">
+        <fileName>org.apache.commons/com.springsource.org.apache.commons.codec-1.4.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.commons.collections" version="3.2.1">
+        <fileName>org.apache.commons/com.springsource.org.apache.commons.collections-3.2.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.commons.csv" version="1.0.0.BUILD-20080106">
+        <fileName>org.apache.commons/com.springsource.org.apache.commons.csv-1.0.0.BUILD-20080106.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.commons.dbcp" version="1.2.2.osgi">
+        <fileName>org.apache.commons/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.commons.discovery" version="0.4.0">
+        <fileName>org.apache.commons/com.springsource.org.apache.commons.discovery-0.4.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.commons.httpclient" version="3.1.0">
+        <fileName>org.apache.commons/com.springsource.org.apache.commons.httpclient-3.1.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.commons.io" version="1.4.0">
+        <fileName>org.apache.commons/com.springsource.org.apache.commons.io-1.4.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.commons.lang" version="2.5.0">
+        <fileName>org.apache.commons/com.springsource.org.apache.commons.lang-2.5.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.commons.logging" version="1.1.1">
+        <fileName>org.apache.commons/com.springsource.org.apache.commons.logging-1.1.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.commons.net" version="1.4.1">
+        <fileName>org.apache.commons/com.springsource.org.apache.commons.net-1.4.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.commons.pool" version="1.3.0">
+        <fileName>org.apache.commons/com.springsource.org.apache.commons.pool-1.3.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.derby" version="10.5.1000001.764942">
+        <fileName>org.apache.derby/com.springsource.org.apache.derby-10.5.1000001.764942.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.derby.client" version="10.5.1000001.764942">
+        <fileName>org.apache.derby/com.springsource.org.apache.derby.client-10.5.1000001.764942.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.derby.drda" version="10.5.1000001.764942">
+        <fileName>org.apache.derby/com.springsource.org.apache.derby.drda-10.5.1000001.764942.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.httpcomponents.httpclient" version="4.1.1">
+        <fileName>org.apache.httpcomponents/com.springsource.org.apache.httpcomponents.httpclient-4.1.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.httpcomponents.httpcore" version="4.1.1">
+        <fileName>org.apache.httpcomponents/com.springsource.org.apache.httpcomponents.httpcore-4.1.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.log4j" version="1.2.16">
+        <fileName>org.apache.log4j/com.springsource.org.apache.log4j-1.2.16.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.regexp" version="1.5.0">
+        <fileName>org.apache.regexp/com.springsource.org.apache.regexp-1.5.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.ws.security" version="1.5.8">
+        <fileName>org.apache.ws/com.springsource.org.apache.ws.security-1.5.8.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.xalan" version="2.7.1">
+        <fileName>org.apache.xalan/com.springsource.org.apache.xalan-2.7.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.xerces" version="2.9.1">
+        <fileName>org.apache.xerces/com.springsource.org.apache.xerces-2.9.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.xml.resolver" version="1.2.0">
+        <fileName>org.apache.xml/com.springsource.org.apache.xml.resolver-1.2.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.xml.security" version="1.4.2">
+        <fileName>org.apache.xml/com.springsource.org.apache.xml.security-1.4.2.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.xml.serializer" version="2.7.1">
+        <fileName>org.apache.xalan/com.springsource.org.apache.xml.serializer-2.7.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.xmlbeans" version="2.4.0">
+        <fileName>org.apache.xmlbeans/com.springsource.org.apache.xmlbeans-2.4.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.apache.xmlcommons" version="1.3.4">
+        <fileName>org.apache.xmlcommons/com.springsource.org.apache.xmlcommons-1.3.4.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.aspectj.runtime" version="1.6.0">
+        <fileName>org.aspectj/com.springsource.org.aspectj.runtime-1.6.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.aspectj.weaver" version="1.6.0">
+        <fileName>org.aspectj/com.springsource.org.aspectj.weaver-1.6.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.dom4j" version="1.6.1">
+        <fileName>org.dom4j/com.springsource.org.dom4j-1.6.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.hibernate" version="3.2.6.ga">
+        <fileName>org.hibernate/com.springsource.org.hibernate-3.2.6.ga.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.jaxen" version="1.1.1">
+        <fileName>org.jaxen/com.springsource.org.jaxen-1.1.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.jdom" version="1.1.0">
+        <fileName>org.jdom/com.springsource.org.jdom-1.1.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.objectweb.asm" version="1.5.3">
+        <fileName>org.objectweb.asm/com.springsource.org.objectweb.asm-1.5.3.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.objectweb.asm.attrs" version="1.5.3">
+        <fileName>org.objectweb.asm/com.springsource.org.objectweb.asm.attrs-1.5.3.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.opensaml" version="1.1.0">
+        <fileName>org.opensaml/com.springsource.org.opensaml-1.1.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.w3c.css.sac" version="1.3.0">
+        <fileName>org.w3.sac/com.springsource.org.w3c.css.sac-1.3.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="com.springsource.org.xmlpull" version="1.1.4.c">
+        <fileName>org.xmlpull/com.springsource.org.xmlpull-1.1.4.c.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.jedit.syntax" version="2.2.5">
+        <fileName>net.sf.taverna.jedit/jedit-syntax-2.2.5.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.activities.apiconsumer-activity" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.activities/apiconsumer-activity-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.activities.beanshell-activity" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.activities/beanshell-activity-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.activities.biomart-activity" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.activities/biomart-activity-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.activities.dataflow-activity" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.activities/dataflow-activity-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.activities.dependency-activity" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.activities/dependency-activity-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.activities.localworker-activity" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.activities/localworker-activity-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.activities.rest-activity" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.activities/rest-activity-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.activities.rshell-activity" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.activities/rshell-activity-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.activities.soaplab-activity" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.activities/soaplab-activity-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.activities.spreadsheet-import-activity" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.activities/spreadsheet-import-activity-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.activities.stringconstant-activity" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.activities/stringconstant-activity-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.activities.wsdl-activity" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.activities/wsdl-activity-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.activities.xpath-activity" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.activities/xpath-activity-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.baclava" version="0.1.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2/baclava-0.1.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.core.provenance-derby" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.core/provenance-derby-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.core.provenance-mysql" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.core/provenance-mysql-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.core.provenanceconnector" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.core/provenanceconnector-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.core.reference-api" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.core/reference-api-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.core.reference-core-extensions" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.core/reference-core-extensions-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.core.reference-impl" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.core/reference-impl-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.core.workflowmodel-api" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.core/workflowmodel-api-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.core.workflowmodel-core-extensions" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.core/workflowmodel-core-extensions-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.core.workflowmodel-impl" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.core/workflowmodel-impl-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.lang.beans" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.lang/beans-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.lang.io" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.lang/io-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.lang.observer" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.lang/observer-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.lang.ui" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.lang/ui-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.lang.uibuilder" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.lang/uibuilder-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.results" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2/results-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.security.credential-manager" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.security/credential-manager-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.security.credential-manager-impl" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.security/credential-manager-impl-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-activities.apiconsumer-activity-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-activities/apiconsumer-activity-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-activities.beanshell-activity-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-activities/beanshell-activity-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-activities.biomart-activity-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-activities/biomart-activity-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-activities.dataflow-activity-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-activities/dataflow-activity-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-activities.localworker-activity-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-activities/localworker-activity-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-activities.rest-activity-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-activities/rest-activity-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-activities.rshell-activity-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-activities/rshell-activity-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-activities.soaplab-activity-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-activities/soaplab-activity-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-activities.spreadsheet-import-activity-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-activities/spreadsheet-import-activity-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-activities.stringconstant-activity-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-activities/stringconstant-activity-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-activities.unrecognized-activity-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-activities/unrecognized-activity-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-activities.wsdl-activity-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-activities/wsdl-activity-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-activities.xpath-activity-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-activities/xpath-activity-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-api.activity-icons-api" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-api/activity-icons-api-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-api.activity-palette-api" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-api/activity-palette-api-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-api.activity-tools" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-api/activity-tools-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-api.configuration-api" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-api/configuration-api-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-api.contextual-views-api" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-api/contextual-views-api-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-api.edits-api" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-api/edits-api-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-api.file-api" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-api/file-api-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-api.helper-api" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-api/helper-api-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-api.menu-api" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-api/menu-api-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-api.renderers-api" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-api/renderers-api-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-api.report-api" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-api/report-api-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-api.selection-api" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-api/selection-api-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-api.workbench-api" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-api/workbench-api-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.activity-palette-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/activity-palette-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.contextual-views" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/contextual-views-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.credential-manager-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/credential-manager-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.data-management-config-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/data-management-config-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.design-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/design-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.graph-model" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/graph-model-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.graph-view" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/graph-view-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.monitor-view" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/monitor-view-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.perspective-design" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/perspective-design-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.perspective-results" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/perspective-results-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.reference-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/reference-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.results-view" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/results-view-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.run-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/run-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.workflow-explorer" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/workflow-explorer-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-components.workflow-view" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-components/workflow-view-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-exts.menu-items" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-exts/menu-items-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-exts.parallelize-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-exts/parallelize-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-exts.retry-ui" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-exts/retry-ui-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-impl.activity-palette-impl" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-impl/activity-palette-impl-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-impl.configuration-impl" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-impl/configuration-impl-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-impl.contextual-views-impl" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-impl/contextual-views-impl-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-impl.edits-impl" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-impl/edits-impl-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-impl.file-impl" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-impl/file-impl-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-impl.httpproxy-config" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-impl/httpproxy-config-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-impl.menu-impl" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-impl/menu-impl-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-impl.plugin-manager" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-impl/plugin-manager-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-impl.renderers-impl" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-impl/renderers-impl-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-impl.selection-impl" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-impl/selection-impl-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-impl.update-manager" version="2.0.1.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-impl/update-manager-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.t2.ui-impl.workbench-impl" version="2.0.0.SNAPSHOT">
+        <fileName>net.sf.taverna.t2.ui-impl/workbench-impl-2.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="net.sf.taverna.wsdl-generic" version="1.10.0">
+        <fileName>net.sf.taverna/wsdl-generic-1.10.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.apache.batik.osgi" version="1.7.0">
+        <fileName>org.apache.batik/batik-osgi-1.7.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.apache.commons.codec" version="1.7.0">
+        <fileName>commons-codec/commons-codec-1.7.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.apache.commons.configuration" version="1.9.0">
+        <fileName>commons-configuration/commons-configuration-1.9.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.apache.commons.io" version="2.4.0">
+        <fileName>commons-io/commons-io-2.4.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.apache.commons.lang" version="2.6">
+        <fileName>commons-lang/commons-lang-2.6.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.apache.felix.configadmin" version="1.6.0">
+        <fileName>org.apache.felix/org.apache.felix.configadmin-1.6.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.apache.felix.eventadmin" version="1.3.2">
+        <fileName>org.apache.felix/org.apache.felix.eventadmin-1.3.2.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.apache.httpcomponents.httpclient" version="4.2.5">
+        <fileName>org.apache.httpcomponents/httpclient-osgi-4.2.5.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.apache.httpcomponents.httpcore" version="4.2.5">
+        <fileName>org.apache.httpcomponents/httpcore-osgi-4.2.5.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.apache.jena.bundle" version="2.11.0.SNAPSHOT">
+        <fileName>org.apache.jena/jena-bundle-2.11.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.biomart.martservice" version="2.0.1.SNAPSHOT">
+        <fileName>org.biomart/martservice-2.0.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.purl.wf4ever.robundle" version="0.2.0">
+        <fileName>org.purl.wf4ever.robundle/robundle-0.2.0.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.springframework.aop" version="3.0.5.RELEASE">
+        <fileName>org.springframework/org.springframework.aop-3.0.5.RELEASE.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.springframework.asm" version="3.0.5.RELEASE">
+        <fileName>org.springframework/org.springframework.asm-3.0.5.RELEASE.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.springframework.beans" version="3.0.5.RELEASE">
+        <fileName>org.springframework/org.springframework.beans-3.0.5.RELEASE.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.springframework.context" version="3.0.5.RELEASE">
+        <fileName>org.springframework/org.springframework.context-3.0.5.RELEASE.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.springframework.core" version="3.0.5.RELEASE">
+        <fileName>org.springframework/org.springframework.core-3.0.5.RELEASE.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.springframework.expression" version="3.0.5.RELEASE">
+        <fileName>org.springframework/org.springframework.expression-3.0.5.RELEASE.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.springframework.jdbc" version="3.0.5.RELEASE">
+        <fileName>org.springframework/org.springframework.jdbc-3.0.5.RELEASE.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.springframework.orm" version="3.0.5.RELEASE">
+        <fileName>org.springframework/org.springframework.orm-3.0.5.RELEASE.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.springframework.osgi.core" version="2.0.0.M1">
+        <fileName>org.springframework.osgi/spring-osgi-core-2.0.0.M1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.springframework.osgi.extender" version="2.0.0.M1">
+        <fileName>org.springframework.osgi/spring-osgi-extender-2.0.0.M1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.springframework.osgi.extensions.annotations" version="2.0.0.M1">
+        <fileName>org.springframework.osgi/spring-osgi-annotation-2.0.0.M1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.springframework.osgi.io" version="2.0.0.M1">
+        <fileName>org.springframework.osgi/spring-osgi-io-2.0.0.M1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="org.springframework.transaction" version="3.0.5.RELEASE">
+        <fileName>org.springframework/org.springframework.transaction-3.0.5.RELEASE.jar</fileName>
+    </bundle>
+    <bundle symbolicName="slf4j.api" version="1.7.5">
+        <fileName>org.slf4j/slf4j-api-1.7.5.jar</fileName>
+    </bundle>
+    <bundle symbolicName="slf4j.log4j12" version="1.7.5">
+        <fileName>org.slf4j/slf4j-log4j12-1.7.5.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.mygrid.resources.mimeutil.mime-util" version="2.1.3.SNAPSHOT">
+        <fileName>uk.org.mygrid.resources.mimeutil/mime-util-2.1.3-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.commons.taverna-download-api" version="0.1.0.SNAPSHOT">
+        <fileName>uk.org.taverna.commons/taverna-download-api-0.1.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.commons.taverna-download-impl" version="0.1.0.SNAPSHOT">
+        <fileName>uk.org.taverna.commons/taverna-download-impl-0.1.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.commons.taverna-plugin-api" version="0.1.0.SNAPSHOT">
+        <fileName>uk.org.taverna.commons/taverna-plugin-api-0.1.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.commons.taverna-plugin-impl" version="0.1.0.SNAPSHOT">
+        <fileName>uk.org.taverna.commons/taverna-plugin-impl-0.1.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.commons.taverna-services-api" version="0.1.0.SNAPSHOT">
+        <fileName>uk.org.taverna.commons/taverna-services-api-0.1.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.commons.taverna-services-impl" version="0.1.0.SNAPSHOT">
+        <fileName>uk.org.taverna.commons/taverna-services-impl-0.1.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.commons.taverna-update-api" version="0.1.0.SNAPSHOT">
+        <fileName>uk.org.taverna.commons/taverna-update-api-0.1.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.commons.taverna-update-impl" version="0.1.0.SNAPSHOT">
+        <fileName>uk.org.taverna.commons/taverna-update-impl-0.1.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.commons.taverna-xml-schemas" version="0.1.0.SNAPSHOT">
+        <fileName>uk.org.taverna.commons/taverna-xml-schemas-0.1.0-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.configuration.taverna-app-configuration-api" version="0.1.1.SNAPSHOT">
+        <fileName>uk.org.taverna.configuration/taverna-app-configuration-api-0.1.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.configuration.taverna-app-configuration-impl" version="0.1.1.SNAPSHOT">
+        <fileName>uk.org.taverna.configuration/taverna-app-configuration-impl-0.1.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.configuration.taverna-configuration-api" version="0.1.1.SNAPSHOT">
+        <fileName>uk.org.taverna.configuration/taverna-configuration-api-0.1.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.configuration.taverna-configuration-impl" version="0.1.1.SNAPSHOT">
+        <fileName>uk.org.taverna.configuration/taverna-configuration-impl-0.1.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.configuration.taverna-database-configuration-api" version="0.1.1.SNAPSHOT">
+        <fileName>uk.org.taverna.configuration/taverna-database-configuration-api-0.1.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.configuration.taverna-database-configuration-impl" version="0.1.1.SNAPSHOT">
+        <fileName>uk.org.taverna.configuration/taverna-database-configuration-impl-0.1.1-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.databundle" version="0.2.1">
+        <fileName>uk.org.taverna.databundle/databundle-0.2.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.osgi.services.xml-parser-service" version="0.1.1">
+        <fileName>uk.org.taverna.osgi.services/xml-parser-service-0.1.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.osgi.services.xml-transformer-service" version="0.1.1">
+        <fileName>uk.org.taverna.osgi.services/xml-transformer-service-0.1.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.platform.taverna-capability-api" version="0.1.3.SNAPSHOT">
+        <fileName>uk.org.taverna.platform/taverna-capability-api-0.1.3-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.platform.taverna-capability-impl" version="0.1.3.SNAPSHOT">
+        <fileName>uk.org.taverna.platform/taverna-capability-impl-0.1.3-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.platform.taverna-execution-api" version="0.1.3.SNAPSHOT">
+        <fileName>uk.org.taverna.platform/taverna-execution-api-0.1.3-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.platform.taverna-execution-impl" version="0.1.3.SNAPSHOT">
+        <fileName>uk.org.taverna.platform/taverna-execution-impl-0.1.3-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.platform.taverna-execution-local" version="0.1.3.SNAPSHOT">
+        <fileName>uk.org.taverna.platform/taverna-execution-local-0.1.3-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.platform.taverna-report-api" version="0.1.3.SNAPSHOT">
+        <fileName>uk.org.taverna.platform/taverna-report-api-0.1.3-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.platform.taverna-run-api" version="0.1.3.SNAPSHOT">
+        <fileName>uk.org.taverna.platform/taverna-run-api-0.1.3-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.platform.taverna-run-impl" version="0.1.3.SNAPSHOT">
+        <fileName>uk.org.taverna.platform/taverna-run-impl-0.1.3-SNAPSHOT.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.scufl2.api" version="0.13.1">
+        <fileName>uk.org.taverna.scufl2/scufl2-api-0.13.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.scufl2.rdfxml" version="0.13.1">
+        <fileName>uk.org.taverna.scufl2/scufl2-rdfxml-0.13.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.scufl2.t2flow" version="0.13.1">
+        <fileName>uk.org.taverna.scufl2/scufl2-t2flow-0.13.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.scufl2.ucfpackage" version="0.13.1">
+        <fileName>uk.org.taverna.scufl2/scufl2-ucfpackage-0.13.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.scufl2.validation" version="0.13.1">
+        <fileName>uk.org.taverna.scufl2/scufl2-validation-0.13.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.scufl2.validation-correctness" version="0.13.1">
+        <fileName>uk.org.taverna.scufl2/scufl2-validation-correctness-0.13.1.jar</fileName>
+    </bundle>
+    <bundle symbolicName="uk.org.taverna.scufl2.validation-structural" version="0.13.1">
+        <fileName>uk.org.taverna.scufl2/scufl2-validation-structural-0.13.1.jar</fileName>
+    </bundle>
+</applicationProfile>

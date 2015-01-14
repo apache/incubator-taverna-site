@@ -1,0 +1,180 @@
+Package: taverna-workbench-bioinformatics
+Priority: optional
+Installed-Size: 312260
+Maintainer: myGrid <support@mygrid.org.uk>
+Architecture: amd64
+Version: 2.5.0
+Filename: repository/taverna-workbench-bioinformatics-2.5.0-linux_amd64.deb
+Size: 234888904
+MD5sum: 787d855b3bf993c8bf293909f65075b1
+SHA1: f059f21a0075fb4a81a390f90555f25849a103f9
+SHA256: 48ab49c5db4000ddcca9e4e212aae5eced38bd5df322ca0b3c458cf484bcda26
+SHA512: 344c12a5246e1aba2e06209816f1f2960cddfc0800796dd1652a9c9fdd48053375488736a85ad12f48f98f0cfb69bbe2c286c396af8611070cbfaa416a865ffa
+Description: Taverna Workbench Bioinformatics 2.5.0
+Date: Mon, 4 Aug 2014 15:08:46 +0100
+
+Package: taverna-workbench-enterprise
+Priority: optional
+Installed-Size: 312869
+Maintainer: myGrid <support@mygrid.org.uk>
+Architecture: amd64
+Version: 2.5.0
+Filename: repository/taverna-workbench-enterprise-2.5.0-linux_amd64.deb
+Size: 235336012
+MD5sum: 63039a58f43248c60c52b9f1de7bf58c
+SHA1: cc2c69d17c827e9475199bcfbeef8a89e343a5fb
+SHA256: b9b01ddf74528f10fc577bc2935ad016bbc831747536eb678b3dad0a7f529dd9
+SHA512: e3f058fc9867a81a9570b9b7f6bb659871a976617e5c58073706d14b3279da75876c349966ea0ecd099131464f38246307b7ff4ddb7dc15bdd0c4b282df46461
+Description: Taverna Workbench Enterprise 2.5.0
+Date: Mon, 4 Aug 2014 15:19:53 +0100
+
+Package: taverna-commandline-biodiversity
+Priority: optional
+Installed-Size: 232962
+Maintainer: myGrid <support@mygrid.org.uk>
+Architecture: amd64
+Version: 2.5.0
+Filename: repository/taverna-commandline-biodiversity-2.5.0-linux_amd64.deb
+Size: 164283840
+MD5sum: 1043d747d5c1c3aa0dff044a353daf4b
+SHA1: 642abc6d94742af5d3f3b03ad3f1d4e7e2ba4be2
+SHA256: af7df20fe1015aa8d2d86965e8423ea7461134acfa5f54b7329e66d0f04b2f2d
+SHA512: 638081eadbbcaaccac0567ce24234a5b6383cb892b74b15f8106d7e4376eabebf6c50811c9cce021e113caf504e5eefa97e9fcd842e5c302d6601c27ad166ac9
+Description: Taverna Command Line Tool Biodiversity 2.5.0
+Date: Tue, 5 Aug 2014 10:54:36 +0100
+
+Package: taverna-commandline-bioinformatics
+Priority: optional
+Installed-Size: 280904
+Maintainer: myGrid <support@mygrid.org.uk>
+Architecture: amd64
+Version: 2.5.0
+Filename: repository/taverna-commandline-bioinformatics-2.5.0-linux_amd64.deb
+Size: 208549232
+MD5sum: 5c785dd1a2eb02e22861ab1c4205840a
+SHA1: 3b3a519800c146778b4ea116d77d13c1292334b4
+SHA256: 23651ac4c0a120aa5d286b3e3322c17b46c35b1dfdd9bab7a63bc58cf4a418c5
+SHA512: 55cf3cfdb1baaf626fca47284a47e690306e29cc726fad69d7d0e50fd43578e7caed911808da1337ef2bd15616baba166f12db4ebe332f448ac56b6476e66cd6
+Description: Taverna Command Line Utility Bioinformatics 2.5.0
+Date: Tue, 5 Aug 2014 10:55:54 +0100
+
+Package: taverna-commandline-astronomy
+Priority: optional
+Installed-Size: 276081
+Maintainer: myGrid <support@mygrid.org.uk>
+Architecture: amd64
+Version: 2.5.0
+Filename: repository/taverna-commandline-astronomy-2.5.0-linux_amd64.deb
+Size: 203843688
+MD5sum: 1a26e3bdac3cd23fd910c47e18c577d5
+SHA1: 6a87b3cfd3dace83a2843ba4e09ed95e82b501e8
+SHA256: e65cafad23def31263c5e14b2fee01046207cdfd7d73aff1185d8e1b1c49219d
+SHA512: ef50bdc2ca976afe8a27f785e38808b06a55dc4bd02273c5ce4ca0dbe7d0e857d3a7a62b12c90fd333bfc9a0857636381ed6af970fb77ffc3e524ba3bb369ed6
+Description: Taverna Command Line Tool Astronomy 2.5.0
+Date: Mon, 4 Aug 2014 15:49:39 +0100
+
+Package: taverna-commandline-core
+Priority: optional
+Installed-Size: 232162
+Maintainer: myGrid <support@mygrid.org.uk>
+Architecture: amd64
+Version: 2.5.0
+Filename: repository/taverna-commandline-core-2.5.0-linux_amd64.deb
+Size: 163664524
+MD5sum: 2d947db4d79ab3a651edba2e9e195628
+SHA1: 50d5c1068f01d11a3a4e3d89c86f7602ddbd5cfd
+SHA256: e30618d74d42f7f48ea5faab58f7746621519112724b5d4b1e6f590cf593572f
+SHA512: 54efb11d3ee55de87c9b604ae22c858a056804f08d688e77fe8560d1e4dcb047e1d5bbc591ef87ceb4e2f9d00e56fdfabd441b980dbcc91cafdfff452cd38692
+Description: Taverna Command Line Tool Core 2.5.0
+Date: Mon, 4 Aug 2014 15:48:15 +0100
+
+Package: taverna-workbench-astronomy
+Priority: optional
+Installed-Size: 317101
+Maintainer: myGrid <support@mygrid.org.uk>
+Architecture: amd64
+Version: 2.5.0
+Filename: repository/taverna-workbench-astronomy-2.5.0-linux_amd64.deb
+Size: 239136758
+MD5sum: 6a91dd9e48c5ce7b52a35d1aeee70975
+SHA1: fba45d4698e9d126f06bed783656547bfae8a0e1
+SHA256: ab69a39d85dcda6db5005f38847ddf253d17b4921377f7d2b1a3b06557423675
+SHA512: 5ff5c0f444c02df57c10c8e039a59283c4af7199804d4c9837882bb44de25f246478281ee86fad587a28d1c0302baef634e469da02d457b18ce9e7d7a410abf8
+Description: Taverna Workbench Astronomy 2.5.0
+Date: Mon, 4 Aug 2014 15:18:27 +0100
+
+Package: taverna-workbench-biodiversity
+Priority: optional
+Installed-Size: 274404
+Maintainer: myGrid <support@mygrid.org.uk>
+Architecture: amd64
+Version: 2.5.0
+Filename: repository/taverna-workbench-biodiversity-2.5.0-linux_amd64.deb
+Size: 199982334
+MD5sum: e95bf91eeaa96e4648f5c5a7b4997804
+SHA1: 055201883375c7470f8a561311f76cdc026781e9
+SHA256: c0e2d970e1990e1ad290b028ec369297a7f111870faf24cb7552af337129fe76
+SHA512: b5523cfb03ac4dd2615bfdde260347ab7777a137dedfe327957b8de594214894fd74c6ef3ed705225cf9a96ecc5ac64e6a6625abc8a7ed72f325940478bbac7c
+Description: Taverna Workbench Biodiversity 2.5.0
+Date: Mon, 4 Aug 2014 15:05:33 +0100
+
+Package: taverna-commandline-digitalpreservation
+Priority: optional
+Installed-Size: 232962
+Maintainer: myGrid <support@mygrid.org.uk>
+Architecture: amd64
+Version: 2.5.0
+Filename: repository/taverna-commandline-digitalpreservation-2.5.0-linux_amd64.deb
+Size: 164298620
+MD5sum: 8a639ea5b126c39a0dbb452fe8fef241
+SHA1: ee59b0e51c6f2cb258dbc2046f502684c4458411
+SHA256: ed0b40dbe5625bffcd1e49c7120bcd9db0d882ce820c880fe264e1de8e5b2d89
+SHA512: e46f59d21ec66a2cc277bf5e6feb5ea323500d363d445317436b35aa0df345cee50b9741c9e52fe0b4d97a23f1fce8c47900ee4074be03a25ad9b8abbc39a2c2
+Description: Taverna Command Line Tool Digital Preservation 2.5.0
+Date: Tue, 5 Aug 2014 10:57:15 +0100
+
+Package: taverna-workbench-core
+Priority: optional
+Installed-Size: 272320
+Maintainer: myGrid <support@mygrid.org.uk>
+Architecture: amd64
+Version: 2.5.0
+Filename: repository/taverna-workbench-core-2.5.0-linux_amd64.deb
+Size: 198276160
+MD5sum: 3d29af92b7405eb97810e8e1dcc8085c
+SHA1: 8b530f516fb9657a568b812252539b40902927f5
+SHA256: 33b4f45111b72affc88dad917e637e45ca63f3903981a07f107bedbd11a7cde5
+SHA512: 42417ccc596a44a043a9280208d20803e9545362f76e514457c1d61868b36b240dd59a34952ed1578267ad71ba6990e70aeaf413cf2f24053cfd8d39317a66e3
+Description: Taverna Workbench Core 2.5.0
+Date: Mon, 4 Aug 2014 14:56:43 +0100
+
+Package: taverna-commandline-enterprise
+Priority: optional
+Installed-Size: 281705
+Maintainer: myGrid <support@mygrid.org.uk>
+Architecture: amd64
+Version: 2.5.0
+Filename: repository/taverna-commandline-enterprise-2.5.0-linux_amd64.deb
+Size: 209137352
+MD5sum: 49c26cc82adf08d3661415bfbd9acd4a
+SHA1: 980283a10035dc5d86b7d5428deba41af24f89e9
+SHA256: 3227ea2782b268a14f09d8579ed50281ab981f2d36c964d9902dec204fe066a7
+SHA512: ff071291d772a9cf490ca8e0a1ca778c5536269bd104188ec3c663a3b5196e1d2d26e93d24ba95ef1db19fa07b55a1cf00a4723f8e10ed4e24a176a7457cb9c9
+Description: Taverna Command Line Tool Enterprise 2.5.0
+Date: Tue, 5 Aug 2014 10:59:08 +0100
+
+Package: taverna-workbench-digitalpreservation
+Priority: optional
+Installed-Size: 272704
+Maintainer: myGrid <support@mygrid.org.uk>
+Architecture: amd64
+Version: 2.5.0
+Filename: repository/taverna-workbench-digitalpreservation-2.5.0-linux_amd64.deb
+Size: 198623106
+MD5sum: cef3cde6e3e51aa4378568f091622cd8
+SHA1: e93baef6e20b3ac97a2e053dfdf396397a659a0d
+SHA256: 361b1dd12a838410fa6ebaf3d6f36223871aee7f3454f856d9a1d172b60f9d9c
+SHA512: 79e94abba73f3010aad936252f3873dce479d52898844c9fbc94155ba496a53b5f672c0ab906637ce610922a8a7b5a7399d56dda6ac2cd0ffb5ac4dced703444
+Description: Taverna Workbench Digital Preservation 2.5.0
+Date: Mon, 4 Aug 2014 15:09:54 +0100
+

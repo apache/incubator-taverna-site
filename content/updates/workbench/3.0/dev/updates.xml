@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<updateSite xmlns="http://ns.taverna.org.uk/2013/application/profile" xmlns:ns2="http://ns.taverna.org.uk/2013/application/versions" xmlns:ns3="http://ns.taverna.org.uk/2013/application/plugin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.taverna.org.uk/2013/application/profile http://localhost/2013/application/profile/ApplicationProfile.xsd">
+    <versions>
+        <ns2:id>uk.org.taverna.workbench.taverna-workbench-product</ns2:id>
+        <ns2:name>Taverna Workbench</ns2:name>
+        <ns2:latestVersion>
+            <ns2:version>3.0.1.20131211T1539</ns2:version>
+            <ns2:file>ApplicationProfile-3.0.1.20131211T1539.xml</ns2:file>
+        </ns2:latestVersion>
+    </versions>
+</updateSite>
