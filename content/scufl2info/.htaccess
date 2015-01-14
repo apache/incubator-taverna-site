@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule (.*) /cgi-bin/scufl2info.cgi/$1
