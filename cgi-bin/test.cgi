@@ -7,5 +7,5 @@ pwd
 env
 type java
 ## Small memory footprint!
-java -Xmx32M -version
+java -Xmx32M -version 2>&1
 
