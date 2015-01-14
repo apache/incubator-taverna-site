@@ -21,6 +21,11 @@ To improve the Apache Taverna website, feel free to
 edit of this page</a> using <a href="http://www.apache.org/dev/cmsref.html">Apache CMS</a>. 
 You will need an <code>@apache.org</code> account to commit your changes.
 
+Update
+------
+If for some reason the edit page does not match the staged or production page, 
+this could be because your version of cms is not up to date with the underlying svn repository.
+Clicking on the [update] or [Update this directory] link, and then update this resource should solve that issue.
 
 Bookmark
 --------
@@ -35,3 +40,7 @@ Anonymous
 ---------
 It is possible to log on with the <code>anonymous</code> account but then you will not be able to commit any pages 
 only submit suggested changes t the mailing list.
+
+SVN
+---
+The raw pages are stored at <a href="http://svn.apache.org/repos/asf/incubator/taverna/site/">SVN site</a>.
