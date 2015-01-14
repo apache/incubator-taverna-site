@@ -1,7 +1,7 @@
 Options -MultiViews
 
 RewriteEngine On
-RewriteBase /2010/taverna
+RewriteBase /ns/2010/taverna
 
 # Strip /
 RewriteRule ^2.2$ 2.2/ [R=303]

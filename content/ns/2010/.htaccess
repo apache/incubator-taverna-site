@@ -1,7 +1,7 @@
 Options -MultiViews
 
 RewriteEngine On
-RewriteBase /2010
+RewriteBase /ns/2010
 
 
 ## http://ns.taverna.org.uk/2010/scufl2#

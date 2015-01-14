@@ -1,7 +1,7 @@
 Options -MultiViews
 
 RewriteEngine on
-RewriteBase /2012/component/profile
+RewriteBase /ns/2012/component/profile
 
 RewriteRule ^$ ComponentProfile.xsd [R=303]
 

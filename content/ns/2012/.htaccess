@@ -1,6 +1,6 @@
 Options -MultiViews 
 RewriteEngine On
-RewriteBase /2012
+RewriteBase /ns/2012
 
 # Add /
 RewriteRule ^tavernaprov$ tavernaprov/ [R=303]
