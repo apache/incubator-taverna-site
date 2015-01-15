@@ -27,3 +27,19 @@ Contact
 -------
 
 Work being done by Christian Brenninkmeijer. [Je Suis Charlie](http://en.wikipedia.org/wiki/Je_suis_Charlie)
+
+Open Questions
+--------------
+
+What to Migrate?
+
+  - Overview stuff 
+  - Command line stuff 
+  - Workbench stuff 
+  - 2.5 download links
+  - News
+
+**Boostrap / Style Questions**
+
+class container (Fixed width) vs container-full (Full Width)
+
