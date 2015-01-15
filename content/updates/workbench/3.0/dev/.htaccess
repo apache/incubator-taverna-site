@@ -1,2 +1,4 @@
 RewriteEngine On
-RewriteRule (.*ApplicationProfile-.*).xml $1--xml.cgi
+
+## how to get this to work..
+#RewriteRule (.*ApplicationProfile-.*).xml $1--xml.cgi
