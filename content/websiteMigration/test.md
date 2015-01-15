@@ -34,6 +34,10 @@ Testing django
 --------------
 {% comment %} This is a comment {% endcomment %}
 
+{% filter force_escape|lower %}
+    This text will be HTML-escaped, and will appear in all lowercase.
+{% endfilter %}
+
 Edit
 ----
 To edit a page 
