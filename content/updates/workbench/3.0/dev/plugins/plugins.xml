@@ -10,6 +10,6 @@ This plugin provides a new perspective and a new menu.</ns3:description>
             <ns3:version>0.1.0.20131211T1741</ns3:version>
             <ns3:file>uk.org.taverna.commons.taverna-plugin-test-0.1.0.20131211T1741.jar</ns3:file>
         </ns3:latestVersion>
-        <organization>myGrid</organization>
+        <organization>Apache Taverna (incubating)</organization>
     </plugin>
 </plugins>

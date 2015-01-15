@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-[format "xml"]
 <applicationProfile xmlns="http://ns.taverna.org.uk/2013/application/profile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.taverna.org.uk/2013/application/profile http://localhost/2013/application/profile/ApplicationProfile.xsd">
-    <id>uk.org.taverna.workbench.taverna-workbench-product</id>
-    <name>Taverna Workbench</name>
+    <id>org.apache.taverna.workbench</id>
+    <name>Apache Taverna Workbench</name>
     <version>3.0.2-dynamic-test</version>
     <updates>
         <updateSite>https://taverna.incubator.apache.org/updates/workbench/3.0/dev/</updateSite>
         <updatesFile>updates.xml</updatesFile>
 
-        <libDirectory>[preferred]/incubator/taverna/lib</libDirectory>
+        [format "xml"]
+        <libDirectory>[preferred]incubator/taverna/lib</libDirectory>
 
             <!-- or try one of -->
 
              [for http] 
-                <libDirectory>[http]/incubator/taverna/lib</libDirectory>
+                <libDirectory>[http]incubator/taverna/lib</libDirectory>
              [end]
 
              <!-- backup sites (last resort) -->
              [for backup] 
-                <libDirectory>[backup]/incubator/taverna/lib</libDirectory>
+                <libDirectory>[backup]incubator/taverna/lib</libDirectory>
              [end]
+        [end]
         <pluginSite>https://taverna.incubator.apache.org/updates/workbench/3.0/dev/plugins/</pluginSite>
         <pluginsFile>plugins.xml</pluginsFile>
     </updates>
@@ -663,4 +664,3 @@
         <fileName>uk.org.taverna.scufl2/scufl2-validation-structural-0.13.1.jar</fileName>
     </bundle>
 </applicationProfile>
-[format]
