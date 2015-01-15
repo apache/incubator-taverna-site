@@ -1,4 +1,4 @@
-Title:     Test Page
+Title:     Title in Header
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -30,3 +30,15 @@ Table
 | Content Cell  | Content Cell |
 | Content Cell  | Content Cell |
  
+Testing django
+--------------
+{% comment %} This is a comment {% endcomment %}
+
+Edit
+----
+To edit a page 
+<a href="javascript:void(location.href='https://cms.apache.org/redirect?uri='+escape(location.href))">edit of this page</a>
+
+If you add this link as a bookmark them it will work from any apache page.
+
+Note: An <code>@apache.org</code> account is required.
