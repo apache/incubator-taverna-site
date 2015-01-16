@@ -25,3 +25,8 @@ which executes the jar of [scufl2-info](../../scripts/scufl2-info/) - see the
 Note that as the cgi-bin script has a very slow startup (~ 4 seconds/request), 
 `/scufl2info/` and `/cgi-bin/` are is excluded in [robots.txt](../robots.txt).
 
+
+
+UPDATE 2015-01-16: The cgi-bin script is very unreliable and gives Internal Server Error on 60% of requests. Probably killing apache.org server.. so changed .htaccess back to redirecting to myGrid-hosted http://guess.taverna.org.uk/
+
+TODO: Rewrite in Python cgi-bin or move webapp to appspot.com
