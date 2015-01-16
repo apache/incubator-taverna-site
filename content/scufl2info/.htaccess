@@ -1,2 +1,4 @@
 RewriteEngine On
-RewriteRule (.*) /cgi-bin/scufl2info.cgi/$1
+# No - Breaks!
+#RewriteRule (.*) /cgi-bin/scufl2info.cgi/$1
+RewriteRule (.*) http://guess.taverna.org.uk/$1 [L,R=permanent]
