@@ -25,24 +25,16 @@ Action column lists what is planned for each page:
   <dd>The contents of this page will be migrated/dd>
   <dt>Edit</dt>
   <dd>The content of this place will be migrated, but the page will require significant editing.</dd>
-  <dt>Replace</dt>
-  <dd>This page should be replaced with a completely new version with roughly the same purpose</dd>
   <dd>Merge (XXX)</dd>
   <dt>These pages should all be merged onto a single page with title XXX</dt>
-  <dt>Link to</dt>
-  <dd>This page should not be migrated but may be linked to from the Apache website</dd>
   <dt>Leave</dt>
   <dd>This page is valid for the old website but not the new one</dd> 
-  <dt>Deprecate</dt>
-  <dd>This page is so old it should be marked as deprecate on the old website</dd>
-  <dt>Remove</dt>
-  <dd>This page is so incorrect it should be removed, even if it results in a broken link.</dd>
+  <dt>Ignore</dt>
+  <dd>This page is just a link and not required on the new site</dd> 
 </dl> 
 
 The Status column lists what has been done so far:
  <dl>
-   <dt>To Check</dt>
-   <dd>Page needs to be checked to propose an action</dd>
    <dt>To do</dt>
    <dd>Action not yet carried out</dd>
    <dt>Moved</dt>
@@ -50,7 +42,7 @@ The Status column lists what has been done so far:
    <dt>Done</dt>
    <dd>Page now in an acceptable state on Apache website</dd>
    <dt>N/A</dt>
-   <dd>No corrosponding page required on Apache website</dd>
+   <dd>No corresponding page required on Apache website</dd>
 </dl>
 
 <table style="width:100%" border="1">
