@@ -38,7 +38,7 @@ Proposal migrate anyway and add a warning that this is mainly about None Apache 
 
 **Taverna 2 Downloads**
 Should Taverna 2 downloads be included
-Proposal yes but with clear Non Apache message
+Proposal yes keep <http://taverna.incubator.apache.org/download/pre-apache.html>
 
 **Taverna in Use**
 This section is across many pages and may need correction.
@@ -54,7 +54,15 @@ For Apache news decide between
  2. Link to blog site such as https://blogs.apache.org/OOo/
  3. Work out way to capture so other stream
 
+**Wiki**
+<http://www.taverna.org.uk/> contains many links to <http://dev.mygrid.org.uk/wiki> 
+The proposal is not to include wiki migration at this stage so to just include these links unless broken.
+
 **Bootstrap / Style Questions**
 
 class container (Fixed width) vs container-full (Full Width = Suggestion try Full
 
+top bar: A single menu/nav bar one for every page.
+
+side bar: For large pages longer than two screens even on a very wide screen.
+Have a page specific menubar on the right. Possibly hiding it on small screens.
