@@ -32,7 +32,29 @@ Work being done by Christian Brenninkmeijer.
 Open Questions
 --------------
 
-**Boostrap / Style Questions**
+**Taverna 2 Stuff**
+Most of the current documentation is Taverna 2 based. 
+Proposal migrate anyway and add a warning that this is mainly about None Apache Taverna 2
+
+**Taverna 2 Downloads**
+Should Taverna 2 downloads be included
+Proposal yes but with clear Non Apache message
+
+**Taverna in Use**
+This section is across many pages and may need correction.
+Proposal combine into a single page and correct once moved
+
+**News**
+Old website is wordpress based so has one page per news item.
+Those few Apache sites that have a news page combine these into a single page.
+Proposal make a single page for Archived non Apache news.
+For Apache news decide between 
+
+ 1. Single news page manually filled in such as http://lucene.apache.org/mainnews
+ 2. Link to blog site such as https://blogs.apache.org/OOo/
+ 3. Work out way to capture so other stream
+
+**Bootstrap / Style Questions**
 
 class container (Fixed width) vs container-full (Full Width = Suggestion try Full
 
