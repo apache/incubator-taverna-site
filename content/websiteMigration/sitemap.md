@@ -25,8 +25,8 @@ Action column lists what is planned for each page:
   <dd>The contents of this page will be migrated/dd>
   <dt>Edit</dt>
   <dd>The content of this place will be migrated, but the page will require significant editing.</dd>
-  <dd>Merge (XXX)</dd>
-  <dt>These pages should all be merged onto a single page with title XXX</dt>
+  <dt>Merge (XXX)</dt>
+  <dd>These pages should all be merged onto a single page with title XXX</dd>
   <dt>Leave</dt>
   <dd>This page is valid for the old website but not the new one</dd> 
   <dt>Ignore</dt>
