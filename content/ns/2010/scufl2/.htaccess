@@ -1,21 +1,22 @@
 Options -MultiViews
 
 RewriteEngine On
+RewriteBase /ns/2010/scufl2/
 
 
 ## http://ns.taverna.org.uk/2010/scufl2#
 
-# For all terms 
-RewriteRule ^scufl2/.+ scufl2 [R=303]
 #
 RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
-RewriteRule ^$ scufl2.rdf
+RewriteRule ^$ scufl2.rdf [R=303]
 #
 RewriteCond %{HTTP_ACCEPT} text\.+turtle
-RewriteRule ^$ scufl2.ttl
+RewriteRule ^$ scufl2.ttl [R=303]
 #
 RewriteCond %{HTTP_ACCEPT} text/html
-RewriteRule ^$ http://dev.mygrid.org.uk/wiki/display/developer/Scufl2+Ontology
+RewriteRule ^$ http://dev.mygrid.org.uk/wiki/display/developer/Scufl2+Ontology [R=303]
 # Default
-RewriteRule ^$ scufl2.ttl 
+RewriteRule ^$ scufl2.ttl [R=303]
 
+# For all terms 
+#RewriteRule ^scufl2/.+ scufl2 [R=303]
