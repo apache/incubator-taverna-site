@@ -13,11 +13,11 @@ RewriteRule ^$ scufl2.rdf [R=303,L]
 RewriteCond %{HTTP_ACCEPT} text\.+turtle
 RewriteRule ^$ scufl2.ttl [R=303,L]
 #
-RewriteCond %{HTTP_ACCEPT} application/xml
-RewriteRule ^$ scufl2.xsd [R=303,L]
-#
 RewriteCond %{HTTP_ACCEPT} text/html
 RewriteRule ^$ http://dev.mygrid.org.uk/wiki/display/developer/Scufl2+Ontology [R=303,L]
+#
+RewriteCond %{HTTP_ACCEPT} application/xml
+RewriteRule ^$ scufl2.xsd [R=303,L]
 # Default is the ontology
 RewriteRule ^$ scufl2.ttl [R=303,L]
 
