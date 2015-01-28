@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">	  
+    <meta name="viewport" content="width=device-width, initial-scale=1">      
+    <title>Apache Taverna - {% block title %}{{ headers.title }}{% endblock %}</title>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta property="og:image" content="/img/taverna-logo-145x134.png" />
+
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="icon" type="image/png" sizes="145x134" href="/img/taverna-logo-145x134.png">
+	<link rel="apple-touch-icon" sizes="145x134" href="/img/taverna-logo-145x134.png">
+
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/sticky-footer-navbar.css">
+    <link rel="stylesheet" href="/css/taverna.css">
+
+    {% if headers.atom %}
+      <link rel="alternate" href="{{ headers.atom.url }}"
+            type="application/atom+xml" title="{{ headers.atom.title }}" />
+    {% endif %}
+
+    {% if headers.base %}<base href="{{ headers.base }}" />{% endif %}
+    {% if headers.notice %}<!-- {{ headers.notice }} -->{% endif %}
+
+    <!-- JSON-LD markup for Google Structured Data -->
+	{% if headers.jsonld %}
+	  <!-- custom JSON-LD for this page -->
+	  <script type="application/ld+json">  
+		  {{ headers.jsonld|safe}}
+	  </script>
+	{% endif %}
+	  <!-- generic JSON-LD for this page -->
+	  <script type="application/ld+json">  
+		{
+			"@context" : "http://schema.org",
+			"@type" : ["CreativeWork"],
+			"@id": "",
+			"name" : "{{ headers.title|safe }}",
+			"publisher" : {
+				"@type" : "Organization", 
+				"url" : "http://www.apache.org/",
+				"name" : "The Apache Software Foundation (ASF)" 
+			},
+			"license": { 
+				"@type": "CreativeWork",
+				"@id": "http://www.apache.org/licenses/LICENSE-2.0",
+				"url": "http://www.apache.org/licenses/LICENSE-2.0",
+				"name": "Apache License, Version 2.0"
+			}
+		}		
+</script>
+	  
+  </head>
+
+  <body>
+	  
+	  
+    
+    
+          <!-- Static navbar -->
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+			<a class="navbar-brand" href="/"><img src="/img/taverna-logo-145x134.png" alt="">Apache Taverna</a>
+			  
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">              
+                <li><a href="/about/">About</a></li>
+                <li class="dropdown">
+					<a href="/download/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Download<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+					  <li><a href="/download/">Apache Taverna 3.x</a></li>
+					  <li><a href="/download/pre-apache.html">Taverna 2.x (Pre-Apache)</a></li>
+				  </ul>
+				</li>
+                <li><a href="/doc/">Documentation</a></li>
+                <li><a href="/code/">Code</a></li>            
+                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/introduction/">Contact</a></li>
+            </ul>
+             
+              <form >
+                      
+                      
+                      <!--<input type="submit" id="submit" value="Search">-->
+                    </form>
+              
+              <form class="navbar-form navbar-right" role="search"
+                  name="search" id="search" action="http://www.google.com/search" method="get">
+                      <input value="taverna.incubator.apache.org" name="sitesearch" type="hidden"/>
+                      <div class="form-group input-group">
+                          <input type="text" name="q" id="query" placeholder="Search" class="form-control">
+						  <span class="input-group-btn">
+                            <button type="submit" class="btn btn-default">Search</button>
+						  </span>
+                      </div>                  
+              </form>
+
+             <ul class="nav navbar-nav navbar-right">                
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ASF<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="http://www.apache.org/">Apache Software Foundation</a></li>
+                    <li><a href="http://www.apache.org/foundation/how-it-works.html">How it works</a></li>
+                    <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
+                    <li><a href="http://www.apache.org/foundation/sponsorship.html">Become a Sponsor</a></li>
+                    <li><a href="http://incubator.apache.org/projects/taverna.html">Taverna Incubation Status</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+    
+    
+      
+    
+    <div id="page" class="container-fluid">
+       <h1>{% block tagline %}{{ headers.title }}{% endblock %}</h1>
+      <div id="nav">        
+          <!-- Is this needed?
+        <p>{{ breadcrumbs|safe }}</p>
+ -->
+      </div>
+      
+      {% block content %}<div id="content">{{ content|markdown }}</div>{% endblock %}
+      
+    </div>
+
+
+    
+
+    <footer class="footer">
+      <div class="container">
+           <p id="copyright" class="text-muted">
+              Copyright &#169; 2014 The Apache Software Foundation, Licensed under the 
+              <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
+              Apache and the Apache feather logo are trademarks of The Apache Software Foundation.
+          </p>
+      </div>
+    </footer>
+      
+    <script src="/lib/jquery/jquery-1.11.1.min.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+      
+  </body>
+</html>
