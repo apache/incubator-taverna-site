@@ -16,7 +16,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-{% extends "tavern2.html" %}
+{% extends "/websiteMigration/tavern2.html" %}
 
 Test Header
 =========
