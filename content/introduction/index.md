@@ -22,7 +22,7 @@ Taverna is an open source domain independent <a href="/introduction/what-is-a-wo
 a suite of tools used to design and execute <a href="/introduction/why-use-workflows/">scientific workflows</a>.
 Taverna was started by the <a href="http://www.mygrid.org.uk">myGrid project</a> and originally funded through a range of <a href="/about/supporters/">organisations and projects</a>.
 </p>
-<p ><a href="/img/Taverna_Intro_slide1.png"><img class="img-responsive" title="Taverna_Intro_slide1" src="/img/Taverna_Intro_slide1.png" alt="" semap="#tavernamap" /></a></p>
+<p ><a href="/img/Taverna_Intro_slide1.png"><img class="img-responsive" width="100%" title="Taverna_Intro_slide1" src="/img/Taverna_Intro_slide1.png" alt="" semap="#tavernamap" /></a></p>
 <map name="tavernamap">
 <area shape="rect" coords="200,100,300,193" href="http://www.taverna.org.uk/download/workbench/" alt="Taverna Workbench" />
 <area shape="rect" coords="316,102,415,196" href="http://www.taverna.org.uk/developers/work-in-progress/taverna-lite/" alt="Taverna Lite" />
