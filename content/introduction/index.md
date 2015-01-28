@@ -70,12 +70,12 @@ limited technical resources and support,
 to construct highly complex analyses over data and computational resources that are both public and private, 
 all from a standard PC, UNIX box or Apple computer.
 </p>
-<p>
+<p class="row text-center">
 <a href="/img/Taverna_Spectrum_Slide.png">
-    <img wp-image-8063" title="Taverna_Spectrum_Slide" src="/img/Taverna_Spectrum_Slide.png" alt="" width="680" height="400" />
+    <img title="Taverna_Spectrum_Slide" src="/img/Taverna_Spectrum_Slide.png" alt="" width="680" height="400" />
 </a>
 </p>
-<p>
+<p class="row text-center">
 (<a href="http://www.taverna.org.uk/pages/wp-content/uploads/2013/05/Taverna_Spectrum_Slide.pptx">Download a (None Apache)</a> 
 presentation slide of the above)
 </p>
@@ -85,6 +85,6 @@ See a full list of <a href="/introduction/taverna-features/">Taverna&#8217;s fea
 <br/>
 The screenshot shown below shows the Taverna Workbench 2.x during the design of a workflow.
 </p>
-<p>
+<p class="row text-center">
 <img src="/img/Taverna_Workbench.png" alt="Taverna 2.1 Workbench Design Perspective" width="606" height="392" />
 </p>
