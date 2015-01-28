@@ -23,7 +23,7 @@ a suite of tools used to design and execute <a href="/introduction/why-use-workf
 Taverna was started by the <a href="http://www.mygrid.org.uk">myGrid project</a> and originally funded through a range of <a href="/about/supporters/">organisations and projects</a>.
 </p>
 <p class="row text-center">
-<a href="/img/Taverna_Intro_slide1.png"><img width="680" height = "382" title="Taverna_Intro_slide1" src="/img/Taverna_Intro_slide1.png" alt="" semap="#tavernamap" /></a></p>
+<a href="/img/Taverna_Intro_slide1.png"><img width="680" height="382" title="Taverna_Intro_slide1" src="/img/Taverna_Intro_slide1.png" alt="" usemap="#tavernamap" /></a></p>
 <map name="tavernamap">
 <area shape="rect" coords="200,100,300,193" href="http://www.taverna.org.uk/download/workbench/" alt="Taverna Workbench" />
 <area shape="rect" coords="316,102,415,196" href="http://www.taverna.org.uk/developers/work-in-progress/taverna-lite/" alt="Taverna Lite" />
@@ -53,7 +53,8 @@ Taverna was started by the <a href="http://www.mygrid.org.uk">myGrid project</a>
 <area shape="rect" coords="560,290,678,358" href="http://www.osgi.org/Main/HomePage" alt="OSGi Alliance" />
 <area shape="rect" coords="200,344,422,380" href="http://www.taverna.org.uk/documentation/faq/security/" alt="Security" /> 
 </map>
-<p> 
+</p>
+<p class="row text-center"> 
 <a href="http://www.taverna.org.uk/pages/wp-content/uploads/2013/05/Taverna-Intro-slide1.pptx">Download a (None Apache)</a>  presentation slide of the above)
 </p>
 <p>
