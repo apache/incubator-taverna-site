@@ -1,0 +1,55 @@
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">	  
+    <meta name="viewport" content="width=device-width, initial-scale=1">      
+    <title>Apache Taverna - {% block title %}{{ headers.title }}{% endblock %}</title>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta property="og:image" content="/img/taverna-logo-145x134.png" />
+
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="icon" type="image/png" sizes="145x134" href="/img/taverna-logo-145x134.png">
+	<link rel="apple-touch-icon" sizes="145x134" href="/img/taverna-logo-145x134.png">
+
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/css/sticky-footer-navbar.css">
+    <link rel="stylesheet" href="/css/taverna.css">
+
+    {% if headers.atom %}
+      <link rel="alternate" href="{{ headers.atom.url }}"
+            type="application/atom+xml" title="{{ headers.atom.title }}" />
+    {% endif %}
+
+    {% if headers.base %}<base href="{{ headers.base }}" />{% endif %}
+    {% if headers.notice %}<!-- {{ headers.notice }} -->{% endif %}
+
+    <!-- JSON-LD markup for Google Structured Data -->
+	{% if headers.jsonld %}
+	  <!-- custom JSON-LD for this page -->
+	  <script type="application/ld+json">  
+		  {{ headers.jsonld|safe}}
+	  </script>
+	{% endif %}
+	  <!-- generic JSON-LD for this page -->
+	  <script type="application/ld+json">  
+		{
+			"@context" : "http://schema.org",
+			"@type" : ["CreativeWork"],
+			"@id": "",
+			"name" : "{{ headers.title|safe }}",
+			"publisher" : {
+				"@type" : "Organization", 
+				"url" : "http://www.apache.org/",
+				"name" : "The Apache Software Foundation (ASF)" 
+			},
+			"license": { 
+				"@type": "CreativeWork",
+				"@id": "http://www.apache.org/licenses/LICENSE-2.0",
+				"url": "http://www.apache.org/licenses/LICENSE-2.0",
+				"name": "Apache License, Version 2.0"
+			}
+		}		
+</script>
+	  
+  </head>
