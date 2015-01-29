@@ -1,1 +1,21 @@
-{% extends "skeleton.html" %}
+<!DOCTYPE html>
+<html lang="en">
+    {% extends "default_head.html" %}
+    {% endextends %}
+
+  <body>
+
+    {% extends "default_navbar.html" %}
+    {% endextends %}
+
+    <div id="page" class="container">
+       <h1>{% block tagline %}{{ headers.title }}{% endblock %}</h1>
+      {% block content %}<div id="content">{{ content|markdown }}</div>{% endblock %}
+
+    </div>
+
+    {% extends "default_footer.html" %}
+    {% endextends %}
+
+  </body>
+</html>
