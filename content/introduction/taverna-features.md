@@ -1,4 +1,4 @@
-[The Taverna suite of tools]{/introduction/} are bringing together a range of features to make it easier for users to find, design and execute complex workflows and share them with other people.
+[The Taverna suite of tools][1] are bringing together a range of features to make it easier for users to find, design and execute complex workflows and share them with other people.
 
 Freely available
 
@@ -19,8 +19,8 @@ Wide range of services and extensible architecture
   - Service creation for external tools or Java libraries
   - Calling tools/scripts on a local machine or remote machines (via ssh)
   - Extensible service plug-in architecture for adding new service types
-  - [Fully integrated support for browsing curated service catalogues]{introduction/taverna-features/biocatalogue-integration/}, 
-         such as the [BioCatalogue]{http://www.biocatalogue.org/}, for Web services (WSDL/SOAP and REST)
+  - [Fully integrated support for browsing curated service catalogues][2], 
+         such as the [BioCatalogue][3], for Web services (WSDL/SOAP and REST)
   - Interaction with a running workflow within a web browser
   - Ability to define and share semantically annotated components, and have them used as services in workflows
 
@@ -42,7 +42,7 @@ Versatile Workbench
 Create your own or start from existing workflows
 
   - Easy design of new workflows
-  - Load existing workflows (from a disk, [myExperiment]{http://www.myexperiment.org/} or a URL)
+  - Load existing workflows (from a disk, [myExperiment][4] or a URL)
   - View workflow layout and logic
   - Modify existing workflows
   - Load workflows in off-line mode (when disconnected from the Internet)
@@ -52,7 +52,7 @@ Create your own or start from existing workflows
 
 Find workflows created by others and share yours
 
-  - [Full myExperiment search options for browsing workflows]{http://www.taverna.org.uk/introduction/taverna-features/myexperiment-integration/}
+  - [Full myExperiment search options for browsing workflows][5]
   - Publish workflows on myExperiment for use by others
 
 Execute and debug your workflows
@@ -78,10 +78,17 @@ Track workflow runs and results
 
   - Record workflow execution provenance
   - Review provenance of previous workflow runs
-  - Experimental export of provenance in the [OPM]{http://openprovenance.org/} and Janus formats
+  - Experimental export of provenance in the [OPM][6] and Janus formats
 
 Support
 
   - End user technical support and e-mail help desk
   - Tutorials and workshops
 
+
+  [1]: /introduction/
+  [2]: /introduction/taverna-features/biocatalogue-integration/
+  [3]: http://www.biocatalogue.org/
+  [4]: http://www.myexperiment.org/
+  [5]: /introduction/taverna-features/myexperiment-integration/
+  [6]: http://openprovenance.org/
