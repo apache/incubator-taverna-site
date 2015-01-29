@@ -49,7 +49,7 @@ Representations of all required heterogeneous resources are integrated into this
 
 An example of simple workflow that retrieves a weather forecast for the specified city
 
-<img class="img-center" title="Get weather forecast for a city workflow" src="/img/get_weather_workflow.png" 
+<img class="text-cente" title="Get weather forecast for a city workflow" src="/img/get_weather_workflow.png" 
    alt="An example of simple workflow that retrieves a weather forecast for the specified city" 
    width="195" height="269" />
 
