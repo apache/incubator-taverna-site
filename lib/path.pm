@@ -3,6 +3,9 @@ package path;
 # taken from django's url.py
 
 our @patterns = (
+    #testing different templates
+	[qr!/websiteMigration/\.md(?:text)?$!, single_narrative => { template => "wide.html" }],
+    
 	[qr!\.md(?:text)?$!, single_narrative => { template => "single_narrative.html" }],
  
 	[qr!/sitemap\.html$!, sitemap => { headers => { title => "Sitemap" }} ],
