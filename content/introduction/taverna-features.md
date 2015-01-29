@@ -85,7 +85,8 @@ Support
   - End user technical support and e-mail help desk
   - Tutorials and workshops
 
-<h2 name="myexperiment-integration"> myExperiment integration</h2>
+<a name="myexperiment-integration"/>
+##myExperiment integration##
 
 [<img src="/img/MyExperiment_logo_1672x320.png" alt="myExperiment" width="394" height="75" />][7]
 
@@ -107,7 +108,8 @@ A snapshot of the myExperiment Perspective in Taverna can be seen in the image b
 
 <img src="/img/myExperimentPerspective.png" alt="myExperiment plugin for Taverna screenshot" width="100%"/>
 
-<h2 name ="biocataloue-integration">BioCatalogue integration</h2>
+<a name ="biocataloue-integration"/>
+##BioCatalogue integration##
 
 [<img src="/img/biocatalogue_without_text.png" alt="BioCatalogue" width="488" height="97" />][9]
 
