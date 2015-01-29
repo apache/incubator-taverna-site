@@ -85,6 +85,26 @@ Support
   - End user technical support and e-mail help desk
   - Tutorials and workshops
 
+##myExperiment integration##
+
+[![www.myexperiment.org][7]][4]
+
+[myExperiment][4] is a social networking site and Virtual Research Environment (VRE) designed for people to share, discover and reuse workflows.
+
+myExperiment enables scientists to contribute to a pool of workflows that can be reused and repurposed by other scientists, promoting building of communities, forming of relationships and collaboration. In this way, myExperiment helps reduce time-to-experiment, share expertise and avoid reinvention.
+
+It is widely used, as demonstrated by their being 8820 members in 304 groups. Its actual take up shows that there are 2415 workflows, consisting of 604 files. The number of packs (research objects) currently in use stands at 229.
+
+###Find myExperiment workflows by others and share yours from Taverna###
+
+As of version 2.1, Taverna has a built-in support for myExperiment, enabling users to browse myExperiment Web site from inside the Taverna Workbench.
+
+Users can access the full myExperiment search options for browsing workflows, load existing workflows from myExperiment or publish their workflows on myExperiment for use by others.
+
+A snapshot of the myExperiment Perspective in Taverna can be seen in the image below.
+
+![myExperiment Perspective][8]
+
 
   [1]: /introduction/
   [2]: /introduction/taverna-features/biocatalogue-integration/
@@ -92,3 +112,5 @@ Support
   [4]: http://www.myexperiment.org/
   [5]: /introduction/taverna-features/myexperiment-integration/
   [6]: http://openprovenance.org/
+  [7]: img/MyExperiment_logo_1672x320.png
+  [8]: img/myExperimentPerspective.png
