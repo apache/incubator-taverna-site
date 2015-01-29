@@ -87,7 +87,7 @@ Support
 
 ##myExperiment integration##
 
-[![www.myexperiment.org][7]][4]
+[<img src="/img/MyExperiment_logo_1672x320.png" alt="myExperiment" width="394" height="75" />][4]
 
 [myExperiment][4] is a social networking site and Virtual Research Environment (VRE) designed for people to share, discover and reuse workflows.
 
@@ -103,8 +103,7 @@ Users can access the full myExperiment search options for browsing workflows, lo
 
 A snapshot of the myExperiment Perspective in Taverna can be seen in the image below.
 
-![myExperiment Perspective][8]
-
+<img src="/img/myExperimentPerspective.png" alt="myExperiment plugin for Taverna screenshot" width="100%"/>
 
   [1]: /introduction/
   [2]: /introduction/taverna-features/biocatalogue-integration/
@@ -112,5 +111,4 @@ A snapshot of the myExperiment Perspective in Taverna can be seen in the image b
   [4]: http://www.myexperiment.org/
   [5]: /introduction/taverna-features/myexperiment-integration/
   [6]: http://openprovenance.org/
-  [7]: /img/MyExperiment_logo_1672x320.png =394x75
-  [8]: /img/myExperimentPerspective.png
+ 
