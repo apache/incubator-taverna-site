@@ -3,9 +3,9 @@ package path;
 # taken from django's url.py
 
 our @patterns = (
-    #testing different templates
-	[qr!/websiteMigration/test\.md(?:text)?$!, wide => { template => "wide.html" }],
-	[qr!/introduction/.*\.md(?:text)?$!, single_with_taverna2_warning => { template => "single_with_taverna2_warning.html" }],
+    #Using different templates
+	[qr!/websiteMigration/test\.md(?:text)?$!, single_narrative => { template => "wide.html" }],
+	[qr!/introduction/.*\.md(?:text)?$!, single_narrative => { template => "single_with_taverna2_warning.html" }],
     
     
 	[qr!\.md(?:text)?$!, single_narrative => { template => "single_narrative.html" }],
