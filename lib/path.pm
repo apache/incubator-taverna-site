@@ -4,7 +4,7 @@ package path;
 
 our @patterns = (
     #testing different templates
-	[qr!/websiteMigration/\.md(?:text)?$!, single_narrative => { template => "wide.html" }],
+	[qr!/websiteMigration/test\.md(?:text)?$!, single_narrative => { template => "wide.html" }],
     
 	[qr!\.md(?:text)?$!, single_narrative => { template => "single_narrative.html" }],
  
