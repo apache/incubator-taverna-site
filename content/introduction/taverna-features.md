@@ -112,5 +112,5 @@ A snapshot of the myExperiment Perspective in Taverna can be seen in the image b
   [4]: http://www.myexperiment.org/
   [5]: /introduction/taverna-features/myexperiment-integration/
   [6]: http://openprovenance.org/
-  [7]: img/MyExperiment_logo_1672x320.png
-  [8]: img/myExperimentPerspective.png
+  [7]: /img/MyExperiment_logo_1672x320.png
+  [8]: /img/myExperimentPerspective.png
