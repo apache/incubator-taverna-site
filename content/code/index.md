@@ -19,9 +19,10 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org/), with read-only mirroring to 
 [GitHub](https://github.com/apache/).
 
-<div class="alert alert-warning" role="alert"><p><strong>Warning:</strong> As of 2015-01-29, the Taverna source code 
+<div class="alert alert-warning" role="alert"><p><strong>Warning:</strong> 
+As of 2015-01-29, the Taverna source code 
 has not yet been migrated to the Apache Incubator infrastructure.</p>
-<p>The actively maintaned source code is currently still at the 
+<p>The actively maintained source code is currently still at the 
 <a href="https://github.com/taverna/" class="alert-link">taverna GitHub repositories</a>. 
 For now, the links below are to the temporary <strong>staging repository</strong>
 <a href="https://github.com/taverna-incubator" class="alert-link">taverna-incubator</a> at GitHub. 
@@ -47,16 +48,16 @@ The Apache Taverna source code is organized into multiple [git](http://www.git-s
   - [incubator-taverna-maven-parent](https://github.com/taverna-incubator/incubator-taverna-maven-parent) - Common Maven parent for the below
   - [incubator-taverna-language](https://github.com/taverna-incubator/incubator-taverna-language) - Taverna Language APIs for workflow definitions (SCUFL2)
 and workflow inputs/outputs/run (DataBundle). 
-  - [incubator-taverna-osgi](https://github.com/taverna-incubator/incubator-taverna-osgi) - Generic OSGi extensions
+  - [incubator-taverna-osgi](https://github.com/taverna-incubator/incubator-taverna-osgi) - OSGi-based plugin system
   - [incubator-taverna-engine](https://github.com/taverna-incubator/incubator-taverna-engine) - Taverna workflow engine
   - [incubator-taverna-common-activities](https://github.com/taverna-incubator/incubator-taverna-common-activities) - Common activity implementation for engine (e.g. WSDL, REST, Tool, Interaction)
   - [incubator-taverna-commandline](https://github.com/taverna-incubator/incubator-taverna-commandline) - Command line for running Taverna workflows
-  - [taverna-server](https://github.com/taverna-incubator/taverna-server) - A REST and WSDL interface for running Taverna workflows
-  - [taverna-workbench](https://github.com/taverna-incubator/taverna-workbench) - Graphical workbench for editing Taverna workflows
+  - [taverna-server](https://github.com/taverna-incubator/taverna-server) - A REST and WSDL service for running Taverna workflows
+  - [taverna-workbench](https://github.com/taverna-incubator/taverna-workbench) - Graphical workbench for editing and running Taverna workflows
   - [taverna-workbench-common-activities](https://github.com/taverna-incubator/taverna-workbench-common-activities) - Common activities UI (discovery+configuration for Workbench
   - [taverna-workbench-product](https://github.com/taverna-incubator/taverna-workbench-product) - Distribution of Taverna Workbench
-  - [taverna-plugin-component](https://github.com/taverna-incubator/taverna-plugin-component) Component plugin
-  - [taverna-plugin-bioinformatics](https://github.com/taverna-incubator/taverna-plugin-bioinformatics)
+  - [taverna-plugin-component](https://github.com/taverna-incubator/taverna-plugin-component) - Plugin for component activity and registry
+  - [taverna-plugin-bioinformatics](https://github.com/taverna-incubator/taverna-plugin-bioinformatics) - Plugin for bioinformatics-specific activities
 
 ## Building Apache Taverna
 
