@@ -10,7 +10,7 @@
 
     <div id="page" class="container">
        <h1>{% block tagline %}{{ headers.title }}{% endblock %}</h1>
-	   {% extends "taverna2_warning.htmll" %}
+	   {% extends "taverna2_warning.html" %}
        {% endextends %}
 
 		{% block content %}<div id="content">{{ content|markdown }}</div>{% endblock %}
