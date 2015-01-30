@@ -56,7 +56,7 @@ There are also a large number of Taverna-related projects that the team have bee
  - [ISpider][19] – proteomics workflows
  - [MIASGrid][20] – medical imaging
 
-<a name="biovel" />
+<a name="biovel"></a>
 ##BioVeL##
 
 The Biodiversity Virtual e‑Laboratory (BioVeL) project, 
@@ -86,7 +86,7 @@ Ranked by the European Commission (EC) as top of its class from more than 60 pro
 
 For further information on the BioVeL project, visit [http://www.biovel.eu/][23]
 
-<a name="scape" />
+<a name="scape"></a>
 ##SCAPE##
 
 [SCAPE][24] (SCAlable Preservation Environments) is an EU-funded FP7 project aimed at building a scalable 
@@ -136,7 +136,7 @@ Austrian National Library
 Max Kaiser, Head of Department of Research and Development
 Bettina Kann, Head of Digital Library
 
-<a name="ChemTaverna"/>
+<a name="ChemTaverna"></a>
 ##ChemTaverna##
 
 ChemTaverna is a pilot project currently being undertaken to investigate the application of Taverna in 
@@ -158,7 +158,7 @@ The ChemTaverna project will also investigate how laboratory instrumentation can
    Drexel University, have created many useful chemistry workflows using Taverna. 
 The workflows are described at Jean-Claude Bradley’s [UsefulChem blog][29].
 
-<a name="ondex"/>
+<a name="ondex"></a>
 ##ONDEX##
 
 [ONDEX][30] is currently an opensource suite of software that “enables data from diverse biological data sets 
@@ -175,7 +175,7 @@ The partners are the [University of Manchester][32] ([Carole Goble][33] and Robe
 [the National Centre for Text Mining][36] and [Manchester Centre of Integrative Systems Biology][37]. 
 The project runs from April 2008 to March 2011.
 
-<a name="shared-genomics"/>
+<a name="shared-genomics"></a>
 ##Shared Genomics##
 
 Shared Genomics project, in partnership with Microsoft, aims to develop accessible High Power Computing 
@@ -194,7 +194,7 @@ Enable Taverna workflows in a Shared Genomics causality workbench
 This is an ENGAGE funded project to enable Taverna workflows using Shared Genomics services to be called 
    in a more efficient manner. This work builds on the Taverna Server.
 
-<a name="refine"/>
+<a name="refine"></a>
 ##REFINE##
 
 [REFINE][38], Tools for the text mining-based visualisation of the provenance of biochemical networks, is a 
@@ -209,7 +209,7 @@ The principal investigator is [Sophia Ananiadou][40], Director of the National C
    ([NaCTeM][41]) at the [University of Manchester][42]. 
 The project runs from January 2007 to June 2010.
 
-<a name="helio"/>
+<a name="helio"></a>
 ##HELIO##
 
 [HELIO][43], the Heliophysics Integrated Observatory, is a three year EU funded project that started in 
@@ -229,7 +229,7 @@ Workflows for Heliophysics, Blanc, A., Brooke, J., Fellows, D., Soldati, M., Pé
    Santin, A.,  [Journal of Grid Computing][45].
 [http://link.springer.com/article/10.1007%2Fs10723-013-9256-5][46]
 
-<a name = "engage"/>
+<a name = "engage"></a>
 ##ENGAGE##
 
 The ENGage Academic Groups with E-infrastructure ([ENGAGE][47]) project is a [JISC][48] 
@@ -245,7 +245,7 @@ The principal investigator is David De Roure.
 
 ENGAGE funded a development project to facilitate the use of Taverna for [Shared Genomics][53].
 
-<a name = "tsb"/>
+<a name = "tsb"></a>
 ##TSB grant##
 
 This £500,000 project is part-funded by the UK’s national innovation agency, 
@@ -273,7 +273,7 @@ Eagle Genomics will work with the Taverna team  to adapt Taverna to allow non-IT
 
 [Read mode about the project][57].
 
-<a name = "taverna-galaxy"/>
+<a name = "taverna-galaxy"></a>
 ##Taverna 2-Galaxy##
 
 [Galaxy][58] is an open, Web-based platform for data intensive biomedical research. 
@@ -308,7 +308,7 @@ Dr Casey Bergman and his group of Life Sciences researchers from the [Bergman La
 
 See [their blog][67] about their experiences in installing and running Taverna-Galaxy.
 
-<a name = "e-lico"/>
+<a name = "e-lico"></a>
 
 ##e-LICO##
 
@@ -318,7 +318,7 @@ The foundation of the e-science layer is a suite of open source components from 
 
 A [video tutorial][69] explains how to build data mining workflows.
 
-<a name = "neiss"/>
+<a name = "neiss"></a>
 ##NeISS##
 
 The National e-Infrastructure for Social Simulation is a [JISC][70]-funded project to undertake a coordinated 
@@ -339,7 +339,7 @@ Within the project, the Taverna team are working on:
 [Documentation on wrapping Taverna workflows in a portal and the code][76] is available from our 
    (Pre Apache) wiki.
 
-<a name = "cagrid"/>
+<a name = "cagrid"></a>
 ##caGrid##
 
 [caGrid][77] is part of [caBIG][78] (cancer Biomedical Informatics Grid), 
@@ -376,7 +376,7 @@ The [paper][85] “Combining the Power of Taverna and caGrid: Scientific Workflo
    Collaboration” has been written by Wei Tan, Ian Foster and Ravi Madduri to describe some of the work done on 
    the project.
 
-<a name = "e-fungi"/>
+<a name = "e-fungi"></a>
 
 ##e-Fungi##
 
@@ -390,7 +390,7 @@ The principal investigators were Professor Norman Paton, Professor Oliver,
    Dr Rattray and Dr Hubbard of the University of Manchester. 
 The project ran from October 2004 to June 2008.
 
-<a name = "ispider"/>
+<a name = "ispider"></a>
 
 ##iSpider##
 
@@ -422,7 +422,7 @@ It supports the combined use of Grid data access ([OGSA-DAI][93]), Grid distribu
 This system has been used for providing an integrated access to four proteomics data sources, namely, 
    [gpmDB][96], [PedroDB][97], PepSeeker and [Pride][98].
 
-<a name = "miasgrid"/>
+<a name = "miasgrid"></a>
 ##MIASGrid##
 
 The MIAS project examined the requirements of Medical Imaging and Signals. 
