@@ -17,9 +17,8 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 
 
-
 Workflow Management System (WMS) is a piece of software that provides an infrastructure to setup, execute, and monitor [scientific workflows][1]. 
-In other words, the WMS provide an environment where in silico experiments[link text][2] can be defined and executed.
+In other words, the WMS provide an environment where in [silico experiments][2] can be defined and executed.
 
 An important function of an WMS during the workflow execution, or enactment, is the coordination of operation of individual components that constitute the workflow – the process also often referred to as orchestration.
 
