@@ -42,7 +42,7 @@ Taverna applications have been implemented or deployed in several domains using 
 </tr>
 <tr>
 <th class="spec1">Annotation</th>
-<td class="alt1"><a href="/introduction/taverna-in-use/annotation//">[Genome annotation][1]</a><br />
+<td class="alt1">[Genome annotation][1]<br />
 <a href="/introduction/taverna-in-use/annotation/taweka/">TaWeka</a><br />
 <a href="/introduction/taverna-in-use/annotation/adoption-by-moby/">Moby consortium</a><br />
 <a href="/introduction/related-projects/ispider/">iSpider</a></td>
