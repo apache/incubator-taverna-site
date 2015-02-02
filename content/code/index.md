@@ -57,7 +57,7 @@ and workflow inputs/outputs/run (DataBundle).
   - [taverna-workbench-common-activities](https://github.com/taverna-incubator/taverna-workbench-common-activities) - Common activities UI (discovery+configuration for Workbench
   - [taverna-workbench-product](https://github.com/taverna-incubator/taverna-workbench-product) - Distribution of Taverna Workbench
   - [taverna-plugin-component](https://github.com/taverna-incubator/taverna-plugin-component) - Plugin for component activity and registry
-  - [taverna-plugin-bioinformatics](https://github.com/taverna-incubator/taverna-plugin-bioinformatics) - Plugin for bioinformatics-specific activities
+  - [incubator-taverna-plugin-bioinformatics](https://github.com/taverna-incubator/incubator-taverna-plugin-bioinformatics) - Plugin for bioinformatics-specific activities
 
 ## Building Apache Taverna
 
