@@ -16,23 +16,26 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-<p>More than 350 organizations around the world, both academic and commercial, are known to use Taverna. It is employed in a significant number of differing domains to facilitate novel research or to accelerate, formalise or share existing research. See the <a href="http://prototype.taverna.org.uk/introduction/taverna-in-use/by-domain/" target="_blank">domains</a> where Taverna is in use or has been used.<br />
+More than 350 organizations around the world, both academic and commercial, are known to use Taverna. 
+It is employed in a significant number of differing domains to facilitate novel research or to accelerate, 
+   formalise or share existing research. 
+See the [domains][1]</a> where Taverna is in use or has been used.   
 Taverna applications have been implemented or deployed in several domains using a variety of platforms and technologies:<span id="more-91"></span></p>
-<ul>
-<li>Standalone Workbench (used by the majority of projects)</li>
-<li><a href="/introduction/taverna-in-use.html#server">As a server</a></li>
-<li><a href="/introduction/taverna-in-use.html#grid">On a grid or using services on a grid</a></li>
-<li><a href="/introduction/taverna-in-use.html#cloud">On a cloud</a></li>
-<li><a href="/introduction/taverna-in-use.html#portal">Behind a portal</a></li>
-<li><a href="/introduction/taverna-in-use.html#bundled-with-products">Bundled with other products</a></li>
-</ul>
 
-<p>Table below shows the distribution of Taverna application domains per deployment infrastructure.</p>
+ - Standalone Workbench (used by the majority of projects)
+ - [As a server][2]
+ - [On a grid or using services on a grid][3]
+ - [On a cloud][4]
+ - [Behind a portal][5]
+ - [Bundled with other products][6]
 
-<p>View by <a href="/introduction/taverna-in-use.html#chronology">chronological</a> order of deployment.</p>
+Table below shows the distribution of Taverna application domains per deployment infrastructure.
 
+View by [chronological][7] order of deployment.
 
-<table id="taverna-usage-table" summary="Distribution of Taverna usage: domain vs. deployment" border="0" cellspacing="0">
+<table class="table table-striped table-hover table-bordered"
+       id="taverna-usage-table" 
+       summary="Distribution of Taverna usage: domain vs. deployment">
 <caption class="taverna-usage-table">Table1. Distribution of Taverna usage: domain vs. deployment</caption>
 <tbody>
 <tr>
@@ -50,10 +53,8 @@ Taverna applications have been implemented or deployed in several domains using 
     <a href="/introduction/taverna-in-use.html#taweka/">TaWeka</a><br />
     <a href="/introduction/taverna-in-use.html#adoption-by-moby/">Moby consortium</a><br />
     <a href="/introduction/related-projects.html#ispider/">iSpider</a></td>
-  <td>
-    [Test][1]
-  </td>
   <td>-</td>
+  <td*emphasized text*>-</td>
   <td>-</td>
   <td><a href="/introduction/taverna-in-use.html#afawe">AFAWE</a></td>
   <td>-</td>
@@ -289,4 +290,10 @@ Taverna applications have been implemented or deployed in several domains using 
 </table>
 
 
-  [1]: http://example.com/test
+  [1]: #by-domain
+  [2]: /introduction/taverna-in-use.html#server
+  [3]: /introduction/taverna-in-use.html#grid
+  [4]: /introduction/taverna-in-use.html#cloud
+  [5]: /introduction/taverna-in-use.html#portal
+  [6]: /introduction/taverna-in-use.html#bundled-with-products
+  [7]: /introduction/taverna-in-use.html#chronology
