@@ -32,252 +32,251 @@ Taverna applications have been implemented or deployed in several domains using 
 <caption class="taverna-usage-table">Table1. Distribution of Taverna usage: domain vs. deployment</caption>
 <tbody>
 <tr>
-<th></th>
-<th>Standalone</th>
-<th>Server</th>
-<th>Grid</th>
-<th>Cloud</th>
-<th">Portal</th>
-<th>Bundled</th>
+  <th></th>
+  <th>Standalone</th>
+  <th>Server</th>
+  <th>Grid</th>
+  <th>Cloud</th>
+  <th>Portal</th>
+  <th>Bundled</th>
 </tr>
 <tr>
-<th class="spec1">Annotation</th>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#annotation-of-genomes">Genome annotation</a><br/>
-<a href="/introduction/taverna-in-use.html#taweka/">TaWeka</a><br />
-<a href="/introduction/taverna-in-use.html#adoption-by-moby/">Moby consortium</a><br />
-<a href="/introduction/related-projects.html#ispider/">iSpider</a></td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#afawe">AFAWE</a></td>
-<td class="alt1">-</td>
+  <th>Annotation</th>
+  <td><a href="/introduction/taverna-in-use.html#annotation-of-genomes">Genome annotation</a><br/>
+    <a href="/introduction/taverna-in-use.html#taweka/">TaWeka</a><br />
+    <a href="/introduction/taverna-in-use.html#adoption-by-moby/">Moby consortium</a><br />
+    <a href="/introduction/related-projects.html#ispider/">iSpider</a></td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td><a href="/introduction/taverna-in-use.html#afawe">AFAWE</a></td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec2">Arts</th>
-<td class="alt2"><a href="/introduction/taverna-in-use.html#composition-of-music">Composing music</a></td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
+  <th>Arts</th>
+  <td><a href="/introduction/taverna-in-use.html#composition-of-music">Composing music</a></td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec1">Astronomy</th>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#sampo">SAMPO</a></td>
-<td class="alt1"><a href="/introduction/related-projects.html#helio">HELIO</a></td>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#astrogrid">AstroGrid</a><br />
-<a href="/introduction/related-projects.html#helio">HELIO</a></td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
+  <th>Astronomy</th>
+  <td><a href="/introduction/taverna-in-use.html#sampo">SAMPO</a></td>
+  <td><a href="/introduction/related-projects.html#helio">HELIO</a></td>
+  <td><a href="/introduction/taverna-in-use.html#astrogrid">AstroGrid</a><br />
+    <a href="/introduction/related-projects.html#helio">HELIO</a></td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec2">Biodiversity</th>
-<td class="alt2"><a href="/introduction/related-projects.html#biovel">BioVeL</a></td>
-<td class="alt2"><a href="/introduction/related-projects.html#biovel">BioVeL</a></td>
-<td class="alt2">-</td>
-<td class="alt2"><a href="/introduction/related-projects.html#biovel">BioVel</a></td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
+  <th>Biodiversity</th>
+  <td><a href="/introduction/related-projects.html#biovel">BioVeL</a></td>
+  <td><a href="/introduction/related-projects.html#biovel">BioVeL</a></td>
+  <td>-</td>
+  <td><a href="/introduction/related-projects.html#biovel">BioVel</a></td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec1">Bioinformatics</th>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#lumc">Mass spectrometry data analysis in proteomics</a><br />
-<a href="/introduction/taverna-in-use.html#gene-expression-from-microarray">MicroArray analysis</a><a href="/introduction/taverna-in-use/bioinformatics/measuring-enzyme-characteristics-of-yeast/"><br />
-Measuring yeast characteristics</a><br />
-<a href="/introduction/taverna-in-use.html#enfin">ENFIN</a><br />
-<a href="/introduction/taverna-in-use.html#manchester-centre-for-integrative-systems-biology">MCISB</a><br />
-<a href="/introduction/taverna-in-use.html#casimir">CASIMIR</a><br />
-<a href="/introduction/taverna-in-use.html#dgemap">DGEMap</a><br />
-<a href="/introduction/taverna-in-use.html#graves-disease">Graves disease</a><br />
-<a href="/introduction/taverna-in-use.html#gene-expression-from-microarray">MicroArray analysis</a><br />
-<a href="/introduction/taverna-in-use.html#sigenae">SIGENAE</a><br />
-<a href="/introduction/taverna-in-use.html#trypanosomiasis">Trypanosomiasis</a><br />
-<a href="/introduction/taverna-in-use.html#williams-beuren-syndrome">Williams-Beuren syndrome</a><br />
-<a href="/introduction/taverna-in-use.html#analysis-of-anthrax-bacterium">Anthrax analysis</a><br />
-<a href="/introduction/introduction/taverna-in-use.html#planet">PLANET</a><br />
-<a href="/introduction/introduction/taverna-in-use.html#annotation-of-genomes">Annotation of genomes</a><br />
-<a href="/introduction/related-projects.html#shared-genomics">Shared Genomics</a><br />
-<a href="/introduction/related-projects.html#e-fungi">e-Fungi</a><br />
-<a href="/introduction/taverna-in-use.html#eu-adr">EU-ADR</a><br />
-<a href="/introduction/taverna-in-use.html#efamily">eFamily</a><br />
-<a href="/introduction/related-projects.html#ispider">iSpider</a></td>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#vph-dareit">VPH-DATE@IT</a><br />
-<a href="/introduction/taverna-in-use.html#vph-dareit">VPH-SHARE</a>
-<a href="/introduction/related-projects.html#shared-genomics/"><br />
-Shared Genomics</a><br />
-<a href="/introduction/related-projects.html#cagrid">caGrid</a></td>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#tav4sb">Tav4SB</a><br />
-<a href="/introduction/taverna-in-use.html#knowarc">KnowARC</a><br />
-<a href="/introduction/taverna-in-use.html#miasgrid">MIASGrid</a><br />
-<a href="/introduction/related-projects.html#cagrid">caGrid</a><br />
-<a href="/introduction/taverna-in-use.html#embrace">EMBRACE</a></td>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#next-generation-sequencing">Next generation sequencing</a><br />
-<a href="/introduction/taverna-in-use.html#tavernapbs/">TavernaPBS</a><br />
-<a href="/documentation/taverna-plugins.html#opal">Opal</a><br />
-<a href="/introduction/related-projects.html#tsb">TSB</a></td>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#biowep">BioWEP</a><br />
-<a href="/introduction/taverna-in-use.html#planet">PLANET</a><br />
-<a href="/introduction/taverna-in-use.html#afawe">AFAWE</a><br />
-<a href="/introduction/taverna-in-use.html#metware">MetWare</a><br />
-<a href="/introduction/taverna-in-use.html#prodom">ProDom</a><br />
-<a href="/introduction/taverna-in-use.html#ccpn">CCPN</a></td>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#biolinux">BioLinux</a><br />
-<a href="/introduction/taverna-in-use.html#sb-os">SB.OS</a></td>
+  <th>Bioinformatics</th>
+  <td><a href="/introduction/taverna-in-use.html#lumc">Mass spectrometry data analysis in proteomics</a><br />
+    <a href="/introduction/taverna-in-use.html#gene-expression-from-microarray">MicroArray analysis</a><br/>
+    <a href="/introduction/taverna-in-use/bioinformatics/measuring-enzyme-characteristics-of-yeast/">
+      Measuring yeast characteristics</a><br />
+    <a href="/introduction/taverna-in-use.html#enfin">ENFIN</a><br />
+    <a href="/introduction/taverna-in-use.html#manchester-centre-for-integrative-systems-biology">MCISB</a><br />
+    <a href="/introduction/taverna-in-use.html#casimir">CASIMIR</a><br />
+    <a href="/introduction/taverna-in-use.html#dgemap">DGEMap</a><br />
+    <a href="/introduction/taverna-in-use.html#graves-disease">Graves disease</a><br />
+    <a href="/introduction/taverna-in-use.html#gene-expression-from-microarray">MicroArray analysis</a><br />
+    <a href="/introduction/taverna-in-use.html#sigenae">SIGENAE</a><br />
+    <a href="/introduction/taverna-in-use.html#trypanosomiasis">Trypanosomiasis</a><br />
+    <a href="/introduction/taverna-in-use.html#williams-beuren-syndrome">Williams-Beuren syndrome</a><br />
+    <a href="/introduction/taverna-in-use.html#analysis-of-anthrax-bacterium">Anthrax analysis</a><br />
+    <a href="/introduction/introduction/taverna-in-use.html#planet">PLANET</a><br />
+    <a href="/introduction/introduction/taverna-in-use.html#annotation-of-genomes">Annotation of genomes</a><br />
+    <a href="/introduction/related-projects.html#shared-genomics">Shared Genomics</a><br />
+    <a href="/introduction/related-projects.html#e-fungi">e-Fungi</a><br />
+    <a href="/introduction/taverna-in-use.html#eu-adr">EU-ADR</a><br />
+    <a href="/introduction/taverna-in-use.html#efamily">eFamily</a><br />
+    <a href="/introduction/related-projects.html#ispider">iSpider</a>
+  </td>
+  <td><a href="/introduction/taverna-in-use.html#vph-dareit">VPH-DATE@IT</a><br/>
+    <a href="/introduction/taverna-in-use.html#vph-dareit">VPH-SHARE</a><br/>
+    <a href="/introduction/related-projects.html#shared-genomics/">Shared Genomics</a><br />
+    <a href="/introduction/related-projects.html#cagrid">caGrid</a>
+  </td>
+  <td><a href="/introduction/taverna-in-use.html#tav4sb">Tav4SB</a><br />
+    <a href="/introduction/taverna-in-use.html#knowarc">KnowARC</a><br />
+    <a href="/introduction/taverna-in-use.html#miasgrid">MIASGrid</a><br />
+    <a href="/introduction/related-projects.html#cagrid">caGrid</a><br />
+    <a href="/introduction/taverna-in-use.html#embrace">EMBRACE</a></td>
+  <td><a href="/introduction/taverna-in-use.html#next-generation-sequencing">Next generation sequencing</a><br />
+    <a href="/introduction/taverna-in-use.html#tavernapbs/">TavernaPBS</a><br />
+    <a href="/documentation/taverna-plugins.html#opal">Opal</a><br />
+    <a href="/introduction/related-projects.html#tsb">TSB</a></td>
+  <td><a href="/introduction/taverna-in-use.html#biowep">BioWEP</a><br />
+    <a href="/introduction/taverna-in-use.html#planet">PLANET</a><br />
+    <a href="/introduction/taverna-in-use.html#afawe">AFAWE</a><br />
+    <a href="/introduction/taverna-in-use.html#metware">MetWare</a><br />
+    <a href="/introduction/taverna-in-use.html#prodom">ProDom</a><br />
+    <a href="/introduction/taverna-in-use.html#ccpn">CCPN</a></td>
+  <td><a href="/introduction/taverna-in-use.html#biolinux">BioLinux</a><br />
+    <a href="/introduction/taverna-in-use.html#sb-os">SB.OS</a></td>
 </tr>
 <tr>
-<th class="spec2">Chemistry</th>
-<td class="alt2"><a href="/introduction/taverna-in-use.html#chemistry-development-kit">CDK</a><br />
-<a href="/introduction/taverna-in-use.html#chemical-informatics-and-cyberinfrastructure-collaboratory">CICC</a><br />
-<a href="/introduction/related-projects.html#chemtaverna">ChemTaverna</a><br />
-<a href="http://usefulchem.wikispaces.com" target="_blank">UsefulChem</a></td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
+  <th>Chemistry</th>
+  <td><a href="/introduction/taverna-in-use.html#chemistry-development-kit">CDK</a><br />
+    <a href="/introduction/taverna-in-use.html#chemical-informatics-and-cyberinfrastructure-collaboratory">CICC</a><br />
+    <a href="/introduction/related-projects.html#chemtaverna">ChemTaverna</a><br />
+    <a href="http://usefulchem.wikispaces.com" target="_blank">UsefulChem</a></td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec1">Data and text mining</th>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#aid">AID</a><br />
-<a href="/introduction/taverna-in-use.html#course-generator">Course generator</a><br />
-<a href="/introduction/taverna-in-use.html#refine">REFINE</a><br />
-<a href="/introduction/taverna-in-use.html#open-software-development-workflows">Open software development wfs</a><br />
-<a href="/introduction/taverna-in-use.html#taweka">TaWeka</a><br />
-<a href="/introduction/related-projects.html#e-lico">e-LICO</a></td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
+  <th>Data and text mining</th>
+  <td><a href="/introduction/taverna-in-use.html#aid">AID</a><br />
+    <a href="/introduction/taverna-in-use.html#course-generator">Course generator</a><br />
+    <a href="/introduction/taverna-in-use.html#refine">REFINE</a><br />
+    <a href="/introduction/taverna-in-use.html#open-software-development-workflows">Open software development wfs</a><br />
+    <a href="/introduction/taverna-in-use.html#taweka">TaWeka</a><br />
+    <a href="/introduction/related-projects.html#e-lico">e-LICO</a></td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec2">Databases</th>
-<td class="alt2"><a href="/introduction/taverna-in-use.html#echase">eCHASE</a><br />
-<a href="/introduction/taverna-in-use.html#efamily">eFamily</a><br />
-<a href="/introduction/related-projects.html#ispider">iSpider</a><br />
-<a href="/introduction/taverna-in-use.html#omixed">omixed</a></td>
-<td class="alt2">-</td>
-<td class="alt2"><a href="/introduction/taverna-in-use.html#embrace">EMBRACE</a></td>
-<td class="alt2">-</td>
-<td class="alt2"><a href="/introduction/taverna-in-use.html#prodom">ProDom</a></td>
-<td class="alt2"><a href="http://code.google.com/p/calctav" target="_blank">CalcTav</a></td>
+  <th>Databases</th>
+  <td><a href="/introduction/taverna-in-use.html#echase">eCHASE</a><br />
+    <a href="/introduction/taverna-in-use.html#efamily">eFamily</a><br />
+    <a href="/introduction/related-projects.html#ispider">iSpider</a><br />
+    <a href="/introduction/taverna-in-use.html#omixed">omixed</a></td>
+  <td>-</td>
+  <td><a href="/introduction/taverna-in-use.html#embrace">EMBRACE</a></td>
+  <td>-</td>
+  <td"><a href="/introduction/taverna-in-use.html#prodom">ProDom</a></td>
+  <td><a href="http://code.google.com/p/calctav" target="_blank">CalcTav</a></td>
 </tr>
 <tr>
-<th class="spec1">Document and image analysis/<br />
-Digital preservation</th>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#islandora">Islandora</a><a href="/introduction/related-projects/scape/"><br />
-SCAPE</a><br />
-<a href="/introduction/taverna-in-use.html#impact">IMPACT</a><br />
-<a href="/introduction/taverna-in-use.html#dae">DAE</a></td>
-<td class="alt1"><a href="http://blogs.loc.gov/digitalpreservation/2013/03/islandoras-open-source-ecosystem-and-digital-preservation-an-interview-with-mark-leggott/">Islandora</a><br />
-<a href="/introduction/related-projects.html#scape">SCAPE</a><br />
-<a href="/introduction/taverna-in-use.html#impact">IMPACT</a><br />
-<a href="/introduction/taverna-in-use.html#dae">DAE</a></td>
-<td class="alt1">-</td>
-<td class="alt1"><a href="/introduction/related-projects.html#scape">SCAPE</a></td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
+  <th>Document and image analysis/<br />
+    Digital preservation</th>
+  <td><a href="/introduction/taverna-in-use.html#islandora">Islandora</a><br/>
+    <a href="/introduction/related-projects/scape/">SCAPE</a><br/>
+    <a href="/introduction/taverna-in-use.html#impact">IMPACT</a><br/>
+    <a href="/introduction/taverna-in-use.html#dae">DAE</a></td>
+  <td><a href="http://blogs.loc.gov/digitalpreservation/2013/03/islandoras-open-source-ecosystem-and-digital-preservation-an-interview-with-mark-leggott/">Islandora</a><br />
+    <a href="/introduction/related-projects.html#scape">SCAPE</a><br />
+    <a href="/introduction/taverna-in-use.html#impact">IMPACT</a><br />
+    <a href="/introduction/taverna-in-use.html#dae">DAE</a></td>
+  <td>-</td>
+  <td><a href="/introduction/related-projects.html#scape">SCAPE</a></td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec2">Education</th>
-<td class="alt2"><a href="/introduction/taverna-in-use.html#course-generator">Course generator</a></td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
+  <th>Education</th>
+  <td><a href="/introduction/taverna-in-use.html#course-generator">Course generator</a></td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec1">Engineering</th>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#jpl">JPL</a></td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
+  <th>Engineering</th>
+  <td><a href="/introduction/taverna-in-use.html#jpl">JPL</a></td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec2">Geoinformatics</th>
-<td class="alt2"><a href="/introduction/taverna-in-use.html#pml">PML</a></td>
-<td class="alt2"><a href="/introduction/taverna-in-use.html#pml">PML</a></td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
+  <th>Geoinformatics</th>
+  <td><a href="/introduction/taverna-in-use.html#pml">PML</a></td>
+  <td><a href="/introduction/taverna-in-use.html#pml">PML</a></td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec1">Information quality</th>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#qurator">Qurator<br />
-</a></td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
+  <th>Information quality</th>
+  <td><a href="/introduction/taverna-in-use.html#qurator">Qurator</a></td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec2">Multimedia</th>
-<td class="alt2"><a href="/introduction/taverna-in-use.html#course-generator">Course generator<br />
-</a><a href="/introduction/taverna-in-use.html#echase">eCHASE</a>
-   <a href="/introduction/taverna-in-use.html#course-generator"><br />
-</a></td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
+<th>Multimedia</th>
+  <td><a href="/introduction/taverna-in-use.html#course-generator">Course generator</a><br/>
+    <a href="/introduction/taverna-in-use.html#echase">eCHASE</a>
+    <a href="/introduction/taverna-in-use.html#course-generator"></a></td>
+  <td>-</td> 
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec2">Natural language processing</th>
-<td class="alt2"><a href="/introduction/taverna-in-use.html#panacea">PANACEA</a></td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
+  <th>Natural language processing</th>
+  <td><a href="/introduction/taverna-in-use.html#panacea">PANACEA</a></td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec1">Service provision</th>
-<td class="alt1"><a href="/introduction/related-projects.html#engage">ENGAGE</a></td>
-<td class="alt1"><a href="/introduction/related-projects.html#shared-genomics">Shared Genomics</a></td>
-<td class="alt1">-</td>
-<td class="alt1"><a href="/documentation/taverna-plugins.html#esc">eScience Central</a></td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
+  <th>Service provision</th>
+  <td><a href="/introduction/related-projects.html#engage">ENGAGE</a></td>
+  <td><a href="/introduction/related-projects.html#shared-genomics">Shared Genomics</a></td>
+  <td>-</td>
+  <td><a href="/documentation/taverna-plugins.html#esc">eScience Central</a></td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec2">Service testing</th>
-<td class="alt2"><a href="/introduction/related-projects.html#e-fungi">e-Fungi</a><br />
-<a href="/introduction/taverna-in-use.html#adoption-by-moby">Moby consortium</a><br />
-<a href="/introduction/taverna-in-use.html#composition-of-music/">Music composition</a><br />
-<a href="/introduction/related-projects.html#ondex/">ONDEX</a></td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
+  <th>Service testing</th>
+  <td><a href="/introduction/related-projects.html#e-fungi">e-Fungi</a><br />
+    <a href="/introduction/taverna-in-use.html#adoption-by-moby">Moby consortium</a><br />
+    <a href="/introduction/taverna-in-use.html#composition-of-music/">Music composition</a><br />
+    <a href="/introduction/related-projects.html#ondex/">ONDEX</a></td>
+  <td">-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
+  <td>-</td>
 </tr>
 <tr>
-<th class="spec1">Social sciences</th>
-<td class="alt1"><a href="/introduction/taverna-in-use.html#impact/">IMPACT</a></td>
-<td class="alt1"><a href="/introduction/introduction.html#neiss">NeISS</a></td>
-<td class="alt1">-</td>
-<td class="alt1">-</td>
-<td class="alt1"><a href="/introduction/related-projects.html#neiss">NeISS</a></td>
-<td class="alt1">-</td>
+  <th>Social sciences</th>
+  <td><a href="/introduction/taverna-in-use.html#impact/">IMPACT</a></td>
+  <td><a href="/introduction/introduction.html#neiss">NeISS</a></td>
+  <td>-</td>
+  <td>-</td>
+  <td><a href="/introduction/related-projects.html#neiss">NeISS</a></td>
+  <td>-</td>
 </tr>
 <tr>
 <th class="spec2">Other</th>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2"><a href="/introduction/taverna-in-use.html#moteur">MOTEUR</a><br />
-<a href="http://www.mygrid.org.uk/outreach/collaboration/collaboration-with-nbic/" target="_blank">NBIC</a><br />
-<a href="/introduction/taverna-in-use.html#simdat">SIMDAT</a><br />
-NGS</td>
-<td class="alt2">-</td>
-<td class="alt2">-</td>
-<td class="alt2"><a href="http://www.omii.ac.uk/wiki/SoftwareOverview" target="_blank">OMII</a><br />
+  <td>-</td>
+  <td>-</td>
+  <td><a href="/introduction/taverna-in-use.html#moteur">MOTEUR</a><br />
+    <a href="http://www.mygrid.org.uk/outreach/collaboration/collaboration-with-nbic/" target="_blank">NBIC</a><br />
+    <a href="/introduction/taverna-in-use.html#simdat">SIMDAT</a>NGS</td>
+  <td>-</td>
+  <td>-</td>
+  <td><a href="http://www.omii.ac.uk/wiki/SoftwareOverview" target="_blank">OMII</a><br />
 <a href="http://code.google.com/p/calctav/" target="_blank">CalcTav</a></td>
 </tr>
 </tbody>
