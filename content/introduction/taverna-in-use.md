@@ -19,7 +19,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 More than 350 organizations around the world, both academic and commercial, are known to use Taverna. 
 It is employed in a significant number of differing domains to facilitate novel research or to accelerate, 
    formalise or share existing research. 
-See the [domains][1]</a> where Taverna is in use or has been used.   
+See the [domains][1] where Taverna is in use or has been used.   
 Taverna applications have been implemented or deployed in several domains using a variety of platforms and technologies:<span id="more-91"></span></p>
 
  - Standalone Workbench (used by the majority of projects)
@@ -278,9 +278,10 @@ View by [chronological][7] order of deployment.
 <th class="spec2">Other</th>
   <td>-</td>
   <td>-</td>
-  <td><a href="/introduction/taverna-in-use.html#moteur">MOTEUR</a><br />
-    <a href="http://www.mygrid.org.uk/outreach/collaboration/collaboration-with-nbic/" target="_blank">NBIC</a><br />
-    <a href="/introduction/taverna-in-use.html#simdat">SIMDAT</a>NGS</td>
+  <td><a href="/introduction/taverna-in-use.html#moteur">MOTEUR</a><br/>
+    <a href="http://www.mygrid.org.uk/outreach/collaboration/collaboration-with-nbic/" target="_blank">NBIC</a><br/>
+    <a href="/introduction/taverna-in-use.html#simdat">SIMDAT</a><br/>   
+    NGS</td>
   <td>-</td>
   <td>-</td>
   <td><a href="http://www.omii.ac.uk/wiki/SoftwareOverview" target="_blank">OMII</a><br />
@@ -289,11 +290,437 @@ View by [chronological][7] order of deployment.
 </tbody>
 </table>
 
+<a name="server" </a>
+##As a server##
+
+Taverna has been used as a service and deployed using [Taverna Server][8] by several projects:
+
+ - [BioVel][9] - establishing an international e-Laboratory to enable scientists to work in 
+      biodiversity sciences
+ - VPH-DARE@IT - using Taverna in research to fight dementia
+ - [VPH-SHARE][10] - online environment for the development, construction and storage of biomedical workflows
+ - [Shared Genomics][11]</a> - using Taverna Server to run genetic data workflows
+ - [HELIO][12] - using Taverna Server to run heliophysics workflows
+ - [caGrid][13] - submit Taverna workflows using caGrid's analytic and data services for execution to a 
+      Remote Workflow Execution Service on caGrid
+ - [NeISS][14] - runnig social science workflows deployed on a Taverna server from a portal
+
+<a name="grid" </a>
+##On a grid##
+Various projects and institutions use mechanisms to run Taverna workflows on a [grid][15]
+   or allow them to access services on a grid:
+
+ - [TavernaPBS][16] – next generation sequencing analysis using a computational cluster that uses a PBS queuing 
+      system and Taverna 2 Workbench
+ - [caGrid][17] – the use of Taverna 2 workflows to link together resources provided by the open source grid 
+     software infrastructure developed by the US NCI caBIG aimed at enabling multi-institutional cancer data 
+     sharing and analysis in the US</li>
+ - Europe’s leading grid computing project [EGEE][18], piloted Taverna over EGEE gLite services
+ - [European Model for Bioinformatics Research And Community Education][19] (EMBRACE)
+ - [Know-how Sharing Technology Based on ARC Services and Open Standards][20] (KnowARC) developed prototype to 
+      use Taverna as direct interface to Grid resources running ARC
+ - [MOTEUR][21] - running Taverna 1 workflows on EGEE grid
+ - [Netherlands BioInformatics Centre][22] (NBIC)
+ - [Grids for Industrial Product Development][23] (SIMDAT)
+ - [JSDL plugin for Taverna 1.7.x][24] that allows you to submit services within a workflow to a grid using 
+      GridSAM
+ - Taverna and myExperiment on NGS
+
+Learn more about how [Taverna workﬂows can  operate  over a grid infrastructure][25]
+
+<a name="cloud" </a>
+##On a cloud##
+
+Taverna has been used as a service deployed on a cloud by several projects:
+
+ - [TSB grant][26] - to address NHS requirements for accessing and comparing large amounts of information and 
+      find common genetic links when testing new treatments (in partnership with Eagle Genomics)
+ - [Next generation sequencing][27] - using Taverna for the genome Single Nucleotide Polymorphism (SNP)
+      analysis on the Amazon cloud
+ - [SCAPE][28]</a> - large scale and computation intense automated digital preservation and quality assurance 
+      workflows on a cloud infrastructure
+ - National Biomedical Computation Resource ([NBCR][29])'s [Opal toolkit][30] - a mechanism to wrap up 
+      existing scientific applications rapidly as Web services on a cloud
+ - [e-Science Central][31] - allows e-Science Central workflows to be included as services within a Taverna 
+      workflow
+ - Cloud-based Taverna workflows for [NMR-based metabolomics data analysis][32]
+ - The [BioVeL][33] project uses the [Taverna Server][34] within the Amazon Cloud by employing 
+      a [Taverna Server Amazon Machine Image (AMI)][35]
+ - The [VPH-Share][36] project does rapid deployment of Taverna Server in their Cloud platform to execute 
+      workflows for clinical physiology. 
+   These workflows then use [further Cloud instances to run applications][37] that are displayed back to users 
+      within [the VPH-Share portal][38] the resource and data management are all handled by the workflow inside 
+      the Taverna Server instance.
+
+<a name="portal" </a>
+##Behind a portal##
+Various projects and tools use portals to allow users to perform actions that run Taverna workflows 
+   “behind the scenes”.  
+These projects include:
+
+ - [Automatic Functional Annotation in a distributed Web Service Environment][39] (AFAWE) - 
+      a tool for the automatic functional annotation of new genes in plants and other organisms making use 
+      of Taverna workflows
+ - [Bioinformatics Workflow Enactment Portal][40] (BioWEP) &#8211; running pre-selected Taverna workflows 
+      from the BioWEP portal
+ - [PLANET (A Network of European Plant Databases)][41]’s BioFloWeb - using Tavenra workfows for the retrieval 
+      of information about Arabidopsis genes from several European databases
+ - [ProDom][42] - using Taverna workflowa to perform searches and comparisons on the content of the ProDom 
+      database
+ - [MetWare][43] - provides applications, databases and workflows for metabolomics
+ - [NeISS][44] – runnig social simulations workflows deployed on a Taverna 2 Server in a social simulations 
+      platform with a portal front-end</li>
+</ul>
+
+<a name="bundled-with-products" </a>
+##Bundled with products##
+Several packages include Taverna as part of their distribution:
+
+ - [BioLinux][45] - a version of Ubuntu Linux that includes distributions of many bioinformatics programs and 
+     Taverna
+ - [OMII-UK][46] - included with the OMII-UK's open-source software developed to enable a sustained future for 
+     the UK e-Research community
+ - [Systems Biology Operational Software (SB.OS)][47] - Systems Biology Software based on Ubuntu Linux 
+     containing the distribution of Taverna
+ - [CalcTav][48] (bundled with OpenCalc) - a plugin to OpenOffice Calc with the aim of allowing calling 
+     bioinformatics services as spreadsheet functions
+
+
+<a name="by-domain" </a>
+##By domain##
+Various domains where scientists have used Taverna so far include:
+
+<a name="annotation"></a>
+###Annotations###
+Taverna is used by various tools and projects for the association of metadata with data (annotation). 
+These include:
+ - [Automatic Functional Annotation in a distributed Web service Environment][49](AFAWE) - 
+      annotation of plant genes with their functionality
+ - [Interactive genome annotation pipeline][50]</a> - automatic and manual annotation of genes
+ - [TaWeka][51] - associating biological data with calculated functionality
+
+In addition, Taverna makes use of the semantic annotation that has been specified for the services provided by 
+   the [MOBY consortium][52].
+
+Taverna has also been used for the identification of mismatches and possible annotations in workflows by the 
+   [iSPIDER][53] project.
+
+<a name="afawe"></a>
+####AFAWE####
+
+The [Max Planck Institute for Plant Breeding Research][54] in Cologne, Germany have developed the 
+  Automatic Functional Annotation in a distributed Web Service Environment ([AFAWE][55]). 
+AFAWE is a tool for the automatic functional annotation of new genes in plants and other organisms. 
+The annotation involves the running of several Web services, and also the execution of a Taverna [workflow][56].
+
+The annotation workflow is [available][57] on [myExperiment][58].
+
+#####Publications#####
+The [paper][59] *Protein function prediction and annotation in an integrated environment powered by web services 
+  (AFAWE)* by Joecker et al describes the concepts and implementation of AFAWE.
+
+<a name="annotation-of-genomes"></a>
+###Annotation of genomes###
+A collaboration between [Tom Oinn][60] from the myGrid team and Anders Lanzen, Svenn Helge Grindhaug and 
+   Pal Puntervoll from the [University of Bergen][61], Norway, has produced an interactive genome annotation 
+   pipeline.
+
+Sequencing, characterising and annotating a genome are the first steps to understanding its function. 
+Important stages in this include gene prediction, comparative genomics and function prediction of genes and 
+   gene products. 
+With workflows all of these stages can be automate, requiring little human interaction. 
+However, manual inspection can be required at certain points in the process.
+
+####Publications####
+[Articles and papers][62] about the success of Taverna for genome annotation are available on-line.
+
+<a name="taweka"></a>
+####TaWeka####
+[Luna De Ferrari][63] from the Computational Systems Biology &amp; 
+   [Bioinformatics group at the University of Edinburgh][64] has developed [TaWeka][65],
+
+> a rapid prototyping tool for biological classifiers.
+
+TaWeka uses Taverna workflows to store data retrieved from webservices, e.g. queries of biological data, 
+   into a database. 
+[Weka][66] is then used to run machine learning experiments on the data in order to evaluate and improve 
+   biological classification functions.
+
+#####Publications#####
+A poster [*TaWeka: from biological web services to data mining*][67] by De Ferrara and Goryanin describes the 
+   purpose and implementation of TaWeka.
+
+<a name="adoption-by-moby"></a>
+####Adoption by the Moby consortium####
+The [Moby][68] project develops a system for interoperability between biological data hosts and 
+   analytical services. 
+Their relationship with Taverna is multiple:
+
+ - The Moby team actively collaborate with myGrid in the development of the ontologies used to describe their 
+      services. 
+   Service descriptions are then used by Taverna to find services to use in workflows.
+ - The services published on Moby are a large proportion of the services often used in Taverna workflows
+ - People wishing to combine Moby services commonly use Taverna Workbench as a platform
+ - Specific support for Moby services is available within Taverna.
+
+#####Publications#####
+The [paper][69] *Interoperability with Moby 1.0—It’s better than sharing your toothbrush!* by the 
+   Moby consortium gives an overview of Moby and their activities.
+
+<a name="arts"></a>
+###Arts###
+Taverna has been used for the [composition of music][70] using Web services for synthesis.
+
+<a name="composition-of-music"></a>
+####Composition of music####
+[John Ffitch][71] and others at the University of Bath have developed a service-oriented composition environment 
+   for music. 
+The environment consists of three main components:
+ - A suite of synthesis Web services that incorporate a selection of the basic atomic components required for 
+      sound creation and processing</li>
+ - A tool that gives a description of music in terms of the construction of the instruments 
+     (parameters, connections) and the score they will play on>
+ - An “environment of use” that allows the connection and enactment of the synthesis services
+
+Both [Triana][72] and Taverna have been tested as the environment of use.
+#####Publications#####
+This work is described in the [paper][73] *Composition with Sound Web Services and Workflows* by Ffitch et al.
+
+<a name="astronomy"></a>
+###Astronomy###
+Taverna and [myExperiment][74] are being used for astronomy research by several projects:
+
+ - [AstroGrid][75] - plugin to allow AstroGrid utilities within Taverna 1.x
+ - [HELIO][76] - workflows including heliophysical services
+ - [SAMPO][77] - development of a workflow system based upon Taverna
+
+<a name="astrogrid"></a>
+####AstroGrid####
+The UK’s [AstroGrid][78] is a ~£14M (over the period 2001-2009) project aimed at building a data-grid for UK 
+   astronomy, which will form the UK contribution to a global VirtualObservatory.</p>
+
+A [Taverna 1.x processor][79] has been written to enable client-site AstroGrid utilities to be included within 
+   Taverna workflows.
+
+#####Publications#####
+A book chapter "AstroGrid and the Virtual Observatory", Walton, N. A., Gonzalez-Solareson, E., Springer, 
+   Lecture Notes in Physic, vol. 791, pp. 81-113, 2009.   
+[http://www.springerlink.com/content/yk36404544k778g8][80]
+
+AstroGrid: Taverna in the Virtual Observatory, Benson, K. M., Walton, N. A., Memorie della Società Astronomica 
+   Italiana, vol. 80, p.574, 2009   
+[http://adsabs.harvard.edu/abs/2009MmSAI..80..574B][81]
+
+Taverna and Workflows in the Virtual Observatory, Walton, N. A.; Witherwick, D. K.; Oinn, T.; Benson, K. M., 
+   Proceedings of the Astronomical Data Analysis Software and Systems ASP Conference Series, London, UK. 
+Edited by Robert W. Argyle, Peter S. Bunclark, and James R. Lewis., p.309, 2008.   
+[http://adsabs.harvard.edu/abs/2008ASPC..394..309W][82]
+
+<a name="sampo"></a>
+####SAMPO####
+The SAMPO [project][83] was part of the ongoing Finnish contribution to the [European Southern Observatory][84].
+
+Based upon Taverna, the SAMPO project developed the Recipe Flexible Execution workflow system [ESO Reflex][85]. 
+ESO Refex allows users to connect together C programs that reduce the raw data produced by ESO instruments.
+
+#####Publications#####
+The [paper][86] *ESO Reflex: A Graphical Workflow Engine for Running Recipes* by Hook et al, describes the 
+   ESO Reflex workbench.
+
+<a name="biodiversity"></a>
+###Biodiversity###
+[BioVel][87] - establishing an international e-Laboratory to allow biodiversity  scientists to jointly tackle 
+   diverse research challenges using Taverna, myExperiment and BioCatalogue
+
+<a name="bioinformatics"></a>
+###Bioinformatics###
+<p>Taverna can connect to a wide variety of bioinformatics resources and has been successfully applied to a number of bioinformatics problems, listed below according to their sub-domains.<span id="more-2073"></span></p>
+<p style="text-align: center;"><img class="aligncenter" title="Bioinformatics services and resources" src="/pages/wp-content/uploads/2011/03/BioinformaticsResources.png" alt="Bioinformatics services and resources" width="676" height="441" /></p>
+<p>Bioinformatics systems/tools using Taverna:</p>
+<ul>
+<li><a href="/introduction/taverna-in-use/bioinformatics/biowep/">BioWEP</a> &#8211; bioinformatics workflow enactment portal</li>
+<li><a href="/introduction/taverna-in-use/bioinformatics/biolinux/">BioLinux</a> &#8211; Ubuntu Linux distribution that includes Taverna and many other bioinformatics programs</li>
+</ul>
+<h3>Biodiversity</h3>
+<ul>
+<li><a href="/introduction/related-projects/biovel">BioVeL</a></li>
+</ul>
+<h3>Gene and genome expression</h3>
+<ul>
+<li><a href="/introduction/taverna-in-use/genome-and-gene-expression/next-generation-sequencing">Next Generation Sequencing</a> using Taverna 2 Server on Amazon cloud</li>
+<li><a href="/introduction/taverna-in-use/genome-and-gene-expression/tavernapbs/">TavernaPBS</a> &#8211; next generation sequencing analysis using a computational cluster that uses a PBS queuing system and Taverna 2 Workbench</li>
+<li><a href="/introduction/taverna-in-use/genome-and-gene-expression/casimir/">Coordination and Sustainability of International Mouse Informatics Resources</a> (CASIMIR) &#8211; workflows to associate mouse genome and phenome</li>
+<li><a href="/introduction/taverna-in-use/genome-and-gene-expression/dgemap/">Developmental Gene Expression Map</a> (DGEMap)- analysis of human gene expression during development</li>
+<li><a href="/introduction/taverna-in-use/disease-research/graves-disease/">Graves disease</a> &#8211; identification of genes responsible</li>
+<li><a href="/introduction/taverna-in-use/bioinformatics/gene-expression-from-microarray/">Examination of gene expression from MicroArray data using R</a> &#8211; statistical analysis of gene expression</li>
+<li><a href="/introduction/taverna-in-use/genome-and-gene-expression/sigenae/">SIGENAE</a> &#8211; development of workflows to analyse breeding animal data</li>
+<li><a href="/introduction/taverna-in-use/disease-research/trypanosomiasis/">Trypanosomiasis</a> &#8211; identification of genes responsible for sleeping sickness</li>
+<li><a href="/introduction/taverna-in-use/disease-research/williams-beuren-syndrome/">Williams-Beuren syndrome</a> &#8211; automation and confirmation of gene characterization</li>
+<li><a href="/introduction/taverna-in-use/biology/planet/">PLANET</a> &#8211; integration of plant genome resources</li>
+<li><a href="/introduction/taverna-in-use/annotation/annotation-of-genomes/">Annotation of genomes</a></li>
+<li><a href="/introduction/related-projects/shared-genomics/">Shared Genomics</a></li>
+<li><a href="http://img.cs.man.ac.uk/efungi/" target="_blank">e-Fungi</a> &#8211; functional genomics in fungal species</li>
+</ul>
+<h3>Protein and proteomics</h3>
+<ul>
+<li><a href="/introduction/taverna-in-use/bioinformatics/lumc/">Analysis of mass spectrometry data in proteomics</a></li>
+<li><a href="/introduction/taverna-in-use/disease-research/analysis-of-anthrax-bacterium/">Anthrax analysis</a> &#8211; identification of proteins secreted by bacteria</li>
+<li><a href="/introduction/taverna-in-use/databases/efamily/">eFamily</a> &#8211; integrating data from different databases</li>
+<li><a href="http://www.mygrid.org.uk/mygrid-in-use/adoption-by-embrace/">European Model for Bioinformatics Research And Community Education</a> (EMBRACE) &#8211; calling services on a grid; recovering a database</li>
+<li><a href="/introduction/related-projects/ispider/">iSpider</a> &#8211; querying multiple data sources</li>
+<li><a href="/introduction/taverna-in-use/protein-and-proteomics/prodom/">ProDom</a> &#8211; running of Taverna workflows behind a portal to search a protein database</li>
+</ul>
+<h3>Biology and systems biology</h3>
+<ul>
+<li><a href="/introduction/taverna-in-use/biology/enfin/">ENFIN – Enabling Systems Biology</a> – calling of wrapped tools within workflows</li>
+<li><a href="/introduction/taverna-in-use/biology/manchester-centre-for-integrative-systems-biology/">Manchester Centre for Integrative Systems Biology</a> (MCISB) – modelling metabolomic pathways</li>
+<li><a href="/introduction/taverna-in-use/biology/sb-os/">Systems Biology Operational Software</a> (SB.OS) &#8211; a live DVD based on Ubuntu Linux that comes with a comprehensive list of Systems Biology Software (including Taverna)</li>
+<li><span><a href="/introduction/taverna-in-use/biology/tav4sb/">Tav4SB</a> -</span> Taverna workflows for systems biology, in particular for analysis of the kinetic models of biological systems</li>
+<li><a href="/introduction/taverna-in-use/bioinformatics/measuring-enzyme-characteristics-of-yeast/">Measuring of enzyme characteristics of yeast</a></li>
+<li><a href="/introduction/taverna-in-use/annotation/afawe/">Automatic Functional Annotation in a distributed Web Service Environment</a> (AFAWE) – protein prediction and annotation by a tool that calls workflows</li>
+<li><a href="/introduction/taverna-in-use/biology/planet/">PLANET (A Network of European Plant Databases)</a> – calling of workflows from a portal</li>
+</ul>
+<h3>Biomedicine and disease-related research</h3>
+<ul>
+<li><a href="/introduction/taverna-in-use/disease-research/vph-dareit/">Fighting dementia</a> (VP-DARE@IT and VPH-SHARE)</li>
+<li><a href="/introduction/taverna-in-use/disease-research/analysis-of-anthrax-bacterium/">Analysis of the anthrax bacterium</a></li>
+<li><a href="/introduction/taverna-in-use/trypanosomiasis/">Study of resistance into trypanosomiasis</a> (sleeping sickness)</li>
+<li><a href="/introduction/taverna-in-use/disease-research/graves-disease/">Identification of genes linked to Graves disease</a></li>
+<li><a href="/introduction/taverna-in-use/disease-research/williams-beuren-syndrome/">Characterisation of genes associated with Williams-Beuren syndrome</a></li>
+<li><a href="/introduction/related-projects/cagrid/">caGrid</a> &#8211; research into predicting limphoma cancer</li>
+<li><a href="/introduction/taverna-in-use/medicine/eu-adr/">EU-ADR</a> &#8211; detecting adverse drug reactions through the exploitation of clinical data from electronic healthcare records</li>
+</ul>
+
+
+<a name="chemistry"></a>
+###Chemistry###
+
+<a name="data-and-text-mining"></a>
+###Data and text mining###
+
+<a name="databases"></a>
+###Databases###
+
+<a name="document-analysis"></a>
+###Document and image analysis (digital preservation)###
+
+<a name="education"></a>
+###Education###
+
+<a name="engineering"></a>
+###Engineering###
+
+<a name="geoinformatics"></a>
+###Geoinformatics###
+
+<a name="information-quality"></a>
+###Information quality###
+
+<a name="multimedia"></a>
+###Multimedia###
+
+<a name="natural-language-processing"></a>
+###Natural language processing</a></li>
+
+<a name="service-provision"></a>
+###Service provision###
+
+<a name="service-testing"></a>
+###Service testing###
+
+<a name="social-sciences"></a>
+###Social sciences###
+
+
+==
+
+<a name="chronology"<a/>
+
 
   [1]: #by-domain
-  [2]: /introduction/taverna-in-use.html#server
-  [3]: /introduction/taverna-in-use.html#grid
-  [4]: /introduction/taverna-in-use.html#cloud
-  [5]: /introduction/taverna-in-use.html#portal
-  [6]: /introduction/taverna-in-use.html#bundled-with-products
-  [7]: /introduction/taverna-in-use.html#chronology
+  [2]: #server
+  [3]: #grid
+  [4]: #cloud
+  [5]: #portal
+  [6]: #bundled-with-products
+  [7]: #chronology
+  [8]: /download/taverna-server
+  [9]: /introduction/related-projects.html#biovel
+  [10]: http://www.vph-share.eu/
+  [11]: /introduction/related-projects/shared-genomics/
+  [12]: /introduction/related-projects/helio/
+  [13]: /introduction/related-projects/cagrid/
+  [14]: /introduction/related-projects/neiss/
+  [15]: http://en.wikipedia.org/wiki/Grid_computing
+  [16]: #tavernapbs
+  [17]: #cagrid
+  [18]: http://webcache.googleusercontent.com/search?q=cache:SO2-xLmcod4J:www.eu-egee.org/+&amp;cd=1&amp;hl=en&amp;ct=clnk&amp;gl=uk
+  [19]: #embrace
+  [20]: knowarc
+  [21]: #moteur
+  [22]: http://www.mygrid.org.uk/outreach/collaboration/collaboration-with-nbic/
+  [23]: #simdat
+  [24]: http://www.mygrid.org.uk/dev/wiki/display/plugins/Submitting+HPC+jobs+from+Taverna+using+GridSAM
+  [25]: http://dev.mygrid.org.uk/wiki/display/taverna/Taverna%2C+Grids+and+Clouds
+  [26]: /introduction/related-projects.html#tsb
+  [27]: #next-generation-sequencing
+  [28]: /introduction/related-projects.html#scape
+  [29]: http://www.nbcr.net/
+  [30]: /documentation/taverna-plugins.html#opal
+  [31]: /documentation/taverna-plugins.html#esc
+  [32]: http://knoesis.wright.edu/library/resource.php?id=835
+  [33]: /introduction/related-projects.html#biovel
+  [34]: https://wiki.biovel.eu/display/doc/Taverna+Server
+  [35]: https://wiki.biovel.eu/display/doc/Taverna+Server+AMI
+  [36]: http://www.vph-share.eu
+  [37]: https://vph.cyfronet.pl/tutorial/doku.php?id=as_instantiation
+  [38]: https://portal.vph-share.eu
+  [39]: #afawe
+  [40]: #biowep
+  [41]: #planet
+  [42]: #prodom
+  [43]: #metware
+  [44]: #neiss
+  [45]: #biolinux
+  [46]: http://www.omii.ac.uk/wiki/SoftwareOverview
+  [47]: #sb-os
+  [48]: http://code.google.com/p/calctav/
+  [49]: #afawe
+  [50]: #annotation-of-genomes
+  [51]: #taweka
+  [52]: #adoption-by-moby
+  [53]: /introduction/related-projects.html#ispider
+  [54]: http://www.mpiz-koeln.mpg.de/2169/en
+  [55]: http://bioinfo.mpiz-koeln.mpg.de/afawe/
+  [56]: http://bioinfo.mpiz-koeln.mpg.de/afawe/help/Tools.html#SIFTER
+  [57]: http://www.myexperiment.org/workflows/95
+  [58]: http://www.myexperiment.org/
+  [59]: http://dx.doi.org/10.1093/bioinformatics/btn394
+  [60]: http://www.mygrid.org.uk/about-us/people/previous-members/thomas-oinn/
+  [61]: http://www.uib.no/en
+  [62]: http://www.mygrid.org.uk/bibsearch-results/?bibliography_subject=genome-annotation
+  [63]: http://homepages.inf.ed.ac.uk/ldeferra/
+  [64]: http://www.bioinformatics.ed.ac.uk/
+  [65]: http://mook.inf.ed.ac.uk/twiki/bin/view.cgi/PublicCSB/TaWeka
+  [66]: http://www.cs.waikato.ac.nz/ml/weka/
+  [67]: http://mook.inf.ed.ac.uk/twiki/pub/PublicCSB/TaWekaPosters/colourA4_16.pdf
+  [68]: http://biomoby.open-bio.org/
+  [69]: http://dx.doi.org/10.1093/bib/bbn003
+  [70]: #composition-of-music
+  [71]: http://en.wikipedia.org/wiki/John_ffitch
+  [72]: http://www.trianacode.org/
+  [73]: http://opus.bath.ac.uk/5290/
+  [74]: http://www.myexperiment.org
+  [75]: #astrogrid
+  [76]: /introduction/related-projects.html#helio
+  [77]: #sampo
+  [78]: http://www.astrogrid.org/
+  [79]: http://wiki.astrogrid.org/bin/view/Astrogrid/VoWorkflowsWithTaverna
+  [80]: http://www.springerlink.com/content/yk36404544k778g8
+  [81]: http://adsabs.harvard.edu/abs/2009MmSAI..80..574B
+  [82]: http://adsabs.harvard.edu/abs/2008ASPC..394..309W
+  [83]: http://www.eso.org/sci/data-processing/software/sampo/
+  [84]: http://www.eso.org/
+  [85]: http://www.eso.org/sci/data-processing/software/sampo/reflex/
+  [86]: http://www.springerlink.com/content/p67480k2w7311315/
+  [87]: /introduction/related-projects.html#biovel
