@@ -196,7 +196,7 @@ SCAPE</a><br />
 <td>-</td>
 </tr>
 <tr>
-<th><a href="/introduction/taverna-in-use/engineering.html>Engineering</a></th>
+<th><a href="/introduction/taverna-in-use/engineering.html">Engineering</a></th>
 <td><a href="/introduction/taverna-in-use/engineering.html#jpl">JPL</a></td>
 <td>-</td>
 <td>-</td>
