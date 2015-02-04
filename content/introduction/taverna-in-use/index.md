@@ -37,7 +37,7 @@ View by [chronological][7] order of deployment.
        id="taverna-usage-table" 
        summary="Distribution of Taverna usage: domain vs. deployment">
 <caption class="taverna-usage-table">Table1. Distribution of Taverna usage: domain vs. deployment</caption>
-tbody>
+<tbody>
 <tr>
 <th></th>
 <th>Standalone</th>
@@ -411,6 +411,110 @@ Various domains where scientists have used Taverna so far include:
  - [Social sciences][66]
 
 <a name="chronology"<a/>
+##Taverna in use chronology##
+
+More than 350 organizations around the world, both academic and commercial, are known to use Taverna. 
+It is employed in a significant number of differing domains to facilitate novel research or to accelerate, 
+formalise or share existing research. 
+
+<a name="2013"></a>
+###2013###
+
+[VP-DATE@IT][67] and [VPH-SHARE][68] - active
+
+<a name="2012"></a>
+###2012###
+
+[PML][69] Plymouth Marine Laboratory (Institute)
+
+<a name="2011"></a>
+###2011###
+
+[TSB][70] Completed Dec-2012   
+[BioVeL][71] - Active   
+[Mass spectrometry data analysis in proteomics][72] - Active   
+[SCAPE][73] - Active   
+[Tav4SB][74] - Software   
+[BioWEP][75]- Software   
+[Open software development wfs][76] - Active   
+[Trypanosomiasis][77] - Active   
+[CalcTav][78] - Active
+
+<a name="2012"></a>
+###2010###
+
+[PANACEA][79] - Completed Dec-2012   
+[DAE][80] - Active   
+[TavernaPBS][81] - Active   
+[Next generation sequencing][82] - Active   
+[SB.OS][83] - Software   
+[JPL][84] - Active   
+[MCISB][85] - Completed May-2012   
+[ChemTaverna][86] - Active
+
+<a name="2009"></a>
+###2009###
+
+[NeISS][87] - Completed Mar-2012   
+[e-LICO][88] - Completed 2012   
+[HELIO][89] - Completed Dec-2012
+
+<a name="2008"></a>
+###2008###
+
+[IMPACT][90] - Completed Jan-2012   
+[MetWare][91] - Software
+[EU-ADR][92] - Completed Jan-2012  
+[BioLinux][93] - Software   
+[AFAWE][94] - Institute   
+[caGrid][95] - Completed Nov-2009   
+[ENGAGE][96] - Active   
+[ONDEX][97] Completed Mar-2011
+
+<a name="2007"></a>
+###2007###
+
+[Shared Genomics][98] - Completed Feb-2010   
+[AID][99] - Active
+[Graves disease][100] - Active
+[Course generator][101] - Active   
+[TaWeka][102] - Active
+[Composing music][103] - Active   
+[MicroArray analysis][104]   
+[REFINE][105] - Completed Jun-2010
+
+<a name="2006"></a>
+###2006###
+
+[CCPN][106] - Active   
+[PLANET][107] - Active   
+[Anthrax analysis][108]</a> &#8211; Active<br />
+<a href="/introduction/taverna-in-use/medical-imaging/knowarc/">KnowARC</a> &#8211; Completed 2009<br />
+<a href="/introduction/taverna-in-use/medical-imaging/miasgrid/">MIASGrid</a> &#8211; Completed 2006<br />
+<a href="/introduction/taverna-in-use/multimedia/echase/">eCHASE</a> &#8211; Completed 2006<br />
+<a href="/introduction/taverna-in-use/on-a-grid/moteur/">MOTEUR</a> &#8211; Active<br />
+<a href="/introduction/introduction/taverna-in-use/bioinformatics/planet/">PLANET</a> &#8211; Active</p>
+<h3><a name="2005"></a>2005</h3>
+<p><a href="/introduction/taverna-in-use/biology/enfin/">ENFIN</a> &#8211; Completed Nov-2010<br />
+<a href="/introduction/taverna-in-use/chemistry/chemical-informatics-and-cyberinfrastructure-collaboratory/">CICC</a> &#8211; Completed 2008<br />
+<a href="/introduction/taverna-in-use/databases/embrace/">EMBRACE</a> &#8211; Completed May-2006<br />
+<a href="/introduction/taverna-in-use/genome-and-gene-expression/dgemap/">DGEMap</a> &#8211; Completed 2009<br />
+<a href="/introduction/taverna-in-use/genome-and-gene-expression/sigenae/">SIGENAE</a> &#8211; Active<br />
+<a href="/introduction/taverna-in-use/bioinformatics/measuring-enzyme-characteristics-of-yeast/">Measuring yeast characteristics</a> &#8211; Completed Apr-2010</p>
+<h3><a name="2004"></a>2004</h3>
+<p><a href="/introduction/taverna-in-use/databases/efamily/">eFamily</a> &#8211; Active<br />
+<a href="/introduction/taverna-in-use/disease-research/williams-beuren-syndrome/">Williams-Beuren syndrome</a> &#8211; Active<br />
+<a href="/introduction/taverna-in-use/information-quality/qurator/">Qurator</a> &#8211; Completed Jul-2007<br />
+<a href="/introduction/taverna-in-use/protein-and-proteomics/prodom/">ProDom</a> &#8211; Database<br />
+<a href="/introduction/related-projects/e-fungi/">e-Fungi</a> &#8211; Completed Jun-2008<br />
+<a href="/introduction/related-projects/ispider/">iSpider</a> &#8211; Completed Jun-2007</p>
+<h3><a name="2002"></a>2002</h3>
+<p><a href="/introduction/taverna-in-use/genome-and-gene-expression/casimir/">CASIMIR</a> &#8211; Completed May-2006</p>
+<h3><a name="2001"></a>2001</h3>
+<p><a href="/introduction/taverna-in-use/on-a-grid/simdat/">SIMDAT</a> &#8211; Active<br />
+<a href="/introduction/taverna-in-use/annotation/adoption-by-moby/">Moby consortium</a> &#8211; Active<br />
+<a href="/introduction/taverna-in-use/astronomy/astrogrid/">AstroGrid</a> &#8211; Completed 2009</p>
+<p>&nbsp;</p>
 
 
   [1]: #by-domain
@@ -479,3 +583,45 @@ Various domains where scientists have used Taverna so far include:
   [64]: /introduction/taverna-in-use/service-provision.html
   [65]: /introduction/taverna-in-use/service-testing.html
   [66]: /introduction/taverna-in-use/social-sciences.html
+  [67]: /introduction/taverna-in-use/disease-research.html#vph-dareit
+  [68]: http://www.vph-share.eu/
+  [69]: /introduction/taverna-in-use/by-domain/geoinformatics.html#pml
+  [70]: /introduction/related-projects.html#tsb
+  [71]: /introduction/related-projects.html#biovel
+  [72]: /introduction/taverna-in-use/bioinformatics.html#lumc
+  [73]: /introduction/related-projects.html#scape
+  [74]: /introduction/taverna-in-use/biology.html#tav4sb
+  [75]: /introduction/taverna-in-use/bioinformatics.html#biowep
+  [76]: /introduction/taverna-in-use/data-and-text-mining.html#open-software-development-workflows
+  [77]: /introduction/taverna-in-use/disease-research.html#trypanosomiasis
+  [78]: http://code.google.com/p/calctav/
+  [79]: /introduction/taverna-in-use/by-domain/natural-language-processing.html#panacea
+  [80]: /introduction/taverna-in-use/by-domain/document-analysis.html#dae
+  [81]: /introduction/taverna-in-use/genome-and-gene-expression.html#tavernapbs
+  [82]: /introduction/taverna-in-use/genome-and-gene-expression.html#next-generation-sequencing
+  [83]: /introduction/taverna-in-use/biology.html#sb-os
+  [84]: /introduction/taverna-in-use/engineering.html#jpl
+  [85]: /introduction/taverna-in-use/biology.html#manchester-centre-for-integrative-systems-biology
+  [86]: /introduction/related-projects.html#chemtaverna
+  [87]: /introduction/related-projects.html#neiss
+  [88]: /introduction/related-projects.html#e-lico
+  [89]: /introduction/related-projects.html#helio
+  [90]: /introduction/taverna-in-use/social-sciences.html#impact
+  [91]: /introduction/taverna-in-use/systems-biology.html#metware
+  [92]: /introduction/taverna-in-use/medicine.html#eu-adr
+  [93]: /introduction/taverna-in-use/bioinformatics.html#biolinux
+  [94]: /introduction/taverna-in-use/annotation.html#afawe
+  [95]: /introduction/related-projects.html#cagrid
+  [96]: /introduction/related-projects.html#engage
+  [97]: /introduction/related-projects.html#ondex
+  [98]: /introduction/related-projects.html#shared-genomics
+  [99]: /introduction/taverna-in-use/data-and-text-mining.html#aid
+  [100]: /introduction/taverna-in-use/disease-research.html#graves-disease
+  [101]: /introduction/taverna-in-use/multimedia.html#course-generator
+  [102]: /introduction/taverna-in-use/annotation.html#taweka
+  [103]: /introduction/taverna-in-use/arts.html#composition-of-music
+  [104]: /introduction/taverna-in-use/bioinformatics.html#gene-expression-from-microarray
+  [105]: /introduction/taverna-in-use/data-and-text-mining.html#refine
+  [106]: /introduction/taverna-in-use/systems-biology.html#ccpn
+  [107]: /introduction/taverna-in-use/biology.html#planet
+  [108]: /introduction/taverna-in-use/disease-research.html#analysis-of-anthrax-bacterium
