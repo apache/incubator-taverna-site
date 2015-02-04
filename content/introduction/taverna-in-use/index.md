@@ -90,8 +90,9 @@ tbody>
 <tr>
 <th>Bioinformatics</th>
 <td><a href="/introduction/taverna-in-use/bioinformatics.html#lumc">Mass spectrometry data analysis in proteomics</a><br />
-<a href="/introduction/taverna-in-use/bioinformatics.html#gene-expression-from-microarray">MicroArray analysis</a><a href="/introduction/taverna-in-use/bioinformatics/measuring-enzyme-characteristics-of-yeast/"><br />
-Measuring yeast characteristics</a><br />
+<a href="/introduction/taverna-in-use/bioinformatics.html#gene-expression-from-microarray">MicroArray analysis</a><br />
+<a href="/introduction/taverna-in-use/bioinformatics.html#measuring-enzyme-characteristics-of-yeast">
+   Measuring yeast characteristics</a><br />
 <a href="/introduction/taverna-in-use/biology.html#enfin">ENFIN</a><br />
 <a href="/introduction/taverna-in-use/biology.html#manchester-centre-for-integrative-systems-biology">MCISB</a><br />
 <a href="/introduction/taverna-in-use/genome-and-gene-expression.html#casimir">CASIMIR</a><br />
@@ -110,8 +111,8 @@ Measuring yeast characteristics</a><br />
 <a href="/introduction/taverna-in-use/databases.html#efamily">eFamily</a><br />
 <a href="/introduction/related-projects.html#ispider">iSpider</a></td>
 <td><a href="/introduction/taverna-in-use/disease-research.html#vph-dareit">VPH-DATE@IT</a><br />
-<a href="/introduction/taverna-in-use/disease-research.html#vph-dareit">VPH-SHARE</a><a href="/introduction/related-projects/shared-genomics/"><br />
-Shared Genomics</a><br />
+<a href="/introduction/taverna-in-use/disease-research.html#vph-dareit">VPH-SHARE</a><br />
+<a href="/introduction/related-projects.htmlshared-genomics/>Shared Genomics</a><br />
 <a href="/introduction/related-projects.html#cagrid">caGrid</a></td>
 <td><a href="/introduction/taverna-in-use/biology.html#tav4sb">Tav4SB</a><br />
 <a href="/introduction/taverna-in-use/medical-imaging.html#knowarc">KnowARC</a><br />
