@@ -48,7 +48,7 @@ tbody>
 <th>Bundled</th>
 </tr>
 <tr>
-<th>Annotation</th>
+<th><a href="/introduction/taverna-in-use/annotation.html">Annotation</a></th>
 <td><a href="/introduction/taverna-in-use/annotation.html#annotation-of-genomes">Genome annotation</a><br />
 <a href="/introduction/taverna-in-use/annotation.html#taweka">TaWeka</a><br />
 <a href="/introduction/taverna-in-use/annotation.html#adoption-by-moby">Moby consortium</a><br />
@@ -60,7 +60,7 @@ tbody>
 <td>-</td>
 </tr>
 <tr>
-<th>Arts</th>
+<th><a href="/introduction/taverna-in-use/arts.html">Arts</a></th>
 <td><a href="/introduction/taverna-in-use/arts.html#composition-of-music">Composing music</a></td>
 <td>-</td>
 <td>-</td>
@@ -69,7 +69,7 @@ tbody>
 <td>-</td>
 </tr>
 <tr>
-<th>Astronomy</th>
+<th><a href="/introduction/taverna-in-use/astronomy.html">Astronomy</a></th>
 <td><a href="/introduction/taverna-in-use/astronomy.html#sampo">SAMPO</a></td>
 <td><a href="/introduction/related-projects.html#helio">HELIO</a></td>
 <td><a href="/introduction/taverna-in-use/astronomy.html#astrogrid">AstroGrid</a><br />
@@ -79,7 +79,7 @@ tbody>
 <td>-</td>
 </tr>
 <tr>
-<th>Biodiversity</th>
+<th><a href="/introduction/taverna-in-use/biodiversity.html">Biodiversity</a></th>
 <td><a href="/introduction/related-projects.html#biovel">BioVeL</a></td>
 <td><a href="/introduction/related-projects.html#biovel">BioVeL</a></td>
 <td>-</td>
@@ -88,7 +88,7 @@ tbody>
 <td>-</td>
 </tr>
 <tr>
-<th>Bioinformatics</th>
+<th><a href="/introduction/taverna-in-use/bioinformatics.html">Bioinformatics</a></th>
 <td><a href="/introduction/taverna-in-use/bioinformatics.html#lumc">Mass spectrometry data analysis in proteomics</a><br />
 <a href="/introduction/taverna-in-use/bioinformatics.html#gene-expression-from-microarray">MicroArray analysis</a><br />
 <a href="/introduction/taverna-in-use/bioinformatics.html#measuring-enzyme-characteristics-of-yeast">
@@ -133,7 +133,7 @@ tbody>
 <a href="/introduction/taverna-in-use/biology.html#sb-os">SB.OS</a></td>
 </tr>
 <tr>
-<th>Chemistry</th>
+<th><a href="/introduction/taverna-in-use/chemistry.html">Chemistry</a></th>
 <td><a href="/introduction/taverna-in-use/chemistry.html#chemistry-development-kit">CDK</a><br />
 <a href="/introduction/taverna-in-use/chemistry.html#chemical-informatics-and-cyberinfrastructure-collaboratory">CICC</a><br />
 <a href="/introduction/related-projects.html#chemtaverna">ChemTaverna</a><br />
@@ -145,7 +145,7 @@ tbody>
 <td>-</td>
 </tr>
 <tr>
-<th>Data and text mining</th>
+<th><a href="/introduction/taverna-in-use/data-and-text-mining.html">Data and text mining</a></th>
 <td><a href="/introduction/taverna-in-use/data-and-text-mining.html#aid">AID</a><br />
 <a href="/introduction/taverna-in-use/multimedia.html#course-generator">Course generator</a><br />
 <a href="/introduction/taverna-in-use/data-and-text-mining.html#refine">REFINE</a><br />
@@ -159,7 +159,7 @@ tbody>
 <td>-</td>
 </tr>
 <tr>
-<th>Databases</th>
+<th><a href="/introduction/taverna-in-use/databases.html">Databases</a></th>
 <td><a href="/introduction/taverna-in-use/multimedia.html#echase">eCHASE</a><br />
 <a href="/introduction/taverna-in-use/databases.html#efamily">eFamily</a><br />
 <a href="/introduction/related-projects.html#ispider">iSpider</a><br />
@@ -171,8 +171,8 @@ tbody>
 <td><a href="http://code.google.com/p/calctav/" target="_blank">CalcTav</a></td>
 </tr>
 <tr>
-<th>Document and image analysis/<br />
-Digital preservation</th>
+<th><a href="/introduction/taverna-in-use/document-analysis.html">Document and image analysis<br />
+Digital preservation</a></th>
 <td><a href="/introduction/taverna-in-use/by-domain/document-analysis.html#islandora">Islandora</a><a href="/introduction/related-projects/scape/"><br />
 SCAPE</a><br />
 <a href="/introduction/taverna-in-use/by-domain/document-analysis.html#impact">IMPACT</a><br />
@@ -187,7 +187,7 @@ SCAPE</a><br />
 <td>-</td>
 </tr>
 <tr>
-<th>Education</th>
+<th><a href="/introduction/taverna-in-use/education.html">Education</a></th>
 <td><a href="/introduction/taverna-in-use/multimedia.html#course-generator">Course generator</a></td>
 <td>-</td>
 <td>-</td>
@@ -196,7 +196,7 @@ SCAPE</a><br />
 <td>-</td>
 </tr>
 <tr>
-<th>Engineering</th>
+<th><a href="/introduction/taverna-in-use/engineering.html>Engineering</a></th>
 <td><a href="/introduction/taverna-in-use/engineering.html#jpl">JPL</a></td>
 <td>-</td>
 <td>-</td>
@@ -205,7 +205,7 @@ SCAPE</a><br />
 <td>-</td>
 </tr>
 <tr>
-<th>Geoinformatics</th>
+<th><a href="/introduction/taverna-in-use/geoinformatics.html">Geoinformatics</a></th>
 <td><a href="/introduction/taverna-in-use/by-domain/geoinformatics.html#pml">PML</a></td>
 <td><a href="/introduction/taverna-in-use/by-domain/geoinformatics.html#pml">PML</a></td>
 <td>-</td>
@@ -214,7 +214,7 @@ SCAPE</a><br />
 <td>-</td>
 </tr>
 <tr>
-<th>Information quality</th>
+<th><a href="/introduction/taverna-in-use/information-quality.html">Information quality</a></th>
 <td><a href="/introduction/taverna-in-use/information-quality.html#qurator">Qurator<br />
 </a></td>
 <td>-</td>
@@ -224,7 +224,7 @@ SCAPE</a><br />
 <td>-</td>
 </tr>
 <tr>
-<th>Multimedia</th>
+<th><a href="/introduction/taverna-in-use/multimedia.html">Multimedia</a></th>
 <td><a href="/introduction/taverna-in-use/multimedia.html#course-generator">Course generator<br />
 </a><a href="/introduction/taverna-in-use/multimedia.html#echase">eCHASE</a>
    <a href="/introduction/taverna-in-use/multimedia/course-generator/">
@@ -236,7 +236,7 @@ SCAPE</a><br />
 <td>-</td>
 </tr>
 <tr>
-<th>Natural language processing</th>
+<th><a href="/introduction/taverna-in-use/natural-language-processing.html">Natural language processing</a></th>
 <td><a href="/introduction/taverna-in-use/by-domain/natural-language-processing.html#panacea">PANACEA</a></td>
 <td>-</td>
 <td>-</td>
@@ -245,7 +245,7 @@ SCAPE</a><br />
 <td>-</td>
 </tr>
 <tr>
-<th>Service provision</th>
+<th><a href="/introduction/taverna-in-use/service-provision.html">Service provision</a></th>
 <td><a href="/introduction/related-projects.html#engage">ENGAGE</a></td>
 <td><a href="/introduction/related-projects.html#shared-genomics">Shared Genomics</a></td>
 <td>-</td>
@@ -254,7 +254,7 @@ SCAPE</a><br />
 <td>-</td>
 </tr>
 <tr>
-<th>Service testing</th>
+<th><a href="/introduction/taverna-in-use/service-testing.html">Service testing</a></th>
 <td><a href="/introduction/related-projects.html#e-fungi">e-Fungi</a><br />
 <a href="/introduction/taverna-in-use/annotation.html#adoption-by-moby">Moby consortium</a><br />
 <a href="/introduction/taverna-in-use/arts.html#composition-of-music">Music composition</a><br />
@@ -266,7 +266,7 @@ SCAPE</a><br />
 <td>-</td>
 </tr>
 <tr>
-<th>Social sciences</th>
+<th><a href="/introduction/taverna-in-use/social-sciences.html">Social sciences</a></th>
 <td><a href="/introduction/taverna-in-use/social-sciences.html#impact">IMPACT</a></td>
 <td><a href="/introduction/introduction/related-projects.html#neiss">NeISS</a></td>
 <td>-</td>
