@@ -21,10 +21,10 @@ Taverna is often used as a testbed to evaluate the functionality of the Web serv
    and enactor for the project’s users. 
 These Web service developers include:
 
-[e-Fungi][1]
-[Moby consortium][2]
-[Music composition][3]
-[ONDEX][4]
+ - [e-Fungi][1]
+ - [Moby consortium][2]
+ - [Music composition][3]
+ - [ONDEX][4]
 
 
   [1]: /introduction/related-projects.html#e-fungi
