@@ -44,7 +44,8 @@ The [presentation][11] *My BioAID: personalised text mining with Web services fr
 
 
 <a name="open-software-development-workflows"></a>
-##Open software development workflows##                    
+
+##Open software development workflows##
 
 Taverna has been used to model the research community developing open source software together with 
    the software itself. 
