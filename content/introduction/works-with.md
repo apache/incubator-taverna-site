@@ -1,4 +1,4 @@
-Title:
+Title:     Works with…
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -19,20 +19,77 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 Taverna directly interfaces with a range of software tools and systems. 
 Currently Taverna works with the following:
 
- - [![alt text][1]][2]
- - <a href="http://www.biomart.org/" target="_blank"><img src="/pages/wp-content/uploads/2010/03/biomart.gif" alt="BioMart" width="61" height="19" /></a><br />
- - <a href="/introduction/works-with/biomart"> Biomart</a>&nbsp;</li>
- - <a href="http://sourceforge.net/p/soaplab/wiki/Home/" target="_blank"><img src="/pages/wp-content/uploads/2010/03/Soaplab.png" alt="SoapLab" width="33" height="25" /></a><br />
- - <a href="/introduction/works-with/soaplab/">SoapLab</a></li>
- - <a href="/documentation/taverna-plugins/taverna-2-x-plugins/#sadi_plugin"><img src="/pages/wp-content/uploads/2011/03/sadi-header-small.png" alt="SADI" /></a><br />
- - <a href="/introduction/works-with/sadi/"> SADI</a></li>
- - <li><a href="http://www.r-project.org/" target="_blank"><img src="/pages/wp-content/uploads/2010/03/Rshell.png" alt="RShell" width="29" height="21" /></a><br />
- - <a href="/introduction/works-with/r/">R</a></li>
- - <li><a href="http://www.bioconductor.org/" target="_blank"><img src="/pages/wp-content/uploads/2013/07/logo_bioconductor.gif" alt="Bioconductor" width="130" height="39" /></a><br />
- - <a href="/introduction/works-with/bioconductor/">Bioconductor</a></li>
- = A number of <a href="/documentation/taverna-plugins/taverna-2-x-plugins/">third party plugins</a></li>
-</ul>
+ - <a href="http://www.biomart.org/" target="_blank">
+      <img src="/img/biomart.gif" alt="BioMart" width="61" height="19" /></a>   
+   [Biomart][1]
+ - <a href="http://sourceforge.net/p/soaplab/wiki/Home/" target="_blank">
+      <img src="/img/Soaplab.png" alt="SoapLab" width="33" height="25" /></a>   
+   [SoapLab][2]</a>
+ - <a href="/documentation/taverna-plugins/taverna-2-x-plugins/#sadi_plugin">
+      <img src="/pages/wp-content/uploads/2011/03/sadi-header-small.png" alt="SADI" /></a>   
+   [SADI][3]</a>
+ - <a href="http://www.r-project.org/" target="_blank">
+      <img src="/img/Rshell.png" alt="RShell" width="29" height="21" /></a>   
+   [R][4]</a>   
+ - <a href="http://www.bioconductor.org/" target="_blank">
+      <img src="/img/logo_bioconductor.gif" alt="Bioconductor" width="130" height="39" /></a>   
+   [Bioconductor][5]</a>
+ - A number of [third party plugins][6]
 
+<a name="biomart"></a>
+##Biomart##
+ - <a href="http://www.biomart.org/" target="_blank">
+      <img src="/img/biomart.gif" alt="BioMart" width="61" height="19" ></a>   
 
-  [1]: /img/biomart.gif
-  [2]: http://www.biomart.org/
+The [Biomart system][7] is a flexible data warehouse aimed at complex interlinked biological data sets. 
+It enables the retrieval of large amounts of genomic data e.g. from Ensembl and Sanger, as well as Uniprot, 
+   MSD datasets and many more. 
+The [Biomart service][8] is one of the default Taverna services.
+
+<a name="soaplab"></a>
+##SoapLab##
+
+ - <a href="http://sourceforge.net/p/soaplab/wiki/Home/" target="_blank">
+      <img src="/img/Soaplab.png" alt="SoapLab" width="33" height="25" ></a>   
+
+[SoapLab][9] services are command line applications, wrapped as SOAP services, and served from a Soaplab server.
+Soaplab is especially well suited for applications with well described input and output parameters
+(such as EMBOSS sequence analysis)
+
+<a name="sadi"></a>
+##SADI##
+
+ - <a href="/documentation/taverna-plugins/sadi_plugin">
+      <img src="/img/sadi-header-small.png" alt="SADI" ></a>   
+Semantic Web services described using the SADI framework
+
+<a name="r"></a>
+##R##
+ - <a href="http://www.r-project.org/" target="_blank">
+      <img src="/img/Rshell.png" alt="RShell" width="29" height="21" ></a>
+
+[R][10] is a popular scripting language oriented towards statistical computing. 
+The [Rshell][11] service in Taverna allows your workflow to include services that run R scripts on an 
+   R installation.
+
+<a name="bioconductor"></a>
+##Bioconductor##
+
+ - <a href="http://www.bioconductor.org/" target="_blank">
+      <img src="/img/logo_bioconductor.gif" alt="Bioconductor" width="130" height="39" ></a><br />
+
+[Bioconductor][12] provides tools for the analysis and comprehension of high-throughput genomic data. 
+Bioconductor uses the R statistical programming language, and is open source and open development
+ 
+  [1]: #biomart
+  [2]: #soaplab
+  [3]: #sadi
+  [4]: #r
+  [5]: #bioconductor
+  [6]: /documentation/taverna-plugins/taverna-2-x-plugins/
+  [7]: http://www.biomart.org/
+  [8]: http://dev.mygrid.org.uk/wiki/display/taverna/Biomart
+  [9]: http://sourceforge.net/p/soaplab/wiki/Home/
+  [10]: http://www.r-project.org/
+  [11]: http://dev.mygrid.org.uk/wiki/display/taverna23/Rshell
+  [12]: http://www.bioconductor.org/
