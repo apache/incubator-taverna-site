@@ -6,7 +6,7 @@ our @patterns = (
     #Using different templates
 	[qr!/websiteMigration/test\.md(?:text)?$!, single_narrative => { template => "wide.html" }],
 	[qr!/introduction/.*\.md(?:text)?$!, single_narrative => { template => "single_with_taverna2_warning.html" }],
-    
+    [qr!/documentation/.*\.md(?:text)?$!, single_narrative => { template => "single_with_taverna2_warning.html" }],
     
 	[qr!\.md(?:text)?$!, single_narrative => { template => "single_narrative.html" }],
  
