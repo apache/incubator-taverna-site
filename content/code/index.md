@@ -53,7 +53,7 @@ and workflow inputs/outputs/run (DataBundle).
   - [incubator-taverna-common-activities](https://github.com/taverna-incubator/incubator-taverna-common-activities) - Common activity implementation for engine (e.g. WSDL, REST, Tool, Interaction)
   - [incubator-taverna-commandline](https://github.com/taverna-incubator/incubator-taverna-commandline) - Command line for running Taverna workflows
   - [taverna-server](https://github.com/taverna-incubator/taverna-server) - A REST and WSDL service for running Taverna workflows
-  - [taverna-workbench](https://github.com/taverna-incubator/taverna-workbench) - Graphical workbench for editing and running Taverna workflows
+  - [incubator-taverna-workbench](https://github.com/taverna-incubator/incubator-taverna-workbench) - Graphical workbench for editing and running Taverna workflows
   - [taverna-workbench-common-activities](https://github.com/taverna-incubator/taverna-workbench-common-activities) - Common activities UI (discovery+configuration for Workbench
   - [taverna-workbench-product](https://github.com/taverna-incubator/taverna-workbench-product) - Distribution of Taverna Workbench
   - [taverna-plugin-component](https://github.com/taverna-incubator/taverna-plugin-component) - Plugin for component activity and registry
