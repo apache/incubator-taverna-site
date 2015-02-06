@@ -19,12 +19,12 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 Apache Taverna is a [incubator project](http://incubator.apache.org/) within the 
 [The Apache Software Foundation (ASF)](http://www.apache.org/).
 
-Apache (incubator) Taverna is an open source community that's organized by its 
+Taverna is an open source community that's organized by its 
    [members](http://people.apache.org/committers-by-project.html#taverna), including you! 
 Whether you're running or [writing workflows](contribute-workflow), [developing plugins](contribute-plugin), 
    [hosting a taverna server](contribute-server), [hosting a service](#contribute-host),
   [hacking the core](#contribute-code), or just want to [editing](#contribute-edit) these pages 
-there are opportunities for you to get in [touch and ask questions](#contact), 
+there are opportunities for you to [get in touch and ask questions](#contact), 
    [contribute back](#contribute) or [report a bug](#reportbugs). 
 
 ## Incubator status
