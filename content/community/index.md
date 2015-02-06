@@ -19,40 +19,29 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 Apache Taverna is a [incubator project](http://incubator.apache.org/) within the 
 [The Apache Software Foundation (ASF)](http://www.apache.org/).
 
-## Incubator status
-
-* [Taverna incubator status](http://incubator.apache.org/projects/taverna.html).
-
-## Support the Community 
-
 Apache (incubator) Taverna is an open source community that's organized by its 
    [members](http://people.apache.org/committers-by-project.html#taverna), including you! 
 Whether you're running or [writing workflows](contribute-workflow), [developing plugins](contribute-plugin), 
    [hosting a taverna server](contribute-server), [hosting a service](#contribute-host),
   [hacking the core](#contribute-code), or just want to [editing](#contribute-edit) these pages 
-there are opportunities for you to get in touch and ask questions, and contribute back. 
+there are opportunities for you to get in [touch and ask questions](#contact), 
+   [contribute back](#contribute) or [report a bug](#reportbugs). 
 
-##Contribute##
+## Incubator status
 
-<a name="reportbugs"></a>
-###Report or track a bug###
+* [Taverna incubator status](http://incubator.apache.org/projects/taverna.html).
 
-Taverna's Apache Jira is still being setup.
-In the mean time the best place to report bugs is on the mailing lists.
-
-The previous NONE Apache Taverna Jira can be found at:
-[http://dev.mygrid.org.uk/issues/browse/T3]("http://dev.mygrid.org.uk/issues/browse/T3)
-  
 <a name="contribute"></a>
-###Contribute###
+## Contribute
 
 <a name="contribute-workflow"></a>
-####Contribute a workflow####
+### Contribute a workflow
+
 The best place to contribute Taverna workflows is on 
    [http://www.myexperiment.org](My Experiment). 
 
 <a name="contribute-plugin"></a>
-####Contribute a plugin####
+### Contribute a plugin ###
 The process for writing Taverna 3 plugins is still underdevelopment.
 Documentation for None Apache Taverna 2 plugins can be found at: 
 [http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2](http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2)
@@ -60,11 +49,11 @@ Documentation for None Apache Taverna 2 plugins can be found at:
 In the future we plan on allowing plugin developers the choice of hosting their own plugins or committing then to Apache.
 
 <a name="contribute-server"></a>
-####Hosting a Taverna Server####
+### Hosting a Taverna Server  
 For information on hosting a Taverna Server to run Taverna workflows see the [Server](/documentation/server) Section.
 
 <a name="contribute-host"></a>
-####Hosting a Service for Taverna
+### Hosting a Service for Taverna
 For information on writing web services to be used in Taverna see our 
    [Web Service Developers](developers/web-service-developers) Section.
 
@@ -72,7 +61,7 @@ We recommend that your services are registered in Registries such as:
    [BioCatalogue](http://www.biocatalogue.org/BioCatalogue)
 
 <a name="contribute-code"></a>
-####Contributing Code####
+### Contributing Code
 
 We are still in the process of moving Taverna code to Apache.
 Once we have migrated you will be able to submit patches in the standard Apache way.
@@ -80,10 +69,20 @@ In the mean time you can find the latest NONE Apache sourcecode at:
 [https://github.com/taverna](https://github.com/taverna)
 
 <a name="contribute-edit"></a>
-#### Editing the website
+### Editing the website
 The website is currently under development.
 Please help make it better by [editting](community/edit) or adding pages.
 
+<a name="reportbugs"></a>
+### Report or track a bug
+
+Taverna's Apache Jira is still being setup.
+In the mean time the best place to report bugs is on the mailing lists.
+
+The previous NONE Apache Taverna Jira can be found at:
+[http://dev.mygrid.org.uk/issues/browse/T3]("http://dev.mygrid.org.uk/issues/browse/T3)
+  
+<a name="contact"></a>
 ## Contact
 
 You can contact and participate in the Apache Taverna community through the <strong>mailing lists</strong>.
