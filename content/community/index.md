@@ -38,7 +38,7 @@ there are opportunities for you to [get in touch and ask questions](#contact),
 ### Contribute a workflow
 
 The best place to contribute Taverna workflows is on 
-   [http://www.myexperiment.org](My Experiment). 
+   [My Experiment](http://www.myexperiment.org). 
 
 <a name="contribute-plugin"></a>
 ### Contribute a plugin ###
