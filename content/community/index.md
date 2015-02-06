@@ -23,6 +23,8 @@ Apache Taverna is a [incubator project](http://incubator.apache.org/) within the
 
 * [Taverna incubator status](http://incubator.apache.org/projects/taverna.html).
 
+## Support the Community 
+
 Apache (incubator) Taverna is an open source community that's organized by its 
    [members](http://people.apache.org/committers-by-project.html#taverna), including you! 
 Whether you're running or [writing workflows](contribute-workflow), [developing plugins](contribute-plugin), 
