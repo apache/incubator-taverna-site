@@ -50,12 +50,13 @@ In the future we plan on allowing plugin developers the choice of hosting their 
 
 <a name="contribute-server"></a>
 ### Hosting a Taverna Server  
-For information on hosting a Taverna Server to run Taverna workflows see the [Server](/documentation/server) Section.
+For information on hosting a Taverna Server to run Taverna workflows see the 
+[Server](/documentation/server) Section.
 
 <a name="contribute-host"></a>
 ### Hosting a Service for Taverna
 For information on writing web services to be used in Taverna see our 
-   [Web Service Developers](developers/web-service-developers) Section.
+   [Web Service Developers](/developers/web-service-developers) Section.
 
 We recommend that your services are registered in Registries such as:
    [BioCatalogue](http://www.biocatalogue.org/BioCatalogue)
@@ -71,7 +72,7 @@ In the mean time you can find the latest NONE Apache sourcecode at:
 <a name="contribute-edit"></a>
 ### Editing the website
 The website is currently under development.
-Please help make it better by [editting](community/edit) or adding pages.
+Please help make it better by [editting](/community/edit) or adding pages.
 
 <a name="reportbugs"></a>
 ### Report or track a bug
@@ -90,11 +91,11 @@ You can contact and participate in the Apache Taverna community through the <str
 The mailing lists are public. We suggest that all Taverna users join the <em>users@taverna</em> list 
 – this allows us to notify you of any critical issues or upcoming changes and allows you to have 
 a say in the future development of Taverna. Anyone using the Taverna APIs in their own code 
-would be well advised to join both <em>dev@taverna</em> and <em>users@taverna</em>.
+would be well advised to join both *dev@taverna* and *users@taverna*.
 
 ### users@taverna
 
-<em>users@taverna.incubator.apache.org</em> is intended for everyone who are using Taverna for
+*users@taverna.incubator.apache.org* is intended for everyone who are using Taverna for
 designing and running workflows. For instance, you may ask about your <strong>workflow design</strong>,
 questions about how to do something in the Workbench, or <strong>raise issues</strong> you experience when using Taverna.
 
@@ -104,8 +105,7 @@ questions about how to do something in the Workbench, or <strong>raise issues</s
     - Pre-Apache legacy list archives (2003-2014) at [markmail.org](http://markmail.org/search/?q=#query:%20list%3Anet.sourceforge.lists.taverna-users) and  [sourceforge.net](http://sourceforge.net/p/taverna/mailman/taverna-users/)
 
 ### dev@taverna
-
-<em>dev@taverna.incubator.apache.org</em> is intended for those actively developing Apache Taverna, 
+*dev@taverna.incubator.apache.org* is intended for those actively developing Apache Taverna, 
 Apache Taverna plugins or otherwise are using Apache Taverna APIs.  Use this list to discuss aspects as
 design/architecture/integration/code - even if you are not currently an Apache Taverna [committer](about).
 
@@ -118,15 +118,16 @@ design/architecture/integration/code - even if you are not currently an Apache T
 
 ### commits@taverna
 
-<em>commits@taverna.incubator.apache.org</em> is a read-only list for commit messages on Apache Taverna's [source code](/code/).
+*commits@taverna.incubator.apache.org* is a read-only list for commit messages on Apache Taverna's [source code](/code/).
 
   - Subscribe by sending an empty email to [commits-subscribe@taverna.incubator.apache.org](mailto:commits-subscribe@taverna.incubator.apache.org)
   - [List information and archive for commits@taverna](http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/) at apache.org
 
-
 ### private@taverna
 
-<em>private@taverna.incubator.apache.org</em> can be used for sensitive information that should not be made public
-in mailing list archives. Only members of the [Apache Taverna PPMC](/about/) will receive the email. Only use this list
-if the public lists cannot be used, for instance for business-sensitive matters, 
+*private@taverna.incubator.apache.org* can be used for sensitive information that should not be made public
+in mailing list archives. Only members of the 
+   [Apache Taverna PPMC](http://people.apache.org/committers-by-project.html#taverna) 
+   will receive the email. 
+Only use this list if the public lists cannot be used, for instance for business-sensitive matters, 
 security concerns or to report personal conflicts.
