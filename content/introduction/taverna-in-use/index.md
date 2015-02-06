@@ -463,7 +463,7 @@ formalise or share existing research.
 ###2008###
 
 [IMPACT][90] - Completed Jan-2012   
-[MetWare][91] - Software
+[MetWare][91] - Software   
 [EU-ADR][92] - Completed Jan-2012  
 [BioLinux][93] - Software   
 [AFAWE][94] - Institute   
@@ -488,34 +488,44 @@ formalise or share existing research.
 
 [CCPN][106] - Active   
 [PLANET][107] - Active   
-[Anthrax analysis][108]</a> &#8211; Active<br />
-<a href="/introduction/taverna-in-use/medical-imaging/knowarc/">KnowARC</a> &#8211; Completed 2009<br />
-<a href="/introduction/taverna-in-use/medical-imaging/miasgrid/">MIASGrid</a> &#8211; Completed 2006<br />
-<a href="/introduction/taverna-in-use/multimedia/echase/">eCHASE</a> &#8211; Completed 2006<br />
-<a href="/introduction/taverna-in-use/on-a-grid/moteur/">MOTEUR</a> &#8211; Active<br />
-<a href="/introduction/introduction/taverna-in-use/bioinformatics/planet/">PLANET</a> &#8211; Active</p>
-<h3><a name="2005"></a>2005</h3>
-<p><a href="/introduction/taverna-in-use/biology/enfin/">ENFIN</a> &#8211; Completed Nov-2010<br />
-<a href="/introduction/taverna-in-use/chemistry/chemical-informatics-and-cyberinfrastructure-collaboratory/">CICC</a> &#8211; Completed 2008<br />
-<a href="/introduction/taverna-in-use/databases/embrace/">EMBRACE</a> &#8211; Completed May-2006<br />
-<a href="/introduction/taverna-in-use/genome-and-gene-expression/dgemap/">DGEMap</a> &#8211; Completed 2009<br />
-<a href="/introduction/taverna-in-use/genome-and-gene-expression/sigenae/">SIGENAE</a> &#8211; Active<br />
-<a href="/introduction/taverna-in-use/bioinformatics/measuring-enzyme-characteristics-of-yeast/">Measuring yeast characteristics</a> &#8211; Completed Apr-2010</p>
-<h3><a name="2004"></a>2004</h3>
-<p><a href="/introduction/taverna-in-use/databases/efamily/">eFamily</a> &#8211; Active<br />
-<a href="/introduction/taverna-in-use/disease-research/williams-beuren-syndrome/">Williams-Beuren syndrome</a> &#8211; Active<br />
-<a href="/introduction/taverna-in-use/information-quality/qurator/">Qurator</a> &#8211; Completed Jul-2007<br />
-<a href="/introduction/taverna-in-use/protein-and-proteomics/prodom/">ProDom</a> &#8211; Database<br />
-<a href="/introduction/related-projects/e-fungi/">e-Fungi</a> &#8211; Completed Jun-2008<br />
-<a href="/introduction/related-projects/ispider/">iSpider</a> &#8211; Completed Jun-2007</p>
-<h3><a name="2002"></a>2002</h3>
-<p><a href="/introduction/taverna-in-use/genome-and-gene-expression/casimir/">CASIMIR</a> &#8211; Completed May-2006</p>
-<h3><a name="2001"></a>2001</h3>
-<p><a href="/introduction/taverna-in-use/on-a-grid/simdat/">SIMDAT</a> &#8211; Active<br />
-<a href="/introduction/taverna-in-use/annotation/adoption-by-moby/">Moby consortium</a> &#8211; Active<br />
-<a href="/introduction/taverna-in-use/astronomy/astrogrid/">AstroGrid</a> &#8211; Completed 2009</p>
-<p>&nbsp;</p>
+[Anthrax analysis](/introduction/taverna-in-use/disease-research#analysis-of-anthrax-bacterium) - Active   
+[KnowARC](/introduction/taverna-in-use/medical-imaging#knowarc) - Completed 2009   
+[MIASGrid](/introduction/taverna-in-use/medical-imaging#miasgrid) - Completed 2006   
+[eCHASE](/introduction/taverna-in-use/multimedia#echase) - Completed2006   
+[MOTEUR](/introduction/taverna-in-use/on-a-grid#moteur) - Active   
+[PLANET](/introduction/introduction/taverna-in-use/bioinformatics#planet) - Active
 
+<a name="2005"></a>
+##2005##
+
+[ENFIN](/introduction/taverna-in-use/biology#enfin) - Completed Nov-2010   
+[CICC](/introduction/taverna-in-use/chemistry#chemical-informatics-and-cyberinfrastructure-collaboratory) - Completed 2008<br />
+[EMBRACE](/introduction/taverna-in-use/databases#embrace) - Completed May-2006   
+[DGEMap](/introduction/taverna-in-use/genome-and-gene-expression#dgemap) - Completed 2009   
+[SIGENAE](/introduction/taverna-in-use/genome-and-gene-expression#sigenae) - Active   
+[Measuring yeast characteristics](/introduction/taverna-in-use/bioinformatics#measuring-enzyme-characteristics-of-yeast) - Completed Apr-2010
+
+<a name="2004"></a>
+##2004##
+
+[eFamily](/introduction/taverna-in-use/databases/efamily) - Active   
+[Williams-Beuren syndrome](/introduction/taverna-in-use/disease-research#williams-beuren-syndrome) - Active   
+[Qurator](/introduction/taverna-in-use/information-quality#qurator) - Completed Jul-2007
+[ProDom](/introduction/taverna-in-use/protein-and-proteomics#prodom) - Database   
+[e-Fungi](/introduction/related-projects#e-fungi) - Completed Jun-2008   
+[iSpider](/introduction/related-projects#ispider) - Completed Jun-2007
+
+<a name="2002"></a>
+##2002##
+
+[CASIMIR](/introduction/taverna-in-use/genome-and-gene-expression#casimir) - Completed May-2006
+
+<a name="2001"></a>
+##2001##
+
+[SIMDAT](/introduction/taverna-in-use/on-a-grid#simdat) - Active   
+[Moby consortium](/introduction/taverna-in-use/annotation#adoption-by-moby) - Active   
+[AstroGrid](/introduction/taverna-in-use/astronomy#astrogrid) - Completed 2009
 
   [1]: #by-domain
   [2]: #server
@@ -624,4 +634,3 @@ formalise or share existing research.
   [105]: /introduction/taverna-in-use/data-and-text-mining.html#refine
   [106]: /introduction/taverna-in-use/systems-biology.html#ccpn
   [107]: /introduction/taverna-in-use/biology.html#planet
-  [108]: /introduction/taverna-in-use/disease-research.html#analysis-of-anthrax-bacterium
