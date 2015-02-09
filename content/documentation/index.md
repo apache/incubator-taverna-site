@@ -24,48 +24,31 @@ In addition to the improvements to the engine, Taverna Workbench provides more s
    context-specific views over Web services and other resources, 
    and standard editing facilities such as copy/paste and undo/redo.
 
-For a list of our plans on adding new features to Taverna, please see the [Taverna Roadmap][1].
+For a list of our plans on adding new features to Taverna, please see the 
+   [Taverna Roadmap](/introduction/roadmap).
 
 A list of available documentation for Taverna includes:
 
- - [Glossary][2] of terms
- - [Quick start guide][3]
- - [FAQ][4]
- - [User Manual][5]
- --[Components][6] (Since Taverna 2.5)
- -- [Interaction Service][7] (Since Taverna 2.5)
- - [Tutorials][8]
- - [Videos][9]
- - [Example workflows][10] to help you get started with Taverna 
- - [Service sets][11] for various domains
- - [10 Best practices for workflow design][12]</a> (slides)</li>
- -- paper: [Best practices for workflow design: how to prevent workflow decay][13]
- - [Provenance management][14] in Taverna
- - Taverna [Command Line Tool][15] and how to use it
- - Taverna [Server][16] (REST API, SOAP API explained) and how to use it
- - [Taverna Player][17]
- - Various [plugins][18]</a> for Taverna
- - [DataViewer Tool][19]</a> for viewing result data
- - [None Apache Developers’ wiki][20] containing the [Developers’ guide][21] and more
+ - [Glossary](/documentation/glossary) of terms
+ - [Quick start guide](/documentation/quick-start-guide)
+ - [FAQ](/documentation/faq)
+ - [User Manual](http://www.mygrid.org.uk/dev/wiki/display/taverna/User+Manual)
+   - [Components](/documentation/components) (Since Taverna 2.5)
+   - [Interaction Service](/documentation/interaction) (Since Taverna 2.5)
+ - [Tutorials](/documentation/tutorials)
+ - [Videos](/documentation/videos)
+ - [Example workflows](/documentation/example-workflows) to help you get started with Taverna 
+ - [Service sets](/documentation/service-sets) for various domains
+ - [10 Best practices for workflow design](http://www.slideshare.net/khettne/10-best-practices-for-workflow-design) (slides)
+   - paper: [Best practices for workflow design: how to prevent workflow decay](http://ceur-ws.org/Vol-952/paper_23.pdf)
+ - [Provenance management](/documentation/provenance) in Taverna
+ - Taverna [Command Line Tool](/documentation/command-line-tool) and how to use it
+ - Taverna [Server](/documentation/server) (REST API, SOAP API explained) and how to use it
+ - [Taverna Player](/documentation/taverna-player)
+ - Various [plugins](/documentation/plugins) for Taverna
+ - [DataViewer Tool](/documentation/dataviewer-tool) for viewing result data
+ - [None Apache Developers’ wiki](http://www.mygrid.org.uk/dev/wiki/display/developer/Home) 
+     containing the 
+     [Developers’ guide](http://www.mygrid.org.uk/dev/wiki/display/developer/Developers+Guide) and more
 
-  [1]: /introduction/roadmap.html
-  [2]: /documentation/glossary/
-  [3]: /documentation/quick-start-guide.html
-  [4]: /documentation/faq/
-  [5]: http://www.mygrid.org.uk/dev/wiki/display/taverna/User+Manual
-  [6]: /documentation/components/
-  [7]: /documentation/interaction/
-  [8]: /documentation/tutorials/
-  [9]: /documentation/videos/
-  [10]: /documentation/example-workflows.html
-  [11]: /documentation/service-sets/
-  [12]: http://www.slideshare.net/khettne/10-best-practices-for-workflow-design
-  [13]: http://ceur-ws.org/Vol-952/paper_23.pdf
-  [14]: /documentation/provenance/
-  [15]: /documentation/command-line-tool/
-  [16]: /documentation/server
-  [17]: /documentation/taverna-player/
-  [18]: /documentation/plugins/
-  [19]: /documentation/dataviewer-tool/
-  [20]: http://www.mygrid.org.uk/dev/wiki/display/developer/Home
-  [21]: http://www.mygrid.org.uk/dev/wiki/display/developer/Developers+Guide
+ 
