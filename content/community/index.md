@@ -34,20 +34,21 @@ there are opportunities for you to [get in touch and ask questions](#contact),
 <a name="mailinglists"></a>
 ##Mailing Lists##
    
-**Users**: 
+**users@taverna**: 
    [Subscribe](mailto:users-subscribe@taverna.incubator.apache.org?subject=Subscribe&body=Subscribe) 
  | [Unsubscribe](mailto:users-unsubscribe@taverna.incubator.apache.org?subject=Unsubscribe&body=Unubscribe)
  | [Archives](http://apache-taverna-users.markmail.org/search/?q=)   
-**Developers**: 
+**dev@taverna**: 
    [Subscribe](mailto:dev-subscribe@taverna.incubator.apache.org?subject=Subscribe&body=Subscribe)
  | [Unsubscribe](mailto:dev-unsubscribe@taverna.incubator.apache.org?subject=Unsubscribe&body=Unsubscribe)
  | [Archives](http://apache-taverna-dev.markmail.org/search/?q=)   
-**JIRA Updates**: This list will go live when our Apache Jira goes live   
-**Commits**:
+**commits@taverna**:
    [Subscribe](mailto:commits-subscribe@taverna.incubator.apache.org?subject=Subscribe&body=Subscribe)
  | [Unsubscribe](mailto:commits-unsubscribe@taverna.incubator.apache.org?subject=Unsubscribe&body=Unsubscribe)
  | [Archives](http://www.mail-archive.com/commits@taverna.incubator.apache.org/)   
-See [Contact page](/community/contact) for more details
+
+For more details, such as when to use which list, see the [contact page](/community/contact).
+
  
 <a name="contribute"></a>
 ## Contribute
@@ -55,49 +56,77 @@ See [Contact page](/community/contact) for more details
 <a name="contribute-workflow"></a>
 ### Contribute a workflow
 
-The best place to contribute Taverna workflows is on 
-   [My Experiment](http://www.myexperiment.org). 
+Apache Taverna workflows are single files (`.wfbundle` or `.t2flow`) that can be shared through
+any means (e.g. email, website).  
+
+A website commonly used by the Apache Taverna community for publishing, sharing and 
+collaborating on workflows is [myExperiment](http://www.myexperiment.org). 
 
 <a name="contribute-plugin"></a>
 ### Contribute a plugin ###
-The process for writing Taverna 3 plugins is still underdevelopment.
-Documentation for None Apache Taverna 2 plugins can be found at: 
+The process for writing Taverna 3 plugins is still under development.
+
+Documentation for (non-Apache) Taverna 2 plugins can be found at: 
 [http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2](http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2)
 
-In the future we plan on allowing plugin developers the choice of hosting their own plugins or committing then to Apache.
+If you have written a plugin for Taverna, we are grateful if you let the community know by 
+emailing [users@taverna](/community/contact).
 
-<a name="contribute-server"></a>
-### Hosting a Taverna Server  
-For information on hosting a Taverna Server to run Taverna workflows see the 
-[Server](/documentation/server) Section.
 
 <a name="contribute-host"></a>
 ### Hosting a Service for Taverna
-For information on writing web services to be used in Taverna see our 
-   [Web Service Developers](/developers/web-service-developers) Section.
 
-We recommend that your services are registered in Registries such as:
-   [BioCatalogue](http://www.biocatalogue.org/BioCatalogue)
+Apache Taverna can use most REST or WSDL web services. For information on 
+writing web services to be used in Taverna, see our 
+[Web Service Developers](/developers/web-service-developers) Section.
+
+Depending on your science domain, we recommend that your services 
+are registered in registries such as:
+
+ * [BioCatalogue](https://www.biocatalogue.org/)
+ * [BioCatalogue](https://www.biodiversitycatalogue.org/)
+ * [Panacea](http://registry.elda.org/)
+ * [IVOA VO registries](http://rofr.ivoa.net/), including [EURO-VO](http://esavo.esa.int/registry/)
 
 <a name="contribute-code"></a>
 ### Contributing Code
 
-We are still in the process of moving Taverna code to Apache.
-Once we have migrated you will be able to submit patches in the standard Apache way.
-In the mean time you can find the latest NONE Apache sourcecode at:
-[https://github.com/taverna](https://github.com/taverna)
+Apache Taverna welcomes any contributions, additions or changes to our source code. 
+
+To contribute to [Apache Taverna source code](/code), you have several choices:
+
+ * Fork the corresponding `incubator-taverna-` repository as [mirrored to GitHub](https://github.com/apache/) and submit a [pull request](https://help.github.com/articles/using-pull-requests/). 
+   * GitHub will email on your behalf the suggested change to 
+     [dev@taverna](/community/contact) where it will be reviewed by the Apache Taverna committers.
+     Please subscribe to respond to any feedback.
+ * Check out directly from [git.apache.org](http://git.apache.org/), then use `git branch`. 
+    * Email patches to [dev@taverna](/community/contact) where they will be reviewed by the Apache Taverna committers.
+
+Apache Taverna source code is distributed under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0). For submitted patches and pull request, the license states:
+
+<blockquote cite="http://www.apache.org/licenses/LICENSE-2.0#contributions">
+<a href="http://www.apache.org/licenses/LICENSE-2.0#contributions">5. Submission of Contributions.</a>
+Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+</blockquote>
+
+For larger contributions (e.g. a new activity plugin) we might request that you sign 
+a [Contributor License Agreement](https://www.apache.org/licenses/#clas) to assert that the
+Apache Software Foundation is licensed to redistribute your contribution.
+
+*Taverna 2 source code (non-Apache) remains available at
+[https://github.com/taverna](https://github.com/taverna) under the branch* `maintenance`.
 
 <a name="contribute-edit"></a>
 ### Editing the website
-The website is currently under development.
-Please help make it better by [editting](/community/edit) or adding pages.
+The Apache Taverna website is maintained as a community effort.
+Please help make it better by [editing](/community/edit) or adding pages.
 
 <a name="reportbugs"></a>
 ### Report or track a bug
 
 Taverna's Apache Jira is still being setup.
-In the mean time the best place to report bugs is on the mailing lists.
+In the meantime the best place to report bugs is on the [mailing lists](/community/contact).
 
-The previous NONE Apache Taverna Jira can be found at:
-[http://dev.mygrid.org.uk/issues/browse/T3]("http://dev.mygrid.org.uk/issues/browse/T3)
+*Issues for Taverna 2 (non-Apache) are tracked in a third-party repository:
+[http://dev.mygrid.org.uk/issues/browse/T3]("http://dev.mygrid.org.uk/issues/browse/T3)*
   
