@@ -82,7 +82,7 @@ which you should subscribe to in order to respond to any feedback.
 
 It is possible to log on to the 
 [CMS without an Apache account](http://www.apache.org/dev/cmsref.html#faq), 
-by using the username [`anonymous` and an empty password](https://anonymous@cms.apache.org/taverna/).
+by using the username `anonymous` and an empty password.
 This can be beneficial if you
 prefer not to use GitHub, or if you want to suggest larger changes that 
 involve renames, etc.
