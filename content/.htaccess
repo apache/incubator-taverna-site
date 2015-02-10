@@ -1,3 +1,6 @@
 Redirect /contact/ http://taverna.incubator.apache.org/community/
 
-ErrorDocument 404 /error_pages/404.html 
+ErrorDocument 404 /error_pages/404 
+<Directory /documentation>
+   ErrorDocument 404 /documentation/404
+</Directory> 
