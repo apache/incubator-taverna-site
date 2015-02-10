@@ -31,8 +31,8 @@ A list of available documentation for Taverna includes:
 
  - [Glossary](/documentation/glossary) of terms
  - [Quick start guide](/documentation/quick-start-guide)
- - [FAQ](/documentation/faq)
- - [User Manual](http://www.mygrid.org.uk/dev/wiki/display/taverna/User+Manual)
+ - [FAQ](http://dev.mygrid.org.uk/wiki/display/tav250/Frequently+Asked+Questions) (None Apache Wiki)
+ - [User Manual](http://www.mygrid.org.uk/dev/wiki/display/taverna/User+Manual) (None Apache Wiki)
    - [Components](/documentation/components) (Since Taverna 2.5)
    - [Interaction Service](/documentation/interaction) (Since Taverna 2.5)
  - [Tutorials](/documentation/tutorials)
