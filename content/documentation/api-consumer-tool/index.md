@@ -149,6 +149,7 @@ In our example, our methods do not take any parameters except the implicit objec
    <code>this</code>, which we will have to provide by connecting the <code>object</code> 
    output of the constructor <code>HelloWorld</code> to the <code>object</code> input of the 
    method <code>sayHello</code>.
+
 ![API Consumer - workflow](/img/APIConsumer-workflow.png)
 
 As a convenience, methods also return the very same object in the output port 
