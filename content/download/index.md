@@ -79,4 +79,3 @@ The project is planning a staged set of releases for Apache Taverna 3.x:
 Taverna releases from 2001 to 2014 (e.g. Taverna 2.5) were made before Apache incubation: 
 
  - [Earlier non-Apache releases](/download/pre-apache.html)
-/
