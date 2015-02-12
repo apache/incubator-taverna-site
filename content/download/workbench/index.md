@@ -70,4 +70,4 @@ Follow the [quick start guide](/documentation/quick-start-guide) if you are new 
 [Service sets](/documentation/service-sets) are available for various domains to allow you to 
   customize services that appear in your Workbench.
 If you run into issues, check the [User Manual](http://dev.mygrid.org.uk/wiki/display/taverna)
-   or [contact us]/(/community).
+   or [contact us](/community).
