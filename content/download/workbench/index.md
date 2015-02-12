@@ -57,8 +57,8 @@ Check [system requirements](/download/workbench/system-requirements) before you 
  - [Taverna Workbench Biodiversity 2.5](/download/workbench/biodiversity/)
  - [Taverna Workbench Digital Preservation 2.5](/download/workbench/digital-preservation/)
  - [Taverna Workbench Enterprise 2.5](/download/workbench/enterprise/)
- - Will remain None Apache Edition due to copyright issues of dependencies  
-  - [Taverna Workbench Astronomy 2.5](http://www.taverna.org.uk/download/workbench/2-5/astronom)
+ - Will remain None Apache Edition due to copyright issues of dependencies
+   - [Taverna Workbench Astronomy 2.5](http://www.taverna.org.uk/download/workbench/2-5/astronom)
 
 ##Next steps
 
