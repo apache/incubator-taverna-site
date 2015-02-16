@@ -84,7 +84,7 @@ Depending on your science domain, we recommend that your services
 are registered in registries such as:
 
  * [BioCatalogue](https://www.biocatalogue.org/)
- * [BioCatalogue](https://www.biodiversitycatalogue.org/)
+ * [BiodiversityCatalogue](https://www.biodiversitycatalogue.org/)
  * [Panacea](http://registry.elda.org/)
  * [IVOA VO registries](http://rofr.ivoa.net/), including [EURO-VO](http://esavo.esa.int/registry/)
 
