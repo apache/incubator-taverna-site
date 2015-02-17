@@ -17,48 +17,86 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 
 Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org/), with read-only mirroring to 
-[GitHub](https://github.com/apache/).
-
-<div class="alert alert-warning" role="alert"><p><strong>Warning:</strong> 
-As of 2015-01-29, the Taverna source code 
-has not yet been migrated to the Apache Incubator infrastructure.</p>
-<p>The actively maintained source code is currently still at the 
-<a href="https://github.com/taverna/" class="alert-link">taverna GitHub repositories</a>. 
-For now, the links below are to the temporary <strong>staging repository</strong>
-<a href="https://github.com/taverna-incubator" class="alert-link">taverna-incubator</a> at GitHub. 
-</p><p>
-The repositories called <code>incubator-*</code> 
-are ready to be migrated to <code>git.apache.org</code>, and (ideally) should build 
-and use 
-groupId and Java package names on the form <code>org.apache.taverna.*</code>
-</p><p>
-The remaining <code>taverna-*</code> repositories are <strong>drafts</strong> of
-the proposed git restructure and probably <em>won't build</em> correctly. 
-Unlike the <code>incubator-*</code> repositories, these drafts don't correctly
-preserve git history from pre-Apache.
-Note that the structure of the staging repositories might change significantly 
-before the code has been migrated.
-
-</div>
+[GitHub](https://github.com/apache/?query=taverna-).
 
 
 ## Source code repositories
 
 The Apache Taverna source code is organized into multiple [git](http://www.git-scm.com/) repositories:
 
-  - [incubator-taverna-maven-parent](https://github.com/taverna-incubator/incubator-taverna-maven-parent) - Common Maven parent for the below
-  - [incubator-taverna-language](https://github.com/taverna-incubator/incubator-taverna-language) - Taverna Language APIs for workflow definitions (SCUFL2)
-and workflow inputs/outputs/run (DataBundle). 
-  - [incubator-taverna-osgi](https://github.com/taverna-incubator/incubator-taverna-osgi) - OSGi-based plugin system
-  - [incubator-taverna-engine](https://github.com/taverna-incubator/incubator-taverna-engine) - Taverna workflow engine
-  - [incubator-taverna-common-activities](https://github.com/taverna-incubator/incubator-taverna-common-activities) - Common activity implementation for engine (e.g. WSDL, REST, Tool, Interaction)
-  - [incubator-taverna-commandline](https://github.com/taverna-incubator/incubator-taverna-commandline) - Command line for running Taverna workflows
-  - [incubator-taverna-server](https://github.com/taverna-incubator/incubator-taverna-server) - A REST and WSDL service for running Taverna workflows
-  - [incubator-taverna-workbench](https://github.com/taverna-incubator/incubator-taverna-workbench) - Graphical workbench for editing and running Taverna workflows
-  - [incubator-taverna-workbench-common-activities](https://github.com/taverna-incubator/incubator-taverna-workbench-common-activities) - Common activities UI (discovery+configuration for Workbench
-  - [taverna-workbench-product](https://github.com/taverna-incubator/taverna-workbench-product) - Distribution of Taverna Workbench
-  - [taverna-plugin-component](https://github.com/taverna-incubator/taverna-plugin-component) - Plugin for component activity and registry
-  - [incubator-taverna-plugin-bioinformatics](https://github.com/taverna-incubator/incubator-taverna-plugin-bioinformatics) - Plugin for bioinformatics-specific activities
+  - [incubator-taverna-maven-parent](https://github.com/apache/incubator-taverna-maven-parent) 
+    [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git) 
+    [[git]](git://git.apache.org/incubator-taverna-maven-parent.git) 
+    [[GitHub]](http://github.com/apache/incubator-taverna-maven-parent)
+    Common Maven parent for the below
+  - [incubator-taverna-language](https://github.com/apache/incubator-taverna-language) 
+    [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-language.git) 
+    [[git]](git://git.apache.org/incubator-taverna-language.git) 
+    [[GitHub]](http://github.com/apache/incubator-taverna-language)
+    Taverna Language APIs for workflow definitions (SCUFL2) and workflow inputs/outputs/run (DataBundle). 
+  - [incubator-taverna-osgi](https://github.com/apache/incubator-taverna-osgi) 
+    [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-osgi.git) 
+    [[git]](git://git.apache.org/incubator-taverna-osgi.git) 
+    [[GitHub]](http://github.com/apache/incubator-taverna-osgi)
+    OSGi-based plugin system
+  - [incubator-taverna-engine](https://github.com/apache/incubator-taverna-engine) 
+    [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-engine.git) 
+    [[git]](git://git.apache.org/incubator-taverna-engine.git) 
+    [[GitHub]](http://github.com/apache/incubator-taverna-engine)
+    Taverna workflow engine
+  - [incubator-taverna-common-activities](https://github.com/apache/incubator-taverna-common-activities)
+    [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-common-activities.git) 
+    [[git]](git://git.apache.org/incubator-taverna-common-activities.git) 
+    [[GitHub]](http://github.com/apache/incubator-taverna-common-activities)
+    Common activity implementation for engine (e.g. WSDL, REST, Tool, Interaction)
+  - [incubator-taverna-commandline](https://github.com/apache/incubator-taverna-commandline) 
+    [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-commandline.git) 
+    [[git]](git://git.apache.org/incubator-taverna-commandline.git) 
+    [[GitHub]](http://github.com/apache/incubator-taverna-commandline)
+    Command line for running Taverna workflows
+  - [incubator-taverna-server](https://github.com/apache/incubator-taverna-server) 
+    [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-server.git) 
+    [[git]](git://git.apache.org/incubator-taverna-server.git) 
+    [[GitHub]](http://github.com/apache/incubator-taverna-server)
+    A REST and WSDL service for running Taverna workflows
+  - [incubator-taverna-workbench](https://github.com/apache/incubator-taverna-workbench) 
+    [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench.git) 
+    [[git]](git://git.apache.org/incubator-taverna-workbench.git) 
+    [[GitHub]](http://github.com/apache/incubator-taverna-workbench)
+    Graphical workbench for editing and running Taverna workflows
+  - [incubator-taverna-workbench-common-activities](https://github.com/apache/incubator-taverna-workbench-common-activities)
+    [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench-common-activities.git) 
+    [[git]](git://git.apache.org/incubator-taverna-workbench-common-activities.git) 
+    [[GitHub]](http://github.com/apache/incubator-taverna-workbench-common-activities) 
+    Common activities UI (discovery+configuration for Workbench
+  - [incubator-taverna-workbench-product](https://github.com/apache/incubator-taverna-workbench-product) 
+    [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench-product.git) 
+    [[git]](git://git.apache.org/incubator-taverna-workbench-product.git) 
+    [[GitHub]](http://github.com/apache/incubator-taverna-workbench-product)
+    Distribution of Taverna Workbench
+  - [incubator-taverna-plugin-component](https://github.com/apache/incubator-taverna-plugin-component)
+    [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-plugin-component.git) 
+    [[git]](git://git.apache.org/incubator-taverna-plugin-component.git) 
+    [[GitHub]](http://github.com/apache/incubator-taverna-plugin-component) 
+    Plugin for component activity and registry
+  - [incubator-taverna-plugin-bioinformatics](https://github.com/apache/incubator-taverna-plugin-bioinformatics) 
+    [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-plugin-bioinformatics.git) 
+    [[git]](git://git.apache.org/incubator-taverna-plugin-bioinformatics.git) 
+    [[GitHub]](http://github.com/apache/incubator-taverna-plugin-bioinformatics)
+    Plugin for bioinformatics-specific activities
+
+To check out anonymously, use the `[git]` link from above, e.g.:
+
+    git clone git://git.apache.org/incubator-taverna-language.git
+
+If you are a committer on Apache Taverna, or have firewall restrictions, use the `[https]` links, e.g.:
+
+    git clone https://git-wip-us.apache.org/repos/asf/incubator-taverna-engine.git
+
+You can also browse the code using the `[GitHub]` links, which are mirrored daily. 
+Using GitHub you are free to *fork* the projects
+and raise *pull requests* to [contribute to Apache Taverna](#contribute-to-apache-taverna).
+
 
 ## Building Apache Taverna
 
@@ -81,7 +119,6 @@ you can skip these checks with:
 The build order is roughly the order of the above list, but as regular 
 [snapshots](#snapshot-builds) are picked up from the snapshot repository, 
 usually you only need to build the modules you have changed. 
-
 Note that a repository might depend on a released version of an upstream Taverna
 repository, so if you want to be sure that a build picks up the `SNAPSHOT` version 
 you built instead, check the `<properties>` section within the `pom.xml`.
