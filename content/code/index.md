@@ -27,8 +27,9 @@ has not yet been migrated to the Apache Incubator infrastructure.</p>
 For now, the links below are to the temporary <strong>staging repository</strong>
 <a href="https://github.com/taverna-incubator" class="alert-link">taverna-incubator</a> at GitHub. 
 </p><p>
-The repositories called <code>incubator-*</code> should build, 
-are ready to be migrated to <code>git.apache.org</code>, and use
+The repositories called <code>incubator-*</code> 
+are ready to be migrated to <code>git.apache.org</code>, and (ideally) should build 
+and use 
 groupId and Java package names on the form <code>org.apache.taverna.*</code>
 </p><p>
 The remaining <code>taverna-*</code> repositories are <strong>drafts</strong> of
@@ -52,9 +53,9 @@ and workflow inputs/outputs/run (DataBundle).
   - [incubator-taverna-engine](https://github.com/taverna-incubator/incubator-taverna-engine) - Taverna workflow engine
   - [incubator-taverna-common-activities](https://github.com/taverna-incubator/incubator-taverna-common-activities) - Common activity implementation for engine (e.g. WSDL, REST, Tool, Interaction)
   - [incubator-taverna-commandline](https://github.com/taverna-incubator/incubator-taverna-commandline) - Command line for running Taverna workflows
-  - [taverna-server](https://github.com/taverna-incubator/taverna-server) - A REST and WSDL service for running Taverna workflows
+  - [incubator-taverna-server](https://github.com/taverna-incubator/incubator-taverna-server) - A REST and WSDL service for running Taverna workflows
   - [incubator-taverna-workbench](https://github.com/taverna-incubator/incubator-taverna-workbench) - Graphical workbench for editing and running Taverna workflows
-  - [taverna-workbench-common-activities](https://github.com/taverna-incubator/taverna-workbench-common-activities) - Common activities UI (discovery+configuration for Workbench
+  - [incubator-taverna-workbench-common-activities](https://github.com/taverna-incubator/incubator-taverna-workbench-common-activities) - Common activities UI (discovery+configuration for Workbench
   - [taverna-workbench-product](https://github.com/taverna-incubator/taverna-workbench-product) - Distribution of Taverna Workbench
   - [taverna-plugin-component](https://github.com/taverna-incubator/taverna-plugin-component) - Plugin for component activity and registry
   - [incubator-taverna-plugin-bioinformatics](https://github.com/taverna-incubator/incubator-taverna-plugin-bioinformatics) - Plugin for bioinformatics-specific activities
