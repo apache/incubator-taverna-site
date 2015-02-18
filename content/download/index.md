@@ -35,13 +35,13 @@ There are several Taverna tools that you can download:
       various plugins can be added in order to increase its functionality.
 
 ##Associated tools
-There is also a number of associated tools available to use with None Apache Taverna 2. 
+There is also a number of associated tools available to use with (non-Apache) Taverna 2. 
 
-> There are currently no known plans to bring out Apache Taverna
+> **Note**: There are currently no known plans to bring out Apache Taverna
 > versions of these tools. If you are interested in migrating these too
-> to Apache Taverna please [contact us](/community).
+> to Apache Taverna, please [contact us](/community).
 
- - Taverna 2-Galaxy](http://www.taverna.org.uk/download/taverna-galaxy/) is a tool for automatic generation and exposure of 
+ - [Taverna 2-Galaxy](http://www.taverna.org.uk/download/taverna-galaxy/) is a tool for automatic generation and exposure of 
    Taverna workflows as [Galaxy](http://galaxy.psu.edu/) tools. 
    Galaxy is an open, Web-based platform for data intensive biomedical research.
  - [DataViewer Tool](http://www.taverna.org.uk/download/associated-tools/dataviewer-tool/)
@@ -72,7 +72,9 @@ The project is planning a staged set of releases for Apache Taverna 3.x:
  4. taverna-workbench 3.0.0-alpha3
  5. taverna.workbench 3.0.0
 
-## None Apache Taverna
+## Non-Apache Taverna
+
+This section covers Taverna releases done before incubation as an Apache project.
 
 ## Taverna 2.5 and earlier (non-Apache)
 
