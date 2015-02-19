@@ -88,7 +88,17 @@ The 2.5.4 release was made automatically using Apache Maven from the
 
 If you encounter any problems, please [contact us](/community).
 
-##Related products
+##Client side stuff
+                   
+To complement the Taverna Server, 
+   we have developed several client side libraries and applications. 
+They access the Server's functionality and can help you build your client applications around 
+   the Server and provide exemplars of how such applications can  be implemented.
 
- - [Taverna Server client library for Ruby](/download/server/client-side-stuff)
- - [Amazon Machine Image containing the Taverna Server 2.4](/download/server/taverna-server-amazon-machine-image/)
+###General
+
+ - A [Ruby gem](https://github.com/myGrid/taverna2-gem) that enables you to interact with 
+     Taverna 2 workflows (.t2flow files). 
+   You can generate a t2flow model using the gem, and then use it to retrieve various 
+      information about the workflow by invoking different methods and attributes. You can also draw a workflow diagram using the gem.</li>
+ - A [Ruby gem](https://rubygems.org/gems/taverna-baclava) for handling Baclava files.
