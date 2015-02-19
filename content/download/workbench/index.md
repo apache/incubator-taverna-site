@@ -65,12 +65,14 @@ If you run into issues, check the [User Manual](http://dev.mygrid.org.uk/wiki/di
 
 <a name="windows64"></a>
 ##Taverna Workbench 2.5 for Windows 64-bit
+
  - [taverna-workbench-core-2.5.0-winx64.exe](http://www.taverna.org.uk/download/workbench/2-5/core/#download-windows)
  - SHA1: 001c8d3dace245e54996d3bb6b68ea4a8f46dd9b
  - MD5: 3467a6a87f40cc01c8588e8e7753875a
 
 <a name="windows32"></a>
-##Taverna Workbench 2.5 for Windows 32-bit (7)
+##Taverna Workbench 2.5 for Windows 32-bit 
+
  - [taverna-workbench-core-2.5.0-wini386.exe](http://www.taverna.org.uk/download/workbench/2-5/core/#download-windows)
  - SHA1: 0643e384bbef03aa5192033677649cddb175141d 
  - MD5: 1233c91c7ad36e37f8fc6856a27f80fe
@@ -86,6 +88,7 @@ Please [contact us](/community) to confirm continued interest in a 32 bit instal
 
 <a name="linuxdeb"></a>
 ##Taverna Workbench 2.5 for Linux RPM package
+
  - [taverna-workbench-core-2.5.0-linux_x86_64.rpm](http://www.taverna.org.uk/download/workbench/2-5/core/#download-linux)
  - SHA1: 6ec0cc7c3f4c0edadb387de2983c610dc8c44945
  - MD5: 3382e7a77c47d2d8a624e11fedb8b823
