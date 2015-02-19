@@ -23,7 +23,7 @@ Currently there is no Apache version of the Workbench.
 </div>
 The first Apache version of the workbench is unlikely to include all the features of Taverna 2.5.
 If there are particular features you feel should be prioritized please [contact us](/community).
-
+ 
 ###Download Formats
 Taverna Workbench is available in the current formats
 
@@ -36,7 +36,11 @@ Taverna Workbench is available in the current formats
  - [Maven repository](/download/maven)
  - [Source code](/code)
 
-Check [system requirements](/download/workbench/system-requirements) before you download 
+Taverna [Command Line Tool](documentation/command-line), 
+  which is included in all workbench downloads, 
+  is available as a [stand-alone download](download/command-line-tool).
+
+Check [system requirements](/download/system-requirements) before you download 
   Taverna. 
 
 ##Adding plugins
