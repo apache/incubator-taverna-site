@@ -41,7 +41,8 @@ Taverna Command Line is available in the current formats
  - [Mac OS X 64-bit (.dmg disk image)](#maxos) (10.8, 10.9)
  - [Linux 64-bit Debian-based (.deb package)](#linuxdeb) (Ubuntu 12.04.4, Bio-Linux 7)
  - [Linux 64-bit Redhat-based (.rpm package)](#linuxrpm) (Fedora 20)
- - [Stand Alone zip](#zip) (See [additional requirements](/download/workbench/standalone-requirements))
+ - [Stand Alone zip](#zip) (See 
+   [additional requirements](/download/system-requirements#standalone))
  - [Maven repository](/download/maven)
  - [Source code](/code)
 
