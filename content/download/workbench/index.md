@@ -108,7 +108,7 @@ Please [contact us](/community) to confirm continued interest in a 32 bit instal
 ##Taverna Workbench 2.5 standalone
 
 This is operating system and architecture-neutral binary. 
-Check the standalone's [system requirements](/download/workbench/standalone-requirements).
+Check the standalone's [system requirements](/download/standalone-requirements).
 
  - [taverna-workbench-core-2.5.0-standalone.zip](http://www.taverna.org.uk/download/workbench/2-5/core/#download-binary)
  - SHA1: e1d23f5b208dffd3dedd953eb08e7e6387d01ae3
