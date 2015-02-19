@@ -84,7 +84,7 @@ For platform-neutral Taverna installations not using **.vmoptions* you may inste
 [User guide: Memory allocation](http://dev.mygrid.org.uk/wiki/display/taverna/Memory+allocation)
    has more details on configuring memory allocation.
 
-<a name=#standalone></a>
+<a name=standalone></a>
 ##Taverna Standalone requirements
 
 Java and Graphviz are included in the platform specific downloads but not in the zip downloads.
