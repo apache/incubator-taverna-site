@@ -19,8 +19,9 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 Taverna is transitioning to the Apache Incubator. 
 Currently there is no Apache version of the Workbench.
-
+This page is a template for the download page once an Apache version is available. 
 </div>
+
 The first Apache version of the workbench is unlikely to include all the features of Taverna 2.5.
 If there are particular features you feel should be prioritized please [contact us](/community).
  
