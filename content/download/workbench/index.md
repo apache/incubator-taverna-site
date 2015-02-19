@@ -19,21 +19,10 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 Taverna is transitioning to the Apache Incubator. 
 Currently there is no Apache version of the Workbench.
+
+The first Apache version of the workbench is unlikely to include all the features of Taverna 2.5.
+If there are particular features you feel should be prioritized please [contact us](/community).
 </div>
-
-Taverna Workbench 2.5 is available in several editions.
-
-The [Core edition](/download/workbench/2-5/core/) contains a Taverna Workbench suitable for 
-   building [scientific workflows](/introduction/why-use-workflows/) in any domain, 
-   accessing general services such as REST or SOAP Web services and command line tools.
-
-Domain-specific editions (see below) add support for specific service types and come 
-   pre-populated with lists of available services and example workflows that are specifically 
-   tailored for a given domain.
-
-[Enterprise Taverna](/download/workbench/2-5/enterprise/) is equivalent to the 
-   Core edition with  BioMart,BioMoby, SoapLab, API Consumer, Service Catalogue and 
-   WebDAV installed.
 
 ###Download Formats
 Taverna Workbench is available in the current formats
