@@ -27,62 +27,62 @@ The Apache Taverna source code is organized into multiple [git](http://www.git-s
   - [incubator-taverna-maven-parent](https://github.com/apache/incubator-taverna-maven-parent) 
     [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git) 
     [[git]](git://git.apache.org/incubator-taverna-maven-parent.git) 
-    [[GitHub]](http://github.com/apache/incubator-taverna-maven-parent)
+    [[GitHub]](https://github.com/apache/incubator-taverna-maven-parent)
     Common Maven parent for the below
   - [incubator-taverna-language](https://github.com/apache/incubator-taverna-language) 
     [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-language.git) 
     [[git]](git://git.apache.org/incubator-taverna-language.git) 
-    [[GitHub]](http://github.com/apache/incubator-taverna-language)
+    [[GitHub]](https://github.com/apache/incubator-taverna-language)
     Taverna Language APIs for workflow definitions (SCUFL2) and workflow inputs/outputs/run (DataBundle). 
   - [incubator-taverna-osgi](https://github.com/apache/incubator-taverna-osgi) 
     [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-osgi.git) 
     [[git]](git://git.apache.org/incubator-taverna-osgi.git) 
-    [[GitHub]](http://github.com/apache/incubator-taverna-osgi)
+    [[GitHub]](https://github.com/apache/incubator-taverna-osgi)
     OSGi-based plugin system
   - [incubator-taverna-engine](https://github.com/apache/incubator-taverna-engine) 
     [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-engine.git) 
     [[git]](git://git.apache.org/incubator-taverna-engine.git) 
-    [[GitHub]](http://github.com/apache/incubator-taverna-engine)
+    [[GitHub]](https://github.com/apache/incubator-taverna-engine)
     Taverna workflow engine
   - [incubator-taverna-common-activities](https://github.com/apache/incubator-taverna-common-activities)
     [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-common-activities.git) 
     [[git]](git://git.apache.org/incubator-taverna-common-activities.git) 
-    [[GitHub]](http://github.com/apache/incubator-taverna-common-activities)
+    [[GitHub]](https://github.com/apache/incubator-taverna-common-activities)
     Common activity implementation for engine (e.g. WSDL, REST, Tool, Interaction)
   - [incubator-taverna-commandline](https://github.com/apache/incubator-taverna-commandline) 
     [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-commandline.git) 
     [[git]](git://git.apache.org/incubator-taverna-commandline.git) 
-    [[GitHub]](http://github.com/apache/incubator-taverna-commandline)
+    [[GitHub]](https://github.com/apache/incubator-taverna-commandline)
     Command line for running Taverna workflows
   - [incubator-taverna-server](https://github.com/apache/incubator-taverna-server) 
     [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-server.git) 
     [[git]](git://git.apache.org/incubator-taverna-server.git) 
-    [[GitHub]](http://github.com/apache/incubator-taverna-server)
+    [[GitHub]](https://github.com/apache/incubator-taverna-server)
     A REST and WSDL service for running Taverna workflows
   - [incubator-taverna-workbench](https://github.com/apache/incubator-taverna-workbench) 
     [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench.git) 
     [[git]](git://git.apache.org/incubator-taverna-workbench.git) 
-    [[GitHub]](http://github.com/apache/incubator-taverna-workbench)
+    [[GitHub]](https://github.com/apache/incubator-taverna-workbench)
     Graphical workbench for editing and running Taverna workflows
   - [incubator-taverna-workbench-common-activities](https://github.com/apache/incubator-taverna-workbench-common-activities)
     [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench-common-activities.git) 
     [[git]](git://git.apache.org/incubator-taverna-workbench-common-activities.git) 
-    [[GitHub]](http://github.com/apache/incubator-taverna-workbench-common-activities) 
+    [[GitHub]](https://github.com/apache/incubator-taverna-workbench-common-activities) 
     Common activities UI (discovery+configuration for Workbench
   - [incubator-taverna-workbench-product](https://github.com/apache/incubator-taverna-workbench-product) 
     [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench-product.git) 
     [[git]](git://git.apache.org/incubator-taverna-workbench-product.git) 
-    [[GitHub]](http://github.com/apache/incubator-taverna-workbench-product)
+    [[GitHub]](https://github.com/apache/incubator-taverna-workbench-product)
     Distribution of Taverna Workbench
   - [incubator-taverna-plugin-component](https://github.com/apache/incubator-taverna-plugin-component)
     [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-plugin-component.git) 
     [[git]](git://git.apache.org/incubator-taverna-plugin-component.git) 
-    [[GitHub]](http://github.com/apache/incubator-taverna-plugin-component) 
+    [[GitHub]](https://github.com/apache/incubator-taverna-plugin-component) 
     Plugin for component activity and registry
   - [incubator-taverna-plugin-bioinformatics](https://github.com/apache/incubator-taverna-plugin-bioinformatics) 
     [[https]](https://git-wip-us.apache.org/repos/asf/incubator-taverna-plugin-bioinformatics.git) 
     [[git]](git://git.apache.org/incubator-taverna-plugin-bioinformatics.git) 
-    [[GitHub]](http://github.com/apache/incubator-taverna-plugin-bioinformatics)
+    [[GitHub]](https://github.com/apache/incubator-taverna-plugin-bioinformatics)
     Plugin for bioinformatics-specific activities
 
 ### Taverna 2 source code
@@ -160,12 +160,28 @@ please subscribe to and contact the [dev@taverna](http://mail-archives.apache.or
 
 ## Snapshot builds
 
-A corresponding set of [automatic Jenkins builds for Apache Taverna](http://build.mygrid.org.uk/ci/view/incubator-taverna/) deploy to the 
-[<del>Apache</del> Taverna Maven snapshot repository](http://repository.mygrid.org.uk/artifactory/incubator-snapshot-local/). 
-Note that these builds and repository are currently hosted outside of Apache, but will soon move to Apache.org infrastructure.
+A corresponding set of [automatic Jenkins builds for Apache Taverna](https://builds.apache.org/user/stain/my-views/view/taverna/) deploy to  
+[Apache's snapshot Maven repository](http://repository.apache.org/snapshots/org/apache/taverna/). 
+Note that the snapshot builds are *not* official releases and should be considered unstable.
+
+To use the snapshot repository, add to your Maven pom.xml:
+
+```xml
+  <repositories>
+    <repository>
+      <id>apache.snapshots</id>
+      <name>Apache Snapshot Repository</name>
+      <url>http://repository.apache.org/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+    </repository>
+  </repositories>
+```
 
 This means that as a developer, you only need to build the repositories you are modifying, as the remaining modules will be retrieved from the Maven repository. 
-You will however always need to build the distribution product (command line or workbench) to incorporate your changes. (Make sure that references your <code>SNAPSHOT</code> version!)
+
+You will however always need to build the distribution product (command line or workbench) to incorporate your changes. (Make sure that references the correct <code>SNAPSHOT</code> version!)
 
 ## Taverna Extras
 
