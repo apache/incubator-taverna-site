@@ -160,8 +160,7 @@ please subscribe to and contact the [dev@taverna](http://mail-archives.apache.or
 
 ## Snapshot builds
 
-A corresponding set of [automatic Jenkins builds for Apache Taverna](https://builds.apache.org/user/stain/my-views/view/taverna/) deploy to  
-[Apache's snapshot Maven repository](http://repository.apache.org/snapshots/org/apache/taverna/). 
+A corresponding set of [automatic Jenkins builds for Apache Taverna](https://builds.apache.org/user/stain/my-views/view/taverna/) deploy to  [Apache's snapshot Maven repository](http://repository.apache.org/snapshots/org/apache/taverna/). 
 Note that the snapshot builds are *not* official releases and should be considered unstable.
 
 To use the snapshot repository, add to your Maven pom.xml:
