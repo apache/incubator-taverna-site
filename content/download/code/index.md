@@ -166,18 +166,17 @@ Note that the snapshot builds are *not* official releases and should be consider
 
 To use the snapshot repository, add to your Maven pom.xml:
 
-```xml
-  <repositories>
-    <repository>
-      <id>apache.snapshots</id>
-      <name>Apache Snapshot Repository</name>
-      <url>http://repository.apache.org/snapshots</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-    </repository>
-  </repositories>
-```
+
+    <repositories>
+      <repository>
+        <id>apache.snapshots</id>
+        <name>Apache Snapshot Repository</name>
+        <url>http://repository.apache.org/snapshots</url>
+        <releases>
+          <enabled>false</enabled>
+        </releases>
+      </repository>
+    </repositories>
 
 This means that as a developer, you only need to build the repositories you are modifying, as the remaining modules will be retrieved from the Maven repository. 
 
