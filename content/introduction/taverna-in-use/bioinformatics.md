@@ -137,46 +137,46 @@ An [example workflow][49] using SBML is available on [myExperiment][50].
   [1]: #biowep
   [2]: #biolinux
   [3]: /introduction/related-projects/biovel
-  [4]: /introduction/taverna-in-use/genome-and-gene-expression.html#next-generation-sequencing
-  [5]: /introduction/taverna-in-use/genome-and-gene-expression.html#tavernapbs
-  [6]: /introduction/taverna-in-use/genome-and-gene-expression.html#casimir
-  [7]: /introduction/taverna-in-use/genome-and-gene-expression.html#dgemap
-  [8]: /introduction/taverna-in-use/disease-research.html#graves-disease
-  [9]: /introduction/taverna-in-use/bioinformatics.html#gene-expression-from-microarray
-  [10]: /introduction/taverna-in-use/genome-and-gene-expression.html#sigenae
-  [11]: /introduction/taverna-in-use/disease-research.html#trypanosomiasis
-  [12]: /introduction/taverna-in-use/disease-research.html#williams-beuren-syndrome
-  [13]: /introduction/taverna-in-use/biology.html#planet
-  [14]: /introduction/taverna-in-use/annotation.html#annotation-of-genomes
-  [15]: /introduction/related-projects.html#shared-genomics
+  [4]: /introduction/taverna-in-use/genome-and-gene-expression#next-generation-sequencing
+  [5]: /introduction/taverna-in-use/genome-and-gene-expression#tavernapbs
+  [6]: /introduction/taverna-in-use/genome-and-gene-expression#casimir
+  [7]: /introduction/taverna-in-use/genome-and-gene-expression#dgemap
+  [8]: /introduction/taverna-in-use/disease-research#graves-disease
+  [9]: /introduction/taverna-in-use/bioinformatics#gene-expression-from-microarray
+  [10]: /introduction/taverna-in-use/genome-and-gene-expression#sigenae
+  [11]: /introduction/taverna-in-use/disease-research#trypanosomiasis
+  [12]: /introduction/taverna-in-use/disease-research#williams-beuren-syndrome
+  [13]: /introduction/taverna-in-use/biology#planet
+  [14]: /introduction/taverna-in-use/annotation#annotation-of-genomes
+  [15]: /introduction/related-projects#shared-genomics
   [16]: http://img.cs.man.ac.uk/efungi/
   [17]: #lumc
-  [18]: /introduction/taverna-in-use/disease-research.html#analysis-of-anthrax-bacterium
-  [19]: /introduction/taverna-in-use/databases.html#efamily
+  [18]: /introduction/taverna-in-use/disease-research#analysis-of-anthrax-bacterium
+  [19]: /introduction/taverna-in-use/databases#efamily
   [20]: http://www.mygrid.org.uk/mygrid-in-use/adoption-by-embrace
-  [21]: /introduction/related-projects.html#ispider
-  [22]: /introduction/taverna-in-use/protein-and-proteomics.html#prodom
-  [23]: /introduction/taverna-in-use/biology.html#enfin
-  [24]: /introduction/taverna-in-use/biology.html#manchester-centre-for-integrative-systems-biology
-  [25]: /introduction/taverna-in-use/biology.html#sb-os
-  [26]: /introduction/taverna-in-use/biology.html#tav4sb
+  [21]: /introduction/related-projects#ispider
+  [22]: /introduction/taverna-in-use/protein-and-proteomics#prodom
+  [23]: /introduction/taverna-in-use/biology#enfin
+  [24]: /introduction/taverna-in-use/biology#manchester-centre-for-integrative-systems-biology
+  [25]: /introduction/taverna-in-use/biology#sb-os
+  [26]: /introduction/taverna-in-use/biology#tav4sb
   [27]: #measuring-enzyme-characteristics-of-yeast
   [28]: /introduction/taverna-in-use/annotation.html#afawe
-  [29]: /introduction/taverna-in-use/biology.html#planet
-  [30]: /introduction/taverna-in-use/disease-research.html#vph-dareit
-  [31]: /introduction/taverna-in-use/disease-research.html#analysis-of-anthrax-bacterium
-  [32]: /introduction/taverna-in-use.html#trypanosomiasis
-  [33]: /introduction/taverna-in-use/disease-research.html#graves-disease
-  [34]: /introduction/taverna-in-use/disease-research.html#williams-beuren-syndrome
-  [35]: /introduction/related-projects.html#cagrid
-  [36]: /introduction/taverna-in-use/medicine.html#eu-adr
+  [29]: /introduction/taverna-in-use/biology#planet
+  [30]: /introduction/taverna-in-use/disease-research#vph-dareit
+  [31]: /introduction/taverna-in-use/disease-research#analysis-of-anthrax-bacterium
+  [32]: /introduction/taverna-in-use#trypanosomiasis
+  [33]: /introduction/taverna-in-use/disease-research#graves-disease
+  [34]: /introduction/taverna-in-use/disease-research#williams-beuren-syndrome
+  [35]: /introduction/related-projects#cagrid
+  [36]: /introduction/taverna-in-use/medicine#eu-adr
   [37]: http://www.istge.it/
   [38]: http://bioinformatics.istge.it/biowep/index.html
   [39]: http://bioinformatics.istge.it:8080/biowep/
   [40]: http://nebc.nox.ac.uk/
   [41]: http://nebc.nox.ac.uk/biolinux.html
   [42]: http://www.lumc.nl/home/?setlanguage=English&amp;setcountry=en
-  [43]: /pages/wp-content/uploads/2011/06/Palmblad_ASMS_2011_LUMC.pdf
+  [43]: http://www.taverna.org.uk/pages/wp-content/uploads/2011/06/Palmblad_ASMS_2011_LUMC.pdf
   [44]: https://www.lumc.nl/org/proteomics-metabolomics/medewerkers/nmpalmblad
   [45]: /introduction/taverna-in-use/biology/manchester-centre-for-integrative-systems-biology
   [46]: http://www.mygrid.org.uk/files/2008/09/peter-li-poster.pdf
