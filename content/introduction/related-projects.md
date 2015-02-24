@@ -536,7 +536,7 @@ The workflows covered two domains:
   [96]: http://gpmdb.thegpm.org/
   [97]: http://pedro.cs.manchester.ac.uk/
   [98]: http://www.ebi.ac.uk/pride/
-  [99]: http://www.esnw.ac.uk/projects/details/3.html
+  [99]: http://www.robots.ox.ac.uk/~irc/grid_mias-grid.html
   [100]: http://www.epsrc.ac.uk/
   [101]: http://www.mathworks.com/products/matlab/
   [102]: http://www.mygrid.org.uk/outreach/publications/rose2006/
