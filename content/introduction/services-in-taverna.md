@@ -91,7 +91,7 @@ If you are planning on creating a service that should be accessible from Taverna
 
 
   [1]: /documentation/glossary#wsdl
-  [2]: /developers/web-service-developers
+  [2]: /documentation/web-service-developers
   [3]: /documentation/glossary#biomoby
   [4]: /documentation/glossary#biomart
   [5]: /documentation/glossary#soaplab
@@ -108,4 +108,4 @@ If you are planning on creating a service that should be accessible from Taverna
   [16]: http://www.ebi.ac.uk/
   [17]: http://www.ddbj.nig.ac.jp/
   [18]: http://www.ebi.ac.uk/soaplab/
-  [19]: /developers/web-service-developers
+  [19]: /documentation/web-service-developers
