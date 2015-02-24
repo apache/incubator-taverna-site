@@ -539,4 +539,4 @@ The workflows covered two domains:
   [99]: http://www.robots.ox.ac.uk/~irc/grid_mias-grid.html
   [100]: http://www.epsrc.ac.uk/
   [101]: http://www.mathworks.com/products/matlab/
-  [102]: http://www.mygrid.org.uk/outreach/publications/rose2006/
+  [102]: https://www.escholar.manchester.ac.uk/uk-ac-man-scw:1d33210
