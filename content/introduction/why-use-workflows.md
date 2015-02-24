@@ -27,7 +27,8 @@ Workflow, as a concept, was defined in the business domain in 1996 by the Workfl
 ##Scientific workflows##
 
 Scientific workflows are widely recognised as a “useful paradigm to describe, manage, 
-   and share complex scientific analyses”. They are the method often used by the [in silico experimentation][1].
+   and share complex scientific analyses”. They are the method often used by the 
+   [in silico experimentation](/introduction/what-is-in-silico-experimentation).
 
 Scientific workflows have emerged to tackle the problem of excessive complexity in scientific experiments and 
    applications. 
@@ -71,24 +72,22 @@ A further advantage of using workflows is the potential to automate highly repet
 
 To learn more about scientific workflows and their role in data-intensive experiments, have a look at:
 
-  - [“The impact of workflow tools on data-centric research”][2] chapter 
-       by Carole Goble and David De Roure of the [“The Fourth Paradigm: Data-Intensive Scientific Discovery“][3] book.
-  - [“Scientific workflows”][4] paper by Katy Wolstencroft,  Paul Fisher,  David De Roure and Carole Goble.
+  - [“The impact of workflow tools on data-centric research”](http://research.microsoft.com/en-us/collaboration/fourthparadigm/4th_paradigm_book_part3_goble_deroure.pdf)
+      chapter by Carole Goble and David De Roure of the 
+      [“The Fourth Paradigm: Data-Intensive Scientific Discovery“](http://research.microsoft.com/en-us/collaboration/fourthparadigm/)
+      book.
+  - [“Scientific workflows”](http://cnx.org/contents/8fedc2ef-93a4-4f55-9bca-52820a2586b7@3/Scientific_Workflows) 
+       paper by Katy Wolstencroft,  Paul Fisher,  David De Roure and Carole Goble.
 
 Massive power, minimal complexity
 
 Because services within a workflow do not normally reside on the machine you use to create and run the workflow,
    your local machine does not have to be a supercomputer. 
-By installing and using the Taverna [Workflow Management System[5] you can tap into the resources of 
+By installing and using the Taverna 
+   [Workflow Management System(/introduction/what-is-a-workflow-management-system) 
+   you can tap into the resources of 
    a number of institutes, hundreds of analysis applications and literally thousands of CPUs worth of 
    computational power entirely for free, with no installation or support hassle for you.
 
 Of course, if you already have significant resource in house it is a relatively simple matter to 
    integrate these resources in Taverna with those available from other sites.
-
-
-  [1]: /introduction/what-is-in-silico-experimentation.html
-  [2]: http://research.microsoft.com/en-us/collaboration/fourthparadigm/4th_paradigm_book_part3_goble_deroure.pdf
-  [3]: http://research.microsoft.com/en-us/collaboration/fourthparadigm/
-  [4]: http://cnx.org/content/m32861/latest/content_info
-  [5]: /introduction/what-is-a-workflow-management-system.html
