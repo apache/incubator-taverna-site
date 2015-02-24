@@ -262,7 +262,7 @@ It is essential that the database name in the *jdbcuri* property is T2Provenance
 If you do not specify the port, the script will try to connect to the default port for MySQL 
    server, which is 3306. 
 
-> ![](/img/warning.png] When using *-dbproperties* together with other
+> ![](/img/warning.png) When using *-dbproperties* together with other
 > options, the other options take precedence.
 
 <a name=CommandLineTool-Examples"></a>
