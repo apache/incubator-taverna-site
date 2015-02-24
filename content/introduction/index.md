@@ -20,8 +20,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 Taverna is an open source domain independent [Workflow Management System][1] - 
    a suite of tools used to design and execute [scientific workflows][2].
-Taverna was started by the [myGrid project][3] and originally funded through a range of 
-   [organisations and projects][4].
+Taverna was started by the [myGrid project][3].
 
 <p class="row text-center">
 <a href="/img/Taverna_Intro_slide1.png">
