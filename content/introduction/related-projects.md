@@ -30,7 +30,7 @@ We are also involved in various projects set out to solve particular e-Science p
 
  - [ChemTaverna][4] – workflows for chemoinformatics
  - [ONDEX][5] – integration of biological data
- - [Shared Genomics][6] – the use of the [Taverna Server][7] to run genetic data workflows
+ - [Shared Genomics][6] – the use of the [Taverna Server](/documentation/server/) to run genetic data workflows
  - [REFINE][8] – text mining and visualisation
  - [HELIO][9] – services and workflows for HelioPhysics
 
@@ -197,9 +197,9 @@ This is an ENGAGE funded project to enable Taverna workflows using Shared Genomi
 <a name="refine"></a>
 ##REFINE##
 
-[REFINE][38], Tools for the text mining-based visualisation of the provenance of biochemical networks, is a 
-   [BBSRC][39] funded project to find solutions for the terminology problem in systems biology, 
-   by developing techniques for recognising synonym terms.
+[REFINE][38], Tools for the text mining-based visualisation of the provenance of 
+   biochemical networks, is a BBSRC funded project to find solutions for the terminology 
+   problem in systems biology, by developing techniques for recognising synonym terms.
 
 The REFINE project involves the use of text mining tools. 
 Their application will be influenced by the experience of the myGrid team and Taverna Workbench users in 
@@ -446,7 +446,6 @@ The workflows covered two domains:
   [4]: #ChemTaverna
   [5]: #ondex
   [6]: #shared-genomics
-  [7]: /download/taverna-server/
   [8]: #refine
   [9]: #helio
   [10]: #engage
@@ -478,7 +477,6 @@ The workflows covered two domains:
   [36]: http://www.nactem.ac.uk/
   [37]: http://www.mcisb.org/
   [38]: http://www.nactem.ac.uk/pathtext/
-  [39]: http://
   [40]: http://www.nactem.ac.uk/staff/sophia.ananiadou/
   [41]: http://www.nactem.ac.uk/
   [42]: http://www.manchester.ac.uk/
