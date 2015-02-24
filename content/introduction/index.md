@@ -18,9 +18,11 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 ##What is Taverna?##
 
-Taverna is an open source domain independent [Workflow Management System][1] - 
-   a suite of tools used to design and execute [scientific workflows][2].
-Taverna was started by the [myGrid project][3].
+Taverna is an open source domain independent 
+   [Workflow Management System](/introduction/what-is-a-workflow-management-system.html) - 
+   a suite of tools used to design and execute 
+   [scientific workflows](/introduction/why-use-workflows.html).
+Taverna was started by the [myGrid project](http://www.mygrid.org.uk).
 
 <p class="row text-center">
 <a href="/img/Taverna_Intro_slide1.png">
@@ -70,14 +72,18 @@ Taverna was started by the [myGrid project][3].
 </map>
 </p>
 <p class="row text-center"> 
-([Download a (None Apache)][5] presentation slide of the above)
+([Download a 
+    (None Apache)](http://www.taverna.org.uk/pages/wp-content/uploads/2013/05/Taverna-Intro-slide1.pptx)
+    presentation slide of the above)
 </p>
 
-The Taverna suite is written in Java and includes the Taverna Engine (used for enacting workflows) that powers 
-   both [Taverna Workbench][6] (the desktop client application) and [Taverna Server][7] 
+The Taverna suite is written in Java and includes the Taverna Engine 
+   (used for enacting workflows) that powers both 
+   [Taverna Workbench][/download/workbench/] (the desktop client application) and 
+   [Taverna Server](/documentation/server/)
    (which executes remote workflows). 
-Taverna is also available as a [Command Line Tool][8] for faster execution of workflows from a terminal without 
-   the overhead of a GUI.
+Taverna is also available as a [Command Line Tool](/documentation/command-line-tool/) 
+   for faster execution of workflows from a terminal without the overhead of a GUI.
 Taverna automates experimental methods through the use of a number of different (local or remote) services from 
    a diverse set of domains &#8211; biology, chemistry and medicine to music, meteorology and social sciences.
 
@@ -92,24 +98,14 @@ Effectively, Taverna enables a scientist who has a limited background in computi
     </a>
 </p>
 <p class="row text-center">
-([Download a (None Apache)][9] presentation slide of the above)
+([Download a (None Apache)](http://www.taverna.org.uk/pages/wp-content/uploads/2013/05/Taverna_Spectrum_Slide.pptx)
+    presentation slide of the above)
 </p>
 
-See a full list of [Taverna's features][10] or [videos][11] of Taverna in action.   
+See a full list of [Taverna's features](/introduction/taverna-features.html) or 
+   [videos](/documentation/videos/) of Taverna in action.   
 The screenshot shown below shows the Taverna Workbench 2.x during the design of a workflow.
 
 <p class="row text-center">
 <img src="/img/Taverna_Workbench.png" alt="Taverna 2.1 Workbench Design Perspective" width="606" height="392" />
 </p>
-
-  [1]: /introduction/what-is-a-workflow-management-system.html
-  [2]: /introduction/why-use-workflows.html
-  [3]: http://www.mygrid.org.uk
-  [4]: /about/supporters/
-  [5]: http://www.taverna.org.uk/pages/wp-content/uploads/2013/05/Taverna-Intro-slide1.pptx
-  [6]: /download/taverna-2-x/
-  [7]: /download/taverna-server/
-  [8]: /documentation/command-line-tool/
-  [9]: http://www.taverna.org.uk/pages/wp-content/uploads/2013/05/Taverna_Spectrum_Slide.pptx
-  [10]: /introduction/taverna-features.html
-  [11]: /documentation/videos/
