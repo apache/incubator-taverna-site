@@ -514,7 +514,7 @@ A [service](#service) that allows you to import Excel or csv spreadsheets and fe
    into your workflow. 
 To import a spreadsheet into your workflow, simply add the SpreadsheetImport service to your 
    workflow (either drag it from the [Service Panel]#service_panel) into the 
-<a href="/documentation/taverna-2-x/glossary/#workflow_diagram">Workflow Diagram</a> or <a href="/documentation/taverna-2-x/glossary/#workflow_explorer">Explorer</a>, or right-click on it in the Service Panel and select Add to workflow).
+<a href="#workflow_diagram">Workflow Diagram</a> or <a href="/documentation/taverna-2-x/glossary/#workflow_explorer">Explorer</a>, or right-click on it in the Service Panel and select Add to workflow).
 
 When you add the service to your workflow, you can configure how it deals with the rows and columns from the spreadsheet:<br />
  - select which rows and columns to output<br /> 
