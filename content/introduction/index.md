@@ -19,9 +19,9 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 ##What is Taverna?##
 
 Taverna is an open source domain independent 
-   [Workflow Management System](/introduction/what-is-a-workflow-management-system.html) - 
+   [Workflow Management System](/introduction/what-is-a-workflow-management-system) - 
    a suite of tools used to design and execute 
-   [scientific workflows](/introduction/why-use-workflows.html).
+   [scientific workflows](/introduction/why-use-workflows).
 Taverna was started by the [myGrid project](http://www.mygrid.org.uk).
 
 <p class="row text-center">
@@ -102,7 +102,7 @@ Effectively, Taverna enables a scientist who has a limited background in computi
     presentation slide of the above)
 </p>
 
-See a full list of [Taverna's features](/introduction/taverna-features.html) or 
+See a full list of [Taverna's features](/introduction/taverna-features) or 
    [videos](/documentation/videos/) of Taverna in action.   
 The screenshot shown below shows the Taverna Workbench 2.x during the design of a workflow.
 
