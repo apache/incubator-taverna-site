@@ -18,7 +18,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 ##Taverna 3##
 
-[Taverna 3][1] is a re-engineering of the Taverna codebase to use OSGi.
+Taverna 3 is a re-engineering of the Taverna codebase to use OSGi.
 
 ###Taverna 3 Command Line Tool alpha3/beta1###
 
