@@ -493,74 +493,74 @@ In BioCatalogue: [http://www.biocatalogue.org/services/2176][62]
   [1]: #chemspider
   [2]: #chebi
   [3]: #pubchem
-  [4]: http://www.myexperiment.org/packs/136.html
+  [4]: http://www.myexperiment.org/packs/136
   [5]: http://www.chemspider.com/
   [6]: http://www.chemspider.com/InChI.asmx?WSDL
   [7]: http://www.biocatalogue.org/services/2164
   [8]: http://www.chemspider.com/Register.aspx
-  [9]: http://www.myexperiment.org/workflows/1418.html
-  [10]: href="http://www.myexperiment.org/workflows/1387.html
-  [11]: http://www.myexperiment.org/workflows/1388.html
-  [12]: http://www.myexperiment.org/workflows/1389.html
-  [13]: http://www.myexperiment.org/workflows/1390.html
-  [14]: http://www.myexperiment.org/workflows/1391.html
-  [15]: http://www.myexperiment.org/workflows/1392.html
-  [16]: http://www.myexperiment.org/workflows/1393.html
-  [17]: http://www.myexperiment.org/workflows/1394.html
+  [9]: http://www.myexperiment.org/workflows/1418
+  [10]: http://www.myexperiment.org/workflows/1387
+  [11]: http://www.myexperiment.org/workflows/1388
+  [12]: http://www.myexperiment.org/workflows/1389
+  [13]: http://www.myexperiment.org/workflows/1390
+  [14]: http://www.myexperiment.org/workflows/1391
+  [15]: http://www.myexperiment.org/workflows/1392
+  [16]: http://www.myexperiment.org/workflows/1393
+  [17]: http://www.myexperiment.org/workflows/1394
   [18]: http://openbabel.org/wiki/Main_Page
-  [19]: http://www.myexperiment.org/workflows/1395.html
+  [19]: http://www.myexperiment.org/workflows/1395
   [20]: http://openbabel.org/wiki/Main_Page
-  [21]: http://www.myexperiment.org/workflows/1396.html
-  [22]: http://www.myexperiment.org/workflows/1397.html
-  [23]: http://www.myexperiment.org/workflows/1398.html
-  [24]: http://www.myexperiment.org/workflows/1399.html
-  [25]: http://www.myexperiment.org/workflows/1400.html
+  [21]: http://www.myexperiment.org/workflows/1396
+  [22]: http://www.myexperiment.org/workflows/1397
+  [23]: http://www.myexperiment.org/workflows/1398
+  [24]: http://www.myexperiment.org/workflows/1399
+  [25]: http://www.myexperiment.org/workflows/1400
   [26]: http://www.chemspider.com/OpenBabel.asmx?WSDL
   [27]: http://openbabel.org/wiki/Category:Formats
-  [28]: http://www.myexperiment.org/workflows/1401.html
+  [28]: http://www.myexperiment.org/workflows/1401
   [29]: http://www.chemspider.com/MassSpecAPI.asmx?WSDL
   [30]: http://www.biocatalogue.org/services/2040
-  [31]: http://www.myexperiment.org/workflows/1404.html
-  [32]: http://www.myexperiment.org/workflows/1405.html
-  [33]: http://www.myexperiment.org/workflows/1406.html
-  [34]: http://www.myexperiment.org/workflows/1407.html
-  [35]: http://www.myexperiment.org/workflows/1420.html
+  [31]: http://www.myexperiment.org/workflows/1404
+  [32]: http://www.myexperiment.org/workflows/1405
+  [33]: http://www.myexperiment.org/workflows/1406
+  [34]: http://www.myexperiment.org/workflows/1407
+  [35]: http://www.myexperiment.org/workflows/1420
   [36]: http://www.chemspider.com/Spectra.asmx?WSDL
-  [37]: http://www.myexperiment.org/workflows/1408.html
-  [38]: http://www.myexperiment.org/workflows/1409.html
-  [39]: http://www.myexperiment.org/workflows/1410.html
+  [37]: http://www.myexperiment.org/workflows/1408
+  [38]: http://www.myexperiment.org/workflows/1409
+  [39]: http://www.myexperiment.org/workflows/1410
   [40]: http://www.chemspider.com/Search.asmx?WSDL
-  [41]: http://www.myexperiment.org/workflows/1411.html
-  [42]: http://www.myexperiment.org/workflows/1411.html
-  [43]: http://www.myexperiment.org/workflows/1411.html
-  [44]: http://www.myexperiment.org/workflows/1412.html
-  [45]: http://www.myexperiment.org/workflows/1414.html
-  [46]: http://www.myexperiment.org/workflows/1427.html
+  [41]: http://www.myexperiment.org/workflows/1411
+  [42]: http://www.myexperiment.org/workflows/1411
+  [43]: http://www.myexperiment.org/workflows/1411
+  [44]: http://www.myexperiment.org/workflows/1412
+  [45]: http://www.myexperiment.org/workflows/1414
+  [46]: http://www.myexperiment.org/workflows/1427
   [47]: http://www.chemspider.com/Synonyms.asmx?WSDL
-  [48]: http://www.myexperiment.org/workflows/1415.html
+  [48]: http://www.myexperiment.org/workflows/1415
   [49]: http://www.ebi.ac.uk/chebi/
   [50]: http://www.ebi.ac.uk/webservices/chebi/2.0/webservice?wsdl
   [51]: http://www.biocatalogue.org/services/2174
-  [52]: http://www.myexperiment.org/workflows/1419.html
-  [53]: http://www.myexperiment.org/workflows/1421.html
-  [54]: http://www.myexperiment.org/workflows/1422.html
-  [55]: http://www.myexperiment.org/workflows/1423.html
-  [56]: http://www.myexperiment.org/workflows/1424.html
-  [57]: http://www.myexperiment.org/workflows/1426.html
+  [52]: http://www.myexperiment.org/workflows/1419
+  [53]: http://www.myexperiment.org/workflows/1421
+  [54]: http://www.myexperiment.org/workflows/1422
+  [55]: http://www.myexperiment.org/workflows/1423
+  [56]: http://www.myexperiment.org/workflows/1424
+  [57]: http://www.myexperiment.org/workflows/1426
   [58]: http://pubchem.ncbi.nlm.nih.gov/
   [59]: http://en.wikipedia.org/wiki/National_Center_for_Biotechnology_Information
   [60]: http://en.wikipedia.org/wiki/National_Institutes_of_Health
   [61]: http://pubchem.ncbi.nlm.nih.gov/pug_soap/pug_soap.cgi?wsdl
-  [62]: href="http://www.biocatalogue.org/services/2176
+  [62]: http://www.biocatalogue.org/services/2176
   [63]: http://pubchem.ncbi.nlm.nih.gov/pug/pughelp.html
   [64]: http://pubchem.ncbi.nlm.nih.gov/pc_fetch/pc_fetch-help.html
-  [65]: http://www.myexperiment.org/workflows/1435.html?version=2
-  [66]: http://www.myexperiment.org/workflows/1431.html?version=2
-  [67]: http://www.myexperiment.org/workflows/1431.html?version=2
-  [68]: http://www.myexperiment.org/workflows/1433.html?version=2
-  [69]: http://www.myexperiment.org/workflows/1431.html?version=2
-  [70]: http://www.myexperiment.org/workflows/1433.html?version=2
-  [71]: http://www.myexperiment.org/workflows/1433.html?version=2
-  [72]: http://www.myexperiment.org/workflows/1431.html?version=2
-  [73]: http://www.myexperiment.org/workflows/1431.html?version=2
-  [74]: http://www.myexperiment.org/workflows/1434.html?version=2
+  [65]: http://www.myexperiment.org/workflows/1435
+  [66]: http://www.myexperiment.org/workflows/1431
+  [67]: http://www.myexperiment.org/workflows/1431
+  [68]: http://www.myexperiment.org/workflows/1433
+  [69]: http://www.myexperiment.org/workflows/1431
+  [70]: http://www.myexperiment.org/workflows/1433
+  [71]: http://www.myexperiment.org/workflows/1433
+  [72]: http://www.myexperiment.org/workflows/1431
+  [73]: http://www.myexperiment.org/workflows/1431
+  [74]: http://www.myexperiment.org/workflows/1434
