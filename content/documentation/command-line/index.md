@@ -75,7 +75,7 @@ You can [download the Command Line Tool](download/command-line-tool) from the Ta
 To get help and a full set of options for the executeworkflow script type the following in the 
    command prompt:
 
-> $ sh executeworkflow.sh -help]]
+> $ sh executeworkflow.sh -help
 
 It will give the following usage options:
 
