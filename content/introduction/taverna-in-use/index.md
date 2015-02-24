@@ -537,100 +537,100 @@ formalise or share existing research.
   [8]: /download/taverna-server
   [9]: /introduction/related-projects.html#biovel
   [10]: http://www.vph-share.eu/
-  [11]: /introduction/related-projects.html#shared-genomics/
-  [12]: /introduction/related-projects.html#helio
-  [13]: /introduction/related-projects.html#cagrid
-  [14]: /introduction/related-projects.html#neiss
+  [11]: /introduction/related-projects#shared-genomics/
+  [12]: /introduction/related-projects#helio
+  [13]: /introduction/related-projects#cagrid
+  [14]: /introduction/related-projects#neiss
   [15]: http://en.wikipedia.org/wiki/Grid_computing
-  [16]: /introduction/taverna-in-use.html#genome-and-gene-expression/tavernapbs
-  [17]: /introduction/related-projects.html#cagrid
+  [16]: /introduction/taverna-in-use#genome-and-gene-expression/tavernapbs
+  [17]: /introduction/related-projects#cagrid
   [18]: http://webcache.googleusercontent.com/search?q=cache:SO2-xLmcod4J:www.eu-egee.org/+&amp;cd=1&amp;hl=en&amp;ct=clnk&amp;gl=uk
-  [19]: /introduction/taverna-in-use/databases.html#embrace
-  [20]: /introduction/taverna-in-use/medical-imaging.html#knowarc
-  [21]: /introduction/taverna-in-use/on-a-grid.html#moteur
+  [19]: /introduction/taverna-in-use/databases#embrace
+  [20]: /introduction/taverna-in-use/medical-imaging#knowarc
+  [21]: /introduction/taverna-in-use/on-a-grid#moteur
   [22]: http://www.mygrid.org.uk/outreach/collaboration/collaboration-with-nbic/
-  [23]: /introduction/taverna-in-use/on-a-grid.html#simdat
+  [23]: /introduction/taverna-in-use/on-a-grid#simdat
   [24]: http://www.mygrid.org.uk/dev/wiki/display/plugins/Submitting+HPC+jobs+from+Taverna+using+GridSAM
   [25]: http://dev.mygrid.org.uk/wiki/display/taverna/Taverna%2C+Grids+and+Clouds
-  [26]: /introduction/related-projects.html#tsb
-  [27]: /introduction/taverna-in-use/genome-and-gene-expression.html#next-generation-sequencing
-  [28]: /introduction/related-projects.html#scape
+  [26]: /introduction/related-projects#tsb
+  [27]: /introduction/taverna-in-use/genome-and-gene-expression#next-generation-sequencing
+  [28]: /introduction/related-projects#scape
   [29]: http://www.nbcr.net/
-  [30]: /documentation/taverna-plugins.html#opal
-  [31]: /documentation/taverna-plugins.html#esc
+  [30]: /documentation/taverna-plugins#opal
+  [31]: /documentation/taverna-plugins#esc
   [32]: http://knoesis.wright.edu/library/resource.php?id=835
-  [33]: /introduction/related-projects.html#biovel
+  [33]: /introduction/related-projects#biovel
   [34]: https://wiki.biovel.eu/display/doc/Taverna+Server
   [35]: https://wiki.biovel.eu/display/doc/Taverna+Server+AMI
   [36]: http://www.vph-share.eu
   [37]: https://vph.cyfronet.pl/tutorial/doku.php?id=as_instantiation
   [38]: https://portal.vph-share.eu
-  [39]: /introduction/taverna-in-use/annotation.html#afawe
-  [40]: /introduction/taverna-in-use/bioinformatics.html#biowep
-  [41]: /introduction/taverna-in-use/biology.html#planet
-  [42]: /introduction/taverna-in-use/protein-and-proteomics.html#prodom
-  [43]: /introduction/taverna-in-use/systems-biology.html#metware
-  [44]: /introduction/introduction/related-projects.html#neiss
-  [45]: /introduction/taverna-in-use.html#bioinformatics/biolinux
+  [39]: /introduction/taverna-in-use/annotation#afawe
+  [40]: /introduction/taverna-in-use/bioinformatics#biowep
+  [41]: /introduction/taverna-in-use/biology#planet
+  [42]: /introduction/taverna-in-use/protein-and-proteomics#prodom
+  [43]: /introduction/taverna-in-use/systems-biology#metware
+  [44]: /introduction/introduction/related-projects#neiss
+  [45]: /introduction/taverna-in-use#bioinformatics/biolinux
   [46]: http://www.omii.ac.uk/wiki/SoftwareOverview
-  [47]: /introduction/taverna-in-use/biology.html#sb-os
+  [47]: /introduction/taverna-in-use/biology#sb-os
   [48]: http://code.google.com/p/calctav/
-  [49]: /introduction/taverna-in-use/annotation.html
-  [50]: /introduction/taverna-in-use/arts.html
-  [51]: /introduction/taverna-in-use/astronomy.html
-  [52]: /introduction/taverna-in-use/by-domain/biodiversity.html
-  [53]: /introduction/taverna-in-use/bioinformatics.html
-  [54]: /introduction/taverna-in-use/chemistry.html
-  [55]: /introduction/taverna-in-use/data-and-text-mining.html
-  [56]: /introduction/taverna-in-use/databases.html
-  [57]: /introduction/taverna-in-use/by-domain/document-analysis.html
-  [58]: /introduction/taverna-in-use/education.htnl
-  [59]: /introduction/taverna-in-use/engineering.html
-  [60]: /introduction/taverna-in-use/by-domain/geoinformatics.html
-  [61]: /introduction/taverna-in-use/information-quality.html
-  [62]: /introduction/taverna-in-use/multimedia.html
-  [63]: /introduction/taverna-in-use/natural-language-processing.html
-  [64]: /introduction/taverna-in-use/service-provision.html
-  [65]: /introduction/taverna-in-use/service-testing.html
-  [66]: /introduction/taverna-in-use/social-sciences.html
-  [67]: /introduction/taverna-in-use/disease-research.html#vph-dareit
+  [49]: /introduction/taverna-in-use/annotation
+  [50]: /introduction/taverna-in-use/arts
+  [51]: /introduction/taverna-in-use/astronomy
+  [52]: /introduction/taverna-in-use/by-domain/biodiversity
+  [53]: /introduction/taverna-in-use/bioinformatics
+  [54]: /introduction/taverna-in-use/chemistry
+  [55]: /introduction/taverna-in-use/data-and-text-mining
+  [56]: /introduction/taverna-in-use/databases
+  [57]: /introduction/taverna-in-use/by-domain/document-analysis
+  [58]: /introduction/taverna-in-use/education
+  [59]: /introduction/taverna-in-use/engineering
+  [60]: /introduction/taverna-in-use/by-domain/geoinformatics
+  [61]: /introduction/taverna-in-use/information-quality
+  [62]: /introduction/taverna-in-use/multimedia
+  [63]: /introduction/taverna-in-use/natural-language-processing
+  [64]: /introduction/taverna-in-use/service-provision
+  [65]: /introduction/taverna-in-use/service-testing
+  [66]: /introduction/taverna-in-use/social-sciences
+  [67]: /introduction/taverna-in-use/disease-research#vph-dareit
   [68]: http://www.vph-share.eu/
-  [69]: /introduction/taverna-in-use/by-domain/geoinformatics.html#pml
-  [70]: /introduction/related-projects.html#tsb
-  [71]: /introduction/related-projects.html#biovel
-  [72]: /introduction/taverna-in-use/bioinformatics.html#lumc
-  [73]: /introduction/related-projects.html#scape
-  [74]: /introduction/taverna-in-use/biology.html#tav4sb
-  [75]: /introduction/taverna-in-use/bioinformatics.html#biowep
-  [76]: /introduction/taverna-in-use/data-and-text-mining.html#open-software-development-workflows
-  [77]: /introduction/taverna-in-use/disease-research.html#trypanosomiasis
+  [69]: /introduction/taverna-in-use/by-domain/geoinformatics#pml
+  [70]: /introduction/related-projects#tsb
+  [71]: /introduction/related-projects#biovel
+  [72]: /introduction/taverna-in-use/bioinformatics#lumc
+  [73]: /introduction/related-projects#scape
+  [74]: /introduction/taverna-in-use/biology#tav4sb
+  [75]: /introduction/taverna-in-use/bioinformatics#biowep
+  [76]: /introduction/taverna-in-use/data-and-text-mining#open-software-development-workflows
+  [77]: /introduction/taverna-in-use/disease-research#trypanosomiasis
   [78]: http://code.google.com/p/calctav/
-  [79]: /introduction/taverna-in-use/by-domain/natural-language-processing.html#panacea
-  [80]: /introduction/taverna-in-use/by-domain/document-analysis.html#dae
-  [81]: /introduction/taverna-in-use/genome-and-gene-expression.html#tavernapbs
-  [82]: /introduction/taverna-in-use/genome-and-gene-expression.html#next-generation-sequencing
-  [83]: /introduction/taverna-in-use/biology.html#sb-os
-  [84]: /introduction/taverna-in-use/engineering.html#jpl
-  [85]: /introduction/taverna-in-use/biology.html#manchester-centre-for-integrative-systems-biology
-  [86]: /introduction/related-projects.html#chemtaverna
-  [87]: /introduction/related-projects.html#neiss
-  [88]: /introduction/related-projects.html#e-lico
-  [89]: /introduction/related-projects.html#helio
-  [90]: /introduction/taverna-in-use/social-sciences.html#impact
-  [91]: /introduction/taverna-in-use/systems-biology.html#metware
-  [92]: /introduction/taverna-in-use/medicine.html#eu-adr
-  [93]: /introduction/taverna-in-use/bioinformatics.html#biolinux
-  [94]: /introduction/taverna-in-use/annotation.html#afawe
-  [95]: /introduction/related-projects.html#cagrid
-  [96]: /introduction/related-projects.html#engage
-  [97]: /introduction/related-projects.html#ondex
-  [98]: /introduction/related-projects.html#shared-genomics
-  [99]: /introduction/taverna-in-use/data-and-text-mining.html#aid
-  [100]: /introduction/taverna-in-use/disease-research.html#graves-disease
-  [101]: /introduction/taverna-in-use/multimedia.html#course-generator
-  [102]: /introduction/taverna-in-use/annotation.html#taweka
-  [103]: /introduction/taverna-in-use/arts.html#composition-of-music
-  [104]: /introduction/taverna-in-use/bioinformatics.html#gene-expression-from-microarray
-  [105]: /introduction/taverna-in-use/data-and-text-mining.html#refine
-  [106]: /introduction/taverna-in-use/systems-biology.html#ccpn
-  [107]: /introduction/taverna-in-use/biology.html#planet
+  [79]: /introduction/taverna-in-use/by-domain/natural-language-processing#panacea
+  [80]: /introduction/taverna-in-use/by-domain/document-analysis#dae
+  [81]: /introduction/taverna-in-use/genome-and-gene-expression#tavernapbs
+  [82]: /introduction/taverna-in-use/genome-and-gene-expression#next-generation-sequencing
+  [83]: /introduction/taverna-in-use/biology#sb-os
+  [84]: /introduction/taverna-in-use/engineering#jpl
+  [85]: /introduction/taverna-in-use/biology#manchester-centre-for-integrative-systems-biology
+  [86]: /introduction/related-projects#chemtaverna
+  [87]: /introduction/related-projects#neiss
+  [88]: /introduction/related-projects#e-lico
+  [89]: /introduction/related-projects#helio
+  [90]: /introduction/taverna-in-use/social-sciences#impact
+  [91]: /introduction/taverna-in-use/systems-biology#metware
+  [92]: /introduction/taverna-in-use/medicine#eu-adr
+  [93]: /introduction/taverna-in-use/bioinformatics#biolinux
+  [94]: /introduction/taverna-in-use/annotation#afawe
+  [95]: /introduction/related-projects#cagrid
+  [96]: /introduction/related-projects#engage
+  [97]: /introduction/related-projects#ondex
+  [98]: /introduction/related-projects#shared-genomics
+  [99]: /introduction/taverna-in-use/data-and-text-mining#aid
+  [100]: /introduction/taverna-in-use/disease-research#graves-disease
+  [101]: /introduction/taverna-in-use/multimedia#course-generator
+  [102]: /introduction/taverna-in-use/annotation#taweka
+  [103]: /introduction/taverna-in-use/arts#composition-of-music
+  [104]: /introduction/taverna-in-use/bioinformatics#gene-expression-from-microarray
+  [105]: /introduction/taverna-in-use/data-and-text-mining#refine
+  [106]: /introduction/taverna-in-use/systems-biology#ccpn
+  [107]: /introduction/taverna-in-use/biology#planet
