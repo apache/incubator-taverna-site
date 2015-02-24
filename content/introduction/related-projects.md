@@ -464,7 +464,7 @@ The workflows covered two domains:
   [23]: http://www.biovel.eu/
   [24]: http://www.scape-project.eu/
   [25]: http://www.mib.ac.uk/
-  [26]: /introduction/chemistry-web-services.html
+  [26]: /introduction/chemistry-web-services
   [27]: http://www.myexperiment.org/packs/135.html
   [28]: http://usefulchem.wikispaces.com/
   [29]: http://usefulchem.blogspot.com/
@@ -494,11 +494,11 @@ The workflows covered two domains:
   [54]: http://www.eaglegenomics.com/
   [55]: http://www.ngrl.org.uk/
   [56]: http://www.manchesterbrc.org/index.php
-  [57]: http://www.eaglegenomics.com/2011/09/genetics-%E2%80%98cloud%E2%80%99-to-create-new-opportunities-for-researchers-and-clinicians/
+  [57]: http://www.eaglegenomics.com/genetics-cloud-to-create-new-opportunities-for-researchers-and-clinicians
   [58]: http://galaxy.psu.edu/
   [59]: http://www.nbic.nl/
   [60]: http://www.myexperiment.org/
-  [61]: /documentation/server.html
+  [61]: /documentation/server
   [62]: https://trac.nbic.nl/elabfactory/wiki/eGalaxy
   [63]: http://www.myexperiment.org/workflows
   [64]: http://www.myexperiment.org/
