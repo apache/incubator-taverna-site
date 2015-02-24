@@ -25,7 +25,7 @@ Currently Taverna works with the following:
  - <a href="http://sourceforge.net/p/soaplab/wiki/Home/" target="_blank">
       <img src="/img/Soaplab.png" alt="SoapLab" width="33" height="25" /></a>   
    [SoapLab][2]</a>
- - <a href="/documentation/taverna-plugins/taverna-2-x-plugins/#sadi_plugin">
+ - <a href="/documentation/plugins#sadi_plugin">
       <img src="/pages/wp-content/uploads/2011/03/sadi-header-small.png" alt="SADI" /></a>   
    [SADI][3]</a>
  - <a href="http://www.r-project.org/" target="_blank">
@@ -86,7 +86,7 @@ Bioconductor uses the R statistical programming language, and is open source and
   [3]: #sadi
   [4]: #r
   [5]: #bioconductor
-  [6]: /documentation/taverna-plugins/taverna-2-x-plugins/
+  [6]: /documentation/plugins
   [7]: http://www.biomart.org/
   [8]: http://dev.mygrid.org.uk/wiki/display/taverna/Biomart
   [9]: http://sourceforge.net/p/soaplab/wiki/Home/
