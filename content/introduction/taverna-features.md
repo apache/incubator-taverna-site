@@ -131,7 +131,7 @@ A snapshot of the Service Catalogue Perspective in Taverna can be seen in the im
 
 <img title="BioCatalogue plugin for Taverna" src="/img/BioCataloguePerspective.png" alt="BioCatalogue plugin for Taverna screenshot" width="100%" />
 
-  [1]: /introduction/
+  [1]: /introduction
   [2]: #biocataloue-integration
   [3]: http://www.biocatalogue.org/
   [4]: http://www.myexperiment.org/
@@ -141,5 +141,5 @@ A snapshot of the Service Catalogue Perspective in Taverna can be seen in the im
   [8]: http://www.myexperiment.org/
   [9]: http://www.biocatalogue.org/
   [10]: http://www.biocatalogue.org/
-  [11]: /documentation/taverna-2-x/glossary/#service_panel
+  [11]: /documentation/glossary#service_panel
   [12]: https://www.biodiversitycatalogue.org/
