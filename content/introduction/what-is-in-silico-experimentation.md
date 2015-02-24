@@ -43,11 +43,7 @@ Insufficient computing background – which is natural for scientists as it is n
   acts as a strong barrier in adoption and distribution of scientific applications, 
   thus leaving these applications inaccessible for the majority of researchers.
 
-[Scientific workflows][1] offer a solution to this problem. 
+[Scientific workflows](/introduction/why-use-workflows) offer a solution to this problem. 
 They provide an easy-to-use declarative way of specifying the tasks that have to be performed during 
    a specific in silico experiment, whereas the technical details of workflow execution are now delegated 
-   to a [Workflow Management System][2].
-
-
-  [1]: introduction/why-use-workflows.html
-  [2]: /introduction/what-is-a-workflow-management-system.html
+   to a [Workflow Management System](/introduction/what-is-a-workflow-management-system).
