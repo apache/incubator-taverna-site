@@ -69,17 +69,16 @@ You can [download the Command Line Tool](download/command-line-tool) from the Ta
      the other calls using *-clientserver* - see 
      [#Running the script with database](#CommandLineTool-Runningthescriptwithdatabase)
 
-<h2 id="CommandLineTool-ExecuteworkflowScript">Executeworkflow Script</h2>
+<a name="CommandLineTool-ExecuteworkflowScript"></a>
+##Executeworkflow Script
 
-<p>To get help and a full set of options for the executeworkflow script type the following in the command prompt:</p>
+To get help and a full set of options for the executeworkflow script type the following in the 
+   command prompt:
 
-<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
-<script type="syntaxhighlighter" class="theme: Eclipse; brush: java; gutter: false"><![CDATA[$ sh executeworkflow.sh -help]]></script>
-</div></div>
+> $ sh executeworkflow.sh -help]]
 
-<p>It will give the following usage options:</p>
+It will give the following usage options:
 
-<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
 <pre>usage: executeworkflow [options] [workflow]
  -clientserver                                  connects as a client to a
                                                 derby server instance.
@@ -149,41 +148,75 @@ You can [download the Command Line Tool](download/command-line-tool) from the Ta
 (..)
 
 </pre>
-</div></div>
 
+If this directory already exists then an new directory is created, and appended with 
+   *_&lt;n&gt;*, where *n* is incremented to the next available index.
 
-<p>If this directory already exists then an new directory is created, and appended with <code>_&lt;n&gt;</code>, where <code>n</code> is incremented to the next available index.</p>
+Results are written out to files named after the output port for that result. 
+If a result is composed of lists, then a directory is created  for the output port and 
+   individual list items are named after the list element index (with 1 being the first index). 
+The the output is the  result of an error, the filename is appended with ‘.error’.
 
-<p>Results are written out to files named after the output port for that  result. If a result is composed of lists, then a directory is created  for the output port and individual list items are named after the list  element index (with 1 being the first index). The the output is the  result of an error, the filename is appended with ‘.error’.</p>
+You can provide your own output directory with the *-outputdir* option. 
+There will be an error if the directory already exists.
 
-<p>You can provide your own output directory with the <code>-outputdir</code> option. There will be an error if the directory already exists.</p>
+You can 
+   [export the provenance](http://dev.mygrid.org.uk//wiki/display/tav250/Provenance+export+to+OPM+and+Janus)
+   using the *-opm* or *-janus* options.
 
-<p>You can <a href="http://dev.mygrid.org.uk//wiki/display/tav250/Provenance+export+to+OPM+and+Janus">export the provenance</a> using the <code>-opm</code> or <code>-janus</code> options.</p>
+You can also record your results to a Baclava document using *-outputdoc* option. 
+The document will be overwritten if it already exists. 
+You can use the [DataViewer Tool](http://dev.mygrid.org.uk/wiki/display/tav250/DataViewer+Tool)
+   to view Baclava files.
 
-<p>You can also record your results to a Baclava document using <code>-outputdoc</code> option. The document will be overwritten if it already exists. You can use the <a href="http://dev.mygrid.org.uk/wiki/display/tav250/DataViewer+Tool">DataViewer Tool</a> to view Baclava files.</p>
+Inputs can be provided in three ways. 
+Both *-inputfile* and *-inputvalue* options can be used together; *-inputdoc* option must be 
+   used on its own. 
+*-inputfile* and *-inputvalue* options both take two additional arguments, the name of the port 
+   for  the input, and either a file containing the input data, or the input  value itself 
+   respectively.
 
-<p>Inputs can be provided in three ways. Both <code>-inputfile</code> and <code>-inputvalue</code> options can be used together; <code>-inputdoc</code> option must be used on its own. <code>-inputfile</code> and <code>-inputvalue</code> options both take two additional arguments, the name of the port for  the input, and either a file containing the input data, or the input  value itself respectively.</p>
+If one of more of you workflow inputs is described as a list, you can create a list by using 
+   the *-inputdelimiter* option, which may be used with either *-inputfile* or 
+   *-inputvalue*. 
+This option takes two parameters – an input name and the delimiter by which to split the input 
+   into a list.
 
-<p>If one of more of you workflow inputs is described as a list, you can create a list by using the <code>-inputdelimiter</code> option, which may be used with either <code>-inputfile</code> or <code>-inputvalue</code>. This option takes two parameters – an input name and the delimiter by which to split the input into a list.</p>
+The delimiter may be a simple character, such as a comma or a  new-line character, 
+   or a regular expression. 
+The input string, or file, will then be converted into a list being split by the delimiter 
+   specified. 
 
-<p>The delimiter may be a simple character, such as a comma or a  new-line character, or a regular expression. The input string, or file,  will then be converted into a list being split by the delimiter specified.</p>
+If a list of greater depth (i.e. a list or lists or deeper) is required then you will need to 
+   use the *-inputdocoption* to pass data from a Baclava file. 
+However, if you provide an input of lower depth to that required, then it will automatically be 
+   wrapped in  one or more lists up to the required depth. 
+Providing an input of  greater depth than that required will result in an error. 
 
-<p>If a list of greater depth (i.e. a list or lists or deeper) is required then you will need to use the <code>-inputdocoption</code> to pass data from a Baclava file. However, if you provide an input of  lower depth to that required, then it will automatically be wrapped in  one or more lists up to the required depth. Providing an input of  greater depth than that required will result in an error.</p>
+<a name"CommandLineTool-Runningthescriptwithdatabase"></a>
+###Running the script with database
 
-<h3 id="CommandLineTool-Runningthescriptwithdatabase">Running the script with database</h3>
+If a workflow has a high memory requirement, then it may be better to run it using a database 
+   to store data rather than storing it in memory, which is the default option. 
+There are three options for using a  database: 
 
-<p>If a workflow has a high memory requirement, then it may be better to  run it using a database to store data rather than storing it in memory,  which is the default option. There are three options for using a  database:</p>
-<ul>
-	<li><code>-embedded</code> option, runs with an embedded database. This  is slightly faster than -clientserver option (below), but has the  limitation that only one <code>executeworkflow</code> script may be executed simultaneously.</li>
-	<li><code>-clientserver</code> option allows the workflow to be executed  backed by the database running as a server. By default a database is  not started for you, but may be started using <code>-startdb</code> option.</li>
-	<li><code>-startdb</code> option starts a database. It may be used  without providing a workflow to allow a database to be started  separately, allowing multiple simultaneous <code>executeworkflow</code> script runs.</li>
-</ul>
+ - *-embedded* option, runs with an embedded database. 
+   This is slightly faster than -clientserver option (below), but has the  limitation that only 
+      one *executeworkflow* script may be executed simultaneously.
+ - *-clientserver* option allows the workflow to be executed backed by the database running as 
+      a server. 
+   By default a database is not started for you, but may be started using *-startdb* option.
+ - *-startdb* option starts a database. It may be used  without providing a workflow to allow 
+      a database to be started separately, allowing multiple simultaneous *executeworkflow* 
+      script runs.
 
+More advanced database configurations can be specified using *-dbproperties* option, 
+   allowing you to take full control over the database used. 
+This takes a second argument, the filename of the propeties file, for which the following 
+   example contains the default settings used: 
 
-<p>More advanced database configurations can be specified using <code>-dbproperties</code> option, allowing you to take full control over the database used. This  takes a second argument, the filename of the propeties file, for which  the following example contains the default settings used:</p>
-
-<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
-<pre>in_memory = true
+<pre>
+in_memory = true
 provenance = false
 connector = derby
 port = 1527
@@ -192,25 +225,29 @@ start_derby = false
 driver = org.apache.derby.jdbc.EmbeddedDriver
 jdbcuri = jdbc:derby:t2-database;create=true;upgrade=true
 </pre>
-</div></div>
 
+If you want to run the Derby database with client/server setting instead of with the embedded 
+   driver, change the properties in the *-dbproperties* file (described above) as follows:
 
-<p>If you want to run the Derby database with client/server setting  instead of with the embedded driver, change the properties in the <code>-dbproperties</code> file (described above) as follows:</p>
-
-<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
-<pre>driver=org.apache.derby.jdbc.ClientDriver
+<pre>
+driver=org.apache.derby.jdbc.ClientDriver
 start_derby=true
 </pre>
-</div></div>
 
-<p>If you wish to run your own separate Derby server instance, then do not define the <code>start_derby</code> option and define the port on which you are running you Derby server as <code>port=&lt;port&gt;</code>.</p>
+If you wish to run your own separate Derby server instance, then do not define the 
+   *start_derby* option and define the port on which you are running you Derby server as 
+   *port=&lt;port&gt;*. 
 
-<p>If you want to use MySQL database rather than Derby, first you need to drop the mysql-connector-java-5.1.5.jar file from the <a href="http://dev.mysql.com/downloads/connector/j/" class="external-link" rel="nofollow">mySQL</a> website into the lib folder of the Taverna installation directory (Taverna installation directory if where you are running the script from).</p>
+If you want to use MySQL database rather than Derby, first you need to drop the 
+   mysql-connector-java-5.1.5.jar file from the 
+   [mySQL](http://dev.mysql.com/downloads/connector/j/) website into the lib folder of the 
+   Taverna installation directory (Taverna installation directory if where you are running the 
+   script from). 
 
-<p>You need to edit the <code>-dbproperties</code> file as follows:</p>
+You need to edit the *-dbproperties* file as follows: 
 
-<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
-<pre>connector=mysql
+<pre>
+connector=mysql
 jdbcuri=jdbc:mysql://localhost/T2Provenance
 dialect=org.hibernate.dialect.MySQLDialect
 driver=com.mysql.jdbc.Driver
@@ -218,51 +255,53 @@ username=&lt;username&gt;
 password=&lt;password&gt;
 port=&lt;port&gt;
 </pre>
-</div></div>
-<p>It is essential that the database name in the <code>jdbcuri</code> property is T2Provenance, as this database is hard-coded into the MySQL provenance SQL queries.</p>
 
-<p>If you do not specify the port, the script will try to connect to the default port for MySQL server, which is 3306.</p>
+It is essential that the database name in the *jdbcuri* property is T2Provenance, 
+   as this database is hard-coded into the MySQL provenance SQL queries. 
 
+If you do not specify the port, the script will try to connect to the default port for MySQL 
+   server, which is 3306. 
 
-<div class='panelMacro'><table class='noteMacro'><colgroup><col width='24'><col></colgroup><tr><td valign='top'><img src="/wiki/images/icons/emoticons/warning.png" width="16" height="16" align="absmiddle" alt="" border="0"></td><td><p>When using <code>-dbproperties</code> together with other options, the other options take precedence.</p></td></tr></table></div>
+> ![](/img/warning.png] When using *-dbproperties* together with other
+> options, the other options take precedence.
 
-<h2 id="CommandLineTool-Examples">Examples</h2>
+<a name=CommandLineTool-Examples"></a>
+##Examples
 
-<p>Some examples on how the script can be invoked are shown below.</p>
+Some examples on how the script can be invoked are shown below. 
 
-<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
-<script type="syntaxhighlighter" class="theme: Eclipse; brush: java; gutter: false"><![CDATA[$ sh executeworkflow.sh &quot;/Users/alex/Taverna Workflows/wf-1.t2flow&quot;]]></script>
-</div></div>
+> $ sh executeworkflow.sh &quot;/Users/alex/Taverna
+> Workflows/wf-1.t2flow&quot;
 
+The above line executes the workflow located in */Users/alex/Taverna Workflows/wf-1.t2flow* 
+   that has no inputs and uses the memory for data storage (the default option). 
+Make sure to enclose the file path in quotes if it contains spaces. 
+The *&lt;workflowName&gt;_outputdirectory* will be created in the current directory and outputs 
+   will be written to it. 
 
-<p>The above line executes the workflow located in <code>/Users/alex/Taverna Workflows/wf-1.t2flow</code> that has no inputs and uses the memory for data storage (the default option). Make sure to enclose the file path in quotes if it contains spaces. The <code>&lt;workflowName&gt;_outputdirectory</code> will be created in the current directory and outputs will be written to it.</p>
+> $ sh executeworkflow.sh -embedded -inputvalue in1 aaa -inputvalue in2
+> &quot;bb b&quot; -outputdir /tmp/wf-2/ wf-2.t2flow
 
-<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
-<script type="syntaxhighlighter" class="theme: Eclipse; brush: java; gutter: false"><![CDATA[
-$ sh executeworkflow.sh -embedded -inputvalue in1 aaa -inputvalue in2 &quot;bb b&quot; -outputdir /tmp/wf-2/ wf-2.t2flow
+The above line executes the workflow *wf-2.t2flow* from the current directory passing the value 
+  “aaa” to the input port *in1* and value “bb b” to the input port *in2*. 
+If input values contain spaces make sure to enclose them in quotes. 
+Uses the embedded Derby database to store the data. 
+Outputs will be written to  the */tmp/wf-2/* directory. 
 
-]]></script>
-</div></div>
+> $ sh executeworkflow.sh -inputvalue in1 aaa -inputfile in2 input2.txt
+> -inputdelimiter in2 &quot;\n&quot; wf-3.t2flow
 
+The above line executes the workflow *wf-3.t2flow* from the current directory passing the value 
+   “aaa” to the input port *in1* and splitting the content of file *input2.txt* using “\n” 
+   (new line character) as the delimiter and passing the resulting list to the input port *in2*.
+Make sure to out the delimiter in quotes, even if it is just a single character, like “;”. 
+The *&lt;workflowName&gt;_outputdirectory* will be created in the current directory and outputs 
+   will be written to it. 
 
-<p>The above line executes the workflow <code>wf-2.t2flow</code> from the current directory passing the value “aaa” to the input port <code>in1</code> and value “bb b” to the input port <code>in2</code>. If input values contain spaces make sure to enclose them in quotes. Uses the embedded Derby database to store the data. Outputs will be written to  the <code>/tmp/wf-2/</code> directory.</p>
+> $ sh executeworkflow.sh -inputdoc /tmp/input-doc.xml -outputdoc
+> /tmp/output-doc.xml &quot;/Users/alex/Taverna
+> Workflows/wf-4.t2flow&quot;
 
-<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
-<script type="syntaxhighlighter" class="theme: Eclipse; brush: java; gutter: false"><![CDATA[
-$ sh executeworkflow.sh -inputvalue in1 aaa -inputfile in2 input2.txt -inputdelimiter in2 &quot;\n&quot; wf-3.t2flow
-
-]]></script>
-</div></div>
-
-
-<p>The above line executes the workflow <code>wf-3.t2flow</code> from the current directory passing the value “aaa” to the input port <code>in1</code> and splitting the content of file <code>input2.txt</code> using “\n” (new line character) as the delimiter and passing the resulting list to the input port <code>in2</code>. Make sure to out the delimiter in quotes, even if it is just a single character, like “;”. The <code>&lt;workflowName&gt;_outputdirectory</code> will be created in the current directory and outputs will be written to it.</p>
-
-<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
-<script type="syntaxhighlighter" class="theme: Eclipse; brush: java; gutter: false"><![CDATA[
-$ sh executeworkflow.sh -inputdoc /tmp/input-doc.xml -outputdoc /tmp/output-doc.xml &quot;/Users/alex/Taverna Workflows/wf-4.t2flow&quot;
-
-]]></script>
-</div></div>
-
-
-<p>The above line executes the workflow <code>/Users/alex/Taverna Workflows/wf-4.t2flow</code>, loading inputs from the Baclava document in <code>/tmp/input-doc.xml</code>, and writing the outputs to a Baclava document <code>/tmp/output-doc.xml</code>.</p>
+The above line executes the workflow */Users/alex/Taverna Workflows/wf-4.t2flow*, loading 
+   inputs from the Baclava document in */tmp/input-doc.xml*, and writing the outputs to a 
+   Baclava document */tmp/output-doc.xml*. 
