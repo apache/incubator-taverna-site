@@ -90,15 +90,15 @@ If you are planning on creating a service that should be accessible from Taverna
    please have a look at the documentation for Web service developers[link text][19].
 
 
-  [1]: /documentation/glossary.html#wsdl
-  [2]: /developers/web-service-developers.html
-  [3]: /documentation/glossary.html#biomoby
-  [4]: /documentation/glossary.html#biomart
-  [5]: /documentation/glossary.html#soaplab
-  [6]: /documentation/glossary.html#beanshell
-  [7]: /documentation/glossary.html#api_consumer
-  [8]: /documentation/glossary.html#rshell
-  [9]: /documentation/glossary.html#spreadsheet_import
+  [1]: /documentation/glossary#wsdl
+  [2]: /developers/web-service-developers
+  [3]: /documentation/glossary#biomoby
+  [4]: /documentation/glossary#biomart
+  [5]: /documentation/glossary#soaplab
+  [6]: /documentation/glossary#beanshell
+  [7]: /documentation/glossary#api_consumer
+  [8]: /documentation/glossary#rshell
+  [9]: /documentation/glossary#spreadsheet_import
   [10]: http://dev.mygrid.org.uk/wiki/display/taverna/Interaction+service
   [11]: http://dev.mygrid.org.uk/wiki/display/taverna/Component+services
   [12]: http://dev.mygrid.org.uk/wiki/display/taverna/Service+types
@@ -108,4 +108,4 @@ If you are planning on creating a service that should be accessible from Taverna
   [16]: http://www.ebi.ac.uk/
   [17]: http://www.ddbj.nig.ac.jp/
   [18]: http://www.ebi.ac.uk/soaplab/
-  [19]: /developers/web-service-developers.html
+  [19]: /developers/web-service-developers
