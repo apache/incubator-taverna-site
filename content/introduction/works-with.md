@@ -59,7 +59,7 @@ Soaplab is especially well suited for applications with well described input and
 <a name="sadi"></a>
 ##SADI##
 
- - <a href="/documentation/taverna-plugins/sadi_plugin">
+ - <a href="/documentation/plugins/#sadi_plugin">
       <img src="/img/sadi-header-small.png" alt="SADI" ></a>   
 Semantic Web services described using the SADI framework
 
