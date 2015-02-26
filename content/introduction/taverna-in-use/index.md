@@ -126,19 +126,22 @@ View by [chronological][7] order of deployment.
 <td><a href="/introduction/taverna-in-use/bioinformatics#biowep">BioWEP</a><br />
 <a href="/introduction/taverna-in-use/biology#planet">PLANET</a><br />
 <a href="/introduction/taverna-in-use/annotation#afawe">AFAWE</a><br />
-<a href="/introduction/taverna-in-use/systems#metware">MetWare</a><br />
+<a href="/introduction/taverna-in-use/biology.html#metware">MetWare</a><br />
 <a href="/introduction/taverna-in-use/protein-and-proteomics#prodom">ProDom</a><br />
 <a href="/introduction/taverna-in-use/systems#ccpn">CCPN</a></td>
 <td><a href="/introduction/taverna-in-use/bioinformatics#biolinux">BioLinux</a><br />
 <a href="/introduction/taverna-in-use/biology#sb-os">SB.OS</a></td>
 </tr>
 <tr>
-<th><a href="introduction/taverna-in-use/biology">Biology</a></th>
-<td><a href="introduction/taverna-in-use/biology#enfin">Enabling Systems Biology</a><br />
-<a href="introduction/taverna-in-use/biology#manchester-centre-for-integrative-systems-biology">Manchester Centre for Integrative Systems Biology</a><br />  
-<a href="introduction/taverna-in-use/biology##sb-os">Systems Biology Operational Software</a><br />  
-<a href="introduction/taverna-in-use/biology#tav4sb">Tav4SB</a><br />  
-<a href="introduction/taverna-in-use/biology#planet">A Network of European Plant Databases</a></td>
+<th><a href="/introduction/taverna-in-use/biology">Biology</a></th>
+<td><a href="/introduction/taverna-in-use/biology#enfin">Enabling Systems Biology</a><br />
+<a href="/introduction/taverna-in-use/biology#manchester-centre-for-integrative-systems-biology">Manchester Centre for Integrative Systems Biology</a><br />  
+<a href="/introduction/taverna-in-use/biology##sb-os">Systems Biology Operational Software</a><br />  
+<a href="/introduction/taverna-in-use/biology.html#metware">MetWare</a><br />
+<a href="/introduction/taverna-in-use/biology#tav4sb">Tav4SB</a><br />  
+<a href="/introduction/taverna-in-use/biology#ccpn">CCPN</a><br />
+<a href="/introduction/taverna-in-use/biology#ccpn">AFAWE</a><br />
+<a href="/introduction/taverna-in-use/annotation#afawe">A Network of European Plant Databases</a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
