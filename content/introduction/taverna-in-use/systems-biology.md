@@ -18,7 +18,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 Taverna is used by various projects and researchers for investigations into systems biology:
 
- - [ENFIN – Enabling Systems Biology[(/introduction/taverna-in-use/biology#enfin) – 
+ - [ENFIN – Enabling Systems Biology](/introduction/taverna-in-use/biology#enfin) – 
       calling of wrapped tools within workflows
  - [Manchester Centre for Integrative Systems Biology](/introduction/taverna-in-use/biology/manchester-centre-for-integrative-systems-biology/)
       (MCISB) – modelling metabolomic pathways
