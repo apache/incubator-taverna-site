@@ -184,6 +184,20 @@ View by [chronological][7] order of deployment.
 <td><a href="http://code.google.com/p/calctav/" target="_blank">CalcTav</a></td>
 </tr>
 <tr>
+<th><a href="/introduction/taverna-in-use/disease-research">Disease</a></th>
+<td><a href="/introduction/taverna-in-use/disease-research#vph-dareit">VPH-DARE@IT</a><br />
+   <a href="/introduction/taverna-in-use/disease-research#analysis-of-anthrax-bacterium">Analysis of the anthrax bacterium</a><br />
+   <a href="/introduction/taverna-in-use/disease-research#trypanosomiasis">Trypanosomiasis</a><br />
+   <a href="/introduction/taverna-in-use/disease-research#graves-disease">Graves disease</a><br />
+   <a href="/introduction/taverna-in-use/disease-research#williams-beuren-syndrome">Williams-Beuren syndrome</a><br />
+   <a href="/introduction/related-projects#cagrid">caGrid</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
 <th><a href="/introduction/taverna-in-use/document-analysis">Document and image analysis<br />
 Digital preservation</a></th>
 <td><a href="/introduction/taverna-in-use/by-domain/document-analysis#islandora">Islandora</a><a href="/introduction/related-projects/scape/"><br />
@@ -237,11 +251,22 @@ SCAPE</a><br />
 <td>-</td>
 </tr>
 <tr>
+<th><a href="/introduction/taverna-in-use/medicine">Medicine</a></th>
+<td><a href="/introduction/taverna-in-use/medicine#knowarc">KnowARC</a><br />
+   <a href="/introduction/taverna-in-use/medical-imaging#miasgrid">Medical Imaging and Signals Grid (MIASGrid)</a><br/>
+   <a href="/introduction/related-projects#cagrid">caGrid</a><br/>
+   <a href="/introduction/taverna-in-use/medicine#eu-adr">EU-ADR</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
 <th><a href="/introduction/taverna-in-use/multimedia">Multimedia</a></th>
-<td><a href="/introduction/taverna-in-use/multimedia#course-generator">Course generator<br />
-</a><a href="/introduction/taverna-in-use/multimedia#echase">eCHASE</a>
-   <a href="/introduction/taverna-in-use/multimedia/course-generator">
-</a></td>
+<td><a href="/introduction/taverna-in-use/multimedia#course-generator">Course generator</a><br />
+   <a href="/introduction/taverna-in-use/multimedia#echase">eCHASE</a>
+</td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -418,6 +443,7 @@ Various domains where scientists have used Taverna so far include:
  - [Engineering][59]
  - [Geoinformatics][60]
  - [Information quality][61]
+ - [Medicine](/introduction/taverna-in-use/medicine)
  - [Multimedia][62]
  - [Natural language processing][63]
  - [Service provision][64]
