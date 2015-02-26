@@ -119,7 +119,7 @@ This is caused by the stimulation of the thyrotrophin receptor by thyroid-stimul
 
 <a href="/img/gravesdiseasescenario_1.png">
    <img title="gravesdiseasescenario_1" src="/img/gravesdiseasescenario_1.png" 
-        alt="Graves Disease Scenario" width="249" height="300" />
+        alt="Graves Disease Scenario" width="249" height="300" /></a>
 
 ###Affymetrix microarray studies
 
