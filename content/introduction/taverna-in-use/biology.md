@@ -30,7 +30,7 @@ Taverna is also used for analysis of plant biology:
 
  - [Automatic Functional Annotation in a distributed Web Service Environment](/introduction/taverna-in-use/annotation#afawe) 
    (AFAWE) – protein prediction and annotation by a tool that calls workflows
- - [PLANET (A Network of European Plant Databases](#planet) – calling of workflows from a portal
+ - [PLANET (A Network of European Plant Databases)](#planet) – calling of workflows from a portal
 
 
 <a name="enfin"<a>
