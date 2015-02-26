@@ -103,8 +103,8 @@ View by [chronological][7] order of deployment.
 <a href="/introduction/taverna-in-use/disease-research#trypanosomiasis">Trypanosomiasis</a><br />
 <a href="/introduction/taverna-in-use/disease-research#williams-beuren-syndrome">Williams-Beuren syndrome</a><br />
 <a href="/introduction/taverna-in-use/disease-research#analysis-of-anthrax-bacterium">Anthrax analysis</a><br />
-<a href="/introduction/introduction/taverna-in-use/bioinformatics#planet">PLANET</a><br />
-<a href="/introduction/introduction/taverna-in-use/annotation#annotation-of-genomes">Annotation of genomes</a><br />
+<a href="/introduction/taverna-in-use/bioinformatics#planet">PLANET</a><br />
+<a href="/introduction/taverna-in-use/annotation#annotation-of-genomes">Annotation of genomes</a><br />
 <a href="/introduction/related-projects#shared-genomics">Shared Genomics</a><br />
 <a href="/introduction/related-projects#e-fungi">e-Fungi</a><br />
 <a href="/introduction/taverna-in-use/medicine#eu-adr">EU-ADR</a><br />
