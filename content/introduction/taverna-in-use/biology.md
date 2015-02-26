@@ -21,7 +21,7 @@ Taverna is used by various projects and researchers for investigations into syst
  - [ENFIN – Enabling Systems Biology](#enfin) – calling of wrapped tools within workflows
  - [Manchester Centre for Integrative Systems Biology](#manchester-centre-for-integrative-systems-biology) 
       (MCISB) – modelling metabolomic pathways
- - [Systems Biology Operational Software](sb-os) (SB.OS) - 
+ - [Systems Biology Operational Software](#sb-os) (SB.OS) - 
       a live DVD based on Ubuntu Linux that comes with a comprehensive list of Systems Biology Software (including Taverna)
  - [Tav4SB](#tav4sb) - Taverna workflows for systems biology, 
       in particular for analysis of the kinetic models of biological systems
