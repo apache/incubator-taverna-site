@@ -23,8 +23,12 @@ Taverna is used by various projects and researchers for investigations into syst
       (MCISB) – modelling metabolomic pathways
  - [Systems Biology Operational Software](#sb-os) (SB.OS) - 
       a live DVD based on Ubuntu Linux that comes with a comprehensive list of Systems Biology Software (including Taverna)
- - [Tav4SB](#tav4sb) - Taverna workflows for systems biology, 
+ - [MetWare](#metware) - applications, databases and workflows for metabolomics
+ - [Tav4SB](/introduction/taverna-in-use/biology#tav4sb) - Taverna workflows for systems biology, 
       in particular for analysis of the kinetic models of biological systems
+ - [CCPN](/introduction/taverna-in-use/biology#ccpn) - Taverna is used to encapsulate and combine protocols between 
+      WeNMR (Worldwide e-Infrastructure for NMR and structural biology) portals and CCPN's 
+     (Collaborative Computing Project for NMR) software. 
 
 Taverna is also used for analysis of plant biology:
 
@@ -33,7 +37,7 @@ Taverna is also used for analysis of plant biology:
  - [PLANET (A Network of European Plant Databases)](#planet) – calling of workflows from a portal
 
 
-<a name="enfin"<a>
+<a name="enfin"></a>
 ##ENFIN
 
 The partners within the ENFIN - Enabling Systems Biology [project](http://www.enfin.org/) 
@@ -92,6 +96,20 @@ An example [workflow](http://www.myexperiment.org/workflows/79) using SBML is av
    a comprehensive list of Systems Biology Software. 
 Text and video documentation material, 
    as well as an offline copy of the BioModels.net database and Taverna 2.1, are included.
+
+<a name="metware"></a>
+##MetWare
+
+The MetWare project provides applications, databases and workflows for metabolomics. 
+The MetWare project is a collaboration between several metabolomics groups in the Netherlands and Germany.
+
+The work involving Taverna workflows is done by 
+   [Steffen Neumanns group (Bioinformatics &amp; Mass Spectrometry)](http://www.ipb-halle.de/en/research/stress-and-developmental-biology/all-staff/).
+
+They developed a Web-based player of Taverna workflows and also have uploaded their workflows on myExperiment at 
+   <http://www.myexperiment.org/users/937/workflows>.
+
+[Software project page](http://sourceforge.net/apps/mediawiki/metware/index.php?title=Main_Page) can be found at Sorceforge.
 
 <a name="tav4sb"></a>
 ##Tav4SB
