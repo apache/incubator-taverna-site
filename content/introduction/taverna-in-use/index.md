@@ -134,11 +134,11 @@ View by [chronological][7] order of deployment.
 </tr>
 <tr>
 <th><a href="introduction/taverna-in-use/biology">Biology</a></th>
-<td><a href="introduction/taverna-in-use/biology#enfin">Enabling Systems Biology</a>
-<a href="introduction/taverna-in-use/biology#manchester-centre-for-integrative-systems-biology">Manchester Centre for Integrative Systems Biology</a>
-<a href="introduction/taverna-in-use/biology##sb-os">Systems Biology Operational Software</a>
-<a href="introduction/taverna-in-use/biology#tav4sb">Tav4SB</a>
-a href="introduction/taverna-in-use/biology#planet">A Network of European Plant Databases</a></td>
+<td><a href="introduction/taverna-in-use/biology#enfin">Enabling Systems Biology</a><br />
+<a href="introduction/taverna-in-use/biology#manchester-centre-for-integrative-systems-biology">Manchester Centre for Integrative Systems Biology</a><br />  
+<a href="introduction/taverna-in-use/biology##sb-os">Systems Biology Operational Software</a><br />  
+<a href="introduction/taverna-in-use/biology#tav4sb">Tav4SB</a><br />  
+<a href="introduction/taverna-in-use/biology#planet">A Network of European Plant Databases</a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
