@@ -133,6 +133,19 @@ View by [chronological][7] order of deployment.
 <a href="/introduction/taverna-in-use/biology#sb-os">SB.OS</a></td>
 </tr>
 <tr>
+<th><a href="introduction/taverna-in-use/biology">Biology</a></th>
+<td><a href="introduction/taverna-in-use/biology#enfin">Enabling Systems Biology</a>
+<a href="introduction/taverna-in-use/biology#manchester-centre-for-integrative-systems-biology">Manchester Centre for Integrative Systems Biology</a>
+<a href="introduction/taverna-in-use/biology##sb-os">Systems Biology Operational Software</a>
+<a href="introduction/taverna-in-use/biology#tav4sb">Tav4SB</a>
+a href="introduction/taverna-in-use/biology#planet">A Network of European Plant Databases</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td><a href="#annotation/afawe">AFAWE</a></td>
+<td>-</td>
+</tr>
+<tr>
 <th><a href="/introduction/taverna-in-use/chemistry">Chemistry</a></th>
 <td><a href="/introduction/taverna-in-use/chemistry#chemistry-development-kit">CDK</a><br />
 <a href="/introduction/taverna-in-use/chemistry#chemical-informatics-and-cyberinfrastructure-collaboratory">CICC</a><br />
@@ -396,6 +409,7 @@ Various domains where scientists have used Taverna so far include:
  - [Astronomy][51]
  - [Biodiversity][52]
  - [Bioinformatics][53]
+ - [Biology](introduction/taverna-in-use/biology)
  - [Chemistry][54]
  - [Data and text mining][55]
  - [Databases][56]
