@@ -121,7 +121,7 @@ View by [chronological][7] order of deployment.
 <a href="/introduction/taverna-in-use/databases#embrace">EMBRACE</a></td>
 <td><a href="/introduction/taverna-in-use/genome-and-gene-expression#next-generation-sequencing">Next generation sequencing</a><br />
 <a href="/introduction/taverna-in-use/genome-and-gene-expression#tavernapbs">TavernaPBS</a><br />
-<a href="/documentation/taverna-plugins#opal">Opal</a><br />
+<a href="/documentation/plugins#opal">Opal</a><br />
 <a href="/introduction/related-projects#tsb">TSB</a></td>
 <td><a href="/introduction/taverna-in-use/bioinformatics#biowep">BioWEP</a><br />
 <a href="/introduction/taverna-in-use/biology#planet">PLANET</a><br />
@@ -287,7 +287,7 @@ SCAPE</a><br />
 <td><a href="/introduction/related-projects#engage">ENGAGE</a></td>
 <td><a href="/introduction/related-projects#shared-genomics">Shared Genomics</a></td>
 <td>-</td>
-<td><a href="/documentation/taverna-plugins/plugins-in-progress#esc">eScience Central</a></td>
+<td>-</td>
 <td>-</td>
 <td>-</td>
 </tr>
@@ -596,8 +596,8 @@ formalise or share existing research.
   [27]: /introduction/taverna-in-use/genome-and-gene-expression#next-generation-sequencing
   [28]: /introduction/related-projects#scape
   [29]: http://www.nbcr.net/
-  [30]: /documentation/taverna-plugins#opal
-  [31]: /documentation/taverna-plugins#esc
+  [30]: /documentation/plugins#opal
+  [31]: /documentation/plugins#esc
   [32]: http://knoesis.wright.edu/library/resource.php?id=835
   [33]: /introduction/related-projects#biovel
   [34]: https://wiki.biovel.eu/display/doc/Taverna+Server
