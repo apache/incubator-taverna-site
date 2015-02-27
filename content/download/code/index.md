@@ -117,7 +117,7 @@ To build a checked out repository:
 
 If you want to skip tests (these can be time-consuming):
 
-    mvn clean install -PskipTests
+    mvn clean install -DskipTests
 
 If you get license header warnings from the 
 [Apache RAT plugin](https://creadur.apache.org/rat/apache-rat-plugin/), 
