@@ -26,7 +26,7 @@ Taverna is used by various projects and researchers for the analysis of proteins
  - [iSpider](/introduction/related-projects#ispider) - querying multiple data sources
  - [ProDom](#prodom) -running of Taverna workflows behind a portal to search a protein database
 
-< a name="prodom"></a>
+<a name="prodom"></a>
 ##ProDom
 
 [ProDom](http://prodom.prabi.fr/) is a comprehensive database of protein domain families generated 
