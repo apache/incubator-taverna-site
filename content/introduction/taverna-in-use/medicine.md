@@ -20,7 +20,7 @@ Taverna is used by various projects and researchers in medicine:
 
  - [Know-how Sharing Technology Based on ARC Services and Open Standards](#knowarc) (KnowARC) - 
       rapid iteration and large datasets on a grid for for medical imaging
- - [Medical Imaging and Signals Grid](/introduction/taverna-in-use/medical-imaging#miasgrid) (MIASGrid) - 
+ - [Medical Imaging and Signals Grid](#miasgrid) (MIASGrid) - 
       workflows for MRI and mammogram analysis
  - [caGrid](/introduction/related-projects#cagrid) - cancer research
  - [EU-ADR](#eu-adr) - detecting adverse drug reactions through the exploitation of clinical data from 
@@ -50,6 +50,23 @@ They have also developed the [ARC plugin](/documentation/plugins#usecase_plugin)
 
 The functionality of the ARC plugin has been [demonstrated](http://www.knowarc.eu/demos/) 
    in the domain of medical imaging.
+
+<a name="miasgrid"></a>
+##MIASGrid
+                    
+The MIAS project examined the requirements of Medical Imaging and Signals.  
+The [MIASGrid](http://www.esnw.ac.uk/projects/details/3.html) sub-project, 
+   took examples of those requirements and investigated how e-Science and the myGrid tools in particular could satisfy them. 
+The project was funded by the [EPSRC](http://www.epsrc.ac.uk/) for £494k and ran until April 2006.
+
+The project produced several workflows that demonstrated the applicability of Taverna to the handling 
+   of large amounts of medical image data. 
+The workflows made use of [MATLAB](http://www.mathworks.com/products/matlab/) and also interaction with users.
+
+The workflows covered two domains:
+
+ - The analysis of MRI scans of knees to detect changes in cartilage
+ - The [description and searching](http://www.mygrid.org.uk/outreach/publications/rose2006/) of a database of mammograms
 
 <a name="eu-adr"></a>
 ##EU-ADR
