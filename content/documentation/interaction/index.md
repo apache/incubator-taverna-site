@@ -77,7 +77,7 @@ This has been demonstrated for simple interactions; complex interactions can be 
 
 It is common to use a web page to run workflows on a server. 
 This could be, for example, within a 
-   [Taverna Player](/developers/work-in-progress/taverna-player), 
+   [Taverna Player](/documentation/taverna-player), 
    or a more complex portal such as the Taverna 2.4 Server Demonstrator. 
 When a workflow is run, the page creates a subscription to the run&'s ATOM feed. 
 When a notification is sent on the feed, the page can then show the interaction. 
