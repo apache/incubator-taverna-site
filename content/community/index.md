@@ -34,25 +34,24 @@ there are opportunities for you to [get in touch and ask questions](#contact),
 <a name="mailinglists"></a>
 ##Mailing Lists##
 
-
 <table>
 <tr>
   <th> Users </th>
-  <td> <a class="btn btn-primary" href="mailto:users-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> </td>
-  <td> <a class="btn btn-default" href="mailto:users-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> </td>
-  <td> <a class="btn btn-link" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archives</a> </td>
+  <td>&nbsp;<a class="btn btn-primary" href="mailto:users-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> </td>
+  <td>&nbsp;<a class="btn btn-default" href="mailto:users-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> </td>
+  <td>&nbsp;<a class="btn btn-link" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archives</a> </td>
 </tr>
 <tr>
   <th> Developers </th>
-  <td> <a class="btn btn-primary" href="mailto:dev-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> </td>
-  <td> <a class="btn btn-default" href="mailto:dev-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> </td>
-  <td> <a class="btn btn-link" href="http://apache-taverna-dev.markmail.org/search/?q=" role="button">Archives</a> </td>
+  <td>&nbsp;<a class="btn btn-primary" href="mailto:dev-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> </td>
+  <td>&nbsp;<a class="btn btn-default" href="mailto:dev-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> </td>
+  <td>&nbsp;<a class="btn btn-link" href="http://apache-taverna-dev.markmail.org/search/?q=" role="button">Archives</a> </td>
 </tr>
 <tr>
   <th> Commits </th>
-  <td> <a class="btn btn-primary" href="mailto:commits-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> </td>
-  <td> <a class="btn btn-default" href="mailto:commits-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> </td>
-  <td> <a class="btn btn-link" href="http://www.mail-archive.com/commits@taverna.incubator.apache.org/" role="button">Archives</a> </td>
+  <td>&nbsp;<a class="btn btn-primary" href="mailto:commits-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> </td>
+  <td>&nbsp;<a class="btn btn-default" href="mailto:commits-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> </td>
+  <td>&nbsp;<a class="btn btn-link" href="http://www.mail-archive.com/commits@taverna.incubator.apache.org/" role="button">Archives</a> </td>
 </tr>
 </table>
 
