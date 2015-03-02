@@ -186,7 +186,7 @@ You will however always need to build the distribution product (command line or 
 ## Taverna Extras
 
 The separate GitHub group [taverna-extras](https://github.com/taverna-extras) host independent community-submitted plugins for Apache Taverna. 
-Unlike Apache Taverna, the taverna-extras include plugins covered by the licenses [LGPL](https://www.gnu.org/licenses/;gpl.html) and [GPL](https://www.gnu.org/licenses/gpl.html).
+Unlike Apache Taverna, the taverna-extras include plugins covered by the licenses [LGPL](https://www.gnu.org/licenses/lgpl.html) and [GPL](https://www.gnu.org/licenses/gpl.html).
 Note that the taverna-extras are not affiliated with or released by Apache Taverna, although you may recognize many of the same committers.
 
 Some plugins that were previously part of Taverna 2 have or will migrate to taverna-extras due to [licensing incompatibility](http://dev.mygrid.org.uk/wiki/display/developer/Third-party+licenses). This includes:
