@@ -21,8 +21,8 @@ Apache Taverna is a [incubator project](http://incubator.apache.org/) within the
 
 Taverna is an open source community that's organized by its 
    [members](http://people.apache.org/committers-by-project.html#taverna), including you! 
-Whether you're running or [writing workflows](contribute-workflow), [developing plugins](contribute-plugin), 
-   [hosting a taverna server](contribute-server), [hosting a service](#contribute-host),
+Whether you're running or [writing workflows](#contribute-workflow), [developing plugins](#contribute-plugin), 
+   [hosting a taverna server](#contribute-server), [hosting a service](#contribute-host),
   [hacking the core](#contribute-code), or just want to [editing](#contribute-edit) these pages 
 there are opportunities for you to [get in touch and ask questions](#contact), 
    [contribute back](#contribute) or [report a bug](#reportbugs). 
@@ -56,7 +56,7 @@ Taverna's Apache Jira is still being setup.
 In the mean time the best place to report bugs is on the mailing lists.
 
 The previous NONE Apache Taverna Jira can be found at:
-[http://dev.mygrid.org.uk/issues/browse/T3]("http://dev.mygrid.org.uk/issues/browse/T3)
+<http://dev.mygrid.org.uk/issues/browse/T3>
   
 <a name="contribute"></a>
 ## Contribute
@@ -86,7 +86,7 @@ For information on writing web services to be used in Taverna see our
    [Web Service Developers](/documentation/web-service-developers) Section.
 
 We recommend that your services are registered in Registries such as:
-   [BioCatalogue](http://www.biocatalogue.org/BioCatalogue)
+   [BioCatalogue](http://www.biocatalogue.org)
 
 <a name="contribute-code"></a>
 ### Contributing Code
