@@ -38,9 +38,9 @@ Taverna Workbench is available in the current formats
  - [Maven repository](/download/maven)
  - [Source code](/code)
 
-Taverna [Command Line Tool](documentation/command-line), 
+Taverna [Command Line Tool](/documentation/command-line), 
   which is included in all workbench downloads, 
-  is available as a [stand-alone download](download/command-line-tool).
+  is available as a [stand-alone download](/download/command-line-tool).
 
 Check [system requirements](/download/system-requirements) before you download 
   Taverna. 
