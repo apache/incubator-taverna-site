@@ -31,9 +31,12 @@ would be well advised to join both <em>dev@taverna</em> and <em>users@taverna</e
 designing and running workflows. For instance, you may ask about your <strong>workflow design</strong>,
 questions about how to do something in the Workbench, or <strong>raise issues</strong> you experience when using Taverna.
 
-  - Subscribe by sending an empty email to [users-subscribe@taverna.incubator.apache.org](mailto:users-subscribe@taverna.incubator.apache.org)
-  - [List information and archive for users@taverna](http://mail-archives.apache.org/mod_mbox/incubator-taverna-users/) at apache.org
-  - [List archives of users@taverna](http://apache-taverna-users.markmail.org/search/?q=) at markmail.org
+  - **Subscribe** by sending an empty email to [users-subscribe@taverna.incubator.apache.org](mailto:users-subscribe@taverna.incubator.apache.org)
+     - Wait for the response email with a subject like *Confirm subscribe to users@taverna*
+     - To **confirm subscription**, reply with an empty message
+     - Now you are subscribed to the list messages and are allowed to post
+  - [List information and archive for users@taverna](http://mail-archives.apache.org/mod_mbox/incubator-taverna-users/) (Apache)
+  - [List archives of users@taverna](http://apache-taverna-users.markmail.org/search/?q=) (MarkMail)
     - Pre-Apache legacy list archives (2003-2014) at [markmail.org](http://markmail.org/search/?q=#query:%20list%3Anet.sourceforge.lists.taverna-users) and  [sourceforge.net](http://sourceforge.net/p/taverna/mailman/taverna-users/)
 
 <a name="dev"></a>
@@ -44,19 +47,25 @@ Apache Taverna plugins or otherwise are using Apache Taverna APIs.  Use this lis
 design/architecture/integration/code - even if you are not currently an Apache Taverna [committer](about).
 
 
-  - Subscribe by sending an empty email to [dev-subscribe@taverna.incubator.apache.org](mailto:dev-subscribe@taverna.incubator.apache.org)
-  - [List information and archive for dev@taverna](http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/) at apache.org
-  - [List archives for dev@taverna](http://apache-taverna-dev.markmail.org/search/?q=) at markmail.org
+  - **Subscribe** by sending an empty email to [dev-subscribe@taverna.incubator.apache.org](mailto:dev-subscribe@taverna.incubator.apache.org)
+     - Wait for the response email with a subject like *Confirm subscribe to dev@taverna*
+     - To **confirm subscription**, reply with an empty message
+     - Now you are subscribed to the list messages and are allowed to post
+  - [List information and archive for dev@taverna](http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/) (Apache)
+  - [List archives for dev@taverna](http://apache-taverna-dev.markmail.org/search/?q=) (MarkMail)
     - Pre-Apache legacy list archives (2003-2014) at [markmail.org](http://markmail.org/search/?q=#query:%20list%3Anet.sourceforge.lists.taverna-hackers) and  [sourceforge.net](http://sourceforge.net/p/taverna/mailman/taverna-hackers/)
 
 
 <a name="commits"></a>
 ### commits@taverna
 
-<em>commits@taverna.incubator.apache.org</em> is a read-only list for commit messages on Apache Taverna's [source code](/code/).
+<em>commits@taverna.incubator.apache.org</em> is a read-only list for commit messages on Apache Taverna's [source code](/code/) 
+and build reports from [automated builds in Jenkins](https://builds.apache.org/user/stain/my-views/view/taverna/). 
+This list is high-traffic, from 100 to 1000 messages pr month.
 
-  - Subscribe by sending an empty email to [commits-subscribe@taverna.incubator.apache.org](mailto:commits-subscribe@taverna.incubator.apache.org)
-  - [List information and archive for commits@taverna](http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/) at apache.org
+  - **Subscribe** by sending an empty email to [commits-subscribe@taverna.incubator.apache.org](mailto:commits-subscribe@taverna.incubator.apache.org)
+    - **Reply to confirm** with an empty message
+  - [List information and archive for commits@taverna](http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/)
 
 
 <a name="private"></a>
