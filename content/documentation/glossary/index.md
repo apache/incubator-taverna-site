@@ -108,7 +108,8 @@ For [Beanshells](#beanshell), the script itself and the names of the input and o
 
 There is another level of service configuration that is the same for all services that deals with how the 
    control layer around the service will execute in Taverna. 
-These configurations can be used to specify whether users wants a service to be invoked several times in a <a href="#service_looping">loop</a>, how they want the service to <a href="#list_handling">handle incoming lists of data</a>, etc.
+These configurations can be used to specify whether users wants a service to be invoked several times in a 
+   [loop](#service_looping), how they want the service to [handle incoming lists of data](#list_handling), etc.
 
 <a name="credential_manager"></a>
 ##Credential Manager##
@@ -239,7 +240,9 @@ For a [Beanshell service](#beanshell),
    it lets you configure its script and input and output ports.
 
 In addition, there are advanced configuration options. 
-   For services, these include setting list handling, checking predicted behaviour and configuring <a href="#service_looping">service looping</a>. For ports, these include checking predicted behaviour and adding/editing annotations.
+   For services, these include setting list handling, checking predicted behaviour and configuring 
+   [service looping](#service_looping). 
+For ports, these include checking predicted behaviour and adding/editing annotations.
 
 <img src="/img/DetailsView.png" alt="Details View of Taverna 2.x Workbench" 
      width="457" height="295" />
@@ -511,10 +514,11 @@ Soaplab services can be included in Taverna workflows.
 ##Spreadsheet import service
 
 A [service](#service) that allows you to import Excel or csv spreadsheets and feed the content 
-   into your workflow. 
+   into your workflow.
 To import a spreadsheet into your workflow, simply add the SpreadsheetImport service to your 
    workflow (either drag it from the [Service Panel]#service_panel) into the 
-<a href="#workflow_diagram">Workflow Diagram</a> or <a href="/documentation/taverna-2-x/glossary/#workflow_explorer">Explorer</a>, or right-click on it in the Service Panel and select Add to workflow).
+   Workflow Diagram(#workflow_diagram) or (Explorer)(#workflow_explorer), 
+   or right-click on it in the Service Panel and select Add to workflow).
 
 When you add the service to your workflow, you can configure how it deals with the rows and columns from the spreadsheet:<br />
  - select which rows and columns to output<br /> 
