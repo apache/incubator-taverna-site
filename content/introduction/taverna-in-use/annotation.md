@@ -45,7 +45,7 @@ The [paper][11] *Protein function prediction and annotation in an integrated env
 
 <a name="annotation-of-genomes"></a>
 ##Annotation of genomes##
-A collaboration between [Tom Oinn][12] from the myGrid team and Anders Lanzen, Svenn Helge Grindhaug and 
+A collaboration between Tom Oinn from the myGrid team and Anders Lanzen, Svenn Helge Grindhaug and 
    Pal Puntervoll from the [University of Bergen][13], Norway, has produced an interactive genome annotation 
    pipeline.
 
@@ -102,7 +102,6 @@ The [paper][21] *Interoperability with Moby 1.0—It’s better than sharing you
   [9]: http://www.myexperiment.org/workflows/95
   [10]: http://www.myexperiment.org/
   [11]: http://dx.doi.org/10.1093/bioinformatics/btn394
-  [12]: http://www.mygrid.org.uk/about-us/people/previous-members/thomas-oinn/
   [13]: http://www.uib.no/en
   [14]: http://www.mygrid.org.uk/bibsearch-results/?bibliography_subject=genome-annotation
   [15]: http://homepages.inf.ed.ac.uk/ldeferra/
