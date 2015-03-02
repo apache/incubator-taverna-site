@@ -23,7 +23,7 @@ Taverna is used by various projects and researchers for the analysis of proteins
  - [eFamily](/introduction/taverna-in-use/databases#efamily) - integrating data from different databases
  - [European Model for Bioinformatics Research And Community Education](http://www.mygrid.org.uk/mygrid-in-use/adoption-by-embrace)
       (EMBRACE) - calling services on a grid; recovering a database
- - [iSpider](/introduction/related-projects/ispider) - querying multiple data sources
+ - [iSpider](/introduction/related-projects#ispider) - querying multiple data sources
  - [ProDom](#prodom) -running of Taverna workflows behind a portal to search a protein database
 
 < a name="prodom"></a>
