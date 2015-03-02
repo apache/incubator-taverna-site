@@ -39,17 +39,18 @@ there are opportunities for you to [get in touch and ask questions](#contact),
 **Users**: 
    <a class="btn btn-primary" href="mailto:users-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
    <a class="btn btn-default" href="mailto:users-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a>
-   <a class="btn" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archives</a>
-   [Archives](http://apache-taverna-users.markmail.org/search/?q=)
+   <a class="btn btn-link" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archives</a>
 
 **Developers**: 
-   [Subscribe](mailto:dev-subscribe@taverna.incubator.apache.org)
- | [Unsubscribe](mailto:dev-unsubscribe@taverna.incubator.apache.org)
- | [Archives](http://apache-taverna-dev.markmail.org/search/?q=)   
+   <a class="btn btn-primary" href="mailto:dev-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
+   <a class="btn btn-default" href="mailto:dev-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a>
+   <a class="btn btn-link" href="http://apache-taverna-dev.markmail.org/search/?q=" role="button">Archives</a>
+
 **Commits**:
-   [Subscribe](mailto:commits-subscribe@taverna.incubator.apache.org)
- | [Unsubscribe](mailto:commits-unsubscribe@taverna.incubator.apache.org)
- | [Archives](http://www.mail-archive.com/commits@taverna.incubator.apache.org/)   
+   <a class="btn btn-primary" href="mailto:commits-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
+   <a class="btn btn-default" href="mailto:commits-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a>
+   <a class="btn btn-link" href="http://www.mail-archive.com/commits@taverna.incubator.apache.org/" role="button">Archives</a>
+
 
 To receive messages from a list, and to be able to post to it, you need to be *subscribed*:
 
@@ -113,5 +114,5 @@ In the mean time you can find the latest NONE Apache sourcecode at:
 <a name="contribute-edit"></a>
 ### Editing the website
 The website is currently under development.
-Please help make it better by [editting](/community/edit) or adding pages.
+Please help make it better by [editing](/community/edit) or adding pages.
 
