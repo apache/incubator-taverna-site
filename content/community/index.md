@@ -38,9 +38,9 @@ there are opportunities for you to [get in touch and ask questions](#contact),
    
 **Users**: 
    <a class="btn btn-primary" href="mailto:users-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
-   [Subscribe](mailto:users-subscribe@taverna.incubator.apache.org) 
- | [Unsubscribe](mailto:users-unsubscribe@taverna.incubator.apache.org)
- | [Archives](http://apache-taverna-users.markmail.org/search/?q=)   
+   <a class="btn btn-warning" href="mailto:users-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a>
+   <a class="btn btn-info" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archives</a>
+
 **Developers**: 
    [Subscribe](mailto:dev-subscribe@taverna.incubator.apache.org)
  | [Unsubscribe](mailto:dev-unsubscribe@taverna.incubator.apache.org)
