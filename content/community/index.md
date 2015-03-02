@@ -33,21 +33,33 @@ there are opportunities for you to [get in touch and ask questions](#contact),
 
 <a name="mailinglists"></a>
 ##Mailing Lists##
+
+
    
 **Users**: 
-   [Subscribe](mailto:users-subscribe@taverna.incubator.apache.org?subject=Subscribe&body=Subscribe) 
- | [Unsubscribe](mailto:users-unsubscribe@taverna.incubator.apache.org?subject=Unsubscribe&body=Unubscribe)
+   [Subscribe](mailto:users-subscribe@taverna.incubator.apache.org) 
+ | [Unsubscribe](mailto:users-unsubscribe@taverna.incubator.apache.org)
  | [Archives](http://apache-taverna-users.markmail.org/search/?q=)   
 **Developers**: 
-   [Subscribe](mailto:dev-subscribe@taverna.incubator.apache.org?subject=Subscribe&body=Subscribe)
- | [Unsubscribe](mailto:dev-unsubscribe@taverna.incubator.apache.org?subject=Unsubscribe&body=Unsubscribe)
+   [Subscribe](mailto:dev-subscribe@taverna.incubator.apache.org)
+ | [Unsubscribe](mailto:dev-unsubscribe@taverna.incubator.apache.org)
  | [Archives](http://apache-taverna-dev.markmail.org/search/?q=)   
-**JIRA Updates**: This list will go live when our Apache Jira goes live   
 **Commits**:
-   [Subscribe](mailto:commits-subscribe@taverna.incubator.apache.org?subject=Subscribe&body=Subscribe)
- | [Unsubscribe](mailto:commits-unsubscribe@taverna.incubator.apache.org?subject=Unsubscribe&body=Unsubscribe)
+   [Subscribe](mailto:commits-subscribe@taverna.incubator.apache.org)
+ | [Unsubscribe](mailto:commits-unsubscribe@taverna.incubator.apache.org)
  | [Archives](http://www.mail-archive.com/commits@taverna.incubator.apache.org/)   
-See [Contact page](/community/contact) for more details
+
+To receive messages from a list, and to be able to post to it, you need to be *subscribed*:
+
+ - Send an empty message to the **Subscribe** address from above (any message text will be ignored)
+ - Wait for the **response** email with a subject like *Confirm subscribe to users@taverna*
+ - To **confirm subscription**, reply with an empty message
+ - You should now be subscribed to the list
+
+Unsubscribing is done in the same way, using the *Unsubscribe* address instead.
+
+See the [mailing list](/community/contact) page for more details.
+
  
 <a name="reportbugs"></a>
 ### Report or track a bug
