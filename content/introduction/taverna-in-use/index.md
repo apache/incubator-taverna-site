@@ -214,7 +214,7 @@ View by [chronological][7] order of deployment.
 <tr>
 <th><a href="/introduction/taverna-in-use/document-analysis">Document and image analysis<br />
 Digital preservation</a></th>
-<td><a href="/introduction/taverna-in-use/by-domain/document-analysis#islandora">Islandora</a><a href="/introduction/related-projects/scape/"><br />
+<td><a href="/introduction/taverna-in-use/by-domain/document-analysis#islandora">Islandora</a><a href="/introduction/related-projects#scape/"><br />
 SCAPE</a><br />
 <a href="/introduction/taverna-in-use/by-domain/document-analysis#impact">IMPACT</a><br />
 <a href="/introduction/taverna-in-use/by-domain/document-analysis#dae">DAE</a></td>
@@ -345,10 +345,10 @@ SCAPE</a><br />
 <tr>
 <th><a href="/introduction/taverna-in-use/social-sciences">Social sciences</a></th>
 <td><a href="/introduction/taverna-in-use/social-sciences#impact">IMPACT</a></td>
-<td><a href="/introduction/introduction/related-projects#neiss">NeISS</a></td>
+<td><a href="/introduction/related-projects#neiss">NeISS</a></td>
 <td>-</td>
 <td>-</td>
-<td><a href="/introduction/introduction/related-projects#neiss">NeISS</a></td>
+<td><a href="/introduction/related-projects#neiss">NeISS</a></td>
 <td>-</td>
 </tr>
 
@@ -356,9 +356,9 @@ SCAPE</a><br />
 <th>Other</th>
 <td>-</td>
 <td>-</td>
-<td><a href="/introduction/taverna-in-use/on-a-grid#moteur">MOTEUR</a><br />
+<td><a href="/introduction/taverna-in-use/other#moteur">MOTEUR</a><br />
 <a href="http://www.mygrid.org.uk/outreach/collaboration#collaboration-with-nbic/" target="_blank">NBIC</a><br />
-<a href="/introduction/taverna-in-use/on-a-grid#simdat">SIMDAT</a><br />
+<a href="/introduction/taverna-in-use/other#simdat">SIMDAT</a><br />
 NGS</td>
 <td>-</td>
 <td>-</td>
@@ -393,7 +393,7 @@ Various projects and institutions use mechanisms to run Taverna workflows on a [
  - [caGrid][17] – the use of Taverna 2 workflows to link together resources provided by the open source grid 
      software infrastructure developed by the US NCI caBIG aimed at enabling multi-institutional cancer data 
      sharing and analysis in the US</li>
- - Europe’s leading grid computing project [EGEE][18], piloted Taverna over EGEE gLite services
+ - Europe’s leading grid computing project [EGEE](http://eu-egee-org.web.cern.ch), piloted Taverna over EGEE gLite services
  - [European Model for Bioinformatics Research And Community Education][19] (EMBRACE)
  - [Know-how Sharing Technology Based on ARC Services and Open Standards][20] (KnowARC) developed prototype to 
       use Taverna as direct interface to Grid resources running ARC
@@ -404,7 +404,8 @@ Various projects and institutions use mechanisms to run Taverna workflows on a [
       GridSAM
  - Taverna and myExperiment on NGS
 
-Learn more about how [Taverna workﬂows can  operate  over a grid infrastructure][25]
+Learn more about how 
+   [Taverna workﬂows can  operate  over a grid infrastructure](http://dev.mygrid.org.uk/wiki/display/tav250/Taverna+and+grids+and+clouds)
 
 <a name="cloud" </a>
 ##On a cloud##
@@ -456,7 +457,7 @@ Several packages include Taverna as part of their distribution:
 
  - [BioLinux][45] - a version of Ubuntu Linux that includes distributions of many bioinformatics programs and 
      Taverna
- - [OMII-UK][46] - included with the OMII-UK's open-source software developed to enable a sustained future for 
+ - [OMII-UK](http://en.wikipedia.org/wiki/OMII-UK) - included with the OMII-UK's open-source software developed to enable a sustained future for 
      the UK e-Research community
  - [Systems Biology Operational Software (SB.OS)][47] - Systems Biology Software based on Ubuntu Linux 
      containing the distribution of Taverna
@@ -474,14 +475,15 @@ Various domains where scientists have used Taverna so far include:
  - [Astronomy][51]
  - [Biodiversity][52]
  - [Bioinformatics][53]
- - [Biology](introduction/taverna-in-use/biology)
+ - [Biology](/introduction/taverna-in-use/biology)
  - [Chemistry][54]
  - [Data and text mining][55]
  - [Databases][56]
- - [Document and image analysis][57] (digital preservation)
+ - [Document and image analysis](/introduction/taverna-in-use/document-analysis)
+ (digital preservation)
  - [Education][58]
  - [Engineering][59]
- - [Geoinformatics][60]
+ - [Geoinformatics](/introduction/taverna-in-use/geoinformatics)
  - [Information quality][61]
  - [Medicine](/introduction/taverna-in-use/medicine)
  - [Multimedia][62]
@@ -506,7 +508,7 @@ formalise or share existing research.
 <a name="2012"></a>
 ###2012###
 
-[PML][69] Plymouth Marine Laboratory (Institute)
+[PML](/introduction/taverna-in-use/geoinformatics#pml) Plymouth Marine Laboratory (Institute)
 
 <a name="2011"></a>
 ###2011###
@@ -573,8 +575,8 @@ formalise or share existing research.
 [KnowARC](/introduction/taverna-in-use/medicine#knowarc) - Completed 2009   
 [MIASGrid](/introduction/taverna-in-use/medicine#miasgrid) - Completed 2006   
 [eCHASE](/introduction/taverna-in-use/multimedia#echase) - Completed2006   
-[MOTEUR](/introduction/taverna-in-use/on-a-grid#moteur) - Active   
-[PLANET](/introduction/introduction/taverna-in-use/bioinformatics#planet) - Active
+[MOTEUR](/introduction/taverna-in-use/other#moteur) - Active   
+[PLANET](/introduction/taverna-in-use/bioinformatics#planet) - Active
 
 <a name="2005"></a>
 ##2005##
@@ -589,7 +591,7 @@ formalise or share existing research.
 <a name="2004"></a>
 ##2004##
 
-[eFamily](/introduction/taverna-in-use/databases/efamily) - Active   
+[eFamily](/introduction/taverna-in-use/databases#efamily) - Active   
 [Williams-Beuren syndrome](/introduction/taverna-in-use/disease-research#williams-beuren-syndrome) - Active   
 [Qurator](/introduction/taverna-in-use/information-quality#qurator) - Completed Jul-2007
 [ProDom](/introduction/taverna-in-use/protein-and-proteomics#prodom) - Database   
@@ -604,7 +606,7 @@ formalise or share existing research.
 <a name="2001"></a>
 ##2001##
 
-[SIMDAT](/introduction/taverna-in-use/on-a-grid#simdat) - Active   
+[SIMDAT](/introduction/taverna-in-use/other#simdat) - Active   
 [Moby consortium](/introduction/taverna-in-use/annotation#adoption-by-moby) - Active   
 [AstroGrid](/introduction/taverna-in-use/astronomy#astrogrid) - Completed 2009
 
@@ -615,7 +617,7 @@ formalise or share existing research.
   [5]: #portal
   [6]: #bundled-with-products
   [7]: #chronology
-  [8]: /download/taverna-server
+  [8]: /download/server/
   [9]: /introduction/related-projects#biovel
   [10]: http://www.vph-share.eu/
   [11]: /introduction/related-projects#shared-genomics/
@@ -625,14 +627,12 @@ formalise or share existing research.
   [15]: http://en.wikipedia.org/wiki/Grid_computing
   [16]: /introduction/taverna-in-use#genome-and-gene-expression/tavernapbs
   [17]: /introduction/related-projects#cagrid
-  [18]: http://webcache.googleusercontent.com/search?q=cache:SO2-xLmcod4J:www.eu-egee.org/+&amp;cd=1&amp;hl=en&amp;ct=clnk&amp;gl=uk
   [19]: /introduction/taverna-in-use/databases#embrace
   [20]: /introduction/taverna-in-use/medicine#knowarc
-  [21]: /introduction/taverna-in-use/on-a-grid#moteur
+  [21]: /introduction/taverna-in-use/other#moteur
   [22]: http://www.mygrid.org.uk/outreach/collaboration/collaboration-with-nbic/
-  [23]: /introduction/taverna-in-use/on-a-grid#simdat
+  [23]: /introduction/taverna-in-use/other#simdat
   [24]: http://www.mygrid.org.uk/dev/wiki/display/plugins/Submitting+HPC+jobs+from+Taverna+using+GridSAM
-  [25]: http://dev.mygrid.org.uk/wiki/display/taverna/Taverna%2C+Grids+and+Clouds
   [26]: /introduction/related-projects#tsb
   [27]: /introduction/taverna-in-use/genome-and-gene-expression#next-generation-sequencing
   [28]: /introduction/related-projects#scape
@@ -651,9 +651,8 @@ formalise or share existing research.
   [41]: /introduction/taverna-in-use/biology#planet
   [42]: /introduction/taverna-in-use/protein-and-proteomics#prodom
   [43]: /introduction/taverna-in-use/biology#metware
-  [44]: /introduction/introduction/related-projects#neiss
+  [44]: /introduction/related-projects#neiss
   [45]: /introduction/taverna-in-use#bioinformatics/biolinux
-  [46]: http://www.omii.ac.uk/wiki/SoftwareOverview
   [47]: /introduction/taverna-in-use/biology#sb-os
   [48]: http://code.google.com/p/calctav/
   [49]: /introduction/taverna-in-use/annotation
@@ -664,10 +663,8 @@ formalise or share existing research.
   [54]: /introduction/taverna-in-use/chemistry
   [55]: /introduction/taverna-in-use/data-and-text-mining
   [56]: /introduction/taverna-in-use/databases
-  [57]: /introduction/taverna-in-use/by-domain/document-analysis
   [58]: /introduction/taverna-in-use/education
   [59]: /introduction/taverna-in-use/engineering
-  [60]: /introduction/taverna-in-use/by-domain/geoinformatics
   [61]: /introduction/taverna-in-use/information-quality
   [62]: /introduction/taverna-in-use/multimedia
   [63]: /introduction/taverna-in-use/natural-language-processing
@@ -676,7 +673,6 @@ formalise or share existing research.
   [66]: /introduction/taverna-in-use/social-sciences
   [67]: /introduction/taverna-in-use/disease-research#vph-dareit
   [68]: http://www.vph-share.eu/
-  [69]: /introduction/taverna-in-use/by-domain/geoinformatics#pml
   [70]: /introduction/related-projects#tsb
   [71]: /introduction/related-projects#biovel
   [72]: /introduction/taverna-in-use/bioinformatics#lumc
