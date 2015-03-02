@@ -143,7 +143,7 @@ VPH-Share also handles user access control in all steps of the workflow composit
 The [VPH-Share Plugin](http://www.vph-share.eu/content/vph-share-taverna-plugin) works with 
    Taverna Workbench as well as with Taverna Server. 
 Planned improvements include allowing web-based composition of workflows with VPH-Share 
-   services through [Taverna Online](/developers/work-in-progress/taverna-online/).
+   services through [Taverna Online](/documentation/online).
 
 This [VPH-Share Plugin](http://www.vph-share.eu/content/vph-share-taverna-plugin) is currently 
    under development by the Scientific Software Development Team of 
