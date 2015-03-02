@@ -119,7 +119,7 @@ They developed a Web-based player of Taverna workflows and also have uploaded th
 Target application area is the system biology field, 
    in particular analysis of the kinetic models of biological systems.
 
-<a name="ccpn"><'a>
+<a name="ccpn"></a>
 ##CCPN
                     
 **CCPN use of Taverna**
