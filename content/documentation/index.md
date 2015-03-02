@@ -46,9 +46,16 @@ A list of available documentation for Taverna includes:
  - Taverna [Server](/documentation/server) (REST API, SOAP API explained) and how to use it
  - [Taverna Player](/documentation/taverna-player)
  - Various [plugins](/documentation/plugins) for Taverna
- - [DataViewer Tool](/documentation/dataviewer-tool) for viewing result data
  - [None Apache Developers’ wiki](http://www.mygrid.org.uk/dev/wiki/display/developer/Home) 
      containing the 
      [Developers’ guide](http://www.mygrid.org.uk/dev/wiki/display/developer/Developers+Guide) and more
 
- 
+<a name="tools"></a>
+##Tool and Services
+
+There are a number of None Apache tools and services available to use with Taverna.
+
+ - [DataViewer Tool](/documentation/dataviewer-tool) for viewing result data
+ - [API Consumer Tool](/documentation/api-consumer-tool/)
+ - [Taverna Galaxy](/documentation/taverna-galaxy/)
+ - [Taverna Online](/documentation/online)
