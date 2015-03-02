@@ -47,6 +47,7 @@ View by [chronological][7] order of deployment.
 <th>Portal</th>
 <th>Bundled</th>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/annotation">Annotation</a></th>
 <td><a href="/introduction/taverna-in-use/annotation#annotation-of-genomes">Genome annotation</a><br />
@@ -59,6 +60,7 @@ View by [chronological][7] order of deployment.
 <td><a href="#annotation/afawe">AFAWE</a></td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/arts">Arts</a></th>
 <td><a href="/introduction/taverna-in-use/arts#composition-of-music">Composing music</a></td>
@@ -68,6 +70,7 @@ View by [chronological][7] order of deployment.
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/astronomy">Astronomy</a></th>
 <td><a href="/introduction/taverna-in-use/astronomy#sampo">SAMPO</a></td>
@@ -78,6 +81,7 @@ View by [chronological][7] order of deployment.
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/biodiversity">Biodiversity</a></th>
 <td><a href="/introduction/related-projects#biovel">BioVeL</a></td>
@@ -87,6 +91,7 @@ View by [chronological][7] order of deployment.
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/bioinformatics">Bioinformatics</a></th>
 <td><a href="/introduction/taverna-in-use/bioinformatics#lumc">Mass spectrometry data analysis in proteomics</a><br />
@@ -132,6 +137,7 @@ View by [chronological][7] order of deployment.
 <td><a href="/introduction/taverna-in-use/bioinformatics#biolinux">BioLinux</a><br />
 <a href="/introduction/taverna-in-use/biology#sb-os">SB.OS</a></td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/biology">Biology</a></th>
 <td><a href="/introduction/taverna-in-use/biology#enfin">Enabling Systems Biology</a><br />
@@ -148,6 +154,7 @@ View by [chronological][7] order of deployment.
 <td><a href="#annotation/afawe">AFAWE</a></td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/chemistry">Chemistry</a></th>
 <td><a href="/introduction/taverna-in-use/chemistry#chemistry-development-kit">CDK</a><br />
@@ -160,6 +167,7 @@ View by [chronological][7] order of deployment.
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/data-and-text-mining">Data and text mining</a></th>
 <td><a href="/introduction/taverna-in-use/data-and-text-mining#aid">AID</a><br />
@@ -174,6 +182,7 @@ View by [chronological][7] order of deployment.
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/databases">Databases</a></th>
 <td><a href="/introduction/taverna-in-use/multimedia#echase">eCHASE</a><br />
@@ -186,6 +195,7 @@ View by [chronological][7] order of deployment.
 <td><a href="/introduction/taverna-in-use/databases#prodom">ProDom</a></td>
 <td><a href="http://code.google.com/p/calctav/" target="_blank">CalcTav</a></td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/disease-research">Disease</a></th>
 <td><a href="/introduction/taverna-in-use/disease-research#vph-dareit">VPH-DARE@IT</a><br />
@@ -200,6 +210,7 @@ View by [chronological][7] order of deployment.
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/document-analysis">Document and image analysis<br />
 Digital preservation</a></th>
@@ -216,6 +227,7 @@ SCAPE</a><br />
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/education">Education</a></th>
 <td><a href="/introduction/taverna-in-use/multimedia#course-generator">Course generator</a></td>
@@ -225,6 +237,7 @@ SCAPE</a><br />
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/engineering">Engineering</a></th>
 <td><a href="/introduction/taverna-in-use/engineering#jpl">JPL</a></td>
@@ -234,6 +247,7 @@ SCAPE</a><br />
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/geoinformatics">Geoinformatics</a></th>
 <td><a href="/introduction/taverna-in-use/by-domain/geoinformatics#pml">PML</a></td>
@@ -243,6 +257,7 @@ SCAPE</a><br />
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/information-quality">Information quality</a></th>
 <td><a href="/introduction/taverna-in-use/information-quality#qurator">Qurator<br />
@@ -253,6 +268,7 @@ SCAPE</a><br />
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/medicine">Medicine</a></th>
 <td><a href="/introduction/taverna-in-use/medicine#knowarc">KnowARC</a><br />
@@ -265,6 +281,7 @@ SCAPE</a><br />
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/multimedia">Multimedia</a></th>
 <td><a href="/introduction/taverna-in-use/multimedia#course-generator">Course generator</a><br />
@@ -276,6 +293,7 @@ SCAPE</a><br />
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/natural-language-processing">Natural language processing</a></th>
 <td><a href="/introduction/taverna-in-use/by-domain/natural-language-processing#panacea">PANACEA</a></td>
@@ -285,6 +303,22 @@ SCAPE</a><br />
 <td>-</td>
 <td>-</td>
 </tr>
+
+<tr>
+<th><a /introduction/taverna-in-use/protein-and-proteomics.html">Protein and proteomics</a></th>
+<td><a href="/introduction/taverna-in-use/disease-research#analysis-of-anthrax-bacterium">Analysis of anthrax bacterium</a></td>
+<td><a href="/introduction/taverna-in-use/databases#efamily">eFamily</a></td>
+<td><a href="http://www.mygrid.org.uk/mygrid-in-use/adoption-by-embrace/">EMBRACE</a></td>
+<td><a href="/introduction/related-projects#ispider">iSpider</a></td>
+<td><a href="/introduction/taverna-in-use/protein-and-proteomics.html#prodom">Protein and proteomics</a></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+
 <tr>
 <th><a href="/introduction/taverna-in-use/service-provision">Service provision</a></th>
 <td><a href="/introduction/related-projects#engage">ENGAGE</a></td>
@@ -294,6 +328,7 @@ SCAPE</a><br />
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/service-testing">Service testing</a></th>
 <td><a href="/introduction/related-projects#e-fungi">e-Fungi</a><br />
@@ -306,6 +341,7 @@ SCAPE</a><br />
 <td>-</td>
 <td>-</td>
 </tr>
+
 <tr>
 <th><a href="/introduction/taverna-in-use/social-sciences">Social sciences</a></th>
 <td><a href="/introduction/taverna-in-use/social-sciences#impact">IMPACT</a></td>
@@ -315,6 +351,7 @@ SCAPE</a><br />
 <td><a href="/introduction/introduction/related-projects#neiss">NeISS</a></td>
 <td>-</td>
 </tr>
+
 <tr>
 <th>Other</th>
 <td>-</td>
@@ -449,6 +486,7 @@ Various domains where scientists have used Taverna so far include:
  - [Medicine](/introduction/taverna-in-use/medicine)
  - [Multimedia][62]
  - [Natural language processing][63]
+ - Protein and proteomics(/introduction/taverna-in-use/protein-and-proteomics)
  - [Service provision][64]
  - [Service testing][65]
  - [Social sciences][66]
