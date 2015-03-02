@@ -56,7 +56,8 @@ With workflows all of these stages can be automate, requiring little human inter
 However, manual inspection can be required at certain points in the process.
 
 ###Publications###
-[Articles and papers][14] about the success of Taverna for genome annotation are available on-line.
+[Articles and papers](http://scholar.google.co.uk/scholar?q=Taverna+for+genome+annotation) 
+   about the success of Taverna for genome annotation are available on-line.
 
 <a name="taweka"></a>
 ##TaWeka##
@@ -103,7 +104,6 @@ The [paper][21] *Interoperability with Moby 1.0—It’s better than sharing you
   [10]: http://www.myexperiment.org/
   [11]: http://dx.doi.org/10.1093/bioinformatics/btn394
   [13]: http://www.uib.no/en
-  [14]: http://www.mygrid.org.uk/bibsearch-results/?bibliography_subject=genome-annotation
   [15]: http://homepages.inf.ed.ac.uk/ldeferra/
   [16]: http://www.bioinformatics.ed.ac.uk/
   [17]: http://mook.inf.ed.ac.uk/twiki/bin/view.cgi/PublicCSB/TaWeka
