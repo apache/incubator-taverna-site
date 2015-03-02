@@ -81,7 +81,7 @@ The typical world of Taverna workflows is to combine web services &#8220;in the 
 1. Merging and propagation of [PROV-AQ](http://www.w3.org/TR/prov-aq/) provided provenance 
      traces for [REST services](http://dev.mygrid.org.uk/wiki/display/taverna/REST) 
      (including matching data identity) -- “white-box service”
-2. A provenance “backchannel” for [Components](developers/work-in-progress/components/), 
+2. A provenance “backchannel” for [Components](/documentation/components), 
      which can be populated either by the underlying service directly or by shims within the 
      component. 
    This allows higher level provenance that is meaningful for a set of components instead of 
