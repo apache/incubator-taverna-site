@@ -102,7 +102,7 @@ Please [contact us](/community) to confirm continued interest in a 32 bit instal
 ##Taverna Command Line 2.5 standalone
 
 This is operating system and architecture-neutral binary. 
-Check the standalone's [system requirements](/download/standalone-requirements).
+Check the standalone's [system requirements](/download/system-requirements#standalone).
 
  - [taverna-commandline-core-2.5.0-standalone.zip](http://www.taverna.org.uk/download/command-line-tool/2-5/core/#download-binary)
  - SHA1: 113002d562827e3f560daf3bf665df71b4e0a00b
