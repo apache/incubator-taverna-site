@@ -133,7 +133,7 @@ View by [chronological][7] order of deployment.
 <a href="/introduction/taverna-in-use/annotation#afawe">AFAWE</a><br />
 <a href="/introduction/taverna-in-use/biology.html#metware">MetWare</a><br />
 <a href="/introduction/taverna-in-use/protein-and-proteomics#prodom">ProDom</a><br />
-<a href="/introduction/taverna-in-use/systems#ccpn">CCPN</a></td>
+<a href="/introduction/taverna-in-use/biology#ccpn">CCPN</a></td>
 <td><a href="/introduction/taverna-in-use/bioinformatics#biolinux">BioLinux</a><br />
 <a href="/introduction/taverna-in-use/biology#sb-os">SB.OS</a></td>
 </tr>
@@ -650,7 +650,7 @@ formalise or share existing research.
   [40]: /introduction/taverna-in-use/bioinformatics#biowep
   [41]: /introduction/taverna-in-use/biology#planet
   [42]: /introduction/taverna-in-use/protein-and-proteomics#prodom
-  [43]: /introduction/taverna-in-use/systems#metware
+  [43]: /introduction/taverna-in-use/biology#metware
   [44]: /introduction/introduction/related-projects#neiss
   [45]: /introduction/taverna-in-use#bioinformatics/biolinux
   [46]: http://www.omii.ac.uk/wiki/SoftwareOverview
@@ -698,7 +698,7 @@ formalise or share existing research.
   [88]: /introduction/related-projects#e-lico
   [89]: /introduction/related-projects#helio
   [90]: /introduction/taverna-in-use/social-sciences#impact
-  [91]: /introduction/taverna-in-use/systems#metware
+  [91]: /introduction/taverna-in-use/biology#metware
   [92]: /introduction/taverna-in-use/medicine#eu-adr
   [93]: /introduction/taverna-in-use/bioinformatics#biolinux
   [94]: /introduction/taverna-in-use/annotation#afawe
@@ -713,5 +713,5 @@ formalise or share existing research.
   [103]: /introduction/taverna-in-use/arts#composition-of-music
   [104]: /introduction/taverna-in-use/bioinformatics#gene-expression-from-microarray
   [105]: /introduction/taverna-in-use/data-and-text-mining#refine
-  [106]: /introduction/taverna-in-use/systems#ccpn
+  [106]: /introduction/taverna-in-use/biology#ccpn
   [107]: /introduction/taverna-in-use/biology#planet
