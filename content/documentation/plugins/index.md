@@ -158,7 +158,11 @@ You can contact the development team at <ssd.cistib@lists.shef.ac.uk>.
 
 *Available for Taverna 2.4; integrated in Taverna 2.5*  
 
-The Interaction plugin allows users to interact in a web browser within a workflow run using an Interaction service. The run can be on <a title="Taverna Workbench" href="-download/workbench/">Taverna Workbench</a> or on a <a title="Taverna Server" href="http://www.taverna.org.uk/download/server/">Taverna Server</a>. A detailed description of the Interaction service can be found in the online <a title="Interaction service" href="http://dev.mygrid.org.uk/wiki/display/taverna/Interaction+service">manual</a>.</p>
+The Interaction plugin allows users to interact in a web browser within a workflow run using an Interaction service. 
+The run can be on [Taverna Workbench](/download/workbench) or on a 
+   [Taverna Server](/documentation/server). 
+A detailed description of the Interaction service can be found in the online 
+   [manual](http://dev.mygrid.org.uk/wiki/display/taverna/Interaction+service).
 
 The Interaction service was developed by the [BioVeL project](http://www.biovel.eu).
 
@@ -174,8 +178,7 @@ This plugin offers an intuitive and easy-to-use way of creating XPath expression
    relevant nodes in the tree-like view of the provided example XML data. 
 Ability to modify automatically-generated XPath expressions and control over namespace handling 
    make this a powerful tool. 
-This plugin was written by 
-   [Sergejs Aleksejevs](http://www.mygrid.org.uk/about-us/people/previous-members/sergejs-aleksejevs/).
+This plugin was written by Sergejs Aleksejevs.
 
 <a name="rest"></a>
 ###REST plugin
@@ -189,8 +192,7 @@ Configuration options of the plugin include MIME types of the sent and received 
    (with an individual input port created for each). 
 The plugin integrates with the Credential Manager of the Workbench for added convenience when 
    accessing secure web services. 
-This plugin was written by 
-   [Sergejs Aleksejevs](http://www.mygrid.org.uk/about-us/people/previous-members/sergejs-aleksejevs/).
+This plugin was written by Sergejs Aleksejevs.
 
 <a name="biocatalogue_plugin"></a>
 ###BioCatalogue plugin
@@ -254,8 +256,7 @@ You can download the code from the project's
 The SADI codebase make it easy for people to deploy services that adhere to the SADI framework 
    practices. 
 The SADI plugin allows semantic services to be accessed from Taverna. 
-The plugin has been developed by 
-   [David Withers](http://www.mygrid.org.uk/about-us/people/core-mygrid-team/david-withers/)
+The plugin has been developed by David Withers
    (with the support of the 
    [Genome Canada Bioinformatics Platform](http://www.gcbioinformatics.ca)). 
 It requires Java 6.
