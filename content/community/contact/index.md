@@ -48,7 +48,7 @@ questions about how to do something in the Workbench, or <strong>raise issues</s
     - Pre-Apache legacy list archives (2003-2014) at [markmail.org](http://markmail.org/search/?q=#query:%20list%3Anet.sourceforge.lists.taverna-users) and  [sourceforge.net](http://sourceforge.net/p/taverna/mailman/taverna-users/)
 
 <a name="dev"></a>
-### dev@taverna <a class="btn btn-primary" href="mailto:dev-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a>
+### dev@taverna
 
 <a class="btn btn-primary" href="mailto:dev-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a>
 <a class="btn btn-default" href="mailto:dev-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> 
