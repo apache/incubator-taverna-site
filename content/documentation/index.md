@@ -55,6 +55,8 @@ A list of available documentation for Taverna includes:
 
 There are a number of None Apache tools and services available to use with Taverna.
 
+ - [Component profile editor](/documentation/components/component-profile-editor)
+ - [Component validator](/documentation/components/component-validator)
  - [DataViewer Tool](/documentation/dataviewer-tool) for viewing result data
  - [API Consumer Tool](/documentation/api-consumer-tool/)
  - [Taverna Galaxy](/documentation/taverna-galaxy/)
