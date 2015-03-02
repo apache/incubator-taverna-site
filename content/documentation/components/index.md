@@ -99,7 +99,7 @@ The format is in XML and an XML schema (xsd) has been created.
 An example [component profile](http://www.myexperiment.org/files/905/versions/1/download/Characterisation%20Component.xml) 
    is available. 
 Components that share a profile will be collected together into component families. 
-A [component profile editor](/developers/work-in-progress/components/component-profile-editor) 
+A [component profile editor](/documentation/components/component-profile-editor) 
    is being developed.
 
 <p style="text-align: center;">
@@ -107,7 +107,7 @@ A [component profile editor](/developers/work-in-progress/components/component-p
 </p>
 
 The SCAPE project has an 
-   [extended discussion of component profiles](https://openplanets.github.io/scape-component-profiles/)
+   [extended discussion of component profiles](https://github.com/openpreserve/scape-component-profiles)
    available.
 
 ##Component creation against a profile
@@ -126,7 +126,7 @@ The component profile specifies the ontologies that will be used for the compone
 Although the components will be modified using a chosen profile, 
    it is unlikely that the components can be assured as being ‘correct by construction’. 
 For this reason, a separate 
-   [component validator](href="/developers/work-in-progress/components/component-validator/)
+   [component validator](/documentation/components//component-validator/)
    is being implemented. 
 The component validator is included within 
    [myExperiment](http://www.myexperiment.org).
