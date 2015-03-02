@@ -115,8 +115,8 @@ View by [chronological][7] order of deployment.
 <a href="/introduction/related-projects#shared-genomics/>Shared Genomics</a><br />
 <a href="/introduction/related-projects#cagrid">caGrid</a></td>
 <td><a href="/introduction/taverna-in-use/biology#tav4sb">Tav4SB</a><br />
-<a href="/introduction/taverna-in-use/medical-imaging#knowarc">KnowARC</a><br />
-<a href="/introduction/taverna-in-use/medical-imaging#miasgrid">MIASGrid</a><br />
+<a href="/introduction/taverna-in-use/medicine#knowarc">KnowARC</a><br />
+<a href="/introduction/taverna-in-use/medicine#miasgrid">MIASGrid</a><br />
 <a href="/introduction/related-projects#cagrid">caGrid</a><br />
 <a href="/introduction/taverna-in-use/databases#embrace">EMBRACE</a></td>
 <td><a href="/introduction/taverna-in-use/genome-and-gene-expression#next-generation-sequencing">Next generation sequencing</a><br />
@@ -256,7 +256,7 @@ SCAPE</a><br />
 <tr>
 <th><a href="/introduction/taverna-in-use/medicine">Medicine</a></th>
 <td><a href="/introduction/taverna-in-use/medicine#knowarc">KnowARC</a><br />
-   <a href="/introduction/taverna-in-use/medical-imaging#miasgrid">Medical Imaging and Signals Grid (MIASGrid)</a><br/>
+   <a href="/introduction/taverna-in-use/medicine#miasgrid">Medical Imaging and Signals Grid (MIASGrid)</a><br/>
    <a href="/introduction/related-projects#cagrid">caGrid</a><br/>
    <a href="/introduction/taverna-in-use/medicine#eu-adr">EU-ADR</a></td>
 <td>-</td>
@@ -532,8 +532,8 @@ formalise or share existing research.
 [CCPN][106] - Active   
 [PLANET][107] - Active   
 [Anthrax analysis](/introduction/taverna-in-use/disease-research#analysis-of-anthrax-bacterium) - Active   
-[KnowARC](/introduction/taverna-in-use/medical-imaging#knowarc) - Completed 2009   
-[MIASGrid](/introduction/taverna-in-use/medical-imaging#miasgrid) - Completed 2006   
+[KnowARC](/introduction/taverna-in-use/medicine#knowarc) - Completed 2009   
+[MIASGrid](/introduction/taverna-in-use/medicine#miasgrid) - Completed 2006   
 [eCHASE](/introduction/taverna-in-use/multimedia#echase) - Completed2006   
 [MOTEUR](/introduction/taverna-in-use/on-a-grid#moteur) - Active   
 [PLANET](/introduction/introduction/taverna-in-use/bioinformatics#planet) - Active
@@ -589,7 +589,7 @@ formalise or share existing research.
   [17]: /introduction/related-projects#cagrid
   [18]: http://webcache.googleusercontent.com/search?q=cache:SO2-xLmcod4J:www.eu-egee.org/+&amp;cd=1&amp;hl=en&amp;ct=clnk&amp;gl=uk
   [19]: /introduction/taverna-in-use/databases#embrace
-  [20]: /introduction/taverna-in-use/medical-imaging#knowarc
+  [20]: /introduction/taverna-in-use/medicine#knowarc
   [21]: /introduction/taverna-in-use/on-a-grid#moteur
   [22]: http://www.mygrid.org.uk/outreach/collaboration/collaboration-with-nbic/
   [23]: /introduction/taverna-in-use/on-a-grid#simdat
