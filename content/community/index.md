@@ -39,7 +39,8 @@ there are opportunities for you to [get in touch and ask questions](#contact),
 **Users**: 
    <a class="btn btn-primary" href="mailto:users-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
    <a class="btn btn-default" href="mailto:users-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a>
-   <a class="btn btn-default" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archives</a>
+   <a class="btn" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archives</a>
+   [Archives](http://apache-taverna-users.markmail.org/search/?q=)
 
 **Developers**: 
    [Subscribe](mailto:dev-subscribe@taverna.incubator.apache.org)
