@@ -22,7 +22,7 @@ Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org
 
 ## Source code repositories
 
-The Apache Taverna source code is organized into multiple [git](http://www.git-scm.com/) repositories:
+The Apache Taverna 3 source code is organized into multiple [git](http://www.git-scm.com/) repositories:
 
 
 <table class="table table-hover">
@@ -88,7 +88,16 @@ The Apache Taverna source code is organized into multiple [git](http://www.git-s
       <td>Plugin for bioinformatics-specific activities</tr>
 </table>
 
-Legacy [Taverna 2 source code](#taverna-2-source-code) is maintained separately.
+
+
+<div class="alert alert-warning" role="alert"><p><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+  <strong>Note:</strong>
+
+The source code for the Taverna 2 is not maintained by the Apache Taverna project, but
+remains available at <a href="https://github.com/taverna/">taverna on GitHub</a> under the
+`maintenance` branches. Note that Taverna 2 is licensed under 
+the <a href="https://www.gnu.org/licenses/lgpl-2.1.html">GNU Lesser Public License 2.1</a>.
+</div>
 
 
 
@@ -185,11 +194,7 @@ You will however always need to build the distribution product (command line or 
 
 ### Taverna 2 source code
 
-The source code for Taverna 2 remains available at 
-<a href="https://github.com/taverna/">taverna on GitHub</a> under the
-`maintenance` branches. Note that this code is not maintained by the Apache Taverna project
- and is licensed under 
-the [GNU Lesser Public License 2.1](https://www.gnu.org/licenses/lgpl-2.1.html)
+
 
 
 ## Taverna Extras
