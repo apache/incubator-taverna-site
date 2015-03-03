@@ -41,7 +41,7 @@ questions about how to do something in the Workbench, or <strong>raise issues</s
 
 <em>dev@taverna.incubator.apache.org</em> is intended for those actively developing Apache Taverna, 
 Apache Taverna plugins or otherwise are using Apache Taverna APIs.  Use this list to discuss aspects as
-design/architecture/integration/code - even if you are not currently an Apache Taverna [committer](about).
+design/architecture/integration/code - even if you are not currently an Apache Taverna [committer](/community/#contribute).
 
 
   - Subscribe by sending an empty email to [dev-subscribe@taverna.incubator.apache.org](mailto:dev-subscribe@taverna.incubator.apache.org)
@@ -64,6 +64,6 @@ design/architecture/integration/code - even if you are not currently an Apache T
 ### private@taverna
 
 <em>private@taverna.incubator.apache.org</em> can be used for sensitive information that should not be made public
-in mailing list archives. Only members of the [Apache Taverna PPMC](/about/) will receive the email. Only use this list
+in mailing list archives. Only members of the [Apache Taverna PPMC](http://people.apache.org/committers-by-project.html#taverna) will receive the email. Only use this list
 if the public lists cannot be used, for instance for business-sensitive matters, 
 security concerns or to report personal conflicts.
