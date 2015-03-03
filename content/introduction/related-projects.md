@@ -325,7 +325,8 @@ The National e-Infrastructure for Social Simulation is a [JISC][70]-funded proje
    programme of producing services and furthering uptake through community engagement to create a sustainable, 
    long-term platform for social simulation with potential for major strategic impact, 
    both in the UK and internationally. 
-The project involves [Leeds University][71], [Manchester University][72] (including [NCeSS][73]), 
+The project involves [Leeds University][71], [Manchester University][72] 
+   (including [NCeSS](http://en.wikipedia.org/wiki/National_Centre_for_e-Social_Science)), 
    [Stirling University][74], Glasgow University, UCL, Southampton University, STFC Daresbury Laboratory.
 
 Within the project, the Taverna team are working on:
@@ -510,7 +511,6 @@ The workflows covered two domains:
   [70]: http://www.jisc.ac.uk/
   [71]: http://www.leeds.ac.uk/
   [72]: http://www.manchester.ac.uk/
-  [73]: http://www.ncess.ac.uk/
   [74]: http://www.stir.ac.uk/
   [75]: http://www.myexperiment.org/
   [76]: http://www.mygrid.org.uk/dev/wiki/display/portals/NeISS+Project
