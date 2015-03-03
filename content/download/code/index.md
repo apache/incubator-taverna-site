@@ -22,7 +22,7 @@ Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org
 
 ## Source code repositories
 
-The Apache Taverna 3 source code is organized into multiple [git](http://www.git-scm.com/) repositories:
+The <strong>Apache Taverna</strong> source code is organized into multiple [git](http://www.git-scm.com/) repositories:
 
 
 <table class="table table-hover">
@@ -92,10 +92,9 @@ The Apache Taverna 3 source code is organized into multiple [git](http://www.git
 
 <div class="alert alert-warning" role="alert"><p><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
   <strong>Note:</strong>
-
-The <a href="https://github.com/taverna/">source code for the Taverna 2</a> 
-remains available separately. Taverna 2 is not maintained by the Apache Taverna project, 
-which focuses on Taverna 3.
+The source code above is for Apache Taverna 3.
+The <a href="https://github.com/taverna/">source code for Taverna 2</a> 
+remains available separately, but is not maintained by the Apache Taverna project.
 </div>
 
 
