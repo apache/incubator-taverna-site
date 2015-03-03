@@ -82,18 +82,18 @@ The second point, known as the admin endpoint, is designed for administrators to
    assign schema to them, and modify user privileges.”
 
 
-  [1]: /introduction/taverna-in-use/multimedia.html#echase
+  [1]: /introduction/taverna-in-use/multimedia#echase
   [2]: #efamily
   [3]: #embrace
-  [4]: /introduction/related-projects.html#ispider
+  [4]: /introduction/related-projects#ispider
   [5]: #omixed
-  [6]: /introduction/taverna-in-use/protein-and-proteomics.html#prodom
+  [6]: /introduction/taverna-in-use/protein-and-proteomics#prodom
   [7]: http://www.ebi.ac.uk/pdbe/docs/sifts/efamily.html
   [8]: http://www.embracegrid.info/
   [9]: http://www.manchester.ac.uk/
   [10]: http://dx.doi.org/10.1007/11946465_22
   [11]: https://eu-egee-org.web.cern.ch/eu-egee-org/index.html
-  [12]: /introduction/taverna-in-use/protein-and-proteomics.html#prodom
+  [12]: /introduction/taverna-in-use/protein-and-proteomics#prodom
   [13]: http://www.myexperiment.org/files/29
   [14]: http://nebc.nerc.ac.uk/tools/omixed/overview
   [15]: http://www.omixed.org/documentation/omixed%20taverna%20plugin
