@@ -57,7 +57,7 @@ The secreted proteins explain why anthrax can grow in animal hosts but not in so
 
 ###Publications
 
-The [paper](http://www.mygrid.org.uk/outreach/publications/craddock2006/)
+The [paper](http://www.allhands.org.uk/2006/proceedings/papers/709.pdf)
    *e-Science Tools For The Genomic Scale Characterisation Of Bacterial Secreted Proteins* 
    by Craddock et al. gives an overview of this work.
 
