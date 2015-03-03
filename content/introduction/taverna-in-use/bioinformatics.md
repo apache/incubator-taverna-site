@@ -30,7 +30,7 @@ Bioinformatics systems/tools using Taverna:
 
 ### Biodiversity ###
 
- - [BioVeL][3]
+ - [BioVeL](/introduction/related-projects#biovel)
 
 ### Gene and genome expression ###
 
@@ -108,7 +108,7 @@ The suite of programs are also available for installation on pre-existing Linux 
 
 <a name="lumc"></a>
 ###LUMC###
-People from the Leiden University Medical Center ([LUMC][42]) in the Netherlands are using Taverna for analysis 
+People from the Leiden University Medical Center ([LUMC](https://www.lumc.nl/) in the Netherlands are using Taverna for analysis 
   of mass spectrometry data in proteomics.
 
 They presented a [poster][43] at the 2011 ASMS (the American Society for Mass Spectrometry) Conference on 
@@ -129,14 +129,14 @@ A [poster][46] by Peter Li describing the systems biology workflows was presente
    Conference of Systems Biology 2006 and he has written several publications about the work.
 
 Many of the workflows make use of Systems Biology Markup Language ([SBML][47]) as described in the 
-   [paper][48] *Automated manipulation of systems biology models using libSBML within Taverna workflows* 
+   [paper](http://bioinformatics.oxfordjournals.org/content/24/2/287.full.pdf) 
+   *Automated manipulation of systems biology models using libSBML within Taverna workflows* 
    by Li et al.
 
 An [example workflow][49] using SBML is available on [myExperiment][50].
 
   [1]: #biowep
   [2]: #biolinux
-  [3]: /introduction/related-projects/biovel
   [4]: /introduction/taverna-in-use/genome-and-gene-expression#next-generation-sequencing
   [5]: /introduction/taverna-in-use/genome-and-gene-expression#tavernapbs
   [6]: /introduction/taverna-in-use/genome-and-gene-expression#casimir
@@ -175,12 +175,10 @@ An [example workflow][49] using SBML is available on [myExperiment][50].
   [39]: http://bioinformatics.istge.it:8080/biowep/
   [40]: http://nebc.nox.ac.uk/
   [41]: http://nebc.nox.ac.uk/biolinux.html
-  [42]: http://www.lumc.nl/home/?setlanguage=English&amp;setcountry=en
   [43]: http://www.taverna.org.uk/pages/wp-content/uploads/2011/06/Palmblad_ASMS_2011_LUMC.pdf
   [44]: https://www.lumc.nl/org/proteomics-metabolomics/medewerkers/nmpalmblad
-  [45]: /introduction/taverna-in-use/biology/manchester-centre-for-integrative-systems-biology
+  [45]: /introduction/taverna-in-use/biology#manchester-centre-for-integrative-systems-biology
   [46]: http://www.mygrid.org.uk/files/2008/09/peter-li-poster.pdf
   [47]: http://sbml.org/
-  [48]: http://www.mygrid.org.uk/outreach/publications/li2007/
   [49]: http://www.myexperiment.org/workflows/79
   [50]: http://www.myexperiment.org/
