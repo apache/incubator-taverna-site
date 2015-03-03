@@ -70,8 +70,6 @@ You are highly encouraged to participate on the Apache Taverna [mailing lists](/
 </tr>
 </table>
 
-<br>
-
 
 To receive messages from a list, and to be able to post to it, you need to be *subscribed*:
 
