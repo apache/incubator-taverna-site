@@ -16,9 +16,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
- - [NeISS][1] project works on developing Taverna workflows for various social simulations and running them in portals 
+ - [NeISS](/introduction/related-projects.html#neiss)
+      project works on developing Taverna workflows for various social simulations and running them in portals 
       using the Taverna Server. The wokflows are going to be used in population and traffic simulations and for 
       drawing of the resulting geo-social maps and help social scientists with various predictions.
-
-
-  [1]: http://prototype.taverna.org.uk/introduction/related-projects.html#neiss
