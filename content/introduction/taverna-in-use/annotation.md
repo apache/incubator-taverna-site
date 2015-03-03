@@ -96,7 +96,7 @@ The [paper][21] *Interoperability with Moby 1.0—It’s better than sharing you
   [2]: #annotation-of-genomes
   [3]: #taweka
   [4]: #adoption-by-moby
-  [5]: /introduction/related-projects.html#ispider
+  [5]: /introduction/related-projects#ispider
   [6]: http://www.mpiz-koeln.mpg.de/2169/en
   [7]: http://bioinfo.mpiz-koeln.mpg.de/afawe/
   [8]: http://bioinfo.mpiz-koeln.mpg.de/afawe/help/Tools.html#SIFTER
