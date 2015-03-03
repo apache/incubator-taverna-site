@@ -192,8 +192,6 @@ This means that as a developer, you only need to build the repositories you are 
 
 You will however always need to build the distribution product (command line or workbench) to incorporate your changes. (Make sure that references the correct <code>SNAPSHOT</code> version!)
 
-### Taverna 2 source code
-
 
 
 
