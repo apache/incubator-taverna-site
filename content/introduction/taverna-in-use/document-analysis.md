@@ -67,9 +67,9 @@ The Platform is integrated with the [Taverna Web Service Orchestration][13] to p
 
 
   [1]: #islandora
-  [2]: /introduction/related-projects.html#scape
+  [2]: /introduction/related-projects#scape
   [3]: #dae
-  [4]: /introduction/taverna-in-use/social-sciences.html#impact
+  [4]: /introduction/taverna-in-use/social-sciences#impact
   [5]: http://www.myexperiment.org/
   [6]: http://islandora.ca/
   [7]: http://drupal.org/
