@@ -214,14 +214,14 @@ View by [chronological][7] order of deployment.
 <tr>
 <th><a href="/introduction/taverna-in-use/document-analysis">Document and image analysis<br />
 Digital preservation</a></th>
-<td><a href="/introduction/taverna-in-use/by-domain/document-analysis#islandora">Islandora</a><a href="/introduction/related-projects#scape/"><br />
+<td><a href="/introduction/taverna-in-use/document-analysis#islandora">Islandora</a><a href="/introduction/related-projects#scape/"><br />
 SCAPE</a><br />
-<a href="/introduction/taverna-in-use/by-domain/document-analysis#impact">IMPACT</a><br />
-<a href="/introduction/taverna-in-use/by-domain/document-analysis#dae">DAE</a></td>
+<a href="/introduction/taverna-in-use/document-analysis#impact">IMPACT</a><br />
+<a href="/introduction/taverna-in-use/document-analysis#dae">DAE</a></td>
 <td><a href="http://blogs.loc.gov/digitalpreservation/2013/03/islandoras-open-source-ecosystem-and-digital-preservation-an-interview-with-mark-leggott/">Islandora</a><br />
 <a href="/introduction/related-projects#scape">SCAPE</a><br />
-<a href="/introduction/taverna-in-use/by-domain/document-analysis#impact">IMPACT</a><br />
-<a href="/introduction/taverna-in-use/by-domain/document-analysis#dae">DAE</a></td>
+<a href="/introduction/taverna-in-use/document-analysis#impact">IMPACT</a><br />
+<a href="/introduction/taverna-in-use/document-analysis#dae">DAE</a></td>
 <td>-</td>
 <td><a href="/introduction/related-projects#scape">SCAPE</a></td>
 <td>-</td>
@@ -250,8 +250,8 @@ SCAPE</a><br />
 
 <tr>
 <th><a href="/introduction/taverna-in-use/geoinformatics">Geoinformatics</a></th>
-<td><a href="/introduction/taverna-in-use/by-domain/geoinformatics#pml">PML</a></td>
-<td><a href="/introduction/taverna-in-use/by-domain/geoinformatics#pml">PML</a></td>
+<td><a href="/introduction/taverna-in-use/geoinformatics#pml">PML</a></td>
+<td><a href="/introduction/taverna-in-use/geoinformatics#pml">PML</a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -296,7 +296,7 @@ SCAPE</a><br />
 
 <tr>
 <th><a href="/introduction/taverna-in-use/natural-language-processing">Natural language processing</a></th>
-<td><a href="/introduction/taverna-in-use/by-domain/natural-language-processing#panacea">PANACEA</a></td>
+<td><a href="/introduction/taverna-in-use/natural-language-processing#panacea">PANACEA</a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
@@ -362,7 +362,7 @@ SCAPE</a><br />
 NGS</td>
 <td>-</td>
 <td>-</td>
-<td><a href="http://www.omii.ac.uk/wiki/SoftwareOverview" target="_blank">OMII</a><br />
+<td><a href="http://en.wikipedia.org/wiki/OMII-UK" target="_blank">OMII</a><br />
 <a href="http://code.google.com/p/calctav/" target="_blank">CalcTav</a></td>
 </tr>
 </tbody>
@@ -658,7 +658,7 @@ formalise or share existing research.
   [49]: /introduction/taverna-in-use/annotation
   [50]: /introduction/taverna-in-use/arts
   [51]: /introduction/taverna-in-use/astronomy
-  [52]: /introduction/taverna-in-use/by-domain/biodiversity
+  [52]: /introduction/taverna-in-use/biodiversity
   [53]: /introduction/taverna-in-use/bioinformatics
   [54]: /introduction/taverna-in-use/chemistry
   [55]: /introduction/taverna-in-use/data-and-text-mining
@@ -682,8 +682,8 @@ formalise or share existing research.
   [76]: /introduction/taverna-in-use/data-and-text-mining#open-software-development-workflows
   [77]: /introduction/taverna-in-use/disease-research#trypanosomiasis
   [78]: http://code.google.com/p/calctav/
-  [79]: /introduction/taverna-in-use/by-domain/natural-language-processing#panacea
-  [80]: /introduction/taverna-in-use/by-domain/document-analysis#dae
+  [79]: /introduction/taverna-in-use/natural-language-processing#panacea
+  [80]: /introduction/taverna-in-use/document-analysis#dae
   [81]: /introduction/taverna-in-use/genome-and-gene-expression#tavernapbs
   [82]: /introduction/taverna-in-use/genome-and-gene-expression#next-generation-sequencing
   [83]: /introduction/taverna-in-use/biology#sb-os
