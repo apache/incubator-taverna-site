@@ -176,7 +176,7 @@ Note that the snapshot builds are *not* official releases and should be consider
 
 To use the snapshot repository, add to your Maven pom.xml:
 
-
+    :::xml
     <repositories>
       <repository>
         <id>apache.snapshots</id>
