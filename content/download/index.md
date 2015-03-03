@@ -55,7 +55,7 @@ There is also a number of associated tools available to use with (non-Apache) Ta
 
 There are not yet any public releases of Apache Taverna.
 
-You might be interested in the [source code](/code/) of Apache Taverna, or 
+You might be interested in the [source code](/download/code) of Apache Taverna, or 
    [earlier non-Apache releases](pre-apache.html).
 
 ### License
