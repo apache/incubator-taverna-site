@@ -17,6 +17,6 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 
 - Enable Taverna workflows in a 
-    [Shared Genomics](/introduction/related-projects.html#shared-genomics)
+    [Shared Genomics](/introduction/related-projects#shared-genomics)
     causality workbench as services using the 
-    [Taverna Server](/documentation/server/) to run workflows.
+    [Taverna Server](/documentation/server) to run workflows.
