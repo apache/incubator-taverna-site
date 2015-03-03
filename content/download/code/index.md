@@ -88,18 +88,9 @@ The Apache Taverna source code is organized into multiple [git](http://www.git-s
       <td>Plugin for bioinformatics-specific activities</tr>
 </table>
 
+Legacy [Taverna 2 source code](#taverna-2-source-code) is maintained separately.
 
 
-
-
-
-### Taverna 2 source code
-
-The source code for Taverna 2 remains available at 
-<a href="https://github.com/taverna/">taverna on GitHub</a> under the
-`maintenance` branches. Note that this code is not maintained by the Apache Taverna project
- and is licensed under 
-the [GNU Lesser Public License 2.1](https://www.gnu.org/licenses/lgpl-2.1.html)
 
 ### Checking out Apache Taverna
 
@@ -114,6 +105,7 @@ If you are a committer on Apache Taverna, or have firewall restrictions, use the
 You can also `[Browse]` the code through the GitHub mirrors. 
 Using GitHub you are free to *fork* the projects and raise *pull requests* to 
 [contribute to Apache Taverna](#contribute-to-apache-taverna).
+
 
 
 ## Building Apache Taverna
@@ -191,6 +183,15 @@ This means that as a developer, you only need to build the repositories you are 
 
 You will however always need to build the distribution product (command line or workbench) to incorporate your changes. (Make sure that references the correct <code>SNAPSHOT</code> version!)
 
+### Taverna 2 source code
+
+The source code for Taverna 2 remains available at 
+<a href="https://github.com/taverna/">taverna on GitHub</a> under the
+`maintenance` branches. Note that this code is not maintained by the Apache Taverna project
+ and is licensed under 
+the [GNU Lesser Public License 2.1](https://www.gnu.org/licenses/lgpl-2.1.html)
+
+
 ## Taverna Extras
 
 The separate GitHub group [taverna-extras](https://github.com/taverna-extras) host independent community-submitted plugins for Apache Taverna. 
@@ -201,3 +202,4 @@ Some plugins that were previously part of Taverna 2 have or will migrate to tave
 
 * RShell activity
 * [Table activity](https://github.com/taverna-extras/table-activity)
+
