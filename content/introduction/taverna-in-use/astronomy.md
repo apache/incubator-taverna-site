@@ -1,4 +1,4 @@
-Title:
+Title:     Astronomy
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -57,7 +57,7 @@ The [paper][13] *ESO Reflex: A Graphical Workflow Engine for Running Recipes* by
 
   [1]: http://www.myexperiment.org
   [2]: #astrogrid
-  [3]: /introduction/related-projects.html#helio
+  [3]: /introduction/related-projects#helio
   [4]: #sampo
   [5]: http://www.astrogrid.org/
   [6]: http://wiki.astrogrid.org/bin/view/Astrogrid/VoWorkflowsWithTaverna
