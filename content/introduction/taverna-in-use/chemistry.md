@@ -24,7 +24,8 @@ Taverna is used by various projects for the creation of chemistry workflows.  Th
 <a name ="chemistry-development-kit"></a>
 ##Chemistry Development Kit##
                     
-The Chemistry Development Kit (CDK) [project][3] have developed a [plugin][4]
+The Chemistry Development Kit (CDK) [project][3] have developed a 
+   [plugin](/documentation/plugins#cdk)
    to allow their tools to be used within Taverna workflows.</p>
 
 There is a myExperiment [group][5]</a> for workflows using the CDK-Taverna plugin.</p>
@@ -61,7 +62,6 @@ The members of the CICC are developing Taverna workflows
   [1]: #chemistry-development-kit
   [2]: #chemical-informatics-and-cyberinfrastructure-collaboratory
   [3]: http://sourceforge.net/projects/cdk
-  [4]: /documentation/taverna-plugins.html#cdk
   [5]: http://www.myexperiment.org/groups/105
   [6]: http://dx.doi.org/10.1186/1752-153X-2-S1-P27
   [7]: http://cdktaverna.wordpress.com/
