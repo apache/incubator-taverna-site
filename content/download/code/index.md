@@ -95,7 +95,7 @@ The Apache Taverna 3 source code is organized into multiple [git](http://www.git
 
 The <a href="https://github.com/taverna/">source code for the Taverna 2</a> 
 remains available separately. Taverna 2 is not maintained by the Apache Taverna project, 
-which focuses on Taverna 3 (see above).
+which focuses on Taverna 3.
 </div>
 
 
