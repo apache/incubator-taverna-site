@@ -30,7 +30,7 @@ We are also involved in various projects set out to solve particular e-Science p
 
  - [ChemTaverna][4] – workflows for chemoinformatics
  - [ONDEX][5] – integration of biological data
- - [Shared Genomics][6] – the use of the [Taverna Server](/documentation/server/) to run genetic data workflows
+ - [Shared Genomics][6] – the use of the [Taverna Server](/documentation/server) to run genetic data workflows
  - [REFINE][8] – text mining and visualisation
  - [HELIO][9] – services and workflows for HelioPhysics
 
