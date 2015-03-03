@@ -55,7 +55,7 @@ The functionality of the ARC plugin has been [demonstrated](http://www.knowarc.e
 ##MIASGrid
                     
 The MIAS project examined the requirements of Medical Imaging and Signals.  
-The [MIASGrid](http://www.esnw.ac.uk/projects/details/3.html) sub-project, 
+The [MIASGrid]http://www.robots.ox.ac.uk/~irc/grid_mias-grid.html) sub-project, 
    took examples of those requirements and investigated how e-Science and the myGrid tools in particular could satisfy them. 
 The project was funded by the [EPSRC](http://www.epsrc.ac.uk/) for £494k and ran until April 2006.
 
@@ -66,12 +66,13 @@ The workflows made use of [MATLAB](http://www.mathworks.com/products/matlab/) an
 The workflows covered two domains:
 
  - The analysis of MRI scans of knees to detect changes in cartilage
- - The [description and searching](http://www.mygrid.org.uk/outreach/publications/rose2006/) of a database of mammograms
+ - The [description and searching](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.111.3846&rep=rep1&type=pdf) 
+     of a database of mammograms
 
 <a name="eu-adr"></a>
 ##EU-ADR
 
-The [EU-ADR](http://www.eu-adr-project.com/) project aims to develop an innovative computerised system to 
+The [EU-ADR](http://euadr-project.org/) project aims to develop an innovative computerised system to 
   detect adverse drug reactions (ADRs) through the exploitation of clinical data from electronic healthcare records (EHRs). 
 This process will rely on the usage and development of various computational techniques to analyse the EHRs in order to 
    detect “signals” (combination of drugs and suspected adverse events that warrant further investigation). 
