@@ -34,7 +34,7 @@ Taverna Workbench is available in the current formats
  - [Linux 64-bit Debian-based (.deb package)](#linuxdeb) (Ubuntu 12.04.4, Bio-Linux 7)
  - [Linux 64-bit Redhat-based (.rpm package)](#linuxrpm) (Fedora 20)
  - [Stand Alone zip](#zip) (See 
-     [additional requirements](/download/system-requirements/#standalone))
+     [additional requirements](/download/system-requirements#standalone))
  - [Maven repository](/download/maven)
  - [Source code](/code)
 
@@ -59,7 +59,7 @@ If you are interested in domain specific versions of Taverna as done in
 
 ##Next steps
 
-See the [release notes](/documentation/workbench/release-notes) for details about what is new 
+See the [release notes](/download/workbench/release-notes) for details about what is new 
    in this release. 
 Follow the [quick start guide](/documentation/quick-start-guide) if you are new to Taverna.
 [Example workflows](/documentation/example-workflows) are available in the Starter Pack of 
@@ -110,7 +110,7 @@ Please [contact us](/community) to confirm continued interest in a 32 bit instal
 ##Taverna Workbench 2.5 standalone
 
 This is operating system and architecture-neutral binary. 
-Check the standalone's [system requirements](/download/standalone-requirements).
+Check the standalone's [system requirements](/download/system-requirements#standalone).
 
  - [taverna-workbench-core-2.5.0-standalone.zip](http://www.taverna.org.uk/download/workbench/2-5/core/#download-binary)
  - SHA1: e1d23f5b208dffd3dedd953eb08e7e6387d01ae3
