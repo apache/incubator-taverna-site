@@ -56,12 +56,12 @@ There is a myExperiment [group][14] for researchers studying open source softwar
 The myExperiment group share some of their Taverna [workflows][15].
 
 
-  [1]: /introduction/related-projects.html#e-lico
+  [1]: /introduction/related-projects#e-lico
   [2]: #aid
-  [3]: /introduction/taverna-in-use/multimedia.html#course-generator
-  [4]: /introduction/related-projects.html#refine
+  [3]: /introduction/taverna-in-use/multimedia#course-generator
+  [4]: /introduction/related-projects#refine
   [5]: #open-software-development-workflows
-  [6]: /introduction/taverna-in-use/annotation.html#taweka
+  [6]: /introduction/taverna-in-use/annotation#taweka
   [7]: http://www.mygrid.org.uk/outreach/collaboration/collaboration-with-nbic/
   [8]: http://www.adaptivedisclosure.org/aida/workflows
   [9]: http://www.vl-e.nl/
