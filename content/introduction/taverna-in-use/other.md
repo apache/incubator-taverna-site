@@ -51,6 +51,6 @@ Under the SIMDAT project, a [GRIA](http://www.gria.org/)
 ###Publications
 
 Some of the work within SIMDAT is detailed in the 
-   [paper](http://dx.doi.org/10.1109/E-SCIENCE.2006.80) 
+   [paper](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4031069) 
    *Grid-Enabled Workflows for Industrial Product Design* by Ghanem et al.
 
