@@ -102,7 +102,7 @@ The workflow for performing this analysis is available on
 
 <h3>Publications</h3>
 
-[Articles and papers](http://www.mygrid.org.uk/bibsearch-results/?bibliography_subject=trypanosomiasis) 
+[Articles and papers](http://scholar.google.co.uk/scholar?hl=en&q=Taverna+trypanosomiasis) 
    about the success of Taverna for trypanosomiasis (sleeping sickness) research.
 
 <a name="graves-disease"></a>
@@ -180,5 +180,5 @@ The [workflow](http://www.myexperiment.org/workflows/28)
 
 ###Publications
 
-[Articles and papers](http://www.mygrid.org.uk/bibsearch-results/?bibliography_subject=graves-disease)
+[Articles and papers](http://scholar.google.co.uk/scholar?q=Taverna+Graves+Disease)
    about the success of Taverna for Graves Disease research.
