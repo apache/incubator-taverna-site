@@ -131,7 +131,7 @@ View by [chronological][7] order of deployment.
 <td><a href="/introduction/taverna-in-use/bioinformatics#biowep">BioWEP</a><br />
 <a href="/introduction/taverna-in-use/biology#planet">PLANET</a><br />
 <a href="/introduction/taverna-in-use/annotation#afawe">AFAWE</a><br />
-<a href="/introduction/taverna-in-use/biology.html#metware">MetWare</a><br />
+<a href="/introduction/taverna-in-use/biology#metware">MetWare</a><br />
 <a href="/introduction/taverna-in-use/protein-and-proteomics#prodom">ProDom</a><br />
 <a href="/introduction/taverna-in-use/biology#ccpn">CCPN</a></td>
 <td><a href="/introduction/taverna-in-use/bioinformatics#biolinux">BioLinux</a><br />
@@ -143,7 +143,7 @@ View by [chronological][7] order of deployment.
 <td><a href="/introduction/taverna-in-use/biology#enfin">Enabling Systems Biology</a><br />
 <a href="/introduction/taverna-in-use/biology#manchester-centre-for-integrative-systems-biology">Manchester Centre for Integrative Systems Biology</a><br />  
 <a href="/introduction/taverna-in-use/biology##sb-os">Systems Biology Operational Software</a><br />  
-<a href="/introduction/taverna-in-use/biology.html#metware">MetWare</a><br />
+<a href="/introduction/taverna-in-use/biology#metware">MetWare</a><br />
 <a href="/introduction/taverna-in-use/biology#tav4sb">Tav4SB</a><br />  
 <a href="/introduction/taverna-in-use/biology#ccpn">CCPN</a><br />
 <a href="/introduction/taverna-in-use/biology#ccpn">AFAWE</a><br />
@@ -305,12 +305,12 @@ SCAPE</a><br />
 </tr>
 
 <tr>
-<th><a /introduction/taverna-in-use/protein-and-proteomics.html">Protein and proteomics</a></th>
+<th><a /introduction/taverna-in-use/protein-and-proteomics">Protein and proteomics</a></th>
 <td><a href="/introduction/taverna-in-use/disease-research#analysis-of-anthrax-bacterium">Analysis of anthrax bacterium</a></td>
 <td><a href="/introduction/taverna-in-use/databases#efamily">eFamily</a></td>
 <td><a href="http://www.mygrid.org.uk/mygrid-in-use/adoption-by-embrace/">EMBRACE</a></td>
 <td><a href="/introduction/related-projects#ispider">iSpider</a></td>
-<td><a href="/introduction/taverna-in-use/protein-and-proteomics.html#prodom">Protein and proteomics</a></td>
+<td><a href="/introduction/taverna-in-use/protein-and-proteomics#prodom">Protein and proteomics</a></td>
 <td>-</td>
 <td>-</td>
 <td>-</td>
