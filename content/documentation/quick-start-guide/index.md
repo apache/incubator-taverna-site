@@ -26,7 +26,7 @@ Taverna is a powerful scientific
    while abstracting out how it will be executed.
 
 This quick start guide will help you open, create and run a workflow. 
-Before you start, you should download the [Taverna Workbench](/download/).
+Before you start, you should download the [Taverna Workbench](/download).
 
 You should also refer to the 
    [User Manual](http://www.mygrid.org.uk/dev/wiki/display/taverna/User+Manual), 
