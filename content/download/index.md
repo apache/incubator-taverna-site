@@ -31,7 +31,7 @@ There are several Taverna tools that you can download:
      This enables automated execution of workflows, e.g. on a Linux server.
  - [Taverna Server](/download/server) is the remote workflow execution service that enables you 
       to set up a dedicated server for executing workflows remotely.
- - [Taverna Plugins](/documentation/plugins/) The design of Taverna is modular in nature so that 
+ - [Taverna Plugins](/documentation/plugins) The design of Taverna is modular in nature so that 
       various plugins can be added in order to increase its functionality.
 
 ##Associated tools
