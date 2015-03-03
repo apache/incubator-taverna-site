@@ -95,7 +95,8 @@ Effectively, Taverna enables a scientist who has a limited background in computi
     <img title="Taverna_Spectrum_Slide" src="/img/Taverna_Spectrum_Slide.png" alt="" width="680" height="400" />
     </a>
 </p>
-<p class="row text-center"> 
+<p class="row text-center">
+[Download a (Non Apache) presentation slide of the above](http://www.taverna.org.uk/pages/wp-content/uploads/2013/05/Taverna-Intro-slide1.pptx)
 [Download a (Non Apache) presentation slide of the above](http://www.taverna.org.uk/pages/wp-content/uploads/2013/05/Taverna_Spectrum_Slide.pptx)
 </p>
 See a full list of [Taverna's features](/introduction/taverna-features) or 
