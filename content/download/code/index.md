@@ -93,10 +93,9 @@ The Apache Taverna 3 source code is organized into multiple [git](http://www.git
 <div class="alert alert-warning" role="alert"><p><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
   <strong>Note:</strong>
 
-The source code for the Taverna 2 is not maintained by the Apache Taverna project, but
-remains available at <a href="https://github.com/taverna/">taverna on GitHub</a> under the
-`maintenance` branches. Note that Taverna 2 is licensed under 
-the <a href="https://www.gnu.org/licenses/lgpl-2.1.html">GNU Lesser Public License 2.1</a>.
+The <a href="https://github.com/taverna/">source code for the Taverna 2</a> 
+remains available separately. Taverna 2 is not maintained by the Apache Taverna project, 
+which focuses on Taverna 3 (see above).
 </div>
 
 
