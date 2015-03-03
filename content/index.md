@@ -30,7 +30,7 @@ jsonld: {
     "publisher" : { "@type" : "Organization", 
                     "url" : "http://www.apache.org/",
                     "name" : "The Apache Software Foundation (ASF)" },
-    "downloadUrl" : "http://taverna.incubator.apache.org/download/"
+    "downloadUrl" : "http://taverna.incubator.apache.org/download"
   }
 
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
@@ -52,7 +52,7 @@ website which is not affiliated with Apache.
 Powerful, scalable, open source & domain independent tools for
 designing and executing workflows. Access to 3500+ resources.
 </p>
-    <p><a class="btn btn-lg btn-success" href="/download/" role="button">Download</a>
+    <p><a class="btn btn-lg btn-success" href="/download" role="button">Download</a>
        <a class="btn btn-lg btn-primary" href="/community" role="button">Follow</a>
 </p>
 </div>
