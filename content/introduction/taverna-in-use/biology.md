@@ -83,7 +83,7 @@ A [poster](http://www.mygrid.org.uk/files/2008/09/peter-li-poster.pdf) by Peter 
 
 Many of the workflows make use of Systems Biology Markup Language 
    ([SBML](http://sbml.org/)) as described in the 
-   [paper](http://www.mygrid.org.uk/outreach/publications/li2007/) 
+   [paper](bioinformatics.oxfordjournals.org/content/24/2/287.full.pdf) 
    *Automated manipulation of systems biology models using libSBML within Taverna workflows* by Li et al.
 
 An example [workflow](http://www.myexperiment.org/workflows/79) using SBML is available on 
