@@ -16,7 +16,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-[BioVel][1] - establishing an international e-Laboratory to allow biodiversity  scientists to jointly tackle 
+[BioVel](/introduction/related-projects#biovel) - establishing an international e-Laboratory to allow biodiversity  scientists to jointly tackle 
    diverse research challenges using Taverna, myExperiment and BioCatalogue
 
-  [1]: /introduction/related-projects.html#biovel
+
