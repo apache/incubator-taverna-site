@@ -203,8 +203,7 @@ BioCatalogue plugin alpha for Taverna 2.1.2 allows users to browse services in t
    [BioCatalogue](http://www.biocatalogue.org/) Life Sciences Web Services registry from the 
    Workbench and add them to workflows. 
 Being an alpha, some pieces of functionality have not been fully implemented. 
-The plugin has been developed by 
-   [Sergejs Aleksejevs](http://www.mygrid.org.uk/about-us/people/core-mygrid-team/sergejs-aleksejevs/).
+The plugin has been developed by Sergejs Aleksejevs.
 
 The plugin for Taverna 2.2 is still an alpha but several small fixes and improvements have been 
    made in this version:
