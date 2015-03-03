@@ -22,10 +22,10 @@ Apache Taverna is a [incubator project](http://incubator.apache.org/) within the
 Taverna is an open source community that's organized by its 
    [members](http://people.apache.org/committers-by-project.html#taverna), including you! 
 Whether you're running or [writing workflows](#contribute-workflow), [developing plugins](#contribute-plugin), 
-   [hosting a taverna server](#contribute-server), [hosting a service](#contribute-host),
-  [hacking the core](#contribute-code), or just want to [editing](#contribute-edit) these pages 
+   [hosting a Taverna server](#contribute-server), [hosting a service](#contribute-host),
+  [hacking the core](#contribute-code), or just want to [edit](#contribute-edit) these pages 
 there are opportunities for you to [get in touch and ask questions](#contact), 
-   [contribute back](#contribute) or [report a bug](#reportbugs). 
+   [contribute](#contribute) or [report a bug](#reportbugs). 
 
 ## Incubator status
 
@@ -34,24 +34,33 @@ there are opportunities for you to [get in touch and ask questions](#contact),
 <a name="mailinglists"></a>
 ##Mailing Lists##
 
+You are highly encouraged to participate on the Apache Taverna [mailing lists](/community/contact). 
+
 <table>
+<tr><th></th> <th>Topics</th> <th align="left">Actions</th>
 <tr>
   <th> Users </th>
+  <td> Build/run workflows, Taverna Server, services
   <td>&nbsp;<a class="btn btn-primary" href="mailto:users-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> </td>
   <td>&nbsp;<a class="btn btn-default" href="mailto:users-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> </td>
-  <td>&nbsp;<a class="btn btn-link" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archives</a> </td>
+  <td>&nbsp;<a class="btn btn-default" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archives</a> </td>
+  <td>&nbsp;<a class="btn btn-link" href="/community/contact/#userstaverna" role="button">More info</a> </td>
 </tr>
 <tr>
   <th> Developers </th>
+  <td> Coding on/with Taverna </td>
   <td>&nbsp;<a class="btn btn-primary" href="mailto:dev-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> </td>
   <td>&nbsp;<a class="btn btn-default" href="mailto:dev-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> </td>
-  <td>&nbsp;<a class="btn btn-link" href="http://apache-taverna-dev.markmail.org/search/?q=" role="button">Archives</a> </td>
+  <td>&nbsp;<a class="btn btn-default" href="http://apache-taverna-dev.markmail.org/search/?q=" role="button">Archives</a> </td>
+  <td>&nbsp;<a class="btn btn-link" href="/community/contact/#devtaverna" role="button">More info</a> </td>
 </tr>
 <tr>
   <th> Commits </th>
-  <td>&nbsp;<a class="btn btn-primary" href="mailto:commits-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> </td>
+  <td> Code changes, automated build reports </td>
+  <td>&nbsp;<a class="btn btn-default" href="mailto:commits-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> </td>
   <td>&nbsp;<a class="btn btn-default" href="mailto:commits-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> </td>
-  <td>&nbsp;<a class="btn btn-link" href="http://www.mail-archive.com/commits@taverna.incubator.apache.org/" role="button">Archives</a> </td>
+  <td>&nbsp;<a class="btn btn-default" href="http://www.mail-archive.com/commits@taverna.incubator.apache.org/" role="button">Archives</a> </td>
+  <td>&nbsp;<a class="btn btn-link" href="/community/contact/#commitstaverna" role="button">More info</a> </td>
 </tr>
 </table>
 
