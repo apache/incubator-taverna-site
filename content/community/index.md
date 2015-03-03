@@ -34,35 +34,43 @@ there are opportunities for you to [get in touch and ask questions](#contact),
 <a name="mailinglists"></a>
 ##Mailing Lists##
 
-You are highly encouraged to participate on the Apache Taverna [mailing lists](/community/contact). 
+You are highly encouraged to participate on the Apache Taverna [mailing lists](/community/contact):
 
-<table>
-<tr><th></th> <th>Topics</th> <th align="left">Actions</th>
+<table class="table table-condensed">
 <tr>
   <th> Users </th>
-  <td> Build/run workflows, Taverna Server, services
-  <td>&nbsp;<a class="btn btn-primary" href="mailto:users-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> </td>
-  <td>&nbsp;<a class="btn btn-default" href="mailto:users-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> </td>
-  <td>&nbsp;<a class="btn btn-default" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archives</a> </td>
-  <td>&nbsp;<a class="btn btn-link" href="/community/contact/#userstaverna" role="button">More info</a> </td>
+  <td> Build/run workflows, Taverna Server, services</td>
+  <td>
+    <a class="btn btn-primary" href="mailto:users-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
+    <a class="btn btn-default" href="mailto:users-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> 
+    <a class="btn btn-default" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archive</a> 
+    <a class="btn btn-link" href="/community/contact/#userstaverna" role="button">More info</a> 
+  </td>
 </tr>
 <tr>
-  <th> Developers </th>
-  <td> Coding on/with Taverna </td>
-  <td>&nbsp;<a class="btn btn-primary" href="mailto:dev-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> </td>
-  <td>&nbsp;<a class="btn btn-default" href="mailto:dev-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> </td>
-  <td>&nbsp;<a class="btn btn-default" href="http://apache-taverna-dev.markmail.org/search/?q=" role="button">Archives</a> </td>
-  <td>&nbsp;<a class="btn btn-link" href="/community/contact/#devtaverna" role="button">More info</a> </td>
+  <th> Developers &nbsp;</th>
+  <td> Coding on/with Taverna  &nbsp;</td>
+  <td>
+    <a class="btn btn-primary" href="mailto:dev-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
+    <a class="btn btn-default" href="mailto:dev-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> 
+    <a class="btn btn-default" href="http://apache-taverna-dev.markmail.org/search/?q=" role="button">Archive</a> 
+    <a class="btn btn-link" href="/community/contact/#devtaverna" role="button">More info</a> 
+  </td>
+
 </tr>
 <tr>
-  <th> Commits </th>
-  <td> Code changes, automated build reports </td>
-  <td>&nbsp;<a class="btn btn-default" href="mailto:commits-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> </td>
-  <td>&nbsp;<a class="btn btn-default" href="mailto:commits-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> </td>
-  <td>&nbsp;<a class="btn btn-default" href="http://www.mail-archive.com/commits@taverna.incubator.apache.org/" role="button">Archives</a> </td>
-  <td>&nbsp;<a class="btn btn-link" href="/community/contact/#commitstaverna" role="button">More info</a> </td>
+  <th> Commits  &nbsp;</th>
+  <td> Code changes, automated build reports  &nbsp;</td>
+  <td>
+    <a class="btn btn-primary" href="mailto:commits-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
+    <a class="btn btn-default" href="mailto:commits-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> 
+    <a class="btn btn-default" href="http://www.mail-archive.com/commits@taverna.incubator.apache.org/" role="button">Archive</a> 
+    <a class="btn btn-link" href="/community/contact/#commitstaverna" role="button">More info</a> 
+  </td>
 </tr>
 </table>
+
+<br>
 
 
 To receive messages from a list, and to be able to post to it, you need to be *subscribed*:
