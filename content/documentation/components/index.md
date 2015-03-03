@@ -126,7 +126,7 @@ The component profile specifies the ontologies that will be used for the compone
 Although the components will be modified using a chosen profile, 
    it is unlikely that the components can be assured as being ‘correct by construction’. 
 For this reason, a separate 
-   [component validator](/documentation/components//component-validator/)
+   [component validator](/documentation/components/component-validator)
    is being implemented. 
 The component validator is included within 
    [myExperiment](http://www.myexperiment.org).
