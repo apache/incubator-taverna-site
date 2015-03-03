@@ -16,4 +16,4 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-<span class="glyphicon glyphicon-pencil">Improve this Page</span>
+<span class="glyphicon glyphicon-pencil"></span>Improve this Page
