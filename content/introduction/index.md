@@ -72,10 +72,8 @@ Taverna was started by the [myGrid project](http://www.mygrid.org.uk).
 </map>
 </p>
 <p class="row text-center"> 
-([Download a 
-    (None Apache)](http://www.taverna.org.uk/pages/wp-content/uploads/2013/05/Taverna-Intro-slide1.pptx)
-    presentation slide of the above)
-</p>
+[Download a (Non Apache) presentation slide of the above](http://www.taverna.org.uk/pages/wp-content/uploads/2013/05/Taverna-Intro-slide1.pptx)
+ </p>
 
 The Taverna suite is written in Java and includes the Taverna Engine 
    (used for enacting workflows) that powers both 
@@ -97,11 +95,9 @@ Effectively, Taverna enables a scientist who has a limited background in computi
     <img title="Taverna_Spectrum_Slide" src="/img/Taverna_Spectrum_Slide.png" alt="" width="680" height="400" />
     </a>
 </p>
-<p class="row text-center">
-([Download a (None Apache)](http://www.taverna.org.uk/pages/wp-content/uploads/2013/05/Taverna_Spectrum_Slide.pptx)
-    presentation slide of the above)
+<p class="row text-center"> 
+[Download a (Non Apache)  presentation slide of the above](http://www.taverna.org.uk/pages/wp-content/uploads/2013/05/Taverna_Spectrum_Slide.pptx)
 </p>
-
 See a full list of [Taverna's features](/introduction/taverna-features) or 
    [videos](/documentation/videos/) of Taverna in action.   
 The screenshot shown below shows the Taverna Workbench 2.x during the design of a workflow.
