@@ -32,11 +32,11 @@ If you don't have an [IRC client](https://en.wikipedia.org/wiki/Comparison_of_In
 <!--
 iframe {
   height: 25em;
-  width: 35em;
+  width: 80%;
   resize: both;
   overflow: auto;
 }
 -->
 </style>
 
-<iframe src="http://webchat.freenode.net?channels=%23taverna&uio=MTE9MjA16a" width="647" height="400"></iframe>
+<iframe id="irc" src="http://webchat.freenode.net?channels=%23taverna&uio=MTE9MjA16a" width="647" height="400"></iframe>
