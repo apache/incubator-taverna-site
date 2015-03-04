@@ -18,7 +18,11 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 # IRC channel for Apache Taverna
 
-Some of the Apache Taverna developers and users hang out on the IRC channel [#taverna](irc://irc.freenode.net/%23taverna):
+Some of the Apache Taverna developers and users hang out on the IRC channel [#taverna](irc://irc.freenode.net/%23taverna).
+
+Remember:
+
+> If it didn't happen on the [mailing list](/community/contact), it didn't happen.
 
 server:
 :    `irc.freenode.net`
