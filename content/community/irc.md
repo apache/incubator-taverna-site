@@ -31,8 +31,8 @@ If you don't have an [IRC client](https://en.wikipedia.org/wiki/Comparison_of_In
 <style type="text/css">
 <!--
 iframe {
-  height: 25em;
-  width: 80%;
+  height: 30em;
+  width: 100%;
   resize: both;
   overflow: auto;
 }
