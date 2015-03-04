@@ -4,7 +4,7 @@ ErrorDocument 404 /error_pages/404.html
 
 RewriteEngine On
 RewriteBase /
-#RewriteRule ^(.*)\.html$ $1 [L,R]
-RewriteRule ^(.*)\.cgi$ $1 [L,R]
+RewriteRule ^(.*)\.html$ $1 [L,R]
+#RewriteRule ^(.*)\.cgi$ $1 [L,R]
 RewriteRule ^(.*)/index $1 [L,R]
 
