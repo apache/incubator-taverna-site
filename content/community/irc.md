@@ -20,6 +20,10 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 Some of the Apache Taverna developers and users hang out on the IRC chat channel [#taverna](irc://irc.freenode.net/%23taverna) hosted by [Freenode](http://freenode.net/).
 
+<div id="content"><div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><strong>Logging:</strong>
+The IRC chat is <a href="http://wilderness.apache.org/channels/#logs-#taverna">logged publicly</a>.
+</div></div>
+
 Remember:
 
 > If it didn't happen on the [mailing list](/community/contact), it didn't happen.
