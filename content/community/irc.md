@@ -19,7 +19,8 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 <style type="text/css">
 <!--
 #page {
-margin: 0
+margin: 0;
+padding: 0;
 }
 #irc {
   height: 30em;
@@ -38,7 +39,7 @@ iframe {
 
 # IRC chat for Apache Taverna
 
-Some of the Apache Taverna developers and users hang out on the IRC chat channel [#taverna](irc://irc.freenode.net/%23taverna) hosted by [Freenode](http://freenode.net/).
+Some of the Apache Taverna developers and users hang out on the IRC chat channel [#taverna](irc://irc.freenode.net/%23taverna) on [irc.freenode.net](http://freenode.net/).
 
 <div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><strong> Note:</strong>
 The #taverna IRC channel is <a class="alert-link" href="http://wilderness.apache.org/channels/#logs-#taverna">logged publicly</a>.
@@ -47,12 +48,6 @@ The #taverna IRC channel is <a class="alert-link" href="http://wilderness.apache
 Remember:
 
 > If it didn't happen on the [mailing list](/community/contact), it didn't happen.
-
-server:
-:    `irc.freenode.net`
-
-channel:
-:    `#taverna`
 
 If you don't have an [IRC client](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) you can use the [freenode webchat](http://webchat.freenode.net/?channels=%23taverna&uio=MTE9MjA16a):
 
