@@ -16,7 +16,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-# #Taverna IRC channel
+# IRC channel for Apache Taverna
 
 Some of the Apache Taverna developers and users hang out on the IRC channel [#taverna](irc://irc.freenode.net/%23taverna):
 
