@@ -40,8 +40,8 @@ iframe {
 
 Some of the Apache Taverna developers and users hang out on the IRC chat channel [#taverna](irc://irc.freenode.net/%23taverna) hosted by [Freenode](http://freenode.net/).
 
-<div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><strong> Logging:</strong>
-The IRC chat is <a class="alert-link" href="http://wilderness.apache.org/channels/#logs-#taverna">logged publicly</a>.
+<div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><strong> Note:</strong>
+The #taverna IRC channel is <a class="alert-link" href="http://wilderness.apache.org/channels/#logs-#taverna">logged publicly</a>.
 </div></div>
 
 Remember:
