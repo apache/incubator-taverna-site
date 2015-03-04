@@ -27,6 +27,7 @@ padding-top: 0;
   width: 100%;
   resize: both;
   overflow: auto;
+  padding-bottom: 2em;
 }
 iframe {
   height: 100%;
@@ -55,4 +56,3 @@ If you don't have an [IRC client](https://en.wikipedia.org/wiki/Comparison_of_In
 <iframe id="ircframe" src="http://webchat.freenode.net?channels=%23taverna&uio=MTE9MjA16a" width="647" height="400"></iframe>
 </div>
 
-<p><br><br><!-- some space before copyright footer --></p>
