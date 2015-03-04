@@ -16,9 +16,9 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-# IRC channel for Apache Taverna
+# IRC chat for Apache Taverna
 
-Some of the Apache Taverna developers and users hang out on the IRC channel [#taverna](irc://irc.freenode.net/%23taverna).
+Some of the Apache Taverna developers and users hang out on the IRC chat channel [#taverna](irc://irc.freenode.net/%23taverna) hosted by [Freenode](http://freenode.net/).
 
 Remember:
 
@@ -52,3 +52,5 @@ iframe {
 <div id="irc">
 <iframe id="ircframe" src="http://webchat.freenode.net?channels=%23taverna&uio=MTE9MjA16a" width="647" height="400"></iframe>
 </div>
+
+<p><br><br><!-- some space before copyright footer --></p>
