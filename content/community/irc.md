@@ -21,9 +21,10 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 Some of the Apache Taverna developers and users hang out on IRC:
 
 server:
-:  irc.freenode.net
+:    `irc.freenode.net`
+
 channel:
-:  #taverna
+:    [`#taverna`](irc://irc.freenode.net/%23taverna)
 
 If you don't have an [IRC client](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) you can use the [freenode webchat](http://webchat.freenode.net/?channels=%23taverna&uio=MTE9MjA16a):
 
