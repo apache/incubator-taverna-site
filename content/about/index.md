@@ -28,21 +28,9 @@ Apache Taverna is a [incubator project](http://incubator.apache.org/) within the
 
 The current [Taverna](http://people.apache.org/committers-by-project.html#taverna) commiters are:
 
-<style type="text/css">
-<!--
-.username::after {
-  content: "@apache.org";
-  color: #ddd;
-  
-}
--->
 </style>
 <table class="table table-striped">
 <thead>
-<colgroup>
-  <col class="username" />
-  <col class="fullname" />
-</colgroup>
 </thead>
 <tbody>
     <tr><td>andy</td><td>Andy Seaborne</td></tr>
