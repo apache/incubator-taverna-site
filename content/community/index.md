@@ -82,6 +82,11 @@ Unsubscribing is done in the same way, using the *Unsubscribe* address instead.
 
 See the [mailing list](/community/contact) page for more details.
 
+### IRC chat
+
+Some of the Apache Taverna users and developers occassionally hang out on the
+[IRC channel #taverna](/community/irc). 
+
  
 <a name="reportbugs"></a>
 ### Report or track a bug
