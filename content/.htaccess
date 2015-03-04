@@ -1,10 +1,9 @@
 Redirect /contact/ /community/
 Redirect /code/ /download/code/
-
 ErrorDocument 404 /error_pages/404 
 
 RewriteEngine On
-RewriteCond %{IS_SUBREQ} false
+RewriteBase /
 RewriteRule ^(.*)\.html$ $1 [L,R]
 RewriteRule ^(.*)\.cgi$ $1 [L,R]
 RewriteRule ^(.*)/index $1 [L,R]
