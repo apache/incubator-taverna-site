@@ -2,3 +2,8 @@ Redirect /contact/ /community/
 Redirect /code/ /download/code/
 
 ErrorDocument 404 /error_pages/404 
+
+RewriteEngine On
+RewriteRule (.*).html$ $1 [R=permanent]
+RewriteRule (.*)/index $1 [L,R=permanent]
+
