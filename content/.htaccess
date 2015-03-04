@@ -1,10 +1,9 @@
-Redirect /contact/ /community/
 Redirect /code/ /download/code/
 ErrorDocument 404 /error_pages/404.html
 
 RewriteEngine On
 RewriteBase /
-RewriteRule ^(.*)\.html$ $1 [L,R]
-#RewriteRule ^(.*)\.cgi$ $1 [L,R]
+RewriteRule ^(.*)\.html$ $1 [R]
 RewriteRule ^(.*)/index $1 [L,R]
-
+RewriteRule ^/community/contact.* /community/lists [L,R]
+RewriteRule ^/contact.* /community/lists [L,R]

@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule (.*) closer.cgi/$1

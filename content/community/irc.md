@@ -48,7 +48,7 @@ The #taverna IRC channel is <a class="alert-link" href="http://wilderness.apache
 
 Remember:
 
-> If it didn't happen on the [mailing list](/community/contact), it didn't happen.
+> If it didn't happen on the [mailing list](/community/lists), it didn't happen.
 
 If you don't have an [IRC client](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) you can use the [freenode webchat](http://webchat.freenode.net/?channels=%23taverna&uio=MTE9MjA16a):
 

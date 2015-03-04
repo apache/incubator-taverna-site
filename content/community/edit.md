@@ -43,10 +43,10 @@ of every `.md` file will not be rendered as shown on GitHub.
 To submit your suggested change, raise a 
 [GitHub pull request](https://github.com/apache/incubator-taverna-site/pulls) 
 which will send an email on your behalf to the 
-[dev@taverna mailing list](http://taverna.incubator.apache.org/community/contact/), where
+[dev@taverna mailing list](http://taverna.incubator.apache.org/community/lists#devtaverna), where
 an Apache Taverna committer will review your change before making it live 
 on the Apache Taverna website.
-Please sign up to [dev@taverna](http://taverna.incubator.apache.org/community/contact/)
+Please sign up to [dev@taverna](http://taverna.incubator.apache.org/community/lists#devtaverna)
 to watch for to any follow-up comments about your changes.
 
 
@@ -73,7 +73,7 @@ If you are an existing
 but don't have write access to the pages 
 (e.g. you are not in the `incubator` group), then your suggested edit will be sent as
  an suggested patch to the 
-[dev@taverna](http://taverna.incubator.apache.org/community/contact/) mailing list,
+[dev@taverna](http://taverna.incubator.apache.org/community/lists) mailing list,
 which you should subscribe to in order to respond to any feedback.
 
 
@@ -88,7 +88,7 @@ prefer not to use GitHub, or if you want to suggest larger changes that
 involve renames, etc.
 
 Note that in this case your suggested edit will be sent as an suggested patch to the 
-[dev@taverna](http://taverna.incubator.apache.org/community/contact/) mailing list, 
+[dev@taverna](http://taverna.incubator.apache.org/community/lists) mailing list, 
 which you should subscribe to in order to respond to any feedback.
 
 
@@ -131,7 +131,7 @@ Linking tips:
       * <del>*"Code generation is automatic. More information is in [svn](#)"*</del>, try: 
       * *"Code is generated automatically by the [CodeGenerator](#) class"*
  * Don't duplicate information. Link to existing pages - but provide sufficient context.
-   * Example: *"Contact the [dev@taverna mailing list](/contact) for questions about the Maven plugin"*
+   * Example: `Contact the [dev@taverna mailing list](/community/lists) for questions about the Maven plugin"`
  * Everything is easier with a link. 
    * Don't just say "You can find more in the documentation" - link to the right place in the documentation.
    * Deep-links are good, unless the target pages becomes confusing out of context
@@ -151,7 +151,7 @@ link to `/introduction/why-use-workflows` rather than `/introduction/why-use-wor
 If you are adding a new page:
 
  * Make sure the page has a short, neutral and sensible URI
-   * e.g. `community/contact` rather than <del>`the%20taverna%20community/contact-us-2`</del>
+   * e.g. `community/lists` rather than <del>`the%20taverna%20community/contact-us-2`</del>
  * Make sure the page is linked from/to relevant existing Apache Taverna pages (not just the hierarchical parent)
    * For example, if `/code` is describing the source code, and `/community` different ways to contribute, `/code` should link to the `/community` page and vice versa.
  * Ensure the page is included in the [navigation menu bar](https://github.com/apache/incubator-taverna-site/blob/trunk/templates/default_navbar.html) or in the listing of a higher-level page.

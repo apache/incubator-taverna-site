@@ -34,7 +34,7 @@ there are opportunities for you to [get in touch and ask questions](#contact),
 <a name="mailinglists"></a>
 ##Mailing Lists##
 
-You are highly encouraged to participate on the Apache Taverna [mailing lists](/community/contact):
+You are highly encouraged to participate on the Apache Taverna [mailing lists](/community/lists):
 
 <table class="table table-condensed">
 <tr>
@@ -44,7 +44,7 @@ You are highly encouraged to participate on the Apache Taverna [mailing lists](/
     <a class="btn btn-primary" href="mailto:users-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
     <a class="btn btn-default" href="mailto:users-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> 
     <a class="btn btn-default" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archive</a> 
-    <a class="btn btn-link" href="/community/contact/#userstaverna" role="button">More info</a> 
+    <a class="btn btn-link" href="/community/lists#userstaverna" role="button">More info</a> 
   </td>
 </tr>
 <tr>
@@ -54,7 +54,7 @@ You are highly encouraged to participate on the Apache Taverna [mailing lists](/
     <a class="btn btn-primary" href="mailto:dev-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
     <a class="btn btn-default" href="mailto:dev-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> 
     <a class="btn btn-default" href="http://apache-taverna-dev.markmail.org/search/?q=" role="button">Archive</a> 
-    <a class="btn btn-link" href="/community/contact/#devtaverna" role="button">More info</a> 
+    <a class="btn btn-link" href="/community/lists#devtaverna" role="button">More info</a> 
   </td>
 
 </tr>
@@ -65,7 +65,7 @@ You are highly encouraged to participate on the Apache Taverna [mailing lists](/
     <a class="btn btn-primary" href="mailto:commits-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
     <a class="btn btn-default" href="mailto:commits-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> 
     <a class="btn btn-default" href="http://www.mail-archive.com/commits@taverna.incubator.apache.org/" role="button">Archive</a> 
-    <a class="btn btn-link" href="/community/contact/#commitstaverna" role="button">More info</a> 
+    <a class="btn btn-link" href="/community/lists#commitstaverna" role="button">More info</a> 
   </td>
 </tr>
 </table>
@@ -80,7 +80,7 @@ To receive messages from a list, and to be able to post to it, you need to be *s
 
 Unsubscribing is done in the same way, using the *Unsubscribe* address instead.
 
-See the [mailing list](/community/contact) page for more details.
+See the [mailing list](/community/lists) page for more details.
 
 ### IRC chat
 
@@ -92,19 +92,18 @@ Some of the Apache Taverna users and developers occassionally hang out on the
 ### Report or track a bug
 
 Taverna's Apache Jira is still being setup.
-In the mean time the best place to report bugs is on the mailing lists.
+In the mean time, the best place to report bugs is on the mailing lists.
 
-The previous NONE Apache Taverna Jira can be found at:
+The previous (non-Apache) Taverna Jira can be found at:
 <http://dev.mygrid.org.uk/issues/browse/T3>
   
-<a name="contribute"></a>
 ## Contribute
 
 <a name="contribute-workflow"></a>
 ### Contribute a workflow
 
 The best place to contribute Taverna workflows is on 
-   [My Experiment](http://www.myexperiment.org). 
+   [myExperiment](http://www.myexperiment.org). 
 
 <a name="contribute-plugin"></a>
 ### Contribute a plugin ###
