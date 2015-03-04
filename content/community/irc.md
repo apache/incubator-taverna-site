@@ -19,8 +19,8 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 <style type="text/css">
 <!--
 #page {
-margin: 0;
-padding: 0;
+margin-top: 0;
+padding-top: 0;
 }
 #irc {
   height: 30em;
