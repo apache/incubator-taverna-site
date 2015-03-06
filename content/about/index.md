@@ -34,17 +34,17 @@ PPMC) are:
 <thead>
 </thead>
 <tbody>
-    <tr><td>andy</td><td>Andy Seaborne</td></tr>
-    <tr><td>mattmann</td><td>Chris Mattmann</td></tr>
-    <tr><td>suresh</td><td>Suresh Srinivas</td></tr>
-    <tr><td>smarru</td><td>Suresh Marru</td></tr>
-    <tr><td>mpierce</td><td>Marlon Pierce</td></tr>
+  <tr><td>andy</td><td>Andy Seaborne</td></tr>
+  <tr><td>mattmann</td><td>Chris Mattmann</td></tr>
+  <tr><td>suresh</td><td>Suresh Srinivas</td></tr>
+  <tr><td>smarru</td><td>Suresh Marru</td></tr>
+  <tr><td>mpierce</td><td>Marlon Pierce</td></tr>
 	<tr><td>alaninmcr</td><td>Alan R Williams</td></tr>
 	<tr><td>anenadic</td><td>Aleksandra Nenadic</td></tr>
 	<tr><td>brenninc</td><td>Christian Y. Brenninkmeijer</td></tr>
 	<tr><td>redmitry</td><td>Dmitriy Repchevsky</td></tr>
 	<tr><td>dkf</td><td>Donal K. Fellows</td></tr>
-	<tr><td>ianwdunlop</td><td>Ian Dunlop<td></tr>
+	<tr><td>ianwdunlop</td><td>Ian Dunlop</td></tr>
 	<tr><td>jgarrido</td><td>Julián Garrido</td></tr>
 	<tr><td>hainesr</td><td>Robert Haines</td></tr>
 	<tr><td>shoaibsufi</td><td>Shoaib Sufi</td></tr>
