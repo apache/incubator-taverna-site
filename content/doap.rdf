@@ -29,7 +29,7 @@
     <asfext:pmc rdf:resource="http://incubator.apache.org" />
     <shortdesc>Taverna is a domain-independent suite of tools used to design and execute data-driven scientific workflows,  combining WSDL/REST web services and local tools.  </shortdesc>
     <description>Taverna include the Workbench (desktop client application), the Command Line Tool (for a quick execution of workflows from a terminal), the Server (for remote execution of workflows) and the Player (Web interface plugin for submitting workflows for remote execution). The Taverna Platform gives OSGi-based programmatic access to the Taverna workflow engine. </description>
-    <mailing-list rdf:resource="http://taverna.incubator.apache.org/contact/" />
+    <mailing-list rdf:resource="http://taverna.incubator.apache.org/community/lists" />
     <download-page rdf:resource="http://taverna.incubator.apache.org/download/" />
     <programming-language>Java</programming-language>
     <category rdf:resource="http://projects.apache.org/category/network-client" />
@@ -37,5 +37,89 @@
     <category rdf:resource="http://projects.apache.org/category/http" />
     <category rdf:resource="http://projects.apache.org/category/osgi" />
     <category rdf:resource="http://projects.apache.org/category/xml" />
+    <asfext:implements><asfext:Standard>
+      <asfext:title>PROV-O: The PROV Ontology</asfext:title>
+      <asfext:body>W3C</asfext:body>
+      <asfext:id>prov-o</asfext:id>
+      <asfext:url rdf:resource="http://www.w3.org/TR/prov-o/"/>
+    </asfext:Standard></asfext:implements>
+    <asfext:implements><asfext:Standard>
+      <asfext:title>Research Object Bundle 1.0</asfext:title>
+      <asfext:body>researchobject.org</asfext:body>
+      <asfext:id>bundle</asfext:id>
+      <asfext:url rdf:resource="https://w3id.org/bundle/"/>
+    </asfext:Standard></asfext:implements>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/incubator-taverna-commandline.git"/>
+        <browse rdf:resource="https://github.com/apache/incubator-taverna-commandline/"/>
+      </GitRepository>
+    </repository>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/incubator-taverna-common-activities.git"/>
+        <browse rdf:resource="https://github.com/apache/incubator-taverna-common-activities/"/>
+      </GitRepository>
+    </repository>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/incubator-taverna-engine.git"/>
+        <browse rdf:resource="https://github.com/apache/incubator-taverna-engine/"/>
+      </GitRepository>
+    </repository>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/incubator-taverna-language.git"/>
+        <browse rdf:resource="https://github.com/apache/incubator-taverna-language/"/>
+      </GitRepository>
+    </repository>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git"/>
+        <browse rdf:resource="https://github.com/apache/incubator-taverna-maven-parent/"/>
+      </GitRepository>
+    </repository>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/incubator-taverna-osgi.git"/>
+        <browse rdf:resource="https://github.com/apache/incubator-taverna-osgi/"/>
+      </GitRepository>
+    </repository>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/incubator-taverna-plugin-bioinformatics.git"/>
+        <browse rdf:resource="https://github.com/apache/incubator-taverna-plugin-bioinformatics/"/>
+      </GitRepository>
+    </repository>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/incubator-taverna-plugin-component.git"/>
+        <browse rdf:resource="https://github.com/apache/incubator-taverna-plugin-component/"/>
+      </GitRepository>
+    </repository>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/incubator-taverna-server.git"/>
+        <browse rdf:resource="https://github.com/apache/incubator-taverna-server/"/>
+      </GitRepository>
+    </repository>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench.git"/>
+        <browse rdf:resource="https://github.com/apache/incubator-taverna-workbench/"/>
+      </GitRepository>
+    </repository>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench-common-activities.git"/>
+        <browse rdf:resource="https://github.com/apache/incubator-taverna-workbench-common-activities/"/>
+      </GitRepository>
+    </repository>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench-product.git"/>
+        <browse rdf:resource="https://github.com/apache/incubator-taverna-workbench-product/"/>
+      </GitRepository>
+    </repository>
   </Project>
 </rdf:RDF>
