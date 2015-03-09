@@ -58,7 +58,7 @@ However, this format also has its caveats, like no schema,
 
 We have therefore decided to form a new serialisation format for workflows, called **SCUFL2**.
 
-##Overview>
+##Overview
 
 SCUFL2 consists of:
 
