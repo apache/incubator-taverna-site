@@ -1,109 +1,15 @@
-          <!-- Static navbar -->
-      <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-			<a class="navbar-brand" href="/"><img src="/img/taverna-logo-145x134.png" alt="">Apache Taverna</a>
-			  
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">              
-                <li class="dropdown">
-					<a href="/introduction" data-toggle="dropdown" role="button" aria-expanded="false">Introduction<span class="caret"></span></a>
+               <li class="dropdown">
+					<a href="/documentation/scufl2" data-toggle="dropdown" role="button" aria-expanded="false">Scufl2<span class="caret"></span></a>
 					<ul class="dropdown-menu"  role="menu">
-					   <li><a href="/introduction/taverna-features">Taverna features</a></li>
-					   <li><a href="/introduction/why-use-workflows">Why use workflows?</a></li>
-					   <li><a href="/introduction/what-is-in-silico-experimentation">What is ‘in silico’ experimentation?</a></li>
-					   <li><a href="/introduction/what-is-a-workflow-management-system">What is a Workflow Management System?</a></li>
-					   <li><a href="/introduction/how-can-taverna-help-me">How can Taverna help me?</a></li>
-					   <li><a href="/introduction/services-in-taverna">Services in Taverna</a></li>
-					   <li><a href="/introduction/related-projects">Related projects</a></li>
-					   <li><a href="/introduction/chemistry-web-services">Chemistry-web-services</a></li>
-                       <li><a href="/introduction/taverna-in-use">Taverna in use</a></li>
-				       <li><a href="/introduction/works-with">Works with...</a></li>
-                       <li><a href="/introduction/roadmap">Raod Map</a></li>						
+					   <li><a href="/documentation/scufl2/language">Language</a></li>
+					   <li><a href="/documentation/scufl2/bundle">Workflow Bundle</a></li>
+					   <li><a href="/documentation/scufl2/workflow">Workflow</a></li>
+					   <li><a href="/documentation/scufl2/profile">Profile</a></li>
+					   <li><a href="/documentation/scufl2/taverna_bundle">Taverna Bundle</a></li>
+					   <li><a href="/documentation/scufl2/datalink">Datalink</a></li>
+					   <li><a href="/documentation/scufl2/api">API</a></li>
+					   <li><a href="/ns">namespaces</a></li>
+                       <li><a href="/documentation/scufl2/ontology">Ontology</a></li>
+				       <li><a href="/download/scufl2">Download</a></li>
 					</ul>
 				</li>
-                <li class="dropdown">
-					<a href="/documentation" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documentation<span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-					  <li><a href="/documentation/glossary">Glossary</a></li>
-					  <li><a href="/documentation/quick-start-guide">Quick start guide</a></li>
-					  <li><a href="/documentation/components">Components</a></li>
-					  <li><a href="/documentation/interaction">Interactions</a></li>
-					  <li><a href="/documentation/tutorials">Tutorials</a></li>
-					  <li><a href="/documentation/videos">Videos</a></li>
-					  <li><a href="/documentation/example-workflows">Example workflows</a></li>
-					  <li><a href="/documentation/service-sets">Service sets</a></li>
-					  <li><a href="/documentation/provenance">Provenance management</a></li>
-					  <li><a href="/documentation/command-line">command-line</a></li>
-					  <li><a href="/documentation/server">Taverna Server</a></li>
-					  <li><a href="/documentation/taverna-player">Taverna Player</a></li>
-					  <li><a href="/documentation/plugins">Plugins</a></li>
-					  <li><a href="/documentation/training-and-workshops">Training and workshops</a></li>
-					  <li><a href="/documentation/web-service-developers">Web service developers</a></li>
-					  <li><a href="/documentation/#tools">Tools and Services</a></li>
-				  </ul>
-    			</li>
-                <li class="dropdown">
-					<a href="/download" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Download<span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-					  <li><a href="/download">Which Taverna to use</a></li>
-					  <li><a href="/download/workbench">TavernaWorkbench</a></li>
-					  <li><a href="/download/language">Taverna's SCUFL2 Language</a></li>
-					  <li><a href="/download/command-line-tool">Taverna Command Line</a></li>
-					  <li><a href="/download/server">Taverna Server</a></li>
-					  <li><a href="/documentation/plugins">Plugins</a></li>
-					  <li><a href="/download/code">Source Code</a></li>
-					  <li><a href="/download/maven">Maven Repository</a></li>
-					  <li><a href="/download/system-requirements">System Requirements</a></li>
-					  <li><a href="/download/pre-apache">Taverna 2.x (Pre-Apache)</a></li>
-				  </ul>
-				</li>
-                <li class="dropdown">
-					<a href="/community" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community<span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-					  <li><a href="/community#mailinglists">Mailing Lists</a></li>
-					  <li><a href="/community#contribute">Contribute</a></li>
-					  <li><a href="/community#reportbugs">Report a Bug</a></li>
-				  </ul>
-				</li>
-            </ul>
-             
-              <form >
-                      
-                      
-                      <!--<input type="submit" id="submit" value="Search">-->
-                    </form>
-              
-              <form class="navbar-form navbar-right" role="search"
-                  name="search" id="search" action="http://www.google.com/search" method="get">
-                      <input value="taverna.incubator.apache.org" name="sitesearch" type="hidden"/>
-                      <div class="form-group input-group">
-                          <input type="text" name="q" id="query" placeholder="Search" class="form-control">
-						  <span class="input-group-btn">
-                            <button type="submit" class="btn btn-default">Search</button>
-						  </span>
-                      </div>                  
-              </form>
-
-             <ul class="nav navbar-nav navbar-right">                
-            <li class="dropdown">
-                <a href="http://www.apache.org/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ASF<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="http://www.apache.org/">Apache Software Foundation</a></li>
-                    <li><a href="http://www.apache.org/foundation/how-it-works.html">How it works</a></li>
-                    <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
-                    <li><a href="http://www.apache.org/foundation/sponsorship.html">Become a Sponsor</a></li>
-                    <li><a href="http://incubator.apache.org/projects/taverna.html">Taverna Incubation Status</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-->
-      </nav>
