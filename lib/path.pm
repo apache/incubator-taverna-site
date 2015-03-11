@@ -5,6 +5,8 @@ package path;
 our @patterns = (
     #Using different templates
 	[qr!/websiteMigration/test\.md(?:text)?$!, single_narrative => { template => "wide.html" }],
+    [qr!/documentation/scufl2/.*\.md(?:text)?$!, single_narrative => { template => "scufl2_narrative.html" }],
+    [qr!/download/scufl2/.*\.md(?:text)?$!, single_narrative => { template => "scufl2_narrative.html" }],
 	[qr!/introduction/.*\.md(?:text)?$!, single_narrative => { template => "single_with_taverna2_warning.html" }],
     [qr!/documentation/.*\.md(?:text)?$!, single_narrative => { template => "single_with_taverna2_warning.html" }],
     
