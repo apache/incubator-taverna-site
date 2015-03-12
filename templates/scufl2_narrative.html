@@ -14,7 +14,13 @@
 
     <div id="page" class="container">
        <h1>{% block tagline %}{{ headers.title }}{% endblock %}</h1>
-      {% block content %}<div id="content">{{ content|markdown }}</div>{% endblock %}
+		<div class="col-md-3">
+          {% extends "scufl2_menu.html" %}
+          {% endextends %}
+		</div>
+		<div class="col-md-9">
+		   {% block content %}<div id="content">{{ content|markdown }}</div>{% endblock %}
+	    </div>		
 
     </div>
 
