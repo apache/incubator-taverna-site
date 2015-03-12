@@ -16,10 +16,8 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-<p>
-This site hosts the <a href="http://taverna.incubator.apache.org/">Apache Taverna (incubating)</a> XML
-namespaces and ontologies, including:
-</p>
+`/ns/` hosts the [Apache Taverna (incubating)](/)
+XML namespaces and ontologies, including:
 
 <ul>
  <li> <a href="2008/xml/t2flow">http://taverna.sf.net/2008/xml/t2flow</a></li>
@@ -43,8 +41,9 @@ XSDs or OWL files.
 
 <h2>ns.taverna.org.uk and apache.org</h2>
 <p>
-The namespaces have traditionally been at http://ns.taverna.org.uk/ - since October 2014
-Taverna has joined the <a href="https://www.apache.org/">Apache Software Foundation</a> 
+The namespaces have traditionally been at
+<code>http://ns.taverna.org.uk/</code> - since October 2014 Taverna has joined
+the <a href="https://www.apache.org/">Apache Software Foundation</a> 
 as an incubator project. The existing Taverna websites 
 originally hosted by <a href="http://www.mygrid.org.uk/">myGrid</a> at
 University of Manchester is in the process of moving to be 
@@ -97,8 +96,9 @@ and <a href="http://dev.mygrid.org.uk/wiki/display/developer/Taverna+Workflow+Bu
   Other</code> redirects to a <a
   href="/scufl2info/">scufl2info guessing service</a> that constructs a
   minimal Linked Data description of the resource based on information
-  embedded in the URI. See <a href="https://github.com/stain/incubator-taverna-site/tree/master/content/scufl2info">/scufl2-info/</a> for more information and source code.
-</p>
+  embedded in the URI. See <a
+  href="https://github.com/apache/incubator-taverna-site/tree/trunk/scripts/scufl2-info">scufl2-info</a>
+  for more information and source code.  </p>
 
 <p>
 For example. the URI below identifies the workflow run with a <a href="http://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a> <code>385c794c-ba11-4007-a5b5-502ba8d14263</code>:
