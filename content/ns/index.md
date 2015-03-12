@@ -1,9 +1,5 @@
-<html>
-  <head>
-      <title>Apache Taverna namespaces</title>
-
-      <!--
-   Licensed to the Apache Software Foundation (ASF) under one or more
+Title: Apache Taverna namespaces</title>
+Notice: Licensed to the Apache Software Foundation (ASF) under one or more
    contributor license agreements.  See the NOTICE file distributed with
    this work for additional information regarding copyright ownership.
    The ASF licenses this file to You under the Apache License, Version 2.0
@@ -17,11 +13,6 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
--->
-
-  </head>
-  <body>
-<h1>Apache Taverna (incubating) namespaces</h1>
 
 <p>
 This site hosts the <a href="http://taverna.incubator.apache.org/">Apache Taverna (incubating)</a> XML
@@ -132,6 +123,3 @@ if you are unable to locate the corresponding definitions for such a namespace,
 or have other questions about our namespaces, schemas and ontologies.
 </p>
 
-
-</body>
-</html>
