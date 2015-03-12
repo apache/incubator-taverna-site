@@ -13,7 +13,13 @@
     {% endextends %}
 
     <div id="page" class="container">
-       <h1>{% block tagline %}{{ headers.title }}{% endblock %}</h1>
+		<div class="row">
+			<div class="hidden-xs col-sm-3 col-md-2 col-lg-2">
+			</div>
+			<div class="col-xs-12 col-sm-9 col-md-10 col-lg-10">
+			   <h1>{% block tagline %}{{ headers.title }}{% endblock %}</h1>
+			</div>		
+        <div>
 		<div class="row">
 			<div class="hidden-xs col-sm-3 col-md-2 col-lg-2">
 			  {% extends "scufl2_menu.html" %}
