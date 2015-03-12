@@ -3,3 +3,7 @@
 	margin-right: 8px;
     display: inline;
 }
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
