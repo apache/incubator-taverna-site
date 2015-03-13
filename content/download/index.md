@@ -24,7 +24,7 @@ There are several Taverna tools that you can download:
      (None Apache) Taverna 2.5 Workbench is the latest series of the Workbench; 
      it is highly recommended that you use this version if you are new to Taverna, 
      or to migrate to this version if you have used an earlier Taverna Workbench before.
- - [Taverna Language](/download/language) (Soon to be released) Language used to specify 
+ - [Taverna Scufl2 Language](/download/scufl2) (snapshot release) Language used to specify 
      Taverna Workflows
  - [Taverna Command Line Tool](/download/command-line-tool) (Not yet Apache) enables you to run
      workflows from a command prompt. 
