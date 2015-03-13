@@ -1,4 +1,5 @@
 Redirect /code/ /download/code/
+Redirect /code /download/code
 ErrorDocument 404 /error_pages/404.html
 
 RewriteEngine On
