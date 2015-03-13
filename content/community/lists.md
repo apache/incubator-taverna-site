@@ -57,7 +57,7 @@ questions about how to do something in the Workbench, or <strong>raise issues</s
 
 <em>dev@taverna.incubator.apache.org</em> is intended for those actively developing Apache Taverna, 
 Apache Taverna plugins or otherwise are using Apache Taverna APIs.  Use this list to discuss aspects as
-design/architecture/integration/code - even if you are not currently an Apache Taverna [committer](about).
+design/architecture/integration/code - even if you are not currently an Apache Taverna [committer](/community).
 
 
   - **Subscribe** by sending an empty email to [dev-subscribe@taverna.incubator.apache.org](mailto:dev-subscribe@taverna.incubator.apache.org)
