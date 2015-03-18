@@ -65,14 +65,14 @@ If you are interested in domain specific versions of Taverna as done in
 ##Taverna Command Line 2.5 for Windows 64-bit
 
  - [taverna-commandline-core-2.5.0-winx64.exe](http://www.taverna.org.uk/download/command-line-tool/2-5/core/#download-windows)
- - SHA1: 61fbd2d523b4b6d8b609981775a318ae5f52d5b4
+ - SHA1: 37491b8161b815407f9c058c4ab410cec2508297
  - MD5: 5f6348b2d87d163443d624cee0f1db02
 
 <a name="windows32"></a>
 ##Taverna Command Line 2.5 for Windows 32-bit 
 
  - [taverna-commandline-core-2.5.0-wini386.exe](http://www.taverna.org.uk/download/command-line-tool/2-5/core/#download-windows)
- - SHA1: b74d21ef3cff3550bdad4b948982e8ca012527d6
+ - SHA1: e8ef54855d721b81518f8999f3090114675c05b2
  - MD5: 438ccd89979c26873a600aa5f52fa965
 
 Please [contact us](/community) to confirm continued interest in a 32 bit installer
@@ -81,21 +81,21 @@ Please [contact us](/community) to confirm continued interest in a 32 bit instal
 ##Taverna Command Line 2.5 for Mac OS X
 
  - [taverna-commandline-core-2.5.0-osx.tgz](http://www.taverna.org.uk/download/command-line-tool/2-5/core/#download-mac)
- - SHA1: 19ed9725c283c100bae2133af5fc85ea533984a6
+ - SHA1: e9acb3a48db9ccb39dac7d06d5487a1f5070041e
  - MD5: b448e35542b1e8cc56492fa04577671d
 
 <a name="linuxdeb"></a>
 ##Taverna Command Line 2.5 for Linux RPM package
 
  - [taverna-commandline-core-2.5.0-linux_x86_64.rpm](http://www.taverna.org.uk/download/command-line-tool/2-5/core/#download-linux)
- - SHA1: 19ed9725c283c100bae2133af5fc85ea533984a6
+ - SHA1: 3c8da38e7febdf60fbe34dfa2113d9c33abb0e12
  - MD5: 0b40e88c2cde85ae6482069d70009387
 
 <a name="linuxrpm"></a>
 ##Taverna Command Line 2.5 for Linux Debian package
 
  - [taverna-commandline-core-2.5.0-linux_amd64.deb](http://www.taverna.org.uk/download/command-line-tool/2-5/core/#download-linux)
- - SHA1: bd417d8bc71d96aa111efc51447259f3ed551c1d
+ - SHA1: 52238b88cfb234618dbb6354f454f691458d92b2
  - MD5: f9242892270688849f9d2ccf38e9d84a
 
 <a name="#zip"></a>
@@ -105,5 +105,5 @@ This is operating system and architecture-neutral binary.
 Check the standalone's [system requirements](/download/system-requirements#standalone).
 
  - [taverna-commandline-core-2.5.0-standalone.zip](http://www.taverna.org.uk/download/command-line-tool/2-5/core/#download-binary)
- - SHA1: 113002d562827e3f560daf3bf665df71b4e0a00b
+ - SHA1: 3311b223a6a1d75c578500030b6a2c75a7413cf8
  - MD5: d4b283fdb60bc830fd2b60b163afd590
