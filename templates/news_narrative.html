@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% extends "default_head.html" %}
+    {% endextends %}
+
+  <body>
+
+    {% extends "navbar.html" %}
+    {% endextends %}
+
+    <div id="page" class="container">
+		<div class="row">
+			<div class="hidden-xs col-sm-3 col-md-2 col-lg-2">
+			</div>
+			<div class="col-xs-12 col-sm-9 col-md-10 col-lg-10">
+			   <h1>{% block tagline %}{{ headers.title }}{% endblock %}</h1>
+			</div>		
+        <div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+			   {% block content %}<div id="content">{{ content|markdown }}</div>{% endblock %}
+			</div>		
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+               <a class="twitter-timeline" href="https://twitter.com/ApacheTaverna" data-widget-id="578527934060847105">Tweets by @ApacheTaverna</a>
+               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+		</div>
+    </div>
+
+    {% extends "default_footer.html" %}
+    {% endextends %}
+
+    {% extends "default_scripts.html" %}
+    {% endextends %}
+  </body>
+</html>
