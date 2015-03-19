@@ -39,7 +39,7 @@ You are highly encouraged to participate on the Apache Taverna [mailing lists](/
 <table class="table table-condensed">
 <tr>
   <th> Users </th>
-  <td> Build/run workflows, Taverna Server, services</td>
+  <td> Build/run workflows; analytical science; services</td>
   <td>
     <a class="btn btn-primary" href="mailto:users-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
     <a class="btn btn-default" href="mailto:users-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> 
@@ -49,7 +49,7 @@ You are highly encouraged to participate on the Apache Taverna [mailing lists](/
 </tr>
 <tr>
   <th> Developers &nbsp;</th>
-  <td> Coding on/with Taverna  &nbsp;</td>
+  <td> Coding on/with Taverna; workflow/provenance science  &nbsp;</td>
   <td>
     <a class="btn btn-primary" href="mailto:dev-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
     <a class="btn btn-default" href="mailto:dev-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> 
@@ -60,7 +60,7 @@ You are highly encouraged to participate on the Apache Taverna [mailing lists](/
 </tr>
 <tr>
   <th> Commits  &nbsp;</th>
-  <td> Code changes, automated build reports  &nbsp;</td>
+  <td> Code changes; automated build reports  &nbsp;</td>
   <td>
     <a class="btn btn-primary" href="mailto:commits-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a> 
     <a class="btn btn-default" href="mailto:commits-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> 
