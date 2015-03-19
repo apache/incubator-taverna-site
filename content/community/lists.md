@@ -94,5 +94,5 @@ This list is high-traffic, from 100 to 1000 messages pr month.
 
 <em>private@taverna.incubator.apache.org</em> can be used for sensitive information that should not be made public
 in mailing list archives. Only members of the [Apache Taverna PPMC](/about/) will receive the email. Only use this list
-if the public lists cannot be used, for instance for business-sensitive matters, 
-security concerns or to report personal conflicts.
+if the public lists cannot be used, for instance for business-sensitive matters, grant proposals and collaborations,
+security concerns or to report concerns on personal conflicts/abuse.
