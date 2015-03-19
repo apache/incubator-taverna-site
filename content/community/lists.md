@@ -34,9 +34,9 @@ would be well advised to join both <em>dev@taverna</em> and <em>users@taverna</e
 <a class="btn btn-default" href="http://mail-archives.apache.org/mod_mbox/incubator-taverna-users/" role="button">List info</a>
 <a class="btn btn-default" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archives</a>
 
-<em>users@taverna.incubator.apache.org</em> is intended for everyone who are using Taverna for
-designing and running workflows. For instance, you may ask about your <strong>workflow design</strong>,
-questions about how to do something in the Workbench, or <strong>raise issues</strong> you experience when using Taverna.
+*users@taverna.incubator.apache.org* is intended for everyone who are using Taverna for
+designing and running workflows. For instance, you may ask about your **workflow design** or **scientific analysis**,
+questions about how to do something in the **Workbench**, or **raise issues** you experience when using Taverna.
 
 
   - **Subscribe** by sending an empty email to [users-subscribe@taverna.incubator.apache.org](mailto:users-subscribe@taverna.incubator.apache.org)
@@ -55,9 +55,12 @@ questions about how to do something in the Workbench, or <strong>raise issues</s
 <a class="btn btn-default" href="http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/" role="button">List info</a>
 <a class="btn btn-default" href="http://apache-taverna-dev.markmail.org/search/?q=" role="button">Archives</a>
 
-<em>dev@taverna.incubator.apache.org</em> is intended for those actively developing Apache Taverna, 
-Apache Taverna plugins or otherwise are using Apache Taverna APIs.  Use this list to discuss aspects as
-design/architecture/integration/code - even if you are not currently an Apache Taverna [committer](/community).
+<em>dev@taverna.incubator.apache.org</em> is intended for those **developing** with or on Apache Taverna, 
+Apache Taverna **plugins** or using Apache Taverna **APIs**. Discussions about the **science of workflows and provenance**
+are also welcome here. 
+
+Taverna's developer community use this list to discuss Taverna's future design/architecture/integration/code - 
+**feel free to join** discussions and votes, even if you are not formally a Apache Taverna [committer](/community).
 
 
   - **Subscribe** by sending an empty email to [dev-subscribe@taverna.incubator.apache.org](mailto:dev-subscribe@taverna.incubator.apache.org)
