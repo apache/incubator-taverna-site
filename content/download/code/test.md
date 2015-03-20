@@ -16,6 +16,27 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
+<script  onload="check()"/>
+function check() {
+   var x = document.getElementsByClassName("gitlink");
+   var i;
+   if ( document.getElementById("picker").value == "Apache Commiter"){
+      for (i = 0; i < x.length; i++) {
+         x[i].value = "https://git-wip-us.apache.org/repos/asf/" +x[i].id + ".git";
+      }
+   }
+   if ( document.getElementById("picker").value == "Apache git"){
+      for (i = 0; i < x.length; i++) {
+         x[i].value = "git://git.apache.org/" +x[i].id + ".git";
+      
+   }
+   if ( document.getElementById("picker").value == "Github"){
+      for (i = 0; i < x.length; i++) {
+        x[i].value = "https://github.com/apache/" +x[i].id + ".git";
+      }
+   }
+}
+</script>
 Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org/), with read-only mirroring to 
 [GitHub](https://github.com/apache/?query=taverna-).
 
@@ -26,68 +47,132 @@ Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org
 
 The <strong>Apache Taverna</strong> source code is organized into multiple [git](http://www.git-scm.com/) repositories:
 
+<select id="picker" onChange='check()'>
+  <option value="Apache Commiter">Apache Commiter</option>
+  <option value="Apache git">Apache git</option>
+  <option value="Github">Github</option>
+</select>
 
 <table class="table table-hover">
-<tr><td><a href="https://github.com/apache/incubator-taverna-maven-parent">incubator-taverna-maven-parent</a> 
-    <td><a href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git">HTTPS clone URL</a> 
-    <a href="git://git.apache.org/incubator-taverna-maven-parent.git">GIT clone URL</a> 
-    <a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-maven-parent">Browse</a>
-    <td>Common Maven parent for the below</tr>
-<tr><td><a href="https://github.com/apache/incubator-taverna-language">incubator-taverna-language</a> 
-    <td><a class="btn btn-default" href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-language.git">https</a> 
-    <a class="btn btn-default" href="git://git.apache.org/incubator-taverna-language.git">git</a> 
-    <a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-language">Browse</a>
-      <td>API for workflow definitions (SCUFL2) and workflow inputs/outputs (DataBundle)</tr>
-<tr><td><a href="https://github.com/apache/incubator-taverna-osgi">incubator-taverna-osgi</a> 
-    <td><a class="btn btn-default" href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-osgi.git">https</a> 
-    <a class="btn btn-default" href="git://git.apache.org/incubator-taverna-osgi.git">git</a> 
-    <a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-osgi">Browse</a>
-      <td>OSGi-based plugin system</tr>
-<tr><td><a href="https://github.com/apache/incubator-taverna-engine">incubator-taverna-engine</a> 
-    <td><a class="btn btn-default" href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-engine.git">https</a> 
-    <a class="btn btn-default" href="git://git.apache.org/incubator-taverna-engine.git">git</a> 
-    <a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-engine">Browse</a>
-      <td>Taverna workflow engine</tr>
-<tr><td><a href="https://github.com/apache/incubator-taverna-common-activities">incubator-taverna-common-activities</a>
-    <td><a class="btn btn-default" href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-common-activities.git">https</a> 
-    <a class="btn btn-default" href="git://git.apache.org/incubator-taverna-common-activities.git">git</a> 
-    <a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-common-activities">Browse</a>
-      <td>Common activity implementation for engine (e.g. WSDL, REST, Tool, Interaction)</tr>
-<tr><td><a href="https://github.com/apache/incubator-taverna-commandline">incubator-taverna-commandline</a> 
-    <td><a class="btn btn-default" href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-commandline.git">https</a> 
-    <a class="btn btn-default" href="git://git.apache.org/incubator-taverna-commandline.git">git</a> 
-    <a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-commandline">Browse</a>
-      <td>Command line for running Taverna workflows</tr>
-<tr><td><a href="https://github.com/apache/incubator-taverna-server">incubator-taverna-server</a> 
-    <td><a class="btn btn-default" href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-server.git">https</a> 
-    <a class="btn btn-default" href="git://git.apache.org/incubator-taverna-server.git">git</a> 
-    <a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-server">Browse</a>
-      <td>A REST and WSDL service for running Taverna workflows</tr>
-<tr><td><a href="https://github.com/apache/incubator-taverna-workbench">incubator-taverna-workbench</a> 
-    <td><a class="btn btn-default" href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench.git">https</a> 
-    <a class="btn btn-default" href="git://git.apache.org/incubator-taverna-workbench.git">git</a> 
-    <a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench">Browse</a>
-      <td>Graphical workbench for editing and running Taverna workflows</tr>
-<tr><td><a href="https://github.com/apache/incubator-taverna-workbench-common-activities">incubator-taverna-workbench-common-activities</a>
-    <td><a class="btn btn-default" href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench-common-activities.git">https</a> 
-    <a class="btn btn-default" href="git://git.apache.org/incubator-taverna-workbench-common-activities.git">git</a> 
-    <a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench-common-activities">Browse</a> 
-      <td>Common activities UI (discovery+configuration for Workbench</tr>
-<tr><td><a href="https://github.com/apache/incubator-taverna-workbench-product">incubator-taverna-workbench-product</a> 
-    <td><a class="btn btn-default" href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-workbench-product.git">https</a> 
-    <a class="btn btn-default" href="git://git.apache.org/incubator-taverna-workbench-product.git">git</a> 
-    <a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench-product">Browse</a>
-      <td>Distribution of Taverna Workbench</tr>
-<tr><td><a href="https://github.com/apache/incubator-taverna-plugin-component">incubator-taverna-plugin-component</a>
-    <td><a class="btn btn-default" href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-plugin-component.git">https</a> 
-    <a class="btn btn-default" href="git://git.apache.org/incubator-taverna-plugin-component.git">git</a> 
-    <a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-plugin-component">Browse</a> 
-      <td>Plugin for component activity and registry</tr>
-<tr><td><a href="https://github.com/apache/incubator-taverna-plugin-bioinformatics">incubator-taverna-plugin-bioinformatics</a> 
-    <td><a class="btn btn-default" href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-plugin-bioinformatics.git">https</a> 
-    <a class="btn btn-default" href="git://git.apache.org/incubator-taverna-plugin-bioinformatics.git">git</a> 
-    <a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-plugin-bioinformatics">Browse</a>
-      <td>Plugin for bioinformatics-specific activities</tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-maven-parent">incubator-taverna-maven-parent</a></td>
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-maven-parent"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-maven-parent">Browse</a></td>
+  <td>Common Maven parent for the below</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-language">incubator-taverna-language</a></td>
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-language"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-language">Browse</a></td>
+  <td>API for workflow definitions (SCUFL2) and workflow inputs/outputs (DataBundle)</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-osgi">incubator-taverna-osgi</a></td> 
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-osgi"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-osgi">Browse</a></td>
+  <td>OSGi-based plugin system</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-engine">incubator-taverna-engine</a> 
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-engine"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-engine">Browse</a>
+  <td>Taverna workflow engine</tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-common-activities">incubator-taverna-common-activities</a></td>
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-common-activities"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-common-activities">Browse</a></td>
+  <td>Common activity implementation for engine (e.g. WSDL, REST, Tool, Interaction)</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-commandline">incubator-taverna-commandline</a></td> 
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-commandline"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+ <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-commandline">Browse</a></td>
+  <td>Command line for running Taverna workflows</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-server">incubator-taverna-server</a></td> 
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-server"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-server">Browse</a></td>
+  <td>A REST and WSDL service for running Taverna workflows</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-workbench">incubator-taverna-workbench</a></td> 
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-workbench"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench">Browse</a></td>
+  <td>Graphical workbench for editing and running Taverna workflows</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-workbench-common-activities">incubator-taverna-workbench-common-activities</a></td>
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-workbench-common-activities"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench-common-activities">Browse</a></td> 
+  <td>Common activities UI (discovery+configuration for Workbench</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-workbench-product">incubator-taverna-workbench-product</a></td> 
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-workbench-product"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench-product">Browse</a></td>
+  <td>Distribution of Taverna Workbench</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-plugin-component">incubator-taverna-plugin-component</a></td>
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-plugin-component"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-plugin-component">Browse</a></td> 
+  <td>Plugin for component activity and registry</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-plugin-bioinformatics">incubator-taverna-plugin-bioinformatics</a></td> 
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-plugin-bioinformatics"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-plugin-bioinformatics">Browse</a></td>
+  <td>Plugin for bioinformatics-specific activities</td>
+</tr>
 </table>
 
 
