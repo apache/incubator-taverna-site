@@ -28,6 +28,7 @@ function check() {
    if ( document.getElementById("picker").value == "Apache git"){
       for (i = 0; i < x.length; i++) {
          x[i].value = "git://git.apache.org/" +x[i].id + ".git";
+      }
       
    }
    if ( document.getElementById("picker").value == "Github"){
