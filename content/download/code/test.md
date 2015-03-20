@@ -67,7 +67,6 @@ Using GitHub you are free to *fork* the projects and raise *pull requests* to
 The <strong>Apache Taverna</strong> source code is organized into multiple [git](http://www.git-scm.com/) repositories:
 
 <select id="picker" onChange='check()'>
-  <option selected disabled hidden value=''></option>
   <option value="Apache Committer">Apache Committer</option>
   <option value="Apache git">Apache git</option>
   <option value="Github">Github</option>
@@ -308,4 +307,6 @@ Some plugins that were previously part of Taverna 2 have or will migrate to tave
 
 * RShell activity
 * [Table activity](https://github.com/taverna-extras/table-activity)
+
+<script  onload="check()"/>
 
