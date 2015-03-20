@@ -18,8 +18,6 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
-##Google Feed
-
 <div class="g-post" data-href="https://plus.google.com/114650796366614174823/posts/JgfnJ9qfHor"></div>
 
 <div class="g-post" data-href="https://plus.google.com/114650796366614174823/posts/5tePoBt1ZsF"></div>
