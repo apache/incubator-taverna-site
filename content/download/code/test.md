@@ -20,7 +20,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 function check() {
    var x = document.getElementsByClassName("gitlink");
    var i;
-   if ( document.getElementById("picker").value == "Apache Commiter"){
+   if ( document.getElementById("picker").value == "Apache Committer"){
       for (i = 0; i < x.length; i++) {
          x[i].value = "https://git-wip-us.apache.org/repos/asf/" +x[i].id + ".git";
       }
@@ -43,16 +43,36 @@ Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org
 
 [TOC]
 
+### Checking out Apache Taverna
+
+If you are a committer on Apache Taverna, or have firewall restrictions, select `[Apache Committer]` below, e.g.:
+
+    git clone https://git-wip-us.apache.org/repos/asf/incubator-taverna-*****.git
+
+To check out Apache Taverna anonymously, select `[Apache git]` below, e.g.:
+
+    git clone git://git.apache.org/incubator-taverna-****.git
+
+To check out Apache Taverna on github, select `[git]` below, e.g.:
+
+    git clone https://github.com/apache/incubator-taverna-****.git
+
+
+You can also `[Browse]` the code through the GitHub mirrors. 
+Using GitHub you are free to *fork* the projects and raise *pull requests* to 
+[contribute to Apache Taverna](#contribute-to-apache-taverna).
+
 
 ## Source code repositories
 
 The <strong>Apache Taverna</strong> source code is organized into multiple [git](http://www.git-scm.com/) repositories:
 
 <select id="picker" onChange='check()'>
-  <option value="Apache Commiter">Apache Commiter</option>
+  <option value="Apache Committer">Apache Committer</option>
   <option value="Apache git">Apache git</option>
   <option value="Github">Github</option>
 </select>
+Click on the field and copy the value.
 
 <table class="table table-hover">
 <tr>
