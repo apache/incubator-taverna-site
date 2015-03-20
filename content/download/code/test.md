@@ -16,7 +16,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-<script  onload="check()"/>
+<script onload="check()">
 function check() {
    var x = document.getElementsByClassName("gitlink");
    var i;
@@ -174,8 +174,6 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>Plugin for bioinformatics-specific activities</td>
 </tr>
 </table>
-
-
 
 <div class="alert alert-warning" role="alert"><p><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
   <strong>Note:</strong>
