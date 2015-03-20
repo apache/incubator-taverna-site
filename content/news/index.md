@@ -16,7 +16,6 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-##Summary
  - [Google Summer of Code Taverna Projects](news/2015-03-04-google-summer-of-code-taverna-projects)
    - The Apache Software Foundation has been accepted as a mentoring organization for the 
         [2015 Google Summer of Code](https://www.google-melange.com/gsoc/homepage/google/gsoc2015). 
