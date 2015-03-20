@@ -16,29 +16,6 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-<script>
-function check() {
-   var x = document.getElementsByClassName("gitlink");
-   var i;
-   if ( document.getElementById("picker").value == "Apache Committer"){
-      for (i = 0; i < x.length; i++) {
-         x[i].value = "https://git-wip-us.apache.org/repos/asf/" +x[i].id + ".git";
-      }
-   }
-   if ( document.getElementById("picker").value == "Apache git"){
-      for (i = 0; i < x.length; i++) {
-         x[i].value = "git://git.apache.org/" +x[i].id + ".git";
-      }
-      
-   }
-   if ( document.getElementById("picker").value == "Github"){
-      for (i = 0; i < x.length; i++) {
-        x[i].value = "https://github.com/apache/" +x[i].id + ".git";
-      }
-   }
-}
-$( document ).ready( check );
-</script>
 Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org/), with read-only mirroring to 
 [GitHub](https://github.com/apache/?query=taverna-).
 
@@ -309,6 +286,30 @@ Some plugins that were previously part of Taverna 2 have or will migrate to tave
 
 * RShell activity
 * [Table activity](https://github.com/taverna-extras/table-activity)
+
+<script>
+function check() {
+   var x = document.getElementsByClassName("gitlink");
+   var i;
+   if ( document.getElementById("picker").value == "Apache Committer"){
+      for (i = 0; i < x.length; i++) {
+         x[i].value = "https://git-wip-us.apache.org/repos/asf/" +x[i].id + ".git";
+      }
+   }
+   if ( document.getElementById("picker").value == "Apache git"){
+      for (i = 0; i < x.length; i++) {
+         x[i].value = "git://git.apache.org/" +x[i].id + ".git";
+      }
+      
+   }
+   if ( document.getElementById("picker").value == "Github"){
+      for (i = 0; i < x.length; i++) {
+        x[i].value = "https://github.com/apache/" +x[i].id + ".git";
+      }
+   }
+}
+check ();
+</script>
 
 
 
