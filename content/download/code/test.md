@@ -16,7 +16,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-<script onload="check()">
+<script">
 function check() {
    var x = document.getElementsByClassName("gitlink");
    var i;
@@ -53,7 +53,7 @@ To check out Apache Taverna anonymously, select `[Apache git]` below, e.g.:
 
     git clone git://git.apache.org/incubator-taverna-****.git
 
-To check out Apache Taverna on github, select `[git]` below, e.g.:
+To check out Apache Taverna on github, select `[Github]` below, e.g.:
 
     git clone https://github.com/apache/incubator-taverna-****.git
 
@@ -72,7 +72,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <option value="Apache git">Apache git</option>
   <option value="Github">Github</option>
 </select>
-Click on the field and copy the value.
+Click on the textbox and copy the value.
 
 <table class="table table-hover">
 <tr>
@@ -195,6 +195,7 @@ Click on the field and copy the value.
   <td>Plugin for bioinformatics-specific activities</td>
 </tr>
 </table>
+<script onload="check()"/>
 
 <div class="alert alert-warning" role="alert"><p><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
   <strong>Note:</strong>
