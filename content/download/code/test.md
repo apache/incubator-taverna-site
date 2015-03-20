@@ -181,24 +181,6 @@ The <a href="https://github.com/taverna/">source code for Taverna 2</a>
 remains available separately, but is not maintained by the Apache Taverna project.
 </div>
 
-
-
-### Checking out Apache Taverna
-
-To check out Apache Taverna anonymously, use the `[git]` links from above, e.g.:
-
-    git clone git://git.apache.org/incubator-taverna-language.git
-
-If you are a committer on Apache Taverna, or have firewall restrictions, use the `[https]` links, e.g.:
-
-    git clone https://git-wip-us.apache.org/repos/asf/incubator-taverna-engine.git
-
-You can also `[Browse]` the code through the GitHub mirrors. 
-Using GitHub you are free to *fork* the projects and raise *pull requests* to 
-[contribute to Apache Taverna](#contribute-to-apache-taverna).
-
-
-
 ## Building Apache Taverna
 
 You need [Apache Maven 3.2](https://maven.apache.org/download.html) or newer to build Taverna. 
