@@ -16,8 +16,20 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-##News Feed
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 
- - item 1
- - item 2
- - item 3 
+##Google Feed
+
+<div class="g-post" data-href="https://plus.google.com/114650796366614174823/posts/JgfnJ9qfHor"></div>
+
+<div class="g-post" data-href="https://plus.google.com/114650796366614174823/posts/5tePoBt1ZsF"></div>
+
+<div class="g-post" data-href="https://plus.google.com/114650796366614174823/posts/9VNgcjnNrW9"></div>
+
+<div class="g-post" data-href="https://plus.google.com/114650796366614174823/posts/NVYLdrVztSU"></div>
+
+<div class="g-post" data-href="https://plus.google.com/114650796366614174823/posts/i8Lq1uffKei"></div>
+
+<div class="g-post" data-href="https://plus.google.com/114650796366614174823/posts/MCzUytE7oZW"></div>
+
+<div class="g-post" data-href="https://plus.google.com/114650796366614174823/posts/XAqHRCcS3cU"></div>
