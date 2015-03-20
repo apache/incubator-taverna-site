@@ -57,7 +57,6 @@ To check out Apache Taverna on github, select `[Github]` below, e.g.:
 
     git clone https://github.com/apache/incubator-taverna-****.git
 
-
 You can also `[Browse]` the code through the GitHub mirrors. 
 Using GitHub you are free to *fork* the projects and raise *pull requests* to 
 [contribute to Apache Taverna](#contribute-to-apache-taverna).
@@ -195,7 +194,7 @@ Click on the textbox and copy the value.
   <td>Plugin for bioinformatics-specific activities</td>
 </tr>
 </table>
-<script onload="check()"\>
+<script onload="check()"></script>
 
 <div class="alert alert-warning" role="alert"><p><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
   <strong>Note:</strong>
