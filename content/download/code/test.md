@@ -37,6 +37,7 @@ function check() {
       }
    }
 }
+$( document ).ready( check );
 </script>
 Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org/), with read-only mirroring to 
 [GitHub](https://github.com/apache/?query=taverna-).
@@ -64,7 +65,6 @@ Using GitHub you are free to *fork* the projects and raise *pull requests* to
 
 ## Source code repositories
 
-The <strong>Apache Taverna</strong> source code is organized into multiple [git](http://www.git-scm.com/) repositories:
 
 <select id="picker" onChange='check()'>
   <option value="Apache Committer">Apache Committer</option>
@@ -72,6 +72,8 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <option value="Github">Github</option>
 </select>
 Click on the textbox and copy the value.
+
+The <strong>Apache Taverna</strong> source code is organized into multiple [git](http://www.git-scm.com/) repositories:
 
 <table class="table table-hover">
 <tr>
@@ -308,7 +310,7 @@ Some plugins that were previously part of Taverna 2 have or will migrate to tave
 * RShell activity
 * [Table activity](https://github.com/taverna-extras/table-activity)
 
-$( document ).ready( check );
+
 
 
 
