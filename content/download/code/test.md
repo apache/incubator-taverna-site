@@ -29,8 +29,8 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
 
 <table class="table table-hover">
 <tr><td><a href="https://github.com/apache/incubator-taverna-maven-parent">incubator-taverna-maven-parent</a> 
-    <td><a class="btn btn-default" disabled href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git">https</a> 
-    <a class="btn btn-default" disabled href="git://git.apache.org/incubator-taverna-maven-parent.git">git</a> 
+    <td><a href="https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git">https</a> 
+    <a href="git://git.apache.org/incubator-taverna-maven-parent.git">git</a> 
     <a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-maven-parent">Browse</a>
     <td>Common Maven parent for the below</tr>
 <tr><td><a href="https://github.com/apache/incubator-taverna-language">incubator-taverna-language</a> 
