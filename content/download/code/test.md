@@ -308,5 +308,7 @@ Some plugins that were previously part of Taverna 2 have or will migrate to tave
 * RShell activity
 * [Table activity](https://github.com/taverna-extras/table-activity)
 
-<script  onload="check()"/>
+$( document ).ready( check );
+
+
 
