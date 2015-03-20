@@ -67,6 +67,7 @@ Using GitHub you are free to *fork* the projects and raise *pull requests* to
 The <strong>Apache Taverna</strong> source code is organized into multiple [git](http://www.git-scm.com/) repositories:
 
 <select id="picker" onChange='check()'>
+  <option selected disabled hidden value=''></option>
   <option value="Apache Committer">Apache Committer</option>
   <option value="Apache git">Apache git</option>
   <option value="Github">Github</option>
@@ -194,7 +195,6 @@ Click on the textbox and copy the value.
   <td>Plugin for bioinformatics-specific activities</td>
 </tr>
 </table>
-<script onload="check()"></script>
 
 <div class="alert alert-warning" role="alert"><p><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
   <strong>Note:</strong>
