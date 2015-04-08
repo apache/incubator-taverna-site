@@ -115,7 +115,7 @@ In the future we plan on allowing plugin developers the choice of hosting their 
 
 <a name="contribute-server"></a>
 ### Hosting a Taverna Server  
-For information on hosting a Taverna Server to run Taverna workflows see the 
+For information on hosting a Taverna Server to run Taverna workflows, see the 
 [Server](/documentation/server) Section.
 
 <a name="contribute-host"></a>
@@ -128,14 +128,12 @@ We recommend that your services are registered in Registries such as:
 
 <a name="contribute-code"></a>
 ### Contributing Code
+We welcome any contributions for the [source code](download/code/) of Apache Taverna. See how to
+[contribute code](/download/code/#contribute-to-apache-taverna).
 
-We are still in the process of moving Taverna code to Apache.
-Once we have migrated you will be able to submit patches in the standard Apache way.
-In the mean time you can find the latest NONE Apache sourcecode at:
-[https://github.com/taverna](https://github.com/taverna)
 
 <a name="contribute-edit"></a>
 ### Editing the website
-The website is currently under development.
+This website is always under development.
 Please help make it better by [editing](/community/edit) or adding pages.
 
