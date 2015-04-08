@@ -18,12 +18,11 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 Education and training in the use of the Taverna tools is provided in a number of different ways.
 There are dedicated workshops, [online tutorials](/documentation/tutorials), 
-   [presentations and publications](http://dev.mygrid.org.uk/wiki/display/about/Publications).
+[presentations and publications](http://dev.mygrid.org.uk/wiki/display/about/Publications).
 
-Over fifty tutorials have been given on the use of Taverna, and not just by us. 
-For example, the French [Signen@e](http://www.sigenae.org/) consortium have trained over 200 
-   people and produced tutorials in French. 
-Over 800 people have been trained by the Taverna team.
+Over fifty tutorials have been given on the use of Taverna, training over 1000 people
+by Apache Taverna committers and third-parties.
 
-We are always keen to organise training and tutorials for users and workshops for developers. 
+As a community, we are always keen to help with training and tutorials for 
+users and workshops for developers. 
 Please [get in touch](/community) if you want to arrange a training or a workshop.
