@@ -105,14 +105,6 @@ The previous (non-Apache) Taverna Jira can be found at:
 The best place to contribute Taverna workflows is on 
    [myExperiment](http://www.myexperiment.org). 
 
-<a name="contribute-plugin"></a>
-### Contribute a plugin ###
-The process for writing Taverna 3 plugins is still underdevelopment.
-Documentation for None Apache Taverna 2 plugins can be found at: 
-[http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2](http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2)
-
-In the future we plan on allowing plugin developers the choice of hosting their own plugins or committing then to Apache.
-
 <a name="contribute-server"></a>
 ### Hosting a Taverna Server  
 For information on hosting a Taverna Server to run Taverna workflows, see the 
@@ -130,6 +122,14 @@ We recommend that your services are registered in Registries such as:
 ### Contributing Code
 We welcome any contributions for the [source code](/download/code/) of Apache Taverna. See how to
 [contribute code](/download/code/#contribute-to-apache-taverna).
+
+
+<a name="contribute-plugin"></a>
+### Contribute a plugin ###
+The mechanisms for writing **Apache Taverna 3 plugins** is still under development. 
+Please contact the [dev@taverna](/community/lists#devtaverna) mailing list for details.
+
+For **Taverna 2** (non-Apache), see the [Creating plugins for Taverna 2](http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2) tutorial.
 
 
 <a name="contribute-edit"></a>
