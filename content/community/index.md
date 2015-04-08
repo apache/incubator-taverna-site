@@ -128,7 +128,7 @@ We recommend that your services are registered in Registries such as:
 
 <a name="contribute-code"></a>
 ### Contributing Code
-We welcome any contributions for the [source code](download/code/) of Apache Taverna. See how to
+We welcome any contributions for the [source code](/download/code/) of Apache Taverna. See how to
 [contribute code](/download/code/#contribute-to-apache-taverna).
 
 
