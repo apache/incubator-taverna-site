@@ -86,7 +86,7 @@ build these URIs using UUIDs that are generated within Apache Taverna.
 
 <p>
 See <a href="http://dev.mygrid.org.uk/wiki/display/TAVOSGI/Data+Bundle">Data bundle</a> 
-and <a href="http://dev.mygrid.org.uk/wiki/display/developer/Taverna+Workflow+Bundle">SCUFL2 workflow bundle</a> for more information.
+and [SCUFL2 workflow bundle](/documentation/scufl2/taverna_bundle).
 </p>
 
 <h3>Guessed information</h3>
