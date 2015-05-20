@@ -1,14 +1,14 @@
-Redirect /code/ /download/code/
-Redirect /code /download/code
-ErrorDocument 404 /error_pages/404.html
-
-RewriteEngine On
-RewriteBase /
-RewriteCond %{IS_SUBREQ} false
-
-#RewriteRule ^(.*)\.html$ $1 [L,R]
-RewriteRule ^(.*)/index $1 [L,R]
-RewriteRule ^community/contact.* /community/lists [L,R]
-RewriteRule ^contact.* /community/lists [L,R]
-RewriteRule ^edit.* /community/edit [L,R]
-RewriteRule ^doc/?$ /documentation/ [L,R]
+#Redirect /code/ /download/code/
+#Redirect /code /download/code
+#ErrorDocument 404 /error_pages/404.html
+#
+#RewriteEngine On
+#RewriteBase /
+#RewriteCond %{IS_SUBREQ} false
+#
+##RewriteRule ^(.*)\.html$ $1 [L,R]
+#RewriteRule ^(.*)/index $1 [L,R]
+#RewriteRule ^community/contact.* /community/lists [L,R]
+#RewriteRule ^contact.* /community/lists [L,R]
+#RewriteRule ^edit.* /community/edit [L,R]
+#RewriteRule ^doc/?$ /documentation/ [L,R]
