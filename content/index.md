@@ -35,11 +35,11 @@ jsonld: {
 
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 
-Taverna is transitioning
+Taverna has recently transitioned
 to the Apache Incubator. This website is for the Apache Taverna project and is <strong>under development</strong>.
 </p>
 <p>
-You might want to visit the original <a class="alert-link" href="http://www.taverna.org.uk/">taverna.org.uk</a> 
+You might want to visit the earlier <a class="alert-link" href="http://www.taverna.org.uk/">taverna.org.uk</a> 
 website which is not affiliated with Apache.
 </div>
 
