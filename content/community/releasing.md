@@ -29,9 +29,11 @@ for tasks required for a release.
 
 ## Preparations
 
-* Email dev@taverna to say a release is imminent. This gives the community a chance to finish up anything they want to get into the next release.
-* Check Jira for [issues](https://issues.apache.org/jira/browse/TAVERNA) for the corresponding
-[components](https://issues.apache.org/jira/browse/TAVERNA/?selectedTab=com.atlassian.jira.jira-projects-plugin:components-panel)
+* Email dev@taverna to say a release is imminent. This gives the community a chance
+to finish up anything they want to get into the next release.
+* Check Jira for [issues](https://issues.apache.org/jira/browse/TAVERNA) on the corresponding
+[components](https://issues.apache.org/jira/browse/TAVERNA/?selectedTab=com.atlassian.jira.jira-projects-plugin:components-panel).
+If you find any that are blocking or in progress, consult with the dev@taverna list first.
 
 ### Prepare your build machine
 
@@ -65,6 +67,47 @@ as the working directory.
     mkdir rc1
     cd rc1
 
+### GPG keys
+
+You need to have `gpg` and preferably a *GPG Agent* installed on the machine
+you will build the release on. This needs to be configured with your
+GPG release key.
+
+Check that our
+[KEYS](https://dist.apache.org/repos/dist/release/incubator/taverna/KEYS)
+contains your correct key and fingerprint. If not, then:
+
+Find your PGP fingerprint:
+
+    stain@biggie-utopic:~/src/rc1/dist$ gpg --fingerprint stain@apache.org
+    pub   1024D/A0FFD119 2002-01-20
+    Key fingerprint = DDDE E876 12E9 FB95 F5C8  D91E 4110 63A3 A0FF D119
+    uid                  Stian Soiland-Reyes <stian@soiland-reyes.com>
+    uid                  Stian Soiland <stian@soiland.no>
+    uid                  Stian Soiland <stain@nvg.org>
+    uid                  Stian Soiland <stain@soiland.no>
+    uid                  [jpeg image of size 9477]
+    uid                  Stian Soiland <stain@s11.no>
+    uid                  Stian Soiland-Reyes <soiland-reyes@cs.manchester.ac.uk>
+    uid                  Stian Soiland-Reyes <stain@apache.org>
+    sub   4096R/4BBAC7C6 2014-06-05 [expires: 2016-06-10]
+
+Edit your details on [id.apache.org](https://id.apache.org/)
+to provide your *OpenPGP Public Key Primary Fingerprint*,
+e.g.:
+
+    DDDE E876 12E9 FB95 F5C8  D91E 4110 63A3 A0FF D119
+
+Now verify that [taverna.asc](https://people.apache.org/keys/group/taverna.asc)
+includes the correct key fingerprint, and update on dist:
+
+  svn co https://dist.apache.org/repos/dist/release/incubator/taverna/
+  cd taverna
+  wget https://people.apache.org/keys/group/taverna.asc
+  cat KEYS.template taverna.asc > KEYS
+  rm taverna.asc  
+  svn commit -m "Updated KEYS" KEYS
+
 
 ### Fresh checkouts
 
@@ -92,7 +135,7 @@ user name information and your `@apache.org` email address:
     git config user.email you@apache.org
 
 
-  
+
 
 
 ### Verify build  
@@ -171,6 +214,10 @@ Edit the top-level `pom.xml` of the repository to ensure there
 are no `-SNAPSHOT` dependencies in its `<parent>` and
 `<properties>`.
 
+**Do not fix** the `<version>` of the Maven project itself or
+its submodules, as they must be on the form `-SNAPSHOT` in
+order for the Maven Release Plugin to modify them.
+
 Check if a newer `taverna-maven-parent` or other `taverna.*.version`
 is needed. This is usually indicated by depending on an unreleased
 SNAPSHOT version.  Accordingly, after the release, do *not* update
@@ -182,6 +229,10 @@ to the *latest released version*.
 (Exception to the rule - when OSGi backwards-compatibility is
 needed, e.g. a wsdl-activity that should work also with an older
 taverna-engine release).
+
+If you are updating `taverna-maven-parent`, then try to
+update this to the latest
+[Apache super-pom](http://central.maven.org/maven2/org/apache/apache/).
 
 Commit your `pom.xml` changes (if any) and push.
 
@@ -204,42 +255,21 @@ in taverna-maven-parent)
 The default for "What is the release version for" is usually good - but check the policy for version numbers below.
 
     [INFO] Checking dependencies and plugins for snapshots ...
-    What is the release version for "Apache Taverna (incubating) Maven parent"? (org.apache.taverna:taverna-parent) 1-incubating: : 1-incubating
-
-For the tag, use the proposed format, but append `-RC1` or equivalent to indicate
-the release candidate number in the tag. (Note: the `RC1` string should *NOT* be part of
-the version number, only the tag, as the released Maven artifacts would eventually
-be published as-is). This ensures that there is a tag for the particular release
-candidate that is subject to the *[VOTE]*.
-
-    What is SCM release tag or label for "Apache Taverna (incubating) Maven parent"? (org.apache.taverna:taverna-parent) taverna-parent-1-incubating: : taverna-parent-1-incubating-RC1
-
-The next development vesion should usually be one patch version higher,
-or for taverna-maven-parent simply the next number:
-
-    What is the new development version for "Apache Taverna (incubating) Maven parent"? (org.apache.taverna:taverna-parent) 2-incubating-SNAPSHOT: :
-
-Maven will now transform your poms, create the tag, and push it back to
-Apache's git repository.
-
-If anything goes wrong, then you probably need to undo and start again:
-
-    mvn release:rollback
-
-### Deploying the release candidate
-
-If the preparation was successful, then you should now be able to do:
-
-    mvn release:perform
-
-This will check out the tag, build it, then deploy the compiled artifacts,
-and sign the packaged source code.
-
-Note that this will use `gpg` to sign the artifacts - so you might want to
-use a *GPG Agent* to avoid repeatedly providing your GPG passphrase.
+    What is the release version for "Apache Taverna Language APIs (Scufl2, Databundle)"? (org.apache.taverna.language:taverna-language) 0.15.0-incubating: :
+    What is the release version for "Apache Taverna Baclava support"? (org.apache.taverna.language:taverna-baclava-language) 0.15.0-incubating: :
+    What is the release version for "Apache Taverna Scufl 2 UCF Package"? (org.apache.taverna.language:taverna-scufl2-ucfpackage) 0.15.0-incubating: :
+    What is the release version for "Apache Taverna Scufl 2 API"? (org.apache.taverna.language:taverna-scufl2-api) 0.15.0-incubating: :
 
 
-### Policy for Apache Taverna version numbers
+You will be asked for each submodule what version they should have - generally
+their version should be the same as their parent (except to explicitly allow
+API backward compatibility)
+
+**Note**: Take care to use the previous version number if preparing a
+second release candidate, as Maven would then suggest too high version
+number based on the bumped `-SNAPSHOT` version.  
+
+#### Apache Taverna version numbers
 
 * Has to end in `-incubating` (while Apache Taverna is incubating)
 * taverna-maven-parent is versioned with just major version, e.g. `4-incubating`
@@ -254,19 +284,163 @@ Semantic versioning summary:
 > * MINOR version when you add functionality in a backwards-compatible manner, and
 > * PATCH version when you make backwards-compatible bug fixes.
 
+
+#### Tagging and next SNAPSHOT version
+
+For the tag, use the proposed format, but modify `-RC1`
+for any subsequent release candidates.
+
+    What is SCM release tag or label for "Apache Taverna Language APIs (Scufl2, Databundle)"? (org.apache.taverna.language:taverna-language) 0.15.0-incubating-RC1: :
+
+The next development version should usually be one *patch version* higher,
+or for taverna-maven-parent simply the next number:
+
+    What is the new development version for "Apache Taverna Language APIs (Scufl2, Databundle)"? (org.apache.taverna.language:taverna-language) 0.15.1-incubating-SNAPSHOT: :
+    What is the new development version for "Apache Taverna Baclava support"? (org.apache.taverna.language:taverna-baclava-language) 0.15.1-incubating-SNAPSHOT: :
+    What is the new development version for "Apache Taverna Scufl 2 UCF Package"? (org.apache.taverna.language:taverna-scufl2-ucfpackage) 0.15.1-incubating-SNAPSHOT: :
+    What is the new development version for "Apache Taverna Scufl 2 API"? (org.apache.taverna.language:taverna-scufl2-api) 0.15.1-incubating-SNAPSHOT: :
+
+
+Maven will now transform your poms, create the tag, and push changes
+back to Apache's git repository.
+
+If you abort, you can start the process again using `mvn release:prepare`,
+which will pick up your answers so far from `release.profiles`.
+
+Note Maven will use `gpg` to tag and sign the artifacts - so you might want to
+install and configure a **GPG Agent** to avoid repeatedly providing your
+GPG passphrase.
+
+
+#### Rolling back
+
+If anything goes wrong at this stage, you will need to undo,
+edit and commit required changes, and start again:
+
+    mvn release:rollback
+    vi foo/pom.xml
+    git commit
+    mvn release:prepare
+
+
+### Deploying the release candidate
+
+If the preparation was successful, then you should now be able to do:
+
+    mvn release:perform
+
+This will check out the tag, build it, then sign and
+deploy the packaged source code and compiled JARs.
+
+
+
 ### Locate the staging repository
 
 On Apache's Nexus instance, locate the
 [Staging Repository](https://repository.apache.org/#stagingRepositories)
 for the code you just released. It should be called something like
-`orgapachetaverna-1001` -- check the *Updated* timestamp.
+`orgapachetaverna-1001` -- check the *Updated* time stamp and click to
+verify its *Content*.
 
-**DO NOT CLICK RELEASE** - the release candidate must pass *[VOTE]* emails
+You can leave the staging repository *Open* until you have released all the
+projects that will form part of this *[VOTE]*, e.g. you can deploy both
+`taverna-maven-parent` and `taverna-language` using the same staging repository.
+
+When all artifacts to be deployed are in the staging repository, tick the box
+next to it and click *Close*.
+
+**DO NOT CLICK RELEASE YET** - the release candidate must pass *[VOTE]* emails
 on both dev@taverna and general@incubator before we release.
+
+Once closing has finished (check with *Refresh*, browse to the
+*URL*  of the
+[staging repository](https://repository.apache.org/content/repositories)
+which should be something like
+https://repository.apache.org/content/repositories/orgapachetaverna-1001/
+
+
+
+### Uploading to dist.apache.org
+
+The release candidate source code, checksums and signatures
+should be uploaded to
+[dist.apache.org](https://dist.apache.org/repos/dist/dev/incubator/taverna/)
+using `svn` - here we'll check out to a folder `~/src/rc1/dist`:
+
+    svn co https://dist.apache.org/repos/dist/dev/incubator/taverna dist
+
+The folder should normally be empty -- if
+you find remains of an earlier RC that is not
+still under *[VOTE]*, first remove them with `svn rm`:
+
+    cd dist
+    svn rm *
+
+Retrieve the source archives from the staging repository by looking for
+`-*source-release.zip` (not `sources.jar`!) in the
+staging repository, located under the
+folder corresponding to the groupID and artifactId of the
+top-level project, e.g. `org/apache/taverna/language/0.15.0-incubating/`
+containing `taverna-language-0.15.0-incubating-source-release.zip`
+
+Here's a convenient `wget` command to get all the release archives and
+their checksums and signatures:
+
+    wget -e robots=off --recursive --no-parent --no-directories -A "*-source-release*" https://repository.apache.org/content/repositories/orgapachetaverna-1002/org/apache/taverna/
+
+Make sure you have not got any extra files in your `dist/` folders, like
+`index.html` or duplicates like `*.zip.1`
+
+    stain@biggie-utopic:~/src/rc1/dist$  ls
+    taverna-language-0.15.0-incubating-source-release.zip	   taverna-language-0.15.0-incubating-source-release.zip.sha1  taverna-parent-1-incubating-source-release.zip.md5
+    taverna-language-0.15.0-incubating-source-release.zip.asc  taverna-parent-1-incubating-source-release.zip	       taverna-parent-1-incubating-source-release.zip.sha1
+    taverna-language-0.15.0-incubating-source-release.zip.md5  taverna-parent-1-incubating-source-release.zip.asc
+
+Now make a corresponding versioned folder for each product, and include the RC number:
+
+    mkdir taverna-language-0.15.0-incubating-RC1
+    mkdir taverna-parent-1-incubating-RC1
+
+Now add them to the `dist` folder with `svn add` and `svn commit`
+
+    ... TODO
+
+If any binary distributions are also be provided from the
+[Download page](/download) (e.g. Taverna Workbench installers and
+Taverna Server `war`s), then download them as well *from the staging
+repository* and add them similarly with their corresponding
+`.asc`, `.md5` and `.sha1` files.
+
+Now verify that the files are available on
+[https://dist.apache.org/repos/dist/dev/incubator/taverna/](https://dist.apache.org/repos/dist/dev/incubator/taverna/) -
+you might need a *Refresh* in the browser.
+
 
 
 ## Voting
 
+
+
+### Vote
+
 **TODO**
+
+## Dropping a release candidate
+
+If a release candidate is to be dropped, e.g. it fails the *[VOTE]*, then
+
+In Nexus, tick the [staging repository](https://repository.apache.org/#stagingRepositories) and *Drop*.
+
+Delete the old tag:
+
+    git push origin :0.15.0-incubating-RC1
+
+Roll back the SNAPSHOT version number:
+
+    mvn release:update-versions -DautoVersionSubmodules=true -DdevelopmentVersion=0.15.0-incubating-SNAPSHOT`
+
+In dist, svn rm all.
+
+    svn rm */*
 
 ## Distributing
