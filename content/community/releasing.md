@@ -103,14 +103,12 @@ Now verify that the
 [people.apache.org taverna.asc](https://people.apache.org/keys/group/taverna.asc)
 file now includes the correct key fingerprint, and update on dist:
 
-```shell
-  svn co https://dist.apache.org/repos/dist/release/incubator/taverna/
-  cd taverna
-  wget https://people.apache.org/keys/group/taverna.asc
-  cat KEYS.template taverna.asc > KEYS
-  rm taverna.asc  
-  svn commit -m "Updated KEYS" KEYS
-```
+    svn co https://dist.apache.org/repos/dist/release/incubator/taverna/
+    cd taverna
+    wget https://people.apache.org/keys/group/taverna.asc
+    cat KEYS.template taverna.asc > KEYS
+    rm taverna.asc  
+    svn commit -m "Updated KEYS" KEYS
 
 
 ### Fresh checkouts
