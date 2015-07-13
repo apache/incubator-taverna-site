@@ -172,6 +172,27 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-plugin-bioinformatics">Browse</a></td>
   <td>Plugin for bioinformatics-specific activities</td>
 </tr>
+
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-databundle-viewer">incubator-taverna-databundle-viewer</a></td> 
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-databundle-viewer"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-databundle-viewer">Browse</a></td>
+  <td>Web-based Data Bundle viewer (GSOC2015 project)</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-mobile">incubator-taverna-mobile</a></td> 
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-mobile"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-mobile">Browse</a></td>
+  <td>Android app for running Taverna workflows remotely (GSOC2015 project)</td>
+</tr>
 </table>
 
 <div class="alert alert-warning" role="alert"><p><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
