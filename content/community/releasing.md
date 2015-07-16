@@ -416,7 +416,7 @@ containing `taverna-language-0.15.0-incubating-source-release.zip`
 
 For consistency checking you also need to include the
 PGP signature `.asc` and the checksums
-``.sha1` and `.md5`
+`.sha1` and `.md5`
 
 Here's a convenient `wget` command to get all the release archives,
 their checksums and signatures:
