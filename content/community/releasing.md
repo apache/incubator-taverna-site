@@ -158,27 +158,25 @@ Ensure you can log in to the Nexus instance before performing a release.
 To provide the Nexus credentials, edit your `~/.m2/settings.xml` to include
 your apache.org committer credentials:
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <!-- .. -->
-  <servers>
-    <!-- .. -->
-
-    <server>
-      <id>apache.snapshots.https</id>
-      <username>johndoe</username>
-      <password>fishsoup</password>
-    </server>
-    <server>
-      <id>apache.releases.https</id>
-      <username>johndoe</username>
-      <password>fishsoup</password>
-    </server>
-  </servers>
-</settings>
+```<code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &ltservers&gt;
+    &ltserver&gt;
+      &ltid&gt;apache.snapshots.https&lt/id&gt;
+      &ltusername&gt;johndoe&lt/username&gt;
+      &ltpassword&gt;fishsoup&lt/password&gt;
+    &lt/server&gt;
+    &lt;server&gt;
+      &ltid&gt;apache.releases.https&lt/id&gt;
+      &ltusername&gt;johndoev/username&gt;
+      &ltpassword&gt;fishsoup&lt/password&gt;
+    &lt/server&gt;
+  &lt/servers&gt;
+&lt/settings&gt;
+</code></pre>
 ```
+
 
 
 To check you have the correct credentials set up for
@@ -280,6 +278,9 @@ API backward compatibility)
 **Note**: Take care to use the correct version number if preparing a
 second release candidate, as Maven could suggest a higher version
 number based on the bumped `-SNAPSHOT` version.  
+
+**Important**: If maven prompts for the development parent version remember to set it to *-incubating-SNAPSHOT (where * is what is now in the parent pom).
+If you forget this then please reset it manually in the pom and commit manually after the release has been deployed. If the parent version is set wrong then it can lead to build issues in jenkins etc.  
 
 #### Version numbers
 
@@ -424,7 +425,7 @@ their checksums and signatures:
     wget -e robots=off --recursive --no-parent --no-directories -A "*-source-release*" https://repository.apache.org/content/repositories/orgapachetaverna-1002/org/apache/taverna/
 
 Make sure you have not got any extra files in your `dist/` folders, like
-`index.html` or duplicates like `*.zip.1`
+`index.html` or duplicates like `*.zip.1`.  You can delete any files ending in `.asc.md5`.
 
     stain@biggie-utopic:~/src/rc1/dist$  ls
     binaries/ source/
