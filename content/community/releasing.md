@@ -169,7 +169,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
     &lt/server&gt;
     &lt;server&gt;
       &ltid&gt;apache.releases.https&lt/id&gt;
-      &ltusername&gt;johndoev/username&gt;
+      &ltusername&gt;johndoe&lt;/username&gt;
       &ltpassword&gt;fishsoup&lt/password&gt;
     &lt/server&gt;
   &lt/servers&gt;
