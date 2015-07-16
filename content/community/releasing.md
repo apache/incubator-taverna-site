@@ -158,7 +158,7 @@ Ensure you can log in to the Nexus instance before performing a release.
 To provide the Nexus credentials, edit your `~/.m2/settings.xml` to include
 your apache.org committer credentials:
 
-```<pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+<pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
   &ltservers&gt;
@@ -175,7 +175,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
   &lt/servers&gt;
 &lt/settings&gt;
 </code></pre>
-```
 
 
 
