@@ -20,5 +20,5 @@ Currently the most up to date information can be found in the github
    [readme](https://github.com/apache/incubator-taverna-language)
 
 ###Previous Versions
-For information on previous None Apache versions see the 
+For information on previous non-Apache versions see the 
    [Mygrid pages](http://dev.mygrid.org.uk/wiki/display/developer/SCUFL2+API)
