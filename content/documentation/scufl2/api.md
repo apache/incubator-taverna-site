@@ -17,8 +17,8 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 
 Currently the most up to date information can be found in the github 
-   [readme](https://github.com/apache/incubator-taverna-language)
+   [readme](https://github.com/apache/incubator-taverna-language).
 
 ###Previous Versions
 For information on previous non-Apache versions see the 
-   [Mygrid pages](http://dev.mygrid.org.uk/wiki/display/developer/SCUFL2+API)
+   [myGrid pages](http://dev.mygrid.org.uk/wiki/display/developer/SCUFL2+API).
