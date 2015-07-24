@@ -16,19 +16,17 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-
 Apache Taverna Language is a library and command line tool for working with [SCUFL2](./) workflow definitions and Taverna's data bundle structure.
 
 ## Taverna Language overview
 
 ![Taverna Language modules](/img/Taverna_Language_Modules.png)
 
-
-Currently the most up to date information can be found in the github 
-   [readme](https://github.com/apache/incubator-taverna-language).
+See [incubator-taverna-language](https://github.com/apache/incubator-taverna-language)'s README for documentation for the different modules of Taverna Language.
 
 ###Previous Versions
-For information on previous non-Apache versions see the 
+
+For information on previous non-Apache versions of the SCUFL2 API, see the 
    [myGrid pages](http://dev.mygrid.org.uk/wiki/display/developer/SCUFL2+API).
 
 
