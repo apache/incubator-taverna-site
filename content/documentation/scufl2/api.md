@@ -21,7 +21,7 @@ Apache Taverna Language is a library and command line tool for working with [SCU
 
 ## Taverna Language overview
 
-![Taverna Language modules][/img/Taverna_Language_Modules.png]
+![Taverna Language modules](/img/Taverna_Language_Modules.png)
 
 
 Currently the most up to date information can be found in the github 
