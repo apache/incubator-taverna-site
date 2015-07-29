@@ -407,7 +407,7 @@ still under *[VOTE]*, first remove them with `svn rm`:
     cd dist/source
     svn rm *
 
-Retrieve the source archives from the staging repository by looking for
+Now go back to the *dist* directory. Retrieve the source archives from the staging repository by looking for
 `-*source-release.zip` (not `sources.jar`!) in the
 staging repository, located under the
 folder corresponding to the groupID and artifactId of the
@@ -436,7 +436,7 @@ Under `source/`, make a corresponding versioned folder for each product,
 and *include the RC number*, avoiding confusion in case you need to
 make a second release candidate:
 
-    mkdir source/averna-language-0.15.0-incubating-RC2
+    mkdir source/taverna-language-0.15.0-incubating-RC2
     mkdir source/taverna-parent-1-incubating-RC2
     mv *language*release* source/taverna-language-0.15.0-incubating-RC2
     mv *parent*release* source/taverna-parent-1-incubating-RC2
