@@ -378,7 +378,7 @@ You can leave the staging repository *Open* until you have released all the
 projects that will form part of this *[VOTE]*, e.g. you can deploy both
 `taverna-maven-parent` and `taverna-language` using the same staging repository.
 
-When all artifacts to be deployed are in the staging repository, tick the box
+**Important** - When all artifacts to be deployed are in the staging repository, tick the box
 next to it and click *Close*.
 
 **DO NOT CLICK RELEASE YET** - the release candidate must pass *[VOTE]* emails
