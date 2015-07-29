@@ -492,7 +492,8 @@ from IPMC members are **binding**.
 ### Vote email to dev@taverna
 
 To start the release vote, modify the below example and send to dev@taverna.
-Remember `[VOTE]` in the subject line.
+Remember `[VOTE]` in the subject line and change the version number to match the
+release candidate.
 
 Subject: [VOTE] Release Apache Taverna Language 0.15.0-incubating RC2
 
@@ -565,7 +566,14 @@ Anyone can participate in testing and voting, not just
 committers, please feel free to try out the release candidate
 and provide your votes.
 
+### Discuss email to dev@taverna
 
+It is also recommended to start the discussion around the release candidate with
+a separate thread with subject  
+
+[DISCUSS]: Release Apache Taverna Language 0.15.0-incubating RC2  
+
+Remember to change the version number as appropriate for the release candidate.
 
 
 
