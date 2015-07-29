@@ -118,7 +118,7 @@ Be sure to clone using the *Apache Committer* URLs, as found on the
 [/download/code/](repositories) page:
 
     git clone https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-parent.git
-    git clone https://git-wip-us.apache.org/repos/asf/incubator-taverna-maven-language.git
+    git clone https://git-wip-us.apache.org/repos/asf/incubator-taverna-language.git
 
 Note that you do not need to clone the repositories which are already
 released and which don't form part of this release.
