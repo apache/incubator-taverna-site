@@ -91,10 +91,9 @@ Some of the Apache Taverna users and developers occassionally hang out on the
 <a name="reportbugs"></a>
 ### Report or track a bug
 
-Taverna's Apache Jira is still being setup.
-In the mean time, the best place to report bugs is on the mailing lists.
+Use the Apache Taverna JIRA [issue tracker](/community/jira.md) to report or track a bug. 
 
-The previous (non-Apache) Taverna Jira can be found at:
+The previous (non-Apache) Taverna JIRA can be found at:
 <http://dev.mygrid.org.uk/issues/browse/T3>
   
 ## Contribute

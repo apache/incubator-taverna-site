@@ -17,25 +17,25 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 
 ##Which Taverna to download?
-There are several Taverna tools that you can download:
+There are several Taverna tools you can download:
 
  - [Taverna Workbench](/download/workbench) enables you to graphically create, edit and 
      run workflows on your computer. 
-     (None Apache) Taverna 2.5 Workbench is the latest series of the Workbench; 
+     Taverna 2.5 (non-Apache) Workbench is the latest series of the Workbench; 
      it is highly recommended that you use this version if you are new to Taverna, 
-     or to migrate to this version if you have used an earlier Taverna Workbench before.
- - [Taverna Scufl2 Language](/download/scufl2) (snapshot release) Language used to specify 
+     or migrate to this version if you have used an earlier Taverna Workbench before.
+ - [Taverna Scufl2 Language](/download/scufl2) (snapshot release). Language used to specify 
      Taverna Workflows
- - [Taverna Command Line Tool](/download/command-line-tool) (Not yet Apache) enables you to run
+ - [Taverna Command Line Tool](/download/command-line-tool) (not yet Apache) enables you to run
      workflows from a command prompt. 
      This enables automated execution of workflows, e.g. on a Linux server.
  - [Taverna Server](/download/server) is the remote workflow execution service that enables you 
       to set up a dedicated server for executing workflows remotely.
- - [Taverna Plugins](/documentation/plugins) The design of Taverna is modular in nature so that 
+ - [Taverna Plugins](/documentation/plugins). The design of Taverna is modular in nature so that 
       various plugins can be added in order to increase its functionality.
 
 ##Associated tools
-There is also a number of associated tools available to use with (non-Apache) Taverna 2. 
+There are also a number of associated tools available to use with (non-Apache) Taverna 2. 
 
 > **Note**: There are currently no known plans to bring out Apache Taverna
 > versions of these tools. If you are interested in migrating these too

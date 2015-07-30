@@ -57,8 +57,9 @@ If you are interested in the upgrade of any plugin to Taverna 3 please [contact 
 
 Similarly it has not yet been decided which plugins will be pre-populated into a commandline 
    download, and if so how this will be done.  
+
 If you are interested in domain specific versions of Taverna as done in 
-   [None Apache Taverna 2.5](http://www.taverna.org.uk/download/command-line-tool/2-5/) please 
+   [non-Apache Taverna 2.5](http://www.taverna.org.uk/download/command-line-tool/2-5/) please 
    [contact us](/community).
 
 <a name="windows64"></a>

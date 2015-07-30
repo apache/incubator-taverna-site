@@ -1,4 +1,4 @@
-Title:     None Apache Workbench 2.5
+Title:     Non-Apache Workbench 2.5
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -19,7 +19,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 Taverna is transitioning to the Apache Incubator. 
 Currently there is no Apache version of the Workbench.
-This page is a template for the download page once an Apache version is available. 
+This page is a template for the download page, once an Apache version is available. 
 </div>
 
 The first Apache version of the workbench is unlikely to include all the features of Taverna 2.5.
@@ -49,12 +49,13 @@ Check [system requirements](/download/system-requirements) before you download
 
 Taverna can be extended with various [Plugins](/documentation/plugins).
 At this point it is undecided which plugins will be upgraded to Taverna 3.
-If you are interested in the upgrade of any plugin to Taverna 3 please [contact us](/community) 
+If you are interested in the upgrade of any plugin to Taverna 3, please [contact us](/community) 
 
-Similarly it has not yet been decided which plugins will be pre-populated into a workbench 
+Similarly, it has not yet been decided which plugins will be pre-populated into a workbench 
    download, and if so how this will be done.  
-If you are interested in domain specific versions of Taverna as done in 
-   [None Apache Taverna 2.5](http://www.taverna.org.uk/download/workbench/2-5/) please 
+
+If you are interested in domain-specific versions of Taverna as done in 
+   [non-Apache Taverna 2.5](http://www.taverna.org.uk/download/workbench/2-5/), please 
    [contact us](/community).
 
 ##Next steps

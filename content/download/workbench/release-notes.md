@@ -16,8 +16,8 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-##Previous none Apache Releases
-See the None Apache Website for release notes of previous versions:
+##Previous Non-Apache Releases
+See the non-Apache website for release notes of previous versions:
 
 - [Taverna 3](http://www.taverna.org.uk/developers/work-in-progress/taverna-3/)
 - [Taverna 2](http://www.taverna.org.uk/download/workbench/release-notes/)

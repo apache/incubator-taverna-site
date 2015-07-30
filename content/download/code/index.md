@@ -230,27 +230,30 @@ you built instead, check the `<properties>` section within the `pom.xml`.
 
 ## Contribute to Apache Taverna
 
+### Patches
 **Patches welcome!** Apache Taverna is a volunteer project, and we rely on the community to help
 improve the code base. Anyone can suggest a change to Apache Taverna, not just the existing [committers](/about/).
 
-For many developers the easiest is to **Fork** the corresponding repository on *GitHub*, and submit the suggested 
+For many developers, the easiest method is to **Fork** the corresponding repository on *GitHub*, and submit the suggested 
 changes as a **Pull request**. The pull request is automatically forwarded to the 
-[dev@taverna](http://mail-archives.apache.org/mod_mbox/taverna-dev/) mailing list, which you 
-should subscribe to in order to receive feedback for your patch.
+[dev@taverna](http://mail-archives.apache.org/mod_mbox/taverna-dev/) mailing list. Subscribe to this mailing list to receive feedback for your patch.
 
-Alternatively you may checkout directly from the repositories above,
-use [git format-patch](https://www.kernel.org/pub/software/scm/git/docs/git-format-patch.html) 
+Alternatively, you may checkout directly from the repositories above,
+use [git format-patch](https://www.kernel.org/pub/software/scm/git/docs/git-format-patch.html), 
 and send your patches to the [dev@taverna](http://mail-archives.apache.org/mod_mbox/taverna-dev/)
 mailing list after subscribing. Note that large patch files might not be accepted by
 the mailing list software.
 
-For larger contributions we might ask you to sign a 
-[Contributer License Agreement](https://www.apache.org/licenses/#clas) (CLA) to grant a license to 
+For larger contributions, we might ask you to sign a 
+[Contributor License Agreement](https://www.apache.org/licenses/#clas) (CLA) to grant a license to 
 the Apache Software Foundation that covers your contribution. 
 
 For any questions about using or modifying the Apache Taverna source code and APIs, 
 please subscribe to and contact the [dev@taverna](http://mail-archives.apache.org/mod_mbox/taverna-dev/) mailing list.
 
+### Bug Fixes
+
+Use the Apache Taverna JIRA [issue tracker](/community/jira.md) to **report or track a bug.** 
 
 ## Snapshot builds
 
