@@ -12,3 +12,5 @@ RewriteRule ^community/contact.* /community/lists [L,R]
 RewriteRule ^contact.* /community/lists [L,R]
 RewriteRule ^edit.* /community/edit [L,R]
 RewriteRule ^doc/?$ /documentation/ [L,R]
+
+RewriteRule ^download/scufl2.* /download/language/ [L,R=permanent]

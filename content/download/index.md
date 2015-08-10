@@ -19,30 +19,32 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 ##Which Taverna to download?
 There are several Taverna tools that you can download:
 
- - [Taverna Workbench](/download/workbench) enables you to graphically create, edit and 
-     run workflows on your computer. 
-     (None Apache) Taverna 2.5 Workbench is the latest series of the Workbench; 
-     it is highly recommended that you use this version if you are new to Taverna, 
+ - [Taverna Workbench](/download/workbench) enables you to graphically create, edit and
+     run workflows on your computer.
+     (None Apache) Taverna 2.5 Workbench is the latest series of the Workbench;
+     it is highly recommended that you use this version if you are new to Taverna,
      or to migrate to this version if you have used an earlier Taverna Workbench before.
- - [Taverna Scufl2 Language](/download/scufl2) (snapshot release) Language used to specify 
-     Taverna Workflows
+ - [Taverna Language](/download/language) gives programmatic access to
+     inspecting, modifying and converting
+     [SCUFL2](/documentation/scufl2/) workflow definitions and
+     [Research Object Bundles](https://w3id.org/bundle).
  - [Taverna Command Line Tool](/download/command-line-tool) (Not yet Apache) enables you to run
-     workflows from a command prompt. 
+     workflows from a command prompt.
      This enables automated execution of workflows, e.g. on a Linux server.
- - [Taverna Server](/download/server) is the remote workflow execution service that enables you 
+ - [Taverna Server](/download/server) is the remote workflow execution service that enables you
       to set up a dedicated server for executing workflows remotely.
- - [Taverna Plugins](/documentation/plugins) The design of Taverna is modular in nature so that 
+ - [Taverna Plugins](/documentation/plugins) The design of Taverna is modular in nature so that
       various plugins can be added in order to increase its functionality.
 
 ##Associated tools
-There is also a number of associated tools available to use with (non-Apache) Taverna 2. 
+There is also a number of associated tools available to use with (non-Apache) Taverna 2.
 
 > **Note**: There are currently no known plans to bring out Apache Taverna
 > versions of these tools. If you are interested in migrating these too
 > to Apache Taverna, please [contact us](/community).
 
- - [Taverna 2-Galaxy](http://www.taverna.org.uk/download/taverna-galaxy/) is a tool for automatic generation and exposure of 
-   Taverna workflows as [Galaxy](http://galaxy.psu.edu/) tools. 
+ - [Taverna 2-Galaxy](http://www.taverna.org.uk/download/taverna-galaxy/) is a tool for automatic generation and exposure of
+   Taverna workflows as [Galaxy](http://galaxy.psu.edu/) tools.
    Galaxy is an open, Web-based platform for data intensive biomedical research.
  - [DataViewer Tool](http://www.taverna.org.uk/download/associated-tools/dataviewer-tool/)
  - [API Consumer Tool](http://www.taverna.org.uk/download/associated-tools/api-consumer-tool)
@@ -55,7 +57,7 @@ There is also a number of associated tools available to use with (non-Apache) Ta
 
 There are not yet any public releases of Apache Taverna.
 
-You might be interested in the [source code](/download/code) of Apache Taverna, or 
+You might be interested in the [source code](/download/code) of Apache Taverna, or
    [earlier non-Apache releases](pre-apache).
 
 ### License
@@ -78,6 +80,6 @@ This section covers Taverna releases done before incubation as an Apache project
 
 ## Taverna 2.5 and earlier (non-Apache)
 
-Taverna releases from 2001 to 2014 (e.g. Taverna 2.5) were made before Apache incubation: 
+Taverna releases from 2001 to 2014 (e.g. Taverna 2.5) were made before Apache incubation:
 
  - [Earlier non-Apache releases](/download/pre-apache)
