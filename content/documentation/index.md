@@ -31,8 +31,8 @@ A list of available documentation for Taverna includes:
 
  - [Glossary](/documentation/glossary) of terms
  - [Quick start guide](/documentation/quick-start-guide)
- - [FAQ](http://dev.mygrid.org.uk/wiki/display/tav250/Frequently+Asked+Questions) (None Apache Wiki)
- - [User Manual](http://www.mygrid.org.uk/dev/wiki/display/taverna/User+Manual) (None Apache Wiki)
+ - [FAQ](http://dev.mygrid.org.uk/wiki/display/tav250/Frequently+Asked+Questions) (Non-Apache Wiki)
+ - [User Manual](http://www.mygrid.org.uk/dev/wiki/display/taverna/User+Manual) (Non-Apache Wiki)
    - [Components](/documentation/components) (Since Taverna 2.5)
    - [Interaction Service](/documentation/interaction) (Since Taverna 2.5)
  - [Tutorials](/documentation/tutorials)
@@ -40,20 +40,20 @@ A list of available documentation for Taverna includes:
  - [Example workflows](/documentation/example-workflows) to help you get started with Taverna 
  - [Service sets](/documentation/service-sets) for various domains
  - [10 Best practices for workflow design](http://www.slideshare.net/khettne/10-best-practices-for-workflow-design) (slides)
-   - paper: [Best practices for workflow design: how to prevent workflow decay](http://ceur-ws.org/Vol-952/paper_23.pdf)
+   - Paper: [Best practices for workflow design: how to prevent workflow decay](http://ceur-ws.org/Vol-952/paper_23.pdf)
  - [Provenance management](/documentation/provenance) in Taverna
  - Taverna [Command Line Tool](/documentation/command-line-tool) and how to use it
  - Taverna [Server](/documentation/server) (REST API, SOAP API explained) and how to use it
  - [Taverna Player](/documentation/taverna-player)
  - Various [plugins](/documentation/plugins) for Taverna
- - [None Apache Developers’ wiki](http://www.mygrid.org.uk/dev/wiki/display/developer/Home) 
+ - [Non-Apache Developers' wiki](http://www.mygrid.org.uk/dev/wiki/display/developer/Home) 
      containing the 
-     [Developers’ guide](http://www.mygrid.org.uk/dev/wiki/display/developer/Developers+Guide) and more
+     [Developers' guide](http://www.mygrid.org.uk/dev/wiki/display/developer/Developers+Guide) and more
 
 <a name="tools"></a>
 ##Tool and Services
 
-There are a number of None Apache tools and services available to use with Taverna.
+There are a number of non-Apache tools and services available to use with Taverna.
 
  - [Component profile editor](/documentation/components/component-profile-editor)
  - [Component validator](/documentation/components/component-validator)

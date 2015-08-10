@@ -1,4 +1,4 @@
-Title:     None Apache Taverna Server
+Title:     Non-Apache Taverna Server
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -47,7 +47,7 @@ Download the **[Taverna Server 2.5.4 WAR](http://www.taverna.org.uk/download/ser
 
 
 The software distributor Launchpad has an archive of 
-   [earlier None Apache releases of Taverna Server](https://launchpad.net/taverna-server/+series).
+   [earlier non-Apache releases of Taverna Server](https://launchpad.net/taverna-server/+series).
 
 ##System Requirements
 
@@ -74,13 +74,13 @@ You will need a suitable servlet container.
 The Server has been developed using [Tomcat 6.0.26](http://tomcat.apache.org/download-60.cgi)
    as the servlet container, but other versions of Tomcat are known to work 
    (back to at least Tomcat 6.0.20, and up to Tomcat 7.0.53) and other containers may also 
-   function correctly as no Tomcat-specific APIs are used in the deployable code. 
+   function correctly, as no Tomcat-specific APIs are used in the deployable code. 
    We welcome feedback on which containers work, as well as on how to configure them.
 
 ##Source Code
 
-The source code to Apache Taverna Server is available from the Taverna project';s 
-   [space on Apache;s Git Server](https://git-wip-us.apache.org/repos/asf?p=incubator-taverna-server.git). 
+The source code to Apache Taverna Server is available from the Taverna project's 
+   [space on Apache's Git Server](https://git-wip-us.apache.org/repos/asf?p=incubator-taverna-server.git). 
 The 2.5.4 release was made automatically using Apache Maven from the 
    [2.5.4](https://github.com/taverna/taverna-server/releases/tag/2.5.4) git tag; 
    you may download the [exact source tree](http://www.taverna.org.uk/download/server/2-5/) 

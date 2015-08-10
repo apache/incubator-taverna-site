@@ -16,18 +16,18 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-Taverna Server enables you to set up a dedicated server for executing workflows remotely.
+Taverna Server enables you to set up a dedicated server for remotely executing workflows.
 
-##Latest None Apache Release
+##Latest Non-Apache Release
 
  - Documentation for the 
       [Taverna Server 2.5 release](http://www.mygrid.org.uk/dev/wiki/display/taverna/Taverna+Server+2.5)
-      (which is based on the Taverna 2.5 codebase)
+      (which is based on the Taverna 2.5 codebase).
 ##Previous Releases
 
  - Documentation for the 
      [Taverna Server 2.4 release](http://dev.mygrid.org.uk/wiki/display/taverna24/Taverna+Server+2.4)
-     (which is based on the Taverna 2.4 codebase)
+     (which is based on the Taverna 2.4 codebase).
  - Documentation for the 
      [Taverna 2 Server Release 1](http://www.taverna.org.uk/documentation/taverna-2-x/server/2-2/)
-     (which is based on the Taverna 2.2 codebase)
+     (which is based on the Taverna 2.2 codebase).

@@ -20,7 +20,7 @@ Taverna 2 Command Line Tool is a script that runs Taverna 2.x workflows from a t
 It comes in a form of a command line script *executeworkflow* (*executeworkflow.bat* on 
    Windows and *executeworkflow.sh* on Linux/UNIX).
 
-##Latest None Apache Release
+##Latest Non-Apache Release
 
  - Documentation for the [Taverna Command Line Tool 2.5](http://dev.mygrid.org.uk/wiki/display/taverna/Command+Line+Tool)
 
