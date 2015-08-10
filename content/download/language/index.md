@@ -77,7 +77,7 @@ you may also be interested in the [source code](/download/code/) repository
 
 ### 0.15.0-incubating
 
-**Apache Commons RDF 0.1.0-incubating** was published on 2015-08-11, and is available for download
+**Apache Taverna Language 0.15.0-incubating** was published on 2015-08-11, and is available for download
 from official mirrors of the
 ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/closer.cgi/incubator/taverna/):
 
@@ -86,7 +86,7 @@ ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/close
   [md5](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.md5),
   [sha1](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.sha1))
 
-You might also need:
+You might also need **Apache Taverna Maven Parent**:
 
 * [taverna-parent-1-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip)
   ([asc](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip.asc),
