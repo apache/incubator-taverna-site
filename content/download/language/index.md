@@ -16,7 +16,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-**Apache Taverna Language** (incubating) is an API that gives programmatic
+**Apache Taverna Language** (incubating) is a Java API that gives programmatic
 access to inspecting, modifying and converting
 [SCUFL2](/documentation/scufl2/) workflow definitions and
 [Research Object Bundles](https://w3id.org/bundle).
@@ -27,41 +27,41 @@ mirrored from
 [ASF's Maven repository](https://repository.apache.org/content/repositories/releases/org/apache/taverna/language/).
 For convenience of IDE users, the Maven artifacts include `-javadoc.jar` and
 `-sources.jar`, however you might prefer the
-online [API javadoc](apidocs/)
-and the [source code releases](#Source_code) (see below).
+online [API javadoc](/javadoc/taverna-language/?org/apache/taverna/scufl2/api/package-summary.html)
+and the [source code releases](#source-code) (see below).
 
 To use Taverna Language with [Maven](https://maven.apache.org/), add to your `pom.xml`:
 
-```xml
-<dependency>
-    <groupId>org.apache.taverna.language</groupId>
-    <artifactId>taverna-robundle</artifactId>
-    <version>0.15.0-incubating</version>
-</dependency>
-<dependency>
-    <groupId>org.apache.taverna.language</groupId>
-    <artifactId>taverna-databundle</artifactId>
-    <version>0.15.0-incubating</version>
-</dependency>
-<dependency>
-    <groupId>org.apache.taverna.language</groupId>
-    <artifactId>taverna-scufl2-api</artifactId>
-    <version>0.15.0-incubating</version>
-</dependency>
-<dependency>
-    <groupId>org.apache.taverna.language</groupId>
-    <artifactId>taverna-scufl2-wfbundle</artifactId>
-    <version>0.15.0-incubating</version>
-</dependency>
-<dependency>
-    <groupId>org.apache.taverna.language</groupId>
-    <artifactId>taverna-scufl2-t2flow</artifactId>
-    <version>0.15.0-incubating</version>
-</dependency>
-```
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.taverna.language</groupId>
+            <artifactId>taverna-robundle</artifactId>
+            <version>0.15.0-incubating</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.taverna.language</groupId>
+            <artifactId>taverna-databundle</artifactId>
+            <version>0.15.0-incubating</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.taverna.language</groupId>
+            <artifactId>taverna-scufl2-api</artifactId>
+            <version>0.15.0-incubating</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.taverna.language</groupId>
+            <artifactId>taverna-scufl2-wfbundle</artifactId>
+            <version>0.15.0-incubating</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.taverna.language</groupId>
+            <artifactId>taverna-scufl2-t2flow</artifactId>
+            <version>0.15.0-incubating</version>
+        </dependency>
+    </dependencies>
 
 The `<version>` above might not be up to date,
-see the [source code releases](#Source_code) below to find the latest version.
+see the [source code releases](#source-code) below to find the latest version.
 
 See the [Taverna Language documentation](/documentation/scufl2/) for more details.
 
@@ -82,9 +82,9 @@ from official mirrors of the
 ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/closer.cgi/incubator/taverna/):
 
 * [taverna-language-0.15.0-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip)
-  ([asc](https://dist.apache.org/repos/dist/dev/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.asc),
-  [md5](https://dist.apache.org/repos/dist/dev/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.md5),
-  [sha1](https://dist.apache.org/repos/dist/dev/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.sha1))
+  ([asc](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.asc),
+  [md5](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.md5),
+  [sha1](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.sha1))
 
 After downloading the files, check the signatures using the following [KEYS](https://dist.apache.org/repos/dist/release/incubator/taverna/KEYS)
 file. The [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12318322&version=12332246)
