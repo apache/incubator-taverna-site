@@ -72,7 +72,7 @@ Below you can find all Taverna Language source releases.
 
 After downloading the files,
 [verify the PGP signatures](http://www.apache.org/info/verification.html)
-using the Apache Taverna [KEYS](https://dist.apache.org/repos/dist/release/incubator/taverna/KEYS)
+using the Apache Taverna [KEYS](https://www.apache.org/dist/incubator/taverna/KEYS)
 file.
 
 ### taverna-language-0.15.0-incubating
@@ -82,9 +82,9 @@ from official mirrors of the
 ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/closer.cgi/incubator/taverna/):
 
 * [taverna-language-0.15.0-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip)
-  ([asc](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.asc),
-  [md5](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.md5),
-  [sha1](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.sha1))
+  ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.asc),
+  [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.md5),
+  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.sha1))
 
 The Taverna Language [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12318322&version=12332246)
 is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326808).
@@ -96,14 +96,12 @@ is available from the [Apache Taverna Jira](https://issues.apache.org/jira/brows
 **Apache Taverna Maven Parent** was published on 2015-08-11, and is available as:
 
 * [taverna-parent-1-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip)
-  ([asc](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip.asc),
-  [md5](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip.md5),
-  [sha1](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip.sha1))
+  ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip.asc),
+  [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip.md5),
+  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip.sha1))
 
 The Taverna Maven parent [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332247&projectId=12318322)
 is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326807).
-
-
 
 ### Source code repositories
 
@@ -114,3 +112,15 @@ For the latest developments you may also be interested in the corresponding
 * [incubator-taverna-maven-parent](https://github.com/apache/incubator-taverna-maven-parent/)
 
 Each release has a corresponding tag, e.g. `0.15.0-incubating`.
+
+### Archived releases
+
+For all archived Apache Taverna releases, see
+[archive.apache.org](http://archive.apache.org/dist/incubator/taverna/).
+
+Historical releases before moving to Apache (2015) are available at
+GitHub under:
+
+* [wf4ever/robundle](https://github.com/wf4ever/robundle/releases)
+* [taverna/taverna-databundle](https://github.com/taverna/taverna-databundle/releases)
+* [taverna/taverna-scufl2](https://github.com/taverna/taverna-scufl2/releases)
