@@ -253,7 +253,7 @@ please subscribe to and contact the [dev@taverna](http://mail-archives.apache.or
 
 ### Bug Fixes
 
-Use the Apache Taverna JIRA [issue tracker](/community/jira.md) to **report or track a bug.** 
+Use the Apache Taverna JIRA [issue tracker](/community/issue-tracker) to **report or track a bug.** 
 
 ## Snapshot builds
 

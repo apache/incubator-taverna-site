@@ -91,7 +91,7 @@ Some of the Apache Taverna users and developers occassionally hang out on the
 <a name="reportbugs"></a>
 ### Report or track a bug
 
-Use the Apache Taverna JIRA [issue tracker](/community/jira.md) to report or track a bug. 
+Use the Apache Taverna JIRA [issue tracker](/community/issue-tracker) to report or track a bug. 
 
 The previous (non-Apache) Taverna JIRA can be found at:
 <http://dev.mygrid.org.uk/issues/browse/T3>
