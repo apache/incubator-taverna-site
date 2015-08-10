@@ -606,7 +606,7 @@ In your `dist` checkout, `svn rm` the dropped RC folders:
 Once a *[VOTE] [Results]* email has been agreed on general@incubator,
 then:
 
-* Promiote the release candidate to a release
+* Promote the release candidate to a release
 
 ### Moving to release area
 
@@ -617,8 +617,8 @@ e.g. at
 [https://dist.apache.org/repos/dist/release/incubator/taverna/source/](https://dist.apache.org/repos/dist/release/incubator/taverna/source/)
 but remember to remove the `-RC1` from the folder name.
 
-    svn mv https://dist.apache.org/repos/dist/dev/incubator/taverna/source/taverna-language-0.15.0-incubating-RC2 https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-language-0.15.0-incubating
-    svn mv https://dist.apache.org/repos/dist/dev/incubator/taverna/source/taverna-parent-1-incubating-RC2 https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-parent-1-incubating
+    svn mv https://dist.apache.org/repos/dist/dev/incubator/taverna/source/taverna-language-0.15.0-incubating-RC2 https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-language-0.15.0-incubating -m "Releasing apache taverna-language-0.15.0-incubating"
+    svn mv https://dist.apache.org/repos/dist/dev/incubator/taverna/source/taverna-parent-1-incubating-RC2 https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-parent-1-incubating -m "Releasing apache taverna-parent-1-incubating"
 
 ### Update download page
 
