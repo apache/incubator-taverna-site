@@ -108,7 +108,8 @@ is available from the [Apache Taverna Jira](https://issues.apache.org/jira/brows
 ### Source code repositories
 
 For the latest developments
-you may also be interested in the [source code](/download/code/) repository
+you may also be interested in the [source code](/download/code/) repositories
 [incubator-taverna-language](https://github.com/apache/incubator-taverna-language).
+and [incubator-taverna-maven-parent](https://github.com/apache/incubator-taverna-maven-parent/).
 
 Each release has a corresponding tag, e.g. `0.15.0-incubating`.
