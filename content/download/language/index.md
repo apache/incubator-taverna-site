@@ -68,14 +68,14 @@ See the [Taverna Language documentation](/documentation/scufl2/) for more detail
 
 ## Source code
 
-Here you can find all Taverna Language source releases.
+Below you can find all Taverna Language source releases.
 
-For the latest developments
-you may also be interested in the [source code](/download/code/) repository
-[incubator-taverna-language](https://github.com/apache/incubator-taverna-language).
+After downloading the files,
+[verify the PGP signatures](http://www.apache.org/info/verification.html)
+using the Apache Taverna [KEYS](https://dist.apache.org/repos/dist/release/incubator/taverna/KEYS)
+file.
 
-
-### 0.15.0-incubating
+### taverna-language-0.15.0-incubating
 
 **Apache Taverna Language 0.15.0-incubating** was published on 2015-08-11, and is available for download
 from official mirrors of the
@@ -86,13 +86,29 @@ ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/close
   [md5](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.md5),
   [sha1](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.sha1))
 
-You might also need **Apache Taverna Maven Parent**:
+The Taverna Language [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12318322&version=12332246)
+is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326808).
+
+
+
+### taverna-parent-1-incubating
+
+**Apache Taverna Maven Parent** was published on 2015-08-11, and is available as:
 
 * [taverna-parent-1-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip)
   ([asc](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip.asc),
   [md5](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip.md5),
   [sha1](https://dist.apache.org/repos/dist/release/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip.sha1))
 
-After downloading the files, check the signatures using the following [KEYS](https://dist.apache.org/repos/dist/release/incubator/taverna/KEYS)
-file. The [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12318322&version=12332246)
-is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326808).
+The Taverna Maven parent [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332247&projectId=12318322)
+is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326807).
+
+
+
+### Source code repositories
+
+For the latest developments
+you may also be interested in the [source code](/download/code/) repository
+[incubator-taverna-language](https://github.com/apache/incubator-taverna-language).
+
+Each release has a corresponding tag, e.g. `0.15.0-incubating`.
