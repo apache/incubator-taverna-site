@@ -26,7 +26,7 @@ Apache Taverna Language is available from
 mirrored from
 [ASF's Maven repository](https://repository.apache.org/content/repositories/releases/org/apache/taverna/language/).
 For convenience of IDE users, the Maven artifacts include `-javadoc.jar` and
-`-sources.jar`, however you might prefer the
+`-sources.jar`; however, you might prefer the
 online [API javadoc](/javadoc/taverna-language/?org/apache/taverna/scufl2/api/package-summary.html)
 and the [source code releases](#source-code) (see below).
 
