@@ -181,7 +181,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
   <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-databundle-viewer">Browse</a></td>
-  <td>Web-based Data Bundle viewer (GSOC2015 project)</td>
+  <td>Web-based Data Bundle viewer</td>
 </tr>
 <tr>
   <td><a href="https://github.com/apache/incubator-taverna-mobile">incubator-taverna-mobile</a></td> 
@@ -191,7 +191,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
   <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-mobile">Browse</a></td>
-  <td>Android app for running Taverna workflows remotely (GSOC2015 project)</td>
+  <td>Android app for running Taverna workflows remotely</td>
 </tr>
 </table>
 
