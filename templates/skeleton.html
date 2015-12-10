@@ -1,14 +1,14 @@
-<!-- 
+<!--
      Note as of 29 Jan 2015 no page uses this template.
      Instead the seperate header, navbar and footer are used.
-     Check ../lib/path.pm to see which pages are using which templates. 
+     Check ../lib/path.pm to see which pages are using which templates.
 -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">	  
-    <meta name="viewport" content="width=device-width, initial-scale=1">      
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Apache Taverna - {% block title %}{{ headers.title }}{% endblock %}</title>
 
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -35,38 +35,38 @@
     <!-- JSON-LD markup for Google Structured Data -->
 	{% if headers.jsonld %}
 	  <!-- custom JSON-LD for this page -->
-	  <script type="application/ld+json">  
+	  <script type="application/ld+json">
 		  {{ headers.jsonld|safe}}
 	  </script>
 	{% endif %}
 	  <!-- generic JSON-LD for this page -->
-	  <script type="application/ld+json">  
+	  <script type="application/ld+json">
 		{
 			"@context" : "http://schema.org",
 			"@type" : ["CreativeWork"],
 			"@id": "",
 			"name" : "{{ headers.title|safe }}",
 			"publisher" : {
-				"@type" : "Organization", 
+				"@type" : "Organization",
 				"url" : "http://www.apache.org/",
-				"name" : "The Apache Software Foundation (ASF)" 
+				"name" : "The Apache Software Foundation (ASF)"
 			},
-			"license": { 
+			"license": {
 				"@type": "CreativeWork",
 				"@id": "http://www.apache.org/licenses/LICENSE-2.0",
 				"url": "http://www.apache.org/licenses/LICENSE-2.0",
 				"name": "Apache License, Version 2.0"
 			}
-		}		
+		}
 </script>
-	  
+
   </head>
 
   <body>
-	  
-	  
-    
-    
+
+
+
+
           <!-- Static navbar -->
       <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -78,10 +78,10 @@
               <span class="icon-bar"></span>
             </button>
 			<a class="navbar-brand" href="/"><img src="/img/taverna-logo-145x134.png" alt="">Apache Taverna</a>
-			  
+
           </div>
           <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">              
+            <ul class="nav navbar-nav">
                 <li><a href="/about/">About</a></li>
                 <li class="dropdown">
 					<a href="/download/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Download<span class="caret"></span></a>
@@ -91,16 +91,16 @@
 				  </ul>
 				</li>
                 <li><a href="/doc/">Documentation</a></li>
-                <li><a href="/code/">Code</a></li>            
+                <li><a href="/code/">Code</a></li>
                 <li><a href="/contact/">Contact</a></li>
             </ul>
-             
+
               <form >
-                      
-                      
+
+
                       <!--<input type="submit" id="submit" value="Search">-->
                     </form>
-              
+
               <form class="navbar-form navbar-right" role="search"
                   name="search" id="search" action="http://www.google.com/search" method="get">
                       <input value="taverna.incubator.apache.org" name="sitesearch" type="hidden"/>
@@ -109,10 +109,10 @@
 						  <span class="input-group-btn">
                             <button type="submit" class="btn btn-default">Search</button>
 						  </span>
-                      </div>                  
+                      </div>
               </form>
 
-             <ul class="nav navbar-nav navbar-right">                
+             <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ASF<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
@@ -127,38 +127,37 @@
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>
-    
-    
-      
-    
+
+
+
+
     <div id="page" class="container">
        <h1>{% block tagline %}{{ headers.title }}{% endblock %}</h1>
-      <div id="nav">        
+      <div id="nav">
           <!-- Is this needed?
         <p>{{ breadcrumbs|safe }}</p>
  -->
       </div>
-      
+
       {% block content %}<div id="content">{{ content|markdown }}</div>{% endblock %}
-      
+
     </div>
 
 
-    
+
 
     <footer class="footer">
       <div class="container">
-           <a href="http://incubator.apache.org/"><img src="/img/apache-incubator-logo.png" width="229" height="57"/></a>
            <p id="copyright" class="text-muted">
-              Copyright &#169; 2014-2015 The Apache Software Foundation, Licensed under the 
+              Copyright &#169; 2014-2015 The Apache Software Foundation, Licensed under the
               <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
               Apache and the Apache feather logo are trademarks of The Apache Software Foundation.
           </p>
       </div>
     </footer>
-      
+
     <script src="/lib/jquery/jquery-1.11.1.min.js"></script>
     <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
-      
+
   </body>
 </html>
