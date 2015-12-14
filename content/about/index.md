@@ -44,6 +44,7 @@ PPMC) are:
 	<tr><td>brenninc</td><td>Christian Y. Brenninkmeijer</td></tr>
 	<tr><td>redmitry</td><td>Dmitriy Repchevsky</td></tr>
 	<tr><td>dkf</td><td>Donal K. Fellows</td></tr>
+        <tr><td>gnaylor</td><td>Gale Naylor</td></tr>
 	<tr><td>ianwdunlop</td><td>Ian Dunlop</td></tr>
 	<tr><td>jgarrido</td><td>Julián Garrido</td></tr>
 	<tr><td>hainesr</td><td>Robert Haines</td></tr>
