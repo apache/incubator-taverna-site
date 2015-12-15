@@ -108,7 +108,7 @@ In short, follow this pattern:
  ** You forgot the Quick Commit? Now click `[Commit]` followed by `Submit`
  * Click/Refresh `[View Staging Build]` to see if CMS has built your changes. Usually
    this is quite quick. there should be no "Current" or "Pending" jobs.
- * Click `[Staging]` to see the result of your change (and anyone elses at the same time)
+ * Click `[Staging]` to see the result of your change (and anyone else's at the same time)
    at the temporary
    [http://taverna.staging.apache.org/](http://taverna.staging.apache.org/) site. 
  * If you are happy, go back and click `[Publish]` followed by `[Submit]`, 
