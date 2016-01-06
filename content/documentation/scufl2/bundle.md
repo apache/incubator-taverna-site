@@ -31,7 +31,7 @@ The **workflow bundle document** in RDF/XML format **should** be in `/workflowBu
 If the archive is a [workflow bundle](/documentation/scufl2/taverna_bundle), 
    i.e. `/mimetype` is `application/vnd.taverna.scufl2.workflow-bundle`, 
    then the `META-INF/container.xml` can define **root files** at alternative paths and media types. 
-This specification requires that one of those formats is `application/rdf+xml` according to this specification. 
+This specification requires that one of those formats is `application/rdf+xml`.
 
 Example `META-INF/container.xml`: (may be outdated)
 
@@ -53,8 +53,8 @@ SCUFL2-compliant workflow bundle writers:
  - **Must** set the bundle **mimetype** to `application/vnd.taverna.scufl2.workflow-bundle`.
  - **Must** add a workflow bundle document in `application/rdf+xml` format.
  - **Should** store the workflow bundle document in `/workflowBundle.rdf`.
- - **Must not** contain a resource `/workflowBundle.rdf` which is not the workflow bundle document.
- - **May** Add additional representation of the workflow bundle document (and other documents). 
+ - **Must not** contain a resource `/workflowBundle.rdf` that is not the workflow bundle document.
+ - **May** add additional representation of the workflow bundle document (and other documents). 
      Alternates of the workflow bundle document **should** be included in the `META-INF/container.xml`, 
      but only if they can be considered to fully specify the workflow bundle as in the RDF/XML format. 
      (So for instance, a `text/html` or `image/png` representation would not normally be considered a 
@@ -293,7 +293,7 @@ If alternate formats other than the required RDF/XML format are included in the 
 
 ##Parsing/writing
 
-SCUFL2 compliant writers, when producing the workflow bundle document:
+SCUFL2-compliant writers, when producing the workflow bundle document:
 
  - **Should** write the workflow bundle RDF/XML document according to the SCUFL2 XML schema, 
       use the default namespace `xmlns="http://ns.taverna.org.uk/2010/scufl2#"` and declare the 
@@ -305,21 +305,21 @@ SCUFL2 compliant writers, when producing the workflow bundle document:
  - **Should** set **rdf:about** to `""` (or `"./"` if `xml:base` is not set).
  - **Should** declare a **mainWorkflow** and **mainProfile**.
  - **Must** ensure that any **workflow**/**profile** has a relative **rdfs:seeAlso** link to a bundle resource in 
-     `application/rdf+xml` which defines 
+     `application/rdf+xml`, which defines 
     that [workflow](/documentation/scufl2/workflow) / [profile](/documentation/scufl2/profile).
 
-SCUFL2 compliant readers, when parsing a workflow bundle document:
+SCUFL2-compliant readers, when parsing a workflow bundle document:
 
-**May** assume that a declared workflow/profile is defined in the referenced representation. 
+- **May** assume that a declared workflow/profile is defined in the referenced representation. 
   For instance, in the code example below, `workflow/SomeNestedWorkflow.rdf` **must** contain a 
   [workflow definition](/documentation/scufl2/workflow) for `workflow/SomeNestedWorkflow/`.   
 
-    <workflow>
-       <Workflow rdf:about="workflow/SomeNestedWorkflow/">
-          <rdfs:seeAlso rdf:resource="workflow/SomeNestedWorkflow.rdf" />
-       </Workflow>   
-    </workflow>
+        <workflow>
+           <Workflow rdf:about="workflow/SomeNestedWorkflow/">
+              <rdfs:seeAlso rdf:resource="workflow/SomeNestedWorkflow.rdf" />
+           </Workflow>   
+        </workflow>
 
-**May** parse the `/workflowBundle.rdf` as RDF/XML   
-**May** parse the {/workflowBundle.rdf}} according to the XML schema if the `xsi:type="WorkflowBundleDocument"` 
+- **May** parse the `/workflowBundle.rdf` as RDF/XML.
+- **May** parse the {/workflowBundle.rdf}} according to the XML schema if the `xsi:type="WorkflowBundleDocument"` 
    is set on the `rdf:RDF` element.
