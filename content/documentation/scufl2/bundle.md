@@ -307,7 +307,7 @@ SCUFL2 compliant readers, when parsing a workflow bundle document:
        </Workflow>   
     </workflow>
 
-then `workflow/SomeNestedWorkflow.rdf`> **must** contain a [workflow definition](/documentation/scufl2/workflow) 
+then `workflow/SomeNestedWorkflow.rdf` **must** contain a [workflow definition](/documentation/scufl2/workflow) 
    for `workflow/SomeNestedWorkflow/`.   
 **May** parse the `/workflowBundle.rdf` as RDF/XML   
 **May** parse the {/workflowBundle.rdf}} according to the XML schema if the `xsi:type="WorkflowBundleDocument"` 
