@@ -289,8 +289,8 @@ SCUFL2 compliant writers, when producing the workflow bundle document:
  - **Must** ensure the workflow bundle RDF/XML document is valid [RDF/XML](http://www.w3.org/TR/REC-rdf-syntax/) 
      and includes the properties deemed required by this specification. 
    Conforming to the XML schema should ensure this.
- - **Should** set the `xml:base` property to`"./`
- - **Should** set **rdf:about** to `""` (or `"./"' if `xml:base` is not set))
+ - **Should** set the `xml:base` property to `"./"`
+ - **Should** set **rdf:about** to `""` (or `"./"` if `xml:base` is not set))
  - **Should** declare a **mainWorkflow** and **mainProfile**
  - **Must**ensure that any **workflow**/**profile** has a relative **rdfs:seeAlso** link to a bundle resource in 
      `application/rdf+xml` which defines   
