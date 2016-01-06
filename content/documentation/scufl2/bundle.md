@@ -53,7 +53,7 @@ SCUFL2-compliant workflow bundle writers:
  - **Must** set the bundle **mimetype** to `application/vnd.taverna.scufl2.workflow-bundle`.
  - **Must** add a workflow bundle document in `application/rdf+xml` format.
  - **Should** store the workflow bundle document in `/workflowBundle.rdf`.
- - **Must not** contain a resource `/workflowBundle.rdf` that is not the workflow bundle document.
+ - **Must not** contain a resource called `/workflowBundle.rdf` that is not the workflow bundle document.
  - **May** add additional representation of the workflow bundle document (and other documents). 
      Alternates of the workflow bundle document **should** be included in the `META-INF/container.xml`, 
      but only if they can be considered to fully specify the workflow bundle as in the RDF/XML format. 
@@ -78,12 +78,12 @@ Producers of these different kinds of archives:
  - **Should** store the workflow bundle document in `/workflowBundle.rdf`, 
       unless the workflow bundle is not to be considered to have a 'main' or 'prominent' role within the archive. 
    (For instance, if the archive is a collection of workflow bundles.)
- - **Should** have a `mimetype` and `META-INF/container.xml` resource which declares the archive's main entry point, 
+ - **Should** have a `mimetype` and `META-INF/container.xml` resource that declares the archive's main entry point, 
      like the data bundle document. 
    The mime type **must not** be `application/vnd.taverna.scufl2.workflow-bundle`, and 
       the root files **should not** be the workflow bundle document.
  - **Should** link to the workflow bundle document from a resource within the archive, which (ultimately) 
-      is linked to from one of the `rootfile` documents. 
+      is linked-to from one of the `rootfile` documents. 
    Such documents **should** be in RDF/XML format.
  - **Should** declare the media type of the RDF/XML workflow bundle document as `application/rdf+xml` 
       in its `META-INF/manifest.xml`
@@ -95,7 +95,7 @@ SCUFL2-compliant workflow bundle readers:
  - **Should** assume that if the archive's `mimetype` is `application/vnd.taverna.scufl2.workflow-bundle`, 
        then the `rootfile` in `META-INF/container.xml` with the media type {{application/rdf+xml}) 
        is the root workflow bundle document.
- - **May** assume that any alternate formats listed as a `rootfile` in a `application/vnd.taverna.scufl2.workflow-bundle` 
+ - **May** assume that any alternate formats listed as a `rootfile` in an `application/vnd.taverna.scufl2.workflow-bundle` 
        archive would fully cover the specification of the RDF/XML representation, and read such formats instead.
  - **May** assume that any `application/rdf+xml` document with a `xsi:type="WorkflowBundleDocument"` 
        can be parsed according to the Scufl2 XML schema.
@@ -108,10 +108,8 @@ Workflow bundles and their resources **must** be declared with relative identifi
    If the Workflow Bundle document is in `workflowBundle.rdf` within the archive, the workflow identifier is `./`. 
    This **should** be achieved by setting `xml:base="./"` and `rdf:about=""`.
 
-One can mint a URI to refer to resources within the bundle archive, including the workflow bundle, 
-   workflows and representations. 
-   If `http://example.com/myWfBundle.scufl2` returns a [Scufl2 workflow bundle](/documentation/scufl2/taverna_bundle) 
-   archive of the content type `application/vnd.taverna.scufl2.workflow-bundle`,  
+One can mint a URI to refer to resources within the bundle archive, including the workflow bundle, workflows and representations. 
+   If `http://example.com/myWfBundle.scufl2` returns a [Scufl2 workflow bundle](/documentation/scufl2/taverna_bundle) archive of the content type `application/vnd.taverna.scufl2.workflow-bundle`,  
    then (assuming default structure of the archive):
 
  - `http://example.com/myWfBundle.scufl2` identifies the Workflow Bundle representation (the *archive*).
@@ -244,15 +242,14 @@ Two execution profiles are provided, and `profile/tavernaWorkbench` is dedicated
      Each workflow must have an **rdfs:seeAlso** link to the bundle resource that defines the workflow, 
        typically `workflow/workflowName.rdf` corresponding to the non-information resource `workflow/workflowName/`.
  - **mainWorkflow** (optional) refers to the top-level [workflow](/documentation/scufl2/workflow) of this bundle. 
-   It is valid to have a workflow bundle without a main workflow, 
-      for instance if the bundled workflows are unconnected "workflow fragments." 
+   Workflow bundles without a main workflow can be valid if, for instance, the bundled workflows are unconnected "workflow fragments." 
    If there is a **mainProfile**, the workflow bundle must also have a **mainWorkflow**. 
    The main workflow must always be listed under **workflow**.
  - **profile** (optional) describes the <a href="/wiki/display/developer/Scufl2-Profile">profiles</a> that specify 
       how to <strong>execute</strong> the bundled workflows. In particular, the profile provides a set of configured 
       activities bound to the processors for a particular run environment. If no profiles are specified, this is an 
       abstract workflow bundle.
- - **mainProfile** (optional) is the suggested <strong>main profile</strong>. Execution platforms unable to choose 
+ - **mainProfile** (optional) specifies the suggested <strong>main profile</strong>. Execution platforms unable to choose 
       between the provided profiles can select this profile as a default. It is valid to have a workflow bundle 
       without a main profile (even if it has other profiles), but any main profile must also be listed under 
       <strong>profile</strong>.
