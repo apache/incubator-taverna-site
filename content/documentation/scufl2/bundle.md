@@ -108,9 +108,7 @@ Workflow bundles and their resources **must** be declared with relative identifi
    If the Workflow Bundle document is in `workflowBundle.rdf` within the archive, the workflow identifier is `./`. 
    This **should** be achieved by setting `xml:base="./"` and `rdf:about=""`.
 
-One can mint a URI to refer to resources within the bundle archive, including the workflow bundle, workflows and representations. 
-   If `http://example.com/myWfBundle.scufl2` returns a [Scufl2 workflow bundle](/documentation/scufl2/taverna_bundle) archive of the content type `application/vnd.taverna.scufl2.workflow-bundle`,  
-   then (assuming default structure of the archive):
+One can mint a URI to refer to resources within the bundle archive, including the workflow bundle, workflows and representations. If `http://example.com/myWfBundle.scufl2` returns a [Scufl2 workflow bundle](/documentation/scufl2/taverna_bundle) archive of the content type `application/vnd.taverna.scufl2.workflow-bundle`, then (assuming default structure of the archive):
 
  - `http://example.com/myWfBundle.scufl2` identifies the Workflow Bundle representation (the *archive*).
  - `http://example.com/myWfBundle.scufl2/` identifies the *Workflow Bundle* (as described here).
