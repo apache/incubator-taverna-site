@@ -93,7 +93,7 @@ SCUFL2-compliant workflow bundle readers:
  - **Should** assume that `/workflowBundle.rdf` - if present - 
        is the root workflow bundle in the `application/rdf+xml` format specified here.
  - **Should** assume that if the archive's `mimetype` is `application/vnd.taverna.scufl2.workflow-bundle`, 
-       then the `rootfile` in `META-INF/container.xml` with the media type {{application/rdf+xml}) 
+       then the `rootfile` in `META-INF/container.xml` with the media type `application/rdf+xml` 
        is the root workflow bundle document.
  - **May** assume that any alternate formats listed as a `rootfile` in an `application/vnd.taverna.scufl2.workflow-bundle` 
        archive would fully cover the specification of the RDF/XML representation, and read such formats instead.
@@ -316,5 +316,5 @@ SCUFL2-compliant readers, when parsing a workflow bundle document:
         </workflow>
 
 - **May** parse the `/workflowBundle.rdf` as RDF/XML.
-- **May** parse the {/workflowBundle.rdf}} according to the XML schema if the `xsi:type="WorkflowBundleDocument"` 
+- **May** parse the `/workflowBundle.rdf` according to the XML schema if the `xsi:type="WorkflowBundleDocument"` 
    is set on the `rdf:RDF` element.
