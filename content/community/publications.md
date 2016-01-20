@@ -16,7 +16,8 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-# Publications
+# Publications and Citations
+* * *
 ## Citing Taverna
 
 ### Cite Taverna in a paper
@@ -29,8 +30,9 @@ In: *Nucleic Acids Research*, 41(W1): W557&ndash;W561.
 
 ### Cite the Apache Taverna Website
 To reference the Taverna web site, please use [**http://taverna.incubator.apache.org/**](http://taverna.incubator.apache.org/)
-
+* * *
 ## Publications
+
 *These publications describe or experiment with Taverna.*
 
 ### 2014
