@@ -1,193 +1,251 @@
-# References
-*The following is a partial list of publications that reference the Taverna Workflow Management System.*
+# Publications About Taverna
+## Citing Taverna
 
-##2015
-Khalid Belhajjame, Jun Zhao, Daniel Garijo, Matthew Gamble, Kristina Hettne, Ra&uacute;l Palma, Eleni Mina, Oscar Corcho, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, Sean Bechhofer, Graham Klyne, Carole Goble. (2015)
-**Using a suite of ontologies for preserving workflow-centric research objects.** 
-In: *Journal of Web Semantics: Scence, Services and Agents on the World Wide Web*. 32: 16&ndash;42.
-[doi:10.1016/j.websem.2015.01.003](http://dx.doi.org/10.1016/j.websem.2015.01.003)
+### Cite Taverna in a paper
+To reference Taverna in a paper, please use:
 
-Sonja Holl, Yassene Mohammed, Olav Zimmermann, Magnus Palmblad. (2015). 
-**Scientific workflow optimization for improved peptide and protein identification.** 
-In: *BMC Bioinformatics* 16(1): 1-13. 
-[doi:10.1186/s12859-015-0714-x](http://dx.doi.org/10.1186/s12859-015-0714-x)
+Katherine Wolstencroft, Robert Haines, Donal Fellows, Alan Williams, David Withers, Stuart Owen, Stian Soiland-Reyes, Ian Dunlop, Aleksandra Nenadic, Paul Fisher, Jiten Bhagat, Khalid Belhajjame, Finn Bacall, Alex Hardisty, Abraham Nieva de la Hidalga, Maria P. Balcazar Vargas, Shoaib Sufi, Carole Goble. (2013). 
+[**The Taverna workflow suite: designing and executing workflows of Web Services on the desktop, web or in the cloud.**](http://nar.oxfordjournals.org/content/41/W1/W557) 
+In: *Nucleic Acids Research*, 41(W1): W557&ndash;W561.
+[doi:10.1093/nar/gkt328](http://dx.doi.org/10.1093/nar/gkt328)
 
-##2014
-Pinar Alper, Carole A Goble, Khalid Belhajjame (2014):
-**"On assisting scientific data curation in collection-based dataflows using labels,"** 
-in *Proceedings of the 8th Workshop on Workflows in Support of Large-Scale Science (WORKS'13)*: 7-16.
-[doi:10.1145/2534248.2534249](http://dx.doi.org/10.1145/2534248.2534249)
-[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:236944)
-[[preprint]](https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:236944&datastreamId=SUPPLEMENTARY-1.PDF)
+### Cite the Apache Taverna Website
+To reference the Taverna web site, please use [**http://taverna.incubator.apache.org/**](http://taverna.incubator.apache.org/)
 
-Kristina M. Hettne, Harish Dharuri, Jun Zhao, Katherine Wolstencroft, Khalid Belhajjame, Stian Soiland-Reyes, Eleni Mina, Mark Thompson, Don Cruickshank, Lourdes Verdes-Montenegro, Juli&aacute;n Garrido, David De Roure, &Oacute;scar Corcho, Graham Klyne, Reinout van Schouwen, Peter A. C. 't Hoen, Sean Bechhofer, Carole A. Goble, Marco Roos. (2014).
-**Structuring research methods and data with the research object model: genomics workflows as a case study.** 
-In: *Journal of Biomedical Semantics* 5:41. 
-[doi:10.1186/2041-1480-5-41](http://dx.doi.org/10.1186/2041-1480-5-41)
+## Publications
+*These publications describe or experiment with Taverna.*
 
-Cherian Mathew, Anton G&uuml;ntsch, Matthias Obst, Saverio Vicario, Robert Haines, Alan R. Williams, Yde de Jong, Carole Goble. (2014).
-**A semi-automated workflow for biodiversity data retrieval, cleaning, and quality control.** 
-In: *Biodiversity Data Journal*, 2: e4221. [doi:10.3897/BDJ.2.e4221](http://dx.doi.org/10.3897/BDJ.2.e4221)
+### 2014
+Sarah Cohen-Boulakia, Jiuqiang Chen, Paolo Missier, Carole A. Goble, Alan R. Williams, Christine Froidevaux. (2014).
+**Distilling structure in Taverna scientific workflows: a refactoring approach.**
+In: *BMC Bioinformatics*, 15(suppl 1).
+[doi:10.1186/1471-2105-15-S1-S12](http://dx.doi.org/10.1186/1471-2105-15-S1-S12)
 
-Kevin R. Page, Ra&uacute;l Palma, Piotr Ho&#322;ubowicz, Graham Klyne, Stian Soiland-Reyes, Daniel Garijo, Khalid Belhajjame, and Rudolf Mayer. (2014). 
-**"Research Objects for Audio Processing: Capturing Semantics for Reproducibility,"** 
-in *53rd Audio Engineering Society International Conference on Semantic Audio (January 2014)*. 
-[[Proceedings]](http://www.aes.org/e-lib/browse.cfm?elib=17116)
-[[Preprint]](https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:213117&datastreamId=SUPPLEMENTARY-1.PDF)
-[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:213117)
+<!---
+The above link is broken as of 1/20/16; it worked on 1/18/16. GN
+--->
 
-Rutger Aldo Vos, Jordan Valkov Biserkov, Bachir Balech, Niall Beard, Matthew Blissett, Christian Brenninkmeijer, Tom van Dooren, David Eades, George Gosline, Quentin John Groom, Thomas D. Hamann, Hannes Hettling, Robert Hoehndorf, Ayco Holleman, Peter Hovenkamp, Patricia Kelbert, David King, Don Kirkup, Youri Lammers, Thibaut DeMeulemeester, Daniel Mietchen, Jeremy A. Miller, Ross Mounce, Nicola Nicolson, Rod Page, Aleksandra Pawlik, Serrano Pereira, Lyubomir Penev, Kevin Richards, Guido Sautter, David Peter Shorthouse, Marko T&auml;htinen, Claus Weiland, Alan R. Williams, Soraya Sierra. (2014).
-**Enriched biodiversity data as a resource and service**. 
-In: *Biodiversity Data Journal*, 2: e1125.
-[doi:10.3897/BDJ.2.e1125](http://dx.doi.org/10.3897/BDJ.2.e1125)
+### 2013
+Anja Le Blanc, John Brooke, Donal Fellows, Marco Soldati, David P&eacute;rez-Su&aacute;rez, Alessandro Marassi, Andrej Santin. (2013).
+**Workflows for heliophysics.**
+In: *Journal of Grid Computing*, 11(3): 481&ndash;503. [doi:10.1007/s10723-013-9256-5](http://dx.doi.org/10.1007/s10723-013-9256-5)
+[[researchgate]](https://www.researchgate.net/publication/236683534_Workflows_for_Heliophysics)
 
-Ahmet Yildiz, Erkan Dilaveroglu, Ilhami Visne, Bilal G&uuml;nay, Emrah Sefer, Andreas Weinhausel, Frank Rattay, Carole A Goble, Ram Vinay Pandey, Albert Kriegner. (2014). 
-**BIFI: a Taverna plugin for a simplified and user-friendly workflow platform.** 
-In: *BMC Research Notes*, 7: 740. 
-[doi:10.1186/1756-0500-7-740](http://dx.doi.org/10.1186/1756-0500-7-740)
+Katherine Wolstencroft, Robert Haines, Donal Fellows, Alan Williams, David Withers, Stuart Owen, Stian Soiland-Reyes, Ian Dunlop, Aleksandra Nenadic, Paul Fisher, Jiten Bhagat, Khalid Belhajjame, Finn Bacall, Alex Hardisty, Abraham Nieva de la Hidalga, Maria P. Balcazar Vargas, Shoaib Sufi, Carole Goble. (2013). 
+**The Taverna workflow suite: designing and executing workflows of Web Services on the desktop, web or in the cloud.** 
+In: *Nucleic Acids Research*, 41(W1): W557&ndash;W561. 
+[doi:10.1093/nar/gkt328](http://dx.doi.org/10.1093/nar/gkt328)
 
-## 2013
-Pinar Alper, Khalid Belhajjame, Carole A. Goble, Pinar Karagoz. (2013).
-**"Enhancing and abstracting scientific workflow provenance for data publishing,"**
-in *Proceedings of the Joint EDBT/ICDT 2013 Workshops (EDBT'13)*, 18&ndash;22 Mar 2013: 313&ndash;318.
-[doi:10.1145/2457317.2457370](http://dx.doi.org/10.1145/2457317.2457370)
-[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:282297)
-[[preprint]](https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:282297&datastreamId=SUPPLEMENTARY-1.PDF)
-
-Pinar Alper, Khalid Belhajjame, Carole Goble, Pinar Karagoz.  (2013).
-**"Small Is Beautiful: Summarizing Scientific Workflows Using Semantic Annotations,"** 
-in *Big Data (BigData Congress), 2013 IEEE International Congress on*, 27 Jun&ndash;2 July 2013: 318&ndash;325. 
-[doi:10.1109/BigData.Congress.2013.49](http://dx.doi.org/10.1109/BigData.Congress.2013.49)
-[[pdf]](http://www.computer.org/csdl/proceedings/bigdatacongress/2013/5006/00/5006a318.pdf)
-
-Khalid Belhajjame, Jun Zhao, Daniel Garijo, Aleix Garrido, Stian Soiland-Reyes, Pinar Alper, Oscar Corcho. (2013).
-**"A workflow PROV-corpus based on Taverna and Wings,"** 
-in *Proceedings of the Joint EDBT/ICDT 2013 Workshops (EDBT'13)*, 18&ndash;22 Mar 2013: 331&ndash;332.
-[doi:10.1145/2457317.2457376](http://dx.doi.org/10.1145/2457317.2457376)
-[[pdf]](http://delicias.dia.fi.upm.es/members/dgarijo/papers/prov-bench-paper.pdf)
-[[related website]](https://github.com/provbench/Wf4Ever-PROV)
-
-Daniel Garijo, Pinar Alper, Khalid Belhajjame, Oscar Corcho, Yolanda Gil, Carole Goble. (2013).
-**Common motifs in scientific workflows: An empirical analysis.** 
-In: *Future Generation Computer Systems*, 36: 338-351.
-[doi:10.1016/j.future.2013.09.018](http://dx.doi.org/10.1016/j.future.2013.09.018)
-[[preprint]](http://oa.upm.es/21854/1/1-s2_0-S0167739X13001970-main.pdf)
-
-Carole Goble, David De Roure and Sean Bechhofer (2013):
-**"Accelerating Scientists&rsquo; Knowledge Turns,"**
-in *Communications in Computer and Information Science, Vol 348*.  Springer, Berlin, 8 June 2013: 3&ndash;25.
-[doi:10.1007/978-3-642-37186-8_1](http://dx.doi.org/10.1007/978-3-642-37186-8_1)
-[[preprint server]](http://ora.ox.ac.uk/objects/uuid%3A17de32c4-518f-4be6-bf78-1ecd6c761b81)
-[[download pdf]](http://ora.ox.ac.uk/objects/uuid:17de32c4-518f-4be6-bf78-1ecd6c761b81/datastreams/ATTACHMENT01).
+Hyde Zhang, Stian Soiland-Reyes, Carole Goble. (2013). 
+**Taverna Mobile: Taverna workflows on Android.** 
+In: *EMBnet.journal*, 19(B). 
+[doi:10.14806/ej.19.B.727](http://dx.doi.org/10.14806/ej.19.B.727) [[pdf]](http://journal.embnet.org/index.php/embnetjournal/article/view/727/1047)
 
 ##2012
-Kahlid Belhajjame, Oscar Corcho, Daniel Garijo, Jun Zhao, Paolo Missier, David Newman, Ra&uacute;l Palma, Sean Bechhofer, Esteban Garc&iacute;a Cuesta, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, Graham Klyne, Kevin Page, Marco Roos, Jos&eacute; Ruiz, Stian Soiland-Reyes, Lourdes Verdes-Montenegro, David De Roure, Carole Goble. (2012). 
-**"Workflow-Centric Research Objects: First Class Citizens in Scholarly Discourse,"** 
-in *Proceedings of Workshop on the Semantic Publishing (SePublica 2012)*, 28 May 2012: 1&ndash;12.
-[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:236961) 
-[[preprint]](https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:192020&datastreamId=POST-PEER-REVIEW-NON-PUBLISHERS.PDF)
+Konstantinos Karasavvas, Katy Wolstencroft, Eleni Mina, Don Cruickshank, Alan Williams, David De Roure, Carole Goble, Marcos Roos. (2012). 
+**"Opening new gateways to workflows for life scientists,"** 
+in *Studies in Health Technology and Informatics (Series): Volume 175: HealthGrid Applications and Technologies Meet Science Gateways for Life Sciences (EBook).* IOS Press, p. 131&ndash;141. 
+[doi:10.3233/978-1-61499-054-3-131](http://dx.doi.org/10.3233/978-1-61499-054-3-131)
 
-Kristina Hettne, Stian Soiland-Reyes, Graham Klyne, Kahlid Belhajjame, Matthew Gamble, Sean Bechhofer, Marco Roos, Oscar Corcho. (2012). 
-**"Workflow forever: semantic web semantic models and tools for preserving and digitally publishing computational experiments,"** 
-in *Proceedings of the 4th International Workshop on Semantic Web Applications and Tools for the Life Sciences (SWAT4LS'11)*: 36&ndash;37. 
-[doi:10.1145/2166896.2166909](http://dx.doi.org/10.1145/2166896.2166909)
-
-Kevin Page, Ra&uacute;l Palma, Piotr Ho&#322;ubowicz, Graham Klyne, Stian Soiland-Reyes, Don Cruickshank, Rafael Gonz&aacute;lez Cabero, Esteban Garci&iacute; Cuesta, David De Roure, Jun Zhao, Jos&eacute; G&oacute;mez-P&eacute;rez. (2012). 
-**"From workflows to Research Objects: an architecture for preserving the semantics of science,"** 
-in *Proceedings of the 2nd International Workshop on Linked Science*.
-[[pdf]](http://linkedscience.org/wp-content/uploads/2012/05/lisc2012_submission_15.pdf)
+Jun Zhao, Jose Manuel Gomez-Perez, Khalid Belhajjame, Graham Klyne, Esteban Garcia-Cuestay, Aleix Garridoy, Kristina Hettne, Marco Roos, David De Roure, Carole Goble. (2012).
+**"Why workflows break &mdash; Understanding and combating decay in Taverna workflows,"** 
+in *E-Science (e-Science), 2012 IEEE 8th International Conference on*, 8-12 Oct 2012: 1&ndash;9.
+[doi:10.1109/eScience.2012.6404482](http:dx.doi.org/10.1109/eScience.2012.6404482)
+[[preprint]](http://users.ox.ac.uk/~oerc0033/preprints/why-decay.pdf)
 
 ##2011
-R. Bentley, J. Brooke, A. Csillaghy, D. Fellows, A. Le Blanc, M. Messerotti, D. Perez-Suarez, G. Pierantoni, M. Soldati. (2011). 
-**"HELIO: Discovery and Analysis of Data in Heliophysics,"** 
-in *E-Science (e-Science), 2011 IEEE 7th International Conference on*, 5&ndash;8 Dec 2011: 248&ndash;255. 
-[doi:10.1109/eScience.2011.42](http://dx.doi.org/10.1109/eScience.2011.42)
+K. Belhajjame, C. Goble, S. Soiland-Reyes, D. De Roure. (2011). 
+**"Fostering Scientific Workflow Preservation through Discovery of Substitute Services,"** 
+in *E-Science (e-Science), 2011 IEEE 7th International Conference on*: 97&ndash;104. 
+[doi:10.1109/eScience.2011.22](http://dx.doi.org/10.1109/eScience.2011.22)
 
-D. De Roure, S. Bechhofer, C. Goble, D. Newman. (2011). 
-**"Scientific Social Objects: The Social Objects and Multidimensional Network of the myExperiment Website,"** 
-in *Privacy, Security, Risk and Trust (PASSAT) and 2011 IEEE Third Inernational Conference on Social Computing (SocialCom), 2011 IEEE Third International Conference on (PASSAT/SocialCom 2011)*, 9&ndash;11 Oct 2011: 1398-1402. 
-[doi:10.1109/PASSAT/SocialCom.2011.245](http://dx.doi.org/10.1109/PASSAT/SocialCom.2011.245)
-
-David De Roure, Khalid Belhajjame, Paolo Missier, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, Ra&uacute;l Palma, Jos&eacute; Enrique Ruiz, Kristina Hettne, Marco Roos, Graham Klyne, Carole Goble. (2011).
-**"Towards the Preservation of Scientific Workflows,"** 
-accepted for *8th International Conference on Preservation of Digital Objects (iPRES 2011)*. 
-[[pdf]](http://users.ox.ac.uk/~oerc0033/preprints/wfpreservev10.pdf)
-
-Clemens Neudecker, Sven Schlarb, Zeki Mustafa Dogan, Paolo Missier, Shoaib Sufi, Alan Williams, Katy Wolstencroft. (2011). 
-**"An experimental workflow development platform for historical document digitisation and analysis,"** 
-in *Proceedings of the 2011 Workshop on Historical Document Imaging and Processing (HIP'11)*: 161&ndash;168. [doi:10.1145/2037342.2037370](http://dx.doi.org/10.1145/2037342.2037370)
+Paolo Missier, Carole Goble. (2011). 
+**Workflows to open provenance graphs, round-trip.** 
+In: *Future Generation Computer Systems*, 27(6): 812&ndash;819. [doi:10.1016/j.future.2010.10.012](http://dx.doi.org/10.1016/j.future.2010.10.012)
 
 ##2010
-Carole A. Goble, Jiten Bhagat, Sergejs Aleksejevs, Don Cruickshank, Danius Michaelides, David Newman, Mark Borkum, Sean Bechhofer, Marco Roos, Peter Li, David De Roure. (2010). 
-**myExperiment: a repository and social network for the sharing of bioinformatics workflows.** 
-in *Nucleic Acids Research*, 38(Web Server issue): W677&ndash;W682.
-[doi:10.1093/nar/gkq429](http://dx.doi.org/10.1093/nar/gkq429)
+Paolo Missier, Satya Sahoo, Jun Zhao, Carole Goble, Amit Sheth. (2010) 
+**"Janus: from Workflows to Semantic Provenance and Linked Open Data,"** 
+in *Provenance and Annotation of Data and Processes, Third International Provenance and Annotation Workshop, (IPAW'10)*, 15&ndash;16 Jun 2010. Springer, Berlin: 129&ndash;141.  [doi:10.1007/978-3-642-17819-1_16](http://dx.doi.org/10.1007/978-3-642-17819-1_16) 
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:108342)
 
-Paolo Missier, Bertram Ludascher, Shawn Bowers, Saumen Dey, Anandarup Sarkar, Biva Shrestha, Ilkay Altintas, Manish Kumar Anand, Carole Goble. (2010). 
-**"Linking multiple workflow provenance traces for interoperable collaborative science,"** 
-in *Workflows in Support of Large-Scale Science (WORKS), 2010 5th Workshop on*, 14 Nov 2010: 1&ndash;8.
-[doi:10.1109/WORKS.2010.5671861](http://dx.doi.org/10.1109/WORKS.2010.5671861)
-[[pdf]](http://web.cs.ucdavis.edu/~ludaesch/pubs/DataToL-IEEE.pdf)
+Paolo Missier, Stian Soiland-Reyes, Stuart Owen, Wei Tan, Alexandra Nenadic, Ian Dunlop, Alan Williams, Tom Oinn, Carole Goble. (2010), **"Taverna, reloaded,"** 
+in *Scientific and Statistical Database Management, 22nd International Conference (SSDBM 2010)*, 30 Jun&ndash;02 Jul 2010, Springer, Berlin: 471&ndash;481. [doi:10.1007/978-3-642-13818-8_33](http://dx.doi.org/10.1007/978-3-642-13818-8_33) 
 
-Paolo Missier, Norman W. Paton, Kahlid Belhajjame. (2010). 
-**"Fine-grained and efficient lineage querying of collection-based workflow provenance,"** 
-in *Proceedings of the 13th International Conference on Extending Database Technology (EDBT'10)*: 299&ndash;310. 
-[doi:10.1145/1739041.1739079](http://dx.doi.org/10.1145/1739041.1739079)
+S. Moeller, H. Krabbenhoeft, A. Tille, D. Paleino, A. Williams, K. Wolstencroft, C. Goble, C. Plessy. (2010).
+ **"Community-driven computational biology with Debian and Taverna,"** 
+in *BOSC 2010*. 
+
+Wei Tan, Ravi Madduri, Alexandra Nenadic, Stian Soiland-Reyes, Dinanth Sulakhe, Ian Foster, Carole A. Goble. (2010). 
+**CaGrid Workflow Toolkit: A Taverna based workflow tool for cancer grid.** 
+In: *BMC Bioinformatics*, 11: 542. 
+[doi:10.1186/1471-2105-11-542](http://dx.doi.org/10.1186/1471-2105-11-542)
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:108292)
+
+Wei Tan, Paolo Missier, Ian Foster, Ravi Madduri, David De Roure, Carole Goble. (2010). 
+**A comparison of using Taverna and BPEL in building scientific workflows: the case of caGrid.** 
+In: *Concurrency and Computation: Practice and Experience*. 22(9): 1098&ndash;1117. 
+[doi:10.1002/cpe.1547](http://dx.doi.org/10.1002/cpe.1547)
 
 ##2009
-Kahlid Belhajjame, Paolo Missier, Carole Goble. (2009). 
-**"Data Provenance in Scientific Workflows,"** 
-in *Handbook of Research on Computational Grid Technologies for Life Sciences, Biomedicine, and Healthcare*. Hershey, PA: 46&ndash;59.
-[doi:10.4018/978-1-60566-374-6.ch003](http://dx.doi.org/10.4018/978-1-60566-374-6.ch003)
+Andrew Gibson, Matthew Gamble, Katy Wolstencroft, Tom Oinn, Carole Goble, Kahlid Belhajjame, Paolo Missier. (2009). 
+**The data playground: An intuitive workflow specification environment.** 
+In: *Future Generation Computer Systems*. 25(4): 453&ndash;459.
+[doi:10.1016/j.future.2008.09.009](http://dx.doi.org/10.1016/j.future.2008.09.009)
 
-David De Roure, Carole Goble. (2009). 
-**"Lessons from myExperiment: Research Objects for Data Intensive Research,"** 
-in *eScience Workshop 2009*, 15&ndash;17 Oct 2009. 
-[[eprint]](http://eprints.ecs.soton.ac.uk/17744/)
-
-David De Roure, Carole Goble. (2009). 
-**"Lessons from myExperiment: Two insights into emerging e-Research practice,"** 
-in *UK e-Science All Hands Meeting 2009*, Oxford, UK. 
-[[eprint]](http://eprints.ecs.soton.ac.uk/17662/)
-
-David De Roure, Carole Goble. (2009). 
-**"myExperiment: A Web 2.0 Virtual Research Environment for Research using Computation and Services,"** 
-in *Workshop On Integrating Digital Library Content with Computational Tools and Services at JCDL 2009*, 19 Jun 2009. 
-[[eprint]](http://eprints.ecs.soton.ac.uk/17607/)
-
-Carole Goble, David De Roure. (2009). 
-**"The impact of workflow tools on data-centric research,"** 
-in *Data Intensive Computing: The Fourth Paradigm of Scientific Discovery**: 137&ndash;145. 
-[[eprint]](http://eprints.ecs.soton.ac.uk/17336/)
-
-W. Tan, K. Chard, D. Sulakhe, R. Madduri, I. Foster, S. Soiland-Reyes, C. Goble. (2009). 
-**"Scientific Workflows as Services in caGrid: A Taverna and gRAVI Approach,"** 
-in *Web Services, 2009 IEEE International Conference on (ICWS 2009)*, 6&ndash;10 Jul 2009: 413&ndash;420.
-[doi:10.1109/ICWS.2009.19](http://dx.doi.org/10.1109/ICWS.2009.19)
-
-Wei Tan, Paolo Missier, Ravi Madduri, Ian Foster. (2009). 
-**"Building Scientific Workflow with Taverna and BPEL: A Comparative Study in caGrid,"** 
-in *Service-Oriented Computing &mdash; ICSOC 2008 Workshops*. Springer, Berlin: 118&ndash;129.
-[doi:10.1007/978-3-642-01247-1_11](http://dx.doi.org/10.1007/978-3-642-01247-1_11)
-[[pdf]](http://www.cs.man.ac.uk/~pmissier/docs/bpel-taverna-wesoa-081219.pdf)
-
-I. Wassink, P. E. van der Vet, K. Wolstencroft, P. B. T. Neerincx, M. Roos, H. Rauwerda, T. M. Breit. (2009). 
-**"Analysing scientific workflows: why workflows not only connect web services,"** 
-in *Services &ndash; I, 2009 World Conference on*, 6&ndash;10 Jul 2009: 314&ndash;321.
-[doi:10.1109/SERVICES-I.2009.48](http://dx.doi.org/10.1109/SERVICES-I.2009.48)
-
-Katy Wolstencroft, Paul Fisher, David De Roure, Carole Goble. (2009, November 26). 
-**"Scientific Workflows,"** 
-in *Research In a Connected World*, Alex Voss, Elizabeth Vander Meer, David Fergusson (eds.) 
-[[eBook]](https://www.free-ebooks.net/ebook/Research-in-a-Connected-World)
+Jacek Sroka, Jan Hidders, Paolo Missier, Carole Goble. (2009). 
+**A formal semantics for the Taverna 2 workflow model.** 
+In: *Journal of Computer and System Sciences*. 76(6): 490&ndash;508.
+[doi:10.1016/j.jcss.2009.11.009](http://dx.doi.org/10.1016/j.jcss.2009.11.009) 
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:108316)
 
 ##2008
-Carole Goble, Paolo Missier, David De Roure. (2008).
-**"Scientific workflows,"** 
-in *McGraw Hill 2009 Yearbook of Science & Technology*, McGraw Hill.
-[[eprint]](http://eprints.ecs.soton.ac.uk/16628/)
+K. Belhajjame, K. Wolstencroft, O. Corcho, T. Oinn, F. Tanoh, A. Williams, C. Goble. (2008). 
+**"Metadata Management in the Taverna Workflow System,"** 
+in *Cluster Computing and the Grid, 8th IEEE International Symposium on (CCGRID'08)*, 19-22 May 2008: 651&ndash;656.
+[doi:10.1109/CCGRID.2008.17](http://dx.doi.org/10.1109/CCGRID.2008.17)
 
-Paolo Missier, Suzanne Embury, Richard Stapenhurst. (2008). 
-**"Exploiting provenance to make sense of automated decisions in scientific workflows,"** 
-in *Proceedings of the 2nd International Provenance and Annotation Workshop (IPAW'08)*, 17&ndash;18 Jun 2008, Springer: 174&ndash;185.
-[doi:10.1007/978-3-540-89965-5_19](http://dx.doi.org/10.1007/978-3-540-89965-5_19)
+Anders Lanz&eacute;n, Tom Oinn. (2008). 
+**The Taverna Interaction Service: enabling manual interaction in workflows.** 
+In: *Bioinformatics*. 24(8): 1118&ndash;1120.
+[doi:10.1093/bioinformatics/btn082](http://dx.doi.org/10.1093/bioinformatics/btn082)
+[[pdf]](http://bioinformatics.oxfordjournals.org/content/24/8/1118.full.pdf)
+
+Peter Li, Juan I. Castrillo, Giles Velarde, Ingo Wassink, Stian Soiland-Reyes, Stuart Owen, David Withers, Tom Oinn, Matthew Pocock, Carole A. Goble, Stephen G. Oliver, Douglas B. Kell. (2008). 
+**Performing statistical analyses on quantitative data in Taverna workflows: an example using R and maxdBrowse to identify differentially-expressed genes from microarray data.** 
+In: *BMC Bioinformatics*. 9: 334.
+[doi:10.1186/1471-2105-9-334](http://dx.doi.org/10.1186/1471-2105-9-334)
+
+K. Maheshwari, J. Montagnat, P. Missier. (2008). 
+**"Extending Taverna to exploit EGEE Grid resources,"** 
+in *E-science*.
+
+Paolo Missier, Khalid Belhajjame, Jun Zhao, Carole Goble. (2008). 
+**"Data lineage model for Taverna workflows with lightweight annotation requirements,"** 
+in *Provenance and Annotation of Data and Processes, Second International Provenance and Annotation Workshop (IPAW'08)*, Springer, Berlin, 17&ndash;18 Jun 2008: 17&ndash;30.
+[doi:10.1007/978-3-540-89965-5_4](http:dx.doi.org/10.1007/978-3-540-89965-5_4)
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:2f37)
+
+Jun Zhao, Carole Goble, Robert Stevens, Danielle Turi. (2008). 
+**Mining Taverna's semantic web of provenance.** 
+In: *Concurrency and Computation: Practice and Experience*. 20(5): 463&ndash;472.
+[doi:10.1002/cpe.1231](http://dx.doi.org/10.1002/cpe.1231)
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:1f9)
+
+##2007
+David De Roure, Carole Goble, Robert Stevens. (2007).
+**"Designing the myExperiment Virtual Research Environment for the Social Sharing of Workflows,"** 
+in *e-Science and Grid Computing, IEEE International Conference on*, 10-13 December 2007: 603&ndash;610.
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:2h465)
+[[eprints]](http://eprints.soton.ac.uk/265838/1/MyExptPart1v7.pdf)
+
+Paul Fisher, Cornelia Hedeler, Kathernine Wolstencroft, Helen Hulme, Harry Noyes, Stephen Kemp, Robert Stevens, Andrew Brass. (2007). 
+**A systematic strategy for large-scale analysis of genotype phenotype correlations: identification of candidate genes involved in African trypanosomiasis.** 
+In: *Nucleic Acids Research*. 35(16): 5625&ndash;5633.
+[doi:10.1093/nar/gkm623](http://dx.doi.org/10.1093/nar/gkm623)
+
+Andrew Gibson, Matthew Gamble, Katy Wolstencroft, Tom Oinn, Carole Goble. (2007). 
+**"The Data Playground: An Intuitive Workflow Specification Environment,"** 
+in *e-Science and Grid Computing, IEEE International Conference on*, 10-13 December 2007: 59&ndash;68.
+[doi:10.1109/E-SCIENCE.2007.72](http://dx.doi.org/10.1109/E-SCIENCE.2007.72)
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:2f159)
+
+Carole Goble, Katy Wolstencroft, Antoon Goderis, Dunan Hull, Jun Zhao, Pinar Alper, Phillip Lord, Chris Wroe, Khalid Belhajjame, Danielle Turi, Robert Stevens, Tom Oinn, David De Roure.  (2007). 
+**"Knowledge discovery for biology with Taverna,"** 
+in *Semantic Web: Revolutionizing Knowledge Discovery in the Life Sciences**. Springer-Verlag, New York: 355&ndash;395
+[doi:10.1007/978-0-387-48438-9_17](http://dx.doi.org/10.1007/978-0-387-48438-9_17)
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:237027)
+
+Peter Li, Tom Oinn, Stian Soiland, Douglas B. Kell. (2007). 
+**Automated manipulation of systems biology models using libSBML within Taverna workflows.** 
+In: *Bioinformatics*, 24(2): 287&ndash;289.
+[doi:10.1093/bioinformatics/btm578](http://dx.doi.org/10.1093/bioinformatics/btm578)
+[[pdf]](http://bioinformatics.oxfordjournals.org/content/24/2/287.full.pdf)
+
+Daniele Turi, Paolo Missier, Carole Goble, David De Roure, Tom Oinn. (2007). **"Taverna workflows: syntax and semantics,"** 
+in *e-Science and Grid Computing, IEEE International Conference on*, 10-13 Dec. 2007: 441&ndash;448, .
+[doi:10.1109/E-SCIENCE.2007.71](http://dx.doi.org/10.1109/E-SCIENCE.2007.71)
+	
+Nicholas Walton, Dugan Witherick, Thomas Oinn, Kevin Benson. (2007). 
+**"Taverna and Workflows in the Virtual Observatory,"** 
+in *Astronomical Data Analysis Software & Systems {XVII}*.
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:238963)
+
+K. Wolstencroft, P. Alper, D. Hull, C. Wroe, P. Lord, R. Stevens, C. Goble. (2007). 
+**The myGrid ontology: bioinformatics service discovery**. 
+In: *International Journal of Bioinformatics Research and Applications (IJBRA)*, 3(3): 303&ndash;325.
+[doi:10.1504/IJBRA.2007.015005](http://dx.doi.org/10.1504/IJBRA.2007.015005)
+
+#2006
+Duncan Hull, Katy Wolstencroft, Robert Stevens, Carole Goble, Matthew R. Pocock, Peter Li, Tom Oinn. (2006). 
+**Taverna: a tool for building and running workflows of services.**
+In: *Nucleic Acids Research*, 34(Web Server issue): 729&ndash;732.
+[doi:10.1093/nar/gkl320](http://dx.doi.org/10.1093/nar/gkl320)
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:1h249)
+
+Peter Li, Andrew Brass, John Pinney, Thomas Oinn, Douglas Kell, Carole Goble, C. (2006). 
+**"Taverna workflows for systems biology,"** 
+in *International Conference on Systems Biology*.
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:237056)
+
+Tom Oinn, Mark Greenwood, Matthew Addis, M. Nedim Alpdemir, Justin Ferris, Kevin Glover, Carole Goble, Antoon Goderis, Duncan Hull, Darren Marvin, Peter Li, Phillip Lord, Matthew R. Pocock, Martin Senger, Robert Stevens, Anil Wipat, Chris Wroe. (2006). 
+**Taverna: lessons in creating a workflow environment for the life sciences**. 
+In: *Concurrency and Computation: Practice and Experience*, 18(10): 1067&ndash;1100.
+[doi:10.1002/cpe.993](http://dx.doi.org/10.1002/cpe.993)
+
+Thomas Oinn, Peter Li, Douglas Kell, Carole Goble, Antoon Goderis, Mark Greenwood, Duncan Hull, Robert Stevens, Danielle Turi, Jun Zhao. (2006). **"Taverna/myGrid: Aligning a Workflow System with the Life Sciences Community"**
+ in *Workflows for e-Science, Scientific Workflows for Grids*. Springer-Verlag, London.
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:237055)
+
+##2005
+M. Nedim Alpdemir, Arijit Mukherjee, Norman W. Paton, Alvaro A. A. Fernandes, Paul Watson, Kevin Glover, Chris Greenhalgh, Tom Oinn, Hannah Tipney. (2005). 
+**"Contextualised Workflow Execution in MyGrid",** 
+in *Advances in Grid Computing - EGC 2005: European Grid Conference*, 14&ndash;16 Feb 2005: 444&ndash;453.
+[doi:10.1007/11508380_46](http://dx.doi.org/10.1007/11508380_46)
+[[researchgate]](https://www.researchgate.net/publication/221335727_Contextualised_Workflow_Execution_in_MyGrid)
+
+S. Egglestone, N. Alpdemir, C. Greenhalgh, A. Mukherjee, I. Roberts. (2005). 
+**"A portal interface to myGrid workflow technology,"** 
+in *All Hands Meeting*.
+
+Antoon Goderis, Ulrike Sattler, Phillip Lord, Carole Goble. (2005). 
+**"Seven Bottlenecks to Workflow Reuse and Repurposing,"** 
+in *The Semantic Web&mdash;ISWC 2005: 4th International Semantic Web Conference (ISWC 2005)*, 6&ndash;10 Nov 2005; Springer, Berlin: 323&ndash;337.
+[doi:10.1007/11574620_25](http://dx.doi.org/10.1007/11574620_25)
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:2h480)
+
+A. Lanzen, S. Grindhaug, T. Oinn, P. Pal. (2005). 
+**"An Automatic Genome Annotation Pipeline,"** 
+in *Network Tools and Applications in Biology*.
+
+K. Wolstencroft, T. Oinn, C. Goble, J. Ferris, C. Wroe, P. Lord, K. Glover, R. Stevens. (2005). 
+**"Panoply of Utilities in Taverna,"** 
+in *e-Science and Grid Computing, 2005. First International Conference on*: 156&ndash;162.
+[doi:10.1109/E-SCIENCE.2005.65](http://dx.doi.org/10.1109/E-SCIENCE.2005.65)
+
+##2004
+Tom Oinn, Matthew Addis, Justin Ferris, Darren Marvin, Martin Senger, Mark Greenwood, Tim Carver, Kevin Glover, Matthew R. Pocock, Anil Wipat, Peter Li. (2004). 
+**Taverna: a tool for the composition and enactment of bioinformatics workflows.** 
+In: *Bioinformatics*, 20(17): 3045&ndash;3054.
+[doi:10.1093/bioinformatics/bth361](http://dx.doi.org/10.1093/bioinformatics/bth361)
+
+N. Sharman, N. Alpdemir, J. Ferris, M. Greenwood, P. Li, C. Wroe. (2004). 
+**"The myGrid Information Model,"** 
+in *All Hands Meeting*.
+
+R.D. Stevens, H. J. Tipney, C. J. Wroe, T. M. Oinn, M. Senger, P. W. Lord, C. A. Goble, A. Brass, M. Tassabehji. (2004). 
+**Exploring Williams-Beuren syndrome using myGrid.** 
+In: *Bioinformatics*, 20(suppl 1): i303&ndash;310.
+[doi:10.1093/bioinformatics/bth944](http://dx.doi.org/10.1093/bioinformatics/bth944)
+[[pdf]](http://bioinformatics.oxfordjournals.org/content/20/suppl_1/i303.full.pdf)
+
+##2003
+Robert D. Stevens, Alan J. Robinson, Carole A. Goble. (2003). **myGrid: personalised bioinformatics on the information grid.** 
+In: *Bioinformatics*, 19(suppl 1): i302&ndash;304.
+[doi:10.1093/bioinformatics/btg1041](http://dx.doi.org/10.1093/bioinformatics/btg1041)
+[[pdf]](http://bioinformatics.oxfordjournals.org/content/19/suppl_1/i302.full.pdf+html)
+
+Jun Zhao, Carol Goble, Mark Greenwood, Chris Wroe, Robert Stevens. (2003). 
+**"Annotating, linking and browsing provenance logs for e-Science,"** 
+in *International Semantic Web Conference*.
+[[pdf]](http://ceur-ws.org/Vol-83/prov_2.pdf)
