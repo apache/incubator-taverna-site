@@ -151,13 +151,13 @@ In: *Nucleic Acids Research*. 35(16): 5625&ndash;5633.
 
 Andrew Gibson, Matthew Gamble, Katy Wolstencroft, Tom Oinn, Carole Goble. (2007). 
 **"The Data Playground: An Intuitive Workflow Specification Environment,"** 
-in *e-Science and Grid Computing, IEEE International Conference on*, 10-13 December 2007: 59&ndash;68.
+in *e-Science and Grid Computing, IEEE International Conference on*, 10&ndash;13 December 2007: 59&ndash;68.
 [doi:10.1109/E-SCIENCE.2007.72](http://dx.doi.org/10.1109/E-SCIENCE.2007.72)
 [[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:2f159)
 
 Carole Goble, Katy Wolstencroft, Antoon Goderis, Dunan Hull, Jun Zhao, Pinar Alper, Phillip Lord, Chris Wroe, Khalid Belhajjame, Danielle Turi, Robert Stevens, Tom Oinn, David De Roure.  (2007). 
 **"Knowledge discovery for biology with Taverna,"** 
-in *Semantic Web: Revolutionizing Knowledge Discovery in the Life Sciences**. Springer-Verlag, New York: 355&ndash;395
+in *Semantic Web: Revolutionizing Knowledge Discovery in the Life Sciences**, Springer-Verlag, New York: 355&ndash;395
 [doi:10.1007/978-0-387-48438-9_17](http://dx.doi.org/10.1007/978-0-387-48438-9_17)
 [[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:237027)
 
@@ -168,7 +168,7 @@ In: *Bioinformatics*, 24(2): 287&ndash;289.
 [[pdf]](http://bioinformatics.oxfordjournals.org/content/24/2/287.full.pdf)
 
 Daniele Turi, Paolo Missier, Carole Goble, David De Roure, Tom Oinn. (2007). **"Taverna workflows: syntax and semantics,"** 
-in *e-Science and Grid Computing, IEEE International Conference on*, 10-13 Dec. 2007: 441&ndash;448, .
+in *e-Science and Grid Computing, IEEE International Conference on*, 10-13 Dec 2007: 441&ndash;448.
 [doi:10.1109/E-SCIENCE.2007.71](http://dx.doi.org/10.1109/E-SCIENCE.2007.71)
 	
 Nicholas Walton, Dugan Witherick, Thomas Oinn, Kevin Benson. (2007). 
