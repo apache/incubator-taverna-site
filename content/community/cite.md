@@ -17,15 +17,12 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 
 # Citing Taverna
-***
 
-## Cite Taverna in a paper
-To reference Taverna in a paper, please use:
+*To reference Taverna in a paper, please use:*
 
 Katherine Wolstencroft, Robert Haines, Donal Fellows, Alan Williams, David Withers, Stuart Owen, Stian Soiland-Reyes, Ian Dunlop, Aleksandra Nenadic, Paul Fisher, Jiten Bhagat, Khalid Belhajjame, Finn Bacall, Alex Hardisty, Abraham Nieva de la Hidalga, Maria P. Balcazar Vargas, Shoaib Sufi, Carole Goble. (2013). 
 [**The Taverna workflow suite: designing and executing workflows of Web Services on the desktop, web or in the cloud.**](http://nar.oxfordjournals.org/content/41/W1/W557) 
 In: *Nucleic Acids Research*, 41(W1): W557&ndash;W561.
 [doi:10.1093/nar/gkt328](http://dx.doi.org/10.1093/nar/gkt328)
 
-## Cite the Apache Taverna Website
-To reference the Taverna web site, please use [**http://taverna.incubator.apache.org/**](http://taverna.incubator.apache.org/)
+*To reference the Taverna web site, please use* [**http://taverna.incubator.apache.org/**](http://taverna.incubator.apache.org/)
