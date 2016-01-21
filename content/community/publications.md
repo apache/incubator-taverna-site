@@ -157,7 +157,7 @@ in *e-Science and Grid Computing, IEEE International Conference on*, 10&ndash;13
 
 Carole Goble, Katy Wolstencroft, Antoon Goderis, Dunan Hull, Jun Zhao, Pinar Alper, Phillip Lord, Chris Wroe, Khalid Belhajjame, Danielle Turi, Robert Stevens, Tom Oinn, David De Roure.  (2007). 
 **"Knowledge discovery for biology with Taverna,"** 
-in *Semantic Web: Revolutionizing Knowledge Discovery in the Life Sciences**, Springer-Verlag, New York: 355&ndash;395
+in *Semantic Web: Revolutionizing Knowledge Discovery in the Life Sciences**, Springer-Verlag, New York: 355&ndash;395.
 [doi:10.1007/978-0-387-48438-9_17](http://dx.doi.org/10.1007/978-0-387-48438-9_17)
 [[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:237027)
 
