@@ -22,13 +22,14 @@ It is employed in a significant number of differing domains to facilitate novel 
 See the [domains][1] where Taverna is in use or has been used.   
 Taverna applications have been implemented or deployed in several domains using a variety of platforms and technologies:<span id="more-91"></span></p>
 
- - Standalone Workbench (used by the majority of projects)
+ - [Standalone Workbench][108] (used by the majority of projects)
  - [As a server][2]
  - [On a grid or using services on a grid][3]
  - [On a cloud][4]
  - [Behind a portal][5]
  - [Bundled with other products][6]
 
+<a name="standalone" </a>
 ##Standalone Workbench##
 The table below shows the distribution of Taverna application domains per deployment infrastructure.
 
@@ -712,3 +713,4 @@ formalise or share existing research.
   [105]: /introduction/taverna-in-use/data-and-text-mining#refine
   [106]: /introduction/taverna-in-use/biology#ccpn
   [107]: /introduction/taverna-in-use/biology#planet
+  [108]: #standalone
