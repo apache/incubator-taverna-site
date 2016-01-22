@@ -40,7 +40,7 @@ There are several Taverna tools you can download:
 There are also a number of associated tools available to use with (non-Apache) Taverna 2.
 
 > **Note**: There are currently no known plans to bring out Apache Taverna
-> versions of these tools. If you are interested in migrating these too
+> versions of these tools. If you are interested in migrating any of these tools
 > to Apache Taverna, please [contact us](/community).
 
  - [Taverna 2-Galaxy](http://www.taverna.org.uk/download/taverna-galaxy/) is a tool for automatic generation and exposure of
