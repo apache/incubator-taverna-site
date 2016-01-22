@@ -16,7 +16,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-#Citing Taverna#
+#How to Cite Taverna#
 
 *To reference Taverna in a paper, please use:*
 
