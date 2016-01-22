@@ -16,7 +16,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-# Citing Taverna
+#Citing Taverna#
 
 *To reference Taverna in a paper, please use:*
 
@@ -26,3 +26,7 @@ In: *Nucleic Acids Research*, 41(W1): W557&ndash;W561.
 [doi:10.1093/nar/gkt328](http://dx.doi.org/10.1093/nar/gkt328)
 
 *To reference the Taverna web site, please use* [**http://taverna.incubator.apache.org/**](http://taverna.incubator.apache.org/)
+
+##Publications##
+
+See a list of our [publications](http://taverna.incubator.apache.org/community/publications).
