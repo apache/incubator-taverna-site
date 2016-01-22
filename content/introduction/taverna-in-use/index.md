@@ -497,7 +497,7 @@ Various domains where scientists have used Taverna so far include:
  - [Social sciences][66]
 
 <a name="chronology"<a/>
-##Taverna in use chronology##
+##Taverna-in-use chronology##
 
 More than 350 organizations around the world, both academic and commercial, are known to use Taverna. 
 It is employed in a significant number of differing domains to facilitate novel research or to accelerate, 
