@@ -18,7 +18,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 # Publications
 
-*These publications describe or experiment with Taverna.*
+*These publications describe or experiment with Taverna. See also [references](/community/references) and [how to cite Taverna](/community/cite).*
 
 ### 2014
 Sarah Cohen-Boulakia, Jiuqiang Chen, Paolo Missier, Carole A. Goble, Alan R. Williams, Christine Froidevaux. (2014).
