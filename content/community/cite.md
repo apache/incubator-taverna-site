@@ -1,4 +1,4 @@
-Title:
+Title:     How to cite Taverna
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -15,8 +15,6 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            KIND, either express or implied.  See the License for the
            specific language governing permissions and limitations
            under the License.
-
-#How to cite Taverna#
 
 *To reference Taverna in a paper, please use:*
 
