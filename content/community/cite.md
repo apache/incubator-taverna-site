@@ -29,4 +29,4 @@ In: *Nucleic Acids Research*, 41(W1): W557&ndash;W561.
 
 ##Publications##
 
-See a list of our [publications](http://taverna.incubator.apache.org/community/publications).
+See a list of our [publications](/community/publications).
