@@ -22,7 +22,7 @@ It is employed in a significant number of differing domains to facilitate novel 
 See the [domains][1] where Taverna is in use or has been used.   
 Taverna applications have been implemented or deployed in several domains using a variety of platforms and technologies:<span id="more-91"></span></p>
 
- - [Standalone Workbench][108] (used by the majority of projects)
+ - [Standalone workbench][108] (used by the majority of projects)
  - [As a server][2]
  - [On a grid or using services on a grid][3]
  - [On a cloud][4]
@@ -30,7 +30,7 @@ Taverna applications have been implemented or deployed in several domains using 
  - [Bundled with other products][6]
 
 <a name="standalone" </a>
-##Standalone Workbench##
+##Standalone workbench##
 The table below shows the distribution of Taverna application domains per deployment infrastructure.
 
 View by [chronological][7] order of deployment.
