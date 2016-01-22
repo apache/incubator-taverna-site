@@ -29,7 +29,8 @@ Taverna applications have been implemented or deployed in several domains using 
  - [Behind a portal][5]
  - [Bundled with other products][6]
 
-Table below shows the distribution of Taverna application domains per deployment infrastructure.
+##Standalone Workbench##
+The table below shows the distribution of Taverna application domains per deployment infrastructure.
 
 View by [chronological][7] order of deployment.
 
