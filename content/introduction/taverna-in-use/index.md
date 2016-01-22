@@ -23,15 +23,14 @@ See the [domains][1] where Taverna is in use or has been used.
   
 Taverna applications have been implemented or deployed in several domains using a variety of platforms and technologies:<span id="more-91"></span></p>
 
- - [Standalone workbench][108] (used by the majority of projects)
+ - Standalone workbench (used by the majority of projects)
  - [As a server][2]
  - [On a grid or using services on a grid][3]
  - [On a cloud][4]
  - [Behind a portal][5]
  - [Bundled with other products][6]
 
-<a name="standalone" </a>
-##Standalone workbench##
+##Summary of Taverna in use
 The table below shows the distribution of Taverna application domains per deployment infrastructure.
 
 View by [chronological][7] order of deployment.
@@ -371,8 +370,9 @@ NGS</td>
 </tbody>
 </table>
 
+##Non-workbench applications
 <a name="server" </a>
-##As a server##
+###As a server###
 
 Taverna has been used as a service and deployed using [Taverna Server][8] by several projects:
 
@@ -387,7 +387,7 @@ Taverna has been used as a service and deployed using [Taverna Server][8] by sev
  - [NeISS][14] - runnig social science workflows deployed on a Taverna server from a portal
 
 <a name="grid" </a>
-##On a grid##
+###On a grid###
 Various projects and institutions use mechanisms to run Taverna workflows on a [grid][15]
    or allow them to access services on a grid:
 
@@ -411,7 +411,7 @@ Learn more about how
    [Taverna workﬂows can  operate  over a grid infrastructure](http://dev.mygrid.org.uk/wiki/display/tav250/Taverna+and+grids+and+clouds)
 
 <a name="cloud" </a>
-##On a cloud##
+###On a cloud###
 
 Taverna has been used as a service deployed on a cloud by several projects:
 
@@ -435,7 +435,7 @@ Taverna has been used as a service deployed on a cloud by several projects:
       the Taverna Server instance.
 
 <a name="portal" </a>
-##Behind a portal##
+###Behind a portal###
 Various projects and tools use portals to allow users to perform actions that run Taverna workflows 
    “behind the scenes”.  
 These projects include:
@@ -455,7 +455,7 @@ These projects include:
 </ul>
 
 <a name="bundled-with-products" </a>
-##Bundled with products##
+###Bundled with products###
 Several packages include Taverna as part of their distribution:
 
  - [BioLinux][45] - a version of Ubuntu Linux that includes distributions of many bioinformatics programs and 
@@ -469,7 +469,7 @@ Several packages include Taverna as part of their distribution:
 
 
 <a name="by-domain" </a>
-##By domain##
+##Taverna by domain##
 
 Various domains where scientists have used Taverna so far include:
 
@@ -714,4 +714,3 @@ formalise or share existing research.
   [105]: /introduction/taverna-in-use/data-and-text-mining#refine
   [106]: /introduction/taverna-in-use/biology#ccpn
   [107]: /introduction/taverna-in-use/biology#planet
-  [108]: #standalone
