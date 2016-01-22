@@ -36,7 +36,7 @@ Taverna 3 is a re-engineering of the Taverna codebase to use OSGi.
 
 ##Tavena 2##
 This site only covers the Apache Taverna product. 
-As Taverna 2 is not an Apache product so its roadmap can be found on the previous [taverna website][5]. 
+As Taverna 2 is not an Apache product, its roadmap can be found on the previous [taverna website][5]. 
 
   [1]: /developers/work-in-progress/taverna-3/
   [2]: http://www.osgi.org/About/Technology
