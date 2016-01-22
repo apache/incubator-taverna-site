@@ -19,7 +19,8 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 More than 350 organizations around the world, both academic and commercial, are known to use Taverna. 
 It is employed in a significant number of differing domains to facilitate novel research or to accelerate, 
    formalise or share existing research. 
-See the [domains][1] where Taverna is in use or has been used.   
+See the [domains][1] where Taverna is in use or has been used. 
+  
 Taverna applications have been implemented or deployed in several domains using a variety of platforms and technologies:<span id="more-91"></span></p>
 
  - [Standalone workbench][108] (used by the majority of projects)
