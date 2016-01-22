@@ -17,7 +17,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 
 # References
-*The following is a partial list of publications that reference the Taverna Workflow Management System.*
+*The following is a partial list of publications that reference the Taverna Workflow Management System. See also [publications](/community/publications) and [how to cite Taverna](/community/cite).*
 
 ##2015
 Khalid Belhajjame, Jun Zhao, Daniel Garijo, Matthew Gamble, Kristina Hettne, Ra&uacute;l Palma, Eleni Mina, Oscar Corcho, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, Sean Bechhofer, Graham Klyne, Carole Goble. (2015)
