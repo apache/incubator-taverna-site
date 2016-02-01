@@ -20,19 +20,27 @@ Apache Taverna is a [incubator project](http://incubator.apache.org/) within the
 [The Apache Software Foundation (ASF)](http://www.apache.org/).
 
 Taverna is an open source community that's organized by its 
-   [members](http://people.apache.org/committers-by-project.html#taverna), including you! 
-Whether you're running or [writing workflows](#contribute-workflow), [developing plugins](#contribute-plugin), 
-   [hosting a Taverna server](#contribute-server), [hosting a service](#contribute-host),
-  [hacking the core](#contribute-code), or just want to [edit](#contribute-edit) these pages 
-there are opportunities for you to [get in touch and ask questions](#contact), 
-   [contribute](#contribute) or [report a bug](#reportbugs). 
+[members](http://people.apache.org/committers-by-project.html#taverna), including you! 
+Whether you're running or 
+[writing workflows](#contribute-workflow), 
+[developing plugins](#contribute-plugin), 
+[hosting a Taverna server](#contribute-server), 
+[hosting a service](#contribute-host),
+[hacking the core](#contribute-code), 
+[citing us](#citing-taverna), or just want to 
+[edit](#contribute-edit) these pages 
+there are opportunities for you to 
+[get in touch and ask questions](#contact), 
+[contribute](#contribute) or 
+[report a bug](#reportbugs). 
+
 
 ## Incubator status
 
 * [Taverna incubator status](http://incubator.apache.org/projects/taverna.html).
 
 <a name="mailinglists"></a>
-##Mailing Lists##
+## Mailing Lists
 
 You are highly encouraged to participate on the Apache Taverna [mailing lists](/community/lists):
 
@@ -84,7 +92,7 @@ See the [mailing list](/community/lists) page for more details.
 
 ### IRC chat
 
-Some of the Apache Taverna users and developers occassionally hang out on the
+Some of the Apache Taverna users and developers occasionally hang out on the
 [IRC channel #taverna](/community/irc). 
 
  
@@ -93,9 +101,17 @@ Some of the Apache Taverna users and developers occassionally hang out on the
 
 Use the Apache Taverna JIRA [issue tracker](/community/issue-tracker) to report or track a bug. 
 
-The previous (non-Apache) Taverna JIRA can be found at:
-<http://dev.mygrid.org.uk/issues/browse/T3>
-  
+
+## Citing Taverna
+
+If you use Taverna in your academic work, you can [cite](/community/cite) one of the 
+[publications about Taverna](/community/publications). 
+We track papers that 
+[reference Taverna](/community/references), so feel free to 
+[raise an issue](issue-tracker) or 
+[suggest a webpage edit](/community/edit) to add
+your own publications to these lists.  
+
 ## Contribute
 
 <a name="contribute-workflow"></a>
@@ -136,9 +152,3 @@ For **Taverna 2** (non-Apache), see the [Creating plugins for Taverna 2](http://
 This website is always under development.
 Please help make it better by [editing](/community/edit) or adding pages.
 
-## Citing Taverna
-
-If you use Taverna in your academic work, you can [cite](/community/cite) one of the 
-[publications about Taverna](/community/publications). We track papers that [reference Taverna](/community/references), so
-feel free to [raise an issue](issue-tracker) or [suggest a webpage edit](/community/edit) to add
-your own publications to these lists.
