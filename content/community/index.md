@@ -136,3 +136,9 @@ For **Taverna 2** (non-Apache), see the [Creating plugins for Taverna 2](http://
 This website is always under development.
 Please help make it better by [editing](/community/edit) or adding pages.
 
+## Citing Taverna
+
+If you use Taverna in your academic work, you can [cite](/community/cite) one of the 
+[publications about Taverna](/community/publications). We track papers that [reference Taverna](/community/references), so
+feel free to [raise an issue](issue-tracker) or [suggest a webpage edit](/community/edit) to add
+your own publications to these lists.
