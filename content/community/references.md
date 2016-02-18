@@ -21,7 +21,7 @@ See also [publications](/community/publications) and [how to cite Taverna](/comm
 
 ##2016
 Arzu Tugce Guler, Cathelijn J. F. Waaijer, Magnus Palmblad. (2016). **Scientific workflows for 
-bibliometrics.** In: *Scientometrics*. Advance online publication (15 February 2016). 
+bibliometrics.** In: *Scientometrics*. (Advance online publication, 15 February 2016.) 
 [doi:10.1007/s11192-016-1885-6](http://dx.doi.org/10.1007/s11192-016-1885-6). 
 
 ##2015
