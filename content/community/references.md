@@ -16,10 +16,18 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-*The following is a partial list of publications that reference the Taverna Workflow Management System. See also [publications](/community/publications) and [how to cite Taverna](/community/cite).*
+*The following is a partial list of publications that reference the Taverna Workflow Management System. 
+See also [publications](/community/publications) and [how to cite Taverna](/community/cite).*
+
+##2016
+Arzu Tugce Guler, Cathelijn J. F. Waaijer, Magnus Palmblad. (2016). **Scientific workflows for 
+bibliometrics.** In: *Scientometrics*. Advance online publication (15 February 2016). 
+[doi:10.1007/s11192-016-1885-6](http://dx.doi.org/10.1007/s11192-016-1885-6). 
 
 ##2015
-Khalid Belhajjame, Jun Zhao, Daniel Garijo, Matthew Gamble, Kristina Hettne, Ra&uacute;l Palma, Eleni Mina, Oscar Corcho, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, Sean Bechhofer, Graham Klyne, Carole Goble. (2015)
+Khalid Belhajjame, Jun Zhao, Daniel Garijo, Matthew Gamble, Kristina Hettne, Ra&uacute;l Palma, 
+Eleni Mina, Oscar Corcho, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, Sean Bechhofer, 
+Graham Klyne, Carole Goble. (2015)
 **Using a suite of ontologies for preserving workflow-centric research objects.** 
 In: *Journal of Web Semantics: Scence, Services and Agents on the World Wide Web*. 32: 16&ndash;42.
 [doi:10.1016/j.websem.2015.01.003](http://dx.doi.org/10.1016/j.websem.2015.01.003)
