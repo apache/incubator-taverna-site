@@ -21,6 +21,8 @@ access to inspecting, modifying and converting
 [SCUFL2](/documentation/scufl2/) workflow definitions and
 [Research Object Bundles](https://w3id.org/bundle).
 
+## Maven artifacts
+
 Apache Taverna Language is available from
 [Maven Central](http://central.maven.org/maven2/org/apache/taverna/language/),
 mirrored from
