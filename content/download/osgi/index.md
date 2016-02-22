@@ -82,7 +82,7 @@ for details on each OSGi service. In brief:
   from [taverna-plugin-api](https://github.com/apache/incubator-taverna-osgi/blob/master/taverna-plugin-api/)
   allow managing of
   plugins in an OSGi application, including online installation and updates of plugins. Each
-  [Plugin](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/plugin/Plugin.html) provide a collection
+  [Plugin](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/plugin/Plugin.html) provides a collection
   of OSGi bundles that are activated. The plugins and application profile are described in XML according to the
   [taverna-osgi-schemas](https://github.com/apache/incubator-taverna-osgi/blob/master/taverna-osgi-schemas/src/main/resources).
 * The [UpdateManager](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/update/UpdateManager.html)
@@ -90,10 +90,10 @@ for details on each OSGi service. In brief:
 * The [taverna-maven-plugin](https://github.com/apache/incubator-taverna-osgi/blob/master/taverna-maven-plugin/)   allows creating plugins for the Taverna `PluginManager`
   using Apache Maven, including deployment to plugin sites.
 * The [DownloadManager](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/download/DownloadManager.html)
-  service from [taverna-download-api](https://github.com/apache/incubator-taverna-osgi/blob/master/taverna-download-api/) provide convenience methods for downloading a `URI`
+  service from [taverna-download-api](https://github.com/apache/incubator-taverna-osgi/blob/master/taverna-download-api/) provides convenience methods for downloading a `URI`
   to a `Path`, including hashsum checking using neighbouring `.sha1` or `.md5` URIs. Used by `PluginManager` and `UpdateManager`.
 * The [ApplicationConfiguration](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/configuration/app/ApplicationConfiguration.html)
-  service provide application installation details  like the startup directory and home directory for user configuration. The application should have a [conf/taverna.app.properties](https://github.com/apache/incubator-taverna-commandline/blob/master/taverna-commandline-product/src/main/etc/conf/taverna.app.properties)
+  service provides application installation details  like the startup directory and home directory for user configuration. The application should have a [conf/taverna.app.properties](https://github.com/apache/incubator-taverna-commandline/blob/master/taverna-commandline-product/src/main/etc/conf/taverna.app.properties)
   file in its startup folder, e.g. `taverna.app.name=taverna-cl-3.0.0` means `~/.taverna-cl-3.0.0/` will be the
   application's home directory on Unix.
 * The [ConfigurationManager](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/configuration/ConfigurationManager.html)
@@ -103,7 +103,7 @@ for details on each OSGi service. In brief:
   and the [workbench](https://github.com/apache/incubator-taverna-workbench/blob/master/taverna-configuration-api/src/main/java/org/apache/taverna/workbench/configuration/workbench/WorkbenchConfiguration.java)
   using preferences stored in the application home directory  
 * The [xml-parser-service](https://github.com/apache/incubator-taverna-osgi/blob/master/xml-parser-service/)  and [xml-transformer-service](xml-transformer-service/)
-  re-exposes xalan's and xerces's XML parser and XML transformer implementations within SOGi
+  re-exposes Xalan's and Xerces's XML parser and XML transformer implementations within SOGi
 
 ### Spring services
 
