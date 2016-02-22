@@ -102,7 +102,8 @@ for details on each OSGi service. In brief:
   like the [HTTPProxyConfiguration](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/configuration/proxy/HttpProxyConfiguration.html)
   and the [workbench](https://github.com/apache/incubator-taverna-workbench/blob/master/taverna-configuration-api/src/main/java/org/apache/taverna/workbench/configuration/workbench/WorkbenchConfiguration.java)
   using preferences stored in the application home directory  
-* The [xml-parser-service](https://github.com/apache/incubator-taverna-osgi/blob/master/xml-parser-service/)  and [xml-transformer-service](xml-transformer-service/)
+* The [xml-parser-service](https://github.com/apache/incubator-taverna-osgi/blob/master/xml-parser-service/) 
+  and [xml-transformer-service](https://github.com/apache/incubator-taverna-osgi/tree/master/xml-transformer-service)
   re-exposes Xalan's and Xerces's XML parser and XML transformer implementations within SOGi
 
 ### Spring services
