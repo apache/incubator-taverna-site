@@ -185,24 +185,23 @@ To provide the Nexus credentials, edit your `~/.m2/settings.xml` to include
 your apache.org committer credentials for the servers
 `apache.snapshots.https` and `apache.releases.https`:
 
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <servers>
-    <server>
-      <id>apache.snapshots.https</id>
-      <username>johndoe</username>
-      <password>fishsoup</password>
-    </server>
-    <server>
-      <id>apache.releases.https</id>
-      <username>johndoe</username>
-      <password>fishsoup</password>
-    </server>
-  </servers>
-</settings>
-```
+    <?xml version="1.0" encoding="UTF-8"?>
+    <settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <servers>
+        <server>
+          <id>apache.snapshots.https</id>
+          <username>johndoe</username>
+          <password>fishsoup</password>
+        </server>
+        <server>
+          <id>apache.releases.https</id>
+          <username>johndoe</username>
+          <password>fishsoup</password>
+        </server>
+      </servers>
+    </settings>
+
 
 To check you have the correct credentials set up for
 write-access to
