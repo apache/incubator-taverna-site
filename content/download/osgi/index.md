@@ -16,8 +16,9 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-**Apache Taverna OSGi** (incubating) is a plugin system for
-[OSGi](https://www.osgi.org/) in Java.
+**Apache Taverna OSGi plugin system** (incubating) is a plugin system for
+Java console and desktop applications using [OSGi](https://www.osgi.org/),
+including an online update mechanism.
 
 ## Maven artifacts
 
@@ -38,27 +39,27 @@ one or more of these to your `pom.xml`:
         <dependency>
             <groupId>org.apache.taverna.osgi</groupId>
             <artifactId>taverna-app-configuration-api</artifactId>
-            <version>0.2.1-incubating-</version>
+            <version>0.2.1-incubating</version>
         </dependency>
         <dependency>
             <groupId>org.apache.taverna.osgi</groupId>
             <artifactId>taverna-configuration-api</artifactId>
-            <version>0.2.1-incubating-</version>
+            <version>0.2.1-incubating</version>
         </dependency>
         <dependency>
             <groupId>org.apache.taverna.osgi</groupId>
             <artifactId>taverna-download-api</artifactId>
-            <version>0.2.1-incubating-</version>
+            <version>0.2.1-incubating</version>
         </dependency>
         <dependency>
             <groupId>org.apache.taverna.osgi</groupId>
             <artifactId>taverna-plugin-api</artifactId>
-            <version>0.2.1-incubating-</version>
+            <version>0.2.1-incubating</version>
         </dependency>
         <dependency>
             <groupId>org.apache.taverna.osgi</groupId>
             <artifactId>taverna-update-api</artifactId>
-            <version>0.2.1-incubating-</version>
+            <version>0.2.1-incubating</version>
         </dependency>
     </dependencies>
 
@@ -142,7 +143,7 @@ file.
 from official mirrors of the
 ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/closer.cgi/incubator/taverna/):
 
-* [taverna-osgi-0.15.0-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip)
+* [taverna-osgi-0.2.1-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip)
   ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip.asc),
   [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip.md5),
   [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip))
