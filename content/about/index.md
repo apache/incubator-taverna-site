@@ -40,18 +40,18 @@ PPMC members) are:
   <tr><td>mpierce</td><td>Marlon Pierce</td> <td>Mentor</td></tr>
   <tr><td>smarru</td><td>Suresh Marru</td> <td>Mentor</td></tr>
   <tr><td>suresh</td><td>Suresh Srinivas</td> <td>Mentor</td></tr>
-  <tr><td>alaninmcr</td><td>Alan R Williams</td></tr>
-	<tr><td>anenadic</td><td>Aleksandra Nenadic</td></tr>
-	<tr><td>brenninc</td><td>Christian Y. Brenninkmeijer</td></tr>
-	<tr><td>redmitry</td><td>Dmitriy Repchevsky</td></tr>
-	<tr><td>dkf</td><td>Donal K. Fellows</td></tr>
-  <tr><td>gnaylor</td><td>Gale Naylor</td></tr>
-	<tr><td>ianwdunlop</td><td>Ian Dunlop</td></tr>
-	<tr><td>jgarrido</td><td>Julián Garrido</td></tr>
-	<tr><td>hainesr</td><td>Robert Haines</td></tr>
-	<tr><td>shoaibsufi</td><td>Shoaib Sufi</td></tr>
-	<tr><td>stain</td><td>Stian Soiland-Reyes</td></tr>
-	<tr><td>stuzart</td><td>Stuart Owen</td></tr>
+  <tr><td>alaninmcr</td><td>Alan R Williams</td> <td>PPMC member</td></tr>
+	<tr><td>anenadic</td><td>Aleksandra Nenadic</td> <td>PPMC member</td></tr>
+	<tr><td>brenninc</td><td>Christian Y. Brenninkmeijer</td> <td>PPMC member</td></tr>
+	<tr><td>redmitry</td><td>Dmitriy Repchevsky</td> <td>PPMC member</td></tr>
+	<tr><td>dkf</td><td>Donal K. Fellows</td> <td>PPMC member</td></tr>
+  <tr><td>gnaylor</td><td>Gale Naylor</td> <td>PPMC member</td></tr>
+	<tr><td>ianwdunlop</td><td>Ian Dunlop</td> <td>PPMC member</td></tr>
+	<tr><td>jgarrido</td><td>Julián Garrido</td> <td>PPMC member</td></tr>
+	<tr><td>hainesr</td><td>Robert Haines</td> <td>PPMC member</td></tr>
+	<tr><td>shoaibsufi</td><td>Shoaib Sufi</td> <td>PPMC member</td></tr>
+	<tr><td>stain</td><td>Stian Soiland-Reyes</td> <td>PPMC member</td></tr>
+	<tr><td>stuzart</td><td>Stuart Owen</td> <td>PPMC member</td></tr>
 </tbody>
 </table>
 <p class="lead">Thanks to all of you for making it possible!</p>
