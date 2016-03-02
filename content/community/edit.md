@@ -135,7 +135,7 @@ Linking tips:
  * Everything is easier with a link. 
    * Don't just say "You can find more in the documentation" - link to the right place in the documentation.
    * Deep-links are good, unless the target pages becomes confusing out of context
- * Don't break existing hyperlinks to our pages (they could linked to anywhere on the web)
+ * Don't break existing hyperlinks to our pages (they could be linked to anywhere on the web)
    * Keep the URI of a page as far as possible, or use `.htaccess` redirections.
    * If a page has been deleted, leave a placeholder page explaining why. 
      * Remove/update internal links to deleted/moved pages. (<code>svn</code> and <code>grep</code> are your friends)
