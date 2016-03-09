@@ -19,6 +19,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 The Taverna team are currently involved or collaborating on several projects sponsoring the development 
    of new tools and the improvement of Taverna:
 
+ - [SEEK][103] – the SEEK platform is a web-based resource for sharing heterogeneous scientific research datasets, models or simulations, processes and research outcomes.
  - [BioVeL][1] – establishing an international e-Laboratory to allow biodiversity scientists to jointly tackle 
       diverse research challenges using Taverna, myExperiment and BioCatalogue
  - [Wf4Ever][2] – providing methods and tools required to ensure the long-term preservation of 
@@ -43,7 +44,7 @@ An outreach project designed to expose scientists to the possible uses of e-Scie
 
 There are also a large number of Taverna-related projects that the team have been involved with in the past:
 
- - [SEEK][103] – the SEEK platform is a web-based resource for sharing heterogeneous scientific research datasets, models or simulations, processes and research outcomes.
+
  - [HELIO][12] – the Heliophysics Integrated Observatory
  - [TSB grant][13] – to address NHS requirements for accessing and comparing large amounts of information and 
       find common genetic links when testing new treatments (in partnership with Eagle Genomics)
