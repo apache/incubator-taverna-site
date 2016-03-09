@@ -43,6 +43,7 @@ An outreach project designed to expose scientists to the possible uses of e-Scie
 
 There are also a large number of Taverna-related projects that the team have been involved with in the past:
 
+ - [SEEK][103] – the SEEK platform is a web-based resource for sharing heterogeneous scientific research datasets, models or simulations, processes and research outcomes.
  - [HELIO][12] – the Heliophysics Integrated Observatory
  - [TSB grant][13] – to address NHS requirements for accessing and comparing large amounts of information and 
       find common genetic links when testing new treatments (in partnership with Eagle Genomics)
@@ -540,3 +541,4 @@ The workflows covered two domains:
   [100]: http://www.epsrc.ac.uk/
   [101]: http://www.mathworks.com/products/matlab/
   [102]: https://www.escholar.manchester.ac.uk/uk-ac-man-scw:1d33210
+  [103]: http://www.seek4science.org/
