@@ -35,12 +35,12 @@ jsonld: {
 
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 
-Taverna has recently transitioned
-to the Apache Incubator. This website is for the Apache Taverna project and is <strong>under development</strong>.
+Taverna has transitioned
+to the Apache Incubator. This website is for the Apache Taverna project.
 </p>
 <p>
-You might want to visit the earlier <a class="alert-link" href="http://www.taverna.org.uk/">taverna.org.uk</a>
-website which is not affiliated with Apache.
+You might still find links to the earlier <a class="alert-link" href="http://www.taverna.org.uk/">taverna.org.uk</a>
+website which is not affiliated with Apache and provided for archive purposes only.
 </div>
 
 
@@ -69,16 +69,17 @@ Workflow Management System
   </div>
 
  <div class="col-lg-6">
-<h3>Taverna is moving to the Apache Incubator</h3>
+<h3>Taverna has moving to the Apache Incubator</h3>
 <p>Taverna has been accepted as an Apache Incubator project.
 In short, this means:</p>
 <ul>
-<li>Taverna 2.5.1 will be last non-Apache release from <a href="http://www.taverna.org.uk/">taverna.org.uk</a></li>
+<li>Taverna 2.5.0 was the last non-Apache release from <a href="http://www.taverna.org.uk/">taverna.org.uk</a></li>
 <li><a href="https://www.apache.org/foundation/how-it-works.html#management">Open Development</a> process - anyone can contribute</li>
 <li>Development infrastructure hosted by <a href="http://www.apache.org/">apache.org</a></li>
-<li><a href="/community">Taverna mailing lists</a> have moved to @taverna.incubator.apache.org</li>
-<li><a href="/download/code">Source code</a> will move to
-<a href="http://git.apache.org/">http://git.apache.org/</a>, with GitHub mirror</li>
+<li><a href="/community/#mailing-lists">Taverna mailing lists</a> have moved to @taverna.incubator.apache.org</li>
+<li><a href="/download/code">Source code</a> moved to
+git.apache.org, with
+<a href="https://github.com/apache/?utf8=%E2%9C%93&query=incubator-taverna">GitHub mirrors</a></li>
 </ul>
 <p>For further details, see the presentation
 <a href="http://dev.mygrid.org.uk/wiki/display/developer/Taverna+as+an+Apache+Incubator+project">Taverna
@@ -93,13 +94,15 @@ mailing list.</p>
 
 ## Disclaimer
 
-Apache Taverna is an effort undergoing incubation at [The Apache Software Foundation
-(ASF)](http://apache.org/) sponsored by the [Apache Incubator PMC](http://incubator.apache.org/).
+Apache Taverna is an effort undergoing incubation at
+[The Apache Software Foundation (ASF)](http://apache.org/)
+sponsored by the [Apache Incubator PMC](http://incubator.apache.org/).
 Incubation is required of all newly accepted projects until a further review
 indicates that the infrastructure, communications, and decision making process
 have stabilized in a manner consistent with other successful ASF projects.
-While incubation status is not necessarily a reflection of the completeness or
+While [incubation status](http://incubator.apache.org/projects/taverna.html)
+is not necessarily a reflection of the completeness or
 stability of the code, it does indicate that the project has yet to be fully
 endorsed by the ASF.
 
-<a href="http://incubator.apache.org/"><img src="/img/apache-incubator-logo.png" width="229" height="57"/></a>
+<a href="http://incubator.apache.org/"><img src="http://incubator.apache.org/images/egg-logo2.png" width="229" height="57"/></a>

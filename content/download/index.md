@@ -19,18 +19,18 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 ## Which Taverna to download?
 There are several Taverna tools you can download:
 
- - [Taverna Language](/download/language) gives programmatic access to
+ - [Apache Taverna Language](/download/language) gives programmatic access to
      inspecting, modifying and converting
      [SCUFL2](/documentation/scufl2/) workflow definitions and
      [Research Object Bundles](https://w3id.org/bundle).
- - [Taverna OSGi](/download/osgi) is a plugin system for Java console and
+ - [Apache Taverna OSGi](/download/osgi) is a plugin system for Java console and
      desktop applications using OSGi, including an online update mechanism.
  - [Taverna Workbench](/download/workbench) enables you to graphically create, edit and
      run workflows on your computer.
      Taverna 2.5 (non-Apache) Workbench is the latest series of the Workbench;
      it is highly recommended that you use this version if you are new to Taverna,
      or migrate to this version if you have used an earlier Taverna Workbench before.
- - [Taverna Command Line Tool](/download/command-line-tool) (not yet Apache) enables you to run
+ - [Taverna Command Line Tool](/download/command-line-tool) enables you to run
      workflows from a command prompt.
      This enables automated execution of workflows, e.g. on a Linux server.
  - [Taverna Server](/download/server) is the remote workflow execution service that enables you
