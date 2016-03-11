@@ -15,6 +15,32 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            KIND, either express or implied.  See the License for the
            specific language governing permissions and limitations
            under the License.
+jsonld: {
+    "@context" : "http://schema.org",
+    "@type" : ["Product", "SoftwareApplication"],
+    "@id": "https://taverna.incubator.apache.org/download/language/",
+    "url": "https://taverna.incubator.apache.org/download/language/",
+    "applicationSuite": "Apache Taverna (incubating)",
+    "name" : "Apache Taverna Language (incubating)",
+    "description" : "Apache Taverna Language (incubating) is a Java API that gives programmatic access to inspecting, modifying and converting SCUFL2 workflow definitions and Research Object Bundles.",
+    "brand" : {
+      "@type" : "Brand",
+      "name" : "Apache Taverna",
+      "logo" : "http://taverna.incubator.apache.org/img/taverna-logo-145x134.png"
+    },
+    "publisher" : { "@type" : "Organization",
+                    "@id" : "http://www.apache.org/",
+                   "url" : "http://www.apache.org/",
+                    "name" : "The Apache Software Foundation (ASF)" },
+    "downloadUrl" : "http://www-eu.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip",
+    "fileSize": "1.4MB",
+    "softwareHelp": {"@id": "http://taverna.incubator.apache.org/documentation/scufl2/"},
+    "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12333250&projectId=12318322",
+     "author": { "@id": "http://taverna.incubator.apache.org/about/",
+                 "uri": "http://taverna.incubator.apache.org/about/",
+                 "type": "Organization",
+                 "name": "Apache Taverna PPMC" }
+  }            
 
 **Apache Taverna Language** (incubating) is a Java API that gives programmatic
 access to inspecting, modifying and converting
@@ -32,33 +58,39 @@ For convenience of IDE users, the Maven artifacts include `-javadoc.jar` and
 online [API javadoc](/javadoc/taverna-language/?org/apache/taverna/scufl2/api/package-summary.html)
 and the [source code releases](#source-code) (see below).
 
-To use Taverna Language with [Maven](https://maven.apache.org/), add to your `pom.xml`:
+To use Taverna Language with [Maven](https://maven.apache.org/),
+add to your `pom.xml` a selection of:
 
     <dependencies>
         <dependency>
             <groupId>org.apache.taverna.language</groupId>
             <artifactId>taverna-robundle</artifactId>
-            <version>0.15.0-incubating</version>
+            <version>0.15.1-incubating</version>
         </dependency>
         <dependency>
             <groupId>org.apache.taverna.language</groupId>
             <artifactId>taverna-databundle</artifactId>
-            <version>0.15.0-incubating</version>
+            <version>0.15.1-incubating</version>
         </dependency>
         <dependency>
             <groupId>org.apache.taverna.language</groupId>
             <artifactId>taverna-scufl2-api</artifactId>
-            <version>0.15.0-incubating</version>
+            <version>0.15.1-incubating</version>
         </dependency>
         <dependency>
             <groupId>org.apache.taverna.language</groupId>
             <artifactId>taverna-scufl2-wfbundle</artifactId>
-            <version>0.15.0-incubating</version>
+            <version>0.15.1-incubating</version>
         </dependency>
         <dependency>
             <groupId>org.apache.taverna.language</groupId>
             <artifactId>taverna-scufl2-t2flow</artifactId>
-            <version>0.15.0-incubating</version>
+            <version>0.15.1-incubating</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.taverna.language</groupId>
+            <artifactId>taverna-scufl2-wfdesc</artifactId>
+            <version>0.15.1-incubating</version>
         </dependency>
     </dependencies>
 
@@ -77,32 +109,32 @@ After downloading the files,
 using the Apache Taverna [KEYS](https://www.apache.org/dist/incubator/taverna/KEYS)
 file.
 
-### taverna-language-0.15.0-incubating
+### taverna-language-0.15.1-incubating
 
-**Apache Taverna Language 0.15.0-incubating** was published on 2015-08-11, and is available for download
+**Apache Taverna Language 0.15.1-incubating** was published on 2016-03-11, and is available for download
 from official mirrors of the
 ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/closer.cgi/incubator/taverna/):
 
-* [taverna-language-0.15.0-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip)
-  ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.asc),
-  [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.md5),
-  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.sha1))
+* [taverna-language-0.15.1-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip)
+  ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip.asc),
+  [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip.md5),
+  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip.sha1))
 
-The Taverna Language [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12318322&version=12332246)
+The Taverna Language [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12333250&projectId=12318322)
 is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326808).
 
 
 
-### taverna-parent-1-incubating
+### taverna-parent-2-incubating
 
-**Apache Taverna Maven Parent** was published on 2015-08-11, and is available as:
+**Apache Taverna Maven Parent 2-incubating** was published on 2016-03-11, and is available as:
 
-* [taverna-parent-1-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip)
-  ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip.asc),
-  [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip.md5),
-  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-1-incubating/taverna-parent-1-incubating-source-release.zip.sha1))
+* [taverna-parent-2-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-parent-2-incubating/apache-taverna-parent-2-incubating-source-release.zip)
+  ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-2-incubating/apache-taverna-parent-2-incubating-source-release.zip.asc),
+  [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-2-incubating/apache-taverna-parent-2-incubating-source-release.zip.md5),
+  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-2-incubating/apache-taverna-parent-2-incubating-source-release.zip.sha1))
 
-The Taverna Maven parent [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332247&projectId=12318322)
+The Taverna Maven parent [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12333249&projectId=12318322)
 is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326807).
 
 ### Source code repositories
@@ -113,7 +145,7 @@ For the latest developments you may also be interested in the corresponding
 * [incubator-taverna-language](https://github.com/apache/incubator-taverna-language)
 * [incubator-taverna-maven-parent](https://github.com/apache/incubator-taverna-maven-parent/)
 
-Each release has a corresponding tag, e.g. `0.15.0-incubating`.
+Each release has a corresponding tag, e.g. `0.15.1-incubating`.
 
 ### Archived releases
 
