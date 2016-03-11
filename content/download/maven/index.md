@@ -17,17 +17,50 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-Taverna is transitioning to the Apache Incubator. 
+Taverna is transitioning to the Apache Incubator.
 Currently there is no Apache release of any Taverna products.
-This page is a template for the download page once an Apache version is available. 
+This page is a template for the download page once an Apache version is available.
 </div>
 
-##Pre Apache Releases and Snapshots
+## Apache releases
 
-The pre Apache Taverna code is available as a maven download from 
-  <http://repository.mygrid.org.uk/artifactory/mygrid-all/>
+Apache Taverna releases are distributed in
+[Apache's Maven repository](https://repository.apache.org/content/repositories/releases/org/apache/taverna/language/)
+which is also mirrored to Maven's default
+[Maven Central](https://repo.maven.apache.org/maven2/org/apache/taverna/).
+
+Therefore normally no `<repository>` should be needed to use
+released Apache Taverna Maven artifacts.
+
+See the individual [download pages](/download) for details of
+Maven `<dependencies>`.
+
+### Snapshots
+
+[Snapshot builds](/download/code/#snapshot-builds) are available for developers
+who want to take part in the Apache Taverna
+[developer community](http://taverna.incubator.apache.org/community/).
+
+Note that the snapshot builds are _not_ official releases and should be
+considered unstable.
+
+It is recommended to subscribe to the
+[dev@taverna mailing list](/community/lists#devtaverna)
+before using the `-SNAPSHOT` builds.
+
+## Pre Apache Releases and Snapshots
+
+The pre-Apache Taverna artifacts are available as a maven download from
+  <http://repository.mygrid.org.uk/artifactory/mygrid-all/>,
+hosted by the [eScience Lab, University of Manchester](http://www.esciencelab.org.uk/)
+
+Note that this repository is _not_ affiliated with Apache Software Foundation
+and is maintained for archival purposes only.
+
+You may need to use this Maven repository if developing plugins for Taverna 2.x:
 
 #### Release repository
+
     <repository>
         <id>mygrid-repository</id>
         <name>myGrid Repository</name>
@@ -48,4 +81,3 @@ The pre Apache Taverna code is available as a maven download from
         </releases>
         <snapshots />
     </repository>
-
