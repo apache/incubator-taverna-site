@@ -15,6 +15,33 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            KIND, either express or implied.  See the License for the
            specific language governing permissions and limitations
            under the License.
+jsonld: {
+    "@context" : "http://schema.org",
+    "@type" : ["Product", "SoftwareApplication"],
+    "@id": "https://taverna.incubator.apache.org/download/osgi/",
+    "url": "https://taverna.incubator.apache.org/download/osgi/",
+    "applicationSuite": "Apache Taverna (incubating)",
+    "name" : "Apache Taverna OSGi (incubating)",
+    "description" : "Apache Taverna OSGi plugin system (incubating) is a plugin system for Java console and desktop applications using OSGi, including an online update mechanism.",
+    "brand" : {
+      "@type" : "Brand",
+      "name" : "Apache Taverna",
+      "logo" : "http://taverna.incubator.apache.org/img/taverna-logo-145x134.png"
+    },
+    "publisher" : { "@type" : "Organization",
+                    "@id" : "http://www.apache.org/",
+                   "url" : "http://www.apache.org/",
+                    "name" : "The Apache Software Foundation (ASF)" },
+    "downloadUrl" : "http://www-eu.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip",
+    "fileSize": "185KB",
+    "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332248&projectId=12318322",
+     "author": { "@id": "http://taverna.incubator.apache.org/about/",
+                 "uri": "http://taverna.incubator.apache.org/about/",
+                 "type": "Organization",
+                 "name": "Apache Taverna PPMC" }
+  }  
+
+
 
 **Apache Taverna OSGi plugin system** (incubating) is a plugin system for
 Java console and desktop applications using [OSGi](https://www.osgi.org/),
@@ -103,7 +130,7 @@ for details on each OSGi service. In brief:
   like the [HTTPProxyConfiguration](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/configuration/proxy/HttpProxyConfiguration.html)
   and the [workbench](https://github.com/apache/incubator-taverna-workbench/blob/master/taverna-configuration-api/src/main/java/org/apache/taverna/workbench/configuration/workbench/WorkbenchConfiguration.java)
   using preferences stored in the application home directory  
-* The [xml-parser-service](https://github.com/apache/incubator-taverna-osgi/blob/master/xml-parser-service/) 
+* The [xml-parser-service](https://github.com/apache/incubator-taverna-osgi/blob/master/xml-parser-service/)
   and [xml-transformer-service](https://github.com/apache/incubator-taverna-osgi/tree/master/xml-transformer-service)
   re-exposes Xalan's and Xerces's XML parser and XML transformer implementations within SOGi
 
@@ -139,7 +166,7 @@ file.
 
 ### taverna-osgi-0.2.1-incubating
 
-**Apache Taverna Language 0.2.1-incubating** was published on 2016-03-`??`, and is available for download
+**Apache Taverna Language 0.2.1-incubating** was published on 2016-03-11, and is available for download
 from official mirrors of the
 ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/closer.cgi/incubator/taverna/):
 
