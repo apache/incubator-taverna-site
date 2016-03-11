@@ -32,7 +32,7 @@ jsonld: {
                     "@id" : "http://www.apache.org/",
                    "url" : "http://www.apache.org/",
                     "name" : "The Apache Software Foundation (ASF)" },
-    "downloadUrl" : "http://www-eu.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip",
+    "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip",
     "fileSize": "1.4MB",
     "softwareHelp": {"@id": "http://taverna.incubator.apache.org/documentation/scufl2/"},
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12333250&projectId=12318322",
