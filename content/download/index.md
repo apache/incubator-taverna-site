@@ -16,13 +16,15 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-##Which Taverna to download?
+## Which Taverna to download?
 There are several Taverna tools you can download:
 
  - [Taverna Language](/download/language) gives programmatic access to
      inspecting, modifying and converting
      [SCUFL2](/documentation/scufl2/) workflow definitions and
      [Research Object Bundles](https://w3id.org/bundle).
+ - [Taverna OSGi](/download/osgi) is a plugin system for Java console and
+     desktop applications using OSGi, including an online update mechanism.
  - [Taverna Workbench](/download/workbench) enables you to graphically create, edit and
      run workflows on your computer.
      Taverna 2.5 (non-Apache) Workbench is the latest series of the Workbench;
@@ -36,7 +38,7 @@ There are several Taverna tools you can download:
  - [Taverna Plugins](/documentation/plugins). The design of Taverna is modular in nature so that
       various plugins can be added in order to increase its functionality.
 
-##Associated tools
+## Associated tools
 There are also a number of associated tools available to use with (non-Apache) Taverna 2.
 
 > **Note**: There are currently no known plans to bring out Apache Taverna
@@ -52,27 +54,24 @@ There are also a number of associated tools available to use with (non-Apache) T
  - [Web service Data Proxy](http://www.taverna.org.uk/download/associated-tools/webservice-data-proxy)
  - [Workflow Monitor](http://www.taverna.org.uk/download/associated-tools/workflow-monitor)
  - [Seahawk Applet](http://www.taverna.org.uk/download/associated-tools/seahawk-applet/)
+ - [Taverna Player portal](https://github.com/myGrid/taverna-player-portal)
+ - [taverna-t2flow Ruby gem](https://rubygems.org/gems/taverna-t2flow/)
 
-## Apache Taverna
-
-There are not yet any public releases of Apache Taverna.
+## Source code
 
 You might be interested in the [source code](/download/code) of Apache Taverna, or
-   [earlier non-Apache releases](pre-apache).
+[earlier non-Apache releases](pre-apache).
 
-### License
+## License
 
 Apache Taverna is distributed under the [Apache Software License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+See the `NOTICE` file in the source code downloads for required attributions,
+and `LICENSE` file for details of any embedded third-party source code.
 
-### Planned releases
+Dependencies of Taverna are
+[compatible with Apache License 2.0](http://www.apache.org/legal/resolved.html)
+according to Apache Software Foundation policies.
 
-The project is planning a staged set of releases for Apache Taverna 3.x:
-
- 1. taverna-language 3.0.0
- 2. taverna-command-line 3.0.0
- 3. taverna-server 3.0.0
- 4. taverna-workbench 3.0.0-alpha3
- 5. taverna.workbench 3.0.0
 
 ## Non-Apache Taverna
 
@@ -83,3 +82,5 @@ This section covers Taverna releases done before incubation as an Apache project
 Taverna releases from 2001 to 2014 (e.g. Taverna 2.5) were made before Apache incubation:
 
  - [Earlier non-Apache releases](/download/pre-apache)
+
+Note that Taverna releases pre-Apache were licensed as [LGPL 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html).
