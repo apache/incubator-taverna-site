@@ -3,7 +3,7 @@ RewriteEngine On
 
 # Correct hostname? We're still in the incubator..
 RewriteCond %{HTTP_HOST} taverna.apache.org
-RewriteRule .* https://taverna.incubator.apache.org%{REQUEST_URI} [L,R=301]
+RewriteRule .* https://taverna.incubator.apache.org%{REQUEST_URI} [L,R=302]
 
 # OK.. perhaps it's the right hostname.. but do we have https?
 RewriteCond %{HTTPS} off
