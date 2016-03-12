@@ -105,4 +105,4 @@ is not necessarily a reflection of the completeness or
 stability of the code, it does indicate that the project has yet to be fully
 endorsed by the ASF.
 
-<a href="http://incubator.apache.org/"><img src="http://incubator.apache.org/images/egg-logo2.png" width="229" height="57"/></a>
+<a href="http://incubator.apache.org/"><img src="https://incubator.apache.org/images/egg-logo2.png" width="229" height="57"/></a>
