@@ -191,4 +191,4 @@ Each release has a corresponding tag, e.g. `0.2.1-incubating`.
 ### Archived releases
 
 For all archived Apache Taverna releases, see
-[archive.apache.org](http://archive.apache.org/dist/incubator/taverna/).
+[archive.apache.org](https://archive.apache.org/dist/incubator/taverna/).
