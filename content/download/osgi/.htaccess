@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} taverna.staging.apache.org
+RewriteRule .* https://taverna.incubator.apache.org%{REQUEST_URI} [L,R=302]
+
