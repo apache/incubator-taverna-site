@@ -1,4 +1,3 @@
-net.sf.taverna.t2.maven.plugins
 org.apache.taverna.configuration
 org.apache.taverna.configuration.app
 org.apache.taverna.configuration.app.impl
@@ -7,6 +6,7 @@ org.apache.taverna.configuration.proxy
 org.apache.taverna.configuration.proxy.impl
 org.apache.taverna.download
 org.apache.taverna.download.impl
+org.apache.taverna.mavenplugin
 org.apache.taverna.osgilauncher
 org.apache.taverna.plugin
 org.apache.taverna.plugin.impl
