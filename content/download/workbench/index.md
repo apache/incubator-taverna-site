@@ -20,20 +20,21 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-Taverna is transitioning to the Apache Incubator.
-Currently there is no Apache version of the Workbench.
+Taverna has transitioned to the Apache Incubator.
+Currently there is no Apache version of the Taverna Workbench.
 The first Apache version of the workbench is unlikely to include all the features of Taverna 2.5.
-If there are particular features you feel should be prioritized please [contact us](/community).
+If there are particular features you feel should be prioritized please
+<a class="alert-link" href="/community/lists">contact us</a>.
 </div>
 
 
-###Download Formats
+### Download Formats
 
 <div class="alert alert-warning" role="alert"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
-These earlier releases were made before incubation, and are
+This earlier releases were made before incubation, and are
 <strong>not endorsed</strong> by or provided by the Apache Software Foundation.
 Note that the license for Taverna Workbench 2.5 is
-<a href="https://www.gnu.org/licenses/lgpl-2.1.html">LGPL 2.1</a>.
+<a class="alert-link" href="https://www.gnu.org/licenses/lgpl-2.1.html">LGPL 2.1</a>.
 </div>
 
 Taverna Workbench 2.5 is available in the current formats
