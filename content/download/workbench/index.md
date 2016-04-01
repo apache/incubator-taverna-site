@@ -1,4 +1,4 @@
-Title:     Non-Apache Workbench 2.5
+Title:     Taverna Workbench 2.5 (non-Apache release)
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -15,8 +15,6 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            KIND, either express or implied.  See the License for the
            specific language governing permissions and limitations
            under the License.
-
-
 
 
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
@@ -60,7 +58,7 @@ Check [system requirements](/download/system-requirements) before you download
 
 Taverna can be extended with various [Plugins](/documentation/plugins).
 At this point it is undecided which plugins will be upgraded to Taverna 3.
-If you are interested in the upgrade of any plugin to Taverna 3, please [contact us](/community)
+If you are interested in the upgrade of any plugin to Taverna 3, please [contact us](/community).
 
 Similarly, it has not yet been decided which plugins will be pre-populated into a workbench
    download, and if so how this will be done.  
