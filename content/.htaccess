@@ -1,16 +1,45 @@
-Redirect /code/ /download/code/
-Redirect /code /download/code
+# Custom error page
 ErrorDocument 404 /error_pages/404.html
 
+
+
 RewriteEngine On
+
+# This trick is needed to avoid redirects exposing /var/www/html/
 RewriteBase /
 RewriteCond %{IS_SUBREQ} false
 
+# Correct hostname? We're still in the incubator..
+# (Swap this around after graduation)
+RewriteCond %{HTTP_HOST} taverna.apache.org
+RewriteRule .* https://taverna.incubator.apache.org%{REQUEST_URI} [L,R=302]
+
+# OK.. perhaps it's the right hostname.. but do we have https?
+RewriteCond %{HTTPS} off
+# .. so we don't redirect https://taverna.staging.apache.org/ (broken)
+RewriteCond %{HTTP_HOST} taverna.incubator.apache.org
+# Ensure https if we are on taverna.incubator.apache.org
+RewriteRule .* https://taverna.incubator.apache.org%{REQUEST_URI} [L,R=301]
+
+
+# This would have been nice - avoid exposing .html - but
+# it was a bit tricky to get to work properly..
+RewriteCond %{IS_SUBREQ} false
 #RewriteRule ^(.*)\.html$ $1 [L,R]
+
+RewriteCond %{IS_SUBREQ} false
 RewriteRule ^(.*)/index $1 [L,R]
+
+# Add redirects here for moved pages
+# and other short-form URIs
+# TIP: You can also use https://s.apache.org/
+# to create short URIs
+Redirect /code/ /download/code/
+Redirect /code /download/code
 RewriteRule ^community/contact.* /community/lists [L,R]
 RewriteRule ^contact.* /community/lists [L,R]
 RewriteRule ^edit.* /community/edit [L,R]
 RewriteRule ^doc/?$ /documentation/ [L,R]
 
 RewriteRule ^download/scufl2.* /download/language/ [L,R=permanent]
+
