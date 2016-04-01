@@ -20,7 +20,7 @@ Apache Taverna is a [incubator project](http://incubator.apache.org/) within the
 [The Apache Software Foundation (ASF)](http://www.apache.org/).
 
 Taverna is an open source community that's organized by its 
-[members](http://people.apache.org/committers-by-project.html#taverna), including you! 
+[members](/about), including you! 
 Whether you're running or 
 [writing workflows](#contribute-workflow), 
 [developing plugins](#contribute-plugin), 

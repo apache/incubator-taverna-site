@@ -26,7 +26,7 @@ Apache Taverna is a [incubator project](http://incubator.apache.org/) within the
 
 ## Who are we?
 
-The current [Taverna committers](http://people.apache.org/committers-by-project.html#taverna) (and
+The current [Taverna committers](http://people.apache.org/phonebook.html?podling=taverna) (and
 PPMC members) are:
 
 </style>
