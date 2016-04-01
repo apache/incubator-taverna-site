@@ -26,18 +26,18 @@ jsonld: {
     "brand" : {
       "@type" : "Brand",
       "name" : "Apache Taverna",
-      "logo" : "http://taverna.incubator.apache.org/img/taverna-logo-145x134.png"
+      "logo" : "https://taverna.incubator.apache.org/img/taverna-logo-145x134.png"
     },
     "publisher" : { "@type" : "Organization",
-                    "@id" : "http://www.apache.org/",
-                   "url" : "http://www.apache.org/",
+                    "@id" : "https://www.apache.org/",
+                   "url" : "https://www.apache.org/",
                     "name" : "The Apache Software Foundation (ASF)" },
     "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip",
     "fileSize": "1.4MB",
-    "softwareHelp": {"@id": "http://taverna.incubator.apache.org/documentation/scufl2/"},
+    "softwareHelp": {"@id": "https://taverna.incubator.apache.org/documentation/scufl2/"},
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12333250&projectId=12318322",
-     "author": { "@id": "http://taverna.incubator.apache.org/about/",
-                 "uri": "http://taverna.incubator.apache.org/about/",
+     "author": { "@id": "https://taverna.incubator.apache.org/about/",
+                 "uri": "https://taverna.incubator.apache.org/about/",
                  "type": "Organization",
                  "name": "Apache Taverna PPMC" }
   }            
@@ -50,7 +50,7 @@ access to inspecting, modifying and converting
 ## Maven artifacts
 
 Apache Taverna Language is available from
-[Maven Central](http://central.maven.org/maven2/org/apache/taverna/language/),
+[Maven Central](https://repo1.maven.org/maven2/org/apache/taverna/language/),
 mirrored from
 [ASF's Maven repository](https://repository.apache.org/content/repositories/releases/org/apache/taverna/language/).
 For convenience of IDE users, the Maven artifacts include `-javadoc.jar` and
@@ -105,7 +105,7 @@ See the [Taverna Language documentation](/documentation/scufl2/) for more detail
 Below you can find all Taverna Language source releases.
 
 After downloading the files,
-[verify the PGP signatures](http://www.apache.org/info/verification.html)
+[verify the PGP signatures](https://www.apache.org/info/verification.html)
 using the Apache Taverna [KEYS](https://www.apache.org/dist/incubator/taverna/KEYS)
 file.
 

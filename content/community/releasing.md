@@ -776,12 +776,13 @@ to pick up the new release from `dist.apache.org`, otherwise eager
 users (or users who just happened to want to download that day)
 may get `404 Not Found` errors.
 
-Update (or make) the corresponding pages under http://taverna.incubator.apache.org/download/
+Update (or make) the corresponding pages under https://taverna.incubator.apache.org/download/
 including the correct version number for the Maven dependencies and the release dates.
 
 Download links should be using the mirror redirector https://www.apache.org/dyn/closer.cgi, e.g.
 https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip
-while asc/md5/sha1 links should go directly to https://www.apache.org/dist/ - e.g. https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.asc
+
+The asc/md5/sha1 links should go directly to https://www.apache.org/dist/ - e.g. https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.0-incubating/taverna-language-0.15.0-incubating-source-release.zip.asc
 (important bit: `https`)
 
 

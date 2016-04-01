@@ -26,17 +26,17 @@ jsonld: {
     "brand" : {
       "@type" : "Brand",
       "name" : "Apache Taverna",
-      "logo" : "http://taverna.incubator.apache.org/img/taverna-logo-145x134.png"
+      "logo" : "https://taverna.incubator.apache.org/img/taverna-logo-145x134.png"
     },
     "publisher" : { "@type" : "Organization",
-                    "@id" : "http://www.apache.org/",
-                   "url" : "http://www.apache.org/",
+                    "@id" : "https://www.apache.org/",
+                   "url" : "https://www.apache.org/",
                     "name" : "The Apache Software Foundation (ASF)" },
     "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip",
     "fileSize": "185KB",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332248&projectId=12318322",
-     "author": { "@id": "http://taverna.incubator.apache.org/about/",
-                 "uri": "http://taverna.incubator.apache.org/about/",
+     "author": { "@id": "https://taverna.incubator.apache.org/about/",
+                 "uri": "https://taverna.incubator.apache.org/about/",
                  "type": "Organization",
                  "name": "Apache Taverna PPMC" }
   }  
@@ -50,7 +50,7 @@ including an online update mechanism.
 ## Maven artifacts
 
 Apache Taverna OSGi is available from
-[Maven Central](http://central.maven.org/maven2/org/apache/taverna/osgi/),
+[Maven Central](https://repo1.maven.org/maven2/org/apache/taverna/osgi/),
 mirrored from
 [ASF's Maven repository](https://repository.apache.org/content/repositories/releases/org/apache/taverna/osgi/).
 For convenience of IDE users, the Maven artifacts include `-javadoc.jar` and
@@ -99,35 +99,35 @@ To use the OSGi implementations of these services, replace `-api` with `-impl` a
 
 ## Usage
 
-See the [taverna-osgi javadoc](http://taverna.incubator.apache.org/javadoc/taverna-osgi/)
+See the [taverna-osgi javadoc](/javadoc/taverna-osgi/)
 for details on each OSGi service. In brief:
 
-* The [OsgiLauncher](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/osgilauncher/OsgiLauncher.html)
+* The [OsgiLauncher](/javadoc/taverna-osgi/org/apache/taverna/osgilauncher/OsgiLauncher.html)
   starts the OSGi framework and installs the provided OSGi bundles. It is used by the
   [taverna-commandline-launcher](https://github.com/apache/incubator-taverna-commandline/blob/master/taverna-commandline-launcher/src/main/java/org/apache/taverna/commandline/TavernaCommandLine.java#L64)
   `main()` method.
-* The [PluginManager](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/plugin/PluginManager.html) service
+* The [PluginManager](/javadoc/taverna-osgi/org/apache/taverna/plugin/PluginManager.html) service
   from [taverna-plugin-api](https://github.com/apache/incubator-taverna-osgi/blob/master/taverna-plugin-api/)
   allow managing of
   plugins in an OSGi application, including online installation and updates of plugins. Each
-  [Plugin](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/plugin/Plugin.html) provides a collection
+  [Plugin](/javadoc/taverna-osgi/org/apache/taverna/plugin/Plugin.html) provides a collection
   of OSGi bundles that are activated. The plugins and application profile are described in XML according to the
   [taverna-osgi-schemas](https://github.com/apache/incubator-taverna-osgi/blob/master/taverna-osgi-schemas/src/main/resources).
-* The [UpdateManager](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/update/UpdateManager.html)
+* The [UpdateManager](/javadoc/taverna-osgi/org/apache/taverna/update/UpdateManager.html)
   can update the installed plugins by downloading from the configured plugin site URI.
 * The [taverna-maven-plugin](https://github.com/apache/incubator-taverna-osgi/blob/master/taverna-maven-plugin/)   allows creating plugins for the Taverna `PluginManager`
   using Apache Maven, including deployment to plugin sites.
-* The [DownloadManager](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/download/DownloadManager.html)
+* The [DownloadManager](/javadoc/taverna-osgi/org/apache/taverna/download/DownloadManager.html)
   service from [taverna-download-api](https://github.com/apache/incubator-taverna-osgi/blob/master/taverna-download-api/) provides convenience methods for downloading a `URI`
   to a `Path`, including hashsum checking using neighbouring `.sha1` or `.md5` URIs. Used by `PluginManager` and `UpdateManager`.
-* The [ApplicationConfiguration](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/configuration/app/ApplicationConfiguration.html)
+* The [ApplicationConfiguration](/javadoc/taverna-osgi/org/apache/taverna/configuration/app/ApplicationConfiguration.html)
   service provides application installation details  like the startup directory and home directory for user configuration. The application should have a [conf/taverna.app.properties](https://github.com/apache/incubator-taverna-commandline/blob/master/taverna-commandline-product/src/main/etc/conf/taverna.app.properties)
   file in its startup folder, e.g. `taverna.app.name=taverna-cl-3.0.0` means `~/.taverna-cl-3.0.0/` will be the
   application's home directory on Unix.
-* The [ConfigurationManager](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/configuration/ConfigurationManager.html)
+* The [ConfigurationManager](/javadoc/taverna-osgi/org/apache/taverna/configuration/ConfigurationManager.html)
   service from [taverna-configuration-api](https://github.com/apache/incubator-taverna-osgi/blob/master/taverna-configuration-api/) can configure any
-  [Configurable](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/configuration/Configurable.html)
-  like the [HTTPProxyConfiguration](http://taverna.incubator.apache.org/javadoc/taverna-osgi/org/apache/taverna/configuration/proxy/HttpProxyConfiguration.html)
+  [Configurable](/javadoc/taverna-osgi/org/apache/taverna/configuration/Configurable.html)
+  like the [HTTPProxyConfiguration](/javadoc/taverna-osgi/org/apache/taverna/configuration/proxy/HttpProxyConfiguration.html)
   and the [workbench](https://github.com/apache/incubator-taverna-workbench/blob/master/taverna-configuration-api/src/main/java/org/apache/taverna/workbench/configuration/workbench/WorkbenchConfiguration.java)
   using preferences stored in the application home directory  
 * The [xml-parser-service](https://github.com/apache/incubator-taverna-osgi/blob/master/xml-parser-service/)

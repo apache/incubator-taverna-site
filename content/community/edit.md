@@ -43,10 +43,10 @@ of every `.md` file will not be rendered as shown on GitHub.
 To submit your suggested change, raise a
 [GitHub pull request](https://github.com/apache/incubator-taverna-site/pulls)
 which will send an email on your behalf to the
-[dev@taverna mailing list](http://taverna.incubator.apache.org/community/lists#devtaverna), where
+[dev@taverna mailing list](/community/lists#devtaverna), where
 an Apache Taverna committer will review your change before making it live
 on the Apache Taverna website.
-Please sign up to [dev@taverna](http://taverna.incubator.apache.org/community/lists#devtaverna)
+Please sign up to [dev@taverna](/community/lists#devtaverna)
 to watch for to any follow-up comments about your changes.
 
 
@@ -73,7 +73,7 @@ If you are an existing
 but don't have write access to the pages
 (e.g. you are not in the `incubator` group), then your suggested edit will be sent as
  an suggested patch to the
-[dev@taverna](http://taverna.incubator.apache.org/community/lists#devtaverna) mailing list,
+[dev@taverna](/community/lists#devtaverna) mailing list,
 which you should subscribe to in order to respond to any feedback.
 
 
@@ -88,7 +88,7 @@ prefer not to use GitHub, or if you want to suggest larger changes that
 involve renames, etc.
 
 Note that in this case your suggested edit will be sent as an suggested patch to the
-[dev@taverna](http://taverna.incubator.apache.org/community/lists#devtaverna) mailing list,
+[dev@taverna](/community/lists#devtaverna) mailing list,
 which you should subscribe to in order to respond to any feedback.
 
 
