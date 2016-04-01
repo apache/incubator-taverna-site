@@ -69,7 +69,7 @@ Workflow Management System
   </div>
 
  <div class="col-lg-6">
-<h3>Taverna has moving to the Apache Incubator</h3>
+<h3>Taverna has moved to the Apache Incubator</h3>
 <p>Taverna has been accepted as an Apache Incubator project.
 In short, this means:</p>
 <ul>
@@ -84,7 +84,7 @@ git.apache.org, with
 <p>For further details, see the presentation
 <a href="http://dev.mygrid.org.uk/wiki/display/developer/Taverna+as+an+Apache+Incubator+project">Taverna
 as an Apache Incubator project</a> and sign up to
-the <a href="http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/">dev@taverna.incubator.apache.org</a>
+the <a href="community/lists#devtaverna">dev@taverna.incubator.apache.org</a>
 mailing list.</p>
 
 
