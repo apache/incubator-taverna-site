@@ -16,56 +16,66 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-<div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-Taverna is transitioning to the Apache Incubator. 
-Currently there is no Apache version of the Workbench.
-This page is a template for the download page, once an Apache version is available. 
-</div>
 
+
+
+<div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+Taverna is transitioning to the Apache Incubator.
+Currently there is no Apache version of the Workbench.
 The first Apache version of the workbench is unlikely to include all the features of Taverna 2.5.
 If there are particular features you feel should be prioritized please [contact us](/community).
- 
+</div>
+
+
 ###Download Formats
-Taverna Workbench is available in the current formats
+
+<div class="alert alert-warning" role="alert"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+These earlier releases were made before incubation, and are
+<strong>not endorsed</strong> by or provided by the Apache Software Foundation.
+Note that the license for Taverna Workbench 2.5 is
+<a href="https://www.gnu.org/licenses/lgpl-2.1.html">LGPL 2.1</a>.
+</div>
+
+Taverna Workbench 2.5 is available in the current formats
 
  - [Windows 64-bit (.exe installer)](#windows64) (7, 8, 8.1)
- - [Windows 32-bit (.exe installer)](#windows32) (7) 
+ - [Windows 32-bit (.exe installer)](#windows32) (7)
  - [Mac OS X 64-bit (.dmg disk image)](#maxos) (10.8, 10.9)
  - [Linux 64-bit Debian-based (.deb package)](#linuxdeb) (Ubuntu 12.04.4, Bio-Linux 7)
  - [Linux 64-bit Redhat-based (.rpm package)](#linuxrpm) (Fedora 20)
- - [Stand Alone zip](#zip) (See 
+ - [Stand Alone zip](#zip) (See
      [additional requirements](/download/system-requirements#standalone))
  - [Maven repository](/download/maven)
  - [Source code](/code)
 
-Taverna [Command Line Tool](/documentation/command-line), 
-  which is included in all workbench downloads, 
+Taverna [Command Line Tool](/documentation/command-line),
+  which is included in all workbench downloads,
   is available as a [stand-alone download](/download/command-line-tool).
 
-Check [system requirements](/download/system-requirements) before you download 
-  Taverna. 
+Check [system requirements](/download/system-requirements) before you download
+  Taverna.
 
 ##Adding plugins
 
 Taverna can be extended with various [Plugins](/documentation/plugins).
 At this point it is undecided which plugins will be upgraded to Taverna 3.
-If you are interested in the upgrade of any plugin to Taverna 3, please [contact us](/community) 
+If you are interested in the upgrade of any plugin to Taverna 3, please [contact us](/community)
 
-Similarly, it has not yet been decided which plugins will be pre-populated into a workbench 
+Similarly, it has not yet been decided which plugins will be pre-populated into a workbench
    download, and if so how this will be done.  
 
-If you are interested in domain-specific versions of Taverna as done in 
-   [non-Apache Taverna 2.5](http://www.taverna.org.uk/download/workbench/2-5/), please 
+If you are interested in domain-specific versions of Taverna as done in
+   [non-Apache Taverna 2.5](http://www.taverna.org.uk/download/workbench/2-5/), please
    [contact us](/community).
 
 ##Next steps
 
-See the [release notes](/download/workbench/release-notes) for details about what is new 
-   in this release. 
+See the [release notes](/download/workbench/release-notes) for details about what is new
+   in this release.
 Follow the [quick start guide](/documentation/quick-start-guide) if you are new to Taverna.
-[Example workflows](/documentation/example-workflows) are available in the Starter Pack of 
+[Example workflows](/documentation/example-workflows) are available in the Starter Pack of
   the myExperiment tab within the Workbench.
-[Service sets](/documentation/service-sets) are available for various domains to allow you to 
+[Service sets](/documentation/service-sets) are available for various domains to allow you to
   customize services that appear in your Workbench.
 If you run into issues, check the [User Manual](http://dev.mygrid.org.uk/wiki/display/taverna)
    or [contact us](/community).
@@ -78,10 +88,10 @@ If you run into issues, check the [User Manual](http://dev.mygrid.org.uk/wiki/di
  - MD5: 3467a6a87f40cc01c8588e8e7753875a
 
 <a name="windows32"></a>
-##Taverna Workbench 2.5 for Windows 32-bit 
+##Taverna Workbench 2.5 for Windows 32-bit
 
  - [taverna-workbench-core-2.5.0-wini386.exe](http://www.taverna.org.uk/download/workbench/2-5/core/#download-windows)
- - SHA1: 0643e384bbef03aa5192033677649cddb175141d 
+ - SHA1: 0643e384bbef03aa5192033677649cddb175141d
  - MD5: 1233c91c7ad36e37f8fc6856a27f80fe
 
 Please [contact us](/community) to confirm continued interest in a 32 bit installer
@@ -110,7 +120,7 @@ Please [contact us](/community) to confirm continued interest in a 32 bit instal
 <a name="#zip"></a>
 ##Taverna Workbench 2.5 standalone
 
-This is operating system and architecture-neutral binary. 
+This is operating system and architecture-neutral binary.
 Check the standalone's [system requirements](/download/system-requirements#standalone).
 
  - [taverna-workbench-core-2.5.0-standalone.zip](http://www.taverna.org.uk/download/workbench/2-5/core/#download-binary)
