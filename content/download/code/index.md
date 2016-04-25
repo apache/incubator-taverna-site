@@ -16,7 +16,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org/), with read-only mirroring to 
+Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org/), with read-only mirroring to
 [GitHub](https://github.com/apache/?query=taverna-).
 
 [TOC]
@@ -35,8 +35,8 @@ To check out Apache Taverna on github, select `[Github]` below, e.g.:
 
     git clone https://github.com/apache/incubator-taverna-****.git
 
-You can also `[Browse]` the code through the GitHub mirrors. 
-Using GitHub you are free to *fork* the projects and raise *pull requests* to 
+You can also `[Browse]` the code through the GitHub mirrors.
+Using GitHub you are free to *fork* the projects and raise *pull requests* to
 [contribute to Apache Taverna](#contribute-to-apache-taverna).
 
 
@@ -74,7 +74,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>API for workflow definitions (SCUFL2) and workflow inputs/outputs (DataBundle)</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-osgi">incubator-taverna-osgi</a></td> 
+  <td><a href="https://github.com/apache/incubator-taverna-osgi">incubator-taverna-osgi</a></td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-osgi"
            value="" readonly="readonly"
@@ -84,7 +84,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>OSGi-based plugin system</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-engine">incubator-taverna-engine</a> 
+  <td><a href="https://github.com/apache/incubator-taverna-engine">incubator-taverna-engine</a>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-engine"
            value="" readonly="readonly"
@@ -103,7 +103,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>Common activity implementation for engine (e.g. WSDL, REST, Tool, Interaction)</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-commandline">incubator-taverna-commandline</a></td> 
+  <td><a href="https://github.com/apache/incubator-taverna-commandline">incubator-taverna-commandline</a></td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-commandline"
            value="" readonly="readonly"
@@ -113,7 +113,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>Command line for running Taverna workflows</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-server">incubator-taverna-server</a></td> 
+  <td><a href="https://github.com/apache/incubator-taverna-server">incubator-taverna-server</a></td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-server"
            value="" readonly="readonly"
@@ -123,7 +123,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>A REST and WSDL service for running Taverna workflows</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-workbench">incubator-taverna-workbench</a></td> 
+  <td><a href="https://github.com/apache/incubator-taverna-workbench">incubator-taverna-workbench</a></td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-workbench"
            value="" readonly="readonly"
@@ -139,11 +139,11 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench-common-activities">Browse</a></td> 
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench-common-activities">Browse</a></td>
   <td>Common activities UI (discovery+configuration for Workbench</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-workbench-product">incubator-taverna-workbench-product</a></td> 
+  <td><a href="https://github.com/apache/incubator-taverna-workbench-product">incubator-taverna-workbench-product</a></td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-workbench-product"
            value="" readonly="readonly"
@@ -159,11 +159,11 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-plugin-component">Browse</a></td> 
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-plugin-component">Browse</a></td>
   <td>Plugin for component activity and registry</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-plugin-bioinformatics">incubator-taverna-plugin-bioinformatics</a></td> 
+  <td><a href="https://github.com/apache/incubator-taverna-plugin-bioinformatics">incubator-taverna-plugin-bioinformatics</a></td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-plugin-bioinformatics"
            value="" readonly="readonly"
@@ -172,9 +172,19 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-plugin-bioinformatics">Browse</a></td>
   <td>Plugin for bioinformatics-specific activities</td>
 </tr>
+<tr>
+  <td><a href="https://github.com/apache/incubator-taverna-plugin-gis">incubator-taverna-plugin-gis</a></td>
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-plugin-gis"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-plugin-gis">Browse</a></td>
+  <td>Plugin for Geographical Information System (GIS) and OGC web services</td>
+</tr>
 
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-databundle-viewer">incubator-taverna-databundle-viewer</a></td> 
+  <td><a href="https://github.com/apache/incubator-taverna-databundle-viewer">incubator-taverna-databundle-viewer</a></td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-databundle-viewer"
            value="" readonly="readonly"
@@ -184,7 +194,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>Web-based Data Bundle viewer</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-mobile">incubator-taverna-mobile</a></td> 
+  <td><a href="https://github.com/apache/incubator-taverna-mobile">incubator-taverna-mobile</a></td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-mobile"
            value="" readonly="readonly"
@@ -198,13 +208,13 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
 <div class="alert alert-warning" role="alert"><p><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
   <strong>Note:</strong>
 The source code above is for Apache Taverna 3.
-The <a href="https://github.com/taverna/">source code for Taverna 2</a> 
+The <a href="https://github.com/taverna/">source code for Taverna 2</a>
 remains available separately, but is not maintained by the Apache Taverna project.
 </div>
 
 ## Building Apache Taverna
 
-You need [Apache Maven 3.2](https://maven.apache.org/download.html) or newer to build Taverna. 
+You need [Apache Maven 3.2](https://maven.apache.org/download.html) or newer to build Taverna.
 To build a checked out repository:
 
     mvn clean install
@@ -213,18 +223,18 @@ If you want to skip tests (these can be time-consuming):
 
     mvn clean install -DskipTests
 
-If you get license header warnings from the 
-[Apache RAT plugin](https://creadur.apache.org/rat/apache-rat-plugin/), 
+If you get license header warnings from the
+[Apache RAT plugin](https://creadur.apache.org/rat/apache-rat-plugin/),
 and you are not a committer (who should fix those before a release),
 you can skip these checks with:
 
     mvn clean install -Drat.skip=true
 
-The build order is roughly the order of the above list, but as regular 
-[snapshots](#snapshot-builds) are picked up from the snapshot repository, 
-usually you only need to build the modules you have changed. 
+The build order is roughly the order of the above list, but as regular
+[snapshots](#snapshot-builds) are picked up from the snapshot repository,
+usually you only need to build the modules you have changed.
 Note that a repository might depend on a released version of an upstream Taverna
-repository, so if you want to be sure that a build picks up the `SNAPSHOT` version 
+repository, so if you want to be sure that a build picks up the `SNAPSHOT` version
 you built instead, check the `<properties>` section within the `pom.xml`.
 
 
@@ -234,26 +244,26 @@ you built instead, check the `<properties>` section within the `pom.xml`.
 **Patches welcome!** Apache Taverna is a volunteer project, and we rely on the community to help
 improve the code base. Anyone can suggest a change to Apache Taverna, not just the existing [committers](/about/).
 
-For many developers, the easiest method is to **Fork** the corresponding repository on *GitHub*, and submit the suggested 
-changes as a **Pull request**. The pull request is automatically forwarded to the 
+For many developers, the easiest method is to **Fork** the corresponding repository on *GitHub*, and submit the suggested
+changes as a **Pull request**. The pull request is automatically forwarded to the
 [dev@taverna](http://mail-archives.apache.org/mod_mbox/taverna-dev/) mailing list. Subscribe to this mailing list to receive feedback for your patch.
 
 Alternatively, you may checkout directly from the repositories above,
-use [git format-patch](https://www.kernel.org/pub/software/scm/git/docs/git-format-patch.html), 
+use [git format-patch](https://www.kernel.org/pub/software/scm/git/docs/git-format-patch.html),
 and send your patches to the [dev@taverna](http://mail-archives.apache.org/mod_mbox/taverna-dev/)
 mailing list after subscribing. Note that large patch files might not be accepted by
 the mailing list software.
 
-For larger contributions, we might ask you to sign a 
-[Contributor License Agreement](https://www.apache.org/licenses/#clas) (CLA) to grant a license to 
-the Apache Software Foundation that covers your contribution. 
+For larger contributions, we might ask you to sign a
+[Contributor License Agreement](https://www.apache.org/licenses/#clas) (CLA) to grant a license to
+the Apache Software Foundation that covers your contribution.
 
-For any questions about using or modifying the Apache Taverna source code and APIs, 
+For any questions about using or modifying the Apache Taverna source code and APIs,
 please subscribe to and contact the [dev@taverna](http://mail-archives.apache.org/mod_mbox/taverna-dev/) mailing list.
 
 ### Bug Fixes
 
-Use the Apache Taverna JIRA [issue tracker](/community/issue-tracker) to **report or track a bug.** 
+Use the Apache Taverna JIRA [issue tracker](/community/issue-tracker) to **report or track a bug.**
 
 ## Snapshot builds
 
@@ -275,7 +285,7 @@ To use the snapshot repository, add to your Maven pom.xml:
       </repository>
     </repositories>
 
-This means that as a developer, you only need to build the repositories you are modifying, as the remaining modules will be retrieved from the Maven repository. 
+This means that as a developer, you only need to build the repositories you are modifying, as the remaining modules will be retrieved from the Maven repository.
 
 You will however always need to build the distribution product (command line or workbench) to incorporate your changes. (Make sure that references the correct <code>SNAPSHOT</code> version!)
 
@@ -284,7 +294,7 @@ You will however always need to build the distribution product (command line or 
 
 ## Taverna Extras
 
-The separate GitHub group [taverna-extras](https://github.com/taverna-extras) host independent community-submitted plugins for Apache Taverna. 
+The separate GitHub group [taverna-extras](https://github.com/taverna-extras) host independent community-submitted plugins for Apache Taverna.
 Unlike Apache Taverna, the taverna-extras include plugins covered by the licenses [LGPL](https://www.gnu.org/licenses/lgpl.html) and [GPL](https://www.gnu.org/licenses/gpl.html).
 Note that the taverna-extras are not affiliated with or released by Apache Taverna, although you may recognize many of the same committers.
 
@@ -306,7 +316,7 @@ function check() {
       for (i = 0; i < x.length; i++) {
          x[i].value = "git://git.apache.org/" +x[i].id + ".git";
       }
-      
+
    }
    if ( document.getElementById("picker").value == "Github"){
       for (i = 0; i < x.length; i++) {
@@ -316,8 +326,3 @@ function check() {
 }
 check ();
 </script>
-
-
-
-
-
