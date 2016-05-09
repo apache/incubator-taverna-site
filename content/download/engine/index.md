@@ -120,7 +120,7 @@ Note that you would need either to manually wire the services together or use
 
 See the complete
 [list of Taverna Engine modules](https://github.com/apache/incubator-taverna-engine/#modules),
-a description of [which modules do what](https://github.com/apache/incubator-taverna-engine/#which-module-does-what),
+a description of [which module does what](https://github.com/apache/incubator-taverna-engine/#which-module-does-what),
 and the [Javadoc for Taverna Engine](/javadoc/taverna-engine/).
 
 ### Spring services
