@@ -139,9 +139,8 @@ source code, as we think this release is mainly useful for
 development and testing.
 
 Apache Taverna is planning to release a binary distribution of
-Apache Taverna Command Line in its next version.
-
-Please contact the [dev@taverna](/community/lists#devtaverna) mailing list
+Apache Taverna Command Line in its next version. Please contact
+the [dev@taverna](/community/lists#devtaverna) mailing list
 for details.
 
 The previous non-Apache release of
