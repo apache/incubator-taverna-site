@@ -187,7 +187,7 @@ The source code for Taverna Engine before migrating to Apache
 (Taverna 2.5 and earlier) is available
 as a series of `old/` tags in the git repository, e.g.
 [core-1.5](https://github.com/apache/incubator-taverna-engine/tree/old/core-1.5),
-note that the older code was licensed as LGPL 2.1.
+note that the older code was licensed under LGPL 2.1.
 
 Binaries for older releases are also available in the
 [myGrid repository](/download/maven/#pre-apache-releases-and-snapshots),
