@@ -38,7 +38,7 @@ jsonld: {
     "softwareHelp": {"@id": "https://taverna.incubator.apache.org/documentation/scufl2/"},
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12333250&projectId=12318322",
      "author": { "@id": "https://taverna.incubator.apache.org/about/",
-                 "uri": "https://taverna.incubator.apache.org/about/",
+                 "url": "https://taverna.incubator.apache.org/about/",
                  "type": "Organization",
                  "name": "Apache Taverna PPMC" }
   }            

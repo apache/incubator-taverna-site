@@ -36,7 +36,7 @@ jsonld: {
     "fileSize": "607KB",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332251&projectId=12318322",
      "author": { "@id": "https://taverna.incubator.apache.org/about/",
-                 "uri": "https://taverna.incubator.apache.org/about/",
+                 "url": "https://taverna.incubator.apache.org/about/",
                  "type": "Organization",
                  "name": "Apache Taverna PPMC" }
   }  
@@ -46,7 +46,7 @@ jsonld: {
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 Taverna has transitioned to the Apache Incubator.
 
-The first version info 
+The first version info
 Currently there is no Apache version of the Taverna Command Line.
 The first Apache version of the workbench is unlikely to include all the features of Taverna 2.5.
 If there are particular features you feel should be prioritized please

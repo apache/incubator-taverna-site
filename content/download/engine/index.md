@@ -37,7 +37,7 @@ jsonld: {
     "fileSize": "1.7MB",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332249&projectId=12318322",
     "author": { "@id": "https://taverna.incubator.apache.org/about/",
-                 "uri": "https://taverna.incubator.apache.org/about/",
+                 "url": "https://taverna.incubator.apache.org/about/",
                  "type": "Organization",
                  "name": "Apache Taverna PPMC" }
   }  
@@ -50,12 +50,12 @@ Apache Taverna.
 The engine executes a Taverna workflow, defined using
 [Apache Taverna Language](/download/language/).
 
-Note that the engine does not include the
-[activity implementations]()/download/common-activities/)
+Note that the engine also need the
+[activity implementations](/download/common-activities/)
 that actual perform work (e.g. calling a REST service). To
-use the engine, use the
+run Taverna workflows, use the
 [Apache Taverna Command Line](/download/command-line/)
-or [Apache Taverna Server](/download/server/).
+or [Taverna Server](/download/server/).
 
 All Taverna Engine modules are also valid [OSGi](http://www.osgi.org/) bundles,
 providing OSGi [Spring services](#spring-services).
@@ -112,21 +112,18 @@ one or more of these to your `pom.xml`:
 The `<version>` above might not be up to date,
 see the [source code releases](#source-code) below to find the latest version.
 
-For details, see the complete
-[list of Taverna Engine module](https://github.com/apache/incubator-taverna-engine/#modules),
-[which module does what](https://github.com/apache/incubator-taverna-engine/#which-module-does-what)
-and the [Javadoc for Taverna Engine](/javadoc/taverna-engine/).
-
 To use the OSGi implementations of these services, replace `-api` with `-impl` above.
 Note that you would need to either manually wire the services together or use
-Spring services.
+[Spring services](#spring-services) (see below).
 
 
 
 ## Usage
 
-See the [taverna-engine javadoc](/javadoc/taverna-engine/)
-for details on each OSGi service. In brief:
+See the complete
+[list of Taverna Engine module](https://github.com/apache/incubator-taverna-engine/#modules),
+[which module does what](https://github.com/apache/incubator-taverna-engine/#which-module-does-what)
+and the [Javadoc for Taverna Engine](/javadoc/taverna-engine/).
 
 ### Spring services
 

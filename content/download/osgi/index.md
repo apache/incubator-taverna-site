@@ -37,7 +37,7 @@ jsonld: {
     "fileSize": "185KB",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332248&projectId=12318322",
      "author": { "@id": "https://taverna.incubator.apache.org/about/",
-                 "uri": "https://taverna.incubator.apache.org/about/",
+                 "url": "https://taverna.incubator.apache.org/about/",
                  "type": "Organization",
                  "name": "Apache Taverna PPMC" }
   }  
