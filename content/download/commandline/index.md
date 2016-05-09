@@ -51,7 +51,7 @@ Users of <a class="alert-link" href="/download/workbench">Taverna Workbench 2.x<
 are still recommended to use the
 <strong>archived</strong>
 non-Apache releases of
-<a class="alert-link" href="#archived-releases">Taverna Command Line 2.5</a>
+<a class="alert-link" href="http://www.taverna.org.uk/download/command-line-tool/2-5/">Taverna Command Line 2.5</a>
 in production, and
 try the Apache Taverna Command Line 3.1.0 for development. We appreciate
 any <a class="alert-link" href="/community">feedback and contributions</a>!
@@ -144,6 +144,10 @@ Apache Taverna Command Line in its next version.
 Please contact the [dev@taverna](/community/lists#devtaverna) mailing list
 for details.
 
+The previous non-Apache release of
+[Taverna Command Line 2.5](http://www.taverna.org.uk/download/command-line-tool/2-5/)
+remains available in binary distributions and installers.
+(see below).
 
 ## Archived releases
 
