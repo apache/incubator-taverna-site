@@ -43,16 +43,15 @@ jsonld: {
   }  
 
 
-
 **Apache Taverna Engine** (incubating) is the workflow engine of
 Apache Taverna.
 
 The engine executes a Taverna workflow, defined using
 [Apache Taverna Language](/download/language/).
 
-Note that the engine also need the
+Note that the engine also needs the
 [activity implementations](/download/common-activities/)
-that actual perform work (e.g. calling a REST service). To
+that actually perform work (e.g., calling a REST service). To
 run Taverna workflows, use the
 [Apache Taverna Command Line](/download/command-line/)
 or [Taverna Server](/download/server/).
@@ -67,7 +66,7 @@ Apache Taverna Engine is available from
 [Maven Central](https://repo1.maven.org/maven2/org/apache/taverna/engine/),
 mirrored from
 [ASF's Maven repository](https://repository.apache.org/content/repositories/releases/org/apache/taverna/engine/).
-For convenience of IDE users, the Maven artifacts include `-javadoc.jar` and
+For the convenience of IDE users, the Maven artifacts include `-javadoc.jar` and
 `-sources.jar`; however, you might prefer the
 online [API javadoc](/javadoc/taverna-engine/)
 and the [source code releases](#source-code) (see below).
@@ -109,11 +108,11 @@ one or more of these to your `pom.xml`:
         </dependency>
     </dependencies>
 
-The `<version>` above might not be up to date,
-see the [source code releases](#source-code) below to find the latest version.
+The `<version>` above might not be up-to-date.
+See the [source code releases](#source-code) below to find the latest version.
 
 To use the OSGi implementations of these services, replace `-api` with `-impl` above.
-Note that you would need to either manually wire the services together or use
+Note that you would need either to manually wire the services together or use
 [Spring services](#spring-services) (see below).
 
 
@@ -121,14 +120,14 @@ Note that you would need to either manually wire the services together or use
 ## Usage
 
 See the complete
-[list of Taverna Engine module](https://github.com/apache/incubator-taverna-engine/#modules),
-[which module does what](https://github.com/apache/incubator-taverna-engine/#which-module-does-what)
+[list of Taverna Engine modules](https://github.com/apache/incubator-taverna-engine/#modules),
+a description of [which modules do what](https://github.com/apache/incubator-taverna-engine/#which-module-does-what),
 and the [Javadoc for Taverna Engine](/javadoc/taverna-engine/).
 
 ### Spring services
 
 The OSGi services should be
-discoverable as [Spring](https://spring.io/) services,
+discoverable as [Spring services](https://spring.io/),
 e.g. by adding to
 your `META-INF/spring/update-context-osgi.xml`:
 
