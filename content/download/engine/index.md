@@ -42,7 +42,6 @@ jsonld: {
                  "name": "Apache Taverna PPMC" }
   }  
 
-
 **Apache Taverna Engine** (incubating) is the workflow engine of
 Apache Taverna.
 
@@ -108,7 +107,7 @@ one or more of these to your `pom.xml`:
         </dependency>
     </dependencies>
 
-The `<version>` above might not be up-to-date.
+The above `<version>` might not be up-to-date.
 See the [source code releases](#source-code) below to find the latest version.
 
 To use the OSGi implementations of these services, replace `-api` with `-impl` above.
