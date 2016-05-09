@@ -42,4 +42,5 @@ RewriteRule ^edit.* /community/edit [L,R]
 RewriteRule ^doc/?$ /documentation/ [L,R]
 
 RewriteRule ^download/scufl2.* /download/language/ [L,R=permanent]
+RewriteRule ^download/command-line.* /download/commandline/ [L,R=permanent]
 
