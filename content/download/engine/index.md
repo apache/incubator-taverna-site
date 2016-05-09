@@ -18,8 +18,8 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 jsonld: {
     "@context" : "http://schema.org",
     "@type" : ["Product", "SoftwareApplication"],
-    "@id": "https://taverna.incubator.apache.org/download/osgi/",
-    "url": "https://taverna.incubator.apache.org/download/osgi/",
+    "@id": "https://taverna.incubator.apache.org/download/engine/",
+    "url": "https://taverna.incubator.apache.org/download/engine/",
     "applicationSuite": "Apache Taverna (incubating)",
     "name" : "Apache Taverna Engine (incubating)",
     "description" : "Apache Taverna Engine (incubating) is a workflow engine for executing Taverna workflows.",
