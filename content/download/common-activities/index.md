@@ -42,7 +42,6 @@ jsonld: {
                  "name": "Apache Taverna PPMC" }
   }  
 
-
 **Apache Taverna Common Activities** (incubating) provides the plugins for
 invoking common activity types from [Taverna Engine](/download/engine),
 including support for [REST]() and
@@ -108,8 +107,8 @@ one or more of these to your `pom.xml`:
         </dependency>
     </dependencies>
 
-The above `<version>` might not be up-to-date,
-see the [source code releases](#source-code) below to find the latest version.
+The above `<version>` might not be up-to-date.
+See the [source code releases](#source-code) below to find the latest version.
 
 In addition, _Taverna WSDL Generic_ can be used as an independent library for
 parsing WSDL definitions and invoking WSDL-described SOAP services.
@@ -120,7 +119,7 @@ parsing WSDL definitions and invoking WSDL-described SOAP services.
 The activities are all OSGi services, registering with
 [Taverna Engine](/download/engine)'s
 [ActivityService](/javadoc/taverna-engine/org/apache/taverna/platform/capability/api/ActivityService.html), which
-should be discoverable as a [Spring service](https://spring.io/),
+should be discoverable as a [Spring](https://spring.io/) service,
 e.g. by adding the following code to
 your `META-INF/spring/update-context-osgi.xml`:
 
