@@ -47,14 +47,14 @@ jsonld: {
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 Taverna has transitioned to the Apache Incubator.
 
-Users of the <a href="/download/workbench">Taverna Workbench 2.x</a>
+Users of <a class="alert-link" href="/download/workbench">Taverna Workbench 2.x</a>
 are still recommended to use the
 <strong>archived</strong>
 non-Apache releases of
-<a href="#archived-releases">Taverna Command Line 2.5
+<a class="alert-link" href="#archived-releases">Taverna Command Line 2.5</a>
 in production, and
 try the Apache Taverna Command Line 3.1.0 for development. We appreciate
-any <a href="/community">feedback and contributions</a>!
+any <a class="alert-link" href="/community">feedback and contributions</a>!
 </div>
 
 
