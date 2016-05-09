@@ -64,7 +64,7 @@ Taverna was started by the [myGrid project](http://www.mygrid.org.uk).
 <area shape="rect" coords="554,222,678,290" 
    href="download/server/2-2/" alt="Taverna Virtual Machine" />
 <area shape="rect" coords="434,284,558,352" 
-   href="/download/command-line-tool/" alt="Command Line Tool" />
+   href="/download/commandline/" alt="Command Line Tool" />
 <area shape="rect" coords="560,290,678,358" 
    href="http://www.osgi.org/Main/HomePage" alt="OSGi Alliance" />
 <area shape="rect" coords="200,344,422,380" 
@@ -80,7 +80,7 @@ The Taverna suite is written in Java and includes the Taverna Engine
    [Taverna Workbench][/download/workbench/] (the desktop client application) and 
    [Taverna Server](/documentation/server/)
    (which executes remote workflows). 
-Taverna is also available as a [Command Line Tool](/documentation/command-line-tool/) 
+Taverna is also available as a [Command Line Tool](/download/commandline/) 
    for faster execution of workflows from a terminal without the overhead of a GUI.
 Taverna automates experimental methods through the use of a number of different (local or remote) services from 
    a diverse set of domains &#8211; biology, chemistry and medicine to music, meteorology and social sciences.

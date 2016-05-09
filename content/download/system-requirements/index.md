@@ -23,7 +23,7 @@ Currently there is no Apache approved distribution.
 
 ##Operating system
 
-Taverna [Workbench](/download/workbench) and [Command Line](/download/command-line-tool) 
+Taverna [Workbench](/download/workbench) and [Command Line](/download/commandline) 
   are available either in platform-specific or platform-neutral distributions. 
 We generally recommend the platform-specific distributions as they include any required
    third-party software.

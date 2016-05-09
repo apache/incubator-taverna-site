@@ -30,7 +30,7 @@ There are several Taverna tools you can download:
      Taverna 2.5 (non-Apache) Workbench is the latest series of the Workbench;
      it is highly recommended that you use this version if you are new to Taverna,
      or migrate to this version if you have used an earlier Taverna Workbench before.
- - [Taverna Command Line Tool](/download/command-line-tool) enables you to run
+ - [Taverna Command Line Tool](/download/commandline) enables you to run
      workflows from a command prompt.
      This enables automated execution of workflows, e.g. on a Linux server.
  - [Taverna Server](/download/server) is the remote workflow execution service that enables you

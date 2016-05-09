@@ -20,7 +20,7 @@ Command Line Tool is a script that runs Taverna workflows from a terminal.
 It comes in a form of a command line script called *executeworkflow* 
    (*executeworkflow.bat* on Windows and *executeworkflow.sh* on  Linux/UNIX).
 
-You can [download the Command Line Tool](/download/command-line-tool) from the Taverna Web site 
+You can [download the Command Line Tool](/download/commandline/) from the Taverna Web site 
    or use the *executeworkflow.sh* or *executeworkflow.bat* that comes 
    bundled with the Taverna Workbench installation.
 
