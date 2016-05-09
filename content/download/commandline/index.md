@@ -43,7 +43,6 @@ jsonld: {
   }  
 
 
-
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 Taverna has transitioned to the Apache Incubator.
 
@@ -67,9 +66,9 @@ Taverna Command Line Tool is basically the Taverna Workbench stripped of its GUI
 Apache Taverna Command Line can run workflows defined with
 [Apache Taverna Language](/download/language) in
 [SCUFL2 format](/documentation/scufl2) (`.wfbundle`).
-In addition, many
+In addition, you can execute many
 [Taverna 2](/download/workbench)
-workflows (`.t2flow`) can also be executed, depending
+workflows (`.t2flow`) , depending
 on which activities they rely on.
 
 Work is planned to add support for executing
@@ -167,6 +166,6 @@ Apache Taverna Command Line and provide
 [feedback](/community) to its development.
 
 Taverna Command Line 2.5 can be [downloaded from BitBucket](https://bitbucket.org/taverna/taverna-commandline-product/downloads/).
-Note that these non-Apache releases are licensed as
+Note that these non-Apache releases are licensed under
 [LGPL 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) or
 [GPL 3.0](http://www.gnu.org/licenses/gpl-3.0.html).
