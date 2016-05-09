@@ -15,10 +15,38 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            KIND, either express or implied.  See the License for the
            specific language governing permissions and limitations
            under the License.
+jsonld: {
+    "@context" : "http://schema.org",
+    "@type" : ["Product", "SoftwareApplication"],
+    "@id": "https://taverna.incubator.apache.org/download/common-activities/",
+    "url": "https://taverna.incubator.apache.org/download/common-activities/",
+    "applicationSuite": "Apache Taverna (incubating)",
+    "name" : "Apache Taverna Common Activities (incubating)",
+    "description" : "Apache Taverna Common Activities (incubating) .",
+    "brand" : {
+      "@type" : "Brand",
+      "name" : "Apache Taverna",
+      "logo" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332251&projectId=12318322"
+    },
+    "publisher" : { "@type" : "Organization",
+                    "@id" : "https://www.apache.org/",
+                   "url" : "https://www.apache.org/",
+                    "name" : "The Apache Software Foundation (ASF)" },
+    "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-common-activities-2.1.0-incubating/apache-taverna-common-activities-2.1.0-incubating-source-release.zip",
+    "fileSize": "607KB",
+    "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332251&projectId=12318322",
+     "author": { "@id": "https://taverna.incubator.apache.org/about/",
+                 "uri": "https://taverna.incubator.apache.org/about/",
+                 "type": "Organization",
+                 "name": "Apache Taverna PPMC" }
+  }  
+
 
 
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 Taverna has transitioned to the Apache Incubator.
+
+The first version info 
 Currently there is no Apache version of the Taverna Command Line.
 The first Apache version of the workbench is unlikely to include all the features of Taverna 2.5.
 If there are particular features you feel should be prioritized please

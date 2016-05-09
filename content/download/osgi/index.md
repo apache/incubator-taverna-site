@@ -32,6 +32,7 @@ jsonld: {
                     "@id" : "https://www.apache.org/",
                    "url" : "https://www.apache.org/",
                     "name" : "The Apache Software Foundation (ASF)" },
+    "softwareVersion": "0.2.1-incubating",
     "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip",
     "fileSize": "185KB",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332248&projectId=12318322",
@@ -166,7 +167,7 @@ file.
 
 ### taverna-osgi-0.2.1-incubating
 
-**Apache Taverna Language 0.2.1-incubating** was published on 2016-03-11, and is available for download
+**Apache Taverna OSGi 0.2.1-incubating** was published on 2016-03-11, and is available for download
 from official mirrors of the
 ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/closer.cgi/incubator/taverna/):
 

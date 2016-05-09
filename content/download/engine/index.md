@@ -31,11 +31,12 @@ jsonld: {
     "publisher" : { "@type" : "Organization",
                     "@id" : "https://www.apache.org/",
                    "url" : "https://www.apache.org/",
-                    "name" : "The Apache Software Foundation (ASF)" },
+                    "name" : "The Apache Software Foundation (ASF)" },    
+    "softwareVersion": "3.1.0-incubating",
     "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-engine-3.1.0-incubating/apache-taverna-engine-3.1.0-incubating-source-release.zip",
-    "fileSize": "185KB",
+    "fileSize": "1.7MB",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332249&projectId=12318322",
-     "author": { "@id": "https://taverna.incubator.apache.org/about/",
+    "author": { "@id": "https://taverna.incubator.apache.org/about/",
                  "uri": "https://taverna.incubator.apache.org/about/",
                  "type": "Organization",
                  "name": "Apache Taverna PPMC" }
@@ -63,7 +64,7 @@ providing OSGi [Spring services](#spring-services).
 ## Maven artifacts
 
 Apache Taverna Engine is available from
-[Maven Central](https://repo1.maven.org/maven2/org/apache/taverna/osgi/),
+[Maven Central](https://repo1.maven.org/maven2/org/apache/taverna/engine/),
 mirrored from
 [ASF's Maven repository](https://repository.apache.org/content/repositories/releases/org/apache/taverna/engine/).
 For convenience of IDE users, the Maven artifacts include `-javadoc.jar` and
@@ -169,8 +170,8 @@ ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/close
   [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-engine-3.1.0-incubating/apache-taverna-engine-3.1.0-incubating-source-release.zip.md5),
   [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-engine-3.1.0-incubating/apache-taverna-engine-3.1.0-incubating-source-release.zip))
 
-The Taverna OSGi [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332248&projectId=12318322)
-is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326809).
+The Taverna Engine [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332249&projectId=12318322)
+is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326810).
 
 
 ### Source code repositories
