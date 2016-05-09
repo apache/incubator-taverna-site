@@ -20,26 +20,31 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 There are several Taverna tools you can download:
 
  - [Apache Taverna Language](/download/language) gives programmatic access to
-     inspecting, modifying and converting
-     [SCUFL2](/documentation/scufl2/) workflow definitions and
-     [Research Object Bundles](https://w3id.org/bundle).
+  inspecting, modifying and converting
+  [SCUFL2](/documentation/scufl2/) workflow definitions and
+  [Research Object Bundles](https://w3id.org/bundle).
  - [Apache Taverna OSGi](/download/osgi) is a plugin system for Java console and
-     desktop applications using OSGi, including an online update mechanism.
- - [Taverna Workbench](/download/workbench) enables you to graphically create, edit and
-     run workflows on your computer.
-     Taverna 2.5 (non-Apache) Workbench is the latest series of the Workbench;
-     it is highly recommended that you use this version if you are new to Taverna,
-     or migrate to this version if you have used an earlier Taverna Workbench before.
- - [Taverna Command Line Tool](/download/commandline) enables you to run
+  desktop applications using OSGi, including an online update mechanism.
+ - [Apache Taverna Engine](/download/engine) is the API for the workflow engine
+   that executes workflows defined with _Taverna Language_.
+ - [Apache Taverna Common Activities](/download/common-activities) are plugins
+   for the _Taverna Engine_ that provide implementations to invoke local and
+   remote tools and web services.  
+ - [Apache Taverna Command Line Tool](/download/commandline) enables you to run
      workflows from a command prompt.
      This enables automated execution of workflows, e.g. on a Linux server.
+ - [Taverna Workbench](/download/workbench) enables you to graphically create, edit and
+  run workflows on your computer.
+  Taverna 2.5 (non-Apache) Workbench is the latest series of the Workbench;
+  it is highly recommended that you use this version if you are new to Taverna,
+  or migrate to this version if you have used an earlier Taverna Workbench before.
  - [Taverna Server](/download/server) is the remote workflow execution service that enables you
       to set up a dedicated server for executing workflows remotely.
  - [Taverna Plugins](/documentation/plugins). The design of Taverna is modular in nature so that
       various plugins can be added in order to increase its functionality.
 
 ## Associated tools
-There are also a number of associated tools available to use with (non-Apache) Taverna 2.
+There are also a number of third-party tools available to use with Taverna 2.
 
 > **Note**: There are currently no known plans to bring out Apache Taverna
 > versions of these tools. If you are interested in migrating any of these tools
@@ -61,6 +66,7 @@ There are also a number of associated tools available to use with (non-Apache) T
 
 You might be interested in the [source code](/download/code) of Apache Taverna, or
 [earlier non-Apache releases](pre-apache).
+
 
 ## License
 
