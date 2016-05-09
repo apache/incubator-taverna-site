@@ -18,11 +18,11 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 jsonld: {
     "@context" : "http://schema.org",
     "@type" : ["Product", "SoftwareApplication"],
-    "@id": "https://taverna.incubator.apache.org/download/common-activities/",
-    "url": "https://taverna.incubator.apache.org/download/common-activities/",
+    "@id": "https://taverna.incubator.apache.org/download/commandline/",
+    "url": "https://taverna.incubator.apache.org/download/commandline/",
     "applicationSuite": "Apache Taverna (incubating)",
-    "name" : "Apache Taverna Common Activities (incubating)",
-    "description" : "Apache Taverna Common Activities (incubating) .",
+    "name" : "Apache Taverna Command Line (incubating)",
+    "description" : "Apache Taverna Command Line Tool (incubating) runs Taverna workflows, usable from shell scripts and the command line.",
     "brand" : {
       "@type" : "Brand",
       "name" : "Apache Taverna",
@@ -32,7 +32,8 @@ jsonld: {
                     "@id" : "https://www.apache.org/",
                    "url" : "https://www.apache.org/",
                     "name" : "The Apache Software Foundation (ASF)" },
-    "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-common-activities-2.1.0-incubating/apache-taverna-common-activities-2.1.0-incubating-source-release.zip",
+    "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-commandline-3.1.0-incubating/apache-taverna-commandline-3.1.0-incubating-source-release.zip",
+    "softwareVersion": "3.1.0-incubating",
     "fileSize": "607KB",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332251&projectId=12318322",
      "author": { "@id": "https://taverna.incubator.apache.org/about/",
@@ -46,11 +47,10 @@ jsonld: {
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 Taverna has transitioned to the Apache Incubator.
 
-The first version info
-Currently there is no Apache version of the Taverna Command Line.
-The first Apache version of the workbench is unlikely to include all the features of Taverna 2.5.
-If there are particular features you feel should be prioritized please
-<a class="alert-link" href="/community/lists">contact us</a>.
+Users of the [Taverna Workbench 2.x](/download/workbench) are still recommended to use the
+non-Apache release of [Taverna Command Line 2.5](#archived-releases) in production, and
+try the Apache Taverna Command Line 3.1.0 for development. We appreciate
+any [feedback and contributions](/community).
 </div>
 
 
@@ -60,86 +60,105 @@ Taverna [Command Line Tool](/documentation/command-line) enables you to run work
 Taverna Command Line Tool is basically the Taverna Workbench stripped of its GUI so you can run
    workflows from a command prompt headlessly (i.e. without the graphical environment).
 
-### Download Formats
+Apache Taverna Command Line can run workflows defined with
+[Apache Taverna Language](/download/language) in
+[SCUFL2 format](/documentation/scufl2). In addition, many
+[Taverna 2](/download/workbench)
+workflows (`.t2flow`) can also be executed, depending
+on which activities they rely on.
 
-<div class="alert alert-warning" role="alert"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
-This earlier releases were made before incubation, and are
-<strong>not endorsed</strong> by or provided by the Apache Software Foundation.
-Note that the license for Taverna Command Line 2.5 is
-<a class="alert-link" href="https://www.gnu.org/licenses/lgpl-2.1.html">LGPL 2.1</a>.
-</div>
+Work is planned to add support for executing
+[Common Workflow Language](http://commonwl.org/)
+workflows, please contact the
+[dev@taverna](/community/lists#devtaverna) mailing list
+for details.
 
-Taverna Command Line is available in the current formats
 
- - [Windows 64-bit (.exe installer)](#windows64) (7, 8, 8.1)
- - [Windows 32-bit (.exe installer)](#windows32) (7)
- - [Mac OS X 64-bit (.dmg disk image)](#maxos) (10.8, 10.9)
- - [Linux 64-bit Debian-based (.deb package)](#linuxdeb) (Ubuntu 12.04.4, Bio-Linux 7)
- - [Linux 64-bit Redhat-based (.rpm package)](#linuxrpm) (Fedora 20)
- - [Stand Alone zip](#zip) (See
-   [additional requirements](/download/system-requirements#standalone))
- - [Maven repository](/download/maven)
- - [Source code](/code)
 
-Check [system requirements](/download/system-requirements) before you download
-  Taverna.
+## Source code
 
-##Adding plugins
+Below you can find all Taverna Command Line source releases.
 
-Taverna can be extended with various [Plugins](/documentation/plugins).
-At this point it is undecided which plugins will be upgraded to Taverna 3.
-If you are interested in the upgrade of any plugin to Taverna 3 please [contact us](/community)
+After downloading the files,
+[verify the PGP signatures](http://www.apache.org/info/verification.html)
+using the Apache Taverna [KEYS](https://www.apache.org/dist/incubator/taverna/KEYS)
+file.
 
-Similarly it has not yet been decided which plugins will be pre-populated into a commandline
-   download, and if so how this will be done.  
+### taverna-commandline-3.1.0-incubating
 
-If you are interested in domain specific versions of Taverna as done in
-   [non-Apache Taverna 2.5](http://www.taverna.org.uk/download/command-line-tool/2-5/) please
-   [contact us](/community).
+**Apache Taverna CommandLine 3.1.0-incubating** was published on `TODO`, and is available for download
+from official mirrors of the
+ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/closer.cgi/incubator/taverna/):
 
-<a name="windows64"></a>
-##Taverna Command Line 2.5 for Windows 64-bit
+* [taverna-commandline-3.1.0-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-commandline-3.1.0-incubating/apache-taverna-commandline-3.1.0-incubating-source-release.zip)
+  ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-commandline-3.1.0-incubating/apache-taverna-commandline-3.1.0-incubating-source-release.zip.asc),
+  [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-commandline-3.1.0-incubating/apache-taverna-commandline-3.1.0-incubating-source-release.zip.md5),
+  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-commandline-3.1.0-incubating/apache-taverna-commandline-3.1.0-incubating-source-release.zip))
 
- - [taverna-commandline-core-2.5.0-winx64.exe](http://www.taverna.org.uk/download/command-line-tool/2-5/core/#download-windows)
- - SHA1: 37491b8161b815407f9c058c4ab410cec2508297
- - MD5: 5f6348b2d87d163443d624cee0f1db02
+The Taverna Command Line [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332251&projectId=12318322)
+is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326812).
 
-<a name="windows32"></a>
-##Taverna Command Line 2.5 for Windows 32-bit
 
- - [taverna-commandline-core-2.5.0-wini386.exe](http://www.taverna.org.uk/download/command-line-tool/2-5/core/#download-windows)
- - SHA1: e8ef54855d721b81518f8999f3090114675c05b2
- - MD5: 438ccd89979c26873a600aa5f52fa965
+Note that when building Taverna Command Line, it will require other Taverna modules:
 
-Please [contact us](/community) to confirm continued interest in a 32 bit installer
+* [Apache Taverna Language](/download/language)
+* [Apache Taverna OSGi](/download/osgi)
+* [Apache Taverna Engine](/download/engine)
+* [Apache Taverna Common Activities](/download/common-activities)
 
-<a name="maxos"></a>
-##Taverna Command Line 2.5 for Mac OS X
+You can either compile those Taverna modules first,
+or let Maven fetch them from
+[Maven Central](https://repo1.maven.org/maven2/org/apache/taverna/).
+See the `<properties>` file in the Command Line's `pom.xml` for version
+information.
 
- - [taverna-commandline-core-2.5.0-osx.tgz](http://www.taverna.org.uk/download/command-line-tool/2-5/core/#download-mac)
- - SHA1: e9acb3a48db9ccb39dac7d06d5487a1f5070041e
- - MD5: b448e35542b1e8cc56492fa04577671d
 
-<a name="linuxdeb"></a>
-##Taverna Command Line 2.5 for Linux RPM package
+### Source code repositories
 
- - [taverna-commandline-core-2.5.0-linux_x86_64.rpm](http://www.taverna.org.uk/download/command-line-tool/2-5/core/#download-linux)
- - SHA1: 3c8da38e7febdf60fbe34dfa2113d9c33abb0e12
- - MD5: 0b40e88c2cde85ae6482069d70009387
+For the latest developments you may also be interested in the corresponding
+ [source code](/download/code/) repositories the command line relies on:
 
-<a name="linuxrpm"></a>
-##Taverna Command Line 2.5 for Linux Debian package
+* [incubator-taverna-commandline](https://github.com/apache/incubator-taverna-commandline)
+* [incubator-taverna-common-activities](https://github.com/apache/incubator-taverna-common-activities)
+* [incubator-taverna-engine](https://github.com/apache/incubator-taverna-engine)
+* [incubator-taverna-osgi](https://github.com/apache/incubator-taverna-osgi)
+* [incubator-taverna-language](https://github.com/apache/incubator-taverna-language)
 
- - [taverna-commandline-core-2.5.0-linux_amd64.deb](http://www.taverna.org.uk/download/command-line-tool/2-5/core/#download-linux)
- - SHA1: 52238b88cfb234618dbb6354f454f691458d92b2
- - MD5: f9242892270688849f9d2ccf38e9d84a
+Each release has a corresponding tag, e.g. `3.1.0-incubating`.
 
-<a name="#zip"></a>
-##Taverna Command Line 2.5 standalone
+## Binary distribution
 
-This is operating system and architecture-neutral binary.
-Check the standalone's [system requirements](/download/system-requirements#standalone).
+Apache Taverna Command Line 3.1.0 is the first release
+of the Taverna 3 Command Line. It is only available as
+source code, as we think this release is mainly useful for
+development and testing.
 
- - [taverna-commandline-core-2.5.0-standalone.zip](http://www.taverna.org.uk/download/command-line-tool/2-5/core/#download-binary)
- - SHA1: 3311b223a6a1d75c578500030b6a2c75a7413cf8
- - MD5: d4b283fdb60bc830fd2b60b163afd590
+Apache Taverna is planning to release a binary distribution of
+Apache Taverna Command Line in its next version.
+
+Please contact the [dev@taverna](/community/lists#devtaverna) mailing list
+for details.
+
+
+## Archived releases
+
+For all archived Apache Taverna releases, see
+[archive.apache.org](https://archive.apache.org/dist/incubator/taverna/).
+
+Taverna 2.5 and earlier were released before incubating
+to the Apache Software Foundation.
+[Taverna Command Line 2.5 and earlier](http://www.taverna.org.uk/download/command-line-tool/)
+remain available for archival purposes.
+
+Users of the [Taverna Workbench 2.x](/download/workbench) are still recommended to use the
+non-Apache release of
+[Taverna Command Line 2.5](http://www.taverna.org.uk/download/command-line-tool/2-5/)
+in production. Note however that Taverna 2.5 is
+**no longer maintained** - users are encouraged to evaluate
+Apache Taverna Command Line and provide
+[feedback](/community) to its development.
+
+Taverna Command Line 2.5 can be [downloaded from BitBucket](https://bitbucket.org/taverna/taverna-commandline-product/downloads/).
+Note that these non-Apache releases are licensed as
+[LGPL 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) or
+[GPL 3.0](http://www.gnu.org/licenses/gpl-3.0.html).

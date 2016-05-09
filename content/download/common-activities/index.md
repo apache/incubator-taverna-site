@@ -22,7 +22,7 @@ jsonld: {
     "url": "https://taverna.incubator.apache.org/download/common-activities/",
     "applicationSuite": "Apache Taverna (incubating)",
     "name" : "Apache Taverna Common Activities (incubating)",
-    "description" : "Apache Taverna Common Activities (incubating) .",
+    "description" : "Apache Taverna Common Activities (incubating) are plugins for invoking common activity types from Taverna Engine, e.g. REST, WSDL, Beanshell and command line tools.",
     "brand" : {
       "@type" : "Brand",
       "name" : "Apache Taverna",
