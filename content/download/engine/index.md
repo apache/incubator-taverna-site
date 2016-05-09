@@ -126,7 +126,7 @@ and the [Javadoc for Taverna Engine](/javadoc/taverna-engine/).
 ### Spring services
 
 The OSGi services should be
-discoverable as [Spring services](https://spring.io/),
+discoverable as [Spring](https://spring.io/) services,
 e.g. by adding to
 your `META-INF/spring/update-context-osgi.xml`:
 
