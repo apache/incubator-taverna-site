@@ -1,4 +1,4 @@
-Title:     Download Taverna OSGi plugin system
+Title:     Download Taverna Common Activities
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -70,42 +70,42 @@ one or more of these to your `pom.xml`:
         <dependency>
           <groupId>org.apache.taverna.commonactivities</groupId>
           <artifactId>taverna-beanshell-activity</artifactId>
-          <version>2.1.0-incubating-SNAPSHOT</version>
+          <version>2.1.0-incubating</version>
         </dependency>
         <dependency>
           <groupId>org.apache.taverna.commonactivities</groupId>
           <artifactId>taverna-external-tool-activity</artifactId>
-          <version>2.1.0-incubating-SNAPSHOT</version>
+          <version>2.1.0-incubating</version>
         </dependency>
         <dependency>
           <groupId>org.apache.taverna.commonactivities</groupId>
           <artifactId>taverna-interaction-activity</artifactId>
-          <version>2.1.0-incubating-SNAPSHOT</version>
+          <version>2.1.0-incubating</version>
         </dependency>
         <dependency>
           <groupId>org.apache.taverna.commonactivities</groupId>
           <artifactId>taverna-rest-activity</artifactId>
-          <version>2.1.0-incubating-SNAPSHOT</version>
+          <version>2.1.0-incubating</version>
         </dependency>
         <dependency>
           <groupId>org.apache.taverna.commonactivities</groupId>
           <artifactId>taverna-spreadsheet-import-activity</artifactId>
-          <version>2.1.0-incubating-SNAPSHOT</version>
+          <version>2.1.0-incubating</version>
         </dependency>
         <dependency>
           <groupId>org.apache.taverna.commonactivities</groupId>
           <artifactId>taverna-wsdl-activity</artifactId>
-          <version>2.1.0-incubating-SNAPSHOT</version>
+          <version>2.1.0-incubating</version>
         </dependency>
         <dependency>
           <groupId>org.apache.taverna.commonactivities</groupId>
           <artifactId>taverna-wsdl-generic</artifactId>
-          <version>2.1.0-incubating-SNAPSHOT</version>
+          <version>2.1.0-incubating</version>
         </dependency>
         <dependency>
           <groupId>org.apache.taverna.commonactivities</groupId>
           <artifactId>taverna-xpath-activity</artifactId>
-          <version>2.1.0-incubating-SNAPSHOT</version>
+          <version>2.1.0-incubating</version>
         </dependency>
     </dependencies>
 
@@ -181,7 +181,7 @@ as a series of `old/` tags in the git repository, e.g.
 note that the older code was licensed as LGPL 2.1.
 
 Binaries for older releases are also available in the
-[myGrid repository](/download/maven/#pre-apache-releases-and-snapshots),
+[myGrid repository](/download/maven/#pre-apache-releases-ands),
 e.g. as
 [net.sf.taverna.t2.activities](http://repository.mygrid.org.uk/artifactory/mygrid-all/net/sf/taverna/t2/activities/)
 and other groupIds. The myGrid repository is not affiliated with the
