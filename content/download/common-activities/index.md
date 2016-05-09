@@ -43,8 +43,7 @@ jsonld: {
   }  
 
 
-
-**Apache Taverna Common Activities** (incubating) provide the plugins for
+**Apache Taverna Common Activities** (incubating) provides the plugins for
 invoking common activity types from [Taverna Engine](/download/engine),
 including support for [REST]() and
 [WSDL](https://en.wikipedia.org/wiki/Web_Services_Description_Language)
@@ -57,7 +56,7 @@ Apache Taverna Common Activities are available from
 [Maven Central](https://repo1.maven.org/maven2/org/apache/taverna/common-activities/),
 mirrored from
 [ASF's Maven repository](https://repository.apache.org/content/repositories/releases/org/apache/taverna/common-activities/).
-For convenience of IDE users, the Maven artifacts include `-javadoc.jar` and
+For the convenience of IDE users, the Maven artifacts include `-javadoc.jar` and
 `-sources.jar`; however, you might prefer the
 online [API javadoc](/javadoc/taverna-common-activities/)
 and the [source code releases](#source-code) (see below).
@@ -109,10 +108,10 @@ one or more of these to your `pom.xml`:
         </dependency>
     </dependencies>
 
-The `<version>` above might not be up to date,
+The above `<version>` might not be up-to-date,
 see the [source code releases](#source-code) below to find the latest version.
 
-In addition, _Taverna WSDL Generic_ can be used as an independent library for a
+In addition, _Taverna WSDL Generic_ can be used as an independent library for
 parsing WSDL definitions and invoking WSDL-described SOAP services.
 
 
@@ -121,8 +120,8 @@ parsing WSDL definitions and invoking WSDL-described SOAP services.
 The activities are all OSGi services, registering with
 [Taverna Engine](/download/engine)'s
 [ActivityService](/javadoc/taverna-engine/org/apache/taverna/platform/capability/api/ActivityService.html), which
-should be discoverable as a [Spring](https://spring.io/) service,
-e.g. by adding to
+should be discoverable as a [Spring service](https://spring.io/),
+e.g. by adding the following code to
 your `META-INF/spring/update-context-osgi.xml`:
 
     <beans:beans xmlns="http://www.springframework.org/schema/osgi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -176,13 +175,13 @@ For all archived Apache Taverna releases, see
 The source code for Taverna Common Activities
 before migrating to Apache
 (Taverna 2.5 and earlier) is available
-as a series of `old/` tags in the git repository, e.g.
-[xpath-activity-1.5](https://github.com/apache/incubator-taverna-common-activities/tree/old/xpath-activity-1.5),
-note that the older code was licensed as LGPL 2.1.
+as a series of `old/` tags in the git repository, e.g.,
+[xpath-activity-1.5](https://github.com/apache/incubator-taverna-common-activities/tree/old/xpath-activity-1.5).
+Note that the older code was licensed under LGPL 2.1.
 
 Binaries for older releases are also available in the
 [myGrid repository](/download/maven/#pre-apache-releases-ands),
-e.g. as
+e.g., as
 [net.sf.taverna.t2.activities](http://repository.mygrid.org.uk/artifactory/mygrid-all/net/sf/taverna/t2/activities/)
 and other groupIds. The myGrid repository is not affiliated with the
 Apache Software Foundation and is provided for archival purposes only.
