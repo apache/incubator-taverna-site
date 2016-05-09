@@ -47,14 +47,14 @@ Taverna Workbench 2.5 is available in the current formats
  - [Maven repository](/download/maven)
  - [Source code](/code)
 
-Taverna [Command Line Tool](/documentation/command-line),
-  which is included in all workbench downloads,
-  is available as a [stand-alone download](/download/command-line-tool).
+For executing workflows without a user interface you might
+also be interested in the 
+Taverna [Command Line Tool](/download/commandline/).
 
 Check [system requirements](/download/system-requirements) before you download
   Taverna.
 
-##Adding plugins
+## Adding plugins
 
 Taverna can be extended with various [Plugins](/documentation/plugins).
 At this point it is undecided which plugins will be upgraded to Taverna 3.
@@ -67,7 +67,7 @@ If you are interested in domain-specific versions of Taverna as done in
    [non-Apache Taverna 2.5](http://www.taverna.org.uk/download/workbench/2-5/), please
    [contact us](/community).
 
-##Next steps
+## Next steps
 
 See the [release notes](/download/workbench/release-notes) for details about what is new
    in this release.
