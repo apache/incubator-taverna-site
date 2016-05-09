@@ -1,4 +1,4 @@
-Title:     Taverna Command Line Tool (non-Apache release)
+Title:     Taverna Command Line Tool
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -41,7 +41,6 @@ jsonld: {
                  "type": "Organization",
                  "name": "Apache Taverna PPMC" }
   }  
-
 
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 Taverna has transitioned to the Apache Incubator.
