@@ -31,4 +31,4 @@ Videos below showcase Taverna's capabilities or how Taverna can be used in a spe
 
 A set of 
    [videos that accompany the User Manual](http://www.mygrid.org.uk/dev/wiki/display/taverna/Videos)
-   are also available to show how particular task can be done in Taverna.
+   are also available to show how particular tasks can be done in Taverna.
