@@ -85,27 +85,28 @@ either a standalone *-startdb* database server process or the *-embedded* option
 ##![](/img/information.png)Other important information
 This section provides additional information on configuring proxy settings, 
 installing service plugins, disk space considerations and potential conflicts.
-###Manually configure proxy settings. 
+
+- **Manually configure proxy settings.** 
 Any [proxy settings](http://dev.mygrid.org.uk/wiki/display/tav250/HTTP+proxy+preferences)
 must be manually configured.
 Copy *conf/HttpProxy-B307A902-F292-4D2F-B8E7-00CC983982B6.config* from a
 configured Workbench home directory.
 
-###Installing service plugins.
+- **Installing service plugins.**
 To install service plugins for the
 command-line tool, manually edit the *plugins/plugins.xml*
 in the installation or home directory. The ``<plugin>... </plugin>`` block
 can be copied from the *plugins/plugins.xml* in the [home directory](http://dev.mygrid.org.uk/wiki/display/tav250/Taverna+home+directory)
 of a Workbench installation where the plugin is installed.
 
-###Disk space considerations.
+- **Disk space considerations.**
 The standalone installation and download
 is smaller than the workbench - but keeping both the standalone and embedded
 versions installed will use more disk space than the workbench version alone.
 (Note: the command-line tool could use the {repository}} folder
 from the workbench using symlinks or modifiying *plugins/plugins.xml*.)
 
-###Potential conflicts.
+- **Potential conflicts.**
 Although the standalone version would not be in
 conflict with the workbench database (as it's in a different home directory),
 it could be in conflict with parallel runs of the command-line tool.
