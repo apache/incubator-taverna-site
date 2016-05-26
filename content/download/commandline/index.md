@@ -57,10 +57,8 @@ any <a class="alert-link" href="/community">feedback and contributions</a>!
 
 
 Taverna [Command-line Tool](/documentation/command-line) enables you to run workflows from a
-  command prompt.
-
-Taverna Command-line Tool is basically the Taverna Workbench stripped of its GUI so you can run
-   workflows from a command prompt headlessly (i.e. without the graphical environment).
+  command prompt. The Tool is essentially the Taverna Workbench stripped of its GUI so you can run
+   workflows headlessly from a command prompt (i.e., without the graphical environment).
 
 Apache Taverna Command-line Tool can run workflows defined with
 [Apache Taverna Language](/download/language) in
@@ -127,7 +125,7 @@ For the latest developments you may also be interested in the corresponding
 * [incubator-taverna-osgi](https://github.com/apache/incubator-taverna-osgi)
 * [incubator-taverna-language](https://github.com/apache/incubator-taverna-language)
 
-Each release also has a tag corresponding to its version, e.g. `3.1.0-incubating`.
+Each release also has a tag corresponding to its version, e.g., `3.1.0-incubating`.
 
 ## Binary distribution
 
@@ -161,7 +159,7 @@ non-Apache release of
 [Taverna Command Line 2.5](http://www.taverna.org.uk/download/command-line-tool/2-5/)
 in production. Note however that Taverna 2.5 is
 **no longer maintained** - users are encouraged to evaluate
-Apache Taverna Command Line and provide
+Apache Taverna Command-line Tool and provide
 [feedback](/community) to its development.
 
 Taverna Command Line 2.5 can be [downloaded from BitBucket](https://bitbucket.org/taverna/taverna-commandline-product/downloads/).
