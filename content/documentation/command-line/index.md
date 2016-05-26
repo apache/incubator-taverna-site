@@ -26,6 +26,10 @@ that is bundled with the Taverna Workbench installation.
 
 - [Extended version](http://dev.mygrid.org.uk/wiki/display/tav250/Extended+version)
 
+
+----------
+
+
 ##![](/img/information.png)What are the differences between the bundled and standalone versions?
 
 This section describes some of the differences between the bundled and standalone versions of 
@@ -57,6 +61,10 @@ already running, the command-line tool  must use the *-clientserver* option.
 Alternatively, if the workbench is shut down, the command-line tool must use
 either a standalone *-startdb* database server process or the *-embedded* option.
 
+
+----------
+
+
 ##![](/img/information.png)Other important information
 This section provides additional information on configuring proxy settings, 
 installing service plugins, disk space considerations and potential conflicts.
@@ -87,6 +95,10 @@ it could be in conflict with parallel runs of the command-line tool.
 In this case, a separate *-startdb* process should be started with the
 other calls using the *-clientserver* option. See
 [#Running the script with a database](#CommandLineTool-Runningthescriptwithdatabase)
+
+
+----------
+
 
 <a name="CommandLineTool-ExecuteworkflowScript"></a>
 ##Executeworkflow Script
@@ -239,6 +251,10 @@ what is required, it will automatically be wrapped in one or more
 list levels up to the required depth.
 Providing an input of greater depth than that required will result in an error.
 
+
+----------
+
+
 <a name="CommandLineTool-Runningthescriptwithdatabase"></a>
 ##Running the script with a database
 
@@ -317,6 +333,10 @@ port for MySQL server, which is 3306.
 
 > ![](/img/warning.png) When using *-dbproperties* together with other
 > options, the other options take precedence.
+
+
+----------
+
 
 <a name=CommandLineTool-Examples"></a>
 ##Examples
