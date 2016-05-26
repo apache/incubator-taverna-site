@@ -52,23 +52,23 @@ that is bundled with the Taverna Workbench installation.
 This section describes some of the differences between the bundled and standalone versions of 
 *executeworkflow * Other important information is provided in the following section. 
 
-**Versions use different configuration directories.**
+- **Versions use different configuration directories.**
 The standalone command-line tool stores its configuration settings in a **separate**
 [home directory](http://dev.mygrid.org.uk/wiki/display/tav250/Taverna+home+directory),
 called *taverna-cmdline-2.x.x* - while the bundled tool uses the same
 directory and settings as the Taverna Workbench.
 
-**Bundled tool may use more memory.**
+- **Bundled tool may use more memory.**
 The bundled tool will load all
 installed workbench plugins, including third-party plugins.
 However, it will also load various GUI-supporting functions,
 which may consume extra memory.
 
-###Standalone version has remote capability, GUI not required.
+- **Standalone version has remote capability, GUI not required.**
 The standalone version can easily be installed and used on remote servers without
 GUI access.
 
-###With embedded version, runs can show up in workbench.
+- **With embedded version, runs can show up in workbench.**
 Running the embedded
 version with the database and provenance enabled allows the command-line runs
 to show up in the workbench as
