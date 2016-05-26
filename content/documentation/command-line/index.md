@@ -26,31 +26,28 @@ that is bundled with the Taverna Workbench installation.
 
 - [Extended version](http://dev.mygrid.org.uk/wiki/display/tav250/Extended+version)
 
-##![](/img/information.png)Differences between versions and other important information
+##![](/img/information.png)What are the differences between the bundled and standalone versions?
 
 This section describes some of the differences between the bundled and standalone versions of 
-*executeworkflow* and provides additional information on configuring proxy settings, 
-installing service plugins, and disk space considerations.
+*executeworkflow * Other important information is provided in the following section. 
 
-###What are the differences between the bundled and standalone versions?
-
-####Versions use different configuration directories.
+###Versions use different configuration directories.
 The standalone command-line tool stores its configuration settings in a **separate**
 [home directory](http://dev.mygrid.org.uk/wiki/display/tav250/Taverna+home+directory),
 called *taverna-cmdline-2.x.x* - while the bundled tool uses the same
 directory and settings as the Taverna Workbench.
 
-####Bundled tool may use more memory.
+###Bundled tool may use more memory.
 The bundled tool will load all
 installed workbench plugins, including third-party plugins.
 However, it will also load various GUI-supporting functions,
 which may consume extra memory.
 
-####Standalone version has remote capability, GUI not required.
+###Standalone version has remote capability, GUI not required.
 The standalone version can easily be installed and used on remote servers without
 GUI access.
 
-####With embedded version, runs can show up in workbench.
+###With embedded version, runs can show up in workbench.
 Running the embedded
 version with the database and provenance enabled allows the command-line runs
 to show up in the workbench as
@@ -60,28 +57,30 @@ already running, the command-line tool  must use the *-clientserver* option.
 Alternatively, if the workbench is shut down, the command-line tool must use
 either a standalone *-startdb* database server process or the *-embedded* option.
 
-### Other important information
-####Manually configure proxy settings. 
+##![](/img/information.png)Other important information
+This section provides additional information on configuring proxy settings, 
+installing service plugins, disk space considerations and potential conflicts.
+###Manually configure proxy settings. 
 Any [proxy settings](http://dev.mygrid.org.uk/wiki/display/tav250/HTTP+proxy+preferences)
 must be manually configured.
 Copy *conf/HttpProxy-B307A902-F292-4D2F-B8E7-00CC983982B6.config* from a
 configured Workbench home directory.
 
-####Installing service plugins.
+###Installing service plugins.
 To install service plugins for the
 command-line tool, manually edit the *plugins/plugins.xml*
 in the installation or home directory. The ``<plugin>... </plugin>`` block
 can be copied from the *plugins/plugins.xml* in the [home directory](http://dev.mygrid.org.uk/wiki/display/tav250/Taverna+home+directory)
 of a Workbench installation where the plugin is installed.
 
-####Disk space considerations.
+###Disk space considerations.
 The standalone installation and download
 is smaller than the workbench - but keeping both the standalone and embedded
 versions installed will use more disk space than the workbench version alone.
 (Note: the command-line tool could use the {repository}} folder
 from the workbench using symlinks or modifiying *plugins/plugins.xml*.)
 
-####Potential conflicts.
+###Potential conflicts.
 Although the standalone version would not be in
 conflict with the workbench database (as it's in a different home directory),
 it could be in conflict with parallel runs of the command-line tool.
