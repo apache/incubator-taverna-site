@@ -30,6 +30,23 @@ that is bundled with the Taverna Workbench installation.
 ----------
 
 
+##Contents
+
+[What are the differences between the bundled and unbundled versions?](#differences)
+
+[Other important information](#important)
+
+[Executeworkflow Script](#CommandLineTool-ExecuteworkflowScript)
+
+[Basic Operations](#basic=ops)
+
+[Running the script with a database](#CommandLineTool-Runningthescriptwithdatabase)
+
+[Examples](#CommandLineTool-Examples)
+
+----------
+
+<a name="differences"></a>
 ##![](/img/information.png)What are the differences between the bundled and standalone versions?
 
 This section describes some of the differences between the bundled and standalone versions of 
@@ -64,7 +81,7 @@ either a standalone *-startdb* database server process or the *-embedded* option
 
 ----------
 
-
+<a name="important"></a>
 ##![](/img/information.png)Other important information
 This section provides additional information on configuring proxy settings, 
 installing service plugins, disk space considerations and potential conflicts.
@@ -198,6 +215,13 @@ This command will list the following usage options:
 (..)
 
 </pre>
+
+
+----------
+
+<a name="basic-ops"></a>
+##Basic Operations
+This section describes inputs, outputs, and creating lists.
 
 ###Creating or exporting files and directories
 If this directory already exists, then a new directory is created and appended
