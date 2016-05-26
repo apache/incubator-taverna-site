@@ -28,24 +28,20 @@ that is bundled with the Taverna Workbench installation.
 
 ##![](/img/information.png)What are the differences between the bundled and standalone versions?
 
- - **Versions use different configuration directories.** 
-
-  The standalone
- command-line tool stores its configuration settings in a **separate**
+###Versions use different configuration directories.
+The standalone command-line tool stores its configuration settings in a **separate**
 [home directory](http://dev.mygrid.org.uk/wiki/display/tav250/Taverna+home+directory),
 called *taverna-cmdline-2.x.x* - while the bundled tool uses the same
 directory and settings as the Taverna Workbench.
 
- - **Manually configure proxy settings.** 
-
-  Any [proxy settings](http://dev.mygrid.org.uk/wiki/display/tav250/HTTP+proxy+preferences)
+###Manually configure proxy settings. 
+Any [proxy settings](http://dev.mygrid.org.uk/wiki/display/tav250/HTTP+proxy+preferences)
 must be manually configured.
 Copy *conf/HttpProxy-B307A902-F292-4D2F-B8E7-00CC983982B6.config* from a
 configured Workbench home directory.
 
- - **Bundled tool may use more memory.** 
-
-  The bundled tool will load all
+###Bundled tool may use more memory.
+The bundled tool will load all
 installed workbench plugins, including third-party plugins.
 However, it will also load various GUI-supporting functions,
 which may consume extra memory.
