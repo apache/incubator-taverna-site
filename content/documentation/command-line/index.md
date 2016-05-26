@@ -38,7 +38,7 @@ that is bundled with the Taverna Workbench installation.
 
 [Executeworkflow Script](#CommandLineTool-ExecuteworkflowScript)
 
-[Basic Operations](#basic=ops)
+[Basic Operations](#basic-ops)
 
 [Running the script with a database](#CommandLineTool-Runningthescriptwithdatabase)
 
@@ -362,7 +362,7 @@ port for MySQL server, which is 3306.
 ----------
 
 
-<a name=CommandLineTool-Examples"></a>
+<a name="CommandLineTool-Examples"></a>
 ##Examples
 
 Workflows names are listed at the end of the command, after any options.
