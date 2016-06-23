@@ -22,12 +22,14 @@ See also [publications](/community/publications) and [how to cite Taverna](/comm
 *Please suggest an [edit](/community/edit) of the website to add or correct a publication listing.*
 
 
-##2016
+## 2016
+
 Arzu Tugce Guler, Cathelijn J. F. Waaijer, Magnus Palmblad. (2016). **Scientific workflows for
 bibliometrics.** In: *Scientometrics*. Advance online publication, 15 February 2016.
 [doi:10.1007/s11192-016-1885-6](http://dx.doi.org/10.1007/s11192-016-1885-6).
 
-##2015
+## 2015
+
 Khalid Belhajjame, Jun Zhao, Daniel Garijo, Matthew Gamble, Kristina Hettne, Ra&uacute;l Palma,
 Eleni Mina, Oscar Corcho, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, Sean Bechhofer,
 Graham Klyne, Carole Goble. (2015)
@@ -40,7 +42,8 @@ Sonja Holl, Yassene Mohammed, Olav Zimmermann, Magnus Palmblad. (2015).
 In: *BMC Bioinformatics* 16(1): 1-13.
 [doi:10.1186/s12859-015-0714-x](http://dx.doi.org/10.1186/s12859-015-0714-x)
 
-##2014
+## 2014
+
 Pinar Alper, Carole A Goble, Khalid Belhajjame (2014):
 **"On assisting scientific data curation in collection-based dataflows using labels,"**
 in *Proceedings of the 8th Workshop on Workflows in Support of Large-Scale Science (WORKS'13)*: 7-16.
@@ -108,7 +111,7 @@ in *Communications in Computer and Information Science, Vol 348*.  Springer, Ber
 [[preprint server]](http://ora.ox.ac.uk/objects/uuid%3A17de32c4-518f-4be6-bf78-1ecd6c761b81)
 [[download pdf]](http://ora.ox.ac.uk/objects/uuid:17de32c4-518f-4be6-bf78-1ecd6c761b81/datastreams/ATTACHMENT01).
 
-##2012
+## 2012
 Kahlid Belhajjame, Oscar Corcho, Daniel Garijo, Jun Zhao, Paolo Missier, David Newman, Ra&uacute;l Palma, Sean Bechhofer, Esteban Garc&iacute;a Cuesta, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, Graham Klyne, Kevin Page, Marco Roos, Jos&eacute; Ruiz, Stian Soiland-Reyes, Lourdes Verdes-Montenegro, David De Roure, Carole Goble. (2012).
 **"Workflow-Centric Research Objects: First Class Citizens in Scholarly Discourse,"**
 in *Proceedings of Workshop on the Semantic Publishing (SePublica 2012)*, 28 May 2012: 1&ndash;12.
@@ -125,7 +128,8 @@ Kevin Page, Ra&uacute;l Palma, Piotr Ho&#322;ubowicz, Graham Klyne, Stian Soilan
 in *Proceedings of the 2nd International Workshop on Linked Science*.
 [[pdf]](http://linkedscience.org/wp-content/uploads/2012/05/lisc2012_submission_15.pdf)
 
-##2011
+## 2011
+
 R. Bentley, J. Brooke, A. Csillaghy, D. Fellows, A. Le Blanc, M. Messerotti, D. Perez-Suarez, G. Pierantoni, M. Soldati. (2011).
 **"HELIO: Discovery and Analysis of Data in Heliophysics,"**
 in *E-Science (e-Science), 2011 IEEE 7th International Conference on*, 5&ndash;8 Dec 2011: 248&ndash;255.
@@ -145,7 +149,8 @@ Clemens Neudecker, Sven Schlarb, Zeki Mustafa Dogan, Paolo Missier, Shoaib Sufi,
 **"An experimental workflow development platform for historical document digitisation and analysis,"**
 in *Proceedings of the 2011 Workshop on Historical Document Imaging and Processing (HIP'11)*: 161&ndash;168. [doi:10.1145/2037342.2037370](http://dx.doi.org/10.1145/2037342.2037370)
 
-##2010
+## 2010
+
 Carole A. Goble, Jiten Bhagat, Sergejs Aleksejevs, Don Cruickshank, Danius Michaelides, David Newman, Mark Borkum, Sean Bechhofer, Marco Roos, Peter Li, David De Roure. (2010).
 **myExperiment: a repository and social network for the sharing of bioinformatics workflows.**
 in *Nucleic Acids Research*, 38(Web Server issue): W677&ndash;W682.
@@ -162,8 +167,9 @@ Paolo Missier, Norman W. Paton, Kahlid Belhajjame. (2010).
 in *Proceedings of the 13th International Conference on Extending Database Technology (EDBT'10)*: 299&ndash;310.
 [doi:10.1145/1739041.1739079](http://dx.doi.org/10.1145/1739041.1739079)
 
-##2009
-Kahlid Belhajjame, Paolo Missier, Carole Goble. (2009).
+## 2009
+
+Khalid Belhajjame, Paolo Missier, Carole Goble. (2009).
 **"Data Provenance in Scientific Workflows,"**
 in *Handbook of Research on Computational Grid Technologies for Life Sciences, Biomedicine, and Healthcare*. Hershey, PA: 46&ndash;59.
 [doi:10.4018/978-1-60566-374-6.ch003](http://dx.doi.org/10.4018/978-1-60566-374-6.ch003)
@@ -209,7 +215,8 @@ Katy Wolstencroft, Paul Fisher, David De Roure, Carole Goble. (2009, November 26
 in *Research In a Connected World*, Alex Voss, Elizabeth Vander Meer, David Fergusson (eds.)
 [[eBook]](https://www.free-ebooks.net/ebook/Research-in-a-Connected-World)
 
-##2008
+## 2008
+
 Carole Goble, Paolo Missier, David De Roure. (2008).
 **"Scientific workflows,"**
 in *McGraw Hill 2009 Yearbook of Science & Technology*, McGraw Hill.
