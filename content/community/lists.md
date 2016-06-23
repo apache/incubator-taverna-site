@@ -18,9 +18,9 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 You can contact and participate in the Apache Taverna community through the <strong>mailing lists</strong>.
 
-The mailing lists are public. We suggest that all Taverna users join the <em>users@taverna</em> list 
-– this allows us to notify you of any critical issues or upcoming changes and allows you to have 
-a say in the future development of Taverna. Anyone using the Taverna APIs in their own code 
+The mailing lists are public. We suggest that all Taverna users join the <em>users@taverna</em> list
+– this allows us to notify you of any critical issues or upcoming changes and allows you to have
+a say in the future development of Taverna. Anyone using the Taverna APIs in their own code
 would be well advised to join both <em>dev@taverna</em> and <em>users@taverna</em>.
 
 
@@ -30,9 +30,9 @@ would be well advised to join both <em>dev@taverna</em> and <em>users@taverna</e
 ### users@taverna
 
 <a class="btn btn-primary" href="mailto:users-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a>
-<a class="btn btn-default" href="mailto:users-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> 
+<a class="btn btn-default" href="mailto:users-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a>
 <a class="btn btn-default" href="http://mail-archives.apache.org/mod_mbox/incubator-taverna-users/" role="button">List info</a>
-<a class="btn btn-default" href="http://apache-taverna-users.markmail.org/search/?q=" role="button">Archives</a>
+<a class="btn btn-default" href="https://lists.apache.org/list.html?users@taverna.apache.org" role="button">Archives</a>
 
 *users@taverna.incubator.apache.org* is intended for everyone who are using Taverna for
 designing and running workflows. For instance, you may ask about your **workflow design** or **scientific analysis**,
@@ -43,23 +43,23 @@ questions about how to do something in the **Workbench**, or **raise issues** yo
      - Wait for the response email with a subject like *Confirm subscribe to users@taverna*
      - To **confirm subscription**, reply with an empty message
      - Now you are subscribed to the list messages and are allowed to post
-  - [List information and archive for users@taverna](http://mail-archives.apache.org/mod_mbox/incubator-taverna-users/) (Apache)
-  - [List archives of users@taverna](http://apache-taverna-users.markmail.org/search/?q=) (MarkMail)
+  - [List information for users@taverna](http://mail-archives.apache.org/mod_mbox/incubator-taverna-users/)
+  - [List archives of users@taverna](https://lists.apache.org/list.html?users@taverna.apache.org) (also at [markmail.org](http://apache-taverna-users.markmail.org/search/?q=))
     - Pre-Apache legacy list archives (2003-2014) at [markmail.org](http://markmail.org/search/?q=#query:%20list%3Anet.sourceforge.lists.taverna-users) and  [sourceforge.net](http://sourceforge.net/p/taverna/mailman/taverna-users/)
 
 <a name="dev"></a>
 ### dev@taverna
 
 <a class="btn btn-primary" href="mailto:dev-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a>
-<a class="btn btn-default" href="mailto:dev-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> 
+<a class="btn btn-default" href="mailto:dev-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a>
 <a class="btn btn-default" href="http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/" role="button">List info</a>
-<a class="btn btn-default" href="http://apache-taverna-dev.markmail.org/search/?q=" role="button">Archives</a>
+<a class="btn btn-default" href="https://lists.apache.org/list.html?dev@taverna.apache.org" role="button">Archives</a>
 
-<em>dev@taverna.incubator.apache.org</em> is intended for those **developing** with or on Apache Taverna, 
+<em>dev@taverna.incubator.apache.org</em> is intended for those **developing** with or on Apache Taverna,
 Apache Taverna **plugins** or using Apache Taverna **APIs**. Discussions about the **science of workflows and provenance**
-are also welcome here. 
+are also welcome here.
 
-Taverna's developer community use this list to discuss Taverna's future design/architecture/integration/code - 
+Taverna's developer community use this list to discuss Taverna's future design/architecture/integration/code -
 **feel free to join** discussions and votes, even if you are not formally a Apache Taverna [committer](/community).
 
 
@@ -67,8 +67,8 @@ Taverna's developer community use this list to discuss Taverna's future design/a
      - Wait for the response email with a subject like *Confirm subscribe to dev@taverna*
      - To **confirm subscription**, reply with an empty message
      - Now you are subscribed to the list messages and are allowed to post
-  - [List information and archive for dev@taverna](http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/) (Apache)
-  - [List archives for dev@taverna](http://apache-taverna-dev.markmail.org/search/?q=) (MarkMail)
+  - [List information for dev@taverna](http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/)
+  - [List archives of dev@taverna](https://lists.apache.org/list.html?dev@taverna.apache.org) (also at [markmail.org](http://apache-taverna-dev.markmail.org/search/?q=))  
     - Pre-Apache legacy list archives (2003-2014) at [markmail.org](http://markmail.org/search/?q=#query:%20list%3Anet.sourceforge.lists.taverna-hackers) and  [sourceforge.net](http://sourceforge.net/p/taverna/mailman/taverna-hackers/)
 
 
@@ -76,12 +76,12 @@ Taverna's developer community use this list to discuss Taverna's future design/a
 ### commits@taverna
 
 <a class="btn btn-primary" href="mailto:commits-subscribe@taverna.incubator.apache.org" role="button">Subscribe</a>
-<a class="btn btn-default" href="mailto:commits-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a> 
+<a class="btn btn-default" href="mailto:commits-unsubscribe@taverna.incubator.apache.org" role="button">Unsubscribe</a>
 <a class="btn btn-default" href="http://mail-archives.apache.org/mod_mbox/incubator-taverna-dev/" role="button">List info</a>
+<a class="btn btn-default" href="https://lists.apache.org/list.html?commits@taverna.apache.org" role="button">Archives</a>
 
-
-<em>commits@taverna.incubator.apache.org</em> is a read-only list for commit messages on Apache Taverna's [source code](/code/) 
-and build reports from [automated builds in Jenkins](https://builds.apache.org/user/stain/my-views/view/taverna/). 
+<em>commits@taverna.incubator.apache.org</em> is a read-only list for commit messages on Apache Taverna's [source code](/code/)
+and build reports from [automated builds in Jenkins](https://builds.apache.org/user/stain/my-views/view/taverna/).
 This list is high-traffic, from 100 to 1000 messages pr month.
 
   - **Subscribe** by sending an empty email to [commits-subscribe@taverna.incubator.apache.org](mailto:commits-subscribe@taverna.incubator.apache.org)
