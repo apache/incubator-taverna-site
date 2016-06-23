@@ -37,9 +37,20 @@ At: [PROV: Three Years Later](http://provenanceweek.org/2016/p3yl/programme.html
 [[slide]](http://provenanceweek.org/2016/p3yl/slides/slide_86.pdf)
 [[source]](https://github.com/stain/2016-provweek-tavernaprov/)
 
+Pinar Alper (2016)
+**Towards harnessing computational workflow provenance for experiment reporting**
+PhD thesis.
+[[pdf]](https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:300560&datastreamId=FULL-TEXT.PDF)
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:300560)
+
+
 ### 2015
 
-
+Rudolf Mayer, Andreas Rauber (2015):
+**A Quantitative Study on the Re-executability of Publicly Shared Scientific Workflows**
+At _2015 IEEE 11th International Conference on e-Science (e-Science)_.
+[doi:10.1109/eScience.2015.58](http://dx.doi.org/10.1109/eScience.2015.58)
+[[pdf]](http://www.ifs.tuwien.ac.at/~mayer/publications/pdf/may_escience15_workflows.pdf)
 
 ### 2014
 Sarah Cohen-Boulakia, Jiuqiang Chen, Paolo Missier, Carole A. Goble, Alan R. Williams, Christine Froidevaux. (2014).
@@ -47,9 +58,19 @@ Sarah Cohen-Boulakia, Jiuqiang Chen, Paolo Missier, Carole A. Goble, Alan R. Wil
 In: *BMC Bioinformatics*, 15(suppl 1).
 [doi:10.1186/1471-2105-15-S1-S12](http://dx.doi.org/10.1186/1471-2105-15-S1-S12)
 
-<!---
-The above link is broken as of 1/20/16; it worked on 1/18/16. GN
---->
+
+Pinar Alper (2014):
+**Re-thinking Workflow Provenance against Data-Oriented Investigation Lifecycle**
+Technical report.
+[[pdf]](https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:224895&datastreamId=FULL-TEXT.PDF)
+[[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:224895)
+
+Judicaël Ribault, Gregory Zacharewicz (2014):
+**Time-based orchestration of workflow, interoperability with G-Devs/Hla**
+In: _Journal of Computational Science_ **10** 126-136.
+[doi:10.1016/j.jocs.2014.07.002](http://dx.doi.org/10.1016/j.jocs.2014.07.002)
+[[researchgate]](https://www.researchgate.net/publication/264498536_Time-Based_Orchestration_Of_Workflow_Interoperability_With_G-DevsHla)
+[[pdf]](https://www.researchgate.net/profile/Gregory_Zacharewicz/publication/264498536_Time-Based_Orchestration_Of_Workflow_Interoperability_With_G-DevsHla/links/54d1eecf0cf28959aa7bcf52.pdf?inViewer=0&pdfJsDownload=0&origin=publication_detail)
 
 ### 2013
 Anja Le Blanc, John Brooke, Donal Fellows, Marco Soldati, David P&eacute;rez-Su&aacute;rez, Alessandro Marassi, Andrej Santin. (2013).

@@ -24,9 +24,16 @@ See also [publications](/community/publications) and [how to cite Taverna](/comm
 
 ## 2016
 
-Arzu Tugce Guler, Cathelijn J. F. Waaijer, Magnus Palmblad. (2016). **Scientific workflows for
-bibliometrics.** In: *Scientometrics*. Advance online publication, 15 February 2016.
+Arzu Tugce Guler, Cathelijn J. F. Waaijer, Magnus Palmblad. (2016):
+**Scientific workflows for bibliometrics.**
+In: *Scientometrics*. **107**(2) 385-̣398.
 [doi:10.1007/s11192-016-1885-6](http://dx.doi.org/10.1007/s11192-016-1885-6).
+
+
+H Munir, A Benjamin, JW Allwood, WB Dunn, S He, GB Nash, HM McGettrick (2016):
+**A1.18 Mesenchymal stem cells lose their immuno-protective effects upon changes in their local microenvironment**
+In: _Annals of the Rheumatic Diseases_ 2016 **75**(A8).
+[doi:10.1136/annrheumdis-2016-209124.18](http://dx.doi.org/10.1136/annrheumdis-2016-209124.18)
 
 ## 2015
 
@@ -41,6 +48,54 @@ Sonja Holl, Yassene Mohammed, Olav Zimmermann, Magnus Palmblad. (2015).
 **Scientific workflow optimization for improved peptide and protein identification.**
 In: *BMC Bioinformatics* 16(1): 1-13.
 [doi:10.1186/s12859-015-0714-x](http://dx.doi.org/10.1186/s12859-015-0714-x)
+
+Steve O’Hagan, Douglas B. Kell (2015):
+**Software review: the KNIME workflow environment and its applications in genetic programming and machine learning**.
+In: *Genetic Programming and Evolvable Machines* **16**(3) 387-391.
+[doi:10.1007/s10710-015-9247-3](http://dx.doi.org/10.1007/s10710-015-9247-3)
+[[preprint]](http://www.taverna.org.uk/pages/wp-content/uploads/2015/2015-Hagan-Kell-KNIME-software-review.pdf)
+
+Renato De Giovanni, Alan R. Williams, Vera Hernández Ernst, Robert Kulawik, Francisco Quevedo Fernandez, Alex R. Hardisty (2015):
+**ENM Components: a new set of web service-based workflow components for ecological niche modelling**.
+In: *Ecography* **39**(4).
+[doi:10.1111/ecog.01552](http://dx.doi.org/10.1111/ecog.01552)
+
+Edward Baker, Ben W. Price, S. D. Rycroft1, Jon Hill, Vincent S. Smith (2015):
+**BioAcoustica: a free and open repository and analysis platform for bioacoustics**
+In *Database*  **2015**(bav054).
+[doi:10.1093/database/bav054](http://dx.doi.org/10.1093/database/bav054)
+
+Yassene Mohammed, Christoph H. Borchers (2015):
+**An extensive library of surrogate peptides for all human proteins**
+_Journal of Proteomics_ **129** 93-97.
+[doi:10.1016/j.jprot.2015.07.025](http://dx.doi.org/10.1016/j.jprot.2015.07.025)
+[[researchgate]](https://www.researchgate.net/publication/280602358_An_Extensive_Library_of_Surrogate_Peptides_for_all_Human_Proteins)
+_preprint not currently available_
+
+Ji Liu, Esther Pacitti, Patrick Valduriez, Marta Mattoso (2015):
+**A Survey of Data-Intensive Scientific Workflow Management**
+In: _Journal of Grid Computing_ **13** 457-493.
+[doi:10.1007/s10723-015-9329-8](http://dx.doi.org/10.1007/s10723-015-9329-8)
+[[pdf]](http://www-sop.inria.fr/members/Patrick.Valduriez/pmwiki/Patrick/uploads//Publications/jogc2015)
+[[researchgate]](https://www.researchgate.net/publication/304292492_A_Survey_on_Scheduling_Workflows_in_Cloud_Environment)
+
+
+Susana Sánchez Expósito, Pablo Martín, Jose Enrique Ruíz, Lourdes Verdes-Montenegro, Julian Garrido, Raül Sirvent Pardell, Antonio Ruíz Falcó, Rosa Badia (2015):
+**Web services as building blocks for Science Gateways in Astrophysics**.
+At: _7th International Workshop on Science Gateways (IWSG) 2015_
+[doi:10.1109/IWSG.2015.7](http://dx.doi.org/10.1109/IWSG.2015.7)
+[[pdf]](http://amiga.iaa.es/FCKeditor/UserFiles/File/BuildingBlocks.pdf)
+
+Fabrizio Marozzo, Domenico Talia, Paolo Trunfio (2015):
+**JS4Cloud: script-based workflow programming for scalable data analysis on cloud platforms**
+In: _Concurrency and Computation: Practice and Experience_. **27**(17) 5214–5237.
+[doi:10.1002/cpe.3563](http://dx.doi.org/10.1002/cpe.3563)
+[[researchgate]](https://www.researchgate.net/publication/280971659_JS4Cloud_Script-based_workflow_programming_for_scalable_data_analysis_on_cloud_platforms)
+
+Jeremy Leipzig (2015):
+**A review of bioinformatic pipeline frameworks**.
+In: _Briefings in bioinformatics_ (2016) 1-7 bbw020.  
+[doi:10.1093/bib/bbw020](http://dx.doi.org/10.1093/bib/bbw020)
 
 ## 2014
 
@@ -78,6 +133,7 @@ In: *BMC Research Notes*, 7: 740.
 [doi:10.1186/1756-0500-7-740](http://dx.doi.org/10.1186/1756-0500-7-740)
 
 ## 2013
+
 Pinar Alper, Khalid Belhajjame, Carole A. Goble, Pinar Karagoz. (2013).
 **"Enhancing and abstracting scientific workflow provenance for data publishing,"**
 in *Proceedings of the Joint EDBT/ICDT 2013 Workshops (EDBT'13)*, 18&ndash;22 Mar 2013: 313&ndash;318.
@@ -92,11 +148,12 @@ in *Big Data (BigData Congress), 2013 IEEE International Congress on*, 27 Jun&nd
 [[pdf]](http://www.computer.org/csdl/proceedings/bigdatacongress/2013/5006/00/5006a318.pdf)
 
 Khalid Belhajjame, Jun Zhao, Daniel Garijo, Aleix Garrido, Stian Soiland-Reyes, Pinar Alper, Oscar Corcho. (2013).
-**"A workflow PROV-corpus based on Taverna and Wings,"**
+**"A workflow PROV-corpus based on Taverna and Wings."**
 in *Proceedings of the Joint EDBT/ICDT 2013 Workshops (EDBT'13)*, 18&ndash;22 Mar 2013: 331&ndash;332.
 [doi:10.1145/2457317.2457376](http://dx.doi.org/10.1145/2457317.2457376)
 [[pdf]](http://delicias.dia.fi.upm.es/members/dgarijo/papers/prov-bench-paper.pdf)
 [[related website]](https://github.com/provbench/Wf4Ever-PROV)
+
 
 Daniel Garijo, Pinar Alper, Khalid Belhajjame, Oscar Corcho, Yolanda Gil, Carole Goble. (2013).
 **Common motifs in scientific workflows: An empirical analysis.**
@@ -105,13 +162,14 @@ In: *Future Generation Computer Systems*, 36: 338-351.
 [[preprint]](http://oa.upm.es/21854/1/1-s2_0-S0167739X13001970-main.pdf)
 
 Carole Goble, David De Roure and Sean Bechhofer (2013):
-**"Accelerating Scientists&rsquo; Knowledge Turns,"**
+**"Accelerating Scientists&rsquo; Knowledge Turns."**
 in *Communications in Computer and Information Science, Vol 348*.  Springer, Berlin, 8 June 2013: 3&ndash;25.
 [doi:10.1007/978-3-642-37186-8_1](http://dx.doi.org/10.1007/978-3-642-37186-8_1)
 [[preprint server]](http://ora.ox.ac.uk/objects/uuid%3A17de32c4-518f-4be6-bf78-1ecd6c761b81)
 [[download pdf]](http://ora.ox.ac.uk/objects/uuid:17de32c4-518f-4be6-bf78-1ecd6c761b81/datastreams/ATTACHMENT01).
 
 ## 2012
+
 Kahlid Belhajjame, Oscar Corcho, Daniel Garijo, Jun Zhao, Paolo Missier, David Newman, Ra&uacute;l Palma, Sean Bechhofer, Esteban Garc&iacute;a Cuesta, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, Graham Klyne, Kevin Page, Marco Roos, Jos&eacute; Ruiz, Stian Soiland-Reyes, Lourdes Verdes-Montenegro, David De Roure, Carole Goble. (2012).
 **"Workflow-Centric Research Objects: First Class Citizens in Scholarly Discourse,"**
 in *Proceedings of Workshop on the Semantic Publishing (SePublica 2012)*, 28 May 2012: 1&ndash;12.
@@ -127,6 +185,13 @@ Kevin Page, Ra&uacute;l Palma, Piotr Ho&#322;ubowicz, Graham Klyne, Stian Soilan
 **"From workflows to Research Objects: an architecture for preserving the semantics of science,"**
 in *Proceedings of the 2nd International Workshop on Linked Science*.
 [[pdf]](http://linkedscience.org/wp-content/uploads/2012/05/lisc2012_submission_15.pdf)
+
+Jeroen S. de Bruin, André M. Deelder, Magnus Palmblad (2012):
+**Scientific Workflow Management in Proteomics**
+In: *Molecular & Cellular Proteomics* **11**(7):M111.010595
+[doi:10.1074/mcp.M111.010595](http://dx.doi.org/10.1074/mcp.M111.010595)
+[pmid:22411703](http://www.ncbi.nlm.nih.gov/pubmed/22411703)
+[PMC3394934](http://europepmc.org/articles/PMC3394934)
 
 ## 2011
 
@@ -175,7 +240,7 @@ in *Handbook of Research on Computational Grid Technologies for Life Sciences, B
 [doi:10.4018/978-1-60566-374-6.ch003](http://dx.doi.org/10.4018/978-1-60566-374-6.ch003)
 
 David De Roure, Carole Goble. (2009).
-**"Lessons from myExperiment: Research Objects for Data Intensive Research,"**
+**"Lessons from myExperiment: Research  Objects for Data Intensive Research,"**
 in *eScience Workshop 2009*, 15&ndash;17 Oct 2009.
 [[eprint]](http://eprints.ecs.soton.ac.uk/17744/)
 
