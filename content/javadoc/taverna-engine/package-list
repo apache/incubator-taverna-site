@@ -59,4 +59,3 @@ org.apache.taverna.workflowmodel.processor.iteration.impl
 org.apache.taverna.workflowmodel.serialization
 org.apache.taverna.workflowmodel.utils
 org.pingel.util
-org.purl.wf4ever.provtaverna.owl
