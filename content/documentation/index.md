@@ -16,28 +16,29 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-Taverna Workbench is a redesign of the Taverna Workbench 1.7.x series from the ground up. 
+Taverna Workbench is a redesign of the Taverna Workbench 1.7.x series from the ground up.
 It has a greater emphasis on scalability to enable the manipulation of larger and more diverse data.
 
-In addition to the improvements to the engine, Taverna Workbench provides more support for workflow design 
-   with a graphical workflow editor for direct manipulation of the workflow diagram, 
-   context-specific views over Web services and other resources, 
+In addition to the improvements to the engine, Taverna Workbench provides more support for workflow design
+   with a graphical workflow editor for direct manipulation of the workflow diagram,
+   context-specific views over Web services and other resources,
    and standard editing facilities such as copy/paste and undo/redo.
 
-For a list of our plans on adding new features to Taverna, please see the 
+For a list of our plans on adding new features to Taverna, please see the
    [Taverna Roadmap](/introduction/roadmap).
 
 A list of available documentation for Taverna includes:
 
  - [Glossary](/documentation/glossary) of terms
  - [Quick start guide](/documentation/quick-start-guide)
+ - [API Javadoc](/javadoc/) for developers
  - [FAQ](http://dev.mygrid.org.uk/wiki/display/tav250/Frequently+Asked+Questions) (Non-Apache Wiki)
  - [User Manual](http://www.mygrid.org.uk/dev/wiki/display/taverna/User+Manual) (Non-Apache Wiki)
    - [Components](/documentation/components) (Since Taverna 2.5)
-   - [Interaction Service](/documentation/interaction) (Since Taverna 2.5)
+   - [Interaction Service](/documentation/interaction) (Since Taverna 2.5)  
  - [Tutorials](/documentation/tutorials)
  - [Videos](/documentation/videos)
- - [Example workflows](/documentation/example-workflows) to help you get started with Taverna 
+ - [Example workflows](/documentation/example-workflows) to help you get started with Taverna
  - [Service sets](/documentation/service-sets) for various domains
  - [10 Best practices for workflow design](http://www.slideshare.net/khettne/10-best-practices-for-workflow-design) (slides)
    - Paper: [Best practices for workflow design: how to prevent workflow decay](http://ceur-ws.org/Vol-952/paper_23.pdf)
@@ -46,8 +47,8 @@ A list of available documentation for Taverna includes:
  - Taverna [Server](/documentation/server) (REST API, SOAP API explained) and how to use it
  - [Taverna Player](/documentation/taverna-player)
  - Various [plugins](/documentation/plugins) for Taverna
- - [Non-Apache Developers' wiki](http://www.mygrid.org.uk/dev/wiki/display/developer/Home) 
-     containing the 
+ - [Non-Apache Developers' wiki](http://www.mygrid.org.uk/dev/wiki/display/developer/Home)
+     containing the
      [Developers' guide](http://www.mygrid.org.uk/dev/wiki/display/developer/Developers+Guide) and more
 
 <a name="tools"></a>
