@@ -61,7 +61,7 @@ online [API javadoc](/javadoc/taverna-common-activities/)
 and the [source code releases](#source-code) (see below).
 
 
-To use Taverna OSGi APIs with [Maven](https://maven.apache.org/), add
+To use Taverna Common Activities with [Maven](https://maven.apache.org/), add
 one or more of these to your `pom.xml`:
 
     <dependencies>
@@ -110,8 +110,9 @@ one or more of these to your `pom.xml`:
 The above `<version>` might not be up-to-date.
 See the [source code releases](#source-code) below to find the latest version.
 
-In addition, _Taverna WSDL Generic_ can be used as an independent library for
-parsing WSDL definitions and invoking WSDL-described SOAP services.
+In addition, `taverna-wsdl-generic` can be used as an independent library for
+[parsing WSDL definitions](/javadoc/taverna-common-activities/org/apache/taverna/wsdl/parser/package-summary.html)
+and [invoking WSDL-described SOAP services](/javadoc/taverna-common-activities/org/apache/taverna/wsdl/soap/package-summary.html).
 
 
 ### Spring services
@@ -144,7 +145,7 @@ file.
 
 ### taverna-common-activities-2.1.0-incubating
 
-**Apache Taverna Common Activities 2.1.0-incubating** was published on `TODO`, and is available for download
+**Apache Taverna Common Activities 2.1.0-incubating** was published on 2016-06-30, and is available for download
 from official mirrors of the
 ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/closer.cgi/incubator/taverna/):
 
