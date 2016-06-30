@@ -22,11 +22,23 @@ Apache Taverna Language is a library and command line tool for working with [SCU
 
 ![Taverna Language modules](/img/Taverna_Language_Modules.png)
 
-See [incubator-taverna-language](https://github.com/apache/incubator-taverna-language)'s README for documentation for the different modules of Taverna Language.
 
-###Previous Versions
+**Apache Taverna Language** (incubating) is a Java API that gives programmatic
+access to inspecting, modifying and converting
+[SCUFL2](/documentation/scufl2/) workflow definitions and
+[Research Object Bundles](https://w3id.org/bundle).
 
-For information on previous non-Apache versions of the SCUFL2 API, see the 
-   [myGrid pages](http://dev.mygrid.org.uk/wiki/display/developer/SCUFL2+API).
+You can [download Taverna Language](/download/taverna-language) or use it through
+Maven.
 
+## Usage and Javadoc
 
+See the [Taverna Language
+Javadoc](http://taverna.incubator.apache.org/javadoc/taverna-language/) for
+documentation of classes and methods of Taverna Language.  Good starting
+points:
+ * [org.apache.taverna.scufl2.api](http://taverna.incubator.apache.org/javadoc/taverna-language/org/apache/taverna/scufl2/api/package-summary.html)
+ * [org.apache.taverna.robundle](http://taverna.incubator.apache.org/javadoc/taverna-language/org/apache/taverna/robundle/package-summary.html)
+ * [org.apache.taverna.databundle](http://taverna.incubator.apache.org/javadoc/taverna-language/org/apache/taverna/databundle/package-summary.html)
+
+See [incubator-taverna-language](https://github.com/apache/incubator-taverna-language)'s README for further documentation for the different modules of Taverna Language.
