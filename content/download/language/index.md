@@ -159,3 +159,9 @@ GitHub under:
 * [wf4ever/robundle](https://github.com/wf4ever/robundle/releases)
 * [taverna/taverna-databundle](https://github.com/taverna/taverna-databundle/releases)
 * [taverna/taverna-scufl2](https://github.com/taverna/taverna-scufl2/releases)
+
+See also [older SCUFL2 docs]([earlier versions of the SCUFL2 API](http://dev.mygrid.org.uk/wiki/display/developer/SCUFL2+API)
+provided by myGrid.
+
+Note that the historical releases are not affiliated with the
+Apache Software Foundation and the above is provided for archival purposes only.
