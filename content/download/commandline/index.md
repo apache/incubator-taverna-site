@@ -129,7 +129,7 @@ Each release also has a tag corresponding to its version, e.g., `3.1.0-incubatin
 
 ## Binary distribution
 
-Version  3.1.0 is the first release
+Version 3.1.0 is the first release
 of the Apache Taverna 3 Command-line Tool. It is only available as
 source code, as we think this release is mainly useful for
 development and testing.
