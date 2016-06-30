@@ -30,7 +30,17 @@ which is also mirrored to Maven's default
 [Maven Central](https://repo.maven.apache.org/maven2/org/apache/taverna/).
 
 Therefore normally no `<repository>` should be needed to use
-released Apache Taverna Maven artifacts.
+released Apache Taverna Maven artifacts, however in some situations you may
+need to specify:
+
+    <repository>
+        <id>central</id>
+        <name>Central Repository</name>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>      
+    </repository>
 
 See the individual [download pages](/download) for details of
 Maven `<dependencies>`.
@@ -41,6 +51,15 @@ Maven `<dependencies>`.
 who want to take part in the Apache Taverna
 [developer community](http://taverna.incubator.apache.org/community/).
 
+    <repository>
+        <id>apache.snapshots</id>
+        <name>Apache Snapshot Repository</name>
+        <url>https://repository.apache.org/snapshots</url>
+        <releases>
+            <enabled>false</enabled>
+        </releases>
+    </repository>
+
 Note that the snapshot builds are _not_ official releases and should be
 considered unstable.
 
@@ -50,7 +69,7 @@ before using the `-SNAPSHOT` builds.
 
 ## Pre Apache Releases and Snapshots
 
-The pre-Apache Taverna artifacts are available as a maven download from
+The pre-Apache Taverna artifacts are available as a Maven download from
   <http://repository.mygrid.org.uk/artifactory/mygrid-all/>,
 hosted by the [eScience Lab, University of Manchester](http://www.esciencelab.org.uk/)
 
@@ -72,6 +91,7 @@ You may need to use this Maven repository if developing plugins for Taverna 2.x:
     </repository>
 
 #### Snapshot repository
+
     <repository>
         <id>mygrid-snapshot-repository</id>
         <name>myGrid Snapshot Repository</name>
