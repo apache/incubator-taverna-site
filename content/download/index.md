@@ -19,34 +19,61 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 ## Which Taverna to download?
 There are several Taverna tools you can download:
 
- - [Apache Taverna Language](/download/language) gives programmatic access to
-  inspecting, modifying and converting
-  [SCUFL2](/documentation/scufl2/) workflow definitions and
-  [Research Object Bundles](https://w3id.org/bundle).
- - [Apache Taverna OSGi](/download/osgi) is a plugin system for Java console and
-  desktop applications using OSGi, including an online update mechanism.
- - [Apache Taverna Engine](/download/engine) is the API for the workflow engine
-   that executes workflows defined with _Taverna Language_.
- - [Apache Taverna Common Activities](/download/common-activities) are plugins
-   for the _Taverna Engine_ that provide implementations to invoke local and
-   remote tools and web services.  
- - [Apache Taverna Command Line Tool](/download/commandline) enables you to run
-     workflows from a command prompt.
-     This enables automated execution of workflows, e.g. on a Linux server.
- - [Taverna Workbench](/download/workbench) enables you to graphically create, edit and
-  run workflows on your computer.
-  Taverna 2.5 (non-Apache) Workbench is the latest series of the Workbench;
-  it is highly recommended that you use this version if you are new to Taverna,
-  or migrate to this version if you have used an earlier Taverna Workbench before.
- - [Taverna Server](/download/server) is the remote workflow execution service that enables you
-      to set up a dedicated server for executing workflows remotely.
- - [Taverna Plugins](/documentation/plugins). The design of Taverna is modular in nature so that
-      various plugins can be added in order to increase its functionality.
+- [Apache Taverna Command-line Tool](/download/commandline) enables you to run
+  workflows from a command prompt.
+  This enables scripted execution of workflows, e.g. on a Linux server.
+- [Taverna Workbench](/download/workbench) enables you to graphically create, edit and
+   run workflows on your computer.
+   Taverna 2.5 Workbench (non-Apache) is the latest series of the Workbench;
+   it is highly recommended that you use this version if you are new to Taverna.
+- [Taverna Server](/download/server) is the remote workflow execution service that enables you
+  to set up a dedicated server for executing workflows remotely.
+- [Taverna Plugins](/documentation/plugins) - the design of Taverna is modular so that
+ various plugins can be added in order to increase its functionality.
+
+### Taverna libraries
+
+The Taverna Command-line, Workbench and Server share several Java libraries
+for constructing and executing workflows. These libraries can be downloaded
+separately for development usage:
+
+- [Apache Taverna Language](/download/language) gives programmatic access to
+ inspecting, modifying and converting Taverna's
+ [SCUFL2](/documentation/scufl2/) workflow definitions and
+ [Research Object Bundles](https://w3id.org/bundle).
+- [Apache Taverna OSGi](/download/osgi) is a generic plugin system for Java-based
+ console/desktop applications using OSGi, including an online update mechanism.
+- [Apache Taverna Engine](/download/engine) is the API for the _workflow engine_
+  that executes workflows defined with _Taverna Language_.
+- [Apache Taverna Common Activities](/download/common-activities) are plugins
+  for the _Taverna Engine_ that provide implementations to invoke local and
+  remote tools and web services.  
+
+
+
+## Source code
+
+You might be interested in the [source code](/download/code) of Apache Taverna, or
+[earlier non-Apache releases](pre-apache). Unreleased tools that are under development
+include the [Apache Taverna Databundle Viewer](https://github.com/apache/incubator-taverna-databundle-viewer) web app
+and the Android app [Apache Taverna Mobile](https://github.com/apache/incubator-taverna-mobile).
+
+
+## License
+
+Apache Taverna is distributed under the [Apache Software License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+See the `NOTICE` file in the source code downloads for required attributions,
+and the `LICENSE` file for details of any embedded third-party source code.
+
+Dependencies of Taverna are
+[compatible with Apache License 2.0](http://www.apache.org/legal/resolved.html)
+according to Apache Software Foundation policies.
+
 
 ## Associated tools
 There are also a number of third-party tools available to use with Taverna 2.
 
-> **Note**: There are currently no known plans to bring out Apache Taverna
+> **Note**: There are currently no known plans to bring out Apache Taverna 3
 > versions of these tools. If you are interested in migrating any of these tools
 > to Apache Taverna, please [contact us](/community).
 
@@ -61,23 +88,6 @@ There are also a number of third-party tools available to use with Taverna 2.
  - [Seahawk Applet](http://www.taverna.org.uk/download/associated-tools/seahawk-applet/)
  - [Taverna Player portal](https://github.com/myGrid/taverna-player-portal)
  - [taverna-t2flow Ruby gem](https://rubygems.org/gems/taverna-t2flow/)
-
-## Source code
-
-You might be interested in the [source code](/download/code) of Apache Taverna, or
-[earlier non-Apache releases](pre-apache).
-
-
-## License
-
-Apache Taverna is distributed under the [Apache Software License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
-See the `NOTICE` file in the source code downloads for required attributions,
-and `LICENSE` file for details of any embedded third-party source code.
-
-Dependencies of Taverna are
-[compatible with Apache License 2.0](http://www.apache.org/legal/resolved.html)
-according to Apache Software Foundation policies.
-
 
 ## Non-Apache Taverna
 
