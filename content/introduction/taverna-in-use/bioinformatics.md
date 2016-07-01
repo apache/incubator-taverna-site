@@ -161,7 +161,7 @@ An [example workflow][49] using SBML is available on [myExperiment][50].
   [25]: /introduction/taverna-in-use/biology#sb-os
   [26]: /introduction/taverna-in-use/biology#tav4sb
   [27]: #measuring-enzyme-characteristics-of-yeast
-  [28]: /introduction/taverna-in-use/annotation.html#afawe
+  [28]: /introduction/taverna-in-use/annotation#afawe
   [29]: /introduction/taverna-in-use/biology#planet
   [30]: /introduction/taverna-in-use/disease-research#vph-dareit
   [31]: /introduction/taverna-in-use/disease-research#analysis-of-anthrax-bacterium

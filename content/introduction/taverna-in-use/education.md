@@ -20,4 +20,4 @@ Taverna has been used in education (as well as for teaching purposes) for the
    [creation of courses from individual learning activities and resources][1].
 
 
-  [1]: /introduction/taverna-in-use/multimedia.html#course-generator
+  [1]: /introduction/taverna-in-use/multimedia#course-generator
