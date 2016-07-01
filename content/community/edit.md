@@ -154,4 +154,4 @@ If you are adding a new page:
    * e.g. `community/lists` rather than <del>`the%20taverna%20community/contact-us-2`</del>
  * Make sure the page is linked from/to relevant existing Apache Taverna pages (not just the hierarchical parent)
    * For example, if `/code` is describing the source code, and `/community` different ways to contribute, `/code` should link to the `/community` page and vice versa.
- * Ensure the page is included in the [navigation menu bar](https://github.com/apache/incubator-taverna-site/blob/trunk/templates/default_navbar.html) or in the listing of a higher-level page.
+ * Ensure the page is included in the [navigation menu bar](https://github.com/apache/incubator-taverna-site/blob/trunk/templates/navbar.html) and in the listing of a higher-level page.
