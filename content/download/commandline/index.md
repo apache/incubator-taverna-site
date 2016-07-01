@@ -85,7 +85,7 @@ file.
 
 ### taverna-commandline-3.1.0-incubating
 
-**Apache Taverna Command-line 3.1.0-incubating** was published on 2016-06-30, and is available for download
+**Apache Taverna Command-line 3.1.0-incubating** was published on 2016-07-01, and is available for download
 from official mirrors of the
 ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/closer.cgi/incubator/taverna/):
 
