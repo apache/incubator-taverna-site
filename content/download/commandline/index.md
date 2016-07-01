@@ -17,17 +17,12 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 jsonld: {
     "@context" : "http://schema.org",
-    "@type" : ["Product", "SoftwareApplication"],
+    "@type" : "SoftwareApplication",
     "@id": "https://taverna.incubator.apache.org/download/commandline/",
     "url": "https://taverna.incubator.apache.org/download/commandline/",
     "applicationSuite": "Apache Taverna (incubating)",
     "name" : "Apache Taverna Command Line (incubating)",
     "description" : "Apache Taverna Command Line Tool (incubating) runs Taverna workflows, usable from shell scripts and the command line.",
-    "brand" : {
-      "@type" : "Brand",
-      "name" : "Apache Taverna",
-      "logo" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332251&projectId=12318322"
-    },
     "publisher" : { "@type" : "Organization",
                     "@id" : "https://www.apache.org/",
                    "url" : "https://www.apache.org/",
