@@ -17,17 +17,12 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 jsonld: {
     "@context" : "http://schema.org",
-    "@type" : ["Product", "SoftwareApplication"],
+    "@type" : "SoftwareSourceCode",
     "@id": "https://taverna.incubator.apache.org/download/language/",
     "url": "https://taverna.incubator.apache.org/download/language/",
     "applicationSuite": "Apache Taverna (incubating)",
     "name" : "Apache Taverna Language (incubating)",
     "description" : "Apache Taverna Language (incubating) is a Java API that gives programmatic access to inspecting, modifying and converting SCUFL2 workflow definitions and Research Object Bundles.",
-    "brand" : {
-      "@type" : "Brand",
-      "name" : "Apache Taverna",
-      "logo" : "https://taverna.incubator.apache.org/img/taverna-logo-145x134.png"
-    },
     "publisher" : { "@type" : "Organization",
                     "@id" : "https://www.apache.org/",
                    "url" : "https://www.apache.org/",

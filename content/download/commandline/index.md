@@ -30,6 +30,8 @@ jsonld: {
     "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-commandline-3.1.0-incubating/apache-taverna-commandline-3.1.0-incubating-source-release.zip",
     "softwareVersion": "3.1.0-incubating",
     "fileSize": "607KB",
+    "applicationCategory": "Scientific Workflows",
+    "operatingSystem": ["Windows", "OS/X", "Linux", "Java"],     
     "datePublished": "2016-06-31",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332251&projectId=12318322",
      "author": { "@id": "https://taverna.incubator.apache.org/about/",

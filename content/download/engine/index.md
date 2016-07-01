@@ -17,17 +17,12 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 jsonld: {
     "@context" : "http://schema.org",
-    "@type" : ["Product", "SoftwareApplication"],
+    "@type" : ["SoftwareSourceCode"],
     "@id": "https://taverna.incubator.apache.org/download/engine/",
     "url": "https://taverna.incubator.apache.org/download/engine/",
     "applicationSuite": "Apache Taverna (incubating)",
     "name" : "Apache Taverna Engine (incubating)",
     "description" : "Apache Taverna Engine (incubating) is a workflow engine for executing Taverna workflows.",
-    "brand" : {
-      "@type" : "Brand",
-      "name" : "Apache Taverna",
-      "logo" : "https://taverna.incubator.apache.org/img/taverna-logo-145x134.png"
-    },
     "publisher" : { "@type" : "Organization",
                     "@id" : "https://www.apache.org/",
                    "url" : "https://www.apache.org/",
@@ -35,6 +30,8 @@ jsonld: {
     "softwareVersion": "3.1.0-incubating",
     "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-engine-3.1.0-incubating/apache-taverna-engine-3.1.0-incubating-source-release.zip",
     "fileSize": "1.7MB",
+    "applicationCategory": "Scientific Workflows",
+    "operatingSystem": ["Windows", "OS/X", "Linux", "Java"],             
     "datePublished": "2016-06-31",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332249&projectId=12318322",
     "author": { "@id": "https://taverna.incubator.apache.org/about/",

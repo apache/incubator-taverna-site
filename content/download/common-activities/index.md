@@ -17,17 +17,12 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 jsonld: {
     "@context" : "http://schema.org",
-    "@type" : ["Product", "SoftwareApplication"],
+    "@type" : "SoftwareSourceCode",
     "@id": "https://taverna.incubator.apache.org/download/common-activities/",
     "url": "https://taverna.incubator.apache.org/download/common-activities/",
     "applicationSuite": "Apache Taverna (incubating)",
     "name" : "Apache Taverna Common Activities (incubating)",
     "description" : "Apache Taverna Common Activities (incubating) are plugins for invoking common activity types from Taverna Engine, e.g. REST, WSDL, Beanshell and command line tools.",
-    "brand" : {
-      "@type" : "Brand",
-      "name" : "Apache Taverna",
-      "logo" : "https://taverna.incubator.apache.org/img/taverna-logo-145x134.png"
-    },
     "publisher" : { "@type" : "Organization",
                     "@id" : "https://www.apache.org/",
                    "url" : "https://www.apache.org/",
@@ -35,6 +30,8 @@ jsonld: {
     "softwareVersion": "2.1.0-incubating",
     "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-common-activities-2.1.0-incubating/apache-taverna-common-activities-2.1.0-incubating-source-release.zip",
     "fileSize": "585KB",
+    "applicationCategory": "Scientific Workflows",
+    "operatingSystem": ["Windows", "OS/X", "Linux", "Java"],         
     "datePublished": "2016-06-31",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332248&projectId=12318322",
      "author": { "@id": "https://taverna.incubator.apache.org/about/",

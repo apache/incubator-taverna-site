@@ -17,14 +17,14 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 jsonld: {
     "@context" : "http://schema.org",
-    "@type" : "SoftwareApplication",
+    "@type" : "SoftwareSourceCode",
     "@id": "https://taverna.incubator.apache.org/download/osgi/",
     "url": "https://taverna.incubator.apache.org/download/osgi/",
     "applicationSuite": "Apache Taverna (incubating)",
     "name" : "Apache Taverna OSGi (incubating)",
     "description" : "Apache Taverna OSGi plugin system (incubating) is a plugin system for Java console and desktop applications using OSGi, including an online update mechanism.",
     "applicationCategory": "Scientific Workflows",
-    "operatingSystem": ["Windows", "OS/X", "Linux", "Java"]    
+    "operatingSystem": ["Windows", "OS/X", "Linux", "Java"],
     "publisher" : { "@type" : "Organization",
                     "@id" : "https://www.apache.org/",
                    "url" : "https://www.apache.org/",
