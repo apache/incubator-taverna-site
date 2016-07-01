@@ -35,6 +35,7 @@ jsonld: {
     "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-commandline-3.1.0-incubating/apache-taverna-commandline-3.1.0-incubating-source-release.zip",
     "softwareVersion": "3.1.0-incubating",
     "fileSize": "607KB",
+    "datePublished": "2016-06-31",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332251&projectId=12318322",
      "author": { "@id": "https://taverna.incubator.apache.org/about/",
                  "url": "https://taverna.incubator.apache.org/about/",
@@ -87,7 +88,7 @@ file.
 
 ### taverna-commandline-3.1.0-incubating
 
-**Apache taverna-commandline 3.1.0-incubating** was published on 2016-06-30, and is available for download
+**Apache Taverna Command-line 3.1.0-incubating** was published on 2016-06-30, and is available for download
 from official mirrors of the
 ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/closer.cgi/incubator/taverna/):
 

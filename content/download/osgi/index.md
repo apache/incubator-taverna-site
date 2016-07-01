@@ -33,6 +33,7 @@ jsonld: {
                    "url" : "https://www.apache.org/",
                     "name" : "The Apache Software Foundation (ASF)" },
     "softwareVersion": "0.2.1-incubating",
+    "datePublished": "2016-03-11",
     "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip",
     "fileSize": "185KB",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332248&projectId=12318322",

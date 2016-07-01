@@ -35,6 +35,7 @@ jsonld: {
     "softwareVersion": "2.1.0-incubating",
     "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-common-activities-2.1.0-incubating/apache-taverna-common-activities-2.1.0-incubating-source-release.zip",
     "fileSize": "585KB",
+    "datePublished": "2016-06-31",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332248&projectId=12318322",
      "author": { "@id": "https://taverna.incubator.apache.org/about/",
                  "url": "https://taverna.incubator.apache.org/about/",

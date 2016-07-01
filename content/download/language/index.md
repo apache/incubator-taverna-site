@@ -35,6 +35,7 @@ jsonld: {
     "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip",
     "fileSize": "1.4MB",
     "softwareVersion": "0.15.1-incubating",
+    "datePublished": "2016-03-11",
     "softwareHelp": {"@id": "https://taverna.incubator.apache.org/documentation/scufl2/"},
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12333250&projectId=12318322",
      "author": { "@id": "https://taverna.incubator.apache.org/about/",
