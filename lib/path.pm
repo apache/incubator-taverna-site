@@ -10,7 +10,6 @@ our @patterns = (
 	[qr!/introduction/.*\.md(?:text)?$!, single_narrative => { template => "single_with_taverna2_warning.html" }],
     [qr!/documentation/.*\.md(?:text)?$!, single_narrative => { template => "single_with_taverna2_warning.html" }],
     [qr!/community/news.md(?:text)?$!, single_narrative => { template => "twitter_narrative.html" }],
-    [qr!/news/index.md(?:text)?$!, single_narrative => { template => "twitter_narrative.html" }],
     
 	[qr!\.md(?:text)?$!, single_narrative => { template => "single_narrative.html" }],
  
