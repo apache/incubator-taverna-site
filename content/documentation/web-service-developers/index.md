@@ -17,7 +17,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 
 Taverna aims to support Web services that are 
-   [WS-I](http://www.ws-i.org/Profiles/BasicProfile-1.1-2004-08-24.html) (Web Services Interoparability) compliant, 
+   [WS-I](http://www.ws-i.org/Profiles/BasicProfile-1.1-2004-08-24.html) (Web Services Interoperability) compliant, 
    but this is a long-term goal and currently there are a few nuances. 
 However, it should be possible to create Web services that are compatible with Taverna if you follow these guidelines.
 
