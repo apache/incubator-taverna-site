@@ -25,7 +25,7 @@ Taverna allows you to define how your data flows between the services,
 It will automate and pipeline processing of your data.
 
 Taverna can help you convert data from one format to another in cases when the services you are using are not 100% compatible 
-   and shied you from services’ (non-)interoperability horror.
+   and shield you from services’ (non-)interoperability horror.
 
 Taverna allows for rapid incorporation of  new  service s without  coding.  It is not  restricted  to  predetermined  services; it provides access  to  local  and  remote  resources  and  analysis  tools – 3500+ services available on start up.
 
