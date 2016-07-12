@@ -27,9 +27,9 @@ However, it should be possible to create Web services that are compatible with T
    particularly the SOAP messaging protocol. 
 A WSDL SOAP binding can be either a **Remote Procedure Call (RPC)** style binding or a **document** style binding. 
 A SOAP binding can also have an **encoded** use or a **literal** use. Combining these 
-options would yield 4 binding styles, except that the document/encoded combination
+options would yield 4 binding styles, except the document/encoded combination
 is not WS-I compliant and is [not used](https://www.ibm.com/developerworks/library/ws-whichwsdl/). 
-However, there is an additional binding style that is commonly referred to as the 
+However, there is an additional binding style commonly referred to as the 
 document/literal wrapped style. 
 
 Thus, developers have 4 binding styles to choose from when creating a WSDL file.
