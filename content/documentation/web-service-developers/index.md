@@ -32,7 +32,7 @@ is not WS-I compliant and is [not used](https://www.ibm.com/developerworks/libra
 However, there is an additional binding style that is commonly referred to as the 
 document/literal wrapped style. 
 
-Thus, developers have four binding styles to choose from when creating a WSDL file.
+Thus, developers have 4 binding styles to choose from when creating a WSDL file.
 
  1. RPC/encoded
  2. RPC/literal
@@ -41,11 +41,11 @@ Thus, developers have four binding styles to choose from when creating a WSDL fi
 
 IBM developerWorks has a good description of the [differences between these styles](https://www.ibm.com/developerworks/library/ws-whichwsdl/). 
 
-Although Taverna supports to a fair extent bindings that are **RPC/encoded** and **RPC/literal**, 
+Although Taverna supports to a fair extent bindings that are **RPC/encoded** or **RPC/literal**, 
    the preferred binding style is **document/literal wrapped**. 
    Specifically, the WSDL should have “style” attributes that are set to “document,” "use” attributes set to “literal,” 
    and the parameters should be inside a wrapper.
-This is particularly important when dealing with complex types; for primitive types, no problems are anticipated.
+This is particularly important when dealing with complex types. For primitive types, no problems are anticipated.
 
 ###Currently untested features
 
@@ -53,18 +53,18 @@ The following are untested and, although not proven to fail, the behaviour is cu
 For this reason, it is advised to avoid these features.
 
  - **Multiple WSDL imports.** 
-   Taverna has only been tested on services that contain no more than one import of an additional WSDL file. 
+   Taverna has only been tested on services that contain *no more than one* import of an additional WSDL file. 
    For WSDLs that import more than one additional WSDL, particularly if that WSDL has a different service endpoint to the others,
      the behaviour of Taverna is currently unclear. 
    Its expected that it will fail when invoking the Web service.
-   *This does not affect imports of schemas, which has been thoroughly tested and works as expected.*
+   *This does not affect import of schemas, which has been thoroughly tested and works as expected.*
 
  - **Multiple service endpoints.** For a given WSDL, Taverna currently only references the first service endpoint. 
    If more than one exists, operations belonging to the second endpoint are expected to fail.
 
  - **Ambiguous type names.** 
    In the unusual case that an operation requires inputs that contain identically named types 
-      that belong to different namespaces, it is expected that Taverna should not have any problems. 
+      belonging to different namespaces, it is expected that Taverna should not have any problems. 
    However, because of the unusual nature of this it is untested and therefore not recommended.
 
 ###Situations currently known to fail
@@ -90,11 +90,11 @@ The following are situations that are known to fail in Taverna.
  
 ##Advertise your Life Sciences services with BioCatalogue
 
-Registering your service in the [BioCatalogue](http://www.biocatalogue.org/) 
-      Life Sciences Web Services registry is one of the best ways to make people aware of your services
+Registering with the [BioCatalogue](http://www.biocatalogue.org/) 
+      Life Sciences Web Services registry is one of the best ways to raise awareness of your services
       and to make them easily discoverable from Taverna and the Web.
 
 With BioCatalogue, service providers can easily register, describe, advertise and monitor their Web services. 
-   Users can easily find the right Web service using BioCatalogue's powerful search and filtering. 
+   Users can quickly find the right Web service using BioCatalogue's powerful search and filtering. 
 BioCatalogue provides combined information about services from both providers and community 
    as it has on-going expert curation as well as social curation by the community.
