@@ -17,23 +17,35 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            under the License.
 
 ## Which Taverna to download?
+
+Taverna was started by the [myGrid project](http://www.mygrid.org.uk/) and in 2014 entered incubation at the 
+[Apache Software Foundation](http://incubator.apache.org/). Not all tools have yet been migrated to Apache. 
+
+For unreleased Apache Taverna tools, links to Pre-Apache versions (2.x) are provided. See below for links to complete
+**earlier Taverna releases** as well as a list of Taverna 2.x tools that are **not planned for migration.**
+
+### Tools
 There are several Taverna tools you can download:
 
 - [Apache Taverna Command-line Tool](/download/commandline) enables you to run
   workflows from a command prompt.
   This enables scripted execution of workflows, e.g. on a Linux server.
-- [Taverna Workbench](/download/workbench) enables you to graphically create, edit and
+
+- Pre-Apache Taverna
+  - [Taverna Workbench](/download/workbench) enables you to graphically create, edit and
    run workflows on your computer.
    Taverna 2.5 Workbench (non-Apache) is the latest series of the Workbench;
    it is highly recommended that you use this version if you are new to Taverna.
-- [Taverna Server](/download/server) is the remote workflow execution service that enables you
+
+  - [Taverna Server](/download/server) is the remote workflow execution service that enables you
   to set up a dedicated server for executing workflows remotely.
-- [Taverna Plugins](/documentation/plugins) - the design of Taverna is modular so that
- various plugins can be added in order to increase its functionality.
+
+  - [Taverna Plugins](/documentation/plugins) - because the design of Taverna is modular,
+ various plugins can be added to increase its functionality.
 
 ### Taverna libraries
 
-The Taverna Command-line, Workbench and Server share several Java libraries
+The Taverna Command-line, Workbench, and Server share several Java libraries
 for constructing and executing workflows. These libraries can be downloaded
 separately for development usage:
 
@@ -41,14 +53,16 @@ separately for development usage:
  inspecting, modifying and converting Taverna's
  [SCUFL2](/documentation/scufl2/) workflow definitions and
  [Research Object Bundles](https://w3id.org/bundle).
+
 - [Apache Taverna OSGi](/download/osgi) is a generic plugin system for Java-based
  console/desktop applications using OSGi, including an online update mechanism.
+
 - [Apache Taverna Engine](/download/engine) is the API for the _workflow engine_
   that executes workflows defined with _Taverna Language_.
+
 - [Apache Taverna Common Activities](/download/common-activities) are plugins
   for the _Taverna Engine_ that provide implementations to invoke local and
-  remote tools and web services.  
-
+  remote tools and web services.
 
 
 ## Source code
@@ -56,7 +70,7 @@ separately for development usage:
 You might be interested in the [source code](/download/code) of Apache Taverna, or
 [earlier non-Apache releases](pre-apache). Unreleased tools that are under development
 include the [Apache Taverna Databundle Viewer](https://github.com/apache/incubator-taverna-databundle-viewer) web app
-and the Android app [Apache Taverna Mobile](https://github.com/apache/incubator-taverna-mobile).
+and the Android app: [Apache Taverna Mobile](https://github.com/apache/incubator-taverna-mobile).
 
 
 ## License
@@ -70,11 +84,11 @@ Dependencies of Taverna are
 according to Apache Software Foundation policies.
 
 
-## Associated tools
-There are also a number of third-party tools available to use with Taverna 2.
+## Pre-Apache tools
+There are a number of third-party tools available to use with Taverna 2.
 
-> **Note**: There are currently no known plans to bring out Apache Taverna 3
-> versions of these tools. If you are interested in migrating any of these tools
+> **Note**: There are currently **no plans to bring out Apache Taverna 3
+> versions** of these tools. If you are interested in migrating any of these tools
 > to Apache Taverna, please [contact us](/community).
 
  - [Taverna 2-Galaxy](http://www.taverna.org.uk/download/taverna-galaxy/) is a tool for automatic generation and exposure of
@@ -89,11 +103,7 @@ There are also a number of third-party tools available to use with Taverna 2.
  - [Taverna Player portal](https://github.com/myGrid/taverna-player-portal)
  - [taverna-t2flow Ruby gem](https://rubygems.org/gems/taverna-t2flow/)
 
-## Non-Apache Taverna
-
-This section covers Taverna releases done before incubation as an Apache project.
-
-## Taverna 2.5 and earlier (non-Apache)
+## Pre-Apache Taverna
 
 Taverna releases from 2001 to 2014 (e.g. Taverna 2.5) were made before Apache incubation:
 
