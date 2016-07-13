@@ -24,7 +24,7 @@ Currently there is no Apache-approved distribution.
 ## Operating system
 
 Taverna [Workbench](/download/workbench) and [Command Line](/download/commandline)
-  are available either in platform-specific or platform-neutral distributions.
+  are available in either platform-specific or platform-neutral distributions.
 We generally **recommend** the platform-specific distributions as they include any required
    third-party software.
 
@@ -54,7 +54,7 @@ This library allows Taverna to open pages in your preferred Web browser and
 ## Memory
 
 It is a good idea for your machine to have **at least 2GB of RAM.**
-Taverna will run with less memory than that, but its performance may be affected.
+Taverna will run with less memory, but its performance may be affected.
 
 The Taverna Workbench installations for 64-bit operating systems will use by default up to
 1 GB of working memory, plus up to 400 MB used by the Java runtime.
@@ -78,10 +78,10 @@ If you need to increase the available memory, for **Windows and Linux**, edit th
   directory (which might require administrator privileges).
 You can then replace *-Xmx700m* or *-Xmx1g* with (for example) *-Xmx1500m* to use 1.5 GB.
 
-For **OS X**, you would need to modify the *Info.plist* file and change the same
+For **OS X**, modify the *Info.plist* file and change the same
    parameter under JavaVM using the *Property List Editor*.
    (To modify *Info.plist*, right-click on Taverna application in Finder and select *Show Package Content*.
-   Then, open the application bundle to find *Contents/Info.plist*) 
+   Then, open the application bundle to find *Contents/Info.plist*.) 
 
 For **platform-neutral** Taverna installations not using *.vmoptions*, you may instead have to
    modify the *taverna.sh/taverna.bat* (Windows) and *executeworkflow.bat/executeworkflow.sh* files.
@@ -118,7 +118,7 @@ If you download the platform-neutral Taverna Workbench installation,
    which is used for **generating workflow diagrams** in Taverna.
 Binaries are included in the *bin* folder for OS X, Linux x86/x64, and Windows.
 
-In most cases Taverna should be able to pick up the location of the Graphviz binary *dot*
+In most cases, Taverna should be able to pick up the location of the Graphviz binary *dot*
    from the download after you have installed it.
 If this is not the case, see
    [User guide: Workbench preferences](http://www.mygrid.org.uk/dev/wiki/display/taverna/Workbench+preferences)
