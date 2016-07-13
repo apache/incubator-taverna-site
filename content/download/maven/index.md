@@ -74,7 +74,7 @@ The pre-Apache Taverna artifacts are available as a Maven download from
 hosted by the [eScience Lab, University of Manchester](http://www.esciencelab.org.uk/)
 
 > Note that these repositories are _not_ affiliated with Apache Software Foundation
-and is maintained for archival purposes only.
+and are maintained for archival purposes only.
 
 You may need to use the Maven repository if developing plugins for Taverna 2.x:
 
