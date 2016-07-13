@@ -57,7 +57,7 @@ Interactions have already been used for many purposes. These include:
 One of the advantages of running workflows on a server is that you do not need to monitor them
    constantly.
 However, you then need a way to be alerted that a workflow requires an interaction.
-The interaction service uses [ATOM](http://en.wikipedia.org/wiki/Atom_(standard) feeds to send
+The interaction service uses [ATOM](http://en.wikipedia.org/wiki/Atom_%40standard%41) feeds to send
    out notifications.
 ATOM feeds can be read by many different clients, including mobile phone Apps and mail readers.
 The ATOM message will include a link to the HTML page for the interaction required.
