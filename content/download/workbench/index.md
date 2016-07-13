@@ -94,7 +94,7 @@ If you run into issues, check the [User Manual](http://dev.mygrid.org.uk/wiki/di
  - SHA1: 0643e384bbef03aa5192033677649cddb175141d
  - MD5: 1233c91c7ad36e37f8fc6856a27f80fe
 
-Please [contact us](/community) to confirm continued interest in a 32 bit installer
+> Please [contact us](/community) to confirm continued interest in a 32 bit installer
 
 <a name="maxos"></a>
 ###Taverna Workbench 2.5 for Mac OS X
@@ -117,7 +117,7 @@ Please [contact us](/community) to confirm continued interest in a 32 bit instal
  - SHA1: 15a9ab5a2651f81e2cbe56db3caf920eba8bc1f1
  - MD5: 8dd1d0d2b9579a3bc5a36caaa26898d
 
-<a name="#zip"></a>
+<a name="zip"></a>
 ###Taverna Workbench 2.5 standalone
 
 This is operating system and architecture-neutral binary.
