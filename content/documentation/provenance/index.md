@@ -19,7 +19,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 > "Provenance is information about entities, activities, and people
 > involved in producing a piece of data or thing, which can be used to
 > form assessments about its quality, reliability or trustworthiness."
-[W3.org, PROV Overview](http://www.w3.org/TR/prov-overview/)
+<small><a href="http://www.w3.org/TR/prov-overview/">W3.org</a></small>
 
 For a scientific workflow system, provenance can have several aspects:
 
