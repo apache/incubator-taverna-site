@@ -91,7 +91,7 @@ according to Apache Software Foundation policies.
 ## Pre-Apache tools
 There are a number of third-party tools available to use with Taverna 2.
 
-> **Note**: There are currently **no plans to bring out Apache Taverna 3
+> **Note**: There are currently **no plans to release Apache Taverna 3
 > versions** of these tools. If you are interested in migrating any of these tools
 > to Apache Taverna, please [contact us](/community).
 
