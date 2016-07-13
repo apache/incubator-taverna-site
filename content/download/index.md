@@ -23,7 +23,8 @@ Many, but not all, of the original Taverna tools have been migrated to Apache Ta
 at the [Apache Software Foundation](http://incubator.apache.org/).) 
 
 Links to Pre-Apache versions are provided for tools that have yet to be migrated. See below for links to complete
-**earlier Taverna releases** as well as a list of Taverna 2.x tools that are **not planned for migration.**
+<a href="pre-Apache">earlier Taverna releases</a> as well as a list of Taverna 2.x tools that are 
+<a href="#no-migration">not planned for migration</a>.
 
 
 ### Tools
@@ -86,6 +87,7 @@ Dependencies of Taverna are
 according to Apache Software Foundation policies.
 
 
+<a name=no-migration></a>
 ## Pre-Apache tools
 There are a number of third-party tools available to use with Taverna 2.
 
@@ -105,6 +107,7 @@ There are a number of third-party tools available to use with Taverna 2.
  - [Taverna Player portal](https://github.com/myGrid/taverna-player-portal)
  - [taverna-t2flow Ruby gem](https://rubygems.org/gems/taverna-t2flow/)
 
+<a name=pre-Apache></a>
 ## Pre-Apache Taverna
 
 Taverna releases from 2001 to 2014 (e.g. Taverna 2.5) were made before Apache incubation:
