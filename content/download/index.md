@@ -108,7 +108,7 @@ There are a number of third-party tools available to use with Taverna 2.
  - [taverna-t2flow Ruby gem](https://rubygems.org/gems/taverna-t2flow/)
 
 <a name=pre-Apache></a>
-## Pre-Apache Taverna
+## Pre-Apache Taverna Releases
 
 Taverna releases from 2001 to 2014 (e.g. Taverna 2.5) were made before Apache incubation:
 
