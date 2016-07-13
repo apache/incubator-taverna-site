@@ -43,6 +43,9 @@ The interaction can be as simple as acknowledging a message,
 The interaction can be parameterized by data from the workflow and can return data from the
    browser to the workflow.
 
+
+[![BioVeL Video](BioVel_interaction_img.jpg)](http://www.youtube.com/embed/S9X6E4PdFcM?start=60)
+
 <iframe src="http://www.youtube.com/embed/S9X6E4PdFcM?start=60" frame border="0"
         width="420" height="315"></iframe>
 
