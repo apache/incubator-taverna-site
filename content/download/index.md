@@ -23,7 +23,7 @@ Many, but not all, of the original Taverna tools have been migrated to Apache Ta
 at the [Apache Software Foundation](http://incubator.apache.org/).) 
 
 Links to Pre-Apache versions are provided for tools that have yet to be migrated. See below for links to complete
-<a href="pre-Apache">earlier Taverna releases</a> as well as a list of Taverna 2.x tools that are 
+<a href="#pre-Apache">earlier Taverna releases</a> as well as a list of Taverna 2.x tools that are 
 <a href="#no-migration">not planned for migration</a>.
 
 
