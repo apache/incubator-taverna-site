@@ -34,15 +34,15 @@ There are several Taverna tools you can download:
   This enables scripted execution of workflows, e.g. on a Linux server.
 
 - Pre-Apache Taverna (2.x)
-  - [Taverna Workbench](/download/workbench) enables you to graphically create, edit and
+    - [Taverna Workbench](/download/workbench) enables you to graphically create, edit and
    run workflows on your computer.
    Taverna 2.5 Workbench (non-Apache) is the latest series of the Workbench;
    it is highly recommended that you use this version if you are new to Taverna.
 
-  - [Taverna Server](/download/server) is the remote workflow execution service that enables you
+    - [Taverna Server](/download/server) is the remote workflow execution service that enables you
   to set up a dedicated server for executing workflows remotely.
 
-  - [Taverna Plugins](/documentation/plugins) - because the design of Taverna is modular,
+    - [Taverna Plugins](/documentation/plugins) - because the design of Taverna is modular,
  various plugins can be added to increase its functionality.
 
 ### Taverna libraries
