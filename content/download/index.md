@@ -18,11 +18,13 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 ## Which Taverna to download?
 
-Taverna was started by the [myGrid project](http://www.mygrid.org.uk/) and in 2014 entered incubation at the 
-[Apache Software Foundation](http://incubator.apache.org/). Not all tools have yet been migrated to Apache. 
+Many, but not all, of the original Taverna tools have been migrated to Apache Taverna. 
+(Taverna was started by the [myGrid project](http://www.mygrid.org.uk/) and in 2014 entered incubation 
+at the [Apache Software Foundation](http://incubator.apache.org/).) 
 
-For unreleased Apache Taverna tools, links to Pre-Apache versions (2.x) are provided. See below for links to complete
+Links to Pre-Apache versions are provided for tools that have yet to be migrated. See below for links to complete
 **earlier Taverna releases** as well as a list of Taverna 2.x tools that are **not planned for migration.**
+
 
 ### Tools
 There are several Taverna tools you can download:
@@ -31,7 +33,7 @@ There are several Taverna tools you can download:
   workflows from a command prompt.
   This enables scripted execution of workflows, e.g. on a Linux server.
 
-- Pre-Apache Taverna
+- Pre-Apache Taverna (2.x)
   - [Taverna Workbench](/download/workbench) enables you to graphically create, edit and
    run workflows on your computer.
    Taverna 2.5 Workbench (non-Apache) is the latest series of the Workbench;
