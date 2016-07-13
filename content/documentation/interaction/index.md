@@ -21,18 +21,22 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 Many workflows, when run, require interaction with a user. 
 This can be to enter data values, confirm that intermediate results are OK to proceed with the 
    run, or to control the functionality of a service. 
+
+### Beanshells
 When running a workflow in [Taverna Workbench](/download/workbench) you can use beanshells 
-   to show Java swing components; Taverna Workbench includes a set of pre-defined beanshells to,
+   to show Java swing components. Taverna Workbench includes a set of pre-defined beanshells to,
    for example, [Ask](http://dev.mygrid.org.uk/wiki/display/taverna/Ask) the user for data.
 
+
+### BioVeL interaction service
 If you run your workflow in a portal or on a [server](/download/server), then using beanshells 
-   for interaction will not work – attempts to use Swing will either fail or, worse, 
+   for interaction will not work. Attempts to use Swing will either fail or, worse, 
    open dialogs on the machine where the workflow is running.
 
 To support interaction with workflows running on a server, the [BioVeL](http://www.biovel.eu)
    project developed a new 
    [interaction service](http://dev.mygrid.org.uk/wiki/display/taverna/Interaction+service). 
-The interaction service allows users to interact with a running workflow within a standard web 
+This interaction service allows users to interact with a running workflow within a standard web 
    browser. 
 The interaction can be as simple as acknowledging a message, 
    or as complex as controlling a tool running on a remote machine. 
