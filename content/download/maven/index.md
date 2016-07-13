@@ -29,7 +29,7 @@ Apache Taverna releases are distributed in
 which is also mirrored to Maven's default
 [Maven Central](https://repo.maven.apache.org/maven2/org/apache/taverna/).
 
-Therefore normally no `<repository>` should be needed to use
+Therefore, normally no `<repository>` should be needed to use
 released Apache Taverna Maven artifacts, however in some situations you may
 need to specify:
 
@@ -67,16 +67,16 @@ It is recommended to subscribe to the
 [dev@taverna mailing list](/community/lists#devtaverna)
 before using the `-SNAPSHOT` builds.
 
-## Pre Apache Releases and Snapshots
+## Pre-Apache releases and snapshots
 
 The pre-Apache Taverna artifacts are available as a Maven download from
   <http://repository.mygrid.org.uk/artifactory/mygrid-all/>,
 hosted by the [eScience Lab, University of Manchester](http://www.esciencelab.org.uk/)
 
-Note that this repository is _not_ affiliated with Apache Software Foundation
+> Note that these repositories are _not_ affiliated with Apache Software Foundation
 and is maintained for archival purposes only.
 
-You may need to use this Maven repository if developing plugins for Taverna 2.x:
+You may need to use the Maven repository if developing plugins for Taverna 2.x:
 
 #### Release repository
 
