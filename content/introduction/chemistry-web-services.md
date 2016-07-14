@@ -54,68 +54,68 @@ A security token can be obtained by completing the registration process for Chem
 
 The following operations are contained within the InChI Web service:
 
- - CSIDToMol   
+ - **CSIDToMol**   
    Converts a ChemSpider identifier to a MOL file. A security token is required to get access to this
    service.   
    [Example workflow][9]
 
- - GenerateInChI   
+ - **GenerateInChI**   
    Generates an InChI string for a given chemical represented by its SMILES  string, SDF  or MOL file.   
    [Example workflow][10]
 
- - GenerateInChIInfo   
+ - **GenerateInChIInfo**   
    Returns information relating to the InChI string for a given chemical compound.   
    [Example workflow][11]
 
- - GenerateInChIKey   
+ - **GenerateInChIKey**   
    Returns a hashed InChI key which is a fixed length (25 character) condensed digital representation of
       the input InChI string that is not  human-understandable.   
    [Example workflow][12]
 
- - InChIKeyToCSID   
+ - **InChIKeyToCSID**   
    Converts an InChI key to a ChemSpider identifier.   
    [Example workflow][13]
 
- - InChIKeyToInChI   
+ - **InChIKeyToInChI**   
    Converts an InChI key to an InChI string.   
    [Example workflow][14]
 
- - InChIKeyToMol   
+ - **InChIKeyToMol**   
    Converts an InChI key to a MOL file.   
    [Example workflow][15]
 
- - InChIToCSID   
+ - **InChIToCSID**   
    Convets an InChI string to a ChemSpider identifier.   
    [Example workflow][16]
 
- - InChIToInChIKey   
+ - **InChIToInChIKey**   
    Converts an InChI string to an InChI key. This only works for 1.02b InChI strings.   
    [Example workflow][17]
 
- - InChIToMol   
+ - **InChIToMol**   
    Converts an InChI string to a MOL file. Uses [OpenBabel][18] internally to perform this operation.   
    [Example workflow][19]
 
- - InChIToSMILES   
+ - **InChIToSMILES**   
    Converts an InChI string to a SMILES string. Uses [OpenBabel][20]</a> internally to perform this operation.   
    [Example workflow][21]
 
- - IsValidInChIKey   
+ - **IsValidInChIKey**   
    Checks that an InChI key is valid. Works only for v1.02b  InChI keys.   
    [Example workflow][22]
 
- - MolToInChI   
+ - **MolToInChI**   
    Converts a MOL file into an InChI string (v1.02s).   
    [Example workflow][23]
 
- - MolToInChIKey   
+ - **MolToInChIKey**   
    Converts a MOL file into an v1.02s InChI key.   
    [Example workflow][24]
 
- - ResolveInChIKey   
+ - **ResolveInChIKey**   
    This operation does not work at the moment. ChemSpider have been notified of the problem.
 
- - SMILESToInChI   
+ - **SMILESToInChI**   
    Converts a SMILES string to an InChI string. The result is returned as a  v1.02s InChI string.   
    [Example workflow][25]
 
