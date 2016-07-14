@@ -16,7 +16,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-## New Projects
+## Current Projects
 The Taverna team are currently involved in or collaborating on several projects sponsoring the development
    of new tools and the improvement of Taverna:
 
