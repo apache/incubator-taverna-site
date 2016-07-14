@@ -107,7 +107,7 @@ A [component profile editor](/documentation/components/component-profile-editor)
    is being developed.
 
 <p style="text-align: center;">
-<img class="aligncenter" src="img/arch2.png" alt="" width="359" height="412" />
+<img class="aligncenter" src="/img/arch2.png" alt="" width="359" height="412" />
 </p>
 
 The SCAPE project has an 
