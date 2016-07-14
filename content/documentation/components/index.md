@@ -61,7 +61,7 @@ Without components, using the same view, it would instead look like this:
 
 [<img class="aligncenter" title="Un-componentized Workflow" src="/img/component_c.png" alt="" width="245" height="526" />](http://www.taverna.org.uk/pages/wp-content/uploads/2013/05/component_c.png)
 
-## Including a component in a workflow
+### Including a component in a workflow
 
 A component can be added into a Taverna workflow in the same way as an ordinary service: 
    by dragging it from the service panel of the workbench into the workflow design view. 
@@ -74,7 +74,7 @@ It is intended that there will be consistency checks to ensure components are on
    together in a sensible manner, and for the discovery of (and connection to) suitable components 
    based upon existing workflow structure.
 
-## Executing a component in a workflow run
+### Executing a component in a workflow run
 
 When a component is invoked during a workflow run, the underlying workflow is called with the 
    corresponding data. 
@@ -96,7 +96,7 @@ This allows complex internal component functionality and removes the need for ex
 
 <img class="aligncenter" src="/img/arch1.png" alt="" width="340" height="433" />
 
-## Component profile
+### Component profile
 
 A specification of the format for the component profile has been agreed. 
 The format is in XML and an XML schema (xsd) has been created. 
@@ -114,7 +114,7 @@ The SCAPE project has an
    [extended discussion of component profiles](https://github.com/openpreserve/scape-component-profiles)
    available.
 
-## Component creation against a profile
+### Component creation against a profile
 
 In order to conform to a component profile, it can be necessary to make semantic annotations 
    parts of the corresponding workflow. 
@@ -125,7 +125,7 @@ The component profile specifies the ontologies that will be used for the compone
    family, the correspondence between object classes within a workflow 
    (input port, service etc.) and the concepts within the ontologies.
 
-## Checking a component against a profile
+### Checking a component against a profile
 
 Although the components will be modified using a chosen profile, 
    it is unlikely that the components can be assured as being ‘correct by construction’. 
@@ -135,7 +135,7 @@ For this reason, a separate
 The component validator is included within 
    [myExperiment](http://www.myexperiment.org).
 
-## Publishing a component
+### Publishing a component
 
 Since components are realized  as ‘extensions’ to Taverna workflows, 
    it was decided that rather than using a separate component repository, 
@@ -150,7 +150,7 @@ To facilitate the development of components, a workflow can also be saved to the
 When a user publishes a component either to myExperiment or to their local file system, 
    their service panel is updated to reflect the new component.
 
-## Discovering a component
+### Discovering a component
 
 Since component families are realized as packs on myExperiment 
    (or by analogous structures in the user’s file system), 
