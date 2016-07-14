@@ -211,7 +211,7 @@ WSDL: [http://www.chemspider.com/Spectra.asmx?WSDL][36]
 
 ### Compound search Web service
 WSDL: [http://www.chemspider.com/Search.asmx?WSDL][40]   
-<img src="/pages/wp-content/uploads/2010/07/biocatalogue-smallcog.png" alt="BioCatalogue icon" width="16" height="16" /> In BioCatalogue: </span>
+<img src="/img/biocatalogue-smallcog.png" alt="BioCatalogue icon" width="16" height="16" /> In BioCatalogue: </span>
 <a href="http://www.biocatalogue.org/services/1932" target="_blank">http://www.biocatalogue.org/services/1932</a>
 
  - AsyncSimpleSearch   
