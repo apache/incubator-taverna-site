@@ -16,7 +16,6 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-## Overview
 This document describes a set of chemistry services provided by [ChemSpider][1], [ChEBI][2] and [PubChem][3]
   that can be used for the construction of chemistry workflows from the Taverna Workbench.
 
@@ -24,7 +23,7 @@ Example workflows contained in the document show how some of the operations from
   be invoked.
 They can also be downloaded as part of the [Chemistry Workflows pack][4] at myExperiment.
 
-### Contents
+**Contents**
 [TOC]
 
 -----
