@@ -23,6 +23,8 @@ Example workflows contained in the document show how some of the operations from
   be invoked.
 They can also be downloaded as part of the [Chemistry Workflows pack][4] at myExperiment.
 
+**Contents**
+
 
 [TOC]
 
