@@ -122,7 +122,7 @@ The following operations are contained within the InChI Web service:
 ### OpenBabel Web service
 WSDL: [http://www.chemspider.com/OpenBabel.asmx?WSDL][26]
 
- - convert   
+ - **convert**   
    Converts a molecule represented in one format to another.
    For a list of valid format values, please visit [openbabel][27].
    An empty string is returned in case of failure.   
@@ -135,77 +135,77 @@ WSDL: [http://www.chemspider.com/MassSpecAPI.asmx?WSDL][29]
 In BioCatalogue: [http://www.biocatalogue.org/services/2040][30]
 
 
- - GetCompressedRecordsSdf   
+ - **GetCompressedRecordsSdf**   
    Returns a SDF file containing records of compounds found by an asynchronous search operation.
    A security token associated with &#8216;Service Subscriber&#8217;
    role is required to access this operation.   
    Example workflow not available since a &#8216;Service Subscriber&#8217; role is required by the user.
 
- - GetDatabases   
+ - **GetDatabases**   
    Returns a list of datasources in ChemSpider.   
    [Example workflow][31]
 
- - GetExtendedCompoundInfo   
+ - **GetExtendedCompoundInfo**   
    Returns extended record details for a given ChemSpider identifier.
    A security token is required to access this service.   
    [Example workflow][32]
 
- - GetExtendedCompoundInfoArray   
+ - **GetExtendedCompoundInfoArray**   
    Returns an array of extended record details from an array of ChemSpider identifiers.
    A security  token is required to access this service.   
    [Example workflow][33]
 
- - GetRecordMol   
+ - **GetRecordMol**   
    Returns a ChemSpider record in MOL format or an empty string in case of  failure.
    The cacl3d parameter specifies whether 3D coordinates should be calculated before returning record data.
    A security token is required to access this service.    
    [Example workflow][34]
 
- - GetRecordsSdf   
+ - **GetRecordsSdf**   
    Returns a SDF file containing records found by an asynchronous search operation.  
    A security token associated with the &#8216;Service Subscriber&#8217;
       role is required to access this operation.   
    Example workflow not available since a Service Subscriber role is  required by the user.
 
- - SearchByFormula   
+ - **SearchByFormula**   
    Search ChemSpider compounds by molecular formula within a specified  list of datasources.
    This operation is deprecated and will be removed soon &#8211;  use SearchByFormulaAsync instead.   
    Example workflow not available since this operation is deprecated.
 
- - SearchByFormula2   
+ - **SearchByFormula2**   
    Search ChemSpider compounds by molecular formula.   
    Example workflow not available since this operation is deprecated.
 
- - SearchByFormulaAsync   
+ - **SearchByFormulaAsync**   
    Searches ChemSpider compounds by molecular formula within a specified datasources list.
    Security token is required to get access to this  service.   
    [Example workflow][35]
 
- - SearchByMass   
+ - **SearchByMass**   
    Searches ChemSpider compounds by mass +/- range within specified datasources list.
    This operation is deprecated and will be removed soon &#8211; use SearchByMassAsync instead.   
    Example workflow not available since this operation is deprecated.
 
- - SearchByMass2   
+ - **SearchByMass2**   
    Search ChemSpider compounds by mass +/- range.   
    Example workflow not available since this operation is deprecated.
 
- - SearchByMassAsync   
+ - **SearchByMassAsync**   
    Searches ChemSpider compounds by mass +/- range within a specified  datasources list.
    A security token is required to access this  service.
 
 ### Spectra Web service
 WSDL: [http://www.chemspider.com/Spectra.asmx?WSDL][36]
 
- - GetAllSpectraInfo   
+ - **GetAllSpectraInfo**   
    Returns information for all open access spectra in ChemSpider   
    [Example workflow][37]
 
- - GetCompoundSpectraInfo   
+ - **GetCompoundSpectraInfo**   
    Returns information about spectra associated with a particular compound identified by the cmp_id parameter   
    [Example workflow][38]
 
- - GetSpectrumInfo   
+ - **GetSpectrumInfo**   
    Returns information about a particular spectrum identified by its spc_id parameter   
    [Example workflow][39]
 
@@ -214,7 +214,7 @@ WSDL: [http://www.chemspider.com/Search.asmx?WSDL][40]
 <img src="/img/biocatalogue-smallcog.png" alt="BioCatalogue icon" width="16" height="16" /> In BioCatalogue: </span>
 <a href="http://www.biocatalogue.org/services/1932" target="_blank">http://www.biocatalogue.org/services/1932</a>
 
- - AsyncSimpleSearch   
+ - **AsyncSimpleSearch**   
    Searches for molecules based on the entered search terms.
    The operation returns a transaction ID which can be used to access the status of the search and results.
    A security token is required to access this service.    
@@ -222,59 +222,59 @@ WSDL: [http://www.chemspider.com/Search.asmx?WSDL][40]
       the GetAsyncSearchResult operation below.   
    [Example workflow][41]
 
- - CSID2ExtRefs   
+ - **CSID2ExtRefs**   
    Returns a list of external references (data sources) for a given compound.  
    A security token with the relevant role is required to access this service.
 
- - GetAsyncSearchResult   
+ - **GetAsyncSearchResult**   
    Returns a list of identifiers found by the asynchronous search operation.
    A security token is required to access this service.   
    [Example workflow][42]
 
- - GetAsyncSearchStatus   
+ - **GetAsyncSearchStatus**   
    Queries the asynchronous operation status.
    A security token is required to access this service.   
    [Example workflow][43]
 
- - GetCompoundInfo   
+ - **GetCompoundInfo**   
    Returns the record details (CSID, InChIKey, InChI, SMILES) of a molecule by its ChemSpider identifier.
    A security  token is required to access this service.   
    [Example workflow][44]
 
- - GetCompoundThumbnail   
+ - **GetCompoundThumbnail**   
    Returns an image of a molecule&#8217;s 2D structure in PNG format.
    A security token is required to access this service.   
    [Example workflow][45]
 
- - GetRecordDetails   
+ - **GetRecordDetails**   
    Returns a record details: CSID, InChIKey, InChI, SMILES.
    This operation is deprecated and will be removed soon &#8211; use GetCompoundInfo instead.   
    No example workflow due to deprecation of this operation.
 
- - GetRecordImage   
+ - **GetRecordImage**   
    Returns an image of a molecule&#8217;s structure in PNG format.
    This operation is deprecated and will  be removed soon &#8211; use GetCompoundThumbnail instead.   
    No example workflow due to deprecation of this operation.
 
- - Mol2CSID   
+ - **Mol2CSID**   
    Searches for structures matching a given MOL file within a given range.
    Returns a list of ChemSpider identifiers associated with matching structures.
    A security token with the &#8216;specific&#8217; role is required to access this service.   
    No example workflow due to specific role required for the operation.
 
- - MolAndDS2CSID   
+ - **MolAndDS2CSID**   
    Searches for structures matching a given MOL file within the range specified by search options and
       within the specified list of datasources.  
    Returns a list of ChemSpider identifiers.
    A security token with the &#8216;specific&#8217; role is required to access this service.   
    No example workflow due to specific role required for the operation.
 
- - SimpleSearch   
+ - **SimpleSearch**   
    Performs a search using a given set of terms. Returns a list of ChemSpider identifiers.
    A security token is required to access this service.   
    [Example workflow][46]
 
- - SimpleSearch2IdList   
+ - **SimpleSearch2IdList**   
    Tries to find whatever is entered.
    Returns a list of ChemSpider IDs.
    This operation is deprecated and will be removed soon &#8211; use SimpleSearch  instead.   
@@ -283,7 +283,7 @@ WSDL: [http://www.chemspider.com/Search.asmx?WSDL][40]
 ### Synonyms
 WSDL: [http://www.chemspider.com/Synonyms.asmx?WSDL][47]
 
- - GetStructureSynonyms   
+ - **GetStructureSynonyms**   
    Returns synonym names for a given compound represented by its MOL file.   
    [Example workflow][48]
 
@@ -304,7 +304,7 @@ WSDL: [http://www.ebi.ac.uk/webservices/chebi/2.0/webservice?wsdl][50]
 <img src="/img/biocatalogue-smallcog.png" alt="BioCatalogue icon" width="16" height="16" />
 In BioCatalogue: [http://www.biocatalogue.org/services/2174][51]
 
- - getLiteEntity   
+ - **getLiteEntity**   
    Retrieves a list of &#8220;lite&#8221; entities containing only the ChEBI ASCII name and ChEBI identifier.
    The input parameters are a search string and a  search category.
    If the search category is null then it will search under all fields.
@@ -312,30 +312,30 @@ In BioCatalogue: [http://www.biocatalogue.org/services/2174][51]
    A maximum 5000  entries can be retrieved at a time.   
    [Example workflow][52]
 
- - getCompleteEntity   
+ - **getCompleteEntity**   
    Retrieves the complete record of a molecule including synonyms, database links and  chemical structures,
       using the ChEBI identifier.   
    [Example workflow][53]
 
- - getCompleteEntityByList   
+ - **getCompleteEntityByList**   
    Given a list of ChEBI accession numbers,
       retrieves the complete entity record associated with each accession number.  
    The maximum size of a given list is 50.   
    [Example workflow][54]
 
- - getOntologyParents   
+ - **getOntologyParents**   
    Retrieves the ontology parents of an entity including the relationship type, using a ChEBI identifier.   
    [Example workflow][55]
 
- - getOntologyChildren   
+ - **getOntologyChildren**   
    Retrieves the ontology children of an entity including the relationship type, using a ChEBI identifier.   
    [Example workflow][56]
 
- - getAllOntologyChildrenInPath   
+ - **getAllOntologyChildrenInPath**   
    Retrieves the ontology children of an entity including the relationship type, using a ChEBI identifier.   
    No example workflow available.
 
- - getStructureSearch   
+ - **getStructureSearch**   
    Does a substructure, similarity or identity search using a query structure.   
    [Example workflow][57]
 
@@ -349,16 +349,17 @@ In BioCatalogue: [http://www.biocatalogue.org/services/2174][51]
 
 PubChem provides the following Web service with 28 operations.
 WSDL: [http://pubchem.ncbi.nlm.nih.gov/pug_soap/pug_soap.cgi?wsdl][61]
+
 <img src="/img/biocatalogue-smallcog.png" alt="BioCatalogue icon" width="16" height="16" />
 In BioCatalogue: [http://www.biocatalogue.org/services/2176][62]
 
- - AssayDownload   
+ - **AssayDownload**   
    Given an assay key, prepares a file for download which contains an assay data table in the selected format.
    See the assay query section of the PUG service documentation
      ([http://pubchem.ncbi.nlm.nih.gov/pug/pughelp.html][63]) for more details on the supported formats.
    Compression is optional and  defaults to gzip (.gz). Returns a download key. Asynchronous.
 
- - Download   
+ - **Download**   
    Given a list key, prepares a file for downloading which contains those records in the selected format.
    See the web download service documentation
       ([http://pubchem.ncbi.nlm.nih.gov/pc_fetch/pc_fetch-help.html][64])
@@ -366,39 +367,39 @@ In BioCatalogue: [http://www.biocatalogue.org/services/2176][62]
    Returns a download key. Asynchronous.   
    [Example workflow][65]
 
- - GetAssayColumnDescription   
+ - **GetAssayColumnDescription**   
    Returns the description of a column (readout) in a BioAssay, which may be the  outcome, score,
       or a TID from the given AID. Synchronous.
 
- - GetAssayColumnDescriptions   
+ - **GetAssayColumnDescriptions**   
    Returns the description of all columns (readouts) in a BioAssay. Synchronous.
 
- - GetAssayDescription   
+ - **GetAssayDescription**   
    Returns the descriptive information for a BioAssay, including the number of  user-specified readouts (TIDs)
       and whether a score readout is present.  
    Optionally get version information. Synchronous.
 
- - GetDownloadUrl   
+ - **GetDownloadUrl**   
    Given a download key, returns an FTP URL that may be used to download the requested file. Synchronous.
 
- - GetEntrezKey   
+ - **GetEntrezKey**   
    Given a list key, returns an Entrez history key (db, query key, and  WebEnv) corresponding to that list.
    Synchronous.   
    [Example workflow][66]
 
- - GetEntrezUrl   
+ - **GetEntrezUrl**   
    Given an Entrez history key (db, query key, and WebEnv), returns an HTTP URL that may be used to view the
       list in Entrez. Synchronous.
    [Example workflow][67]
 
- - GetIDList   
+ - **GetIDList**   
    Given a list key, returns the identifiers as an array of integers. Synchronous.   
    [Example workflow][68]
 
- - GetListItemsCount   
+ - **GetListItemsCount**   
    Returns the number of IDs in the set represented by a given list key. Synchronous.
 
- - GetOperationStatus   
+ - **GetOperationStatus**   
    Given a key for any asynchronous operation, returns the status of that operation.
    Possible return values are: Success, the operation completed normally; HitLimit, TimeLimit: the operation
      finished normally, but one  of the limits was reached (e.g. before the entire database was  searched);
@@ -407,23 +408,23 @@ In BioCatalogue: [http://www.biocatalogue.org/services/2176][62]
      the operation is in progress. Synchronous.   
    [Example workflow][69]
 
- - GetStandardizedCID   
+ - **GetStandardizedCID**   
    Given a structure key that has been processed by Standardize, returns the corresponding PubChem Compound
       database CID, or an empty value if the  structure is not present in PubChem. Synchronous.
 
- - GetStandardizedStructure   
+ - **GetStandardizedStructure**   
    Given a structure key that has been processed by Standardize, returns the chemical structure in as SMILES
      or InChI strings. Synchronous.
 
- - GetStandardizedStructureBase64   
+ - **GetStandardizedStructureBase64**   
    Given a structure key that has been processed by Standardize, returns the  chemical structure as ASN, XML,
       or SDF, returned as a Base64-encoded  string. Synchronous.
 
- - GetStatusMessage   
+ - **GetStatusMessage**   
    Given a key for any asynchronous operation, returns any system messages (error messages, job info, etc.)
       associated with the operation, if any. Synchronous.
 
- - IdentitySearch   
+ - **IdentitySearch**   
    Searches PubChem Compound for structures identical to the one given by the structure key input based on
       a user-selected level of chemical identity: connectivity only, match isotopes and/or stereo, etc.
    The search may be limited by elapsed time or number of records found, or restricted to search only within
@@ -431,48 +432,48 @@ In BioCatalogue: [http://www.biocatalogue.org/services/2176][62]
    Returns a list key. Asynchronous.   
    [Example workflow][70]
 
- - InputAssay   
+ - **InputAssay**   
    Specifies an assay table from a BioAssay AID.
    The table may be complete, concise, or include a ListKey-specified set of readouts (TIDs).
    By default, all tested substances are included, but can be restricted to a ListKey-specified set of SIDs
       or CIDs. Returns an assay key. Synchronous.
 
- - InputEntrez   
+ - **InputEntrez**   
    Configures an Entrez history key (db, query key, and WebEnv).
    Returns a list key. Synchronous.
 
- - InputList   
+ - **InputList**   
    Configures a set of identifiers for a PubChem database, as an array of  integers.
    Returns a list key. Synchronous.
 
- - InputListText   
+ - **InputListText**   
    Configures a set of identifiers for a PubChem database, as a simple string of integer values separated
       by commas and/or whitespace. Returns a list key. Synchronous.
 
- - InputStructure
+ - **InputStructure**
    Configures a chemical structure as a simple (one-line) string, either SMILES or InChI.
    Returns a structure key. Synchronous.   
    [Example workflow][71]
 
- - InputStructureBase64   
+ - **InputStructureBase64**   
    Configures a chemical structure in ASN.1 (text or binary), XML, or SDF  format.
    The structure must be encoded as a Base64 string.
    Currently only single structures are supported.
    Returns a structure key. Synchronous.   
    [Example workflow][72]
 
- - MFSearch   
+ - **MFSearch**   
    Searches PubChem Compound for structures of a given molecular formula,  
       optionally allowing elements not specified to be present.
    The search may  be limited by elapsed time or number of records found, or restricted to search only
       within a previous result set (given by a list key). Returns  a list key. Asynchronous.
 
- - ScoreMatrix   
+ - **ScoreMatrix**   
    Computes a matrix of scores from one or two lists of IDs (if one, the IDs  will be self-scored),
      of the selected type and in the selected format.  
    Compression is optional and defaults to gzip (.gz). Returns a download key. Asynchronous.
 
- - SimilaritySearch2D   
+ - **SimilaritySearch2D**   
    Searches PubChem Compound for structures similar to the one given by the structure key input,
       based on the given Tanimoto-based similarity score.  
    The search may be limited by elapsed time or number of records found,  
@@ -480,12 +481,12 @@ In BioCatalogue: [http://www.biocatalogue.org/services/2176][62]
    Returns a list key. Asynchronous.   
    [Example workflow][73]
 
- - Standardize   
+ - **Standardize**   
    Standardizes the structure given by the structure key input,
       using the same algorithm PubChem uses to construct the Compound database.
    Returns a structure key. Asynchronous.
 
- - SubstructureSearch   
+ - **SubstructureSearch**   
    Searches PubChem Compound for structures containing the one given by the structure key input,
       based on a user-selected level of chemical identity: connectivity only, match isotopes and/or stereo, etc.
    The search may be limited by elapsed time or number of records found,
@@ -493,7 +494,7 @@ In BioCatalogue: [http://www.biocatalogue.org/services/2176][62]
    Returns a list key. Asynchronous.   
    [Example workflow][74]
 
- - SuperstructureSearch   
+ - **SuperstructureSearch**   
    Searches PubChem Compound for structures contained within the one given by the structure key input,
       based on a user-selected level of chemical identity: connectivity only, match isotopes and/or stereo, etc. The  search may be limited by elapsed time or number of records found, or  restricted to search only within a previous result set (given by a list  key). Returns a list key. Asynchronous.</li>
 
