@@ -32,17 +32,22 @@ Download the **[Taverna Server 2.5.4 WAR](http://www.taverna.org.uk/download/ser
    [installation instructions](http://dev.mygrid.org.uk/wiki/display/taverna/Installation+Guide).
 
   - [Taverna Server 2.5.4](http://www.taverna.org.uk/download/server/2-5/) (WAR, 196 MiB)
+
     - MD5: 20d27405b27a3418b783777171734514   
+
     - SHA1:d2909ad0b222a001639c5337171b9e2b553f1cbc
-&nbsp;
+
 
   - [Installation Guide](http://www.taverna.org.uk/download/server/2-5/) (PDF, 7 MiB)
+
     - MD5: a91d2ccb0aca9322a92e9d456a1389aa
+
     - SHA1: d90daf85c09035caca48536cefd4d2d557aeca3a
-&nbsp;
 
   - [User Guide](http://www.taverna.org.uk/download/server/2-5/) (PDF, 13 MiB)
+
     - MD5: 25f75e419a018d03252c63fbcd111a5f
+
     - SHA1: d080ea3765e8ef41a8cecc6564bf2aaf11b78199
 
 
