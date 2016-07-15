@@ -36,7 +36,7 @@ Please follow the <a href="#editing-tips">editing guidelines</a> when making cha
 
 -----
 <a name=github></a>
-## Github pull requests
+## GitHub pull requests
 
 The source for the Apache Taverna website is mirrored to the GitHub project
 [incubator-taverna-site](https://github.com/apache/incubator-taverna-site/tree/trunk/content),
