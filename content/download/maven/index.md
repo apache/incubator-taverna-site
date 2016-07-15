@@ -21,6 +21,8 @@ Taverna is transitioning to the Apache Incubator.
 This page is a template for the download page once an Apache version is available.
 </div>
 
+**Contents**
+
 [TOC]
 
 ## Apache releases
