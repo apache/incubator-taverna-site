@@ -145,14 +145,14 @@ Open the file in the editor using the **Edit in CMS** bookmarklet:
 <a name=editing-tips></a>
 ## Editing tips
 
-### Writing tips:
+### Writing tips
 
  * **Keep it simple.** Use [Plain English](https://en.wikipedia.org/wiki/Plain_English).
 
  * **Focus on the main questions** you imagine will be faced by someone new to the topic, rather than explaining every possibility.
 
 
-### Linking tips:
+### Linking tips
 
   * **Avoid [click here](http://www.cs.tut.fi/~jkorpela/www/click.html) links.**
 Link text should be understandable and flow with the text. Rewrite the sentence, if needed.
@@ -195,7 +195,7 @@ Link text should be understandable and flow with the text. Rewrite the sentence,
   * **Link to source code.** More people may appreciate it than you think. Who knows, maybe a patch is around the corner? **Deep-link to source folder/file** under the `incubator-taverna-*` project at
    [GitHub](http://github.com/apache/)
 
-### Adding a new page:
+### Adding a new page
 
   * **Use a short, neutral and sensible URI**
 
