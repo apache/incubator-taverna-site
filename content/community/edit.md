@@ -34,6 +34,7 @@ Please follow the <a href="#editing-tips">editing guidelines</a> when making cha
 (Raw pages are stored in the <a href="http://svn.apache.org/repos/asf/incubator/taverna/site/">SVN repository asf/incubator/taverna/site</a>.)
 
 
+-----
 <a name=github></a>
 ## Github pull requests
 
@@ -57,6 +58,7 @@ Please sign up to [dev@taverna](/community/lists#devtaverna)
 to watch for any follow-up comments about your changes.
 
 
+-----
 <a name=apache-cms></a>
 ## Apache CMS
 
@@ -138,6 +140,7 @@ Open the file in the editor using the **Edit in CMS** bookmarklet:
    otherwise keep editing
 
 
+-----
 <a name=editing-tips></a>
 ## Editing tips
 
