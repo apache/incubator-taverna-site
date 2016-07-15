@@ -95,9 +95,8 @@ In this case, your suggested edit will be sent as a patch to the
 [dev@taverna](/community/lists#devtaverna) mailing list. Please subscribe to the mailing list to receive and respond to any feedback.
 
 
------
 <a name=cms-for-committers></a>
-## CMS usage for committers
+### How to use the CMS
 
 Before editing an Apache Taverna web page, familiarize yourself with the [CMS information flow](http://www.apache.org/dev/cmsref.html#flow).
 
@@ -105,7 +104,7 @@ Before editing an Apache Taverna web page, familiarize yourself with the [CMS in
 
 For details, see the [Apache CMS reference](http://www.apache.org/dev/cmsref.html).
 
-### Opening the file
+**Opening the file.**
 Open the file in the editor using the **Edit in CMS** bookmarklet:
 
  * Navigate to the page you want to edit.
@@ -126,7 +125,8 @@ Open the file in the editor using the **Edit in CMS** bookmarklet:
 
  * `[Edit]` the file(s).
 
-### Committing and publishing your changes
+**Committing and publishing your changes.**
+
  * Tick `Quick Commit : [ ]`, enter a commit message, and click `Submit`.
  \**You forgot the Quick Commit? No problem! Click `[Commit]` and enter your message followed by `Submit`.
 
