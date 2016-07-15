@@ -90,8 +90,7 @@ prefer not to use GitHub, or if you want to suggest larger changes that
 involve renames, etc.
 
 Note that in this case your suggested edit will be sent as a patch to the
-[dev@taverna](/community/lists#devtaverna) mailing list,
-which you should subscribe to in order to respond to any feedback.
+[dev@taverna](/community/lists#devtaverna) mailing list. Please subscribe to the mailing list to receive and respond to any feedback.
 
 
 <a name=cms-for-committers></a>
@@ -107,11 +106,14 @@ For details, see the [Apache CMS reference](http://www.apache.org/dev/cmsref.htm
 Open the file in the editor using the **Edit in CMS** bookmarklet:
 
  * Navigate to the page you want to edit
+
  * Click the bookmarklet and log in
+
  * Click `[Update]` to refresh the page
+
  * Click `[Edit]` to enter the editor
 
-*Or* use the [Apache CMS](https://cms.apache.org/taverna/):
+*Or* use the **[Apache CMS](https://cms.apache.org/taverna/)**:
 
  * Click `Get taverna Working Copy`
  * Click on `Parent Directory`, and then click `[Update this directory]`
@@ -119,8 +121,8 @@ Open the file in the editor using the **Edit in CMS** bookmarklet:
  * `[Edit]` the file(s)
 
 ### Committing and publishing your changes
- * Tick `Quick Commit : [ ]` and click `Submit`
- ** You forgot the Quick Commit? No problem! Now, click `[Commit]` followed by `Submit`.
+ * Tick `Quick Commit : [ ]`, enter a commit message, and click `Submit`.
+ \**You forgot the Quick Commit? No problem! Click `[Commit]` and enter your message followed by `Submit`.
 
  * Click `[View Staging Build]` to see if the CMS has built your changes. (Usually
    this is quite quick.) Refresh the page, as necessary, to make sure there are no "Current" or "Pending" jobs before you continue.
@@ -162,7 +164,7 @@ Link text should be understandable and flow with the text. Rewrite the sentence,
 
   * **Everything is easier with a link.**
 
-    * Don't just say "You can find more in the documentation" - link to the right place in the documentation.
+    * Link to the right place in the documentation rather than saying, "You can find more in the documentation."
 
     * Deep-links are good, unless the target pages become confusing.
 
@@ -177,7 +179,7 @@ Link text should be understandable and flow with the text. Rewrite the sentence,
 
   * **Start internal links with `/`** unless they are part of the same sub-folder.
 
-  * **Don't include extensions** (`.html` or `.cgi`) in the internal links. It doesn't just look nice, this gives us flexibility to later use a folder `page/` instead of `page.html`.
+  * **Don't include extensions** (`.html` or `.cgi`) in the internal links. It not only looks nice, but also gives us flexibility to later use a folder `page/` instead of `page.html`.
 
     * YES: `/introduction/why-use-workflows`
 
