@@ -54,7 +54,7 @@ This will send an email on your behalf to the
 an Apache Taverna committer will review your change before making it live
 on the website.
 Please sign up to [dev@taverna](/community/lists#devtaverna)
-to watch for to any follow-up comments about your changes.
+to watch for any follow-up comments about your changes.
 
 
 <a name=apache-cms></a>
@@ -89,7 +89,7 @@ This can be beneficial if you
 prefer not to use GitHub, or if you want to suggest larger changes that
 involve renames, etc.
 
-Note that in this case your suggested edit will be sent as a patch to the
+In this case, your suggested edit will be sent as a patch to the
 [dev@taverna](/community/lists#devtaverna) mailing list. Please subscribe to the mailing list to receive and respond to any feedback.
 
 
@@ -105,20 +105,23 @@ For details, see the [Apache CMS reference](http://www.apache.org/dev/cmsref.htm
 ### Opening the file
 Open the file in the editor using the **Edit in CMS** bookmarklet:
 
- * Navigate to the page you want to edit
+ * Navigate to the page you want to edit.
 
- * Click the bookmarklet and log in
+ * Click the bookmarklet and log in.
 
- * Click `[Update]` to refresh the page
+ * Click `[Update]` to refresh the page.
 
- * Click `[Edit]` to enter the editor
+ * Click `[Edit]` to enter the editor.
 
 *Or* use the **[Apache CMS](https://cms.apache.org/taverna/)**:
 
- * Click `Get taverna Working Copy`
- * Click on `Parent Directory`, and then click `[Update this directory]`
- * `Browse` to the correct folder under `content/`
- * `[Edit]` the file(s)
+ * Click `Get taverna Working Copy`.
+
+ * Click on `Parent Directory`, and then click `[Update this directory]`.
+
+ * `Browse` to the correct folder under `content/`.
+
+ * `[Edit]` the file(s).
 
 ### Committing and publishing your changes
  * Tick `Quick Commit : [ ]`, enter a commit message, and click `Submit`.
