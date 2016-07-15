@@ -18,9 +18,10 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 <div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 Taverna is transitioning to the Apache Incubator.
-Currently there is no Apache release of any Taverna products.
 This page is a template for the download page once an Apache version is available.
 </div>
+
+[TOC]
 
 ## Apache releases
 
