@@ -81,9 +81,9 @@ but are not in the `incubator` group,  your suggested edit will be sent as a pat
 Subscribe to the mailing list to respond to any feedback.
 
 
-### Anonymous use of CMS
+### Anonymous login
 
->It is possible to log on to the
+>It is possible to login to the
 [CMS without an Apache account](http://www.apache.org/dev/cmsref.html#faq),
 by using the username `anonymous` and an empty password.
 
