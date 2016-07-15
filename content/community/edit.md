@@ -95,6 +95,7 @@ In this case, your suggested edit will be sent as a patch to the
 [dev@taverna](/community/lists#devtaverna) mailing list. Please subscribe to the mailing list to receive and respond to any feedback.
 
 
+-----
 <a name=cms-for-committers></a>
 ## CMS usage for committers
 
@@ -194,7 +195,7 @@ Link text should be understandable and flow with the text. Rewrite the sentence,
   * **Link to source code.** More people may appreciate it than you think. Who knows, maybe a patch is around the corner? **Deep-link to source folder/file** under the `incubator-taverna-*` project at
    [GitHub](http://github.com/apache/)
 
-### If you are adding a new page:
+### Adding a new page:
 
   * **Use a short, neutral and sensible URI**
 
