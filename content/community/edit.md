@@ -44,8 +44,7 @@ where you can navigate to the source for the page you want to edit.
 >*Anyone with a GitHub account*
 can suggest an edit to an Apache Taverna page directly in the browser.
 
-Note that **GitHub's rendering of the Markdown is not 100% equivalent** to the resulting HTML
-within the Apache CMS.  In particular, the `Title:` and `License:` headers at the top
+Note that **GitHub's rendering of the Markdown is not 100% equivalent** to the resulting Apache CMS HTML.  In particular, the `Title:` and `License:` headers at the top
 of every `.md` file will not be rendered as shown on GitHub.
 
 To submit your suggested change, raise a
@@ -65,19 +64,17 @@ If you are an **Apache Taverna committer**, use the
 [Apache CMS](http://www.apache.org/dev/cmsref.html) directly from
 [https://cms.apache.org/taverna/](https://cms.apache.org/taverna/) using your `@apache.org` account as login.
 
-Committers can also drag the
+>Committers can also drag the
 <a href="javascript:void(location.href='https://cms.apache.org/redirect?uri='+escape(location.href))">Edit in CMS</a>
  bookmarklet to your browser toolbar or bookmark collection.
 
-See <a href="#cms-for-committers">CMS usage for committers</a> for how to use the Apache CMS.
+<a href="#cms-for-committers">CMS usage for committers</a> describes how to use the Apache CMS.
 
 ### Non-Taverna Apache committers
 
 If you are an existing
 [Apache committer](https://people.apache.org/phonebook.html?unix=committers),
-but don't have write access to the pages
-(e.g. you are not in the `incubator` group),  your edit will be sent as a
- suggested patch to the
+but are not in the `incubator` group,  your suggested edit will be sent as a patch to the
 [dev@taverna](/community/lists#devtaverna) mailing list.
 Subscribe to the mailing list to respond to any feedback.
 
@@ -92,7 +89,7 @@ This can be beneficial if you
 prefer not to use GitHub, or if you want to suggest larger changes that
 involve renames, etc.
 
-Note that in this case your edit will be sent as a suggested patch to the
+Note that in this case your suggested edit will be sent as a patch to the
 [dev@taverna](/community/lists#devtaverna) mailing list,
 which you should subscribe to in order to respond to any feedback.
 
@@ -114,7 +111,7 @@ Open the file in the editor using the **Edit in CMS** bookmarklet:
  * Click `[Update]` to refresh the page
  * Click `[Edit]` to enter the editor
 
-*Or* use the [Apache CMS]((https://cms.apache.org/taverna/):
+*Or* use the [Apache CMS](https://cms.apache.org/taverna/):
 
  * Click `Get taverna Working Copy`
  * Click on `Parent Directory`, and then click `[Update this directory]`
@@ -123,10 +120,10 @@ Open the file in the editor using the **Edit in CMS** bookmarklet:
 
 ### Committing and publishing your changes
  * Tick `Quick Commit : [ ]` and click `Submit`
- ** You forgot the Quick Commit? No problem! Now click `[Commit]` followed by `Submit`.
+ ** You forgot the Quick Commit? No problem! Now, click `[Commit]` followed by `Submit`.
 
- * Click `[View Staging Build]` to see if CMS has built your changes. Usually
-   this is quite quick. Refresh the page, as necessary, to make sure there are no "Current" or "Pending" jobs before you continue.
+ * Click `[View Staging Build]` to see if the CMS has built your changes. (Usually
+   this is quite quick.) Refresh the page, as necessary, to make sure there are no "Current" or "Pending" jobs before you continue.
 
  * Click `[Staging]` to see the result of your change (and anyone else's at the same time)
    at the temporary
@@ -148,7 +145,8 @@ Open the file in the editor using the **Edit in CMS** bookmarklet:
 
 ### Linking tips:
 
-  * **Avoid [click here](http://www.cs.tut.fi/~jkorpela/www/click.html) links.** Link text should be understandable and flow with the text. Rewrite the sentence, if needed.
+  * **Avoid [click here](http://www.cs.tut.fi/~jkorpela/www/click.html) links.**
+Link text should be understandable and flow with the text. Rewrite the sentence, if needed.
 
     * YES: *"Code is generated automatically by the [CodeGenerator](#) class."*
 
@@ -166,7 +164,7 @@ Open the file in the editor using the **Edit in CMS** bookmarklet:
 
     * Don't just say "You can find more in the documentation" - link to the right place in the documentation.
 
-    * Deep-links are good, unless the target pages become confusing out of context.
+    * Deep-links are good, unless the target pages become confusing.
 
   * **Don't break existing hyperlinks** to our pages. (They could be linked-to anywhere on the web.)
 
@@ -185,9 +183,7 @@ Open the file in the editor using the **Edit in CMS** bookmarklet:
 
     * NO:  `/introduction/why-use-workflows.html`   
 
-  * **Link to source code.** More people may appreciate it than you think. Who knows, maybe a patch is around the corner?
-
-    * Deep-link to source folder/file under the `incubator-taverna-*` project at
+  * **Link to source code.** More people may appreciate it than you think. Who knows, maybe a patch is around the corner? **Deep-link to source folder/file** under the `incubator-taverna-*` project at
    [GitHub](http://github.com/apache/)
 
 ### If you are adding a new page:
@@ -199,7 +195,6 @@ Open the file in the editor using the **Edit in CMS** bookmarklet:
     * NO: `the%20taverna%20community/contact-us-2`
 
   * **Link from/to relevant existing Apache Taverna pages** (not just the hierarchical parent).
-
-  For example, if `/code` is describing the source code, and `/community` different ways to contribute, `/code` should link to the `/community` page and vice versa.
+  For example, if `/code` describes the source code, and `/community` different ways to contribute, `/code` should link to the `/community` page and vice versa.
 
   * **Include the page in the [navigation menu bar](https://github.com/apache/incubator-taverna-site/blob/trunk/templates/navbar.html)** and in the listing of a higher-level page.
