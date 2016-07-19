@@ -18,13 +18,14 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 You can contact and participate in the Apache Taverna community through the <strong>mailing lists</strong>.
 
-The mailing lists are public. We suggest that all Taverna users join the <em>users@taverna</em> list
+The main mailing lists are public. We suggest that all Taverna users join the <em>users@taverna</em> list
 – this allows us to notify you of any critical issues or upcoming changes and allows you to have
 a say in the future development of Taverna. Anyone using the Taverna APIs in their own code
-would be well advised to join both <em>dev@taverna</em> and <em>users@taverna</em>.
+would be well advised to join both <em>dev@taverna</em> and <em>users@taverna</em>. 
+Use the <a href="#private">private</a> mailing list for topics such as security concerns or sensitive communications.
 
 
-
+## Public mailing lists
 
 <a name="users"></a>
 ### users@taverna
@@ -89,10 +90,12 @@ This list is high-traffic, from 100 to 1000 messages pr month.
   - [List information and archive for commits@taverna](http://mail-archives.apache.org/mod_mbox/incubator-taverna-commits/)
 
 
+## Private mailing list
+
 <a name="private"></a>
 ### private@taverna
 
 <em>private@taverna.incubator.apache.org</em> can be used for sensitive information that should not be made public
-in mailing list archives. Only members of the [Apache Taverna PPMC](/about/) will receive the email. Only use this list
-if the public lists cannot be used, for instance for business-sensitive matters, grant proposals and collaborations,
-security concerns or to report concerns on personal conflicts/abuse.
+in mailing list archives. Only members of the [Apache Taverna PPMC](/about/) will receive the email. Use this list *only 
+if the public lists cannot be used*, for instance for business-sensitive matters, grant proposals and collaborations,
+security concerns, or to report concerns on personal conflicts/abuse.
