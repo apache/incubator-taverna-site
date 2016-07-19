@@ -22,7 +22,7 @@ The main mailing lists are public. We suggest that all Taverna users join the <e
 – this allows us to notify you of any critical issues or upcoming changes and allows you to have
 a say in the future development of Taverna. Anyone using the Taverna APIs in their own code
 would be well advised to join both <em>dev@taverna</em> and <em>users@taverna</em>. 
-The <a href="#private">private</a> mailing list is only for information that should not be made public.
+The <a href="#private">private mailing list</a> is only for information that should not be made public.
 
 
 ## Public mailing lists
