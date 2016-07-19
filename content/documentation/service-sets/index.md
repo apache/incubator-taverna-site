@@ -24,7 +24,7 @@ You can add a set of services to the Workbench [Service Panel](/documentation/gl
 by right-clicking on *Available Services*.
 The service set can either be **specified in a file**, or **downloaded from a URL** on the Web that
    points to the service description file.
-You have the choice to replace your current set of services, or to add to your set of services.
+You have the choice to **replace** your current set of services, or **add** to your set of services.
 
 Note that the service templates and local services are not removed when you replace your service
    set.
