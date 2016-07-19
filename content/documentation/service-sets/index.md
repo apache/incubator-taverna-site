@@ -1,4 +1,4 @@
-Title:     Using service sets
+Title:     Using service sets in Workbench
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -20,7 +20,8 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
    for example a compatible functionality or suitability for a domain.
 
 ## Adding service sets
-You can add a set of services to the Service Panel by right-clicking on *Available Services*.
+You can add a set of services to the Workbench [Service Panel](/documentation/glossary#service_panel) 
+by right-clicking on *Available Services*.
 The service set can either be **specified in a file**, or **downloaded from a URL** on the Web that
    points to the service description file.
 You have the choice to replace your current set of services, or to add to your set of services.
@@ -29,8 +30,8 @@ Note that the service templates and local services are not removed when you repl
    set.
 
 ## Saving service sets
-You can save the set of services in the
-   [Service Panel](/documentation/glossary#service_panel) of the Workbench by right-clicking on
+You can save the set of services in the Service Panel of the Workbench 
+    by right-clicking on
    *Available Services* in the Service Panel.
 
 ## Available service sets
