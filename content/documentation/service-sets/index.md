@@ -19,11 +19,6 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 >A *service set* is a collection of services that have something in common,
    for example a compatible functionality or suitability for a domain.
 
-## Saving service sets
-You can save the set of services in the
-   [Service Panel](/documentation/glossary#service_panel) of the Workbench by right-clicking on
-   *Available Services* in the Service Panel.
-
 ## Adding service sets
 You can add a set of services to the Service Panel by right-clicking on *Available Services*.
 The service set can either be **specified in a file**, or **downloaded from a URL** on the Web that
@@ -33,35 +28,32 @@ You have the choice to replace your current set of services, or to add to your s
 Note that the service templates and local services are not removed when you replace your service
    set.
 
+## Saving service sets
+You can save the set of services in the
+   [Service Panel](/documentation/glossary#service_panel) of the Workbench by right-clicking on
+   *Available Services* in the Service Panel.
+
 ## Available service sets
 Currently available service sets include:
 
- - [NCBI Entrez Utilities Web service set](http://www.myexperiment.org/packs/132.html) -
-    a set of
+### NCBI Entrez Utilities
+The [NCBI Entrez Utilities Web service set](http://www.myexperiment.org/packs/132.html) includes a set of
     [NCBI Entrez services](http://www.ncbi.nlm.nih.gov/books/NBK25499/)
     providing access to the following utilities:
+-     [EGQuery](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EGQuery)
+-     [ESummary](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESummary)
+-     [EInfo](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EInfo)
+-     [ELink](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ELink)
+-     [ESearch](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESearch)
+-     [ESpell](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESpell)
+-     [EPost](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EPost)
+-     [EFetch](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EFetch)
 
-    -     [EGQuery](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EGQuery)
-
-    -     [ESummary](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESummary)
-
-    -     [EInfo](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EInfo)
-
-    -     [ELink](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ELink)
-
-    -     [ESearch](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESearch)
-
-    -     [ESpell](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESpell)
-
-    -     [EPost](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EPost)
-
-    -     [EFetch](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EFetch)
-
-
- - [Chemistry Web service set](http://www.myexperiment.org/packs/135.html) -
-     a set of Web services for chemistry provided by
+### Chemistry
+The [Chemistry Web service set](http://www.myexperiment.org/packs/135.html) is a set of Web services for chemistry provided by
      [ChemSpider](/introduction/chemistry-web-services#chemspider),
      [ChEBI](/introduction/chemistry-web-services#chebi) and
      [PubChem](/introduction/chemistry-web-services#pubchem).
 
->You can also find [service sets on myExperiment](http://www.myexperiment.org/tags/1963.html).
+### myExperiment
+You can also find [service sets on myExperiment](http://www.myexperiment.org/tags/1963.html).
