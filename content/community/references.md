@@ -24,13 +24,14 @@ See also [publications](/community/publications) and [how to cite Taverna](/comm
 
 ## 2016
 
-Arzu Tugce Guler, Cathelijn J. F. Waaijer, Magnus Palmblad. (2016):
+
+Arzu Tugce Guler, Cathelijn J. F. Waaijer, Magnus Palmblad. (2016).
 **Scientific workflows for bibliometrics.**
-In: *Scientometrics*. **107**(2) 385-̣398.
-[doi:10.1007/s11192-016-1885-6](http://dx.doi.org/10.1007/s11192-016-1885-6).
+In: *Scientometrics*. **107**(2): 385&ndash;398.
+[doi:10.1007/s11192-016-1885-6](http://dx.doi.org/10.1007/s11192-016-1885-6)
 
 
-H Munir, A Benjamin, JW Allwood, WB Dunn, S He, GB Nash, HM McGettrick (2016):
+H Munir, A Benjamin, JW Allwood, WB Dunn, S He, GB Nash, HM McGettrick. (2016).
 **A1.18 Mesenchymal stem cells lose their immuno-protective effects upon changes in their local microenvironment**
 In: _Annals of the Rheumatic Diseases_ 2016 **75**(A8).
 [doi:10.1136/annrheumdis-2016-209124.18](http://dx.doi.org/10.1136/annrheumdis-2016-209124.18)
@@ -39,97 +40,111 @@ In: _Annals of the Rheumatic Diseases_ 2016 **75**(A8).
 
 Khalid Belhajjame, Jun Zhao, Daniel Garijo, Matthew Gamble, Kristina Hettne, Ra&uacute;l Palma,
 Eleni Mina, Oscar Corcho, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, Sean Bechhofer,
-Graham Klyne, Carole Goble. (2015)
+Graham Klyne, Carole Goble. (2015).
 **Using a suite of ontologies for preserving workflow-centric research objects.**
-In: *Journal of Web Semantics: Scence, Services and Agents on the World Wide Web*. 32: 16&ndash;42.
+In: *Journal of Web Semantics: Scence, Services and Agents on the World Wide Web*. **32**: 16&ndash;42.
 [doi:10.1016/j.websem.2015.01.003](http://dx.doi.org/10.1016/j.websem.2015.01.003)
 
 Sonja Holl, Yassene Mohammed, Olav Zimmermann, Magnus Palmblad. (2015).
 **Scientific workflow optimization for improved peptide and protein identification.**
-In: *BMC Bioinformatics* 16(1): 1-13.
+In: *BMC Bioinformatics* **16**(1): 1&ndash;13.
 [doi:10.1186/s12859-015-0714-x](http://dx.doi.org/10.1186/s12859-015-0714-x)
 
-Steve O’Hagan, Douglas B. Kell (2015):
+Steve O’Hagan, Douglas B. Kell. (2015).
 **Software review: the KNIME workflow environment and its applications in genetic programming and machine learning**.
-In: *Genetic Programming and Evolvable Machines* **16**(3) 387-391.
+In: *Genetic Programming and Evolvable Machines* **16**(3) 387&ndash;391.
 [doi:10.1007/s10710-015-9247-3](http://dx.doi.org/10.1007/s10710-015-9247-3)
 [[preprint]](http://www.taverna.org.uk/pages/wp-content/uploads/2015/2015-Hagan-Kell-KNIME-software-review.pdf)
 
-Renato De Giovanni, Alan R. Williams, Vera Hernández Ernst, Robert Kulawik, Francisco Quevedo Fernandez, Alex R. Hardisty (2015):
+Renato De Giovanni, Alan R. Williams, Vera Hernández Ernst, Robert Kulawik, Francisco Quevedo Fernandez, 
+Alex R. Hardisty. (2015).
 **ENM Components: a new set of web service-based workflow components for ecological niche modelling**.
 In: *Ecography* **39**(4).
 [doi:10.1111/ecog.01552](http://dx.doi.org/10.1111/ecog.01552)
 
-Edward Baker, Ben W. Price, S. D. Rycroft1, Jon Hill, Vincent S. Smith (2015):
+Edward Baker, Ben W. Price, S. D. Rycroft1, Jon Hill, Vincent S. Smith. (2015).
 **BioAcoustica: a free and open repository and analysis platform for bioacoustics**
 In *Database*  **2015**(bav054).
 [doi:10.1093/database/bav054](http://dx.doi.org/10.1093/database/bav054)
 
-Yassene Mohammed, Christoph H. Borchers (2015):
+Yassene Mohammed, Christoph H. Borchers. (2015).
 **An extensive library of surrogate peptides for all human proteins**
-_Journal of Proteomics_ **129** 93-97.
+_Journal of Proteomics_ **129**: 93&ndash;97.
 [doi:10.1016/j.jprot.2015.07.025](http://dx.doi.org/10.1016/j.jprot.2015.07.025)
 [[researchgate]](https://www.researchgate.net/publication/280602358_An_Extensive_Library_of_Surrogate_Peptides_for_all_Human_Proteins)
 _preprint not currently available_
 
-Ji Liu, Esther Pacitti, Patrick Valduriez, Marta Mattoso (2015):
+Ji Liu, Esther Pacitti, Patrick Valduriez, Marta Mattoso. (2015).
 **A Survey of Data-Intensive Scientific Workflow Management**
-In: _Journal of Grid Computing_ **13** 457-493.
+In: _Journal of Grid Computing_ **13**: 457&ndash;493.
 [doi:10.1007/s10723-015-9329-8](http://dx.doi.org/10.1007/s10723-015-9329-8)
 [[pdf]](http://www-sop.inria.fr/members/Patrick.Valduriez/pmwiki/Patrick/uploads//Publications/jogc2015)
 [[researchgate]](https://www.researchgate.net/publication/304292492_A_Survey_on_Scheduling_Workflows_in_Cloud_Environment)
 
 
-Susana Sánchez Expósito, Pablo Martín, Jose Enrique Ruíz, Lourdes Verdes-Montenegro, Julian Garrido, Raül Sirvent Pardell, Antonio Ruíz Falcó, Rosa Badia (2015):
+Susana Sánchez Expósito, Pablo Martín, Jose Enrique Ruíz, Lourdes Verdes-Montenegro, Julian Garrido, 
+Raül Sirvent Pardell, Antonio Ruíz Falcó, Rosa Badia. (2015).
 **Web services as building blocks for Science Gateways in Astrophysics**.
 At: _7th International Workshop on Science Gateways (IWSG) 2015_
 [doi:10.1109/IWSG.2015.7](http://dx.doi.org/10.1109/IWSG.2015.7)
 [[pdf]](http://amiga.iaa.es/FCKeditor/UserFiles/File/BuildingBlocks.pdf)
 
-Fabrizio Marozzo, Domenico Talia, Paolo Trunfio (2015):
+Fabrizio Marozzo, Domenico Talia, Paolo Trunfio. (2015).
 **JS4Cloud: script-based workflow programming for scalable data analysis on cloud platforms**
-In: _Concurrency and Computation: Practice and Experience_. **27**(17) 5214–5237.
+In: *Concurrency and Computation: Practice and Experience*. **27**(17)" 5214&ndash;5237.
 [doi:10.1002/cpe.3563](http://dx.doi.org/10.1002/cpe.3563)
 [[researchgate]](https://www.researchgate.net/publication/280971659_JS4Cloud_Script-based_workflow_programming_for_scalable_data_analysis_on_cloud_platforms)
 
-Jeremy Leipzig (2015):
+Jeremy Leipzig. (2015).
 **A review of bioinformatic pipeline frameworks**.
-In: _Briefings in bioinformatics_ (2016) 1-7 bbw020.  
+In: _Briefings in bioinformatics_ (2016) 1&ndash;7 bbw020.  
 [doi:10.1093/bib/bbw020](http://dx.doi.org/10.1093/bib/bbw020)
 
 ## 2014
 
-Pinar Alper, Carole A Goble, Khalid Belhajjame (2014):
+Pinar Alper, Carole A Goble, Khalid Belhajjame. (2014).
 **"On assisting scientific data curation in collection-based dataflows using labels,"**
-in *Proceedings of the 8th Workshop on Workflows in Support of Large-Scale Science (WORKS'13)*: 7-16.
+in *Proceedings of the 8th Workshop on Workflows in Support of Large-Scale Science (WORKS'13)*: 7&ndash;16.
 [doi:10.1145/2534248.2534249](http://dx.doi.org/10.1145/2534248.2534249)
 [[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:236944)
 [[preprint]](https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:236944&datastreamId=SUPPLEMENTARY-1.PDF)
 
-Kristina M. Hettne, Harish Dharuri, Jun Zhao, Katherine Wolstencroft, Khalid Belhajjame, Stian Soiland-Reyes, Eleni Mina, Mark Thompson, Don Cruickshank, Lourdes Verdes-Montenegro, Juli&aacute;n Garrido, David De Roure, &Oacute;scar Corcho, Graham Klyne, Reinout van Schouwen, Peter A. C. 't Hoen, Sean Bechhofer, Carole A. Goble, Marco Roos. (2014).
+Kristina M. Hettne, Harish Dharuri, Jun Zhao, Katherine Wolstencroft, Khalid Belhajjame, 
+Stian Soiland-Reyes, Eleni Mina, Mark Thompson, Don Cruickshank, Lourdes Verdes-Montenegro, 
+Juli&aacute;n Garrido, David De Roure, &Oacute;scar Corcho, Graham Klyne, Reinout van Schouwen, 
+Peter A. C. 't Hoen, Sean Bechhofer, Carole A. Goble, Marco Roos. (2014).
 **Structuring research methods and data with the research object model: genomics workflows as a case study.**
-In: *Journal of Biomedical Semantics* 5:41.
+In: *Journal of Biomedical Semantics* **5**: 41.
 [doi:10.1186/2041-1480-5-41](http://dx.doi.org/10.1186/2041-1480-5-41)
 
-Cherian Mathew, Anton G&uuml;ntsch, Matthias Obst, Saverio Vicario, Robert Haines, Alan R. Williams, Yde de Jong, Carole Goble. (2014).
+Cherian Mathew, Anton G&uuml;ntsch, Matthias Obst, Saverio Vicario, Robert Haines, Alan R. Williams, 
+Yde de Jong, Carole Goble. (2014).
 **A semi-automated workflow for biodiversity data retrieval, cleaning, and quality control.**
-In: *Biodiversity Data Journal*, 2: e4221. [doi:10.3897/BDJ.2.e4221](http://dx.doi.org/10.3897/BDJ.2.e4221)
+In: *Biodiversity Data Journal*, **2**: e4221. [doi:10.3897/BDJ.2.e4221](http://dx.doi.org/10.3897/BDJ.2.e4221)
 
-Kevin R. Page, Ra&uacute;l Palma, Piotr Ho&#322;ubowicz, Graham Klyne, Stian Soiland-Reyes, Daniel Garijo, Khalid Belhajjame, and Rudolf Mayer. (2014).
+Kevin R. Page, Ra&uacute;l Palma, Piotr Ho&#322;ubowicz, Graham Klyne, Stian Soiland-Reyes, 
+Daniel Garijo, Khalid Belhajjame, and Rudolf Mayer. (2014).
 **"Research Objects for Audio Processing: Capturing Semantics for Reproducibility,"**
 in *53rd Audio Engineering Society International Conference on Semantic Audio (January 2014)*.
 [[Proceedings]](http://www.aes.org/e-lib/browse.cfm?elib=17116)
 [[Preprint]](https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:213117&datastreamId=SUPPLEMENTARY-1.PDF)
 [[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:213117)
 
-Rutger Aldo Vos, Jordan Valkov Biserkov, Bachir Balech, Niall Beard, Matthew Blissett, Christian Brenninkmeijer, Tom van Dooren, David Eades, George Gosline, Quentin John Groom, Thomas D. Hamann, Hannes Hettling, Robert Hoehndorf, Ayco Holleman, Peter Hovenkamp, Patricia Kelbert, David King, Don Kirkup, Youri Lammers, Thibaut DeMeulemeester, Daniel Mietchen, Jeremy A. Miller, Ross Mounce, Nicola Nicolson, Rod Page, Aleksandra Pawlik, Serrano Pereira, Lyubomir Penev, Kevin Richards, Guido Sautter, David Peter Shorthouse, Marko T&auml;htinen, Claus Weiland, Alan R. Williams, Soraya Sierra. (2014).
+Rutger Aldo Vos, Jordan Valkov Biserkov, Bachir Balech, Niall Beard, Matthew Blissett, 
+Christian Brenninkmeijer, Tom van Dooren, David Eades, George Gosline, Quentin John Groom, 
+Thomas D. Hamann, Hannes Hettling, Robert Hoehndorf, Ayco Holleman, Peter Hovenkamp, 
+Patricia Kelbert, David King, Don Kirkup, Youri Lammers, Thibaut DeMeulemeester, Daniel Mietchen, 
+Jeremy A. Miller, Ross Mounce, Nicola Nicolson, Rod Page, Aleksandra Pawlik, Serrano Pereira, 
+Lyubomir Penev, Kevin Richards, Guido Sautter, David Peter Shorthouse, Marko T&auml;htinen, 
+Claus Weiland, Alan R. Williams, Soraya Sierra. (2014).
 **Enriched biodiversity data as a resource and service**.
 In: *Biodiversity Data Journal*, 2: e1125.
 [doi:10.3897/BDJ.2.e1125](http://dx.doi.org/10.3897/BDJ.2.e1125)
 
-Ahmet Yildiz, Erkan Dilaveroglu, Ilhami Visne, Bilal G&uuml;nay, Emrah Sefer, Andreas Weinhausel, Frank Rattay, Carole A Goble, Ram Vinay Pandey, Albert Kriegner. (2014).
+Ahmet Yildiz, Erkan Dilaveroglu, Ilhami Visne, Bilal G&uuml;nay, Emrah Sefer, Andreas Weinhausel, 
+Frank Rattay, Carole A Goble, Ram Vinay Pandey, Albert Kriegner. (2014).
 **BIFI: a Taverna plugin for a simplified and user-friendly workflow platform.**
-In: *BMC Research Notes*, 7: 740.
+In: *BMC Research Notes*, **7**: 740.
 [doi:10.1186/1756-0500-7-740](http://dx.doi.org/10.1186/1756-0500-7-740)
 
 ## 2013
@@ -141,7 +156,7 @@ in *Proceedings of the Joint EDBT/ICDT 2013 Workshops (EDBT'13)*, 18&ndash;22 Ma
 [[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:282297)
 [[preprint]](https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:282297&datastreamId=SUPPLEMENTARY-1.PDF)
 
-Pinar Alper, Khalid Belhajjame, Carole Goble, Pinar Karagoz.  (2013).
+Pinar Alper, Khalid Belhajjame, Carole Goble, Pinar Karagoz. (2013).
 **"Small Is Beautiful: Summarizing Scientific Workflows Using Semantic Annotations,"**
 in *Big Data (BigData Congress), 2013 IEEE International Congress on*, 27 Jun&ndash;2 July 2013: 318&ndash;325.
 [doi:10.1109/BigData.Congress.2013.49](http://dx.doi.org/10.1109/BigData.Congress.2013.49)
@@ -161,7 +176,7 @@ In: *Future Generation Computer Systems*, 36: 338-351.
 [doi:10.1016/j.future.2013.09.018](http://dx.doi.org/10.1016/j.future.2013.09.018)
 [[preprint]](http://oa.upm.es/21854/1/1-s2_0-S0167739X13001970-main.pdf)
 
-Carole Goble, David De Roure and Sean Bechhofer (2013):
+Carole Goble, David De Roure and Sean Bechhofer. (2013).
 **"Accelerating Scientists&rsquo; Knowledge Turns."**
 in *Communications in Computer and Information Science, Vol 348*.  Springer, Berlin, 8 June 2013: 3&ndash;25.
 [doi:10.1007/978-3-642-37186-8_1](http://dx.doi.org/10.1007/978-3-642-37186-8_1)
@@ -170,23 +185,29 @@ in *Communications in Computer and Information Science, Vol 348*.  Springer, Ber
 
 ## 2012
 
-Kahlid Belhajjame, Oscar Corcho, Daniel Garijo, Jun Zhao, Paolo Missier, David Newman, Ra&uacute;l Palma, Sean Bechhofer, Esteban Garc&iacute;a Cuesta, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, Graham Klyne, Kevin Page, Marco Roos, Jos&eacute; Ruiz, Stian Soiland-Reyes, Lourdes Verdes-Montenegro, David De Roure, Carole Goble. (2012).
+Kahlid Belhajjame, Oscar Corcho, Daniel Garijo, Jun Zhao, Paolo Missier, David Newman, 
+Ra&uacute;l Palma, Sean Bechhofer, Esteban Garc&iacute;a Cuesta, Jos&eacute; 
+Manuel G&oacute;mez-P&eacute;rez, Graham Klyne, Kevin Page, Marco Roos, Jos&eacute; Ruiz, 
+Stian Soiland-Reyes, Lourdes Verdes-Montenegro, David De Roure, Carole Goble. (2012).
 **"Workflow-Centric Research Objects: First Class Citizens in Scholarly Discourse,"**
 in *Proceedings of Workshop on the Semantic Publishing (SePublica 2012)*, 28 May 2012: 1&ndash;12.
 [[escholar]](https://www.escholar.manchester.ac.uk/uk-ac-man-scw:236961)
 [[preprint]](https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:192020&datastreamId=POST-PEER-REVIEW-NON-PUBLISHERS.PDF)
 
-Kristina Hettne, Stian Soiland-Reyes, Graham Klyne, Kahlid Belhajjame, Matthew Gamble, Sean Bechhofer, Marco Roos, Oscar Corcho. (2012).
+Kristina Hettne, Stian Soiland-Reyes, Graham Klyne, Kahlid Belhajjame, Matthew Gamble, Sean Bechhofer, 
+Marco Roos, Oscar Corcho. (2012).
 **"Workflow forever: semantic web semantic models and tools for preserving and digitally publishing computational experiments,"**
 in *Proceedings of the 4th International Workshop on Semantic Web Applications and Tools for the Life Sciences (SWAT4LS'11)*: 36&ndash;37.
 [doi:10.1145/2166896.2166909](http://dx.doi.org/10.1145/2166896.2166909)
 
-Kevin Page, Ra&uacute;l Palma, Piotr Ho&#322;ubowicz, Graham Klyne, Stian Soiland-Reyes, Don Cruickshank, Rafael Gonz&aacute;lez Cabero, Esteban Garci&iacute; Cuesta, David De Roure, Jun Zhao, Jos&eacute; G&oacute;mez-P&eacute;rez. (2012).
+Kevin Page, Ra&uacute;l Palma, Piotr Ho&#322;ubowicz, Graham Klyne, Stian Soiland-Reyes, 
+Don Cruickshank, Rafael Gonz&aacute;lez Cabero, Esteban Garci&iacute; Cuesta, 
+David De Roure, Jun Zhao, Jos&eacute; G&oacute;mez-P&eacute;rez. (2012).
 **"From workflows to Research Objects: an architecture for preserving the semantics of science,"**
 in *Proceedings of the 2nd International Workshop on Linked Science*.
 [[pdf]](http://linkedscience.org/wp-content/uploads/2012/05/lisc2012_submission_15.pdf)
 
-Jeroen S. de Bruin, André M. Deelder, Magnus Palmblad (2012):
+Jeroen S. de Bruin, André M. Deelder, Magnus Palmblad. (2012).
 **Scientific Workflow Management in Proteomics**
 In: *Molecular & Cellular Proteomics* **11**(7):M111.010595
 [doi:10.1074/mcp.M111.010595](http://dx.doi.org/10.1074/mcp.M111.010595)
@@ -195,7 +216,8 @@ In: *Molecular & Cellular Proteomics* **11**(7):M111.010595
 
 ## 2011
 
-R. Bentley, J. Brooke, A. Csillaghy, D. Fellows, A. Le Blanc, M. Messerotti, D. Perez-Suarez, G. Pierantoni, M. Soldati. (2011).
+R. Bentley, J. Brooke, A. Csillaghy, D. Fellows, A. Le Blanc, M. Messerotti, D. Perez-Suarez, G. Pierantoni, 
+M. Soldati. (2011).
 **"HELIO: Discovery and Analysis of Data in Heliophysics,"**
 in *E-Science (e-Science), 2011 IEEE 7th International Conference on*, 5&ndash;8 Dec 2011: 248&ndash;255.
 [doi:10.1109/eScience.2011.42](http://dx.doi.org/10.1109/eScience.2011.42)
@@ -205,18 +227,22 @@ D. De Roure, S. Bechhofer, C. Goble, D. Newman. (2011).
 in *Privacy, Security, Risk and Trust (PASSAT) and 2011 IEEE Third Inernational Conference on Social Computing (SocialCom), 2011 IEEE Third International Conference on (PASSAT/SocialCom 2011)*, 9&ndash;11 Oct 2011: 1398-1402.
 [doi:10.1109/PASSAT/SocialCom.2011.245](http://dx.doi.org/10.1109/PASSAT/SocialCom.2011.245)
 
-David De Roure, Khalid Belhajjame, Paolo Missier, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, Ra&uacute;l Palma, Jos&eacute; Enrique Ruiz, Kristina Hettne, Marco Roos, Graham Klyne, Carole Goble. (2011).
+David De Roure, Khalid Belhajjame, Paolo Missier, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, 
+Ra&uacute;l Palma, Jos&eacute; Enrique Ruiz, Kristina Hettne, Marco Roos, Graham Klyne, Carole Goble. (2011).
 **"Towards the Preservation of Scientific Workflows,"**
 accepted for *8th International Conference on Preservation of Digital Objects (iPRES 2011)*.
 [[pdf]](http://users.ox.ac.uk/~oerc0033/preprints/wfpreservev10.pdf)
 
-Clemens Neudecker, Sven Schlarb, Zeki Mustafa Dogan, Paolo Missier, Shoaib Sufi, Alan Williams, Katy Wolstencroft. (2011).
+Clemens Neudecker, Sven Schlarb, Zeki Mustafa Dogan, Paolo Missier, Shoaib Sufi, Alan Williams, 
+Katy Wolstencroft. (2011).
 **"An experimental workflow development platform for historical document digitisation and analysis,"**
-in *Proceedings of the 2011 Workshop on Historical Document Imaging and Processing (HIP'11)*: 161&ndash;168. [doi:10.1145/2037342.2037370](http://dx.doi.org/10.1145/2037342.2037370)
+in *Proceedings of the 2011 Workshop on Historical Document Imaging and Processing (HIP'11)*: 161&ndash;168. 
+[doi:10.1145/2037342.2037370](http://dx.doi.org/10.1145/2037342.2037370)
 
 ## 2010
 
-Carole A. Goble, Jiten Bhagat, Sergejs Aleksejevs, Don Cruickshank, Danius Michaelides, David Newman, Mark Borkum, Sean Bechhofer, Marco Roos, Peter Li, David De Roure. (2010).
+Carole A. Goble, Jiten Bhagat, Sergejs Aleksejevs, Don Cruickshank, Danius Michaelides, David Newman, 
+Mark Borkum, Sean Bechhofer, Marco Roos, Peter Li, David De Roure. (2010).
 **myExperiment: a repository and social network for the sharing of bioinformatics workflows.**
 in *Nucleic Acids Research*, 38(Web Server issue): W677&ndash;W682.
 [doi:10.1093/nar/gkq429](http://dx.doi.org/10.1093/nar/gkq429)
