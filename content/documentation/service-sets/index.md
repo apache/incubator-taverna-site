@@ -40,13 +40,21 @@ Currently available service sets include:
     a set of
     [NCBI Entrez services](http://www.ncbi.nlm.nih.gov/books/NBK25499/)
     providing access to the following utilities:
+
     -     [EGQuery](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EGQuery)
+
     -     [ESummary](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESummary)
+
     -     [EInfo](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EInfo)
+
     -     [ELink](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ELink)
+
     -     [ESearch](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESearch)
+
     -     [ESpell](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESpell)
+
     -     [EPost](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EPost)
+
     -     [EFetch](http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EFetch)
 
 
