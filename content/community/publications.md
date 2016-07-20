@@ -22,9 +22,9 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 ### 2016
 
-Arzu Tugce Guler, Cathelijn J.F. Waaijer, Yassene Mohammed, Magnus Palmblad (2016):
+Arzu Tugce Guler, Cathelijn J.F. Waaijer, Yassene Mohammed, Magnus Palmblad (2016 August):
 **Automating bibliometric analyses using Taverna scientific workflows: A tutorial on integrating Web Services**.
-In: *Journal of Informetrics* **10**(3).
+In: *Journal of Informetrics* **10**(3) 830&ndash;841.
 [doi:10.1016/j.joi.2016.05.002](http://dx.doi.org/10.1016/j.joi.2016.05.002)
 
 Stian Soiland-Reyes, Pinar Alper, Carole Goble (2016):
