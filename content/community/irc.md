@@ -50,9 +50,9 @@ Remember:
 
 > If it didn't happen on the [mailing list](/community/lists), it didn't happen.
 
-If you don't have an [IRC client](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) you can use the [freenode webchat](http://webchat.freenode.net/?channels=%23taverna&uio=MTE9MjA16a):
+If you don't have an [IRC client](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) you can use the [freenode webchat](https://webchat.freenode.net/?channels=%23taverna&uio=MTE9MjA16a):
 
 <div id="irc">
-<iframe id="ircframe" src="http://webchat.freenode.net?channels=%23taverna&uio=MTE9MjA16a" width="647" height="400"></iframe>
+<iframe id="ircframe" src="https://webchat.freenode.net?channels=%23taverna&uio=MTE9MjA16a" width="647" height="400"></iframe>
 </div>
 
