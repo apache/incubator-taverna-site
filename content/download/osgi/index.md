@@ -41,7 +41,6 @@ jsonld: {
   }  
 
 
-
 **Apache Taverna OSGi plugin system** (incubating) is a plugin system for
 Java console and desktop applications using [OSGi](https://www.osgi.org/),
 including an online update mechanism.
@@ -172,7 +171,7 @@ ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/close
 * [taverna-osgi-0.2.1-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip)
   ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip.asc),
   [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip.md5),
-  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip))
+  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip.sha1))
 
 The Taverna OSGi [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332248&projectId=12318322)
 is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326809).
