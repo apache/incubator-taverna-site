@@ -25,8 +25,8 @@ See also [publications](/community/publications) and [how to cite Taverna](/comm
 ## 2016
 
 Pinar Alper, Khalid Belhajjame, Carole A. Goble. (2016). **Automatic vs Manual Provenance Abstractions: Mind the Gap.**
-Preprint accepted to the 2016 workshop on the Theory and Applications of Provenance, TAPP 2016. [arXiv:1605.06669v1](https://arxiv.org/abs/1605.06669v1) [cs.SE] 
-[[download PDF]](https://www.usenix.org/system/files/conference/tapp16/tapp16-paper-alper.pdf)
+Preprint accepted to the *2016 workshop on the Theory and Applications of Provenance, TAPP 2016*. [arXiv:1605.06669v1](https://arxiv.org/abs/1605.06669v1) [cs.SE] 
+[[PDF]](https://www.usenix.org/system/files/conference/tapp16/tapp16-paper-alper.pdf)
 
 Arzu Tugce Guler, Cathelijn J. F. Waaijer, Magnus Palmblad. (2016).
 **Scientific workflows for bibliometrics.**
