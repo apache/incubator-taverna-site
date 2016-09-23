@@ -24,6 +24,9 @@ See also [publications](/community/publications) and [how to cite Taverna](/comm
 
 ## 2016
 
+Pinar Alper, Khalid Belhajjame, Carole A. Goble. (2016). **Automatic vs Manual Provenance Abstractions: Mind the Gap.**
+Preprint accepted to the 2016 workshop on the Theory and Applications of Provenance, TAPP 2016. [arXiv:1605.06669v1](https://arxiv.org/abs/1605.06669v1) [cs.SE] 
+[[download PDF]](https://www.usenix.org/system/files/conference/tapp16/tapp16-paper-alper.pdf)
 
 Arzu Tugce Guler, Cathelijn J. F. Waaijer, Magnus Palmblad. (2016).
 **Scientific workflows for bibliometrics.**
@@ -38,6 +41,11 @@ In: _Annals of the Rheumatic Diseases_ 2016 **75**(A8).
 
 ## 2015
 
+Edward Baker, Ben W. Price, S. D. Rycroft1, Jon Hill, Vincent S. Smith. (2015).
+**BioAcoustica: a free and open repository and analysis platform for bioacoustics**
+In *Database*  **2015**(bav054).
+[doi:10.1093/database/bav054](http://dx.doi.org/10.1093/database/bav054)
+
 Khalid Belhajjame, Jun Zhao, Daniel Garijo, Matthew Gamble, Kristina Hettne, Ra&uacute;l Palma,
 Eleni Mina, Oscar Corcho, Jos&eacute; Manuel G&oacute;mez-P&eacute;rez, Sean Bechhofer,
 Graham Klyne, Carole Goble. (2015).
@@ -45,42 +53,11 @@ Graham Klyne, Carole Goble. (2015).
 In: *Journal of Web Semantics: Scence, Services and Agents on the World Wide Web*. **32**: 16&ndash;42.
 [doi:10.1016/j.websem.2015.01.003](http://dx.doi.org/10.1016/j.websem.2015.01.003)
 
-Sonja Holl, Yassene Mohammed, Olav Zimmermann, Magnus Palmblad. (2015).
-**Scientific workflow optimization for improved peptide and protein identification.**
-In: *BMC Bioinformatics* **16**(1): 1&ndash;13.
-[doi:10.1186/s12859-015-0714-x](http://dx.doi.org/10.1186/s12859-015-0714-x)
-
-Steve O’Hagan, Douglas B. Kell. (2015).
-**Software review: the KNIME workflow environment and its applications in genetic programming and machine learning**.
-In: *Genetic Programming and Evolvable Machines* **16**(3) 387&ndash;391.
-[doi:10.1007/s10710-015-9247-3](http://dx.doi.org/10.1007/s10710-015-9247-3)
-[[preprint]](http://www.taverna.org.uk/pages/wp-content/uploads/2015/2015-Hagan-Kell-KNIME-software-review.pdf)
-
 Renato De Giovanni, Alan R. Williams, Vera Hernández Ernst, Robert Kulawik, Francisco Quevedo Fernandez, 
 Alex R. Hardisty. (2015).
 **ENM Components: a new set of web service-based workflow components for ecological niche modelling**.
 In: *Ecography* **39**(4).
 [doi:10.1111/ecog.01552](http://dx.doi.org/10.1111/ecog.01552)
-
-Edward Baker, Ben W. Price, S. D. Rycroft1, Jon Hill, Vincent S. Smith. (2015).
-**BioAcoustica: a free and open repository and analysis platform for bioacoustics**
-In *Database*  **2015**(bav054).
-[doi:10.1093/database/bav054](http://dx.doi.org/10.1093/database/bav054)
-
-Yassene Mohammed, Christoph H. Borchers. (2015).
-**An extensive library of surrogate peptides for all human proteins**
-_Journal of Proteomics_ **129**: 93&ndash;97.
-[doi:10.1016/j.jprot.2015.07.025](http://dx.doi.org/10.1016/j.jprot.2015.07.025)
-[[researchgate]](https://www.researchgate.net/publication/280602358_An_Extensive_Library_of_Surrogate_Peptides_for_all_Human_Proteins)
-_preprint not currently available_
-
-Ji Liu, Esther Pacitti, Patrick Valduriez, Marta Mattoso. (2015).
-**A Survey of Data-Intensive Scientific Workflow Management**
-In: _Journal of Grid Computing_ **13**: 457&ndash;493.
-[doi:10.1007/s10723-015-9329-8](http://dx.doi.org/10.1007/s10723-015-9329-8)
-[[pdf]](http://www-sop.inria.fr/members/Patrick.Valduriez/pmwiki/Patrick/uploads//Publications/jogc2015)
-[[researchgate]](https://www.researchgate.net/publication/304292492_A_Survey_on_Scheduling_Workflows_in_Cloud_Environment)
-
 
 Susana Sánchez Expósito, Pablo Martín, Jose Enrique Ruíz, Lourdes Verdes-Montenegro, Julian Garrido, 
 Raül Sirvent Pardell, Antonio Ruíz Falcó, Rosa Badia. (2015).
@@ -89,16 +66,41 @@ At: _7th International Workshop on Science Gateways (IWSG) 2015_
 [doi:10.1109/IWSG.2015.7](http://dx.doi.org/10.1109/IWSG.2015.7)
 [[pdf]](http://amiga.iaa.es/FCKeditor/UserFiles/File/BuildingBlocks.pdf)
 
+Sonja Holl, Yassene Mohammed, Olav Zimmermann, Magnus Palmblad. (2015).
+**Scientific workflow optimization for improved peptide and protein identification.**
+In: *BMC Bioinformatics* **16**(1): 1&ndash;13.
+[doi:10.1186/s12859-015-0714-x](http://dx.doi.org/10.1186/s12859-015-0714-x)
+
+Jeremy Leipzig. (2015).
+**A review of bioinformatic pipeline frameworks**.
+In: _Briefings in bioinformatics_ (2016) 1&ndash;7 bbw020.  
+[doi:10.1093/bib/bbw020](http://dx.doi.org/10.1093/bib/bbw020)
+
+Ji Liu, Esther Pacitti, Patrick Valduriez, Marta Mattoso. (2015).
+**A Survey of Data-Intensive Scientific Workflow Management**
+In: _Journal of Grid Computing_ **13**: 457&ndash;493.
+[doi:10.1007/s10723-015-9329-8](http://dx.doi.org/10.1007/s10723-015-9329-8)
+[[pdf]](http://www-sop.inria.fr/members/Patrick.Valduriez/pmwiki/Patrick/uploads//Publications/jogc2015)
+[[researchgate]](https://www.researchgate.net/publication/304292492_A_Survey_on_Scheduling_Workflows_in_Cloud_Environment)
+
 Fabrizio Marozzo, Domenico Talia, Paolo Trunfio. (2015).
 **JS4Cloud: script-based workflow programming for scalable data analysis on cloud platforms**
 In: *Concurrency and Computation: Practice and Experience*. **27**(17)" 5214&ndash;5237.
 [doi:10.1002/cpe.3563](http://dx.doi.org/10.1002/cpe.3563)
 [[researchgate]](https://www.researchgate.net/publication/280971659_JS4Cloud_Script-based_workflow_programming_for_scalable_data_analysis_on_cloud_platforms)
 
-Jeremy Leipzig. (2015).
-**A review of bioinformatic pipeline frameworks**.
-In: _Briefings in bioinformatics_ (2016) 1&ndash;7 bbw020.  
-[doi:10.1093/bib/bbw020](http://dx.doi.org/10.1093/bib/bbw020)
+Yassene Mohammed, Christoph H. Borchers. (2015).
+**An extensive library of surrogate peptides for all human proteins**
+_Journal of Proteomics_ **129**: 93&ndash;97.
+[doi:10.1016/j.jprot.2015.07.025](http://dx.doi.org/10.1016/j.jprot.2015.07.025)
+[[researchgate]](https://www.researchgate.net/publication/280602358_An_Extensive_Library_of_Surrogate_Peptides_for_all_Human_Proteins)
+_preprint not currently available_
+
+Steve O’Hagan, Douglas B. Kell. (2015).
+**Software review: the KNIME workflow environment and its applications in genetic programming and machine learning**.
+In: *Genetic Programming and Evolvable Machines* **16**(3) 387&ndash;391.
+[doi:10.1007/s10710-015-9247-3](http://dx.doi.org/10.1007/s10710-015-9247-3)
+[[preprint]](http://www.taverna.org.uk/pages/wp-content/uploads/2015/2015-Hagan-Kell-KNIME-software-review.pdf)
 
 ## 2014
 
