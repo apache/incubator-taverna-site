@@ -29,9 +29,9 @@ Note that the chat service is provided by a third-party and that
 joining the chat will require either a GitHub or Twitter account.
 
 <div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><strong> Note:</strong>
-The <code>apache/taverna</code> chat room is <strong>logged publicly</strong>.
-All participants are expected to follow the
-<a href="https://www.apache.org/foundation/policies/conduct.html">Apache Code of Conduct</a>.
+The Taverna chat room is <strong>logged publicly</strong>.
+All participants are expected to follow ASF's
+<a class="alert-link" href="https://www.apache.org/foundation/policies/conduct.html">Code of Conduct</a>.
 </div></div>
 
 ## Decisions happen on the mailing lists
@@ -39,34 +39,40 @@ All participants are expected to follow the
 > If it didn't happen on the [mailing list](/community/lists), it didn't happen.
 
 IRC and web chat channels can be great for informal enquiries like
-("Where do I find `ClassB.java`"), code pastes and
-and experimentation.
+_"Where do I find `ClassB.java`"_, code pastes and
+and experimentation, particuarly using Gitter's
+[Markdown support](https://gitter.zendesk.com/hc/en-us/articles/200176682-Markdown-basics)!
 
-However by their synchronous nature chat rooms can
+However by their synchronous nature, chat rooms can
 fail to include the wider community who might not share your
-time zone, have the same day/night or work/life balance.
+time zone or have the same day/night pattern.
 
 In addition some decisions are better taken in a paced conversation;
-there's usually no rush. Email threads also make it easier to keep
-issues separate, and findable later in the
+there's usually no rush. Email threads with a good _Subject:_
+also make it easier to keep issues separate; as well as later
+being findable in the
 [list archive](https://lists.apache.org/list.html?dev@taverna.apache.org).
 
-For all project decisions and information we therefore always
-use the Taverna [mailing list](/community/lists).
+
+We therefore always
+use the Taverna [mailing list](/community/lists)
+*for all project decisions and information purposes*.
 
 It's OK if you get a good idea on the chat; just send an email
 afterwards to the list. To be inclusive,
-don't use a form like
-_"We decided that Foo could be replaced with Bar"_,
+try not to use a form like
+_"We decided that `Foo` should be replaced with `Bar`"_,
 but rather use a neutral form like
-_"One idea is to replace Foo with Bar"_.
+_"One idea is to replace `Foo` with `Bar`"_.
 
 ## IRC channel
 
 The Taverna community previously used the
 IRC chat channel [#taverna](irc://irc.freenode.net/%23taverna)
-on [irc.freenode.net](http://freenode.net/).
+on [irc.freenode.net](http://freenode.net/), which public
+[log](http://wilderness.apache.org/channels/#logs-#taverna)
+remains available.
 
 [Gitter provides an IRC bridge](https://irc.gitter.im/)
 which should work with most IRC clients to access
-the apahce/taverna Gitter room.
+the `apache/taverna` Gitter room.

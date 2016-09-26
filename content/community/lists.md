@@ -24,20 +24,18 @@ a say in the future development of Taverna. Anyone using the Taverna APIs in the
 would be well advised to join both <em>dev@taverna</em> and <em>users@taverna</em>.
 The <a href="#private">private mailing list</a> is only for information that should not be made public.
 
+## Code of conduct
+
+All participants on Apache mailing lists are expected to follow Apache Software Foundation's
+[Code of Conduct](https://www.apache.org/foundation/policies/conduct.html).
 
 ## Public mailing lists
 
 <div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><strong> Note:</strong>
-The mailing lists (except private@taverna) are
-<a href="https://lists.apache.org/list.html?dev@taverna.apache.org">logged publicly</a>.
-All participants are expected to follow the
-<a href="https://www.apache.org/foundation/policies/conduct.html">Apache Code of Conduct</a>.
+All participants are expected to follow ASF's
+<a class="alert-link" href="https://www.apache.org/foundation/policies/conduct.html">Code of Conduct</a>.
 </div></div>
 
-# Code of conduct
-
-All participants on Apache mailing lists are expected to follow the
-[Apache Code of Conduct](https://www.apache.org/foundation/policies/conduct.html).
 
 
 <a name="users"></a>
