@@ -19,9 +19,6 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 Apache Taverna is a [incubator project](http://incubator.apache.org/) within the
 [The Apache Software Foundation (ASF)](http://www.apache.org/).
 
-## Incubator status
-
-* [Taverna incubator status](http://incubator.apache.org/projects/taverna.html).
 
 
 ## Who are we?
@@ -55,3 +52,21 @@ PPMC members) are:
 </tbody>
 </table>
 <p class="lead">Thanks to all of you for making it possible!</p>
+
+
+
+## Incubator status
+
+* [Taverna incubator status](http://incubator.apache.org/projects/taverna.html).
+* [Graduation Maturity Assessment](https://cwiki.apache.org/confluence/display/TAVERNADEV/2016-03+Taverna+Graduation+Maturity+Assessment)
+
+Apache Taverna is an effort undergoing incubation at
+[The Apache Software Foundation (ASF)](http://apache.org/)
+sponsored by the [Apache Incubator PMC](http://incubator.apache.org/).
+Incubation is required of all newly accepted projects until a further review
+indicates that the infrastructure, communications, and decision making process
+have stabilized in a manner consistent with other successful ASF projects.
+While [incubation status](http://incubator.apache.org/projects/taverna.html)
+is not necessarily a reflection of the completeness or
+stability of the code, it does indicate that the project has yet to be fully
+endorsed by the ASF.
