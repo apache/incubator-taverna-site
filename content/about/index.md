@@ -49,9 +49,36 @@ PPMC members) are:
 	<tr><td>shoaibsufi</td><td>Shoaib Sufi</td> <td>PPMC member</td></tr>
 	<tr><td>stain</td><td>Stian Soiland-Reyes</td> <td>PPMC member</td></tr>
 	<tr><td>stuzart</td><td>Stuart Owen</td> <td>PPMC member</td></tr>
+  <tr><td>maanadev</td><td>Thilina Manamgoda</td> <td>Committer</td></tr>
 </tbody>
 </table>
+
+The [PMC](https://www.apache.org/dev/pmc.html) have the oversight of the
+project, [votes on releases](https://www.apache.org/foundation/voting.html)
+and elect new committers and PMC members based on merit.
+
+The Apache Taverna team are grateful for contributions from:
+
+* [Menaka Madushanka](https://github.com/menaka121)
+* [Larry Akah](https://github.com/larrytech7)
+* [Denis Karyakin](https://github.com/Samhane)
+* [Martin Scharm](http://orcid.org/0000-0003-4519-7030)
+* [Glenn Lewis](https://github.com/gmlewis)
+* [Nadeesh Dilanga](https://github.com/NadeeshDilanga)
+* [Sagar](https://github.com/sagar15795)
+* [Finn Bacall](https://github.com/fbacall)
+* [Rajan Maurya](https://github.com/therajanmaurya)
+* [Edi Karadumi](https://github.com/edikaradumi)
+* [Claudiu Stefan Padurariu](https://github.com/PCStefan)
+
+..and countless others who have provided
+[Jira issues](/community/issue-tracker),
+[pull requests and patches](/download/code/#contribute-to-apache-taverna),
+[discussions on mailing lists](/community/lists) and
+[workflows](http://www.myexperiment.org/workflows)!
+
 <p class="lead">Thanks to all of you for making it possible!</p>
+
 
 
 
