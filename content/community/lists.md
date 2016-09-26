@@ -21,11 +21,24 @@ You can contact and participate in the Apache Taverna community through the <str
 The main mailing lists are public. We suggest that all Taverna users join the <em>users@taverna</em> list
 – this allows us to notify you of any critical issues or upcoming changes and allows you to have
 a say in the future development of Taverna. Anyone using the Taverna APIs in their own code
-would be well advised to join both <em>dev@taverna</em> and <em>users@taverna</em>. 
+would be well advised to join both <em>dev@taverna</em> and <em>users@taverna</em>.
 The <a href="#private">private mailing list</a> is only for information that should not be made public.
 
 
 ## Public mailing lists
+
+<div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><strong> Note:</strong>
+The mailing lists (except private@taverna) are
+<a href="https://lists.apache.org/list.html?dev@taverna.apache.org">logged publicly</a>.
+All participants are expected to follow the
+<a href="https://www.apache.org/foundation/policies/conduct.html">Apache Code of Conduct</a>.
+</div></div>
+
+# Code of conduct
+
+All participants on Apache mailing lists are expected to follow the
+[Apache Code of Conduct](https://www.apache.org/foundation/policies/conduct.html).
+
 
 <a name="users"></a>
 ### users@taverna
@@ -96,6 +109,6 @@ This list is high-traffic, from 100 to 1000 messages pr month.
 ### private@taverna
 
 <em>private@taverna.incubator.apache.org</em> can be used for sensitive information that should not be made public
-in mailing list archives. Only members of the [Apache Taverna PPMC](/about/) will receive the email. Use this list *only 
+in mailing list archives. Only members of the [Apache Taverna PPMC](/about/) will receive the email. Use this list *only
 if the public lists cannot be used*, for instance for business-sensitive matters, grant proposals and collaborations,
 security concerns, or to report concerns on personal conflicts/abuse.
