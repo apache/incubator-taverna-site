@@ -46,14 +46,15 @@ site, you have several options for viewing issues.
 ## Adding an issue
 
 After logging in to [Jira](https://issues.apache.org/jira/browse/TAVERNA),
-use the `Create` button at the top of the screen to add a new issue.
+use the [Create](https://issues.apache.org/jira/secure/CreateIssue!default.jspa?pid=12318322)
+button at the top of the screen to add a new issue.
 
-* Make sure _Apache Taverna_ is selected as the _Project_.
+* Make sure **Apache Taverna** is selected as the _Project_.
 * Give a brief title in _Summary_.
 * Describe your issue under _Description_.
-* Click _Create_.
+* Click **Create**.
 * Now you may attach any log files, screenshots or workflows under
-  _More_ -> _Attach files_.
+  _More_ --> **Attach files**.
 
 Jira will email the
 [dev@taverna list](/community/lists#dev)
@@ -66,7 +67,8 @@ discussion there or correspond using Jira comments.
 If you want to report a security concern
 (e.g. a buffer exploit), then you should instead
 email our [private list](/community/lists#private-mailing-list)
-which will consider the issue in confidence.
+where the Apache Taverna PPMC members 
+will consider the issue in confidence.
 
 ## Example bug report
 
