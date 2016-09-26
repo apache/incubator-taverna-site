@@ -25,7 +25,7 @@ informal communications.
 
 Feel free to join us!
 
-<a class="btn btn-primary" target="_blank" href="https://gitter.im/apache/taverna" role="button">Taverna chat</a>
+<a class="btn btn-primary" target="_blank" href="https://gitter.im/apache/taverna" role="button">Join Chat</a>
 
 Note that the chat service is provided by a third-party and that
 joining the chat will require either a GitHub or Twitter account.
