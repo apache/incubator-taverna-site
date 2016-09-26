@@ -35,9 +35,6 @@ there are opportunities for you to
 [report a bug](#reportbugs).
 
 
-## Incubator status
-
-* [Taverna incubator status](http://incubator.apache.org/projects/taverna.html).
 
 <a name="mailinglists"></a>
 ## Mailing Lists
@@ -151,3 +148,19 @@ For **Taverna 2** (non-Apache), see the [Creating plugins for Taverna 2](http://
 ### Editing the website
 This website is always under development.
 Please help make it better by [editing](/community/edit) or adding pages.
+
+## Incubator status
+
+* [Taverna incubator status](http://incubator.apache.org/projects/taverna.html).
+* [Graduation Maturity Assessment](https://cwiki.apache.org/confluence/display/TAVERNADEV/2016-03+Taverna+Graduation+Maturity+Assessment)
+
+Apache Taverna is an effort undergoing incubation at
+[The Apache Software Foundation (ASF)](http://apache.org/)
+sponsored by the [Apache Incubator PMC](http://incubator.apache.org/).
+Incubation is required of all newly accepted projects until a further review
+indicates that the infrastructure, communications, and decision making process
+have stabilized in a manner consistent with other successful ASF projects.
+While [incubation status](http://incubator.apache.org/projects/taverna.html)
+is not necessarily a reflection of the completeness or
+stability of the code, it does indicate that the project has yet to be fully
+endorsed by the ASF.
