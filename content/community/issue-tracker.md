@@ -18,6 +18,11 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 ## How to Use Taverna's Apache JIRA Issue Tracker
 
+<div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+All participants are expected to follow ASF's
+<a class="alert-link" href="https://www.apache.org/foundation/policies/conduct.html">Code of Conduct</a>.
+</div></div>
+
 Anyone can add an issue by
 [creating an account](https://issues.apache.org/jira/secure/Dashboard.jspa) on Apache's
 JIRA issue tracker. An account is also required to
@@ -36,27 +41,38 @@ site, you have several options for viewing issues.
   allows you to quickly see unresolved and recently updated issues for a given component.
 
 
+
+
 ## Adding an issue
+
+<div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+All participants are expected to follow ASF's
+<a class="alert-link" href="https://www.apache.org/foundation/policies/conduct.html">Code of Conduct</a>.
+</div></div>
 
 After logging in to [Jira](https://issues.apache.org/jira/browse/TAVERNA),
 use the `Create` button at the top of the screen to add a new issue. Make sure
 _Apache Taverna_ is selected as the _Project_.
 
-Example:
-
-<img href="/img/jira-example.png" width="792" height="859"
-     style="border: grey dashed 2px; max-width: 100%" />
-
-<div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><strong> Note:</strong>
-The Taverna issue tracker is
-<a href="https://lists.apache.org/list.html?dev@taverna.apache.org">logged publicly</a>.
-All participants are expected to follow the
-<a href="https://www.apache.org/foundation/policies/conduct.html">Apache Code of Conduct</a>.
-</div></div>
-
 ## Report a security issue
 
-If you want to report a security issue
+If you want to report a security concern
 (e.g. a buffer exploit), then you should instead
 email our [private list](/community/lists#private-mailing-list)
 which will consider the issue in confidence.
+
+## Example bug report
+
+<img src="/img/jira-example.png" width="792" height="859"
+     style="border: grey dashed 2px; max-width: 100%" />
+
+A great bug report includes:
+
+* Which program did you use? Which version?
+* What operating system, which Java version?
+* What did you try?
+* What went wrong?
+* What was expected?
+* Error messages
+* Logs and stack traces
+* Attached workflow (if you are OK to share it publicly)
