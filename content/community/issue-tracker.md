@@ -19,7 +19,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 ## How to Use Taverna's Apache JIRA Issue Tracker
 
 <div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-All participants are expected to follow ASF's
+All contributors to the issue tracker are expected to follow ASF's
 <a class="alert-link" href="https://www.apache.org/foundation/policies/conduct.html">Code of Conduct</a>.
 </div></div>
 
@@ -67,7 +67,7 @@ discussion there or correspond using Jira comments.
 If you want to report a security concern
 (e.g. a buffer exploit), then you should instead
 email our [private list](/community/lists#private-mailing-list)
-where the Apache Taverna PPMC members 
+where the Apache Taverna PPMC members
 will consider the issue in confidence.
 
 ## Example bug report
