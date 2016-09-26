@@ -20,10 +20,12 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 # Web chat for Apache Taverna
 
 Some of the Apache Taverna developers and users hang out on the Gitter
-web chat [apache/taverna](https://gitter.im/apache/taverna) for more
+web chat **[apache/taverna](https://gitter.im/apache/taverna)** for more
 informal communications.
 
 Feel free to join us!
+
+<a class="btn btn-primary" target="_blank" href="https://gitter.im/apache/taverna" role="button">Taverna chat</a>
 
 Note that the chat service is provided by a third-party and that
 joining the chat will require either a GitHub or Twitter account.
