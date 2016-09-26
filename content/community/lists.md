@@ -31,7 +31,7 @@ All participants on Apache mailing lists are expected to follow Apache Software 
 
 ## Public mailing lists
 
-<div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><strong> Note:</strong>
+<div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
 All participants are expected to follow ASF's
 <a class="alert-link" href="https://www.apache.org/foundation/policies/conduct.html">Code of Conduct</a>.
 </div></div>
