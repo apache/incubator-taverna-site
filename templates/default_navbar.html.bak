@@ -74,7 +74,7 @@
 					<a href="/community" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Community<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
 					  <li><a href="/community/lists">Mailing Lists</a></li>
-					  <li><a href="/community/irc">IRC chat</a></li>
+					  <li><a href="/community/chat">Chat</a></li>
 					  <li><a href="/community#contribute">Contribute</a></li>
 					  <li><a href="/community/issue-tracker">Report a Bug</a></li>
 					  <li><a href="/community/edit">Edit website</a></li>

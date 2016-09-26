@@ -37,6 +37,7 @@ RewriteRule ^(.*)/index $1 [L,R]
 Redirect /code/ /download/code/
 Redirect /code /download/code
 RewriteRule ^community/contact.* /community/lists [L,R]
+RewriteRule ^community/irc.* /community/chat [L,R]
 RewriteRule ^contact.* /community/lists [L,R]
 RewriteRule ^edit.* /community/edit [L,R]
 RewriteRule ^doc/?$ /documentation/ [L,R]
