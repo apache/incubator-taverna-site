@@ -26,17 +26,13 @@ The <a href="#private">private mailing list</a> is only for information that sho
 
 ## Code of conduct
 
-All participants on Apache mailing lists are expected to follow Apache Software Foundation's
-[Code of Conduct](https://www.apache.org/foundation/policies/conduct.html).
-
-## Public mailing lists
-
 <div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-All participants are expected to follow ASF's
+All participants are expected to follow the Apache Software Foundation's
 <a class="alert-link" href="https://www.apache.org/foundation/policies/conduct.html">Code of Conduct</a>.
 </div></div>
 
 
+## Public mailing lists
 
 <a name="users"></a>
 ### users@taverna
