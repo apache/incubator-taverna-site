@@ -16,43 +16,57 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-<style type="text/css">
-<!--
-#page {
-margin-top: 0;
-padding-top: 0;
-}
-#irc {
-  height: 30em;
-  width: 100%;
-  resize: both;
-  overflow: auto;
-  padding-bottom: 2em;
-}
-iframe {
-  height: 100%;
-  width: 100%;
-  resize: both;
-  overflow: auto;
-}
--->
-</style>
 
-# IRC chat for Apache Taverna
+# Web chat for Apache Taverna
 
-Some of the Apache Taverna developers and users hang out on the IRC chat channel [#taverna](irc://irc.freenode.net/%23taverna) on [irc.freenode.net](http://freenode.net/).
+Some of the Apache Taverna developers and users hang out on the Gitter
+web chat [apache/taverna](https://gitter.im/apache/taverna) for more
+informal communications.
+
+Feel free to join us!
+
+Note that the chat service is provided by a third-party and that
+joining the chat will require either a GitHub or Twitter account.
 
 <div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><strong> Note:</strong>
-The #taverna IRC channel is <a class="alert-link" href="http://wilderness.apache.org/channels/#logs-#taverna">logged publicly</a>.
+The <code>apache/taverna</code> chat room is <strong>logged publicly</strong>.
+All participants are expected to follow the
+<a href="https://www.apache.org/foundation/policies/conduct.html">Apache Code of Conduct</a>.
 </div></div>
 
-Remember:
+## Decisions happen on the mailing lists
 
 > If it didn't happen on the [mailing list](/community/lists), it didn't happen.
 
-If you don't have an [IRC client](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients) you can use the [freenode webchat](https://webchat.freenode.net/?channels=%23taverna&uio=MTE9MjA16a):
+IRC and web chat channels can be great for informal enquiries like
+("Where do I find `ClassB.java`"), code pastes and
+and experimentation.
 
-<div id="irc">
-<iframe id="ircframe" src="https://webchat.freenode.net?channels=%23taverna&uio=MTE9MjA16a" width="647" height="400"></iframe>
-</div>
+However by their synchronous nature chat rooms can
+fail to include the wider community who might not share your
+time zone, have the same day/night or work/life balance.
 
+In addition some decisions are better taken in a paced conversation;
+there's usually no rush. Email threads also make it easier to keep
+issues separate, and findable later in the
+[list archive](https://lists.apache.org/list.html?dev@taverna.apache.org).
+
+For all project decisions and information we therefore always
+use the Taverna [mailing list](/community/lists).
+
+It's OK if you get a good idea on the chat; just send an email
+afterwards to the list. To be inclusive,
+don't use a form like
+_"We decided that Foo could be replaced with Bar"_,
+but rather use a neutral form like
+_"One idea is to replace Foo with Bar"_.
+
+## IRC channel
+
+The Taverna community previously used the
+IRC chat channel [#taverna](irc://irc.freenode.net/%23taverna)
+on [irc.freenode.net](http://freenode.net/).
+
+[Gitter provides an IRC bridge](https://irc.gitter.im/)
+which should work with most IRC clients to access
+the apahce/taverna Gitter room.
