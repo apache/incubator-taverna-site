@@ -45,14 +45,21 @@ site, you have several options for viewing issues.
 
 ## Adding an issue
 
-<div id="content"><div class="alert alert-info alert-dismissible" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-All participants are expected to follow ASF's
-<a class="alert-link" href="https://www.apache.org/foundation/policies/conduct.html">Code of Conduct</a>.
-</div></div>
-
 After logging in to [Jira](https://issues.apache.org/jira/browse/TAVERNA),
-use the `Create` button at the top of the screen to add a new issue. Make sure
-_Apache Taverna_ is selected as the _Project_.
+use the `Create` button at the top of the screen to add a new issue.
+
+* Make sure _Apache Taverna_ is selected as the _Project_.
+* Give a brief title in _Summary_.
+* Describe your issue under _Description_.
+* Click _Create_.
+* Now you may attach any log files, screenshots or workflows under
+  _More_ -> _Attach files_.
+
+Jira will email the
+[dev@taverna list](/community/lists#dev)
+using the issue key in the
+Subject, (e.g. `TAVERNA-987`); you may join the
+discussion there or correspond using Jira comments.
 
 ## Report a security issue
 
