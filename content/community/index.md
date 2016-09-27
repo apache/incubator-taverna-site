@@ -22,13 +22,13 @@ Apache Taverna is a [incubator project](http://incubator.apache.org/) within the
 Taverna is an open source community that's organized by its
 [members](/about), including you!
 Whether you're running or
-[writing workflows](#contribute-workflow),
-[developing plugins](#contribute-plugin),
-[hosting a Taverna server](#contribute-server),
-[hosting a service](#contribute-host),
-[hacking the core](#contribute-code),
+[writing workflows](#contribute),
+[developing plugins](#contribute),
+[hosting a Taverna server](#contribute),
+[hosting a service](#contribute),
+[hacking the core](#contribute),
 [citing us](#citing-taverna), or just want to
-[edit](#contribute-edit) these pages
+[edit](#contribute) these pages
 there are opportunities for you to
 [get in touch and ask questions](#contact),
 [contribute](#contribute) or
@@ -110,9 +110,8 @@ We also track papers that
 [suggest a webpage edit](/community/edit) to add
 your own publications to these lists.  
 
-
-## How to Contribute
 <a name="contribute"></a>
+## How to Contribute
 
  - **Workflows.** The best place to contribute Taverna workflows is on
      [myExperiment](http://www.myexperiment.org).
