@@ -22,13 +22,13 @@ Apache Taverna is a [incubator project](http://incubator.apache.org/) within the
 Taverna is an open source community that's organized by its
 [members](/about), including you!
 Whether you're running or
-[writing workflows](#contribute),
-[developing plugins](#contribute),
-[hosting a Taverna server](#contribute),
-[hosting a service](#contribute),
-[hacking the core](#contribute),
+[writing workflows](#contribute-workflow),
+[developing plugins](#contribute-plugin),
+[hosting a Taverna server](#contribute-server),
+[hosting a service](#contribute-host),
+[hacking the core](#contribute-code),
 [citing us](#citing-taverna), or just want to
-[edit](#contribute) these pages
+[edit](#contribute-edit) these pages
 there are opportunities for you to
 [get in touch and ask questions](#contact),
 [contribute](#contribute) or
@@ -114,54 +114,38 @@ your own publications to these lists.
 ## How to Contribute
 <a name="contribute"></a>
 
-<table class="table table-condensed">
+ - **Workflows**
 
-  <tr>
-    <th> Workflows </th>
-    <td> The best place to contribute Taverna workflows is on myExperiment.</td>
-    <td> <a class="btn btn-default" href="http://www.myexperiment.org" role="button">myExperiment</a></td>
-  </tr>
+  The best place to contribute Taverna workflows is on
+     [myExperiment](http://www.myexperiment.org).
 
-  <tr>
-    <th> Code </th>
-    <td> We welcome any contributions for the source code of Apache Taverna. See how to contribute code.</td>
-    <td> <a class="btn btn-default" href="/download/code/" role="button">source code</a>
-         <a class="btn btn-default" href="/download/code/#contribute-to-apache-taverna" role="button">contribute code</a>
-    </td>
-  </tr>
+ - **Code**
 
-  <tr>
-    <th> Plugin </th>
-    <td> The mechanism for writing <strong>Apache Taverna 3 plugins</strong> is still under development.
-         <br><br>
-         Please contact the dev@taverna mailing list for details.
-         For <strong>Taverna 2</strong> (non-Apache), see the Creating plugins for Taverna 2 tutorial.</td>
-    <td> <a class="btn btn-default" href="/community/lists#devtaverna" role="button">dev@taverna</a> 
-         <a class="btn btn-default" href="http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2" role="button">Creating plugins for Taverna 2</a></td>
-  </tr>
+   We welcome any contributions for the [source code](/download/code/) of Apache Taverna. See how to [contribute code](/download/code/#contribute-to-apache-taverna).
 
-  <tr>
-    <th> Host a Taverna Server </th>
-    <td> For information on hosting a Taverna Server to run Taverna workflows, see the Server Section.</td>
-    <td> <a class="btn btn-default" href="/documentation/server" role="button">Server</a></td>
-  </tr>
 
-  <tr>
-    <th> Host a Service </th>
-    <td> For information on writing web services to be used in Taverna see our Web Service Developers Section.
-         <br><br>
-         We recommend that your services are registered in Registries such as BioCatalogue.</td>
-    <td> <a class="btn btn-default" href="/documentation/web-service-developers" role="button">Web Service Developers</a>
-         <a class="btn btn-default" href="http://www.biocatalogue.org" role="button">BioCatalogue</a></td>
-  </tr>
+ - **Plugin**
 
-  <tr>
-    <th> Edit the website </th>
-    <td> This website is always under development. Please help make it better by editing or adding pages.</td>
-    <td> <a class="btn btn-default" href="/community/edit" role="button">Edit website</a></td>
-  </tr>
+    The mechanism for writing **Apache Taverna 3 plugins** is still under development.
+    
+    Please contact the [dev@taverna](/community/lists#devtaverna) mailing list for details.
 
-</table>
+    For **Taverna 2** (non-Apache), see the [Creating plugins for Taverna 2](http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2) tutorial.
+
+- **Host a Taverna Server**
+
+    For information on hosting a Taverna Server to run Taverna workflows, see the [Server](/documentation/server) Section.
+
+- **Host a Service**
+
+    For information on writing web services to be used in Taverna see our [Web Service Developers](/documentation/web-service-developers) Section.
+    
+     We recommend that your services are registered in Registries such as:
+     [BioCatalogue](http://www.biocatalogue.org)
+     
+ - **Edit the website**
+
+    This website is always under development. Please help make it better by [editing](/community/edit) or adding pages.
 
 
 ## Incubator status
