@@ -37,7 +37,8 @@ there are opportunities for you to
 
 
 <a name="mailinglists"></a>
-## Mailing Lists
+## How to Communicate
+### Mailing Lists
 
 You are highly encouraged to participate on the Apache Taverna [mailing lists](/community/lists):
 
@@ -103,51 +104,57 @@ Use the Apache Taverna JIRA [issue tracker](/community/issue-tracker) to report 
 
 If you use Taverna in your academic work, you can [cite](/community/cite) one of the
 [publications about Taverna](/community/publications).
-We track papers that
+We also track papers that
 [reference Taverna](/community/references), so feel free to
 [raise an issue](issue-tracker) or
 [suggest a webpage edit](/community/edit) to add
 your own publications to these lists.  
 
-## Contribute
 
-<a name="contribute-workflow"></a>
-### Contribute a workflow
+## How to Contribute
+<a name="contribute"></a>
 
-The best place to contribute Taverna workflows is on
-   [myExperiment](http://www.myexperiment.org).
+<table class="table table-condensed">
+  <tr>
+    <th> Workflows </th>
+    <td> The best place to contribute Taverna workflows is on
+     [myExperiment](http://www.myexperiment.org).</td>
+  </tr>
+  <tr>
+    <th> Code </th>
+    <td> We welcome any contributions for the [source code](/download/code/) of Apache Taverna. See how to
+    [contribute code](/download/code/#contribute-to-apache-taverna).</td>
+  </tr>
+  <tr>
+    <th> Plugin </th>
+    <td>The mechanism for writing **Apache Taverna 3 plugins** is still under development.
+    <br><br>
+    Please contact the [dev@taverna](/community/lists#devtaverna) mailing list for details.
 
-<a name="contribute-server"></a>
-### Hosting a Taverna Server  
-For information on hosting a Taverna Server to run Taverna workflows, see the
-[Server](/documentation/server) Section.
+    For **Taverna 2** (non-Apache), see the [Creating plugins for Taverna 2](http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2) tutorial.</td>
+  </tr>
+  <tr>
+    <th> Host a Taverna Server </th>
+    <td> For information on hosting a Taverna Server to run Taverna workflows, see the
+  [Server](/documentation/server) Section.</td>
+  </tr>
+  <tr>
+    <th> Host a Service </th>
+    <td> For information on writing web services to be used in Taverna see our
+     [Web Service Developers](/documentation/web-service-developers) Section.
+     <br><br>
+     We recommend that your services are registered in Registries such as:
+     [BioCatalogue](http://www.biocatalogue.org)</td>
+  </tr>
+  <tr>
+    <th> Edit the website </th>
+    <td> This website is always under development.
+    Please help make it better by [editing](/community/edit) or adding pages.
+</td>
+  </tr>
 
-<a name="contribute-host"></a>
-### Hosting a Service for Taverna
-For information on writing web services to be used in Taverna see our
-   [Web Service Developers](/documentation/web-service-developers) Section.
+</table>
 
-We recommend that your services are registered in Registries such as:
-   [BioCatalogue](http://www.biocatalogue.org)
-
-<a name="contribute-code"></a>
-### Contributing Code
-We welcome any contributions for the [source code](/download/code/) of Apache Taverna. See how to
-[contribute code](/download/code/#contribute-to-apache-taverna).
-
-
-<a name="contribute-plugin"></a>
-### Contribute a plugin ###
-The mechanisms for writing **Apache Taverna 3 plugins** is still under development.
-Please contact the [dev@taverna](/community/lists#devtaverna) mailing list for details.
-
-For **Taverna 2** (non-Apache), see the [Creating plugins for Taverna 2](http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2) tutorial.
-
-
-<a name="contribute-edit"></a>
-### Editing the website
-This website is always under development.
-Please help make it better by [editing](/community/edit) or adding pages.
 
 ## Incubator status
 
