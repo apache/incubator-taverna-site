@@ -117,7 +117,8 @@ your own publications to these lists.
 <table class="table table-condensed">
   <tr>
     <th> Workflows </th>
-    <td> The best place to contribute Taverna workflows is on <a class="btn btn-link" href="http://www.myexperiment.org" role="button">myExperiment</a></td>
+    <td> <a class="btn btn-default" href="http://www.myexperiment.org" role="button">myExperiment</a>
+ The best place to contribute Taverna workflows is on myExperiment.</a></td>
   </tr>
   <tr>
     <th> Code </th>
