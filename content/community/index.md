@@ -115,46 +115,50 @@ your own publications to these lists.
 <a name="contribute"></a>
 
 <table class="table table-condensed">
+
   <tr>
     <th> Workflows </th>
-    <td> The best place to contribute Taverna workflows is on myExperiment.
-         <a class="btn btn-default" href="http://www.myexperiment.org" role="button">myExperiment</a>
-    </td>
+    <td> The best place to contribute Taverna workflows is on myExperiment.</td>
+    <td> <a class="btn btn-default" href="http://www.myexperiment.org" role="button">myExperiment</a></td>
   </tr>
+
   <tr>
     <th> Code </th>
-    <td> We welcome any contributions for the source code of Apache Taverna. See how to
-    contribute code.
-      <a class="btn btn-default" href="/download/code/" role="button">source code</a>
-      <a class="btn btn-default" href="/download/code/#contribute-to-apache-taverna" role="button">contribute code</a>
+    <td> We welcome any contributions for the source code of Apache Taverna. See how to contribute code.</td>
+    <td> <a class="btn btn-default" href="/download/code/" role="button">source code</a>
+         <a class="btn btn-default" href="/download/code/#contribute-to-apache-taverna" role="button">contribute code</a>
     </td>
   </tr>
+
   <tr>
     <th> Plugin </th>
-    <td>The mechanism for writing **Apache Taverna 3 plugins** is still under development.
-    <br><br>
-    Please contact the <a class="btn btn-link" href="/community/lists#devtaverna">dev@taverna</a> mailing list for details.
-
-    For **Taverna 2** (non-Apache), see the <a class="btn btn-link" href="http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2">Creating plugins for Taverna 2</a> tutorial.</td>
+    <td> The mechanism for writing <strong>Apache Taverna 3 plugins</strong> is still under development.
+         <br><br>
+         Please contact the dev@taverna mailing list for details.
+         For <strong>Taverna 2</strong> (non-Apache), see the Creating plugins for Taverna 2 tutorial.</td>
+    <td> <a class="btn btn-default" href="/community/lists#devtaverna" role="button">dev@taverna</a> 
+         <a class="btn btn-default" href="http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2" role="button">Creating plugins for Taverna 2</a></td>
   </tr>
+
   <tr>
     <th> Host a Taverna Server </th>
-    <td> For information on hosting a Taverna Server to run Taverna workflows, see the
-  <a class="btn btn-link" href="/documentation/server">Server</a> Section.</td>
+    <td> For information on hosting a Taverna Server to run Taverna workflows, see the Server Section.</td>
+    <td> <a class="btn btn-default" href="/documentation/server" role="button">Server</a></td>
   </tr>
+
   <tr>
     <th> Host a Service </th>
-    <td> For information on writing web services to be used in Taverna see our
-     <a class="btn btn-linlk" href="/documentation/web-service-developers">Web Service Developers</a> Section.
-     <br><br>
-     We recommend that your services are registered in Registries such as:
-     <a class="btn btn-link" href="http://www.biocatalogue.org">BioCatalogue(</a></td>
+    <td> For information on writing web services to be used in Taverna see our Web Service Developers Section.
+         <br><br>
+         We recommend that your services are registered in Registries such as BioCatalogue.</td>
+    <td> <a class="btn btn-default" href="/documentation/web-service-developers" role="button">Web Service Developers</a>
+         <a class="btn btn-default" href="http://www.biocatalogue.org" role="button">BioCatalogue</a></td>
   </tr>
+
   <tr>
     <th> Edit the website </th>
-    <td> This website is always under development.
-    Please help make it better by <a class="btn btn-link" href="/community/edit">editing</a> or adding pages.
-</td>
+    <td> This website is always under development. Please help make it better by editing or adding pages.</td>
+    <td> <a class="btn btn-default" href="/community/edit" role="button">Edit website</a></td>
   </tr>
 
 </table>
