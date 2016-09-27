@@ -119,16 +119,11 @@ your own publications to these lists.
 
  - **Code.** We welcome any contributions for the [source code](/download/code/) of Apache Taverna. See how to [contribute code](/download/code/#contribute-to-apache-taverna).
 
- - **Plugin.** The mechanism for writing *Apache Taverna 3 plugins* is still under development. Please contact the [dev@taverna](/community/lists#devtaverna) mailing list for details.
-
-    For *Taverna 2* (non-Apache), see the [Creating plugins for Taverna 2](http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2) tutorial.
+ - **Plugins.** The mechanism for writing *Apache Taverna 3 plugins* is still under development. Please contact the [dev@taverna](/community/lists#devtaverna) mailing list for details. (For *Taverna 2* (pre-Apache), see the [Creating plugins for Taverna 2](http://dev.mygrid.org.uk/wiki/display/developer/Creating+plugins+for+Taverna+2) tutorial.)
 
 - **Host a Taverna Server.** For information on hosting a Taverna Server to run Taverna workflows, see the [Server](/documentation/server) Section.
 
-- **Host a Service.** For information on writing web services to be used in Taverna see our [Web Service Developers](/documentation/web-service-developers) Section.
-
-     We recommend that your services are registered in Registries such as:
-     [BioCatalogue](http://www.biocatalogue.org)
+- **Host a Service.** For information on writing web services to be used in Taverna, see our [Web Service Developers](/documentation/web-service-developers) Section. We recommend that your services are registered in Registries such as: [BioCatalogue](http://www.biocatalogue.org)
 
 - **Edit the website.** This website is always under development. Please help make it better by [editing](/community/edit) or adding pages.
 
