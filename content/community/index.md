@@ -22,13 +22,13 @@ Apache Taverna is a [incubator project](http://incubator.apache.org/) within the
 Taverna is an open source community that's organized by its
 [members](/about), including you!
 Whether you're running or
-[writing workflows](#contribute-workflow),
-[developing plugins](#contribute-plugin),
-[hosting a Taverna server](#contribute-server),
-[hosting a service](#contribute-host),
-[hacking the core](#contribute-code),
+[writing workflows](#contribute),
+[developing plugins](#contribute),
+[hosting a Taverna server](#contribute),
+[hosting a service](#contribute),
+[hacking the core](#contribute),
 [citing us](#citing-taverna), or just want to
-[edit](#contribute-edit) these pages
+[edit](#contribute) these pages
 there are opportunities for you to
 [get in touch and ask questions](#contact),
 [contribute](#contribute) or
@@ -117,13 +117,17 @@ your own publications to these lists.
 <table class="table table-condensed">
   <tr>
     <th> Workflows </th>
-    <td> <a class="btn btn-default" href="http://www.myexperiment.org" role="button">myExperiment</a>
- The best place to contribute Taverna workflows is on myExperiment.</a></td>
+    <td> The best place to contribute Taverna workflows is on myExperiment.
+         <a class="btn btn-default" href="http://www.myexperiment.org" role="button">myExperiment</a>
+    </td>
   </tr>
   <tr>
     <th> Code </th>
-    <td> We welcome any contributions for the <a class="btn btn-link" href="/download/code/">source code</a> of Apache Taverna. See how to
-    <a class="btn btn-link" href="/download/code/#contribute-to-apache-taverna">contribute code</a>.</td>
+    <td> We welcome any contributions for the source code of Apache Taverna. See how to
+    contribute code.
+      <a class="btn btn-default" href="/download/code/" role="button">source code</a>
+      <a class="btn btn-default" href="/download/code/#contribute-to-apache-taverna" role="button">contribute code</a>
+    </td>
   </tr>
   <tr>
     <th> Plugin </th>
