@@ -50,6 +50,7 @@ PPMC members) are:
 	<tr><td>stain</td><td>Stian Soiland-Reyes</td> <td>PPMC member</td></tr>
 	<tr><td>stuzart</td><td>Stuart Owen</td> <td>PPMC member</td></tr>
   <tr><td>maanadev</td><td>Thilina Manamgoda</td> <td>Committer</td></tr>
+  <tr><td>therajanmaurya</td><td>Rajan Maurya</td> <td>Committer</td></tr>
 </tbody>
 </table>
 
@@ -67,7 +68,6 @@ The Apache Taverna team are grateful for contributions from:
 * [Nadeesh Dilanga](https://github.com/NadeeshDilanga)
 * [Sagar](https://github.com/sagar15795)
 * [Finn Bacall](https://github.com/fbacall)
-* [Rajan Maurya](https://github.com/therajanmaurya)
 * [Edi Karadumi](https://github.com/edikaradumi)
 * [Claudiu Stefan Padurariu](https://github.com/PCStefan)
 
