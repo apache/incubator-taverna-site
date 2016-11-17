@@ -51,6 +51,7 @@ PPMC members) are:
 	<tr><td>stuzart</td><td>Stuart Owen</td> <td>PPMC member</td></tr>
   <tr><td>maanadev</td><td>Thilina Manamgoda</td> <td>Committer</td></tr>
   <tr><td>therajanmaurya</td><td>Rajan Maurya</td> <td>Committer</td></tr>
+  <tr><td>sagar</td><td>Sagar</td> <td>Committer</td></tr>
 </tbody>
 </table>
 
@@ -66,7 +67,6 @@ The Apache Taverna team are grateful for contributions from:
 * [Martin Scharm](http://orcid.org/0000-0003-4519-7030)
 * [Glenn Lewis](https://github.com/gmlewis)
 * [Nadeesh Dilanga](https://github.com/NadeeshDilanga)
-* [Sagar](https://github.com/sagar15795)
 * [Finn Bacall](https://github.com/fbacall)
 * [Edi Karadumi](https://github.com/edikaradumi)
 * [Claudiu Stefan Padurariu](https://github.com/PCStefan)
