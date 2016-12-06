@@ -36,6 +36,7 @@ PPMC members) are:
   <tr><td>djd</td><td>Dan Debrunner</td> <td>Mentor</td></tr>
   <tr><td>mpierce</td><td>Marlon Pierce</td> <td>Mentor</td></tr>
   <tr><td>smarru</td><td>Suresh Marru</td> <td>Mentor</td></tr>
+  <tr><td>stain</td><td>Stian Soiland-Reyes</td> <td>Mentor</td></tr>
   <tr><td>suresh</td><td>Suresh Srinivas</td> <td>Mentor</td></tr>
   <tr><td>alaninmcr</td><td>Alan R Williams</td> <td>PPMC member</td></tr>
 	<tr><td>anenadic</td><td>Aleksandra Nenadic</td> <td>PPMC member</td></tr>
@@ -47,7 +48,6 @@ PPMC members) are:
 	<tr><td>jgarrido</td><td>Julián Garrido</td> <td>PPMC member</td></tr>
 	<tr><td>hainesr</td><td>Robert Haines</td> <td>PPMC member</td></tr>
 	<tr><td>shoaibsufi</td><td>Shoaib Sufi</td> <td>PPMC member</td></tr>
-	<tr><td>stain</td><td>Stian Soiland-Reyes</td> <td>PPMC member</td></tr>
 	<tr><td>stuzart</td><td>Stuart Owen</td> <td>PPMC member</td></tr>
   <tr><td>maanadev</td><td>Thilina Manamgoda</td> <td>Committer</td></tr>
   <tr><td>therajanmaurya</td><td>Rajan Maurya</td> <td>Committer</td></tr>
