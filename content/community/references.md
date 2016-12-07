@@ -149,6 +149,14 @@ Frank Rattay, Carole A Goble, Ram Vinay Pandey, Albert Kriegner. (2014).
 In: *BMC Research Notes*, **7**: 740.
 [doi:10.1186/1756-0500-7-740](http://dx.doi.org/10.1186/1756-0500-7-740)
 
+Abraham Nieva de la Hidalga, Alex Hardisty, Andrew Jones (2014):
+**SCRAM–CK: applying a collaborative requirements engineering process for designing a web based e-science toolkit**.
+In: *Requirements Engineering*, **21**(1) 107&ndash;129.
+[doi:10.1007/s00766-014-0212-0](http://dx.doi.org/10.1007/s00766-014-0212-0)
+[[preprint server]](http://orca.cf.ac.uk/65528/)
+[[pdf]](http://orca.cf.ac.uk/65528/1/Nieva%20De%20Hidalga-%20SCRAM%E2%80%93CK%20applying%20a%20collaborative%20requirements%20engineering%20process.pdf)
+
+
 ## 2013
 
 Pinar Alper, Khalid Belhajjame, Carole A. Goble, Pinar Karagoz. (2013).
