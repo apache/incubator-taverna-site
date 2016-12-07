@@ -18,8 +18,8 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 _To reference the Taverna **software** in a paper, please use:_
 
-> Katherine Wolstencroft, Robert Haines, Donal Fellows, Alan Williams, David Withers, Stuart Owen, Stian Soiland-Reyes, Ian Dunlop, Aleksandra Nenadic, Paul Fisher, Jiten Bhagat, Khalid Belhajjame, Finn Bacall, Alex Hardisty, Abraham Nieva de la Hidalga, Maria P. Balcazar Vargas, Shoaib Sufi, Carole Goble (2013):
-> [**The Taverna workflow suite: designing and executing workflows of Web Services on the desktop, web or in the cloud.**](http://nar.oxfordjournals.org/content/41/W1/W557)
+> Katherine Wolstencroft, Robert Haines, Donal Fellows, Alan Williams, David Withers, Stuart Owen, Stian Soiland-Reyes, Ian Dunlop, Aleksandra Nenadic, Paul Fisher, Jiten Bhagat, Khalid Belhajjame, Finn Bacall, Alex Hardisty, Abraham Nieva de la Hidalga, Maria P. Balcazar Vargas, Shoaib Sufi, Carole Goble (2013):<br />
+> [**The Taverna workflow suite: designing and executing workflows of Web Services on the desktop, web or in the cloud.**](http://nar.oxfordjournals.org/content/41/W1/W557) <br/>
 > In *Nucleic Acids Research*, **41**(W1): W557&ndash;W561.
 > [doi:10.1093/nar/gkt328](http://dx.doi.org/10.1093/nar/gkt328)
 
