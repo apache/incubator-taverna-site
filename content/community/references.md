@@ -24,6 +24,7 @@ See also [publications](/community/publications) and [how to cite Taverna](/comm
 
 ## 2017
 
+
 Markus List, Peter Ebert, Felipe Albrecht (2017):
 **Ten Simple Rules for Developing Usable Software in Computational Biology**.
 In: _PLoS Computational Biology_ **13**(1): e1005265. 
@@ -34,6 +35,12 @@ Tomasz Miksa, Andreas Rauber (2017):
 In: _Web Semantics: Science, Services and Agents on the World Wide Web_, available online 24 January 2017.
 [doi:10.1016/j.websem.2017.01.002](http://dx.doi.org/10.1016/j.websem.2017.01.002)
 [[researchgate]](https://www.researchgate.net/publication/312869477_Using_ontologies_for_verification_and_validation_of_workflow-based_experiments)
+
+Rafael Ferreira da Silva, Rosa Filgueira, Ilia Pietri, Ming Jiang, Rizos Sakellariou, Ewa Deelman (2017):
+**A characterization of workflow management systems for extreme-scale applications**.
+In: _Future Generation Computer Systems_, available online 16 February 2017.
+[doi:10.1016/j.future.2017.02.026](http://dx.doi.org/10.1016/j.future.2017.02.026)
+**No OA preprint available?**
 
 ## 2016
 
