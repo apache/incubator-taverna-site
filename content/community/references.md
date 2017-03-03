@@ -25,7 +25,7 @@ See also [publications](/community/publications) and [how to cite Taverna](/comm
 ## 2016
 
 Pinar Alper, Khalid Belhajjame, Carole A. Goble. (2016). **Automatic vs Manual Provenance Abstractions: Mind the Gap.**
-Preprint accepted to the *2016 workshop on the Theory and Applications of Provenance, TAPP 2016*. [arXiv:1605.06669v1](https://arxiv.org/abs/1605.06669v1) [cs.SE] 
+*2016 workshop on the Theory and Applications of Provenance, TAPP 2016*. [arXiv:1605.06669v1](https://arxiv.org/abs/1605.06669v1) [cs.SE] 
 [[PDF]](https://www.usenix.org/system/files/conference/tapp16/tapp16-paper-alper.pdf)
 
 Arzu Tugce Guler, Cathelijn J. F. Waaijer, Magnus Palmblad. (2016).
@@ -40,6 +40,13 @@ In: _Annals of the Rheumatic Diseases_ 2016 **75**(A8).
 [doi:10.1136/annrheumdis-2016-209124.18](http://dx.doi.org/10.1136/annrheumdis-2016-209124.18)
 
 ## 2015
+
+Johannes Starlinger, Sarah Cohen-Boulakia, Sanjeev Khanna, Susan B. Davidson, Ulf Leser (2015):
+**Effective and efficient similarity search in scientific workflow repositories**.
+In: _Future Generation Computer Systems_ **56**(C) pp 584--594.
+[doi:10.1016/j.future.2015.06.012](http://dx.doi.org/10.1016/j.future.2015.06.012)
+[researchgate](https://www.researchgate.net/publication/279830527_Effective_and_Efficient_Similarity_Search_in_Scientific_Workflow_Repositories)
+
 
 Edward Baker, Ben W. Price, S. D. Rycroft1, Jon Hill, Vincent S. Smith. (2015).
 **BioAcoustica: a free and open repository and analysis platform for bioacoustics**
