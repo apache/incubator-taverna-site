@@ -22,6 +22,19 @@ See also [publications](/community/publications) and [how to cite Taverna](/comm
 *Please suggest an [edit](/community/edit) of the website to add or correct a publication listing.*
 
 
+## 2017
+
+Markus List, Peter Ebert, Felipe Albrecht (2017):
+**Ten Simple Rules for Developing Usable Software in Computational Biology**.
+In: _PLoS Computational Biology_ **13**(1): e1005265. 
+[doi:10.1371/journal.pcbi.1005265](http://dx.doi.org/10.1371/journal.pcbi.1005265)
+
+Tomasz Miksa, Andreas Rauber (2017):
+**Using ontologies for verification and validation of workflow-based experiments**.
+In: _Web Semantics: Science, Services and Agents on the World Wide Web_, available online 24 January 2017.
+[doi:10.1016/j.websem.2017.01.002](http://dx.doi.org/10.1016/j.websem.2017.01.002)
+[[researchgate]](https://www.researchgate.net/publication/312869477_Using_ontologies_for_verification_and_validation_of_workflow-based_experiments)
+
 ## 2016
 
 Pinar Alper, Khalid Belhajjame, Carole A. Goble. (2016). **Automatic vs Manual Provenance Abstractions: Mind the Gap.**
@@ -39,13 +52,19 @@ H Munir, A Benjamin, JW Allwood, WB Dunn, S He, GB Nash, HM McGettrick. (2016).
 In: _Annals of the Rheumatic Diseases_ 2016 **75**(A8).
 [doi:10.1136/annrheumdis-2016-209124.18](http://dx.doi.org/10.1136/annrheumdis-2016-209124.18)
 
+Bruno F. Bastos, Regina Maria M. Braga, Antonio Tadeu A. Gomes (2016):
+**WISP: A pattern-based approach to the interchange of scientific workflow specifications**.
+In: _Concurrency and Computation: Practice and Experience_ **29**(2) e3851.
+[doi:10.1002/cpe.3851](http://dx.doi.org/10.1002/cpe.3851)
+ 
+
 ## 2015
 
 Johannes Starlinger, Sarah Cohen-Boulakia, Sanjeev Khanna, Susan B. Davidson, Ulf Leser (2015):
 **Effective and efficient similarity search in scientific workflow repositories**.
 In: _Future Generation Computer Systems_ **56**(C) pp 584--594.
 [doi:10.1016/j.future.2015.06.012](http://dx.doi.org/10.1016/j.future.2015.06.012)
-[researchgate](https://www.researchgate.net/publication/279830527_Effective_and_Efficient_Similarity_Search_in_Scientific_Workflow_Repositories)
+[[researchgate]](https://www.researchgate.net/publication/279830527_Effective_and_Efficient_Similarity_Search_in_Scientific_Workflow_Repositories)
 
 
 Edward Baker, Ben W. Price, S. D. Rycroft1, Jon Hill, Vincent S. Smith. (2015).
