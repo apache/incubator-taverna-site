@@ -22,6 +22,11 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 ### 2017
 
+Pinar Alper, Khalid Belhajjame, Carole A. Goble (2017):
+**Static analysis of Taverna workflows to predict provenance patterns**.
+_Future Generation Computer Systems_ (Available online 16 January 2017).
+[doi:10.1016/j.future.2017.01.004](http://dx.doi.org/10.1016/j.future.2017.01.004)
+
 Sarah Cohen-Boulakia, Khalid Belhajjame, Olivier Collin, Jérôme Chopard, Christine Froidevaux, Alban Gaignard, Konrad Hinsen, Pierre Larmande, Yvan Le Bras, Frédéric Lemoine, Fabien Mareuil, Hervé Ménager, Christophe Pradal, Christophe Blancheto (2017): 
 **Scientific workflows for computational reproducibility in the life sciences: Status, challenges and opportunities**
 _Future Generation Computer Systems_ (Available online 6 January 2017).
