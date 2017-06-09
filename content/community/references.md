@@ -359,7 +359,7 @@ in *Research In a Connected World*, Alex Voss, Elizabeth Vander Meer, David Ferg
 Carole Goble, Paolo Missier, David De Roure. (2008).
 **"Scientific workflows,"**
 in *McGraw Hill 2009 Yearbook of Science & Technology*, McGraw Hill.
-[[eprint]](http://eprints.ecs.soton.ac.uk/16628/)
+[[eprint]](http://eprints.ecs.soton.ac.uk/16628/) [[pdf]](https://eprints.soton.ac.uk/266628/1/ScientificWorkflows.pdf)
 
 Paolo Missier, Suzanne Embury, Richard Stapenhurst. (2008).
 **"Exploiting provenance to make sense of automated decisions in scientific workflows,"**
