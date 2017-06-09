@@ -22,21 +22,37 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 ### 2017
 
+
 Marek Kasztelnik, Ernesto Coto, Marian Bubak, Maciej Malawski, Piotr Nowakowski, Juan Arenas, Alfredo Saglimbeni, Debora Testi, Alejandro F. Frangi (2017):
 **Support for Taverna workflows in the VPH-Share cloud platform**.
 In: _Computer Methods and Programs in Biomedicine_ **146** July 2017, pages 37–46.
 [https://doi.org/10.1016/j.cmpb.2017.05.006](https://doi.org/10.1016/j.cmpb.2017.05.006)
-**No OA preprint available?**
+**No Open Access preprint available?**
 
 Pinar Alper, Khalid Belhajjame, Carole A. Goble (2017):
 **Static analysis of Taverna workflows to predict provenance patterns**.
 _Future Generation Computer Systems_ (Available online 16 January 2017).
 [https://doi.org/10.1016/j.future.2017.01.004](https://doi.org/10.1016/j.future.2017.01.004)
 
+Tomasz Miksa, Andreas Rauber (2017):
+**Using ontologies for verification and validation of workflow-based experiments**.
+In: _Web Semantics: Science, Services and Agents on the World Wide Web_ **43** March 2017, pages 25–45.
+[https://doi.org/10.1016/j.websem.2017.01.002](https://doi.org/10.1016/j.websem.2017.01.002)
+[[researchgate]](https://www.researchgate.net/publication/312869477_Using_ontologies_for_verification_and_validation_of_workflow-based_experiments)
+
 Sarah Cohen-Boulakia, Khalid Belhajjame, Olivier Collin, Jérôme Chopard, Christine Froidevaux, Alban Gaignard, Konrad Hinsen, Pierre Larmande, Yvan Le Bras, Frédéric Lemoine, Fabien Mareuil, Hervé Ménager, Christophe Pradal, Christophe Blancheto (2017):
 **Scientific workflows for computational reproducibility in the life sciences: Status, challenges and opportunities**
 _Future Generation Computer Systems_ (Available online 6 January 2017).
-[https://doi.org/10.1016/j.future.2017.01.012](https://doi.org/10.1016/j.future.2017.01.012) **MISSING Open Acccess preprint**
+[https://doi.org/10.1016/j.future.2017.01.012](https://doi.org/10.1016/j.future.2017.01.012)
+[[preprint]](https://hal.archives-ouvertes.fr/hal-01516082)
+[[pdf]](https://hal.archives-ouvertes.fr/hal-01516082/document)
+
+Vishal Dwivedi, James D. Herbsleb, David Garlan (2017):
+**What Ails End-User Composition: A Cross-Domain Qualitative Study**.
+_End-User Development. IS-EUD 2017_, _Lecture Notes in Computer Science_ **10303**.
+[https://doi.org/10.1007/978-3-319-58735-6_5](https://doi.org/10.1007/978-3-319-58735-6_5)
+[[pdf]](http://www.cs.cmu.edu/~vdwivedi/papers/eud2017.pdf)
+
 
 ### 2016
 

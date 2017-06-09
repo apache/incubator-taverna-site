@@ -29,17 +29,16 @@ Markus List, Peter Ebert, Felipe Albrecht (2017):
 In: _PLoS Computational Biology_ **13**(1): e1005265.
 [https://doi.org/10.1371/journal.pcbi.1005265](https://doi.org/10.1371/journal.pcbi.1005265)
 
-Tomasz Miksa, Andreas Rauber (2017):
-**Using ontologies for verification and validation of workflow-based experiments**.
-In: _Web Semantics: Science, Services and Agents on the World Wide Web_, available online 24 January 2017.
-[https://doi.org/10.1016/j.websem.2017.01.002](https://doi.org/10.1016/j.websem.2017.01.002)
-[[researchgate]](https://www.researchgate.net/publication/312869477_Using_ontologies_for_verification_and_validation_of_workflow-based_experiments)
-
 Rafael Ferreira da Silva, Rosa Filgueira, Ilia Pietri, Ming Jiang, Rizos Sakellariou, Ewa Deelman (2017):
 **A characterization of workflow management systems for extreme-scale applications**.
 In: _Future Generation Computer Systems_, available online 16 February 2017.
 [https://doi.org/10.1016/j.future.2017.02.026](https://doi.org/10.1016/j.future.2017.02.026)
-**No OA preprint available?**
+[[pdf]](http://www.cs.man.ac.uk/~rizos/papers/fgcs17.pdf)
+
+Md. Rezaul Karim, Audrey Michel, Achille Zappa, Pavel Baranov, Ratnesh Sahay,Dietrich Rebholz-Schuhmann (2017):
+**Improving data workflow systems with cloud services and use of open data for bioinformatics research**.
+In: _Briefings in Bioinformatics_ bbx039. [https://doi.org/10.1093/bib/bbx039](https://doi.org/10.1093/bib/bbx039)
+
 
 ## 2016
 
@@ -62,6 +61,11 @@ Bruno F. Bastos, Regina Maria M. Braga, Antonio Tadeu A. Gomes (2016):
 **WISP: A pattern-based approach to the interchange of scientific workflow specifications**.
 In: _Concurrency and Computation: Practice and Experience_ **29**(2) e3851.
 [https://doi.org/10.1002/cpe.3851](https://doi.org/10.1002/cpe.3851)
+
+Jeremy Leipzig (2016):
+**A review of bioinformatic pipeline frameworks**.
+In: _Briefings in bioinformatics_ (2017) **18**(3): 530-536
+[https://doi.org/10.1093/bib/bbw020](https://doi.org/10.1093/bib/bbw020)
 
 
 ## 2015
@@ -103,11 +107,6 @@ Sonja Holl, Yassene Mohammed, Olav Zimmermann, Magnus Palmblad. (2015).
 In: *BMC Bioinformatics* **16**(1): 1&ndash;13.
 [https://doi.org/10.1186/s12859-015-0714-x](https://doi.org/10.1186/s12859-015-0714-x)
 
-Jeremy Leipzig. (2015).
-**A review of bioinformatic pipeline frameworks**.
-In: _Briefings in bioinformatics_ (2016) 1&ndash;7 bbw020.  
-[https://doi.org/10.1093/bib/bbw020](https://doi.org/10.1093/bib/bbw020)
-
 Ji Liu, Esther Pacitti, Patrick Valduriez, Marta Mattoso. (2015).
 **A Survey of Data-Intensive Scientific Workflow Management**
 In: _Journal of Grid Computing_ **13**: 457&ndash;493.
@@ -126,7 +125,7 @@ Yassene Mohammed, Christoph H. Borchers. (2015).
 _Journal of Proteomics_ **129**: 93&ndash;97.
 [https://doi.org/10.1016/j.jprot.2015.07.025](https://doi.org/10.1016/j.jprot.2015.07.025)
 [[researchgate]](https://www.researchgate.net/publication/280602358_An_Extensive_Library_of_Surrogate_Peptides_for_all_Human_Proteins)
-_preprint not currently available_
+**No Open Access preprint available?**
 
 Steve O’Hagan, Douglas B. Kell. (2015).
 **Software review: the KNIME workflow environment and its applications in genetic programming and machine learning**.
