@@ -16,11 +16,17 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-*These publications describe or experiment with Taverna. See also [references](/community/references) and [how to cite Taverna](/community/cite).*
+*These publications **describe**, **extend** or **experiment** with Taverna. See also [references](/community/references) and [how to cite Taverna](/community/cite).*
 
 *Please suggest an [edit](/community/edit) of the website to add or correct a publication listing.*
 
 ### 2017
+
+Marek Kasztelnik, Ernesto Coto, Marian Bubak, Maciej Malawski, Piotr Nowakowski, Juan Arenas, Alfredo Saglimbeni, Debora Testi, Alejandro F. Frangi (2017):
+**Support for Taverna workflows in the VPH-Share cloud platform**.
+In: _Computer Methods and Programs in Biomedicine_ **146** July 2017, pages 37–46.
+[https://doi.org/10.1016/j.cmpb.2017.05.006](https://doi.org/10.1016/j.cmpb.2017.05.006)
+**No OA preprint available?**
 
 Pinar Alper, Khalid Belhajjame, Carole A. Goble (2017):
 **Static analysis of Taverna workflows to predict provenance patterns**.
