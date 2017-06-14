@@ -27,7 +27,8 @@ Marek Kasztelnik, Ernesto Coto, Marian Bubak, Maciej Malawski, Piotr Nowakowski,
 **Support for Taverna workflows in the VPH-Share cloud platform**.
 In: _Computer Methods and Programs in Biomedicine_ **146** July 2017, pages 37–46.
 [https://doi.org/10.1016/j.cmpb.2017.05.006](https://doi.org/10.1016/j.cmpb.2017.05.006)
-**No Open Access preprint available?**
+[[researchgate]](https://www.researchgate.net/publication/317142153_Support_for_Taverna_Workflows_in_the_VPH-Share_Cloud_Platform)
+[[preprint]](http://www.icsr.agh.edu.pl/~malawski/VPH_Share_Taverna_CMPB_preprint.pdf)
 
 Pinar Alper, Khalid Belhajjame, Carole A. Goble (2017):
 **Static analysis of Taverna workflows to predict provenance patterns**.
