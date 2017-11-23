@@ -24,6 +24,11 @@ See also [publications](/community/publications) and [how to cite Taverna](/comm
 
 ## 2017
 
+Magnus Palmblad, Vetle I. Torvik (2017):
+**Spatiotemporal analysis of tropical disease research combining Europe PMC and affiliation mapping web services**
+In: _Tropical Medicine and Health_ **45**:33.
+[https://doi.org/10.1186/s41182-017-0073-6](https://doi.org/10.1186/s41182-017-0073-6)
+
 Markus List, Peter Ebert, Felipe Albrecht (2017):
 **Ten Simple Rules for Developing Usable Software in Computational Biology**.
 In: _PLoS Computational Biology_ **13**(1): e1005265.
