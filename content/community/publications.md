@@ -22,7 +22,6 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 ### 2017
 
-
 Marek Kasztelnik, Ernesto Coto, Marian Bubak, Maciej Malawski, Piotr Nowakowski, Juan Arenas, Alfredo Saglimbeni, Debora Testi, Alejandro F. Frangi (2017):
 **Support for Taverna workflows in the VPH-Share cloud platform**.
 In: _Computer Methods and Programs in Biomedicine_ **146** July 2017, pages 37–46.
@@ -55,7 +54,25 @@ _End-User Development. IS-EUD 2017_, _Lecture Notes in Computer Science_ **10303
 [[pdf]](http://www.cs.cmu.edu/~vdwivedi/papers/eud2017.pdf)
 
 
+
 ### 2016
+
+David Luis Wiegandt, Johannes Starlinger, Ulf Leser (2016):
+**Graph n-grams for Scientific Workflow Similarity Search**
+At: [LWDA 2016](https://hpi.de/mueller/lwda-2016.html) Lernen, Wissen, Daten, Analysen 2016, Potsdam, Germany, September 12-14, 2016. 
+In: _CEUR Workshop Proceedings_ **[1670](http://ceur-ws.org/Vol-1670/)**:50 pp 213-224.
+[[pdf]](http://ceur-ws.org/Vol-1670/paper-50.pdf)
+
+Enrico Daga, Mathieu d’Aquin, Aldo Gangemi, Enrico Motta (2016):
+**An incremental learning method to support theannotation of workflows with data-to-data relations**
+At: 20th International Conference on Knowledge Engineering and Knowledge Management ([EKAW 2016](http://ekaw2016.cs.unibo.it/))
+Bologna, Italy.
+In: _Lecture Notes in Computer Science_ **10024** pp 129-144.
+[https://doi.org/10.1007/978-3-319-49004-5_9](https://doi.org/10.1007/978-3-319-49004-5_9)
+[[preprint server]](http://oro.open.ac.uk/47829/)
+[[pdf]](http://oro.open.ac.uk/47829/1/article-camera-ready.pdf)
+[[slides]](https://www.slideshare.net/enricodaga/an-incremental-learning-method-to-support-the-annotation-of-workflows-with-datatodata-relations)
+
 
 Alex R. Hardisty, Finn Bacall, Niall Beard, Maria-Paula Balcázar-Vargas, Bachir Balech, Zoltán Barcza, Sarah J. Bourlat, Renato De Giovanni, Yde de Jong, Francesca De Leo, Laura Dobor, Giacinto Donvito, Donal Fellows, Antonio Fernandez Guerra, Nuno Ferreira, Yuliya Fetyukova, Bruno Fosso, Jonathan Giddy, Carole Goble, Anton Güntsch, Robert Haines, Vera Hernández Ernst, Hannes Hettling, Dóra Hidy, Ferenc Horváth, Dóra Ittzés, Péter Ittzés, Andrew Jones, Renzo Kottmann, Robert Kulawik, Sonja Leidenberger, Päivi Lyytikäinen-Saarenmaa, Cherian Mathew, Norman Morrison, Aleksandra Nenadic, Abraham Nieva de la Hidalga, Matthias Obst, Gerard Oostermeijer, Elisabeth Paymal, Graziano Pesole, Salvatore Pinto, Axel Poigné, Francisco Quevedo Fernandez, Monica Santamaria, Hannu Saarenmaa, Gergely Sipos, Karl-Heinz Sylla, Marko Tähtinen, Saverio Vicario, Rutger Aldo Vos, Alan R. Williams, Pelin Yilmaz (2016):
 **BioVeL: a virtual laboratory for data analysis and modelling in biodiversity science and ecology**.
@@ -342,5 +359,6 @@ In: *Bioinformatics*, 19(suppl 1): i302&ndash;304.
 
 Jun Zhao, Carol Goble, Mark Greenwood, Chris Wroe, Robert Stevens. (2003).
 **"Annotating, linking and browsing provenance logs for e-Science,"**
-in *International Semantic Web Conference*.
+in *International Semantic Web Conference* 2003.
+_CEUR Workshop Proceedings_ **83**
 [[pdf]](http://ceur-ws.org/Vol-83/prov_2.pdf)
