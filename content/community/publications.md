@@ -38,6 +38,8 @@ Tomasz Miksa, Andreas Rauber (2017):
 **Using ontologies for verification and validation of workflow-based experiments**.
 In: _Web Semantics: Science, Services and Agents on the World Wide Web_ **43** March 2017, pages 25–45.
 [https://doi.org/10.1016/j.websem.2017.01.002](https://doi.org/10.1016/j.websem.2017.01.002)
+[[preprint server]](http://www.websemanticsjournal.org/index.php/ps/article/view/488)
+[[pdf]](http://www.websemanticsjournal.org/index.php/ps/article/view/488/504)
 [[researchgate]](https://www.researchgate.net/publication/312869477_Using_ontologies_for_verification_and_validation_of_workflow-based_experiments)
 
 Sarah Cohen-Boulakia, Khalid Belhajjame, Olivier Collin, Jérôme Chopard, Christine Froidevaux, Alban Gaignard, Konrad Hinsen, Pierre Larmande, Yvan Le Bras, Frédéric Lemoine, Fabien Mareuil, Hervé Ménager, Christophe Pradal, Christophe Blancheto (2017):
