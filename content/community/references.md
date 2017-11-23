@@ -29,6 +29,13 @@ Magnus Palmblad, Vetle I. Torvik (2017):
 In: _Tropical Medicine and Health_ **45**:33.
 [https://doi.org/10.1186/s41182-017-0073-6](https://doi.org/10.1186/s41182-017-0073-6)
 
+André Giesler, Myriam Czekala, Björn Hagemeier, Richard Grunzke (2017):
+**UniProv: A Flexible Provenance Tracking System for UNICORE**
+In: JHPCS 2016: High-Performance Scientific Computing, _Lecture Notes in Computer Science_ **10164** pp 233-242.
+[https://doi.org/10.1007/978-3-319-53862-4_20](https://doi.org/10.1007/978-3-319-53862-4_20)
+[[ResearchGate]](https://www.researchgate.net/publication/313841325_UniProv_A_Flexible_Provenance_Tracking_System_for_UNICORE)
+[[slides]](http://juser.fz-juelich.de/record/825916/files/JHPCS-UniProv.pdf?version=1)
+
 Markus List, Peter Ebert, Felipe Albrecht (2017):
 **Ten Simple Rules for Developing Usable Software in Computational Biology**.
 In: _PLoS Computational Biology_ **13**(1): e1005265.
