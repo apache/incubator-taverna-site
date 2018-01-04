@@ -31,7 +31,7 @@ or the <a href="#apache-cms">Apache CMS</a>, as described below.
 
 Please follow the <a href="#editing-tips">editing guidelines</a> when making changes.
 
-(Raw pages are stored in the <a href="http://svn.apache.org/repos/asf/incubator/taverna/site/">SVN repository asf/incubator/taverna/site</a>.)
+(Raw pages are stored in the <a href="https://svn.apache.org/repos/asf/incubator/taverna/site/trunk">SVN repository asf/incubator/taverna/site</a>.)
 
 
 -----
