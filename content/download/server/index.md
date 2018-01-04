@@ -106,8 +106,11 @@ They access the Server's functionality and can help you build your client applic
 
 ###General
 
- - A [Ruby gem](https://github.com/myGrid/taverna2-gem) that enables you to interact with 
+ - [taverna-server-client](https://github.com/apache/incubator-taverna-server/tree/master/taverna-server-client) - a Java client library for Taverna Server's REST API
+ - [Taverna Language](/download/language/) - Java API for building and inspecting Taverna 3 workflows.
+ - [taverna2-gem](https://github.com/myGrid/taverna2-gem) Ruby Gem that enables you to interact with 
      Taverna 2 workflows (.t2flow files). 
    You can generate a t2flow model using the gem, and then use it to retrieve various 
       information about the workflow by invoking different methods and attributes. You can also draw a workflow diagram using the gem.</li>
- - A [Ruby gem](https://rubygems.org/gems/taverna-baclava) for handling Baclava files.
+ - [taverna-baclava](https://rubygems.org/gems/taverna-baclava) Ruby Gem for handling Baclava files.
+
