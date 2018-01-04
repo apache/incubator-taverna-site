@@ -1,7 +1,11 @@
+org.apache.taverna.server.client
+org.apache.taverna.server.client.generic
+org.apache.taverna.server.client.port
+org.apache.taverna.server.client.rest
+org.apache.taverna.server.client.wadl
 org.apache.taverna.server.usagerecord
 org.apache.taverna.server.usagerecord.xml.dsig
 org.apache.taverna.server.usagerecord.xml.urf
-org.taverna.server.client.wadl
 org.taverna.server.localworker.api
 org.taverna.server.localworker.impl
 org.taverna.server.localworker.impl.utils
@@ -32,7 +36,3 @@ org.taverna.server.port_description
 org.taverna.server.port_description.utils
 org.taverna.server.rmidaemon
 org.taverna.server.unixforker
-uk.org.taverna.server.client
-uk.org.taverna.server.client.generic
-uk.org.taverna.server.client.generic.port
-uk.org.taverna.server.client.rest
