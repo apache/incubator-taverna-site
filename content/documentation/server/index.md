@@ -16,15 +16,32 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-Taverna Server enables you to set up a dedicated server for remotely executing workflows.
+[Taverna Server](/download/server/) enables you to set up a dedicated server
+for remotely executing workflows, exposed as REST Web APIs and WSDL Web
+Services.
 
-##Latest Non-Apache Release
+## Apache Taverna Server 3.x
+
+* [Introduction](3.1/)
+* [Installation guide](3.1/install)
+* [API User guide](3.1/usage)
+
+This documentation is generally also valid for the previous 2.5 release.
+
+To suggest improvements to the above documentation, please see the
+corresponding MarkDown files in 
+[taverna-server's git repository](https://github.com/apache/incubator-taverna-server/),
+e.g. 
+[https://github.com/apache/incubator-taverna-server/blob/master/install.md](install.md).
+
+## Previous Releases 
+
+This documentation for the earlier releases of Taverna Server 2.x are not
+provided by Apache Software Foundation:
 
  - Documentation for the 
       [Taverna Server 2.5 release](http://www.mygrid.org.uk/dev/wiki/display/taverna/Taverna+Server+2.5)
       (which is based on the Taverna 2.5 codebase).
-##Previous Releases
-
  - Documentation for the 
      [Taverna Server 2.4 release](http://dev.mygrid.org.uk/wiki/display/taverna24/Taverna+Server+2.4)
      (which is based on the Taverna 2.4 codebase).
