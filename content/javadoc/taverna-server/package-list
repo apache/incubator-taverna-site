@@ -6,6 +6,7 @@ org.apache.taverna.server.client.wadl
 org.apache.taverna.server.usagerecord
 org.apache.taverna.server.usagerecord.xml.dsig
 org.apache.taverna.server.usagerecord.xml.urf
+org.apache.taverna.server.usagerecord.xml.urf2
 org.taverna.server.localworker.api
 org.taverna.server.localworker.impl
 org.taverna.server.localworker.impl.utils
