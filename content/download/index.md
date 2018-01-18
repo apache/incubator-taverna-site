@@ -19,7 +19,7 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 ## Which Taverna to download?
 
 Many, but not all, of the original Taverna tools have been migrated to Apache Taverna. 
-(Taverna was started by the [myGrid project](http://www.mygrid.org.uk/) and in 2014 entered incubation 
+(Taverna was started in 2001 by the [myGrid project](http://www.esciencelab.org.uk/about/#history) and in 2014 entered incubation 
 at the [Apache Software Foundation](http://incubator.apache.org/).) 
 
 Links to Pre-Apache versions are provided for tools that have yet to be migrated. See below for links to complete
@@ -34,14 +34,15 @@ There are several Taverna tools you can download:
   workflows from a command prompt.
   This enables scripted execution of workflows, e.g. on a Linux server.
 
+- [Apache Taverna Server](/download/server) provides a REST and WSDL web service 
+  for executing Taverna workflows remotely and integrating workflow execution
+  into web applications.
+
 - Pre-Apache Taverna (2.x)
     - [Taverna Workbench](/download/workbench) enables you to graphically create, edit and
    run workflows on your computer.
    Taverna 2.5 Workbench (non-Apache) is the latest series of the Workbench;
    it is highly recommended that you use this version if you are new to Taverna.
-
-    - [Taverna Server](/download/server) is the remote workflow execution service that enables you
-  to set up a dedicated server for executing workflows remotely.
 
     - [Taverna Plugins](/documentation/plugins) - because the design of Taverna is modular,
  various plugins can be added to increase its functionality.
@@ -66,6 +67,11 @@ separately for development usage:
 - [Apache Taverna Common Activities](/download/common-activities) are plugins
   for the _Taverna Engine_ that provide implementations to invoke local and
   remote tools and web services.
+
+- [Apache Taverna Maven Parent](https://repo1.maven.org/maven2/org/apache/taverna/apache-taverna-parent/) 
+  provides common Maven build settings for the rest of the Taverna source code.
+  You would only need this if your build system is unable to contact Maven Central.
+
 
 
 ## Source code
