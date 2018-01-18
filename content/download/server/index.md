@@ -1,4 +1,4 @@
-Title:     Pre-Apache Taverna Server
+Title:     Apache Taverna Server
 Notice:    Licensed to the Apache Software Foundation (ASF) under one
            or more contributor license agreements.  See the NOTICE file
            distributed with this work for additional information
@@ -71,6 +71,12 @@ ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/close
 
 The Taverna Server [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332252&projectId=12318322)
 is available from the [Apache Taverna Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20TAVERNA%20AND%20component%20%3D%20%22Taverna%20Server%22).
+
+
+Note that when building Taverna Server, it will require other Taverna modules:
+
+* [Apache Taverna Language](/download/language)
+* [Apache Taverna Commandline](/download/commandline)
 
 
 ### Source code repositories

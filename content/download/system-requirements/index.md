@@ -96,17 +96,15 @@ Java and Graphviz are included in the platform-specific downloads but not in the
 
 ### Java
 
-If you download a platform-neutral Taverna installation, you will need to install Java 7 or
+If you download a platform-neutral Taverna installation, you will need to install Java 8 or
    higher.
 
-For Oracle's Java 7, you will also need to install the
+For Oracle's Java 8, you will also need to install the
    [Java Cryptography Extension](http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html)
    separately.
 
-For [OpenJDK 7](http://openjdk.java.net/), the Java Cryptography Extension is already included.
+For [OpenJDK 8](http://openjdk.java.net/), the Java Cryptography Extension is already included.
    On Linux, *apt-get install openjdk-7-jdk*, or equivalent, is usually sufficient.
-
-> Taverna 2.5 has not been tested with Java 8.
 
 >On newer versions of **Mac OS X**, Taverna Workbench might need the
    [XQuarts](http://xquartz.macosforge.org/landing/) shared X11 libraries to be installed.

@@ -115,24 +115,28 @@ ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/close
 * [taverna-language-0.15.1-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip)
   ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip.asc),
   [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip.md5),
-  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip.sha1))
+  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip.sha1),
+  [sha256](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip.sha256),
+  [sha512](https://www.apache.org/dist/incubator/taverna/source/taverna-language-0.15.1-incubating/apache-taverna-language-0.15.1-incubating-source-release.zip.sha512))
 
 The Taverna Language [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12333250&projectId=12318322)
 is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326808).
 
 
 
-### taverna-parent-2-incubating
+### taverna-parent-3-incubating
 
-**Apache Taverna Maven Parent 2-incubating** was published on 2016-03-11, and is available as:
+**Apache Taverna Maven Parent 3-incubating** was published on 2017-01-18, and is available as:
 
-* [taverna-parent-2-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-parent-2-incubating/apache-taverna-parent-2-incubating-source-release.zip)
-  ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-2-incubating/apache-taverna-parent-2-incubating-source-release.zip.asc),
-  [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-2-incubating/apache-taverna-parent-2-incubating-source-release.zip.md5),
-  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-2-incubating/apache-taverna-parent-2-incubating-source-release.zip.sha1))
+* [taverna-parent-3-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-parent-3-incubating/apache-taverna-parent-3-incubating-source-release.zip)
+  ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-3-incubating/apache-taverna-parent-3-incubating-source-release.zip.asc),
+  [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-3-incubating/apache-taverna-parent-3-incubating-source-release.zip.md5),
+  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-3-incubating/apache-taverna-parent-3-incubating-source-release.zip.sha1),
+  [sha256](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-3-incubating/apache-taverna-parent-3-incubating-source-release.zip.sha256),
+  [sha512](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-3-incubating/apache-taverna-parent-3-incubating-source-release.zip.sha512))
 
-The Taverna Maven parent [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12333249&projectId=12318322)
-is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326807).
+The Taverna Maven parent [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12334882&projectId=12318322)
+is available from the [Apache Taverna Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20TAVERNA%20AND%20component%20%3D%20%22Taverna%20Server%22).
 
 ### Source code repositories
 

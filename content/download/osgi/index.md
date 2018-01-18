@@ -171,10 +171,12 @@ ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/close
 * [taverna-osgi-0.2.1-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip)
   ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip.asc),
   [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip.md5),
-  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip.sha1))
+  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip.sha1),
+  [sha256](https://www.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip.sha256),
+  [sha512](https://www.apache.org/dist/incubator/taverna/source/taverna-osgi-0.2.1-incubating/apache-taverna-osgi-0.2.1-incubating-source-release.zip.sha512))
 
 The Taverna OSGi [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332248&projectId=12318322)
-is available from the [Apache Taverna Jira](https://issues.apache.org/jira/browse/TAVERNA/component/12326809).
+is available from the [Apache Taverna Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20TAVERNA%20AND%20component%20%3D%20%22Taverna%20OSGi%22).
 
 
 ### Source code repositories
