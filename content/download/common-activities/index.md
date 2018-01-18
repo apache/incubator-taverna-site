@@ -137,7 +137,7 @@ your `META-INF/spring/update-context-osgi.xml`:
 Below you can find all Taverna Common Activities source releases.
 
 After downloading the files,
-[verify the PGP signatures](http://www.apache.org/info/verification.html)
+[verify the PGP signatures](https://www.apache.org/info/verification.html)
 using the Apache Taverna [KEYS](https://www.apache.org/dist/incubator/taverna/KEYS)
 file.
 
@@ -180,6 +180,6 @@ Note that the older code was licensed under LGPL 2.1.
 Binaries for older releases are also available in the
 [myGrid repository](/download/maven/#pre-apache-releases-ands),
 e.g., as
-[net.sf.taverna.t2.activities](http://repository.mygrid.org.uk/artifactory/mygrid-all/net/sf/taverna/t2/activities/)
+[net.sf.taverna.t2.activities](https://repository.mygrid.org.uk/artifactory/mygrid-all/net/sf/taverna/t2/activities/)
 and other groupIds. The myGrid repository is not affiliated with the
 Apache Software Foundation and is provided for archival purposes only.

@@ -79,7 +79,7 @@ for details.
 Below you can find all Taverna Command-line Tool source releases.
 
 After downloading the files,
-[verify the PGP signatures](http://www.apache.org/info/verification.html)
+[verify the PGP signatures](https://www.apache.org/info/verification.html)
 using the Apache Taverna [KEYS](https://www.apache.org/dist/incubator/taverna/KEYS)
 file.
 
@@ -162,5 +162,5 @@ Apache Taverna Command-line Tool and provide
 
 Taverna Command Line 2.5 can be [downloaded from BitBucket](https://bitbucket.org/taverna/taverna-commandline-product/downloads/).
 Note that these non-Apache releases are licensed under
-[LGPL 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) or
-[GPL 3.0](http://www.gnu.org/licenses/gpl-3.0.html).
+[LGPL 2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) or
+[GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.html).

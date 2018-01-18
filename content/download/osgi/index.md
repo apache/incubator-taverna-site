@@ -158,7 +158,7 @@ your `META-INF/spring/update-context-osgi.xml`:
 Below you can find all Taverna OSGi source releases.
 
 After downloading the files,
-[verify the PGP signatures](http://www.apache.org/info/verification.html)
+[verify the PGP signatures](https://www.apache.org/info/verification.html)
 using the Apache Taverna [KEYS](https://www.apache.org/dist/incubator/taverna/KEYS)
 file.
 
