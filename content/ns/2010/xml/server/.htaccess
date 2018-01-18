@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /ns/2010/xml/server
+
+RewriteRule rest rest.xsd
+# TODO - where's the XSD for these?
+#RewriteRule admin admin.xsd
+#RewriteRule feed feed.xsd

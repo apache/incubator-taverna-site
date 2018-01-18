@@ -2,3 +2,5 @@ RewriteEngine On
 RewriteBase /ns/2010/
 # Try try to make scufl2.xsd work
 RewriteRule (scufl2[^/]+) scufl2/$1 [L,R=307] 
+
+RewriteRule port port.xsd

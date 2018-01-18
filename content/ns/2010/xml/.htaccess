@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /ns/2010/xml
+
+RewriteRule server server.xsd
