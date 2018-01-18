@@ -21,18 +21,20 @@ XML namespaces and ontologies, including:
 
 <ul>
  <li> <a href="2008/xml/t2flow">http://taverna.sf.net/2008/xml/t2flow</a></li>
- <li> <a href="2010/scufl2">http://ns.taverna.org.uk/2010/scufl2</a> (also 
-	<a href="2010/scufl2.ttl">scufl2.ttl</a> and
+ <li> <a href="2010/scufl2">http://ns.taverna.org.uk/2010/scufl2</a> (and 
+	<a href="2010/scufl2.ttl">scufl2.xsd</a>
+  <a href="2010/scufl2.ttl">scufl2.ttl</a> and
 	<a href="2010/scufl2.rdf">scufl2.rdf</a>)
 </li>
+<li><a href="2010/taverna/2.2">http://ns.taverna.org.uk/2010/taverna/2.2/</a></li>
  <li><a href="2010/port">http://ns.taverna.org.uk/2010/</a></li>
- <li><a href="2010/xml/server">http://ns.taverna.org.uk/2010/xml/server</a></li>
-<li>http://ns.taverna.org.uk/2010/xml/server/admin</a></li>
-<li>http://ns.taverna.org.uk/2010/xml/server/feed</a></li>
- <li><a href="2010/xml/server/rest">http://ns.taverna.org.uk/2010/xml/server/rest</a></li>
- <li><a href="2010/xml/server/wadl">http://ns.taverna.org.uk/2010/xml/server/wadl</a></li>
- <li>http://ns.taverna.org.uk/2010/xml/run</a></li>
- <li>http://ns.taverna.org.uk/2010/xml/server/wsdl</a></li>
+ <li><a href="2010/xml/server">http://ns.taverna.org.uk/2010/xml/server/</a></li>
+<li>http://ns.taverna.org.uk/2010/xml/server/admin/</a></li>
+<li>http://ns.taverna.org.uk/2010/xml/server/feed/</a></li>
+ <li><a href="2010/xml/server/rest">http://ns.taverna.org.uk/2010/xml/server/rest/</a></li>
+ <li><a href="2010/xml/server/wadl">http://ns.taverna.org.uk/2010/xml/server/wadl/</a></li>
+ <li>http://ns.taverna.org.uk/2010/xml/run/</a></li>
+ <li>http://ns.taverna.org.uk/2010/xml/server/wsdl/</a></li>
  <li> <a href="2012/component/profile">http://ns.taverna.org.uk/2012/component/profile</a> </li>
  <li> <a
  href="2012/tavernaprov/">http://ns.taverna.org.uk/2012/tavernaprov/</a> (also 
