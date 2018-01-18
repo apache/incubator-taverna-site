@@ -15,102 +15,177 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            KIND, either express or implied.  See the License for the
            specific language governing permissions and limitations
            under the License.
-
-<div class="alert alert-info" role="alert"><p><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-Taverna is transitioning to the Apache Incubator. 
-Currently there is no Apache release of Taverna Server. 
-</div>
-
-Apache Taverna (incubating) is developing to release Taverna Server 3.1.
-
-For now, the current version of the Server is based on the last pre-Apache release
-Taverna 2.5 and is called **Taverna Server 2.5.4**.
-[Documentation](/documentation/server/) for Taverna Server is available on-line.
-
-##Installation
-
-Taverna Server 2.5.4 was released before incubating at Apache Software Foundation, and Taverna 2.x is licensed as
-[LGPL 2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html); as these are not 
-official releases from Apache Taverna this this page do not have direct download links, 
-but rely on [LaunchPad's archive](https://launchpad.net/taverna-server/).
-
-From [LaunchPad](https://launchpad.net/taverna-server/+milestone/2.5.4) 
-right-click to download `TavernaServer-2.5.4.war`,
-then follow the [installation instructions](/documentation/server/3.1/install)
-to install the WAR file to a server like 
-[Apache Tomcat](http://tomcat.apache.org/).
-
-[Taverna Server 2.5.4](https://launchpad.net/taverna-server/+milestone/2.5.4) release:
-
-- `TavernaServer-2.5.4.war` binary distribution (WAR, 196 MiB)
-    - MD5: 20d27405b27a3418b783777171734514
-    - SHA1:d2909ad0b222a001639c5337171b9e2b553f1cbc
-
-- `install.pdf` Installation Guide (PDF, 7 MiB)
-    - MD5: a91d2ccb0aca9322a92e9d456a1389aa
-    - SHA1: d90daf85c09035caca48536cefd4d2d557aeca3a
-
-- `usage.pdf` User Guide (PDF, 13 MiB)
-    - MD5: 25f75e419a018d03252c63fbcd111a5f
-    - SHA1: d080ea3765e8ef41a8cecc6564bf2aaf11b78199
+jsonld: {
+    "@context" : "http://schema.org",
+    "@type" : ["SoftwareSourceCode"],
+    "@id": "https://taverna.incubator.apache.org/download/server/",
+    "url": "https://taverna.incubator.apache.org/download/server/",
+    "applicationSuite": "Apache Taverna (incubating)",
+    "name" : "Apache Taverna Server (incubating)",
+    "description" : "Apache Taverna Server (incubating) is a web service for executing Taverna workflows.",
+    "publisher" : { "@type" : "Organization",
+                    "@id" : "https://www.apache.org/",
+                   "url" : "https://www.apache.org/",
+                    "name" : "The Apache Software Foundation (ASF)" },    
+    "softwareVersion": "3.1.0-incubating",
+    "downloadUrl" : "https://www-eu.apache.org/dist/incubator/taverna/source/taverna-server-3.1.0-incubating/apache-taverna-server-3.1.0-incubating-source-release.zip",
+    "fileSize": "0.8MB",
+    "applicationCategory": "Scientific Workflows",
+    "operatingSystem": ["Windows", "OS/X", "Linux", "Java"],             
+    "datePublished": "2017-01-17",
+    "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332252&projectId=12318322",
+    "author": { "@id": "https://taverna.incubator.apache.org/about/",
+                 "url": "https://taverna.incubator.apache.org/about/",
+                 "type": "Organization",
+                 "name": "Apache Taverna PPMC" }
+  }  
 
 
-The software distributor Launchpad has an archive of 
-[earlier non-Apache releases of Taverna Server](https://launchpad.net/taverna-server/+series).
 
-##System Requirements
+Apache Taverna Server (incubating) is a REST/WSDL web service for executing Apache Taverna (incubating) workflows.
 
-####Operating system
+Taverna workflows are defined using [Apache Taverna Language](/download/language).
 
-The Server can currently be installed on Linux and Mac OS X.
 
-####Java
+## Source code
 
-You will need a Java 7 installation or newer. 
-Either OpenJDK 7 or Oracle Java 7 are recommended.
+Below you can find the latest Taverna Server source release.
 
-> If using Oracle Java 7, you must install the 
->   **[Java Cryptography Extension extension for Java
->   1.7](http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html)**
->   and follow the included README on how to install the JCE to
->   *lib/security/* of your Java installation. 
->   This is *not* necessary for OpenJDK 7.
+After downloading the files,
+[verify the PGP signatures](https://www.apache.org/info/verification.html)
+using the Apache Taverna [KEYS](https://www.apache.org/dist/incubator/taverna/KEYS)
+file.
 
-####WebApp container
+### taverna-server-3.1.0-incubating
 
-You will need a suitable servlet container.
+**Apache Taverna Server 3.1.0-incubating** was published on 2017-01-17, and is available for download
+from official mirrors of the
+ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/closer.cgi/incubator/taverna/):
 
-The Server has been developed using [Tomcat 6.0.26](http://tomcat.apache.org/download-60.cgi)
-   as the servlet container, but other versions of Tomcat are known to work 
-   (back to at least Tomcat 6.0.20, and up to Tomcat 7.0.53) and other containers may also 
-   function correctly, as no Tomcat-specific APIs are used in the deployable code. 
-   We welcome feedback on which containers work, as well as on how to configure them.
+* [taverna-server-3.1.0-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-server-3.1.0-incubating/apache-taverna-server-3.1.0-incubating-source-release.zip)
+  ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-server-3.1.0-incubating/apache-taverna-server-3.1.0-incubating-source-release.zip.asc),
+  [md5](https://www.apache.org/dist/incubator/taverna/source/taverna-server-3.1.0-incubating/apache-taverna-server-3.1.0-incubating-source-release.zip.md5),
+  [sha1](https://www.apache.org/dist/incubator/taverna/source/taverna-server-3.1.0-incubating/apache-taverna-server-3.1.0-incubating-source-release.zip.sha1),
+  [sha256](https://www.apache.org/dist/incubator/taverna/source/taverna-server-3.1.0-incubating/apache-taverna-server-3.1.0-incubating-source-release.zip.sha256),
+  [sha512](https://www.apache.org/dist/incubator/taverna/source/taverna-server-3.1.0-incubating/apache-taverna-server-3.1.0-incubating-source-release.zip.sha512))
 
-##Source Code
+The Taverna Server [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332252&projectId=12318322)
+is available from the [Apache Taverna Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20TAVERNA%20AND%20component%20%3D%20%22Taverna%20Server%22).
 
-The source code to Apache Taverna Server is available from the git repository
-[incubator-taverna-server](https://github.com/apache/incubator-taverna-server)
-which `master` tag corresponds to development of Taverna Server 3.1.
 
-The 2.5.4 release was made automatically using Apache Maven from the 
-[2.5.4](https://github.com/apache/incubator-taverna-server/releases/tag/old%2F2.5.4) git tag. 
+### Source code repositories
 
-If you encounter any problems, please [contact us](/community).
+For the latest developments you may also be interested in the corresponding
+[source code](/download/code/) repositories:
 
-##Client side stuff
+* [incubator-taverna-server](https://github.com/apache/incubator-taverna-server)
+
+Each release has a corresponding tag, e.g. `3.1.0-incubating`.
+
+
+## Maven artifacts
+
+Apache Taverna Server's Maven artifacts are available from
+[Maven Central](https://repo1.maven.org/maven2/org/apache/taverna/server/),
+mirrored from
+[ASF's Maven repository](https://repository.apache.org/content/repositories/releases/org/apache/taverna/server/).
+For the convenience of IDE users, the Maven artifacts include `-javadoc.jar` and
+`-sources.jar`; however, you might prefer the
+online [API javadoc](/javadoc/taverna-server/)
+and the [source code releases](#source-code) (see below).
+
+
+To use any Taverna Server modules with [Maven](https://maven.apache.org/), add
+one or more of these to your `pom.xml`:
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.taverna.server</groupId>
+            <artifactId>taverna-server-client/</artifactId>
+            <version>3.1.0-incubating</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.taverna.server</groupId>
+            <artifactId>taverna-server-usagerecord</artifactId>
+            <version>3.1.0-incubating</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.taverna.server</groupId>
+            <artifactId>taverna-server-port-description</artifactId>
+            <version>3.1.0-incubating</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.taverna.server</groupId>
+            <artifactId>taverna-server-runinterface</artifactId>
+            <version>3.1.0-incubating</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.taverna.server</groupId>
+            <artifactId>taverna-server-rmidaemon</artifactId>
+            <version>3.1.0-incubating</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.taverna.server</groupId>
+            <artifactId>taverna-server-worker</artifactId>
+            <version>3.1.0-incubating</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.taverna.server</groupId>
+            <artifactId>taverna-server-unix-forker</artifactId>
+            <version>3.1.0-incubating</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.taverna.server</groupId>
+            <artifactId>taverna-server-webapp</artifactId>
+            <version>3.1.0-incubating</version>
+            <type>war</type>
+        </dependency>
+    </dependencies>
+
+The above `<version>` might not be up-to-date.
+See the [source code releases](#source-code) above to find the latest version.
+
+
+
+# Client-side 
                    
-To complement the Taverna Server, 
-   we have developed several client side libraries and applications. 
+To complement the Taverna Server, we have developed several client side libraries and applications. 
+
 They access the Server's functionality and can help you build your client applications around 
-   the Server and provide exemplars of how such applications can  be implemented.
+the Server and provide exemplars of how such applications can be implemented.
 
-###General
-
- - [taverna-server-client](https://github.com/apache/incubator-taverna-server/tree/master/taverna-server-client) - a Java client library for Taverna Server's REST API
+ - [taverna-server-client](/javadoc/taverna-server/org/apache/taverna/server/client/package-summary.html) - a Java client library for Taverna Server's REST API, included in the taverna-server release.
  - [Taverna Language](/download/language/) - Java API for building and inspecting Taverna 3 workflows.
- - [taverna2-gem](https://github.com/myGrid/taverna2-gem) Ruby Gem that enables you to interact with 
-     Taverna 2 workflows (.t2flow files). 
-   You can generate a t2flow model using the gem, and then use it to retrieve various 
-      information about the workflow by invoking different methods and attributes. You can also draw a workflow diagram using the gem.</li>
- - [taverna-baclava](https://rubygems.org/gems/taverna-baclava) Ruby Gem for handling Baclava files.
+ - [Taverna Mobile](https://github.com/apache/incubator-taverna-mobile) - an Android app for executing Taverna workflows
 
+
+## Third-party applications
+
+These third-party applications use or interact with Taverna Server, but are not published or
+endorsed by Apache Taverna:
+
+ - [Taverna Player](https://github.com/myGrid/taverna-player) - a generic Rails engine for Taverna workflows
+ - [Taverna Player portal](https://github.com/myGrid/taverna-player-portal) - a web portal for running Taverna workflows
+ - [t2-server-gem](https://github.com/myGrid/t2-server-gem) a Ruby gem for interacting with Taverna Server
+ - [t2-server-jar](https://github.com/myGrid/t2-server-jar) an older Java library to interact with Taverna Server
+ - [workflow-runner](https://github.com/wf4ever/workflow-runner) a Clojure library for Taverna Server that can also re-expose runs [as a Research Object ROSRS API](https://github.com/wf4ever/apis/wiki/Wf-RO-transformation-service-API)
+ - [BioVeL-seek](https://github.com/BioVeL/seek) a customized portal for running biodiversity workflows in Taverna Server
+
+
+# Archived releases
+
+For all archived Apache Taverna releases, see
+[archive.apache.org](https://archive.apache.org/dist/incubator/taverna/).
+
+The source code for Taverna Server before migrating to Apache Software Foundation
+(Taverna 2.5 and earlier) is available
+as a series of `old/` tags in the git repository, e.g.
+[old/2.5.4](https://github.com/apache/incubator-taverna-server/releases/tag/old%2F2.5.4).
+
+Note that Taverna 2.5 and older is licensed under 
+[LGPL 2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html).
+
+Binary downloads for older releases are available from 
+[LaunchPad's archive](https://launchpad.net/taverna-server/), for instance
+[Taverna Server 2.5.4](https://launchpad.net/taverna-server/+milestone/2.5.4)
+which you may need for executing some Taverna 2 `.t2flow` workflows.
