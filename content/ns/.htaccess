@@ -3,4 +3,4 @@ AddHandler type-map .var
 AddType text/turtle .ttl
 AddType application/xml .xsd
 AddType application/rdf+xml .rdf .owl
-
+AddType application/vnd.sun.wadl+xml .wadl

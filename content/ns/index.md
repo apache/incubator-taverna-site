@@ -25,6 +25,14 @@ XML namespaces and ontologies, including:
 	<a href="2010/scufl2.ttl">scufl2.ttl</a> and
 	<a href="2010/scufl2.rdf">scufl2.rdf</a>)
 </li>
+ <li><a href="2010/port">http://ns.taverna.org.uk/2010/</a></li>
+ <li><a href="2010/xml/server">http://ns.taverna.org.uk/2010/xml/server</a></li>
+<li>http://ns.taverna.org.uk/2010/xml/server/admin</a></li>
+<li>http://ns.taverna.org.uk/2010/xml/server/feed</a></li>
+ <li><a href="2010/xml/server/rest">http://ns.taverna.org.uk/2010/xml/server/rest</a></li>
+ <li><a href="2010/xml/server/wadl">http://ns.taverna.org.uk/2010/xml/server/wadl</a></li>
+ <li>http://ns.taverna.org.uk/2010/xml/run</a></li>
+ <li>http://ns.taverna.org.uk/2010/xml/server/wsdl</a></li>
  <li> <a href="2012/component/profile">http://ns.taverna.org.uk/2012/component/profile</a> </li>
  <li> <a
  href="2012/tavernaprov/">http://ns.taverna.org.uk/2012/tavernaprov/</a> (also 
@@ -35,8 +43,8 @@ XML namespaces and ontologies, including:
 
 
 <p>
-Unfortunately some namespaces within this space may not be available as
-XSDs or OWL files. 
+Unfortunately some namespaces within this space may not 
+currently be available as XSDs or OWL files. 
 </p>
 
 <h2>ns.taverna.org.uk and apache.org</h2>

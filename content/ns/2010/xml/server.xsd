@@ -14,10 +14,20 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:rest="http://ns.taverna.org.uk/2010/xml/server/rest/"
+	xmlns:server="http://ns.taverna.org.uk/2010/xml/server/"
+    xmlns:port="http://ns.taverna.org.uk/2010/port/"
+	xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
 	xmlns:admin="http://ns.taverna.org.uk/2010/xml/server/admin/"
-	xmlns:feed="http://ns.taverna.org.uk/2010/xml/server/feed/" xmlns:tns="http://ns.taverna.org.uk/2010/xml/server/"
-	xmlns:ts="http://ns.taverna.org.uk/2010/xml/server/" xmlns:ts-rest="http://ns.taverna.org.uk/2010/xml/server/rest/"
+	xmlns:feed="http://ns.taverna.org.uk/2010/xml/server/feed/"
+    xmlns:tns="http://ns.taverna.org.uk/2010/xml/server/"
+	xmlns:ts="http://ns.taverna.org.uk/2010/xml/server/"
+    xmlns:ts-rest="http://ns.taverna.org.uk/2010/xml/server/rest/"
 	xmlns:ts-soap="http://ns.taverna.org.uk/2010/xml/server/soap/"
 	xmlns:xlink="http://www.w3.org/1999/xlink" attributeFormDefault="qualified"
 	elementFormDefault="qualified" targetNamespace="http://ns.taverna.org.uk/2010/xml/server/"
