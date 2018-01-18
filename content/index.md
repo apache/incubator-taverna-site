@@ -46,7 +46,7 @@ website which is not affiliated with Apache and provided for archive purposes on
 <div class="alert alert-success" role="alert">
 <p>
 <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-Apache Taverna Command Line <a class="alert-link" href="https://taverna.incubator.apache.org/download/commandline/">3.1.0</a> has now been released.
+Apache Taverna Server <a class="alert-link" href="https://taverna.incubator.apache.org/download/server/">3.1.0</a> has been released.
 </p>
 </div>
 
