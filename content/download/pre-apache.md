@@ -15,7 +15,7 @@ Binary downloads provided by [launchpad.net](https://launchpad.net/taverna/t3/).
 
 Maven repository provided by University of Manchester:
 
-  - [http://www.mygrid.org.uk/maven/snapshot-repository/](http://www.mygrid.org.uk/maven/snapshot-repository/)
+  - [https://repository.mygrid.org.uk/artifactory/mygrid-snapshots/](https://repository.mygrid.org.uk/artifactory/mygrid-snapshots/)
 
 
 ### Taverna 2.5
@@ -31,7 +31,7 @@ Binary downloads provided as indicated.
 
 Maven repository provided by University of Manchester:
 
-  - [http://www.mygrid.org.uk/maven/repository/](http://www.mygrid.org.uk/maven/repository/)
+  - [https://repository.mygrid.org.uk/artifactory/mygrid-snapshots/](https://repository.mygrid.org.uk/artifactory/mygrid-snapshots/)
 
 ### Taverna 2.4 and older
 
@@ -42,7 +42,8 @@ Taverna 2.4 and older can be downloaded from [launchpad.net](https://launchpad.n
 
 ### Taverna 1
 
- - [Taverna Workbench 1.7](http://www.mygrid.org.uk/tools/taverna/taverna-download/)
+ - [Taverna Workbench 1.7](https://launchpad.net/taverna/+milestone/1.7.2)
  - [Taverna Workbench 1.6 and older](http://sourceforge.net/projects/taverna/files/)
  - [Taverna workflow launcher 0.1.2](http://prdownloads.sourceforge.net/taverna/workflowlauncher-0.1.2.zip?download) (for 1.7)
  - [Taverna remote execution service 0.5](http://sourceforge.net/projects/taverna/files/taverna%20utilities/utils/)
+

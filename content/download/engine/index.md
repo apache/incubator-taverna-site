@@ -189,6 +189,7 @@ note that the older code was licensed under LGPL 2.1.
 
 Binaries for older releases are also available in the
 [myGrid repository](/download/maven/#pre-apache-releases-and-snapshots),
-e.g. as [net.sf.taverna.t2.core](http://www.mygrid.org.uk/maven/repository/net/sf/taverna/t2/core/)
+e.g. as [net.sf.taverna.t2.core](https://repository.mygrid.org.uk/artifactory/mygrid-all/net/sf/taverna/t2/core/)
 and other groupIds. The myGrid repository is not affiliated with the
 Apache Software Foundation and is provided for archival purposes only.
+

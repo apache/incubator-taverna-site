@@ -73,7 +73,7 @@ before using the `-SNAPSHOT` builds.
 ## Pre-Apache releases and snapshots
 
 The pre-Apache Taverna artifacts are available as a Maven download from
-  <http://repository.mygrid.org.uk/artifactory/mygrid-all/>,
+  <https://repository.mygrid.org.uk/artifactory/mygrid-all/>,
 hosted by the [eScience Lab, University of Manchester](http://www.esciencelab.org.uk/)
 
 > Note that these repositories are _not_ affiliated with Apache Software Foundation
@@ -86,7 +86,7 @@ You may need to use the Maven repository if developing plugins for Taverna 2.x:
     <repository>
         <id>mygrid-repository</id>
         <name>myGrid Repository</name>
-        <url>http://www.mygrid.org.uk/maven/repository</url>
+        <url>https://repository.mygrid.org.uk/artifactory/mygrid-all/</url>
         <releases />
         <snapshots>
             <enabled>false</enabled>
@@ -98,9 +98,10 @@ You may need to use the Maven repository if developing plugins for Taverna 2.x:
     <repository>
         <id>mygrid-snapshot-repository</id>
         <name>myGrid Snapshot Repository</name>
-        <url>http://www.mygrid.org.uk/maven/snapshot-repository</url>
+        <url>https://repository.mygrid.org.uk/artifactory/mygrid-snapshots/</url>
         <releases>
             <enabled>false</enabled>
         </releases>
         <snapshots />
     </repository>
+
