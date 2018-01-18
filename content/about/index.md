@@ -33,11 +33,11 @@ PPMC members) are:
 <tbody>
   <tr><td>andy</td><td>Andy Seaborne</td> <td>Champion/Mentor</td></tr>
   <tr><td>mattmann</td><td>Chris Mattmann</td> <td>Emeritus mentor</td></tr>
-  <tr><td>djd</td><td>Dan Debrunner</td> <td>Mentor</td></tr>
-  <tr><td>mpierce</td><td>Marlon Pierce</td> <td>Mentor</td></tr>
-  <tr><td>smarru</td><td>Suresh Marru</td> <td>Mentor</td></tr>
+  <tr><td>djd</td><td>Dan Debrunner</td> <td>Emeritus Mentor</td></tr>
+  <tr><td>mpierce</td><td>Marlon Pierce</td> <td>Emeritus Mentor</td></tr>
+  <tr><td>smarru</td><td>Suresh Marru</td> <td>Emeritus Mentor</td></tr>
   <tr><td>stain</td><td>Stian Soiland-Reyes</td> <td>Mentor</td></tr>
-  <tr><td>suresh</td><td>Suresh Srinivas</td> <td>Mentor</td></tr>
+  <tr><td>suresh</td><td>Suresh Srinivas</td> <td>Emeritus Mentor</td></tr>
   <tr><td>alaninmcr</td><td>Alan R Williams</td> <td>PPMC member</td></tr>
 	<tr><td>anenadic</td><td>Aleksandra Nenadic</td> <td>PPMC member</td></tr>
 	<tr><td>brenninc</td><td>Christian Y. Brenninkmeijer</td> <td>PPMC member</td></tr>
@@ -70,6 +70,11 @@ The Apache Taverna team are grateful for contributions from:
 * [Finn Bacall](https://github.com/fbacall)
 * [Edi Karadumi](https://github.com/edikaradumi)
 * [Claudiu Stefan Padurariu](https://github.com/PCStefan)
+* [Matthias König](https://orcid.org/0000-0003-1725-179X)
+* [Mark Robinson](http://orcid.org/0000-0002-8184-7507)
+* [Murad](https://github.com/m-murad)
+* [Yinon Avraham](https://github.com/yinonavraham)
+* [Chalana Madusanka](https://github.com/Chalana)
 
 ..and countless others who have provided
 [Jira issues](/community/issue-tracker),
