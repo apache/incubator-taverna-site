@@ -80,7 +80,7 @@ is available from the [Apache Taverna Jira](https://issues.apache.org/jira/issue
 Note that when building Taverna Server, it will require other Taverna modules:
 
 * [Apache Taverna Language](/download/language)
-* [Apache Taverna Commandline](/download/commandline)
+* [Apache Taverna Command-line](/download/commandline)
 
 
 ### Source code repositories
