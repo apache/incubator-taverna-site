@@ -147,7 +147,8 @@ This is a list of all the properties that are set (or empty) by default in the S
 
 - Those used to control how many runs exist and are operating at once. The default.runlimit and default.operatinglimit have reasonable initial values, but must be tuned according to the actual expected workload. They can be set at runtime via the administration web interface and via JMX.
 
-- Those used to enable optional notification mechanisms; those are all disabled by default unless the required extra properties are set (see below for instructions).
+- Those used to enable optional notification mechanisms; those are all disabled by default unless the required extra properties are set (see below).
+
 
     # Script in Taverna installation to run to actually execute workflows
     executeWorkflowScript:      /usr/taverna/executeworkflow.sh
@@ -249,6 +250,7 @@ This is a list of all the properties that are set (or empty) by default in the S
     # Enables a special project-specific security setting.
     # Leave at false unless you have been specifically told otherwise.
     helio.cis.enableTokenPassing:   false
+
 
 #### Enabling Notification Options
 
