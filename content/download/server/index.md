@@ -56,6 +56,10 @@ After downloading the files,
 using the Apache Taverna [KEYS](https://www.apache.org/dist/incubator/taverna/KEYS)
 file.
 
+After unpacking, follow the [build instructions](/documentation/server/3.1/). See the
+[Taverna Server documentation](documentation/server/) for details of 
+installation, configuration and usage.
+
 ### taverna-server-3.1.0-incubating
 
 **Apache Taverna Server 3.1.0-incubating** was published on 2018-01-17, and is available for download
