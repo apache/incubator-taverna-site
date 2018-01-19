@@ -149,6 +149,7 @@ This is a list of all the properties that are set (or empty) by default in the S
 
 - Those used to enable optional notification mechanisms; those are all disabled by default unless the required extra properties are set (see below).
 
+Complete property configuration:
      
     # Script for Taverna command line tool to actually execute workflows
     executeWorkflowScript:      /usr/taverna/executeworkflow.sh
