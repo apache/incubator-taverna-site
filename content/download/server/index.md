@@ -32,7 +32,7 @@ jsonld: {
     "fileSize": "0.8MB",
     "applicationCategory": "Scientific Workflows",
     "operatingSystem": ["Windows", "OS/X", "Linux", "Java"],             
-    "datePublished": "2017-01-17",
+    "datePublished": "2018-01-17",
     "releaseNotes" : "https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12332252&projectId=12318322",
     "author": { "@id": "https://taverna.incubator.apache.org/about/",
                  "url": "https://taverna.incubator.apache.org/about/",
@@ -58,7 +58,7 @@ file.
 
 ### taverna-server-3.1.0-incubating
 
-**Apache Taverna Server 3.1.0-incubating** was published on 2017-01-17, and is available for download
+**Apache Taverna Server 3.1.0-incubating** was published on 2018-01-17, and is available for download
 from official mirrors of the
 ASF Distribution Directory [incubator/taverna/](https://www.apache.org/dyn/closer.cgi/incubator/taverna/):
 
