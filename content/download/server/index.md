@@ -57,7 +57,7 @@ using the Apache Taverna [KEYS](https://www.apache.org/dist/incubator/taverna/KE
 file.
 
 After unpacking, follow the [build instructions](/documentation/server/3.1/). See the
-[Taverna Server documentation](documentation/server/) for details of 
+[Taverna Server documentation](/documentation/server/) for details of 
 installation, configuration and usage.
 
 ### taverna-server-3.1.0-incubating
