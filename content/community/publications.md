@@ -148,6 +148,13 @@ Hyde Zhang, Stian Soiland-Reyes, Carole Goble. (2013).
 In: *EMBnet.journal*, 19(B).
 [https://doi.org/10.14806/ej.19.B.727](https://doi.org/10.14806/ej.19.B.727) [[pdf]](http://journal.embnet.org/index.php/embnetjournal/article/view/727/1047)
 
+Sonja Holl, Daniel Garijo, Khalid Belhajjame, Olav Zimmermann, Renato De Giovanni, Matthias Obst, Carole Goble (2013):
+**On Specifying and Sharing Scientific Workflow Optimization Results Using Research Objects**.
+In: _Proceedings of the 8th Workshop on Workflows in Support of Large-Scale Science (WORKS '13)_.
+[https://doi.org/10.1145/2534248.2534251](https://doi.org/10.1145/2534248.2534251)
+[[pdf]](http://dgarijo.com/papers/works13.pdf)
+
+
 ## 2012
 
 Konstantinos Karasavvas, Katy Wolstencroft, Eleni Mina, Don Cruickshank, Alan Williams, David De Roure, Carole Goble, Marcos Roos. (2012).
