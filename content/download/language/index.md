@@ -126,7 +126,7 @@ is available from the [Apache Taverna Jira](https://issues.apache.org/jira/brows
 
 ### taverna-parent-3-incubating
 
-**Apache Taverna Maven Parent 3-incubating** was published on 2017-01-18, and is available as:
+**Apache Taverna Maven Parent 3-incubating** was published on 2018-01-18, and is available as:
 
 * [taverna-parent-3-incubating-source-release.zip](https://www.apache.org/dyn/closer.cgi/incubator/taverna/source/taverna-parent-3-incubating/apache-taverna-parent-3-incubating-source-release.zip)
   ([asc](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-3-incubating/apache-taverna-parent-3-incubating-source-release.zip.asc),
@@ -136,7 +136,7 @@ is available from the [Apache Taverna Jira](https://issues.apache.org/jira/brows
   [sha512](https://www.apache.org/dist/incubator/taverna/source/taverna-parent-3-incubating/apache-taverna-parent-3-incubating-source-release.zip.sha512))
 
 The Taverna Maven parent [changelog](https://issues.apache.org/jira/secure/ReleaseNote.jspa?version=12334882&projectId=12318322)
-is available from the [Apache Taverna Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20TAVERNA%20AND%20component%20%3D%20%22Taverna%20Server%22).
+is available from the [Apache Taverna Jira](https://issues.apache.org/jira/issues/?jql=project%20%3D%20TAVERNA%20AND%20component%20%3D%20%22Taverna%20Maven%20Parent%22).
 
 ### Source code repositories
 
