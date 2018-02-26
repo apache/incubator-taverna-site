@@ -39,19 +39,19 @@ PPMC members) are:
   <tr><td>stain</td><td>Stian Soiland-Reyes</td> <td>Mentor</td></tr>
   <tr><td>suresh</td><td>Suresh Srinivas</td> <td>Emeritus Mentor</td></tr>
   <tr><td>alaninmcr</td><td>Alan R Williams</td> <td>PPMC member</td></tr>
-	<tr><td>anenadic</td><td>Aleksandra Nenadic</td> <td>PPMC member</td></tr>
-	<tr><td>brenninc</td><td>Christian Y. Brenninkmeijer</td> <td>PPMC member</td></tr>
-	<tr><td>redmitry</td><td>Dmitriy Repchevsky</td> <td>PPMC member</td></tr>
-	<tr><td>dkf</td><td>Donal K. Fellows</td> <td>PPMC member</td></tr>
+  <tr><td>anenadic</td><td>Aleksandra Nenadic</td> <td>PPMC member</td></tr>
+  <tr><td>brenninc</td><td>Christian Y. Brenninkmeijer</td> <td>PPMC member</td></tr>
+  <tr><td>redmitry</td><td>Dmitriy Repchevsky</td> <td>PPMC member</td></tr>
+  <tr><td>dkf</td><td>Donal K. Fellows</td> <td>PPMC member</td></tr>
   <tr><td>gnaylor</td><td>Gale Naylor</td> <td>PPMC member</td></tr>
-	<tr><td>ianwdunlop</td><td>Ian Dunlop</td> <td>PPMC member</td></tr>
-	<tr><td>jgarrido</td><td>Julián Garrido</td> <td>PPMC member</td></tr>
-	<tr><td>hainesr</td><td>Robert Haines</td> <td>PPMC member</td></tr>
-	<tr><td>shoaibsufi</td><td>Shoaib Sufi</td> <td>PPMC member</td></tr>
-	<tr><td>stuzart</td><td>Stuart Owen</td> <td>PPMC member</td></tr>
+  <tr><td>ianwdunlop</td><td>Ian Dunlop</td> <td>PPMC member</td></tr>
+  <tr><td>jgarrido</td><td>Julián Garrido</td> <td>PPMC member</td></tr>
+  <tr><td>hainesr</td><td>Robert Haines</td> <td>PPMC member</td></tr>
+  <tr><td>shoaibsufi</td><td>Shoaib Sufi</td> <td>PPMC member</td></tr>
+  <tr><td>stuzart</td><td>Stuart Owen</td> <td>PPMC member</td></tr>
+  <tr><td>sagar</td><td>Sagar</td> <td>PPMC member</td></tr>
   <tr><td>maanadev</td><td>Thilina Manamgoda</td> <td>Committer</td></tr>
   <tr><td>therajanmaurya</td><td>Rajan Maurya</td> <td>Committer</td></tr>
-  <tr><td>sagar</td><td>Sagar</td> <td>Committer</td></tr>
 </tbody>
 </table>
 
@@ -75,6 +75,12 @@ The Apache Taverna team are grateful for contributions from:
 * [Murad](https://github.com/m-murad)
 * [Yinon Avraham](https://github.com/yinonavraham)
 * [Chalana Madusanka](https://github.com/Chalana)
+* [Saket Kumar](https://github.com/saketkumar95)
+* [Vikram Sharma](https://github.com/300vikram) 
+* [Zeeshan](https://github.com/nyu-zeeshan)
+* [Hitesh Gautam](https://github.com/Hiteshgautam01)
+
+
 
 ..and countless others who have provided
 [Jira issues](/community/issue-tracker),
