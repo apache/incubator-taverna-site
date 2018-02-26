@@ -51,7 +51,7 @@ PPMC members) are:
   <tr><td>stuzart</td><td>Stuart Owen</td> <td>PPMC member</td></tr>
   <tr><td>sagar</td><td>Sagar</td> <td>PPMC member</td></tr>
   <tr><td>maanadev</td><td>Thilina Manamgoda</td> <td>Committer</td></tr>
-  <tr><td>therajanmaurya</td><td>Rajan Maurya</td> <td>Committer</td></tr>
+  <tr><td>rajanmaurya154</td><td>Rajan Maurya</td> <td>Committer</td></tr>
 </tbody>
 </table>
 
