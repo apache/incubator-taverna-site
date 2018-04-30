@@ -20,6 +20,13 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
 
 *Please suggest an [edit](/community/edit) of the website to add or correct a publication listing.*
 
+### 2018
+
+Pinar Alper, Khalid Belhajjame, Vasa Curcin, Carole A. Goble (2018):
+**LabelFlow Framework for Annotating Workflow Provenance**.
+_Informatics_ **5**(1) 11. [https://doi.org/10.3390/informatics5010011](https://doi.org/10.3390/informatics5010011)
+
+
 ### 2017
 
 Marek Kasztelnik, Ernesto Coto, Marian Bubak, Maciej Malawski, Piotr Nowakowski, Juan Arenas, Alfredo Saglimbeni, Debora Testi, Alejandro F. Frangi (2017):
