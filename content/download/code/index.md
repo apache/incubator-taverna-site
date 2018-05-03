@@ -54,7 +54,10 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
 
 <table class="table table-hover">
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-maven-parent">incubator-taverna-maven-parent</a></td>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-maven-parent">incubator-taverna-maven-parent</a>
+    <br><a href="https://github.com/apache/incubator-taverna-maven-parent/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-maven-parent.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-maven-parent"
            value="" readonly="readonly"
@@ -64,7 +67,10 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>Common Maven parent for the below</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-language">incubator-taverna-language</a></td>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-language">incubator-taverna-language</a>
+    <br><a href="https://github.com/apache/incubator-taverna-language/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-language.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-language"
            value="" readonly="readonly"
@@ -74,7 +80,10 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>API for workflow definitions (SCUFL2) and workflow inputs/outputs (DataBundle)</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-osgi">incubator-taverna-osgi</a></td>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-osgi">incubator-taverna-osgi</a>
+    <br><a href="https://github.com/apache/incubator-taverna-osgi/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-osgi.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-osgi"
            value="" readonly="readonly"
@@ -84,7 +93,10 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>OSGi-based plugin system</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-engine">incubator-taverna-engine</a>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-engine">incubator-taverna-engine</a>
+    <br><a href="https://github.com/apache/incubator-taverna-engine/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-engine.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-engine"
            value="" readonly="readonly"
@@ -93,7 +105,11 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-engine">Browse</a>
   <td>Taverna workflow engine</tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-common-activities">incubator-taverna-common-activities</a></td>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-common-activities">incubator-taverna-common-activities</a>
+    <br><a href="https://github.com/apache/incubator-taverna-common-activities/pulls"><img
+        src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-common-activities.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-common-activities"
            value="" readonly="readonly"
@@ -103,7 +119,10 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>Common activity implementation for engine (e.g. WSDL, REST, Tool, Interaction)</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-commandline">incubator-taverna-commandline</a></td>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-commandline">incubator-taverna-commandline</a>
+    <br><a href="https://github.com/apache/incubator-taverna-commandline/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-commandline.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-commandline"
            value="" readonly="readonly"
@@ -113,7 +132,10 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>Command line for running Taverna workflows</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-server">incubator-taverna-server</a></td>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-server">incubator-taverna-server</a>
+    <br><a href="https://github.com/apache/incubator-taverna-server/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-server.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-server"
            value="" readonly="readonly"
@@ -123,7 +145,10 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>A REST and WSDL service for running Taverna workflows</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-workbench">incubator-taverna-workbench</a></td>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-workbench">incubator-taverna-workbench</a>
+    <br><a href="https://github.com/apache/incubator-taverna-workbench/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-workbench.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-workbench"
            value="" readonly="readonly"
@@ -133,7 +158,10 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>Graphical workbench for editing and running Taverna workflows</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-workbench-common-activities">incubator-taverna-workbench-common-activities</a></td>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-workbench-common-activities">incubator-taverna-workbench-common-activities</a>
+    <br><a href="https://github.com/apache/incubator-taverna-workbench-common-activities/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-workbench-common-activities.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-workbench-common-activities"
            value="" readonly="readonly"
@@ -143,7 +171,10 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>Common activities UI (discovery+configuration for Workbench</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-workbench-product">incubator-taverna-workbench-product</a></td>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-workbench-product">incubator-taverna-workbench-product</a>
+      <br><a href="https://github.com/apache/incubator-taverna-workbench-product/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-workbench-product.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-workbench-product"
            value="" readonly="readonly"
@@ -153,7 +184,10 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>Distribution of Taverna Workbench</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-plugin-component">incubator-taverna-plugin-component</a></td>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-plugin-component">incubator-taverna-plugin-component</a>
+    <br><a href="https://github.com/apache/incubator-taverna-plugin-component/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-plugin-component.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-plugin-component"
            value="" readonly="readonly"
@@ -163,7 +197,10 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>Plugin for component activity and registry</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-plugin-bioinformatics">incubator-taverna-plugin-bioinformatics</a></td>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-plugin-bioinformatics">incubator-taverna-plugin-bioinformatics</a>
+    <br><a href="https://github.com/apache/incubator-taverna-plugin-bioinformatics/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-plugin-bioinformatics.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-plugin-bioinformatics"
            value="" readonly="readonly"
@@ -173,7 +210,10 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>Plugin for bioinformatics-specific activities</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-plugin-gis">incubator-taverna-plugin-gis</a></td>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-plugin-gis">incubator-taverna-plugin-gis</a>
+      <br><a href="https://github.com/apache/incubator-taverna-plugin-gis/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-plugin-gis.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-plugin-gis"
            value="" readonly="readonly"
@@ -184,7 +224,10 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
 </tr>
 
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-databundle-viewer">incubator-taverna-databundle-viewer</a></td>
+  <td>
+    <a href="https://github.com/apache/incubator-taverna-databundle-viewer">incubator-taverna-databundle-viewer</a>
+        <br><a href="https://github.com/apache/incubator-taverna-plugin-databundle-viewer/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-databundle-viewer.svg" /></a>
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-databundle-viewer"
            value="" readonly="readonly"
@@ -194,7 +237,9 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td>Web-based Data Bundle viewer</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/apache/incubator-taverna-mobile">incubator-taverna-mobile</a></td>
+  <td><a href="https://github.com/apache/incubator-taverna-mobile">incubator-taverna-mobile</a>
+        <br><a href="https://github.com/apache/incubator-taverna-mobile/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-mobile.svg" /></a>  
+  </td>
   <td>
     <input class="gitlink" type="text" id="incubator-taverna-mobile"
            value="" readonly="readonly"
