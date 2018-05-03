@@ -54,6 +54,25 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
 
 <table class="table table-hover">
 <tr>
+  <td><a href="https://github.com/apache/incubator-taverna-mobile">incubator-taverna-mobile</a>
+        <br><a href="https://github.com/apache/incubator-taverna-mobile/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-mobile.svg" /></a>  
+      <!--
+      <a href="https://builds.apache.org/job/incubator-taverna-mobile/"><img src="https://img.shields.io/jenkins/s/https/builds.apache.org/job/incubator-taverna-mobile.svg" 
+      /></a>
+      Use Travis instead: -->
+      <a href="https://travis-ci.org/apache/incubator-taverna-mobile"><img src="https://travis-ci.org/apache/incubator-taverna-mobile.svg?branch=master"></a>
+        
+  </td>
+  <td>
+    <input class="gitlink" type="text" id="incubator-taverna-mobile"
+           value="" readonly="readonly"
+           onClick="this.setSelectionRange(0, this.value.length)">
+  </td>
+  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-mobile">Browse</a></td>
+  <td>Android app for running Taverna workflows remotely</td>
+</tr>
+
+<tr>
   <td>
     <a href="https://github.com/apache/incubator-taverna-maven-parent">incubator-taverna-maven-parent</a>
     <br><a href="https://github.com/apache/incubator-taverna-maven-parent/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-maven-parent.svg" /></a>
@@ -254,30 +273,12 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
   <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-databundle-viewer">Browse</a></td>
   <td>Web-based Data Bundle viewer</td>
 </tr>
-<tr>
-  <td><a href="https://github.com/apache/incubator-taverna-mobile">incubator-taverna-mobile</a>
-        <br><a href="https://github.com/apache/incubator-taverna-mobile/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-mobile.svg" /></a>  
-      <!--
-      <a href="https://builds.apache.org/job/incubator-taverna-mobile/"><img src="https://img.shields.io/jenkins/s/https/builds.apache.org/job/incubator-taverna-mobile.svg" 
-      /></a>
-      Use Travis instead: -->
-      <a href="https://travis-ci.org/apache/incubator-taverna-mobile"><img src="https://travis-ci.org/apache/incubator-taverna-mobile.svg?branch=master"></a>
-        
-  </td>
-  <td>
-    <input class="gitlink" type="text" id="incubator-taverna-mobile"
-           value="" readonly="readonly"
-           onClick="this.setSelectionRange(0, this.value.length)">
-  </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-mobile">Browse</a></td>
-  <td>Android app for running Taverna workflows remotely</td>
-</tr>
 </table>
 
 <div class="alert alert-warning" role="alert"><p><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
   <strong>Note:</strong>
 The source code above is for Apache Taverna 3.
-The <a href="https://github.com/taverna/">source code for Taverna 2</a>
+For archival purposes the <a href="https://github.com/taverna/">source code for Taverna 2</a>
 remains available separately, but is not maintained by the Apache Taverna project.
 </div>
 
