@@ -21,6 +21,17 @@ See also [publications](/community/publications) and [how to cite Taverna](/comm
 
 *Please suggest an [edit](/community/edit) of the website to add or correct a publication listing.*
 
+## 2018
+
+Marco Viceconti, Simone Bnà, Daniele Tartarini, Stelios Sfakianakis, James Grogan, Dawn Walker, 
+Samuel Gamble, Debora Testi, CHIC Project Consortium (2018):
+**VPH-HF: A software framework for the execution of complex subject-specific physiology modelling workflows**. 
+In: _Journal of Computational Science_ **25**  pp 101-114.
+[https://doi.org/10.1016/j.jocs.2018.02.009]
+(https://doi.org/10.1016/j.jocs.2018.02.009)
+[[Embargoed author version]](http://eprints.whiterose.ac.uk/128154/)
+**No Open Access preprint available?**
+
 
 ## 2017
 
