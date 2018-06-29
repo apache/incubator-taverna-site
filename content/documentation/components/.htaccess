@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule index.html https://github.com/taverna-extras/taverna-plugin-component/tree/master/doc [L,R]
+RewriteRule ^$ https://github.com/taverna-extras/taverna-plugin-component/tree/master/doc [L,R]
+RewriteRule component-profile-editor.* https://github.com/taverna-extras/taverna-plugin-component/blob/master/doc/component-profile-editor.md [L,R]
+RewriteRule component-validator.* https://github.com/taverna-extras/taverna-plugin-component/blob/master/doc/component-validator.md [L,R]
+RewriteRule .* https://github.com/taverna-extras/taverna-plugin-component/ [L,R]
