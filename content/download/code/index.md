@@ -218,35 +218,6 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
 </tr>
 <tr>
   <td>
-    <a href="https://github.com/apache/incubator-taverna-plugin-component">incubator-taverna-plugin-component</a>
-    <br><a href="https://github.com/apache/incubator-taverna-plugin-component/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-plugin-component.svg?maxAge=86400" /></a>
-    <a href="https://builds.apache.org/job/incubator-taverna-plugin-component/"><img src="https://img.shields.io/jenkins/s/https/builds.apache.org/job/incubator-taverna-plugin-component.svg?maxAge=86400" /></a>    
-  </td>
-  <td>
-    <input class="gitlink" type="text" id="incubator-taverna-plugin-component"
-           value="" readonly="readonly"
-           onClick="this.setSelectionRange(0, this.value.length)">
-  </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-plugin-component">Browse</a></td>
-  <td>Plugin for component activity and registry</td>
-</tr>
-<tr>
-  <td>
-    <a href="https://github.com/apache/incubator-taverna-plugin-bioinformatics">incubator-taverna-plugin-bioinformatics</a>
-    <br><a href="https://github.com/apache/incubator-taverna-plugin-bioinformatics/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-plugin-bioinformatics.svg?maxAge=86400" /></a>
-    <a href="https://builds.apache.org/job/incubator-taverna-plugin-bioinformatics/"><img src="https://img.shields.io/jenkins/s/https/builds.apache.org/job/incubator-taverna-plugin-bioinformatics.svg?maxAge=86400" /></a>    
-    
-  </td>
-  <td>
-    <input class="gitlink" type="text" id="incubator-taverna-plugin-bioinformatics"
-           value="" readonly="readonly"
-           onClick="this.setSelectionRange(0, this.value.length)">
-  </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-plugin-bioinformatics">Browse</a></td>
-  <td>Plugin for bioinformatics-specific activities</td>
-</tr>
-<tr>
-  <td>
     <a href="https://github.com/apache/incubator-taverna-plugin-gis">incubator-taverna-plugin-gis</a>
       <br><a href="https://github.com/apache/incubator-taverna-plugin-gis/pulls"><img src="https://img.shields.io/github/issues-pr/apache/incubator-taverna-plugin-gis.svg?maxAge=86400" /></a>
       
@@ -368,10 +339,12 @@ The separate GitHub group [taverna-extras](https://github.com/taverna-extras) ho
 Unlike Apache Taverna, the taverna-extras include plugins covered by the licenses [LGPL](https://www.gnu.org/licenses/lgpl.html) and [GPL](https://www.gnu.org/licenses/gpl.html).
 Note that the taverna-extras are not affiliated with or released by Apache Taverna, although you may recognize many of the same committers.
 
-Some plugins that were previously part of Taverna 2 have or will migrate to taverna-extras due to [licensing incompatibility](http://dev.mygrid.org.uk/wiki/display/developer/Third-party+licenses). This includes:
+Some plugins that were previously part of Taverna 2 have or migratede to taverna-extras due to [licensing incompatibility](http://dev.mygrid.org.uk/wiki/display/developer/Third-party+licenses) or lack of maintenance. This includes:
 
-* RShell activity
+* [RShell activity](https://github.com/taverna-extras/taverna-rshell-activity) and [UI](https://github.com/taverna-extras/taverna-rshell-activity-ui)
 * [Table activity](https://github.com/taverna-extras/table-activity)
+* [Component plugin](https://github.com/taverna-extras/taverna-plugin-component)
+* [Bioinformatics plugin](https://github.com/taverna-extras/taverna-plugin-bioinformatics)
 
 <script>
 function check() {
