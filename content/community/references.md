@@ -34,6 +34,13 @@ In: _Journal of Computational Science_ **25**  pp 101-114.
 
 ## 2017
 
+Malcolm Atkinson, Sandra Gesing, Johan Montagnat, Ian Taylor (2017):
+**Scientific workflows: Past, present and future**
+In: _Future Generation Computer Systems_ **75**.
+[https://doi.org/10.1016/j.future.2017.05.041](https://doi.org/10.1016/j.future.2017.05.041)
+[[preprint]](https://hal.archives-ouvertes.fr/hal-01544818)
+[[pdf]](https://hal.archives-ouvertes.fr/hal-01544818/document)
+
 Magnus Palmblad, Vetle I. Torvik (2017):
 **Spatiotemporal analysis of tropical disease research combining Europe PMC and affiliation mapping web services**
 In: _Tropical Medicine and Health_ **45**:33.
