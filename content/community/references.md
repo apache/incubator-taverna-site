@@ -34,6 +34,12 @@ In: _Journal of Computational Science_ **25**  pp 101-114.
 
 ## 2017
 
+Melanie Herschel, Ralf Diestelkämper, Houssem Ben Lahmar (2017):
+**A survey on provenance: What for? What form? What from?**
+In: _The VLDB Journal_ **26**(6) pp 881–906 .
+[https://doi.org/10.1007/s00778-017-0486-1](https://doi.org/10.1007/s00778-017-0486-1)
+[[preprint]](https://www.ipvs.uni-stuttgart.de/export/sites/default/ipvs/abteilungen/de/abteilung/mitarbeiter/Melanie.Herschel_infos/resources/provenance_survey_VLDB_journal.pdf)
+
 Malcolm Atkinson, Sandra Gesing, Johan Montagnat, Ian Taylor (2017):
 **Scientific workflows: Past, present and future**
 In: _Future Generation Computer Systems_ **75**.
