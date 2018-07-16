@@ -34,7 +34,6 @@ A list of available documentation for Taverna includes:
  - [API Javadoc](/javadoc/) for developers
  - [FAQ](http://dev.mygrid.org.uk/wiki/display/tav250/Frequently+Asked+Questions) (Non-Apache Wiki)
  - [User Manual](http://www.mygrid.org.uk/dev/wiki/display/taverna/User+Manual) (Non-Apache Wiki)
-   - [Components](/documentation/components) (Since Taverna 2.5)
    - [Interaction Service](/documentation/interaction) (Since Taverna 2.5)  
  - [Tutorials](/documentation/tutorials)
  - [Videos](/documentation/videos)
