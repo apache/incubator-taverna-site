@@ -26,8 +26,23 @@ Pinar Alper, Khalid Belhajjame, Vasa Curcin, Carole A. Goble (2018):
 **LabelFlow Framework for Annotating Workflow Provenance**.
 _Informatics_ **5**(1) 11. [https://doi.org/10.3390/informatics5010011](https://doi.org/10.3390/informatics5010011)
 
+Ajinkya Prabhune, Aaron Zweig, Rainer Stotzka, Jürgen Hesser, Michael Gertz (2018): 
+**P-PIF: a ProvONE provenance interoperability framework for analyzing heterogeneous workflow specifications and provenance traces**
+In: _Distributed and Parallel Databases_ **36**(1) pp 219–264.
+[https://doi.org/10.1007/s10619-017-7216-y](https://doi.org/10.1007/s10619-017-7216-y)
+[[researchgate]](https://www.researchgate.net/publication/321737778_P-PIF_a_ProvONE_provenance_interoperability_framework_for_analyzing_heterogeneous_workflow_specifications_and_provenance_traces)
+**No Open Access preprint available?**
+
 
 ### 2017
+
+Alban Gaignard, Khalid Belhajjame, Hala Skaf-Molli (2017):
+**SHARP: Harmonizing and Bridging Cross-Workflow Provenance**.
+At: ESWC 2017: The Semantic Web: ESWC 2017 Satellite Events pp 219-234, 
+LNCS **10577**.
+[https://doi.org/10.1007/978-3-319-70407-4_35](https://doi.org/10.1007/978-3-319-70407-4_35)
+[[preprint]](https://hal.archives-ouvertes.fr/hal-01768385)
+[[pdf]](https://hal.archives-ouvertes.fr/hal-01768385/document)
 
 Marek Kasztelnik, Ernesto Coto, Marian Bubak, Maciej Malawski, Piotr Nowakowski, Juan Arenas, Alfredo Saglimbeni, Debora Testi, Alejandro F. Frangi (2017):
 **Support for Taverna workflows in the VPH-Share cloud platform**.
