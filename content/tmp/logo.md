@@ -54,7 +54,7 @@ Apache Taverna Server <a class="alert-link" href="https://taverna.incubator.apac
 
 <div class="jumbotron">
   <h1>
-  <a href="/img/taverna-logo-256x256.png"><img class="hidden-xs hidden-sm" src="img/apache-taverna-logo.svg" alt="" title="Apache Taverna (incubating) logo"></a>
+  <img class="hidden-xs hidden-sm" src="/img/taverna-logo-256x256.png" alt="" title="Apache Taverna (incubating) logo">
   Taverna Workflow System</h1>
     <p class="lead">
 Powerful, scalable, open source & domain independent tools for
