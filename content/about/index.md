@@ -31,7 +31,7 @@ PPMC members) are:
 <thead>
 </thead>
 <tbody>
-  <tr><td>andy</td><td>Andy Seaborne</td> <td>Champion/Mentor</td></tr>
+  <tr><td>andy</td><td>Andy Seaborne</td> <td>Champion/Emeritus Mentor</td></tr>
   <tr><td>mattmann</td><td>Chris Mattmann</td> <td>Emeritus mentor</td></tr>
   <tr><td>djd</td><td>Dan Debrunner</td> <td>Emeritus Mentor</td></tr>
   <tr><td>mpierce</td><td>Marlon Pierce</td> <td>Emeritus Mentor</td></tr>
