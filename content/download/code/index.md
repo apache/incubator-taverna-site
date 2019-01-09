@@ -31,14 +31,14 @@ To check out Apache Taverna from GitHub, select `[GitHub]` below, e.g.:
 [GitBox](https://gitbox.apache.org/) may push directly to GitHub, although
 the convention is to raise *pull requests* to discuss changes.
 
-If you are unable to use GitHub or want to use ASF's git server, select `[Apache GitBox]` below, e.g.:
+If you are unable to use GitHub or prefer using ASF's git server, select `[Apache GitBox]` below, e.g.:
 
     git clone https://gitbox.apache.org/repos/asf/incubator-taverna-****.git 
 
 **Tip**: Taverna committers can always push to GitBox using ASF credentials.
 Changes are synchronized both ways.
 
-You can also `[Browse]` the code through GitHub.
+You can also `[Browse]` the code through GitHub or Apache GitBox below.
 Using GitHub you are free to *fork* the projects and raise *pull requests* to
 [contribute to Apache Taverna](#contribute-to-apache-taverna).
 
