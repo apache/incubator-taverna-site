@@ -31,7 +31,7 @@ To check out Apache Taverna from GitHub, select `[GitHub]` below, e.g.:
 [GitBox](https://gitbox.apache.org/) may push directly to GitHub, although
 the convention is to raise *pull requests* to discuss changes.
 
-If you are unable to use GitHub or want to use ASF's git server, select `[Apache]` below, e.g.:
+If you are unable to use GitHub or want to use ASF's git server, select `[Apache GitBox]` below, e.g.:
 
     git clone https://gitbox.apache.org/repos/asf/incubator-taverna-****.git 
 
@@ -70,7 +70,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-mobile">Browse</a></td>
+  <td><a class="gitbrowse btn btn-primary" href="https://github.com/apache/incubator-taverna-mobile">Browse</a></td>
   <td>Android app for running Taverna workflows remotely</td>
 </tr>
 
@@ -86,7 +86,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-maven-parent">Browse</a></td>
+  <td><a class="gitbrowse btn btn-primary" href="https://github.com/apache/incubator-taverna-maven-parent">Browse</a></td>
   <td>Common Maven parent for the below</td>
 </tr>
 <tr>
@@ -100,7 +100,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-language">Browse</a></td>
+  <td><a class="gitbrowse btn btn-primary" href="https://github.com/apache/incubator-taverna-language">Browse</a></td>
   <td>API for workflow definitions (SCUFL2) and workflow inputs/outputs (DataBundle)</td>
 </tr>
 <tr>
@@ -114,7 +114,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-osgi">Browse</a></td>
+  <td><a class="gitbrowse btn btn-primary" href="https://github.com/apache/incubator-taverna-osgi">Browse</a></td>
   <td>OSGi-based plugin system</td>
 </tr>
 <tr>
@@ -128,7 +128,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-engine">Browse</a>
+  <td><a class="gitbrowse btn btn-primary" href="https://github.com/apache/incubator-taverna-engine">Browse</a>
   <td>Taverna workflow engine</tr>
 <tr>
   <td>
@@ -142,7 +142,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-common-activities">Browse</a></td>
+  <td><a class="gitbrowse btn btn-primary" href="https://github.com/apache/incubator-taverna-common-activities">Browse</a></td>
   <td>Common activity implementation for engine (e.g. WSDL, REST, Tool, Interaction)</td>
 </tr>
 <tr>
@@ -156,7 +156,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
- <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-commandline">Browse</a></td>
+ <td><a class="gitbrowse btn btn-primary" href="https://github.com/apache/incubator-taverna-commandline">Browse</a></td>
   <td>Command line for running Taverna workflows</td>
 </tr>
 <tr>
@@ -170,7 +170,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-server">Browse</a></td>
+  <td><a class="gitbrowse btn btn-primary" href="https://github.com/apache/incubator-taverna-server">Browse</a></td>
   <td>A REST and WSDL service for running Taverna workflows</td>
 </tr>
 <tr>
@@ -185,7 +185,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench">Browse</a></td>
+  <td><a class="gitbrowse btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench">Browse</a></td>
   <td>Graphical workbench for editing and running Taverna workflows</td>
 </tr>
 <tr>
@@ -200,7 +200,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench-common-activities">Browse</a></td>
+  <td><a class="gitbrowse btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench-common-activities">Browse</a></td>
   <td>Common activities UI (discovery+configuration for Workbench</td>
 </tr>
 <tr>
@@ -215,7 +215,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench-product">Browse</a></td>
+  <td><a class="gitbrowse btn btn-primary" href="https://github.com/apache/incubator-taverna-workbench-product">Browse</a></td>
   <td>Distribution of Taverna Workbench</td>
 </tr>
 <tr>
@@ -229,7 +229,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-plugin-gis">Browse</a></td>
+  <td><a class="gitbrowse btn btn-primary" href="https://github.com/apache/incubator-taverna-plugin-gis">Browse</a></td>
   <td>Plugin for Geographical Information System (GIS) and OGC web services</td>
 </tr>
 
@@ -243,7 +243,7 @@ The <strong>Apache Taverna</strong> source code is organized into multiple [git]
            value="" readonly="readonly"
            onClick="this.setSelectionRange(0, this.value.length)">
   </td>
-  <td><a class="btn btn-primary" href="https://github.com/apache/incubator-taverna-databundle-viewer">Browse</a></td>
+  <td><a class="gitbrowse btn btn-primary" href="https://github.com/apache/incubator-taverna-databundle-viewer">Browse</a></td>
   <td>Web-based Data Bundle viewer</td>
 </tr>
 </table>
@@ -351,15 +351,22 @@ Some plugins that were previously part of Taverna 2 have migrated to taverna-ext
 <script>
 function check() {
    var x = document.getElementsByClassName("gitlink");
+   var y = document.getElementsByClassName("gitbrowse");
    var i;
    if ( document.getElementById("picker").value == "Apache"){
       for (i = 0; i < x.length; i++) {
          x[i].value = "https://gitbox.apache.org/repos/asf/" +x[i].id + ".git";
       }
+      for (i = 0; i < y.length; i++) {
+         y[i].value = "https://gitbox.apache.org/repos/asf/?p=" +x[i].id + ";a=tree";
+      }
    }
    if ( document.getElementById("picker").value == "GitHub"){
       for (i = 0; i < x.length; i++) {
         x[i].value = "https://github.com/apache/" +x[i].id + ".git";
+      }
+      for (i = 0; i < y.length; i++) {
+        y[i].value = "https://github.com/apache/" +x[i].id;
       }
    }
 }
