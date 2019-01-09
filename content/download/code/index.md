@@ -40,7 +40,9 @@ If you are unable to use GitHub or prefer using ASF's git server, select `[Apach
 **Tip**: Taverna committers can always push to GitBox using ASF credentials.
 Changes are synchronized both ways.
 
-If you want to access a read-only mirror using the `git://` protocol, then use `[Apache Git]`.
+If you want to access a read-only mirror using the `git://` protocol, then use
+`[Apache Git]`. This is typically the fastest way to check out, but require
+firewall access to port 9418.
 
 You can also `[Browse]` the code through GitHub or Apache GitBox below.
 Using GitHub you are free to *fork* the projects and raise *pull requests* to
