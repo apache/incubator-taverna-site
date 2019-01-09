@@ -44,7 +44,8 @@ If you want to access a read-only mirror using the `git://` protocol, then use `
 
 You can also `[Browse]` the code through GitHub or Apache GitBox below.
 Using GitHub you are free to *fork* the projects and raise *pull requests* to
-[contribute to Apache Taverna](#contribute-to-apache-taverna).
+[contribute to Apache Taverna](#contribute-to-apache-taverna), in which 
+case you should push changes to your fork instead of the below repository.
 
 
 ## Source code repositories
