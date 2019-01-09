@@ -31,12 +31,16 @@ To check out Apache Taverna from GitHub, select `[GitHub]` below, e.g.:
 [GitBox](https://gitbox.apache.org/) may push directly to GitHub, although
 the convention is to raise *pull requests* to discuss changes.
 
+If you have a GitHub account with [SSH keys](https://help.github.com/articles/generating-a-gpg-key/) configured, then use `[GitHub SSH]` instead.
+
 If you are unable to use GitHub or prefer using ASF's git server, select `[Apache GitBox]` below, e.g.:
 
     git clone https://gitbox.apache.org/repos/asf/incubator-taverna-****.git 
 
 **Tip**: Taverna committers can always push to GitBox using ASF credentials.
 Changes are synchronized both ways.
+
+If you want to access a read-only mirror using the `git://` protocol, then use `[Apache Git]`.
 
 You can also `[Browse]` the code through GitHub or Apache GitBox below.
 Using GitHub you are free to *fork* the projects and raise *pull requests* to
@@ -48,7 +52,9 @@ Using GitHub you are free to *fork* the projects and raise *pull requests* to
 
 <select id="picker" onChange='check()'>
   <option value="GitHub">GitHub</option>
-  <option value="Apache">Apache GitBox</option>
+  <option value="GitHubSSH">GitHub SSH</option>
+  <option value="ApacheGitBox">Apache GitBox</option>
+  <option value="ApacheGit">Apache Git</option>
 </select>
 Click on the textbox and copy the value.
 
@@ -353,7 +359,15 @@ function check() {
    var x = document.getElementsByClassName("gitlink");
    var y = document.getElementsByClassName("gitbrowse");
    var i;
-   if ( document.getElementById("picker").value == "Apache"){
+   if ( document.getElementById("picker").value == "ApacheGit"){
+      for (i = 0; i < x.length; i++) {
+         x[i].value = "git://git.apache.org/" +x[i].id + ".git";
+      }
+      for (i = 0; i < y.length; i++) {
+         y[i].href = "https://gitbox.apache.org/repos/asf/?p=" +x[i].id + ".git;a=tree";
+      }
+   }
+   if ( document.getElementById("picker").value == "ApacheGitBox"){
       for (i = 0; i < x.length; i++) {
          x[i].value = "https://gitbox.apache.org/repos/asf/" +x[i].id + ".git";
       }
@@ -364,6 +378,14 @@ function check() {
    if ( document.getElementById("picker").value == "GitHub"){
       for (i = 0; i < x.length; i++) {
         x[i].value = "https://github.com/apache/" +x[i].id + ".git";
+      }
+      for (i = 0; i < y.length; i++) {
+        y[i].href = "https://github.com/apache/" +x[i].id;
+      }
+   }
+   if ( document.getElementById("picker").value == "GitHubSSH"){
+      for (i = 0; i < x.length; i++) {
+        x[i].value = "git@github.com:apache/" +x[i].id + ".git";
       }
       for (i = 0; i < y.length; i++) {
         y[i].href = "https://github.com/apache/" +x[i].id;
