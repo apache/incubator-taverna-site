@@ -358,7 +358,7 @@ function check() {
          x[i].value = "https://gitbox.apache.org/repos/asf/" +x[i].id + ".git";
       }
       for (i = 0; i < y.length; i++) {
-         y[i].value = "https://gitbox.apache.org/repos/asf/?p=" +x[i].id + ";a=tree";
+         y[i].href = "https://gitbox.apache.org/repos/asf/?p=" +x[i].id + ";a=tree";
       }
    }
    if ( document.getElementById("picker").value == "GitHub"){
@@ -366,7 +366,7 @@ function check() {
         x[i].value = "https://github.com/apache/" +x[i].id + ".git";
       }
       for (i = 0; i < y.length; i++) {
-        y[i].value = "https://github.com/apache/" +x[i].id;
+        y[i].href = "https://github.com/apache/" +x[i].id;
       }
    }
 }
