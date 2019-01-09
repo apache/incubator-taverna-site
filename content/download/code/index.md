@@ -23,19 +23,22 @@ Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org
 
 ### Checking out Apache Taverna
 
-If you are a committer on Apache Taverna, or have firewall restrictions, select `[Apache Committer]` below, e.g.:
-
-    git clone https://git-wip-us.apache.org/repos/asf/incubator-taverna-*****.git
-
-To check out Apache Taverna anonymously, select `[Apache git]` below, e.g.:
-
-    git clone git://git.apache.org/incubator-taverna-****.git
-
-To check out Apache Taverna on github, select `[Github]` below, e.g.:
+To check out Apache Taverna from GitHub, select `[GitHub]` below, e.g.:
 
     git clone https://github.com/apache/incubator-taverna-****.git
 
-You can also `[Browse]` the code through the GitHub mirrors.
+**Tip**: Taverna [committers](/about) who have linked their ASF accounts on
+[GitBox](https://gitbox.apache.org/) may push directly to GitHub, although
+the convention is to raise *pull requests* to discuss changes.
+
+If you are unable to use GitHub or want to use ASF's git server, select `[Apache]` below, e.g.:
+
+    git clone https://gitbox.apache.org/repos/asf/incubator-taverna-****.git 
+
+**Tip**: Taverna committers can always push to GitBox using ASF credentials.
+Changes are synchronized both ways.
+
+You can also `[Browse]` the code through GitHub.
 Using GitHub you are free to *fork* the projects and raise *pull requests* to
 [contribute to Apache Taverna](#contribute-to-apache-taverna).
 
@@ -44,9 +47,8 @@ Using GitHub you are free to *fork* the projects and raise *pull requests* to
 
 
 <select id="picker" onChange='check()'>
-  <option value="Apache Committer">Apache Committer</option>
-  <option value="Apache git">Apache git</option>
-  <option value="Github">Github</option>
+  <option value="GitHub">GitHub</option>
+  <option value="Apache">Apache GitBox</option>
 </select>
 Click on the textbox and copy the value.
 
@@ -339,7 +341,7 @@ The separate GitHub group [taverna-extras](https://github.com/taverna-extras) ho
 Unlike Apache Taverna, the taverna-extras include plugins covered by the licenses [LGPL](https://www.gnu.org/licenses/lgpl.html) and [GPL](https://www.gnu.org/licenses/gpl.html).
 Note that the taverna-extras are not affiliated with or released by Apache Taverna, although you may recognize many of the same committers.
 
-Some plugins that were previously part of Taverna 2 have or migratede to taverna-extras due to [licensing incompatibility](http://dev.mygrid.org.uk/wiki/display/developer/Third-party+licenses) or lack of maintenance. This includes:
+Some plugins that were previously part of Taverna 2 have migrated to taverna-extras due to [licensing incompatibility](http://dev.mygrid.org.uk/wiki/display/developer/Third-party+licenses) or lack of maintenance. This includes:
 
 * [RShell activity](https://github.com/taverna-extras/taverna-rshell-activity) and [UI](https://github.com/taverna-extras/taverna-rshell-activity-ui)
 * [Table activity](https://github.com/taverna-extras/table-activity)
@@ -350,18 +352,12 @@ Some plugins that were previously part of Taverna 2 have or migratede to taverna
 function check() {
    var x = document.getElementsByClassName("gitlink");
    var i;
-   if ( document.getElementById("picker").value == "Apache Committer"){
+   if ( document.getElementById("picker").value == "Apache"){
       for (i = 0; i < x.length; i++) {
-         x[i].value = "https://git-wip-us.apache.org/repos/asf/" +x[i].id + ".git";
+         x[i].value = "https://gitbox.apache.org/repos/asf/" +x[i].id + ".git";
       }
    }
-   if ( document.getElementById("picker").value == "Apache git"){
-      for (i = 0; i < x.length; i++) {
-         x[i].value = "git://git.apache.org/" +x[i].id + ".git";
-      }
-
-   }
-   if ( document.getElementById("picker").value == "Github"){
+   if ( document.getElementById("picker").value == "GitHub"){
       for (i = 0; i < x.length; i++) {
         x[i].value = "https://github.com/apache/" +x[i].id + ".git";
       }
