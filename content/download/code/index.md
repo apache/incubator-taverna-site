@@ -16,14 +16,14 @@ Notice:    Licensed to the Apache Software Foundation (ASF) under one
            specific language governing permissions and limitations
            under the License.
 
-Apache Taverna's source code is hosted at [git.apache.org](http://git.apache.org/), with read-only mirroring to
-[GitHub](https://github.com/apache/?query=taverna-).
+Apache Taverna's source code is hosted at [gitbox.apache.org](https://gitbox.apache.org/), with two-way mirroring with
+[GitHub](https://github.com/apache?utf8=%E2%9C%93&q=taverna).
 
 [TOC]
 
 ### Checking out Apache Taverna
 
-To check out Apache Taverna from GitHub, select `[GitHub]` below, e.g.:
+To check out Apache Taverna from GitHub, select `[GitHub HTTPS]` below, e.g.:
 
     git clone https://github.com/apache/incubator-taverna-****.git
 
@@ -31,20 +31,25 @@ To check out Apache Taverna from GitHub, select `[GitHub]` below, e.g.:
 [GitBox](https://gitbox.apache.org/) may push directly to GitHub, although
 the convention is to raise *pull requests* to discuss changes.
 
-If you have a GitHub account with [SSH keys](https://help.github.com/articles/generating-a-gpg-key/) configured, then use `[GitHub SSH]` instead.
+If you have a GitHub account with [SSH
+keys](https://help.github.com/articles/generating-a-gpg-key/) configured, then
+use `[GitHub SSH]` instead.
 
-If you are unable to use GitHub or prefer using ASF's git server, select `[Apache GitBox]` below, e.g.:
+If you are unable to use GitHub or prefer using ASF's git server, select
+`[Apache GitBox]` below, e.g.:
 
     git clone https://gitbox.apache.org/repos/asf/incubator-taverna-****.git 
 
 **Tip**: Taverna committers can always push to GitBox using ASF credentials.
 Changes are synchronized both ways.
 
-If you want to access a read-only mirror using the `git://` protocol, then use
-`[Apache Git]`. This is typically the fastest way to check out, but require
-firewall access to port 9418.
+If you want to access using the 
+[`git://` protocol](https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols#_the_git_protocol),
+then use `[GitHub git]`. This is typically the fastest way to check out, but
+require firewall access to port 9418 and is **not secure**; verify the 
+latest commit ID against the _Browse_ button.
 
-You can also `[Browse]` the code through GitHub or Apache GitBox below.
+You can `[Browse]` the code through GitHub or Apache GitBox below.
 Using GitHub you are free to *fork* the projects and raise *pull requests* to
 [contribute to Apache Taverna](#contribute-to-apache-taverna), in which 
 case you should push changes to your fork instead of the below repository.
@@ -54,10 +59,10 @@ case you should push changes to your fork instead of the below repository.
 
 
 <select id="picker" onChange='check()'>
-  <option value="GitHub">GitHub</option>
+  <option value="GitHub">GitHub HTTPS</option>
   <option value="GitHubSSH">GitHub SSH</option>
+  <option value="GitHubGit">GitHub git</option>
   <option value="ApacheGitBox">Apache GitBox</option>
-  <option value="ApacheGit">Apache Git</option>
 </select>
 Click on the textbox and copy the value.
 
@@ -362,14 +367,6 @@ function check() {
    var x = document.getElementsByClassName("gitlink");
    var y = document.getElementsByClassName("gitbrowse");
    var i;
-   if ( document.getElementById("picker").value == "ApacheGit"){
-      for (i = 0; i < x.length; i++) {
-         x[i].value = "git://git.apache.org/" +x[i].id + ".git";
-      }
-      for (i = 0; i < y.length; i++) {
-         y[i].href = "https://gitbox.apache.org/repos/asf/?p=" +x[i].id + ".git;a=tree";
-      }
-   }
    if ( document.getElementById("picker").value == "ApacheGitBox"){
       for (i = 0; i < x.length; i++) {
          x[i].value = "https://gitbox.apache.org/repos/asf/" +x[i].id + ".git";
@@ -389,6 +386,14 @@ function check() {
    if ( document.getElementById("picker").value == "GitHubSSH"){
       for (i = 0; i < x.length; i++) {
         x[i].value = "git@github.com:apache/" +x[i].id + ".git";
+      }
+      for (i = 0; i < y.length; i++) {
+        y[i].href = "https://github.com/apache/" +x[i].id;
+      }
+   }
+   if ( document.getElementById("picker").value == "GitHubGit"){
+      for (i = 0; i < x.length; i++) {
+        x[i].value = "git://github.com/apache/" +x[i].id + ".git";
       }
       for (i = 0; i < y.length; i++) {
         y[i].href = "https://github.com/apache/" +x[i].id;
