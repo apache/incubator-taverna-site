@@ -49,7 +49,7 @@ Marek Kasztelnik, Ernesto Coto, Marian Bubak, Maciej Malawski, Piotr Nowakowski,
 In: _Computer Methods and Programs in Biomedicine_ **146** July 2017, pages 37–46.
 [https://doi.org/10.1016/j.cmpb.2017.05.006](https://doi.org/10.1016/j.cmpb.2017.05.006)
 [[researchgate]](https://www.researchgate.net/publication/317142153_Support_for_Taverna_Workflows_in_the_VPH-Share_Cloud_Platform)
-[[preprint]](http://www.icsr.agh.edu.pl/~malawski/VPH_Share_Taverna_CMPB_preprint.pdf)
+[[preprint]](http://www.icsr.agh.edu.pl/~malawski/VPH_Share_Taverna_CMPB_preprint.pdf) [[eprints]](http://eprints.whiterose.ac.uk/135024/)
 
 Pinar Alper, Khalid Belhajjame, Carole A. Goble (2017):
 **Static analysis of Taverna workflows to predict provenance patterns**.
@@ -88,7 +88,7 @@ In: _CEUR Workshop Proceedings_ **[1670](http://ceur-ws.org/Vol-1670/)**:50 pp 2
 [[pdf]](http://ceur-ws.org/Vol-1670/paper-50.pdf)
 
 Enrico Daga, Mathieu d’Aquin, Aldo Gangemi, Enrico Motta (2016):
-**An incremental learning method to support theannotation of workflows with data-to-data relations**
+**An incremental learning method to support the annotation of workflows with data-to-data relations**
 At: 20th International Conference on Knowledge Engineering and Knowledge Management ([EKAW 2016](http://ekaw2016.cs.unibo.it/))
 Bologna, Italy.
 In: _Lecture Notes in Computer Science_ **10024** pp 129-144.
